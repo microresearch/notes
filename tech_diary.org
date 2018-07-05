@@ -76,5 +76,14 @@ settings for minicom from command line
 
 * 5/7
 
-- these notes, also messen etc. under git
+- these notes, also messene etc. under git DONE:
+
+new repo in git
+
+: git init
+: git add whatever
+: git commit -m "xxx"
+: git remote add origin https://github.com/microresearch/notes.git
+: git push -u origin master
+
 - re-check AD5933 also for potential eurorack module
