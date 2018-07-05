@@ -1,0 +1,80 @@
+* 30/6
+
+** steghide: 
+
+: steghide embed -cf testfan.wav -ef ~/Downloads/latoysondorovlaf00tris_0093.jpg
+
+: steghide extract -sf testfan.wav
+
+Spectrograms encoder: https://github.com/solusipse/spectrology
+
+Lots: https://github.com/DominicBreuker/stego-toolkit
+
+* 1/7
+
+** no titlebars/.deco in awesome:
+
+    -- Add titlebars to normal clients and dialogs
+    { rule_any = {type = { "normal", "dialog" }
+      }, properties = { titlebars_enabled = false }
+    },
+
+** how z80 actually starts up
+
+When the CPU starts running (which basically happens as soon as it
+receives power and is reset with the RESET pin), it begins to pull
+instructions from memory and execute them. Where it starts in memory
+depends on the individual CPU, but in the case of the Z80, it simply
+begins at memory address 0, instead of using a reset vector like many
+other CPUs do. This means that any computer using the Z80 *must* have
+a ROM chip at memory address 0 which gives the initial start-up
+instructions to the Z80.
+
+from: http://lateblt.tripod.com/z80proj1.htm
+
+https://maker.pro/pic/projects/z80-computer-project-part-1-the-cpu
+
+http://bedroomcoders.co.uk/using-an-arduino-to-run-a-z80/
+
+useful: http://baltazarstudios.com/arduino-zilog-z80/
+
+http://labs.domipheus.com/blog/teensy-z80-part-1-intro-memory-serial-io-and-display/
+
+test circuit: http://www.z80.info/z80test0.htm
+
+https://github.com/inxonic/z80fun
+
+https://github.com/Apress/junk-box-arduino/blob/master/9781484214268/Z80_Explorer_v2.1/Z80_Explorer_v2.1.ino
+
+** or 6502 or...
+
+see emulation: http://obsolescence.wixsite.com/obsolescence/kim-uno-details
+
+* 2/7
+
+** Kicad BOM:
+
+Following: https://github.com/SchrodingersGat/KiBoM
+
+** start on parts lists and spreadsheet
+
+Bulk
+
+Detektors
+
+Darkint: /root/rsync2016/darkint/hardware/draft/partslist.org
+
+ERDs:
+
+Misc parts/projects:
+
+* 4/7
+
+settings for minicom from command line
+
+: minicom -b 57600 -D /dev/ttyACM0
+
+* 5/7
+
+- these notes, also messen etc. under git
+- re-check AD5933 also for potential eurorack module
