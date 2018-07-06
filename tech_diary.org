@@ -95,6 +95,6 @@ https://raspberrypi.stackexchange.com/questions/38721/how-do-i-setup-the-c-berry
 
 and ignore row-defining changes...
 
-for console - compile /C-Berry/SW/fb2cberry, run in background...
+for console - compile /C-Berry/SW/fb2cberry, run in background...1
 
 : echo -ne "help" | sudo tee /dev/tty1
