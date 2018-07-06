@@ -87,3 +87,14 @@ new repo in git
 : git push -u origin master
 
 - re-check AD5933 also for potential eurorack module
+* 6/7
+
+** admatech TFT display on pi:
+
+https://raspberrypi.stackexchange.com/questions/38721/how-do-i-setup-the-c-berry-tft-screen-with-my-pi-2
+
+and ignore row-defining changes...
+
+for console - compile /C-Berry/SW/fb2cberry, run in background...
+
+: echo -ne "help" | sudo tee /dev/tty1
