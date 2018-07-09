@@ -98,3 +98,65 @@ and ignore row-defining changes...
 for console - compile /C-Berry/SW/fb2cberry, run in background...1
 
 : echo -ne "help" | sudo tee /dev/tty1
+
+* 7/7
+
+** splitscan and mencoder cut/edit
+
+cutting using mencoder
+
+: mencoder -ss 00:27:31 -endpos 00:00:37 -oac pcm -ovc copy Downloads/Princess.mp4 -o revolving.mp4
+
+starts at 27.31 and lasts for 37 seconds
+
+splitscan.py new code:
+
+#+BEGIN_SRC python
+
+# horizontal
+
+# for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+#     if currentX < (clip.size[0] - slitwidth):
+#         img[:,currentX:currentX + slitwidth,:] = i[:,currentX:currentX + slitwidth,:]
+#     currentX += slitwidth
+
+# horizontal/backwards
+count=0
+currentX = clip.size[1]
+
+for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+    print count
+    if currentX < (clip.size[0] - slitwidth):
+        img[:,currentX:currentX + slitwidth,:] = i[:,currentX:currentX + slitwidth,:]
+    currentX -= slitwidth
+    count +=1
+
+###vertical
+
+# for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+#     if currentX < (clip.size[1] - slitwidth):
+#                 img[currentX:currentX + slitwidth,:] = i[currentX:currentX + slitwidth,:]
+#     currentX += slitwidth
+
+#+END_SRC
+
+** video to images
+
+: ffmpeg -i input.mov -r 1 output_%04d.png
+
+with -r 1 as 1 frame every second
+
+** images to video
+
+: convert output_00* test.mp4
+
+** others
+
+: ffmpeg -i source.mp4 -filter:v minterpolate -r 120 result.mp4
+
+
+** kill cursor to end of line Ctrl - k
+
+: bindkey
+
+shows key bindings
