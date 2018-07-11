@@ -160,3 +160,19 @@ with -r 1 as 1 frame every second
 : bindkey
 
 shows key bindings
+
+* 11/7
+
+working with imagemagick:
+
+http://www.imagemagick.org/Usage/layers/
+
+http://www.imagemagick.org/Usage/transform/#edge
+
+http://www.imagemagick.org/Usage/fonts/
+
+* 12/7
+
+awesome
+
+mod-t = keep window always on top

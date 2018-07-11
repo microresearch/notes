@@ -1,0 +1,461 @@
+* Bulk/misc
+
+SMD
+
+bulk:
+
+10R
+
+330R
+
+1K
+
+2K2
+
+4K7
+
+10K x2
+
+15K
+
+22K
+
+100K
+
+1M
+
+
+22p (low)
+
+100n
+
+1n
+
+10n
+
+1u
+
+10u (6V)
+
+
+misc/many:
+
+- 47R (1000)
+
+- 33K (1000)
+
+
+misc/few
+
+100R (100)
+
+470R (100)
+
+39K (100)
+
+150K (100)
+
+
+18P (20)
+
+47u (30)
+
+TL071(few)
+
+TL074 (few)
+
+
+* Detektors
+
+    * 1nF x1 (0805) HAVE BULK 
+    * 680pF x2 (0805)HAVE
+    * 100nF x6 (0805) HAVE BULK 
+    * 47nF x1 (0805) HAVE 
+    * 1uF TANTAL x4 HAVE BULK 
+    * 47uF TANTAL x1 (segor)HAVE 10 
+    * LED 0805 xXXX
+    * AD8313 x1 (ebay) 6 LEFT
+
+    * OP27 x1 (SMD) ORD!Xhave
+    * LM386 x1 (SMD) ORD!X
+    * LM358 x1 (SMD) HAVE BULK 
+
+    * 10R x3 HAVE BULK 
+    * 47R x1 HAVE lots
+    * 100R x1 HAVE lots
+    * 330R x1 HAVE BULK 
+    * 1K x1 HAVE BULK 
+    * 4.7k x1 HAVE BULK 
+    * 10k x4 HAVE BULK 
+    * 15k x1 HAVE BULK 
+    * 22k x1 HAVE BULK 
+    * 47k x1 ORD!X HAVE <MANY!!!
+    * 100K x1 HAVE BULK 
+
+    * 100k POTI x1 (segor=PT10MV-100k)
+    * 10k POTI x1 (segor=PT10MV-10k)
+    * steckachse (5116 sw) x2 (segor) MH-20
+    * inductor (L-11P 100M) x1 ORD!X - mouser? but more expensive 434-03-104J
+    * klinkenbuchse 3,5mm (EBS 35) x2 ORD!XX
+    * battery pack (3xAA = HALTER 3XAAA) x1 ORD!
+    * switches (ALPS ebay) x2 HAVE BULK 
+
+
+* Darkint: 
+
+** Resistors
+
+330Rx1bulk
+1Kx3bulk
+4.7Kx2bulk
+5.6Kx4->have103
+10K xmanybulk
+33Kx1->have76
+100K x1-bulk
+200K x2->have50
+390K x1->have50
+470Kx4-have100
+1Mx1bulk
+10Mx2(top)->have50
+
+** Caps
+
+18pF/22pF x2bulk
+220pFx1->have117
+1nFx3bulk
+10nF x2bulk
+100nF xMANY bulk
+470nF x1->(SEGOR)have40
+1uFx2bulk
+2.2uFx2 have50
+4.7uFx1 have42
+10uFx7bulk
+
+** Active
+
+TOP:
+AD620ARZ x1 -topSEGOR - have 5 (ordered 5 more)=10
+OPA337UAG4  x3 -top (mouser) have 4 ordered more->34
+
+LEDx1 have11ordered30=30+
+
+DIODES BAS40-04, 215 (mouser 771-BAS40-04-T/R) x2 have8 or so???-ORDERED 100
+
+HCT40106x1 (have hcf)-works-have27
+CD74HCT4053M96x1 have28
+HCT4066x3 have119
+LM13700MX/NOPB x1(mouser/reichelt) have21
+LM1117-3.3x1 926-LM1117DT-3.3NOPB(mouser) have17
+LM1117-5Vx1  DT-5(mouser) have12+
+LM358x1 (reichelt) bulk
+MAX7400CSAx1 (mouser) have4 ORDER
+STM32F405RGT6 x1 (mouser) have1+ordered10=11
+8 MHz XTAL (SMD HC49=)x1 (reichelt) have16
+WM8731 audio codec =8
+
+** other
+
+POTIS: RK09K1130A5R XXXORDER
+inductorx1: 81-BLM18BD252SN1D (mouser) have118
+JACKSx2 (Banzai) XXX
+switchx1 (ebay supplier) XXX
+2.1mm DC socketx1 (SEGOR) -have12
+battery holder 9vx1 534-1294 (mouser) have20odd
+
+TOP:
+
+connectorx2 (REICHELT: BL 2X25G8 2,54) x22 =18
+connectorx1 (REICHELT: SL 2X25G 2,54) x10
+(offsets DA 20mm have72-60, screws-need shorter6mm=SZK M3X6-200, bolts?have36=SK-E M3-100)M3-REICHELT
+
+.................
+
+   6 926-LM1117DT-3.3NOPB          03/11/14        12      1.460         17.52
+     LM1117DT-3.3/NOPB                                                        
+     800MA LDO LINEAR REG                                                     
+     RoHS: Compliant                                                          
+                                                                              
+   7 926-LM1117DT50NOPB            03/11/14        12      1.460         17.52
+     LM1117DT-5.0/NOPB                                                        
+     800mA LDO Linear Reg                                                     
+     RoHS: Compliant                                                          
+                                                                              
+   8 511-STM32F405RGT6             03/11/14         2     15.840         31.68
+     STM32F405RGT6                                                            
+     ARM M4 1024 FLASH                                                        
+     RoHS: Compliant                                                          
+                                                                              
+   9 926-LM13700MX/NOPB            03/11/14        12      0.991         11.89
+     LM13700MX/NOPB                                                           
+     Dual OP Amp                                                              
+     RoHS: Compliant                                                          
+                                                                              
+  10 238-WM8731SEDS/V              03/11/14        12      2.440         29.28
+     WM8731SEDS/V                                                             
+     Stereo Codec with                                                        
+     RoHS: Compliant                                                          
+
+
+* ERDs:
+
+** ERD/ERD
+
+- reverse protection diodes x2: http://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F/?qs=%2fha2pyFaduiq%2fWmOJ%252bjo4RtXnFvMe1hWUrIx63q7FYhG1ATmDTgvGQ%3d%3d
+
+BAT42 should be fine!
+
+we should have 10 somewhere? TEST!
+
+- ad620(have some), op27(check=have from det), h11f1VM we have 10, 10pin connsREICH
+
+** ERD/GAMMA
+
+| 1 uF         C4        ;             
+| 1.5K         R22       ; x -reichX                        
+| 100K         R13       ;             
+| 100K         R19       ;             
+| 100K         R20       ;             
+| 100N         C1        ;             
+| 100N         C5        ;             
+| 100N         C6        ;             
+| 100N         C9        ;             
+| 100N         C13       ;             
+| 100N         C19       ;             
+| 100N         C20       ;             
+| 10K          R1        ;             
+| 10K          R8        ;             
+| 10K          R9        ;             
+| 10K          R21       ;             
+| 10N          C12       ;             
+| 10nF         C21       ;             
+| 10nF 1000V   C18       ; x-> mouser   S103M47Z5UN63J7R X  X       
+| 10R          R16       ;             
+| 10uF         C14       ; x             
+| 121K         R10       ; x - reichX           
+| 16 MHz       X1        ; x -reichX            
+| 1K           R2        ;             
+| 1K           R3        ;             
+| 1K           R4        ;             
+| 1K           R11       ;             
+| 1K           R14       ;             
+| 1K           R15       ;             
+| 1K           R23       ;             
+| 1K           R24       ;             
+| 1N4148       D11       ; x - thru hole x -reich                                   X
+| 1N4937       D10       ; x - thru hole x -reich                                   X      
+| 1N914        D9        ; x - thru hole x -reichX                   
+| 1nF          C17       ;             
+| 1uF          C15       ;             
+| 22 pF        C2        ;             
+| 22 pF        C3        ;             
+| 220K         R12       ; x -reich X                       
+| 2n3904-smd   Q1        ; x- MMBT3904Xsegor            
+| 2n3904-smd   Q3        ;             
+| 330pF 1000V  C16       ; x -mouser?    S221K25Y5PN6TK5R X        
+| 33K          R7        ; x -reichX                        
+| 4.7M         R18       ; x -reichX                       
+| 47N          C7        ; x -reichX  X7R-G0805 47N                                  
+| 47N          C8        ;                                    
+| 56K          R5        ; x -reichX                                   
+| 56K          R6        ;             
+| 6.8R         R17       ; x -reichX                                   
+| 74HC14       U8        ; x -reichX                                   
+| 7805         U4        ; x -reichX                                   
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK U1        ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK U2        ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK U5        ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK U6        ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK U9        ;             
+| CONN_1       P3        ; pin X           
+| CONN_1       P4        ; x fuse holder is mouser: 576-01020074Z x2 X
+| CONN_1       P5        ; x as above            
+| CONN_2       P6        ; 2pin X           
+| CONN_5       P1        ; progpins X           
+| CONN_5X2     P2        ; 10 pin x -reichMPE 087-2-010 X                                   
+| CP           C10       ; ? x 10uF           
+| CP           C11       ; ? x 10uF           
+| DIODE        D7        ; ? x protection as on all=  - mouser 1N5819HW-7-F X
+| DIODE        D8        ; ? x           
+| FJN3303F     Q2        ; x 0- mouser X           
+| INDUCTOR     L1        ; x -reich  L-11P 10M X                                  
+| LED          D12       ; x -reich X                                  
+| MEGA48/88/168-AU IC1     x -reich  X                       ; avr-4-TQFP32-08
+| POT          RV2       ;             
+| POT          RV3       ;             
+| SWITCH_INV   SW1       ; x-segor X            
+| SWITCH_INV   SW2       ; x-segor X           
+| TL072        U3        ; x -reich  TL 072 CD SMD X                                  
+| TLC555N      U7        ; x -reich X                                  
+| ZENER        D1        ; x incoming zeners MOUSER = input clamp now bat854sw: BAT854SW115 X
+| ZENER        D2        ; 3 each            
+| ZENER        D3        ;             
+| ZENER        D4        ;             
+| ZENER        D5        ;             
+| ZENER        D6        ;             
+
+
+** ERD/SIR
+
+- protection diodes as ERD/ERD x2
+- thru hole zeners on CVs are schottkey BAT85 x6 
+- mega168, tl072, xtal 16mhz, 5 pin prog headers, 10pin conn, 112k,56kx2,33kx3,47n-have,
+
+potis10kthru hole=RK09L1140A66, knobs from thonk
+
+** ERD/WORM
+
+res now segor
+
+| 100K         R5        ;              
+| 100K         R7        ;             
+| 100K         R8        ;             
+| 100K         R12       ;            
+| 100K         R16       ;             
+| 100N         C1        ;             
+| 100N         C2        ;             
+| 100N         C3        ;             
+| 100N         C4        ;             
+| 100N         C5        ;             
+| 100N         C9        ;             
+| 100N         C10       ;             
+| 100N         C11       ;             
+| 100N         C32       ;             
+| 100N         C33       ;             
+| 100nF        C13       ;             
+| 100nF        C15       ;             
+| 100nF        C16       ;             
+| 100nF        C17       ;             
+| 100nF        C18       ;             
+| 10K          R2        ;             
+| 10u          C14       ; xXsegor            
+| 10u          C20       ;             
+| 10u          C27       ;             
+| 10u          C34       ;             
+| 10uF         C21       ;             
+| 10uF         C22       ;             
+| 10uF         C23       ;             
+| 10uF         C24       ;             
+| 10uF         C25       ;             
+| 10uF         C26       ;             
+| 18pF         C28       ; 22pf            
+| 18pF         C29       ;             
+| 1K           R33       ;             
+| 1N           C6        ;             
+| 1N           C7        ;             
+| 1N           C8        ;             
+| 1N           C12       ;             
+| 1N           C19       ;             
+| 2.2uF        C35       ; x Xsegor           
+| 2.2uF        C36       ;            
+| 200K         R3        ; x - segor X
+| 200K         R4        ;             
+| 200K         R6        ;             
+| 200K         R11       ;             
+| 200K         R13       ;             
+| 220P         C31       ; x - segorX         
+| 22P          C30       ;             
+
+| 27K          R24       ; x - reichX           
+| 330R         R26       ;             
+| 33K          R28       ; x - reichX           
+| 39K          R18       ; x - reichX           
+| 39K          R29       ;             
+| 4.7K         R30       ;             
+| 4.7K         R31       ;             
+| 4.7uF        C38       ; xX segor            
+| 470R         R1        ; x - reichX           
+| 5.6K         R27       ; x - reichX           
+| 5.6K         R32       ;             
+| 5.6K         R34       ;             
+| 66.5K        R9        ; x - mouserX           
+| 66.5K        R10       ;             
+| 66.5K        R14       ;             
+| 66.5K        R15       ;             
+| 66.5K        R17       ;             
+| 8 MHz        X1        ; x - reichX            
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK1     ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK2     ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK3     ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK4     ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK5     ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK6     ;             
+| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK7     ;             
+
+| AUDIOINT_WM8731 audioint1 ; x - mouserX                            |
+
+| CONN_5X2     P1        ; 10 pin connector - reich X                |
+| DIODE        D3        ; x protection as on all=  - 1N5819HW-7-F X |
+| DIODE        D4        ; x                                         |
+| INDUCTOR     L1        ;                                           |
+| LED          D2        ; x - reich X                               |
+
+| LM1117-3.3V  U7        ; ebay                                      |
+| LM1117-5V    U8        ; ebay                                      |
+
+| LME          U5        ; xLME49720 - mouser X                      |
+| MCP          U6        ; xMCP6002 - mouserX                        |
+| MCP          U9        ;                                           |
+| MCP          U10       ;                                           |
+
+| POT          RV1       ;                                           |
+| POT          RV2       ;                                           |
+| POT          RV3       ;                                           |
+| POT          RV4       ;                                           |
+| POT          RV5       ;                                           |
+
+| STM32F405RGT6 U14      ; x LQFP64 - mouser  |X
+| SWD          P45       ; 4 pins - reich X   |
+
+| ZENER        D5        ; LM4040B10   595-LM4040C10IDBZR  - mouser  X
+
+** plus
+
+potis10kthru hole=RK09L1140A66, knobs from thonk(check)
+
+
+* THONK
+
+* Misc parts/projects:
+
+* misc parts mouser
+
+
+1	
+RoHS1
+700-MAX7400CSA
+MAX7400CSA+
+8th-Order Lowpass
+	DEZ 14, 2017
+	10
+	3.12	31.20
+
+2	
+RoHS1
+534-1294
+1294
+Battery HOLDER 9V
+	DEZ 14, 2017
+	5
+	1.84	9.20
+
+3	
+RoHS1
+238-WM8731SEDS/V
+WM8731SEDS/V
+Stereo Codec with
+	DEZ 14, 2017
+	10
+	2.83	28.30
+
+4	
+RoHS1
+511-STM32F405RGT6
+STM32F405RGT6
+ARM M4 1024 FLASH
+	DEZ 14, 2017
+	10
+	8.27	82.70
+
+5	
+RoHS1
+512-H11F1VM
