@@ -176,3 +176,23 @@ http://www.imagemagick.org/Usage/fonts/
 awesome
 
 mod-t = keep window always on top
+
+* 13/7
+
+** teensy
+
+https://www.pjrc.com/teensy/loader_cli.html
+
+code: https://github.com/PaulStoffregen/teensy_loader_cli.git
+
+: ./teensy_loader_cli -mmcu=mk20dx256 -w blink_slow_Teensy32.hex 
+
+for our teensy 3.2 and press reset...
+
+using avr-gcc/example makefile: https://www.pjrc.com/teensy/gcc.html
+
+or we try using ard-make (had to re-install latest: https://github.com/sudar/Arduino-Makefile and latest Arduino
+
+blink teensy example worked but not another serial example
+
+            
