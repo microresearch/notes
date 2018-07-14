@@ -177,6 +177,10 @@ awesome
 
 mod-t = keep window always on top
 
+kicad
+
+- remember after we change cvpcb netlist to generate/save netlist in eeschema
+
 * 13/7
 
 ** teensy
