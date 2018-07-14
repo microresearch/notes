@@ -1,8 +1,6 @@
 * Bulk/misc
 
-SMD
-
-bulk:
+** SMD bulk:
 
 10R
 
@@ -24,7 +22,6 @@ bulk:
 
 1M
 
-
 22p (low)
 
 100n
@@ -37,24 +34,41 @@ bulk:
 
 10u (6V)
 
-
-misc/many:
+** misc/many:
 
 - 47R (1000)
 
 - 33K (1000)
 
 
-misc/few
+** misc/few
+
+6.8R (10)
+
+22R (200)
 
 100R (100)
 
 470R (100)
 
+680R (200)
+
+1K5 (50)
+
+2K (100)
+
+3.9K (100)
+
 39K (100)
+
+120K (200)
 
 150K (100)
 
+220K (30)
+
+
+10P (40)
 
 18P (20)
 
@@ -62,7 +76,7 @@ misc/few
 
 TL071(few)
 
-TL074 (few)
+TL074 (40+)
 
 
 * Detektors
