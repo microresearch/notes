@@ -193,7 +193,7 @@ code: https://github.com/PaulStoffregen/teensy_loader_cli.git
 
 for our teensy 3.2 and press reset...
 
-+using avr-gcc/example makefile: https://www.pjrc.com/teensy/gcc.html+ - this is notr for ARM teensy
++using avr-gcc/example makefile: https://www.pjrc.com/teensy/gcc.html+ - this is not for ARM teensy
 
 or we try using ard-make (had to re-install latest: https://github.com/sudar/Arduino-Makefile and latest Arduino
 
@@ -201,7 +201,7 @@ blink teensy example worked but not another serial example
 
 * 16/7
 
-*For zx81 boot thing on teensy (emulated ROM with earthboot)*
+*For zx81 earthboot thing on teensy (emulated ROM with earthboot)*
 
 https://k1.spdns.de/Vintage/Sinclair/80/Sinclair%20ZX81/ROMs/zx81%20version%202%20%27improved%27%20rom%20disassembly%20%28Logan,%20O%27Hara%29.html
 
@@ -226,3 +226,18 @@ as the tools included are compile for 64 bits...
 
 pins: https://forum.pjrc.com/threads/17532-Tutorial-on-digital-I-O-ATMega-PIN-PORT-DDR-D-B-registers-vs-ARM-GPIO_PDIR-_PDOR?highlight=slew+rate+limiting
           
+* 17/7
+
+- display hack works - https://www.classic-computers.org.nz/blog/2016-01-03-composite-video-for-zx81.htm
+
+- teensy is at 3.3v (no more) - some pins are not tolerant and maybe our level is low // revert to arduino/avr code  if it can be fast enough
+
+- also after replacing ROM on zx no boot - loosen and reseat is fine (and wiggles generate glitches so...)
+
+- code on arduino doesn't do anything (note that we would need to reboot arduino just before zx to allow buffer to fill):
+
+-- problem could be: speed of arduino, check pins are toggling, check CS lines coming in and timing (scope)
+
+(Notes: Uno has 2k so we just use 1024 bytes for earthcode, alt
+approach could be to allow earthcode to change zx81 ROM, so part runs
+or we hand over part way...)
