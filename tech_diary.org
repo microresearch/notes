@@ -241,3 +241,9 @@ pins: https://forum.pjrc.com/threads/17532-Tutorial-on-digital-I-O-ATMega-PIN-PO
 (Notes: Uno has 2k so we just use 1024 bytes for earthcode, alt
 approach could be to allow earthcode to change zx81 ROM, so part runs
 or we hand over part way...)
+
+- for myc - new library in eeschema for 5933 created using:
+
+http://kicad.rohrbacher.net/quicklib.php
+
+see also: http://kicad.txplore.com/index-p=96.html
