@@ -193,10 +193,36 @@ code: https://github.com/PaulStoffregen/teensy_loader_cli.git
 
 for our teensy 3.2 and press reset...
 
-using avr-gcc/example makefile: https://www.pjrc.com/teensy/gcc.html
++using avr-gcc/example makefile: https://www.pjrc.com/teensy/gcc.html+ - this is notr for ARM teensy
 
 or we try using ard-make (had to re-install latest: https://github.com/sudar/Arduino-Makefile and latest Arduino
 
 blink teensy example worked but not another serial example
 
-            
+* 16/7
+
+*For zx81 boot thing on teensy (emulated ROM with earthboot)*
+
+https://k1.spdns.de/Vintage/Sinclair/80/Sinclair%20ZX81/ROMs/zx81%20version%202%20%27improved%27%20rom%20disassembly%20%28Logan,%20O%27Hara%29.html
+
+https://www.sinclairzxworld.com/viewtopic.php?t=1249
+
+CS goes low for ROM access and then high within maybe 300nS
+
+MREQ and A14 line (inverted) go through NAND to CS for this...
+
+: // when cs goes low we put the earth code (amped from diff amp 200x in earth)
+: // onto D0-> D7
+
+As ADC is slower than 3Mhz ROM/RAM we need to read it first into array and then output
+
+Teensy Makefile: https://github.com/apmorton/teensy-template
+
+But we needed to change the 
+
+: TOOLSPATH=/root/Downloads/arduino-1.8.5/hardware/tools
+
+as the tools included are compile for 64 bits...
+
+pins: https://forum.pjrc.com/threads/17532-Tutorial-on-digital-I-O-ATMega-PIN-PORT-DDR-D-B-registers-vs-ARM-GPIO_PDIR-_PDOR?highlight=slew+rate+limiting
+          
