@@ -228,6 +228,10 @@ pins: https://forum.pjrc.com/threads/17532-Tutorial-on-digital-I-O-ATMega-PIN-PO
           
 * 17/7
 
+zx81 3.25 MHz - 2 cycles read memory = 600 nS
+
+https://forum.pjrc.com/threads/42865-A-set-of-scope-tested-100-500-ns-delay-macros
+
 - display hack works - https://www.classic-computers.org.nz/blog/2016-01-03-composite-video-for-zx81.htm
 
 - teensy is at 3.3v (no more) - some pins are not tolerant and maybe our level is low // revert to arduino/avr code  if it can be fast enough
@@ -241,6 +245,14 @@ pins: https://forum.pjrc.com/threads/17532-Tutorial-on-digital-I-O-ATMega-PIN-PO
 (Notes: Uno has 2k so we just use 1024 bytes for earthcode, alt
 approach could be to allow earthcode to change zx81 ROM, so part runs
 or we hand over part way...)
+
+- level shifting or protection resistor (3.3k?) or 3.3v pullup and/or check which teensy pins are 5v tolerant...
+
+https://www.adafruit.com/product/395?gclid=CIayxrHZ4LsCFepaMgod2TwAUg
+
+- "The other inputs (except NMI) to the Z80 are spec'd at the standard TTL levels with 2.0V or higher a logic '1'"
+
+*when teensy=rom is selected we need to put byte on bus and then re-configure bus as input*
 
 - for myc - new library in eeschema for 5933 created using:
 
