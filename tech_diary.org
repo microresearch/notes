@@ -319,3 +319,5 @@ void loop()  {
   delayMicroseconds(10);*/
 }
 #+END_SRC
+
+- in Kicad/pcbnew we can draw zones after selecting layer (eg. mask) so we can leave areas exposed...
