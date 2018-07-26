@@ -321,3 +321,21 @@ void loop()  {
 #+END_SRC
 
 - in Kicad/pcbnew we can draw zones after selecting layer (eg. mask) so we can leave areas exposed...
+
+* 26/7
+
+- find Makefile for upload of straightC code to Arduino Uno // just question of upload:
+
+: avrdude -V -c arduino -p ATMEGA328P -P /dev/ttyACM0 -b 115200 -U flash:w:lineccd.hex
+
+*TODO: collate, document makefiles for avr and coremem etc. documentation! + TEH doku...*
+
+- serial monitor in Emacs? TEST!
+
+: make monitor 
+
+???
+
+: M-x serial-term
+
+https://www.emacswiki.org/emacs/GnuScreen#toc10
