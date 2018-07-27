@@ -329,6 +329,8 @@ void loop()  {
 
 : avrdude -V -c arduino -p ATMEGA328P -P /dev/ttyACM0 -b 115200 -U flash:w:lineccd.hex
 
+now in all_colours repo...
+
 *TODO: collate, document makefiles for avr and coremem etc. documentation! + TEH doku...*
 
 - serial monitor in Emacs? TEST!
