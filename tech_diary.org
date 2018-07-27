@@ -74,19 +74,20 @@ settings for minicom from command line
 
 : minicom -b 57600 -D /dev/ttyACM0
 
-* 5/7
+* 5/7 - NEW GIT REPO!
 
 - these notes, also messene etc. under git DONE:
 
-new repo in git
+add new repo in git and then in local directory of what we wish to add
 
 : git init
 : git add whatever
-: git commit -m "xxx"
+: git commit
 : git remote add origin https://github.com/microresearch/notes.git
 : git push -u origin master
 
 - re-check AD5933 also for potential eurorack module
+
 * 6/7
 
 ** admatech TFT display on pi:
@@ -339,3 +340,15 @@ void loop()  {
 : M-x serial-term
 
 https://www.emacswiki.org/emacs/GnuScreen#toc10
+
+#+BEGIN_SRC lisp
+(defun del-binary_characters (beg end)
+  "Delete binary characters in a region"
+  (interactive "r")
+  (save-excursion
+    (save-restriction
+      (narrow-to-region beg end)
+      (goto-char (point-min))
+      (while (re-search-forward "[^[:ascii:]]" nil t)
+        (replace-match "")))))
+#+END_SRC
