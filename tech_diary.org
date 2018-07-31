@@ -359,6 +359,23 @@ https://www.emacswiki.org/emacs/GnuScreen#toc10
 
 - python script to model CPU temperature according to day's temperature changes...
 
+#+BEGIN_SRC python
+import math
+
+# baseline - lowest temp will be base CPU temp
+# read value from array of 24 hour values, run process to try to reach this if current temp is not there
+# otherwise do nothing until we cool to this
+# next value
+
+# testing
+
+x=267676383
+
+while(1):
+    x=math.sqrt(x)
+#+END_SRC
+
+
 - sensing CPU temp: psutil doesn't import, now using sysmon: https://github.com/calthecoder/sysmon-1.0.1
 
 https://www.mjmwired.net/kernel/Documentation/hwmon/sysfs-interface
