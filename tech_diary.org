@@ -354,3 +354,25 @@ https://www.emacswiki.org/emacs/GnuScreen#toc10
       (while (re-search-forward "[^[:ascii:]]" nil t)
         (replace-match "")))))
 #+END_SRC
+
+* 31/7
+
+- python script to model CPU temperature according to day's temperature changes...
+
+- sensing CPU temp: psutil doesn't import, now using sysmon: https://github.com/calthecoder/sysmon-1.0.1
+
+https://www.mjmwired.net/kernel/Documentation/hwmon/sysfs-interface
+
+for pi: https://projects.raspberrypi.org/en/projects/temperature-log/4
+
+can we increase fan speed to lower temp?
+
+https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c
+
+https://raspberrypi.stackexchange.com/questions/74627/rpi-run-a-python-script-fan-speed-control-while-loop-until-shutdown
+
+- test temp and fan thing with screen on PI!
+
+- more finegrained temp with MAX31865 (and fix speed of arduino/MAX reading in shiftreg repo code - lost in Messene)
+
+- Messene data dumped...
