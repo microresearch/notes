@@ -1,3 +1,32 @@
+* PI notes
+
+** ssh
+
+ssh and wpa must be in FIRST/boot partition!
+
+: mount /dev/mmcblk0p1 /media  
+
+: touch /media/ssh
+
+** wireless network
+
+https://raspberrypi.stackexchange.com/questions/10251/prepare-sd-card-for-wifi-on-headless-pi
+
+/media/wpa_supplicant.conf:
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=«your_ISO-3166-1_two-letter_country_code»
+
+network={
+    ssid="«your_SSID»"
+    psk="«your_PSK»"
+    key_mgmt=WPA-PSK
+}
+
+: nmap -sn 192.168.2.0/24 # to find address
+
+
 * 30/6
 
 ** steghide: 
@@ -392,4 +421,18 @@ https://raspberrypi.stackexchange.com/questions/74627/rpi-run-a-python-script-fa
 
 - more finegrained temp with MAX31865 (and fix speed of arduino/MAX reading in shiftreg repo code - lost in Messene)
 
-- Messene data dumped...
+- Messene data dumped... all that we have
+
+[for Messene data/temp recorded say over 24 hours we need to find max and min and re-write as values between say 0-255 limits - DONE:scaling.py]
+
+- pi and max31865: dump temp to screen [but clash on voltage pins to fix]
+
+https://github.com/steve71/MAX31865/blob/master/max31865.py
+
+https://www.raspberrypi.org/documentation/usage/gpio/
+
+CLK: 11 SDO=MISO: 9 SDI=MOSI: 10 CS: 8
+
+Strange as ref resistor is 4301 = 4300 ref rather than 430 - check others...
+
+VIN to 3.3v and SPI disabled in raspi-config
