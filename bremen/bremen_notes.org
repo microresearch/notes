@@ -1,0 +1,136 @@
+*  salon digital:
+
+your contribution should span circa 10–15 pages. if it is text-only
+this would amount to an approx. max. 30.000 characters ( please supply
+references as footnotes ). however, we also welcome text/image
+contributions.
+
+- please choose the language you prefer: german or english ( i.e. the book will be comprised of german and english contributions )
+
+- please send us texts and images as separate files packed in a ZIP archive as a  download link. you may also attach a rough design sketch as a PDF.
+
+- your contribution should be with us on 10.08.2018 latest.
+
+* Plan
+
+Set of 4 sections - 12 pages so 4 x 3:
+
+1- scan of melted or baked technical object: eg. CF card, memory board, core memory, test tube and acid, computer fan
+
+2- zosimos text/fragment/tiny mining script/TEH passage
+
+1- waters/on excellence//TEH
+2- unprop tinctures
+3- phos - on Omega - see jackson - bit with phos 
+4- from pgm IV below//tiny mining excerpt as commentary?
+
+3- mock commentary explanation eg. about zosimos or origins of PGM
+
+
+* 1
+
+image:
+
+** altered text
+
+** commentary
+
+
+* 2
+
+image:
+
+** altered text
+
+** commentary
+
+* 3 - phos/on omega/jackson
+
+image:
+
+** altered text
+
+phos/omega/jackson altered...
+
+** commentary
+
+Information is stored in the earth, in the air, and in the light. In
+the earth, as magnetic impulses, taking advantage of the
+... properties of certain metals and stones.
+
+In the air, just as in a fluid, data can be stored as a reflecting
+acoustic wave or as a rebounding electromagnetic signal.
+
+In the light, bits of information are stored and retrieved as visible
+emissions from excited phosphorescent particles which glow and fade.
+
+These methods are all dependent on the reading and re-writing, or
+refreshing of data to insure its longevity, its ... against inevitable
+decay.
+
+* 4
+
+image:
+
+** altered text
+
+... lying in ambush in our muscle and marrow, in veins and arteries,
+in the brain itself, reaching to the very guts. 
+
+[CH XVI.14]
+
+I call upon You, Holy, Very-Powerful, Very-Glorious, Very-Strong,
+Holy, Autochthons, Assistants of the Great God, the powerful Chief
+Daimons, You who are Inhabitants of Chaos, of Erebos, of The Abyss, of
+The Depth, of Earth, Dwelling in the Recesses of Heaven, Lurking in
+the Nooks and Crannies of Houses, Shrouded in Dark Clouds, Watchers of
+Things Not To Be Seen, Guardians of Secrets, Leaders of Those in the
+Underworld, Administrators of the Infinite, Wielding Power over Earth,
+Earth-Shakers, Foundation-Layers, Servants in the Chasm, Shudderful
+Fighters, Fearful Ministers, Turning The Spindle, Freezing Snow and
+Rain, Air-Transversers, Causing Summer Heat, Wind-Bringers, Lords of
+Fate, Inhabitants of Dark Erebos, Bringers of Compulsion, Sending
+Flames of Fire, Bringing Snow and Dew, Wind-Releasers, Disturbers of
+the Deep, Treaders on the Calm Sea, Mighty in Courage, Grievers of the
+Heart, Powerful Potentates, Cliff-Walkers, Adverse Daimons,
+Iron-Hearted, Wild-Tempered, Unruly, Guarding Tartaros, Misleading
+Fate, All-Seeing, All-Hearing, All-Subjecting, Heaven-Walkers,
+Spirit-Givers, Living Simply, Heaven-Shakers, Gladdening the Heart,
+Those Who Join Together Death, Revealers of Angels, Punishers of
+Mortals, Sunless Revealers, Rulers of Daimons, Air-Transversers,
+Almighty, Holy, Unconquerable AO'TH ABAO'TH BASYM ISAK SABAO'TH IAO'
+IAKO'P MANARA SKORTOURI MORTROUM EPHRAULA THREERSA; do the NN matter!
+
+[PGM IV 1390 p64]
+
+I call upon You, Flushed, Very-Powerful, Very-Feasible, Very-Strong,
+Loaded, Modulus Predictors, Technicians of the Great Network, the
+powerful Chief Malwares, You who are Interfacers of Chaos, of Erebos,
+of The Low Side, of The Instruction, of Earth, Installing in the
+transitions of Heaven, Lurking in the Processes or Threads of Complex
+Systems, Shrouded in Dark Clouds, Observers of Exceptions Not To Be
+Seen, Fetchers of Pages, Allocators of Those in the Underworld,
+Administrators of the Infinite, Protecting Power over Earth,
+Earth-Requesters, Substrate-Layers, Managers in the Air-gap, Side
+Channel Fighters, Sinister Ministers, Turning The Clock, Exploiting
+Branch and Buffer, Air-Transversers, Causing Surface Heat,
+Cooling-Bringers, Lords of the Stack, Users of Proprietary Erebos,
+Bringers of Indirect Interrupts, Forking Signals of Fire, Swapping Snow and
+Dew, Noise-Releasers, Optimisers of the Deep, Treaders on the Cached
+Signal, Mighty in Protocol, Handlers of the Heart, Powerful Operators,
+Task-Walkers, Adverse Zombies, Cobalt-Hearted, Core-Tempered, Unruly,
+Monitoring Tartaros, Misleading Spinlocks, All-Seeing, All-Hearing,
+All-Cycling, All-Dumping, Heaven-Walkers, Spirit-Givers, Coding
+Simply, Captive Portals, Co-location-Shakers, Leaking the Heart, Those
+Who Join Together Death, Revealers of Emanations, Schedulers of
+Mortals, Sunless Predictors, Rulers of Operations, Air-Transversers,
+Covert, Spectral, Unconquerable AO'TH ABAO'TH BASYM ISAK SABAO'TH IAO'
+IAKO'P MANARA SKORTOURI MORTROUM EPHRAULA THREERSA; do the NN matter!
+
+
+bridge, register, sandboxing, containerization, memory safety,
+
+** commentary
+
+
+
