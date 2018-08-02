@@ -1,3 +1,32 @@
+* PI notes
+
+** ssh
+
+ssh and wpa must be in FIRST/boot partition!
+
+: mount /dev/mmcblk0p1 /media  
+
+: touch /media/ssh
+
+** wireless network
+
+https://raspberrypi.stackexchange.com/questions/10251/prepare-sd-card-for-wifi-on-headless-pi
+
+/media/wpa_supplicant.conf:
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=«your_ISO-3166-1_two-letter_country_code»
+
+network={
+    ssid="«your_SSID»"
+    psk="«your_PSK»"
+    key_mgmt=WPA-PSK
+}
+
+: nmap -sn 192.168.2.0/24 # to find address
+
+
 * 30/6
 
 ** steghide: 
@@ -74,7 +103,336 @@ settings for minicom from command line
 
 : minicom -b 57600 -D /dev/ttyACM0
 
-* 5/7
+* 5/7 - NEW GIT REPO!
 
-- these notes, also messen etc. under git
+- these notes, also messene etc. under git DONE:
+
+add new repo in git and then in local directory of what we wish to add
+
+: git init
+: git add whatever
+: git commit
+: git remote add origin https://github.com/microresearch/notes.git
+: git push -u origin master
+
 - re-check AD5933 also for potential eurorack module
+
+* 6/7
+
+** admatech TFT display on pi:
+
+https://raspberrypi.stackexchange.com/questions/38721/how-do-i-setup-the-c-berry-tft-screen-with-my-pi-2
+
+and ignore row-defining changes...
+
+for console - compile /C-Berry/SW/fb2cberry, run in background...1
+
+: echo -ne "help" | sudo tee /dev/tty1
+
+* 7/7
+
+** splitscan and mencoder cut/edit
+
+cutting using mencoder
+
+: mencoder -ss 00:27:31 -endpos 00:00:37 -oac pcm -ovc copy Downloads/Princess.mp4 -o revolving.mp4
+
+starts at 27.31 and lasts for 37 seconds
+
+splitscan.py new code:
+
+#+BEGIN_SRC python 
+
+# horizontal
+
+# for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+#     if currentX < (clip.size[0] - slitwidth):
+#         img[:,currentX:currentX + slitwidth,:] = i[:,currentX:currentX + slitwidth,:]
+#     currentX += slitwidth
+
+# horizontal/backwards
+count=0
+currentX = clip.size[1]
+
+for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+    print count
+    if currentX < (clip.size[0] - slitwidth):
+        img[:,currentX:currentX + slitwidth,:] = i[:,currentX:currentX + slitwidth,:]
+    currentX -= slitwidth
+    count +=1
+
+###vertical
+
+# for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+#     if currentX < (clip.size[1] - slitwidth):
+#                 img[currentX:currentX + slitwidth,:] = i[currentX:currentX + slitwidth,:]
+#     currentX += slitwidth
+
+#+END_SRC
+
+** video to images
+
+: ffmpeg -i input.mov -r 1 output_%04d.png
+
+with -r 1 as 1 frame every second
+
+** images to video
+
+: convert output_00* test.mp4
+
+** others
+
+: ffmpeg -i source.mp4 -filter:v minterpolate -r 120 result.mp4
+
+
+** kill cursor to end of line Ctrl - k
+
+: bindkey
+
+shows key bindings
+
+* 11/7
+
+working with imagemagick:
+
+http://www.imagemagick.org/Usage/layers/
+
+http://www.imagemagick.org/Usage/transform/#edge
+
+http://www.imagemagick.org/Usage/fonts/
+
+* 12/7
+
+awesome
+
+mod-t = keep window always on top
+
+kicad
+
+- remember after we change cvpcb netlist to generate/save netlist in eeschema
+
+* 13/7
+
+** teensy
+
+https://www.pjrc.com/teensy/loader_cli.html
+
+code: https://github.com/PaulStoffregen/teensy_loader_cli.git
+
+: ./teensy_loader_cli -mmcu=mk20dx256 -w blink_slow_Teensy32.hex 
+
+for our teensy 3.2 and press reset...
+
++using avr-gcc/example makefile: https://www.pjrc.com/teensy/gcc.html+ - this is not for ARM teensy
+
+or we try using ard-make (had to re-install latest: https://github.com/sudar/Arduino-Makefile and latest Arduino
+
+blink teensy example worked but not another serial example
+
+* 16/7
+
+*For zx81 earthboot thing on teensy (emulated ROM with earthboot)*
+
+https://k1.spdns.de/Vintage/Sinclair/80/Sinclair%20ZX81/ROMs/zx81%20version%202%20%27improved%27%20rom%20disassembly%20%28Logan,%20O%27Hara%29.html
+
+https://www.sinclairzxworld.com/viewtopic.php?t=1249
+
+CS goes low for ROM access and then high within maybe 300nS
+
+MREQ and A14 line (inverted) go through NAND to CS for this...
+
+: // when cs goes low we put the earth code (amped from diff amp 200x in earth)
+: // onto D0-> D7
+
+As ADC is slower than 3Mhz ROM/RAM we need to read it first into array and then output
+
+Teensy Makefile: https://github.com/apmorton/teensy-template
+
+But we needed to change the 
+
+: TOOLSPATH=/root/Downloads/arduino-1.8.5/hardware/tools
+
+as the tools included are compile for 64 bits...
+
+pins: https://forum.pjrc.com/threads/17532-Tutorial-on-digital-I-O-ATMega-PIN-PORT-DDR-D-B-registers-vs-ARM-GPIO_PDIR-_PDOR?highlight=slew+rate+limiting
+          
+* 17/7
+
+zx81 3.25 MHz - 2 cycles read memory = 600 nS
+
+https://forum.pjrc.com/threads/42865-A-set-of-scope-tested-100-500-ns-delay-macros
+
+- display hack works - https://www.classic-computers.org.nz/blog/2016-01-03-composite-video-for-zx81.htm
+
+- teensy is at 3.3v (no more) - some pins are not tolerant and maybe our level is low // revert to arduino/avr code  if it can be fast enough
+
+- also after replacing ROM on zx no boot - loosen and reseat is fine (and wiggles generate glitches so...)
+
+- code on arduino doesn't do anything (note that we would need to reboot arduino just before zx to allow buffer to fill):
+
+-- problem could be: speed of arduino, check pins are toggling, check CS lines coming in and timing (scope)
+
+(Notes: Uno has 2k so we just use 1024 bytes for earthcode, alt
+approach could be to allow earthcode to change zx81 ROM, so part runs
+or we hand over part way...)
+
+- level shifting or protection resistor (3.3k?) or 3.3v pullup and/or check which teensy pins are 5v tolerant...
+
+https://www.adafruit.com/product/395?gclid=CIayxrHZ4LsCFepaMgod2TwAUg
+
+- "The other inputs (except NMI) to the Z80 are spec'd at the standard TTL levels with 2.0V or higher a logic '1'"
+
+*when teensy=rom is selected we need to put byte on bus and then re-configure bus as input*
+
+- for myc - new library in eeschema for 5933 created using:
+
+http://kicad.rohrbacher.net/quicklib.php
+
+see also: http://kicad.txplore.com/index-p=96.html
+
+* 18/8
+
+- some success with nS delays on Arduino:
+
+#+BEGIN_SRC c
+uint8_t earthcode[1024]; // we only have 2kb ram so we can't have 4096
+
+void setup()  { 
+
+  pinMode(12, INPUT_PULLUP); // CS on ROM
+  pinMode(13, INPUT_PULLUP); // CS on ROM
+  pinMode(A0, INPUT);
+
+  //    DDRD = B11111111;  
+  //pinMode(2, OUTPUT);
+
+  uint16_t x;
+    for (x=0;x<1024;x++){
+            earthcode[x] = analogRead(A0)&0xff;
+      //      earthcode[x] = rand()%0xff;
+  }
+} 
+
+static __inline__ void      /* exactly 4 cycles/loop, max 2**8 loops */
+_delay_loop_1_x( uint8_t __n )
+{                                               /* cycles per loop      */
+    __asm__ volatile (                          /* __n..one        zero */
+        "1: dec  %0"   "\n\t"                   /*    1             1   */
+        "   breq 2f"   "\n\t"                   /*    1             2   */
+        "2: brne 1b"   "\n\t"                   /*    2             1   */
+        : "=r" (__n)                            /*  -----         ----- */
+        : "0" (__n)                             /*    4             4   */
+    );
+}
+
+
+void loop()  { 
+  int x=0;
+  if (!(PINB & 0x10)) { // pin 12 which is on PORTB - CS on ROM
+    DDRD = B11111111;  
+    PORTD=earthcode[x++];
+      // turn off bus - 500  ns? - value of 2 or 3 seems to work
+    _delay_loop_1_x(3);
+    DDRD = B00000000;  
+    PORTD=0x00;
+    if (x==1024) x=0;  
+    }
+
+  // test for scope
+  /*  DDRD=B11111111;
+  PORTD=255;
+  _delay_loop_1_x(2); // this gives us 500nS
+  //  delayMicroseconds(10);
+  //  _delay_loop_1_x(1);
+  //  DDRD = B00000000;  
+  PORTD=0;
+  delayMicroseconds(10);*/
+}
+#+END_SRC
+
+- in Kicad/pcbnew we can draw zones after selecting layer (eg. mask) so we can leave areas exposed...
+
+* 26/7
+
+- find Makefile for upload of straightC code to Arduino Uno // just question of upload:
+
+: avrdude -V -c arduino -p ATMEGA328P -P /dev/ttyACM0 -b 115200 -U flash:w:lineccd.hex
+
+now in all_colours repo...
+
+*TODO: collate, document makefiles for avr and coremem etc. documentation! + TEH doku...*
+
+- serial monitor in Emacs? TEST!
+
+: make monitor 
+
+???
+
+: M-x serial-term
+
+https://www.emacswiki.org/emacs/GnuScreen#toc10
+
+#+BEGIN_SRC lisp
+(defun del-binary_characters (beg end)
+  "Delete binary characters in a region"
+  (interactive "r")
+  (save-excursion
+    (save-restriction
+      (narrow-to-region beg end)
+      (goto-char (point-min))
+      (while (re-search-forward "[^[:ascii:]]" nil t)
+        (replace-match "")))))
+#+END_SRC
+
+* 31/7
+
+- python script to model CPU temperature according to day's temperature changes...
+
+#+BEGIN_SRC python
+import math
+
+# baseline - lowest temp will be base CPU temp
+# read value from array of 24 hour values, run process to try to reach this if current temp is not there
+# otherwise do nothing until we cool to this
+# next value
+
+# testing
+
+x=267676383
+
+while(1):
+    x=math.sqrt(x)
+#+END_SRC
+
+
+- sensing CPU temp: psutil doesn't import, now using sysmon: https://github.com/calthecoder/sysmon-1.0.1
+
+https://www.mjmwired.net/kernel/Documentation/hwmon/sysfs-interface
+
+for pi: https://projects.raspberrypi.org/en/projects/temperature-log/4
+
+can we increase fan speed to lower temp?
+
+https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c
+
+https://raspberrypi.stackexchange.com/questions/74627/rpi-run-a-python-script-fan-speed-control-while-loop-until-shutdown
+
+- test temp and fan thing with screen on PI!
+
+- more finegrained temp with MAX31865 (and fix speed of arduino/MAX reading in shiftreg repo code - lost in Messene)
+
+- Messene data dumped... all that we have
+
+[for Messene data/temp recorded say over 24 hours we need to find max and min and re-write as values between say 0-255 limits - DONE:scaling.py]
+
+- pi and max31865: dump temp to screen [but clash on voltage pins to fix]
+
+https://github.com/steve71/MAX31865/blob/master/max31865.py
+
+https://www.raspberrypi.org/documentation/usage/gpio/
+
+CLK: 11 SDO=MISO: 9 SDI=MOSI: 10 CS: 8
+
+Strange as ref resistor is 4301 = 4300 ref rather than 430 - check others...
+
+VIN to 3.3v and SPI disabled in raspi-config
