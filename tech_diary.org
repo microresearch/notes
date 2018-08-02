@@ -436,17 +436,3 @@ CLK: 11 SDO=MISO: 9 SDI=MOSI: 10 CS: 8
 Strange as ref resistor is 4301 = 4300 ref rather than 430 - check others...
 
 VIN to 3.3v and SPI disabled in raspi-config
-
-* 2/8
-
-- for gnuplot remember to:
-
-: set datafile separator ","
-
-so then we can do:
-
-: plot "MONK27" using 0:2 with lines
-
-without problems...
-
-- MAX31865 code on PI gives jumpy values rather than on Arduino/adafruit but code looks very similar...
