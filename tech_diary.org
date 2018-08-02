@@ -437,6 +437,11 @@ Strange as ref resistor is 4301 = 4300 ref rather than 430 - check others...
 
 VIN to 3.3v and SPI disabled in raspi-config
 
+- latest KICAD from source:
+
+: apt install cmake doxygen libboost-context-dev libboost-dev libboost-system-dev libboost-test-dev libcairo2-dev libcurl4-openssl-dev libgl1-mesa-dev libglew-dev libglm-dev liboce-foundation-dev liboce-ocaf-dev libssl-dev libwxbase3.0-dev libwxgtk3.0-dev python-dev python-wxgtk3.0-dev swig wx-common
+
+remember to do ldconfig at end
 
 * 2/8
 
