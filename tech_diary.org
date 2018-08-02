@@ -433,7 +433,7 @@ https://www.raspberrypi.org/documentation/usage/gpio/
 
 CLK: 11 SDO=MISO: 9 SDI=MOSI: 10 CS: 8
 
-Strange as ref resistor is 4301 = 4300 ohms ref rather than 430 - check others... one has 430 ohms...
+Strange as ref resistor is 4301 = 4300 ohms ref rather than 430 - check others... one has 430 ohms... - 4300ohms is for PT1000 
 
 VIN to 3.3v and SPI disabled in raspi-config
 
