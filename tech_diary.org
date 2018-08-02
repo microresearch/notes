@@ -433,7 +433,7 @@ https://www.raspberrypi.org/documentation/usage/gpio/
 
 CLK: 11 SDO=MISO: 9 SDI=MOSI: 10 CS: 8
 
-Strange as ref resistor is 4301 = 4300 ref rather than 430 - check others...
+Strange as ref resistor is 4301 = 4300 ohms ref rather than 430 - check others... one has 430 ohms...
 
 VIN to 3.3v and SPI disabled in raspi-config
 
@@ -456,3 +456,63 @@ so then we can do:
 without problems...
 
 - MAX31865 code on PI gives jumpy values rather than on Arduino/adafruit but code looks very similar...
+
+- now 31865 stopped working:
+
+try with SPI enabled in config
+
+try this from: http://nicke.pe.hu/max31865/rpi.html
+
+#+BEGIN_SRC python
+import spidev
+from time import sleep
+import math
+
+#CONFIGURATION
+Rref = 400                  # Rref = 400 for PT100, Rref = 4000 for PT1000
+wire = 2                    # PT100/1000 has 2 or 3 or 4 wire connection 
+#END OF CONFIGURATION
+
+def configureMAX31865():
+    lst = [0x80]
+    if (wire == 2 or wire == 4):
+        lst.append(0xC2)
+
+    if (wire == 3):
+        lst.append(0xD2)
+
+    spi.writebytes(lst)
+
+def CallendarVanDusen(R):
+    a = 3.9083E-03
+    b = -5.7750E-07
+    R0=Rref/4
+
+    return (-R0*a+math.sqrt(R0*R0*a*a-4*R0*b*(R0-R)))/(2*R0*b);  
+
+spi = spidev.SpiDev()
+spi.open(0,0)
+spi.mode=3
+lst = [0x80,0xc2]
+configureMAX31865()
+#spi.writebytes(lst)
+sleep(0.1)
+
+for i in range(0,6):
+    reg = spi.readbytes(9)
+    del reg[0]                      # delete 0th dummy data
+    print ("Register values:",reg)
+
+    RTDdata = reg[1] << 8 | reg[2]
+    print("RTD data:", hex(RTDdata))
+
+    ADCcode = RTDdata >> 1
+    print("ADC code", hex(ADCcode))
+
+    R = ADCcode * Rref / 32768
+    print("Resistance:", R, "Ohms")
+
+    print("Temperature:",round(CallendarVanDusen(R),2), "deg. C\n")
+    sleep(1)
+
+#END_SRC
