@@ -1,5 +1,7 @@
 // read in temperature which has been remapped to 0-255 from sd card: monkxy
+
 // write this to pwm pin 9 for FET and delay xxx
+
 // this is recreation of lost version used in Messene/Tuned City
 
 // reads three values from csv on sd card monkxy ...
@@ -82,11 +84,11 @@ void loop() {
   while (readVals(&temper, &x, &y)) {
     analogWrite(9,x);
     //    count++;
-  //  Serial.println(x);
-    delay(100);
+   Serial.println(x);
+    delay(80);
   }
   file.close();
   time = millis();
   Serial.println(time/1000);
-  Serial.println(count);
+  //  Serial.println(count);
 }

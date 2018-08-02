@@ -179,27 +179,29 @@ class max31865(object):
 		Res0 = 100.0; # Resistance at 0 degC for 400ohm R_Ref
 		a = .00390830
 		b = -.000000577500
+                Res_RTD = (RTD_ADC_Code * R_REF) / 32768.0 # PT100 Resistance
 		temp_C = -(a*Res0) + math.sqrt(a*a*Res0*Res0 - 4*(b*Res0)*(Res0 - Res_RTD))
 		temp_C = temp_C / (2*(b*Res0))
 		return temp_C
 
 # try from adafruit as we get funky values from the above
 
-	# def calcPT100Temp(self, RTD_ADC_Code):
-        #         RTD_A=3.9083e-3
-        #         RTD_B=-5.775e-7
-        #         refResistor=100.0
-        #         Rt = Res_RTD
-        #         Rt /= 32768.0;
-        #         Rt *= refResistor;
-        #         Z1 = -RTD_A; 
-        #         Z2 = RTD_A * RTD_A - (4 * RTD_B);
-        #         Z3 = (4 * RTD_B) / RTDnominal;
-        #         Z4 = 2 * RTD_B;
+	def calcPT100Temp(self, RTD_ADC_Code):
+                RTD_A=3.9083e-3
+                RTD_B=-5.775e-7
+                refResistor=100.0
+                Rt = Res_RTD
+                Rt /= 32768.0
+                Rt *= refResistor
+                Z1 = -RTD_A
+                Z2 = RTD_A * RTD_A - (4 * RTD_B)
+                Z3 = (4 * RTD_B) / RTDnominal
+                Z4 = 2 * RTD_B
 
-        #         temp_C = Z2 + (Z3 * Rt);
-        #         temp_C = (math.sqrt(temp) + Z1) / Z4;
-        
+                temp_C = Z2 + (Z3 * Rt)
+                temp_C = (math.sqrt(temp) + Z1) / Z4;
+                
+                
 class FaultError(Exception):
 	pass
 
