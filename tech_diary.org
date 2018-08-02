@@ -437,6 +437,7 @@ Strange as ref resistor is 4301 = 4300 ref rather than 430 - check others...
 
 VIN to 3.3v and SPI disabled in raspi-config
 
+
 * 2/8
 
 - for gnuplot remember to:
