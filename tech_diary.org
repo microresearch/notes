@@ -26,6 +26,18 @@ network={
 
 : nmap -sn 192.168.2.0/24 # to find address
 
+** static IP/wired
+
+In /etc/dhcpcd.conf:
+
+interface eth0
+
+static ip_address=169.254.81.99
+
+static routers=10.0.0.1
+
+static domain_name_servers=75.75.75.75 75.75.76.76 2001:558:feed::1 2001:558:feed::2
+
 
 * 30/6
 
@@ -514,5 +526,4 @@ for i in range(0,6):
 
     print("Temperature:",round(CallendarVanDusen(R),2), "deg. C\n")
     sleep(1)
-
 #END_SRC
