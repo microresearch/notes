@@ -1,6 +1,6 @@
 import random
 import nltk
-from textclean.textclean import textclean
+#from textclean.textclean import textclean
 
 #crash_raw = open("crash.txt").read()
 

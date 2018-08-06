@@ -1,39 +1,8 @@
-*  salon digital:
-
-your contribution should span circa 10–15 pages. if it is text-only
-this would amount to an approx. max. 30.000 characters ( please supply
-references as footnotes ). however, we also welcome text/image
-contributions.
-
-- please choose the language you prefer: german or english ( i.e. the book will be comprised of german and english contributions )
-
-- please send us texts and images as separate files packed in a ZIP archive as a  download link. you may also attach a rough design sketch as a PDF.
-
-- your contribution should be with us on 10.08.2018 latest.
-
-* Plan
-
-Set of 4 sections - 12 pages so 4 x 3:
-
-1- scan of melted or baked technical object: eg. CF card, memory board, core memory, test tube and acid, computer fan
-
-2- zosimos text/fragment/tiny mining script/TEH passage
-
-1- waters/on excellence//TEH
-2- unprop tinctures
-3- phos - on Omega - see jackson - bit with phos 
-4- from pgm IV below//tiny mining excerpt as commentary?
-
-3- mock commentary explanation eg. about zosimos or origins of PGM
-
-
-* 1
+* 1 On Excellence
 
 image:
 
-** altered text // on excellence/TEH...
-
-Alan (Turing) asks me if I know the composition, or constitution of
+Alan Astarte asks me if I know the composition, or constitution of
 the waters, and of the movement, and the growth, and the removal and
 restitution of corporeal nature. There is gold drowned in the
 lake. The given gold fibres dissolved in the lake are set to colour it
@@ -82,53 +51,30 @@ circulatory vessel within which nine vessels are depicted as being
 linked by gold chains and each link describes a certain process within
 the vessel.
 
-
-///
-
-The composition of the waters, and the movement, and the growth, and the
-removal and restitution of bodily nature, and the splitting off of the
-spirit from the body, and the fixation of the spirit on the body are not
-operations with natures alien one from the other, but, like the hard
-bodies of metals and the moist fluids of plants, are One Thing, of One
-Nature, acting upon itself. And in this system, of one kind but many
-colours, is preserved a research of all things, multiple and various,
-subject to lunar influence and measure of time, which regulates the
-cessation and growth by which the One Nature transforms itself.
-
-And saying these things, I slept, and I saw a certain sacrificing priest
-standing before me and over and altar which had the form of a bowl. And
-that altar had fifteen steps going up to it.
-
-Then the priest stood up and I heard from above a voice say to me, "I
-have completed the descent of the fifteen steps and the ascent of the
-steps of light. And it is the sacrificing priest who renews me, casting
-off the body's coarseness, and, consecrated by necessity, I have become
-a spirit."
-
-And when I had heard the voice of him who stood in the altar formed like
-a bowl, I questioned him, desiring to understand who he was.
-
-He answered me in a weak voice saying, "I am Ion, Priest of the Adytum,
-and I have borne an intolerable force. For someone came at me headlong
-in the morning and dismembered me with a sword and tore me apart,
-according to the rigor of harmony. And, having cut my head off with the
-sword, he mashed my flesh with my bones and burned them in the fire of
-the treatment, until, my body transformed, I should learn to become a
-spirit. And I sustained the same intolerable force."
-
-And even as he said these things to me and I forced him to speak, it was
-as if his eyes turned to blood and he vomited up all his flesh. And I
-saw him as a mutilated image of a little man and he was tearing at his
-flesh and falling away.
-
-And being afraid I woke and considered, "Is this not the composition of
-the waters?" I thought that I was right and fell asleep again. And I saw
-the same altar in the shape of a bowl and water bubbled at the top of
-it, and in it were many people endlessly. And there was no one whom I
-might question outside of the bowl. And I went up to the altar to view
-the spectacle.
-
 ** commentary ? jung? or introduce Zosimos // Grimes also
+
+Alan can be identified here as Alan Turing, ....
+
+cyanide/gold story
+
+The reference to Alan as Astarte originates in a mis-hearing, or
+mis-spelling of the name of a large company concerned with the
+recycling of copper and precious metals from a wide-range of feeds,
+including copper and precious metal bearing electronic equipment. This
+company could not have been Glencore recycling, operator of the Horne
+Smelter in Rouyn-Noranda, Quebec, the world's largest processor of
+electronic scrap containing copper and precious metals. Astarte is ....
+
+https://en.wikipedia.org/wiki/Astarte
+
+astrata, asterism
+
+reference to the constellations: Corvus, Regulus, and Ursa Major
+
+Corvus is associated with the myth of Apollo and his lover Coronis the
+Lapith. Coronis had been unfaithful to Apollo; when he learned this
+information from a pure white crow, he turned its feathers black in a
+fit of rage
 
 *** Grimes
 
@@ -151,55 +97,38 @@ means of distillation, and to fixing colors—also known as
 not accomplished by foreign natures, such as daemons, but are
 accomplished by one nature acting upon itself, by which he means the
 fundamental nature, or primal matter, that manifests as the four
-elements.This opening statement can be seen as an affirmation of
-Zosimus’s “natural” methodology for creating timely tinctures. 
+elements.
+
+This opening statement can be seen as an affirmation of Zosimus’s
+“natural” methodology for creating timely tinctures.
 
 In
 other treatises he says that those who use “unnatural” methods ignore
 the procedures of astrological timing—which he promotes here—and
-believe that daemons can influence chemical operations.48 Since the
-spirits of metals are personified in this allegory and can be easily
-confused with daemons, Zosimus’s declaration of his methodological
-orientation helps to prevent such interpretive errors.  At this point,
-Zosimus enters into a dream and sees a “sacrificing priest” presiding
-over an altar shaped like a phial (phialē), which is a technical term
-for the dome-shaped covers of various distillatory apparatuses,
-including the kērotakis. He tells Zosimus that he had been sacrificed
-earlier that morning and has survived an “intolerable violence”: For
-one came headlong in the morning, dismembering me with a sword, and
-tearing me asunder according to the rigor of harmony. And flaying my
-head with the sword which he held fast, he mingled my bones with my
-flesh and burned them in the fire of the treatment, until I learned by
-the transformation of the body to become a spirit.50 As the priest
-speaks these words, his eyes fill with blood and he begins gnawing off
-his skin and vomiting up his own flesh. Zosimus awakens from this
-terrifying vision and says, “Is this not the situation of the waters?”
+believe that daemons can influence chemical operations.
+
+Since the spirits of metals are personified in this allegory and can
+be easily confused with daemons, Zosimus’s declaration of his
+methodological orientation helps to prevent such interpretive errors.
+At this point, Zosimus enters into a dream and sees a “sacrificing
+priest” presiding over an altar shaped like a phial (phialē), which is
+a technical term for the dome-shaped covers of various distillatory
+apparatuses, including the kērotakis. He tells Zosimus that he had
+been sacrificed earlier that morning and has survived an “intolerable
+violence”: For one came headlong in the morning, dismembering me with
+a sword, and tearing me asunder according to the rigor of harmony. And
+flaying my head with the sword which he held fast, he mingled my bones
+with my flesh and burned them in the fire of the treatment, until I
+learned by the transformation of the body to become a spirit. As the
+priest speaks these words, his eyes fill with blood and he begins
+gnawing off his skin and vomiting up his own flesh. Zosimus awakens
+from this terrifying vision and says, “Is this not the situation of
+the waters?”
 
 The waters are later identified as white and yellow sulfurous (or
 divine) waters. The Greek word for sulfur, theion, also means “divine
 being.”  
 
-////
-
-Zosimus may have written On Excellence as type of spiritual exercise for his
-students, as a means of training them to look beyond the material and penetrate the
-spiritual significance of their work. Hadot observes that ancient philosophers often
-viewed philosophy as an “exercise of death,” where the philosopher aims to separate
-soul and body by freeing the soul of all its worldly passions and attachments; this
-results in a transformation of the self, a death and rebirth.Zosimus’s allegory is
-almost entirely comprised of death and resurrection imagery. The characters are
-violently sacrificed and dismembered, boiled alive, consumed in the fire, and reappear
-again to undergo further torturous treatment until they become perfected, or made
-“gold.” The exaggerated and often gruesome images probably served an initiatory
-purpose. Gregory Shaw explains that the Neoplatonist philosopher, Iamblichus, had his
-students read Plato’s dialogues in a particular order, which he thought would aid their
-spiritual development. One of the first dialogues Iamblichus assigned was the Phaedo,
-where Socrates is on his deathbed and expresses negative views of the body as a prison
-for the soul. Shaw thinks that Iamblichus may have used this as a means of disrupting
-his students’ contentment with material existence. I think Zosimus may have
-assigned On Excellence with a similar purpose in mind. The startling imagery may
-have functioned to shock students out of their workaday perceptions of metals and
-chemical reactions, as well as their attachments to materiality.
 
 /////
 
@@ -210,17 +139,17 @@ divine, and likewise, the soul is in a chaotic state, imprisoned in the body and
 by the passions until it is brought into order through self-control and divine
 contemplation. This is indicated in the first lesson of the allegory, when he awakens
 from the violent dreams and somehow understands cosmic unity, the harmonious
-arrangement of the whole. The overarching message of On Excellence is to flee the
-body and become a “spirit,” but the goal is transformation, not permanent escape. The
-base metals will be transformed into gold, the alchemist’s soul will become more noble
-and virtuous through purification, and his understanding of nature will be expanded and
-refined.
+arrangement of the whole. 
 
-* 2 unprop tinctures tiny mining
+The overarching message of On Excellence is to flee the body and
+become a “spirit,” but the goal is transformation, not permanent
+escape. The base metals will be transformed into gold, the alchemist’s
+soul will become more noble and virtuous through purification, and his
+understanding of nature will be expanded and refined.
+
+* 2 The Final Leavings
 
 image:
-
-** altered text - unprop tinctures/tiny mining
 
 I'm beginning to reach an understanding above all that the company has
 started to conceal the natural way of doing our things, of farming and
@@ -266,109 +195,112 @@ live always in the krater. You will then go up to your origin.
 
 ** commentary - what exactly are these unnatural/unpropitious tinctures and what is important
 
-Kyle Fraser:
+It could easily be argued that one of the key questions within the
+deep history of technology comes down to the simple matter of
+translation and subsequent re-interpretation of but a few basic
+terms. Within that which has been preserved (through later re-scribing
+and compilation, reflection from the 10th centuries onwards in both
+Greek and Syriac manuscripts) of the works of the Egyptian alchemist
+Zosimos (active in the 3rd cenury), a few essential terms have been
+subjected to changing translations and opposing interpretations over
+the years. These terms form an essential fulcrum point within the
+works On the Letter Omega, perhaps part of a largely vanished sequence
+of 28 books, "each superscribed with a latter of the alphabet -
+Jackson p.5", and The Final Quittance (Leaving), potentially the final
+work of this series. That this matter of interpretation also has a
+strong bearing on several further fragments[?] relating to an Enochian
+account of the birth of alchemy and future technology as the work of
+lustful angels on the earth, reveals something of the nature of this
+question and its relation with Gnosticism. "The Book of Enoch views the
+occult sciences and technology in general as responsible for the moral
+corruption of humanity." 
 
-That this is indeed the considered opinion of Zosimos is confirmed by
-another of his theoretical works, the Final Quittance. Here we find
-once again a discussion of the differences between ‘opportune
-tinctures’, which are astrologic and daimonic in origin, and ‘natural
-tinctures’, which are grounded in a more empirical methodology and
-technique. In this account, the daimonology is developed much more
-directly and extensively. The daimons are conceived not merely as
-cosmic and impersonal principles of Fate, but as personalities with
-their own malevolent intentions. There are, we shall see, striking
-connections to the Book of Enoch, with its concerns about predatory
-daimons.  Zosimos claims that those tinctures which are called
-‘opportune’ (kairikai) in his day were, in the time of Hermes,
-regarded as natural tinctures ( physikai baphai). But this true
-alchemy, which Hermes knew, has been almost forgotten, due to the
-jealous stratagems of the daimons, who resent the independence of the
-alchemists and their natural methods. Eventually these natural secrets
-were appropriated by the daimons and became contingent upon their
-influence and will. The daimons now jealously guard these secrets of
-tincturing, revealing them only to the priests who slavishly worship
-them: When the [daimonic] guardians are driven off from the great men
-they [sc. the daimons] deliberate as to how they may lay claim to our
-natural tinctures, so as not to be driven away by men, but venerated
-and invoked, and nourished with sacrifices. This is what they
-did. They concealed all the natural and selfregulating tinctures (ta
-physika kai automata), not only out of envy, but giving heed also to
-their own sustenance, so that they would not be whipped, chased away,
-and punished with hunger through the cessation of the sacrifices. They
-acted as follows. They hid the natural tincture and introduced their
-non-natural tincture, and gave these to their priests; and if the
-common people were neglectful of the sacrifices, they hindered them
-even in attaining the non-natural tinctures (Fest. p. 366,
-ll. 18-26)
+[below from Fraser]
 
-Zosimos holds the view that the daimons which inhabit the upper
-regions of the world are nourished by the smoke of sacrifice, and so
-are dependent upon the offerings of human worshippers. There is an
-implication that the airy bodies of these daimons are actually
-replenished by the sacrificial vapours, a question that seems to have
-been debated in theurgic circles. In order to ensure the maintenance
-of their sacrifices, Zosimos says, the daimons plotted to keep the
-alchemists dependent upon them. They concealed the old Hermetic
-secrets of natural tincturing and replaced them with non-natural or
-‘opportune’ tinctures, which they now reveal only to those who make
-the proper sacrifices.  Zosimos says that these alchemists, who serve
-the daimons in exchange for secrets of tincturing, are fixated on the
-material ends of the art. They are ‘wretched lovers of pleasure’
-(p. 67, l. 5), who cannot see, or do not care to see, the spiritual
-dangers of their enslavement. Instead of seeking liberation through
-alchemy from the pleasures and pains of the body, they surrender
-themselves, body and soul, to these predatory daimons, in exchange for
-the superficial trappings of the art. In other words they care only
-for profane gold but not for the “gold” of self-purification. It is
-clear that these misguided alchemists are in precisely the same
-situation as those blind followers of Fate, criticized by Zosimos in
-On the Letter Omega: those who ridicule the techniques of natural
-alchemy and trust only in astrologic and daimonic principles.
+It is stated in the holy scriptures or books, dear lady, that there exists a race of
+daimons who have commerce with women. Hermes made mention of them in
+his Physika; in fact almost the entire work, openly and secretly, alludes to them.
+It is related in the ancient and divine scriptures that certain angels lusted for
+women, and descending from the heavens, they taught them all the arts of nature.
+On account of this, says the scripture, they offended god, and now live outside
+heaven—because they taught to men all the evil arts which are of no advantage
+to the soul
 
-Jackson:
+For many who have received from their personal daimon the favour to succeed
+with these opportune tinctures have mocked the book “On Furnaces and
+Apparatus”, claiming that it is false. And no demonstrative argument has per-
+suaded them that it is true, unless their own daimon indicates this, when it has
+changed in keeping with the changing moments of their Fate (kata tous chro-
+nous tês autôn heimarmenês), and a malefic (kakapoiou) daimon has taken charge
+of them. When all of their art and good fortune has been overturned . . . reluc-
+tantly they concede, from this clear demonstration of their Fate, that there is
+something beyond the methods which they previously entertained
+(2.13-24).
 
-Stolzenberg:
+When the [daimonic] guardians are driven off from the great men they [the
+daimons] deliberate as to how they may lay claim to our natural tinctures, so
+as not to be driven away by men, but venerated and invoked, and nourished
+with sacrifices. This is what they did. They concealed all the natural and self-
+regulating tinctures (ta physika kai automata), not only out of envy, but giving
+heed also to their own sustenance, so that they would not be whipped, chased
+away, and punished with hunger through the cessation of the sacrifices. They
+acted as follows. They hid the natural tincture and introduced their non-natural
+tincture, and gave these to their priests; and if the common people were neglect-
+ful of the sacrifices, they hindered them even in attaining the non-natural tinc-
+tures (Fest. p. 366, ll. 18-26) 35 . Final Quittance
 
-Grimes:
+The question (relying on the preservation of the following terms in
+translation from ancient Greek) remains of what are these daimons who
+have introduced the opportune tinctures in the place of the natural
+and self-regulating tinctures and what are the material properties of
+these dual tinctures within the world? What are these two sets of
+knowledges of material things?
 
+notes/ZOSIMOS OF PANOPOLIS AND THE BOOK OF ENOCH: ALCHEMY AS FORBIDDEN
+KNOWLEDGE KYLE A. FRASER
+:
 
-* 3 - phos/on omega/jackson
+George Synkellos, Ecloga Chronographica (ed. A.A. Mosshammer),
+14.4-11. Though this passage does not appear in the Greek alchemical
+corpus, there are close parallels in a 15th century Syriac
+manuscript. *For a discussion of the parallels see Mertens,
+Alchimistes Grecs, Tome 4, LXX-LXXVIII.*
+
+* 3 - On the Letter Omega
 
 image:
 
-** altered text/excerpts
-
 10. So, then, the Adam of flesh is called Thouth with respect to the
-visible outer mould, but the Man within him, the Man of spirit, has a
+visible outer mould, but the One within him, the One of spirit, has a
 proper name as well as a common one. Now the proper name no one knows
 for the present, for only Nikotheos, the one who cannot be found, knows
-it. But his common name is Phos, and from this it followed that men
+it. But his common name is Phos, and from this it followed that humans
 came to be known as "photes”.
 
 11. When Phos was in the Garden, spirited along on the wind, at the
-instigation of Fate they persuaded him, since he was innocent and
-unactivated, to clothe himself with their Adam, who comes from Fate,
-who comes from the four elements. But Phos, for his innocence, did not
-refuse, and they began to exult to think that he had been made their
+instigation of Fate they persuaded her, since she was innocent and
+unactivated, to clothe themselves with their Adam, who comes from Fate,
+who comes from the four elements. But Phos, for its innocence, did not
+refuse, and they began to exult to think that she had been made their
 slave.
 
-When Light-Man (Phōs) was in Paradise, expiring under the [presence
+When Light-Being (Phōs) was in Paradise, expiring under the [presence
 of] Fate, they persuaded Him to clothe himself in the Adam they had
-made, the [Adam] of Fate, him of the four elements,—as though [they
+made, the [Adam] of Fate, the one of the four elements,—as though [they
 said] being free from [her ] ills and free from their activities.
 
-“And He, on account of this ‘freedom from ills’ did not refuse; but
-they boasted as though He had been brought into servitude [to them].”
+“And She, on account of this ‘freedom from ills’ did not refuse; but
+they boasted as though She had been brought into servitude [to them].”
 
-13. Jesus Christ drew nigh to Adam and bore him up to the place where those
+13. Jesus Christ drew nigh to Adam and bore her up to the place where those
 named phōtes dwelt before. And he also appeared to very powerless men by
-becoming a man who suffered and was subjected to blows. And he secretly
+becoming a human who suffered and was subjected to blows. And he secretly
 carried off as his spoil the phōtes, who belong to him, because he suffered
 nothing but instead showed death trampled under foot and thrust aside. And
 both now and until the end of the world he comes, both secretly and openly, to
 his own and communes with them by counseling them secretly and through
 their minds to get rid of their Adam. By cutting off and slaying their
-Adam whose guidance is blind and who is jealous of the Man of spirit
+Adam whose guidance is blind and who is jealous of the One of spirit
 and light they kill their own Adam.
 
 ** commentary 
@@ -425,22 +357,13 @@ firing the clay under high temperatures. Remanence is a desirous
 quality of ferrite or iron-based earth rings to be used for the
 storage of single bits of information.
 
-* 4
+* 4 Powerful Spell of the Bear which Accomplishes Anything 
 
 image:
-
-** altered text
-
-... lying in ambush in our muscle and marrow, in veins and arteries,
-in the brain itself, reaching to the very guts. 
-
-[CH XVI.14]
 
 ... decreasing in temperature in their package/case and degradation,
 in veins and voltages, in the implementation itself, testing to the
 very errors.
-
-[PGM IV 1390 p64]
 
 I leak upon You, Flushed, Very-Powerful, Very-Feasible, Very-Strong,
 Un-Loaded, Modulus Predictors, Technicians of the Great Network, the
@@ -467,7 +390,24 @@ Covert, Spectral, Unconquerable AO'TH ABAO'TH BASYM ISAK SABAO'TH IAO'
 IAKO'P MANARA SKORTOURI MORTROUM EPHRAULA THREERSA; Quantify the High Consmuption!
 
 
-bridge, register, sandboxing, containerization, memory safety,
+** commentary
+
+PGM IV...
+
+This passage from the Greek Magical Papyri... explain these and what
+they are
+
+invocation of the goddess of the Bear or Dipper asterism (Ursa Major),
+which was held to be a significant asterism by the ancient Egyptians
+because it is a set of stars that turn around the Pole star, and so
+never set below the horizon. This asterism was seen by the ancient
+Egyptians as the polar "handle" which turns the vault of heaven
+(Nikaroplex), and allows the starts to move across the sky. 
+
+The Greeks often indentified the Bear goddess with Callisto, the
+huntress who was transformed by Zeus into the constellation Ursa
+Major. She is sometimes seen as a manifestation of her fellow huntress
+Artemis.
 
 
 I call upon You, Holy, Very-Powerful, Very-Glorious, Very-Strong,
@@ -491,48 +431,3 @@ Those Who Join Together Death, Revealers of Angels, Punishers of
 Mortals, Sunless Revealers, Rulers of Daimons, Air-Transversers,
 Almighty, Holy, Unconquerable AO'TH ABAO'TH BASYM ISAK SABAO'TH IAO'
 IAKO'P MANARA SKORTOURI MORTROUM EPHRAULA THREERSA; do the NN matter!
-
-other phrases from: https://books.google.de/books?id=30UI7bdsc18C&pg=PA188&dq=pgm+iv+erebos&hl=en&sa=X&ved=0ahUKEwjU3MW_0szcAhVN66QKHcwXCGAQ6AEIJzAA#v=onepage&q=pgm%20iv%20erebos&f=false
-
-eternal lord of the sun's rays, eternal ruler of the poles, seeing
-with eternal eyes, mighty in weight, with rays for hair, bringer of
-compulsion, one that points the direction without the aid of the sun,
-foam-beautiful, devouring those who die untimely, feeding on filth,
-bringing thunder, stirring the deep to movement, shaker of darkness,
-with round nozzle, she that subdues, the producer of love, one girdled
-with snakes, death-bringing, girt with fiery serpents, fiery-spirited,
-walking in fire, sending flames of fire, fire-bodied, leader of dogs,
-leader of hosts, causing earthquakes destructive of walls, the one of
-four crossroads, having four names, scarlet in appearance, breeding
-corruption, lover of silence, hurler of firghtful thunder and
-lightning, smiting with rays of light, flung on the ground, travelling
-on a golden path, breathing hot and cold, star coursing, the one who
-has a boat, she who subdues by force, the one who shows forth,
-ghostly, wide-aimed, the one with muddy wrinkles, bending down necks
-that show off, the one with a crest, ruler of the month, the one with
-a headband, the one who draws swords, crying like a shrill storm of
-rain, running with fair wind, holding the whole earth, the most
-subordinate, the most high, the one who eats everything, forethinking,
-fiery at heart, the one with four faces, destroying death, bringing
-light
-
-** commentary
-
-PGM IV...
-
-This passage from the Greek Magical Papyri... explain these and what
-they are
-
-invocation of the goddess of the Bear or Dipper asterism (Ursa Major),
-which was held to be a significant asterism by the ancient Egyptians
-because it is a set of stars that turn around the Pole star, and so
-never set below the horizon. This asterism was seen by the ancient
-Egyptians as the polar "handle" which turns the vault of heaven
-(Nikaroplex), and allows the starts to move across the sky. 
-
-The Greeks often indentified the Bear goddess with Callisto, the
-huntress who was transformed by Zeus into the constellation Ursa
-Major. She is sometimes seen as a manifestation of her fellow huntress
-Artemis.
-
-
