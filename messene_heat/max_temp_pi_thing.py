@@ -220,7 +220,8 @@ def stress_cpu(num_cpus, time):
 def coolit():
         # run the fan controlled by pin xx
         GPIO.output(FANPIN, GPIO.LOW)
-
+        time.sleep(1)
+        
 def get_cpu_temperature():
         """get cpu temperature using vcgencmd"""
         process = Popen(['vcgencmd', 'measure_temp'], stdout=PIPE)
@@ -258,11 +259,12 @@ if __name__ == "__main__":
  
         # and we should also turn the fan on for this period and measurement
         print "Waiting 10 seconds to reach stable temp"
-        #        time.sleep(10) # to reach usual temp maybe
-
         coolit()
+        time.sleep(10) # to reach usual temp maybe
         x=0
         while (x<100): # read 100 values
+                arduinoSerial.write("O")
+                time.sleep(0.1)
                 if(arduinoSerial.inWaiting()>0):
                         myData = arduinoSerial.readline() # temp will be *100 so int - how much accuracy?
                         try:
@@ -282,13 +284,16 @@ if __name__ == "__main__":
         maxed=8000
         ourscaler=(maxed-lowest)/255
         
-        for temps in scaler:
+        for temps in scaler: # show how many values we have read so far
 	        # tempC = max.readTemp()
                 # print tempC
                 desiredtemp=temps*ourscaler
                 # read value from array representing temperature adjusted/scaled from 0->255
                 # adjust this to our new scale and get desired temperature
                 while (abs(desiredtemp-realtemp)>4):
+                        # we need to request from arduino
+                        arduinoSerial.write("O")
+                        time.sleep(0.1)
                         if(arduinoSerial.inWaiting()>0):
                                 myData = arduinoSerial.readline()
                                 try:
@@ -301,7 +306,7 @@ if __name__ == "__main__":
                                                 ffff.write(str(float(myData)/100.0) + '\n')
                                                 # are we there - if we are too high turn on fan, if too low run sqrt
                                                 if (desiredtemp<realtemp):
-                                                        coolit()
+                                                        coolit() # add delay of 1 too coolit
                                                 elif (desiredtemp>realtemp):
                                                         GPIO.output(FANPIN, GPIO.HIGH)
                                                         # sqrt thing - not so successful
