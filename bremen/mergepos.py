@@ -25,7 +25,7 @@ sens = [word.lower()
 crash = []
 for sen in sens:
 	crash += nltk.pos_tag(nltk.word_tokenize(sen))
-        crash += ("XXXXX",)
+#        crash += ("XXXXX",)
 #print crash
 
 train_txt = open("sidechannelheat.txt").read()
@@ -70,7 +70,7 @@ for x in range(100):
                 newword = newword.replace(ch,"")
         out += newword + " "
     print out+"\n\n"
-    print x
+    #print x
     
 # outfile = open("crashpaget002", "w")
 # outfile.write(out)
