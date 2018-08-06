@@ -533,4 +533,32 @@ for i in range(0,6):
 - with PT100 ref board and older MAX31865 py/pi code we have working
   temperature measurement increasing own temp and we test with sqrt code: see pngs here...
 
-- next test sqrt to smoke and cpu reflection of recorded temperature: max_temp_pi_thing.py
+- test sqrt to smoke / arduino code
+
+- and cpu reflection of recorded temperature: max_temp_pi_thing.py - working but need to see how high we can get temps...
+
+: while true; do vcgencmd measure_clock arm; vcgencmd measure_temp; sleep 10; done& stress -c 4 -t 900s
+
+- overclocking: edit sudo nano /boot/config.txt - uncomment arm_freq=1300 # CPU Frequency 
+
+https://howtoraspberrypi.com/how-to-overclock-raspberry-pi/
+
+- IRF540 on GPIO pin 2 to control fan:
+
+G-GPIO .. D=pull thru power .. -S-GND
+
+use 2n3904 to achieve higher gate voltage EBC...
+
+https://electronics.stackexchange.com/questions/109128/why-is-my-n-channel-mosfet-getting-very-hot-and-the-power-it-provides-to-device
+
+note now HIGH=OFF
+
+- myc/other ordering:
+
+see mycelium_pcb_bom_.txt
+
+additional + for myc: pt100, pt100 brekaout (ebay), light sensor, AD5933, AD620
+
++ for all_colours/other: 7490, light sensor for laser (BPW34), cheap multimeter, LED parts: 
+
+led lens: Mouser VCC 593-3000R (red), 593-3000A (amber) , red/amber 5mm LED

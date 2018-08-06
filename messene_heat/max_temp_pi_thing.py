@@ -7,6 +7,8 @@
 # UNTESTED
 # we may need to overclock pi to reach high temps
 
+# fan on pin 3 = GPIO pin 2
+
 #The MIT License (MIT)
 #
 #Copyright (c) 2015 Stephen P. Smith
@@ -31,7 +33,11 @@
 
 import time, math, csv, serial, random
 import RPi.GPIO as GPIO
+from subprocess import Popen, PIPE
+import subprocess
 #import numpy
+
+FANPIN = 2
 
 class max31865(object):
 	"""Reading Temperature from the MAX31865 with GPIO using 
@@ -205,9 +211,15 @@ class max31865(object):
 class FaultError(Exception):
 	pass
 
+def stress_cpu(num_cpus, time):
+    subprocess.check_call(
+        ["stress", "--cpu", str(num_cpus), "--timeout", "{}s".format(time)]
+    )
+    return
+
 def coolit():
         # run the fan controlled by pin xx
-        print "cool it"
+        GPIO.output(FANPIN, GPIO.LOW)
 
 def get_cpu_temperature():
         """get cpu temperature using vcgencmd"""
@@ -218,16 +230,24 @@ def get_cpu_temperature():
 if __name__ == "__main__":
 
         
-	import max31865
-        realtemp=0
+        #	import max31865
+        realtemp=100
+        desiredtemp=1000
         lowest=20000
 	csPin = 8
 	misoPin = 9
 	mosiPin = 10
 	clkPin = 11
-	max = max31865.max31865(csPin,misoPin,mosiPin,clkPin)
-        arduinoSerial = serial.Serial('/dev/ttyACM0',9600)
+        #	max = max31865.max31865(csPin,misoPin,mosiPin,clkPin)
+        arduinoSerial = serial.Serial('/dev/ttyACM0',115200)
 
+        # set up fan on pin 3 / GPIO 2
+        GPIO.setwarnings(False)
+	GPIO.setmode(GPIO.BCM)
+	GPIO.setup(FANPIN, GPIO.OUT)
+        # file to write temps
+        ffff = open('temp_follower', 'w')
+        
         # read temperatures from logfile/csv
         scaler=[]
 
@@ -237,24 +257,30 @@ if __name__ == "__main__":
                         scaler.append(int(row[1])) # first row to test...
  
         # and we should also turn the fan on for this period and measurement
-        
-        time.sleep(10) # to reach usual temp maybe
+        print "Waiting 10 seconds to reach stable temp"
+        #        time.sleep(10) # to reach usual temp maybe
 
-        while(notyet<100): # read 100 values
+        coolit()
+        x=0
+        while (x<100): # read 100 values
                 if(arduinoSerial.inWaiting()>0):
                         myData = arduinoSerial.readline() # temp will be *100 so int - how much accuracy?
-                        print int(myData)
-                        notyet+=1
-                        if int(myData)<lowest:
-                                lowest=int(myData)
-                        
+                        try:
+                                int(myData)
+                                print int(myData)
+                                if int(myData)<lowest and x>0:
+                                        lowest=int(myData)                                                        
+                                x+=1
+                        except:
+                                print "xx"
+                                        
         # start with lowest temperature - this will be our zero
         print "Lowest: ", lowest
         
         # how hot can we go? we need to measure this beforehand...
-        # so our range is 0->let's say 85
-        maxed=85
-        ourscaler=255/(maxed-lowest)
+        # so our range is 0->let's say 80
+        maxed=8000
+        ourscaler=(maxed-lowest)/255
         
         for temps in scaler:
 	        # tempC = max.readTemp()
@@ -262,24 +288,33 @@ if __name__ == "__main__":
                 desiredtemp=temps*ourscaler
                 # read value from array representing temperature adjusted/scaled from 0->255
                 # adjust this to our new scale and get desired temperature
-                while (desiredtemp!= realtemp):
+                while (abs(desiredtemp-realtemp)>4):
                         if(arduinoSerial.inWaiting()>0):
                                 myData = arduinoSerial.readline()
-                                realtemp=int(myData)-lowest
-                                # also get cpu temp to compare...
-                                cputemp=get_cpu_temperature()
-                                print "cpu", cputemp, "temp", int(myData), "realtemp", realtemp, "desired", desired;
-                        # are we there - if we are too high turn on fan, if too low run sqrt
-                        if (desiredtemp<realtemp):
-                                coolit()
-                        else if (desiredtemp>realtemp):
-                                # sqrt thing
-                                for x in range(100):
-                                        tobe=random.random()
-                                        xx=sqrt(tobe)
-
+                                try:
+                                        if int(myData)>1000:
+                                                realtemp=int(myData)-lowest
+                                                # also get cpu temp to compare...
+                                                cputemp=get_cpu_temperature()
+                                                print "cpu", cputemp, "temp", int(myData), "realtemp", realtemp, "desired", desiredtemp;
+                                                # record int(mydata)/100 to file
+                                                ffff.write(str(float(myData)/100.0) + '\n')
+                                                # are we there - if we are too high turn on fan, if too low run sqrt
+                                                if (desiredtemp<realtemp):
+                                                        coolit()
+                                                elif (desiredtemp>realtemp):
+                                                        GPIO.output(FANPIN, GPIO.HIGH)
+                                                        # sqrt thing - not so successful
+                                                        # for x in range(10000):
+                                                        #         tobe=random.random()
+                                                        #         tobee=random.random()
+                                                        #         xx=math.sqrt(tobe**tobee)
+                                                        stress_cpu(4, time=1)
+                                except:
+                                        print "error state"
+                                
                 # just realized that we run sqrt/temp calc will change temperature anyways in feedback loop
                 # so we need to outsource to arduino and get from serial!
                 # but we could use for feedback temperature // output also on serial > FET/arduino
                 
-	GPIO.cleanup()
+        GPIO.cleanup()

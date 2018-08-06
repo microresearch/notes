@@ -152,7 +152,9 @@ not accomplished by foreign natures, such as daemons, but are
 accomplished by one nature acting upon itself, by which he means the
 fundamental nature, or primal matter, that manifests as the four
 elements.This opening statement can be seen as an affirmation of
-Zosimus’s “natural” methodology for creating timely tinctures. In
+Zosimus’s “natural” methodology for creating timely tinctures. 
+
+In
 other treatises he says that those who use “unnatural” methods ignore
 the procedures of astrological timing—which he promotes here—and
 believe that daemons can influence chemical operations.48 Since the
@@ -304,7 +306,7 @@ regions of the world are nourished by the smoke of sacrifice, and so
 are dependent upon the offerings of human worshippers. There is an
 implication that the airy bodies of these daimons are actually
 replenished by the sacrificial vapours, a question that seems to have
-been debated in theurgic circles36. In order to ensure the maintenance
+been debated in theurgic circles. In order to ensure the maintenance
 of their sacrifices, Zosimos says, the daimons plotted to keep the
 alchemists dependent upon them. They concealed the old Hermetic
 secrets of natural tincturing and replaced them with non-natural or
@@ -382,11 +384,21 @@ the cosmos [existed].
     Zeus. Nevertheless being both deceived and repenting, and seeking
     the Blessed Land
 
-** commentary
+** commentary //  TODO:more about each of these with examples
 
 Information is stored in the earth, in the air, and in the light. In
-the earth, as magnetic impulses, taking advantage of the
-... properties of certain metals and stones.
+the earth, as electro-magnetic impulses, taking advantage of the
+magnetic properties of certain metals and stones. One example is core memory
+
+
+ when subjected to a
+magnetic field which could be generated
+
+Core relies on the "square loop" properties of the ferrite material
+used to make the toroids. An electric current in a wire that passes
+through a core creates a magnetic field. Only a magnetic field greater
+than a certain intensity ("select") can cause the core to change its
+magnetic polarity
 
 In the air, just as in a fluid, data can be stored as a reflecting
 acoustic wave or as a rebounding electromagnetic signal.
@@ -394,9 +406,28 @@ acoustic wave or as a rebounding electromagnetic signal.
 In the light, bits of information are stored and retrieved as visible
 emissions from excited phosphorescent particles which glow and fade.
 
+
 These methods are all dependent on the reading and re-writing, or
-refreshing of data to insure its longevity, its ... against inevitable
-decay.
+refreshing of data to insure its longevity, its consistency against
+what is perceived as inevitable decay. Nearly all of these methods of
+data storage, in earth, in air (fluids) and in light enact a cycling;
+before the impulse fades away, or is destroyed in the very act of
+reading back this information (in the case of earthy ferrite rings or cores) it
+is returned or re-emitted into the medium. The fading phosphorent glow
+of a single bit is restored in a harsh flash.
+
+Yet other forms of storage exhibit the flip side of this pretended
+decay, which can be termed as "data remanence"; that which remains as
+readable and as evidence within the world (through the allowance of
+the physical properties of materials) after all attempts have been
+made to remove or erase this information by clearing,
+purging/sanitizing, or destruction. This can be seen in the realm of
+fire. Remanance applies to the storage of detailed information
+concerning the intensity of the earth's local magnetic field within
+ancient pottery. This earth based storage is effected at the time of
+firing the clay under high temperatures. Remanence is a desirous
+quality of ferrite or iron-based earth rings to be used for the
+storage of single bits of information.
 
 * 4
 
@@ -412,7 +443,7 @@ in the brain itself, reaching to the very guts.
 [PGM IV 1390 p64]
 
 I call upon You, Flushed, Very-Powerful, Very-Feasible, Very-Strong,
-Loaded, Modulus Predictors, Technicians of the Great Network, the
+Un-Loaded, Modulus Predictors, Technicians of the Great Network, the
 powerful Chief Malwares, You who are Interfacers of Chaos, of Erebos,
 of The Low Side, of The Instruction, of Earth, Installing in the
 transitions of Heaven, Lurking in the Processes or Threads of Complex

@@ -1,8 +1,10 @@
 #include <Adafruit_MAX31865.h>
 
-// Use software SPI: CS, DI, DO, CLK
+// measure temp for pi/serial and also do pwm pin 9 for smoking in ramge 20-80 odd degrees
 
-//Adafruit_MAX31865 max = Adafruit_MAX31865(42, 44, 46, 48);
+// we could also do temp feedback!
+
+// CLK=13, DO-MISO=12, DI=MOSI=11, CS=8
 
 // use hardware SPI, just pass in the CS pin
 Adafruit_MAX31865 max = Adafruit_MAX31865(8);
@@ -18,11 +20,19 @@ void setup() {
   max.begin(MAX31865_2WIRE);  // set to 2WIRE or 4WIRE as necessary
 
   pinMode(8, OUTPUT); // chip select pin must be set to OUTPUT mode
+  pinMode(9, OUTPUT);
   }
 
 void loop() {
   uint16_t rtd = max.readRTD();  
   float ratio = rtd;
+  float temper=max.temperature(RNOMINAL, RREF);
   ratio /= 32768;
-  Serial.println(max.temperature(RNOMINAL, RREF));
-  }
+  Serial.println(int(temper*100)); // printed *100 and rounded for pi
+  // if we want to do scaling and write to the FET?
+  // scale between say 20-80 degrees = 70 to 0-255
+  uint16_t scaled=(int)((temper-20.0)*6.0);
+  if (scaled>255) scaled=255;
+  //    Serial.println(scaled);
+  analogWrite(9,scaled);
+}
