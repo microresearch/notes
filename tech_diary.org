@@ -527,3 +527,10 @@ for i in range(0,6):
     print("Temperature:",round(CallendarVanDusen(R),2), "deg. C\n")
     sleep(1)
 #END_SRC
+
+* 6/8
+
+- with PT100 ref board and older MAX31865 py/pi code we have working
+  temperature measurement increasing own temp and we test with sqrt code: see pngs here...
+
+- next test sqrt to smoke and cpu reflection of recorded temperature: max_temp_pi_thing.py

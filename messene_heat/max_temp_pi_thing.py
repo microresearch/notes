@@ -234,8 +234,8 @@ if __name__ == "__main__":
         with open('monkxy') as f:
                 reader = csv.reader(f)
                 for row in reader:
-                        scaler.append(int(row[0]))
-
+                        scaler.append(int(row[1])) # first row to test...
+ 
         # and we should also turn the fan on for this period and measurement
         
         time.sleep(10) # to reach usual temp maybe
@@ -249,6 +249,7 @@ if __name__ == "__main__":
                                 lowest=int(myData)
                         
         # start with lowest temperature - this will be our zero
+        print "Lowest: ", lowest
         
         # how hot can we go? we need to measure this beforehand...
         # so our range is 0->let's say 85
