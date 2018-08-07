@@ -557,8 +557,14 @@ note now HIGH=OFF
 
 see mycelium_pcb_bom_.txt
 
-additional + for myc: pt100, pt100 brekaout (ebay), light sensor, AD5933, AD620
+additional + for myc: pt100, pt100 breakout (ebay), light sensor, AD5933, AD620
+
++ 430 ohm for temperature/MAX
 
 + for all_colours/other: 7490, light sensor for laser (BPW34), cheap multimeter, LED parts: 
 
 led lens: Mouser VCC 593-3000R (red), 593-3000A (amber) , red/amber 5mm LED
+
+* 7/8
+
+- C-c C-x f for adding footnotes in org-mode

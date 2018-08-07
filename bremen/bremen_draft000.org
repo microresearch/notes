@@ -1,6 +1,7 @@
 * notes
 
-re-order and remove some commentary as not needed // as seperate
+re-order and remove some commentary as not needed // as seperate - or
+mostly as footnotes...
 
 * 1 - On Excellence
 
@@ -55,142 +56,138 @@ circulatory vessel within which nine vessels are depicted as being
 linked by gold chains and each link describes a certain process within
 the vessel.
 
-** commentary ? jung? or introduce Zosimos // Grimes also
+** commentary - as footnotes 
 
-Alan can be identified here as Alan Turing, ....
+Alan can be clearly identified here as Alan Turing, the sacrificial
+man of copper and the man of gold, referring to both his assured place
+within the history of communications and computing technologies and
+his apparent suicide through the ingestion of cyanide borrowed from an
+experiment he was running in gold electrolysis. Cyanide is used in the
+industrial extraction of gold from low grade ores.
 
-cyanide/gold story
+His housekeeper famously found the 41-year-old mathematician dead in
+his bed, with a half-eaten apple on his bedside table. It is widely
+said that Turing had been haunted by the story of the poisoned apple
+in the fairy tale of Snow White and the Seven Dwarfs, and had resorted
+to the same desperate measure to end the persecution he was suffering
+as a result of his homosexuality. Apple seeds contain small amounts of
+cyanide. The Apple logo is rumoured to have been inspired either by
+the forbidden fruit (of knowledge) within the garden or Eden, or by
+this terminal episode.
 
 The reference to Alan as Astrata originates in a mis-hearing, or
-mis-spelling of the name of a large company concerned with the
-recycling of copper and precious metals from a wide-range of feeds,
-including copper and precious metal bearing electronic equipment. This
-company could not have been Glencore recycling, operator of the Horne
-Smelter in Rouyn-Noranda, Quebec, the world's largest processor of
-electronic scrap containing copper and precious metals. Astrata leads
-us to Astarte, 
+mis-spelling of the name of a global company concerned with the
+recycling from a wide-range of feeds, including copper and precious
+metal bearing electronic equipment. This company could not have been
+Glen-Core recycling, operator of the Horne Smelter in Rouyn-Noranda,
+Quebec, the world's largest processor of electronic scrap containing
+copper and precious metals. Astrata leads us to Astarte, or Astoreth,
+the ancient Phoenician great goddess of fertility, motherhood, and
+war, and counterpart of the Babylonian goddess Ishtar.
 
-https://en.wikipedia.org/wiki/Astarte
-
-
-the connection with the astral, the star, aster, asterism -> constellations
-
-astrata, asterism
-
-reference to the constellations: Corvus, Regulus, and Ursa Major
-
-Corvus is associated with the myth of Apollo and his lover Coronis the
-Lapith. Coronis had been unfaithful to Apollo; when he learned this
-information from a pure white crow, he turned its feathers black in a
-fit of rage
-
-*** Grimes
-
-On Excellence: Lesson One
-
-In the opening lines of Lesson One, Zosimus states his alchemical
-premises for the reader: The composition of waters, the movement,
-growth, removal, and restitution of corporeal nature, the separation
-of the spirit from the body, and the fixation of the spirit on the
-body are not due to foreign natures, but to one single nature reacting
-on itself, a single species, such as the hard bodies of metals and the
-moist juices of plants.  And in this system, single and of many
-colors, is comprised a research, multiple and varied, subordinated to
-lunar influences and to the measure of time, which rule the end and
-the increase according to which the nature transforms itself. The
-language of “spirits” and “bodies” refers to the separation of
-volatile substances (spirits) from their metallic bodies, probably by
-means of distillation, and to fixing colors—also known as
-“spirits”—upon a substance. Zosimus insists that these processes are
-not accomplished by foreign natures, such as daemons, but are
-accomplished by one nature acting upon itself, by which he means the
-fundamental nature, or primal matter, that manifests as the four
-elements.
-
-This opening statement can be seen as an affirmation of Zosimus’s
-“natural” methodology for creating timely tinctures.
-
-In
-other treatises he says that those who use “unnatural” methods ignore
-the procedures of astrological timing—which he promotes here—and
-believe that daemons can influence chemical operations.
-
-Since the spirits of metals are personified in this allegory and can
-be easily confused with daemons, Zosimus’s declaration of his
-methodological orientation helps to prevent such interpretive errors.
-At this point, Zosimus enters into a dream and sees a “sacrificing
-priest” presiding over an altar shaped like a phial (phialē), which is
-a technical term for the dome-shaped covers of various distillatory
-apparatuses, including the kērotakis. He tells Zosimus that he had
-been sacrificed earlier that morning and has survived an “intolerable
-violence”: For one came headlong in the morning, dismembering me with
-a sword, and tearing me asunder according to the rigor of harmony. And
-flaying my head with the sword which he held fast, he mingled my bones
-with my flesh and burned them in the fire of the treatment, until I
-learned by the transformation of the body to become a spirit. As the
-priest speaks these words, his eyes fill with blood and he begins
-gnawing off his skin and vomiting up his own flesh. Zosimus awakens
-from this terrifying vision and says, “Is this not the situation of
-the waters?”
-
-The waters are later identified as white and yellow sulfurous (or
-divine) waters. The Greek word for sulfur, theion, also means “divine
-being.”  
-
-
-/////
-
-While materiality is represented as a disturbing, undesirable condition in this
-allegory, this does not mean that Zosimus has a pessimistic view of the world. From a
-demiurgical perspective, matter is chaotic until it is harmoniously arranged by the
-divine, and likewise, the soul is in a chaotic state, imprisoned in the body and agitated
-by the passions until it is brought into order through self-control and divine
-contemplation. This is indicated in the first lesson of the allegory, when he awakens
-from the violent dreams and somehow understands cosmic unity, the harmonious
-arrangement of the whole. 
-
-The overarching message of On Excellence is to flee the body and
-become a “spirit,” but the goal is transformation, not permanent
-escape. The base metals will be transformed into gold, the alchemist’s
-soul will become more noble and virtuous through purification, and his
-understanding of nature will be expanded and refined.
+There is an obvious connection with the astral, the star, aster, and
+asterism, with reference to the following constellations: Corvus,
+Regulus, and Ursa Major. Corvus is associated with the myth of Apollo
+and his lover Coronis the Lapith. Coronis had been unfaithful to
+Apollo; when he learned this information from a pure white crow, he
+turned its feathers black in a fit of rage. This is about a secret
+knowledge, relating also to the ancient Egyptian name of Egypt, khem
+or khm, khame, or khmi, meaning "blackness" from which we can derive
+the Greek term of Khemia, the Arabic Kimiya and thus alchemy and
+chemistry.
 
 * 2 - On the Letter Omega
 
 image:
 
-10. So, then, the Adam of flesh is called Thouth with respect to the
+So, then, the Adam of flesh is called Thouth[fn:3] with respect to the
 visible outer mould, but the One within him, the One of spirit, has a
 proper name as well as a common one. Now the proper name no one knows
 for the present, for only Nikotheos, the one who cannot be found, knows
 it. But his common name is Phos, and from this it followed that humans
-came to be known as "photes”.
+came to be known as "photes”[fn:1].
 
-11. When Phos was in the Garden, spirited along on the wind, at the
+[based on Howard M Jackson]
+
+Thus it is that the sensual Adam is named Thouth according to the
+external patterning. As for the man who is inside Adam, the spiritual
+man, he has simultaneously a personal and a universal name. His
+personal name I have not learned so far; only indeed Nikotheos the
+unmatchable has known it. His universal name is Phos [Light]: hence
+the way of calling men Photes.
+
+[Lindsay]
+
+////
+
+When Phos was in the Garden, spirited along on the wind, at the
 instigation of Fate they persuaded her, since she was innocent and
-unactivated, to clothe themselves with their Adam, who comes from Fate,
-who comes from the four elements. But Phos, for its innocence, did not
-refuse, and they began to exult to think that she had been made their
-slave.
+unactivated, to clothe themselves with the Adam they had made, who
+comes from Fate, who comes from the four elements. But Phos, for its
+innocence, did not refuse, and they began to exult to think that she
+had been made their slave.
+
+[based on Howard M Jackson]
 
 When Light-Being (Phōs) was in Paradise, expiring under the [presence
 of] Fate, they persuaded Him to clothe himself in the Adam they had
 made, the [Adam] of Fate, the one of the four elements,—as though [they
-said] being free from [her ] ills and free from their activities.
+said] being free from [her] ills and free from their activities.
 
-“And She, on account of this ‘freedom from ills’ did not refuse; but
-they boasted as though She had been brought into servitude [to them].”
+And She, on account of this ‘freedom from ills’ did not refuse; but
+they boasted as though She had been brought into servitude [to them].
 
-13. Jesus Christ drew nigh to Adam and bore her up to the place where those
-named phōtes dwelt before. And he also appeared to very powerless men by
-becoming a human who suffered and was subjected to blows. And he secretly
-carried off as his spoil the phōtes, who belong to him, because he suffered
-nothing but instead showed death trampled under foot and thrust aside. And
-both now and until the end of the world he comes, both secretly and openly, to
-his own and communes with them by counseling them secretly and through
-their minds to get rid of their Adam. By cutting off and slaying their
-Adam whose guidance is blind and who is jealous of the One of spirit
-and light they kill their own Adam.
+[Fowden...???]
+
+When Phos was in Paradise breathing in the freshness [the Archontes],
+instigated by Fate, persuaded him, as something harmless and without
+after-effect, to put on the body of Adam which came from their hands,
+which had issued from Fate, which was formed of the Four Elements. He,
+being without guile, did not refuse and they glorified in the thought
+that henceforth they held him in slavery.
+
+[Lindsay]
+
+Now when the Man of Light abode in Paradise, pervaded by the breath of
+Heimarmene, they [the elements] persuaded him, who was without evil
+and free from their activity, to put on the Adam that was with him,
+namely the Adam wrought of the four elements of Heimarmene. And he in
+his innocence did not turn aside; but they boasted that he was their
+slave.
+
+[Jung. Psychology and Alchemy]
+
+/////
+
+By cutting off and slaying their Adam whose guidance is blind and who
+is jealous of the One of spirit and light they kill their own Adam.
+
+[Jackson]
+
+And up to this day, and on till the end of the world, in secret and in
+hidden ways, he comes to those who are his and communicates with them,
+counselling them, in secret and by means of their intellect, to
+separate themselves from their Adam, who blinds them and who grudges
+the spiritual and luminous man.
+
+[Lindsay]
+
+And to this day and to the end of the world he is present in many
+places, both secretly and openly consorting with his own, counselling
+them secretly, yea through their own minds, to suffer confusion with
+the Adam who was with them, that he might be beaten away from them and
+slain, this blind chatterer who is envious of the spiritual Man of
+Light. [Thus] they kill their Adam.
+
+[Jung]
+
+//
+
+Zosimus uses the more gender-neutral term “anthrōpos” when referring
+to the beings of flesh and spirit, but Jackson translates this as
+“man.” Since Zosimus uses male figures as representatives of the
+various manifestations of the Anthropos, I will follow Jackson’s
+translation in order to avoid confusion and cumbersome prose. [Grimes]
 
 ** commentary 
 
@@ -214,7 +211,7 @@ an active amplification of the reflected signal. It is not allowed to
 die out in the air.
 
 On the side of light (*phos*), bits of information are stored and
-retrieved as visible emissions from excited *phosphorescent*
+retrieved as visible emissions from excited *phosphorescent*[fn:2]
 particles, for example on a screen, which glow and fade. Display and
 storage of information are united. For example, the Mellon optical
 memory relied on the bouncing back and forth, the mirroring of
@@ -233,20 +230,20 @@ reading back this information (in the case of earthy ferrite rings or cores) it
 is returned or re-emitted into the medium. The fading phosphorent glow
 of a single bit is restored in a harsh flash.
 
-Yet other forms of storage exhibit the flip side of this pretended
-decay, which can be termed as "data remanence"; that which remains as
-readable and as evidence within the world (through the allowance of
-the physical properties of materials) after all attempts have been
-made to remove or erase this information by clearing,
+Yet other forms of storage exhibit the flipping, zero side of this
+pretended decay, which can be termed as "data remanence"; that which
+remains as readable and as evidence within the world (through the
+allowance of the physical properties of materials) after all attempts
+have been made to remove or erase this information by clearing,
 purging/sanitizing, or destruction. This can be seen in the realm of
-fire. Remanance applies to the storage of detailed information
-concerning the intensity of the earth's local magnetic field within
-ancient pottery. This earth based storage is effected at the time of
-firing the clay under high temperatures. Remanence is a desirous
-quality of ferrite or iron-based earth rings to be used for the
-storage of single bits of information.
+fire. Remanance technically applies to the storage of detailed
+information concerning the intensity of the earth's local magnetic
+field within ancient pottery. This earth based storage is effected at
+the time of firing the clay under high temperatures. Remanence is a
+desirous quality of ferrite or iron-based earth rings to be used for
+the storage of single bits of information within core memories.
 
-* 3 - The Final Leavings
+* 3 - The Final Remanence
 
 image:
 
@@ -300,42 +297,48 @@ translation and subsequent re-interpretation of but a few basic
 terms. Within that which has been preserved (through later re-scribing
 and compilation, reflection from the 10th centuries onwards in both
 Greek and Syriac manuscripts) of the works of the Egyptian alchemist
-Zosimos (active in the 3rd cenury), a few essential terms have been
+Zosimos (active in the 3rd cenury), a few essential concepts have been
 subjected to changing translations and opposing interpretations over
 the years. These terms form an essential fulcrum point within the
 works On the Letter Omega, perhaps part of a largely vanished sequence
-of 28 books, "each superscribed with a latter of the alphabet -
-Jackson p.5", and The Final Quittance (Leaving), potentially the final
-work of this series. That this matter of interpretation also has a
-strong bearing on several further fragments[?] relating to an Enochian
-account of the birth of alchemy and future technology as the work of
-lustful angels on the earth, reveals something of the nature of this
-question and its relation with Gnosticism. "The Book of Enoch views the
-occult sciences and technology in general as responsible for the moral
-corruption of humanity." 
+of 28 books, "each superscribed with a letter of the alphabet -
+Jackson p.5", and The Final Quittance (Leaving or Remanence),
+potentially the last work of this series. That this matter of
+interpretation also has a strong bearing on several further fragments
+relating to an Enochian account of the birth of alchemy and all future
+technologies as the work of lustful angels on the earth, reveals
+something of the nature of this question and its relation with
+Gnosticism. The Book of Enoch views the occult sciences and
+technology in general as responsible for the moral corruption of
+humanity.
 
 [below from Fraser]
 
-It is stated in the holy scriptures or books, dear lady, that there exists a race of
-daimons who have commerce with women. Hermes made mention of them in
-his Physika; in fact almost the entire work, openly and secretly, alludes to them.
-It is related in the ancient and divine scriptures that certain angels lusted for
-women, and descending from the heavens, they taught them all the arts of nature.
-On account of this, says the scripture, they offended god, and now live outside
-heaven—because they taught to men all the evil arts which are of no advantage
-to the soul
+It is stated in the holy scriptures or books, dear lady, that there
+exists a race of daimons who have commerce with women. Hermes made
+mention of them in his Physika; in fact almost the entire work, openly
+and secretly, alludes to them.  It is related in the ancient and
+divine scriptures that certain angels lusted for women, and descending
+from the heavens, they taught them all the arts of nature.  On account
+of this, says the scripture, they offended god, and now live outside
+heaven—because they taught to men all the evil arts which are of no
+advantage to the soul.
+
+[Fraser - Synkellos - Fest p. 256. the 9th century Byzantine
+chronicler, presents this fragment from Zosimos - see Merten note
+below...]
 
 For many who have received from their personal daimon the favour to
 succeed with these opportune tinctures [kairikai katabaphai] have
 mocked the book “On Furnaces and Apparatus”, claiming that it is
-false. And no demonstrative argument has per- suaded them that it is
+false. And no demonstrative argument has persuaded them that it is
 true, unless their own daimon indicates this, when it has changed in
-keeping with the changing moments of their Fate (kata tous chro- nous
+keeping with the changing moments of their Fate (kata tous chronous
 tês autôn heimarmenês), and a malefic (kakapoiou) daimon has taken
 charge of them. When all of their art and good fortune has been
-overturned . . . reluc- tantly they concede, from this clear
+overturned . . . reluctantly they concede, from this clear
 demonstration of their Fate, that there is something beyond the
-methods which they previously entertained (2.13-24).
+methods which they previously entertained (2.13-24). - Letter Omega
 
 When the [daimonic] guardians are driven off from the great men they [the
 daimons] deliberate as to how they may lay claim to our natural tinctures, so
@@ -350,11 +353,15 @@ ful of the sacrifices, they hindered them even in attaining the non-natural tinc
 tures (Fest. p. 366, ll. 18-26) 35 . Final Quittance
 
 The question (relying on the preservation of the following terms in
-translation from ancient Greek) remains of what are these daimons who
-have introduced the opportune or propitious tinctures in the place of the natural
-and self-regulating tinctures and what are the material properties of
-these dual tinctures within the world? What are these two sets of
-knowledges of material things?
+translation from ancient Greek) remains of what are these daimons
+[idion daimonion - personal demons or kata topon ephoroi - the
+guardians of place, the terrestrial daemons, or pretenders -
+dokountes] who have introduced the opportune or propitious tinctures
+[kairiki katabaphai] in the place of the natural and self-regulating
+tinctures [ta physika kai automata - natural processes which act by
+themselves] and what are the material properties of these dual
+tinctures [baphai] within the world? What are these two sets of quite
+differently valued knowledges of the material things?
 
 notes/ZOSIMOS OF PANOPOLIS AND THE BOOK OF ENOCH: ALCHEMY AS FORBIDDEN
 KNOWLEDGE KYLE A. FRASER
@@ -366,9 +373,29 @@ corpus, there are close parallels in a 15th century Syriac
 manuscript. *For a discussion of the parallels see Mertens,
 Alchimistes Grecs, Tome 4, LXX-LXXVIII.*
 
-* 4 - Powerful Spell of the Bear which Accomplishes Anything 
+Mertens LXXIV+ - on the Enochian style passage in Syriac manuscripts...
 
-entire application of the driver that reveals remanence
+manuscript is Cambridge Mm, 6, 29. Dating from the 15th century
+according to the script, it is in quite a bad state, victim of both
+worms and of humidity.
+
+LXXV - at the head of the next book, we can read "Book 8 of the work
+on tin, letter heth. The book on tin which Zosimos has exposed: A
+Theosobie, the queen, greetings" ... comparable terms to those which
+one finds in the Syncelle fragments - the myth of the angels who came
+down to the earth to seduce the daughters of men and teach them the
+forbidden arts... mention of the book Chema... also the name of Imout
+which seems to be the title of one of the 24 sections of the book
+Chema, and not that of a work of Zosimos as it would seem to be with
+Syncelle ...
+
+Chemie ou moyen age - p. 238+ 
+
+NOTE: Chema - Chemia of alchemy and of chemistry - see above...
+
+* 4 - Entire Application of the Driver that Reveals Remanence
+
+
 
 image:
 
@@ -400,47 +427,50 @@ Mortals, Sunless Transitions, Rulers of Operations, Air-Transversers,
 Covert, Spectral, Unconquerable AO'TH ABAO'TH BASYM ISAK SABAO'TH IAO'
 IAKO'P MANARA SKORTOURI MORTROUM EPHRAULA THREERSA; Quantify the High Consmuption!
 
-
-** commentary
+** commentary as footnotes
 
 PGM IV...
 
-This passage from the Greek Magical Papyri... explain these and what
-they are
-
-invocation of the goddess of the Bear or Dipper asterism (Ursa Major),
-which was held to be a significant asterism by the ancient Egyptians
+This passage is from the Greek Magical Papyri (Papyri Graecae Magicae,
+abbreviated PGM), a body of papyri from Graeco-Roman Egypt, containing
+spells and formulae, hymns and rituals and forming a parallel to the
+philosophical and alchemical Hermetic literature (Corpus Hermeticum
+ascribed to Hermes). This text, from PGM IV, held in the Bibliotheque
+Nationale, Paris (P.Bibl. Nat. Suppl. gr. no 574), lines 1331-89 is
+designated as Powerdul Spell of the Bear which accomplishes
+everything, invokes the goddess of the astral constellation of the
+Bear or Dipper and its powers. The Bear or Dipper asterism (Ursa
+Major), was held to be a significant asterism by the ancient Egyptians
 because it is a set of stars that turn around the Pole star, and so
 never set below the horizon. This asterism was seen by the ancient
 Egyptians as the polar "handle" which turns the vault of heaven
-(Nikaroplex), and allows the starts to move across the sky. 
+(Nikaroplex), and allows the starts to move across the sky.
 
 The Greeks often indentified the Bear goddess with Callisto, the
 huntress who was transformed by Zeus into the constellation Ursa
 Major. She is sometimes seen as a manifestation of her fellow huntress
-Artemis.
+Artemis (later Diana). [Skinner]
 
+[Ref: Hans Dieter Betz - The Greek Magical Papyri in Translation]
 
-diana
+* Footnotes
 
-I call upon You, Holy, Very-Powerful, Very-Glorious, Very-Strong,
-Holy, Autochthons, Assistants of the Great God, the powerful Chief
-Daimons, You who are Inhabitants of Chaos, of Erebos, of The Abyss, of
-The Depth, of Earth, Dwelling in the Recesses of Heaven, Lurking in
-the Nooks and Crannies of Houses, Shrouded in Dark Clouds, Watchers of
-Things Not To Be Seen, Guardians of Secrets, Leaders of Those in the
-Underworld, Administrators of the Infinite, Wielding Power over Earth,
-Earth-Shakers, Foundation-Layers, Servants in the Chasm, Shudderful
-Fighters, Fearful Ministers, Turning The Spindle, Freezing Snow and
-Rain, Air-Transversers, Causing Summer Heat, Wind-Bringers, Lords of
-Fate, Inhabitants of Dark Erebos, Bringers of Compulsion, Sending
-Flames of Fire, Bringing Snow and Dew, Wind-Releasers, Disturbers of
-the Deep, Treaders on the Calm Sea, Mighty in Courage, Grievers of the
-Heart, Powerful Potentates, Cliff-Walkers, Adverse Daimons,
-Iron-Hearted, Wild-Tempered, Unruly, Guarding Tartaros, Misleading
-Fate, All-Seeing, All-Hearing, All-Subjecting, Heaven-Walkers,
-Spirit-Givers, Living Simply, Heaven-Shakers, Gladdening the Heart,
-Those Who Join Together Death, Revealers of Angels, Punishers of
-Mortals, Sunless Revealers, Rulers of Daimons, Air-Transversers,
-Almighty, Holy, Unconquerable AO'TH ABAO'TH BASYM ISAK SABAO'TH IAO'
-IAKO'P MANARA SKORTOURI MORTROUM EPHRAULA THREERSA; do the NN matter!
+[fn:1] There is once again a play on words here impossible to
+preserve in English. A common Homeric term for man, ὸ ϕώς, is held to
+derive from the word τὸ ϕῶς, contracted from phos, "light." The
+derivation is significant for Gnosticism since the primal Man is
+commmonly considered to be light as originating fromn the world of
+light, but etymologically the two words are unrelated. 
+
+(jackson note 51) 
+
+This is a pun on τὸ ϕῶς (light) and the Homeric ὸ ϕώς (man). See
+Ruska. [Jung]
+
+[fn:2] hence the name, taken from Greek mythology, Φωσφόρος meaning "light-bearer" (Latin Lucifer)
+
+[fn:3] Thoth - the Egyptian God of wisdom and magic, credited with the
+invention of writing; the scribe of the Underworld. The Greeks
+identified Thoth with the chthonic God of Hermes, the conductor of
+souls into the afterlife.
+
