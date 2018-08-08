@@ -429,6 +429,14 @@ potis10kthru hole=RK09L1140A66, knobs from thonk(check)
 
 * THONK
 
+erthenvar - PJ301BM
+
+cables - 10-16 Pin (Short - 15cm)
+
+knobs - davies light grey d shaft
+
+
+
 * Misc parts/projects:
 
 * misc parts mouser
