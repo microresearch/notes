@@ -32,12 +32,13 @@ In /etc/dhcpcd.conf:
 
 interface eth0
 
-static ip_address=169.254.81.99
+static ip_address=192.168.1.14
 
 static routers=10.0.0.1
 
 static domain_name_servers=75.75.75.75 75.75.76.76 2001:558:feed::1 2001:558:feed::2
 
+do gate add default gw blah also...
 
 * 30/6
 
@@ -561,6 +562,8 @@ additional + for myc: pt100, pt100 breakout (ebay), light sensor??, AD5933, AD62
 
 + 430 ohm for temperature/MAX
 
++ generic power sockets and plugs 2.1mm - useful workshop bits
+
 + for all_colours/other: 7490, light sensor for laser (BPW34), cheap multimeter, LED parts: 
 
 led lens: Mouser VCC 593-3000R (red), 593-3000A (amber) , red/amber 5mm LED
@@ -568,3 +571,20 @@ led lens: Mouser VCC 593-3000R (red), 593-3000A (amber) , red/amber 5mm LED
 * 7/8
 
 - C-c C-x f for adding footnotes in org-mode
+
+* 8/8
+
+- norming jacks: erthenvar PJ301BM
+
+so without plugin lower (if we have black at top and thin pin to right from front) is connected to upper
+
+with plugin - top is now the signal
+
+- KiCaD - but to be tested - for hidden power on say 40106 - we put in and connect PWR_FLGs for both VCC/12V and GND lines
+
+- A computer processor is coerced into attempting to match its
+  external temperature to the temperature recorded at high resolution
+  within a pile of stones in Ancient Messene across 24 hours. The attempt
+  last longer than 24 hours.
+
+- GPU mining to achieve a recorded temperature. both temperature and earnings are expressed in smoke

@@ -283,6 +283,7 @@ if __name__ == "__main__":
         # so our range is 0->let's say 80
         maxed=8000
         ourscaler=(maxed-lowest)/255
+        countd=0
         
         for temps in scaler: # show how many values we have read so far
 	        # tempC = max.readTemp()
@@ -306,20 +307,31 @@ if __name__ == "__main__":
                                                 ffff.write(str(float(myData)/100.0) + '\n')
                                                 # are we there - if we are too high turn on fan, if too low run sqrt
                                                 if (desiredtemp<realtemp):
-                                                        coolit() # add delay of 1 too coolit
+                                                        #coolit() # add delay of 1 too coolit
+                                                        if (abs(desiredtemp-realtemp)<16):
+                                                                GPIO.output(FANPIN, GPIO.HIGH)
+                                                                stress_cpu(3, time=1)
+                                                        else:
+                                                                time.sleep(1)
                                                 elif (desiredtemp>realtemp):
                                                         GPIO.output(FANPIN, GPIO.HIGH)
-                                                        # sqrt thing - not so successful
-                                                        # for x in range(10000):
-                                                        #         tobe=random.random()
-                                                        #         tobee=random.random()
-                                                        #         xx=math.sqrt(tobe**tobee)
-                                                        stress_cpu(4, time=1)
+                                                        if (abs(desiredtemp-realtemp)<16):
+                                                                stress_cpu(3, time=1)
+                                                        else:
+                                                                stress_cpu(4, time=1)
                                 except:
                                         print "error state"
-                                
+                print "HIT:", desiredtemp, "Count:", countd
+                countd+=1
                 # just realized that we run sqrt/temp calc will change temperature anyways in feedback loop
                 # so we need to outsource to arduino and get from serial!
                 # but we could use for feedback temperature // output also on serial > FET/arduino
+                # sqrt thing - not so successful
+                # for x in range(10000):
+                #         tobe=random.random()
+                #         tobee=random.random()
+                #         xx=math.sqrt(tobe**tobee)
+
+
                 
         GPIO.cleanup()
