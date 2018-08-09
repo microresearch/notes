@@ -1,3 +1,19 @@
+* orderings
+
+- myc/other ordering:
+
+see mycelium_pcb_bom_.txt
+
+additional + for myc: pt100, pt100 breakout (ebay), light sensor??, AD5933, AD620
+
++ 430 ohm for temperature/MAX
+
++ generic power sockets and plugs 2.1mm - useful workshop bits, pi, 24vac relay for fogger control
+
++ for all_colours/other: 7490, light sensor for laser (BPW34), cheap multimeter, LED parts: 
+
+led lens: Mouser VCC 593-3000R (red), 593-3000A (amber) , red/amber 5mm LED
+
 * PI notes
 
 ** ssh
@@ -553,20 +569,6 @@ use 2n3904 to achieve higher gate voltage EBC...
 https://electronics.stackexchange.com/questions/109128/why-is-my-n-channel-mosfet-getting-very-hot-and-the-power-it-provides-to-device
 
 note now HIGH=OFF
-
-- myc/other ordering:
-
-see mycelium_pcb_bom_.txt
-
-additional + for myc: pt100, pt100 breakout (ebay), light sensor??, AD5933, AD620
-
-+ 430 ohm for temperature/MAX
-
-+ generic power sockets and plugs 2.1mm - useful workshop bits
-
-+ for all_colours/other: 7490, light sensor for laser (BPW34), cheap multimeter, LED parts: 
-
-led lens: Mouser VCC 593-3000R (red), 593-3000A (amber) , red/amber 5mm LED
 
 * 7/8
 
