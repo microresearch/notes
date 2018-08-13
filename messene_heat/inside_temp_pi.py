@@ -109,10 +109,10 @@ if __name__ == "__main__":
                                 time.sleep(1)
                         elif (desiredtemp>realtemp):
                                 if (abs(desiredtemp-realtemp)>32):
-                                        stress_cpu(8, time=1)
+                                        stress_cpu(6, time=1)
                                 elif (abs(desiredtemp-realtemp)<16):
                                         stress_cpu(3, time=1)
                                 else:
-                                        stress_cpu(6, time=1)
+                                        stress_cpu(4, time=1)
                 print "HIT:", desiredtemp, "Count:", countd
                 countd+=1

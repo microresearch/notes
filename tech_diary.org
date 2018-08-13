@@ -617,3 +617,5 @@ close-up reads over 100°C peak.
 - last (5 days running) graph is:
 
 final_temp1308.png
+
+- overclocking to 130MHz causes crashes so now reverted...
