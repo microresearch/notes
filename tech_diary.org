@@ -2,7 +2,7 @@
 
 - myc/other ordering:
 
-see mycelium_pcb_bom_.txt
+see mycelium_pcb_bom_.txt 
 
 additional + for myc: pt100, pt100 breakout (ebay), light sensor??, AD5933, AD620
 
@@ -590,3 +590,30 @@ with plugin - top is now the signal
   last longer than 24 hours.
 
 - GPU mining to achieve a recorded temperature. both temperature and earnings are expressed in smoke
+
+* 13/8
+
+- more temperature work on pi:
+
+: nohup sysbench --num-threads=8 --test=cpu --cpu-max-prime=10000000000 run &
+: watch sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
+
+shows that we are overclocked according to: 
+
+https://www.reddit.com/r/raspberry_pi/comments/48lhot/raspberry_pi_family_thermal_analysis_thermal/
+
+and freezes our ssh session...
+
+- now we resume temperature mime study with internal sensor which according to page above is:
+
+One possible explanation for this is that the temperature sensor is
+located in the VideoCore-IV portion of the silicon, while I'm loading
+the Cortex-A53 portion. You can see this in the close-up shot at the
+end of the album: the top of the SoC is far hotter than the
+bottom. You can also see that the CPU portion of the SoC is running
+out of spec: its official operating temperature limit is 85°C, and the
+close-up reads over 100°C peak.
+
+- last (5 days running) graph is:
+
+final_temp1308.png

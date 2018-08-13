@@ -369,7 +369,7 @@ res now segor
 | 220P         C31       ; x - segorX         
 | 22P          C30       ;             
 
-| 27K          R24       ; x - reichX           
+| 27K          R24       ; x - reichX  -          
 | 330R         R26       ;             
 | 33K          R28       ; x - reichX           
 | 39K          R18       ; x - reichX           
