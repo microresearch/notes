@@ -29,14 +29,14 @@ void loop() {
   int x;
   uint8_t c;
   long wait;
-  // then stay on for 2 minutes=2x60x1000= 120,000
+  // then stay on for 30s=30x1000= 30000
   digitalWrite(8,LOW); // this is on!
-  wait=120000;
+  wait=30000;
   delay(wait);
   digitalWrite(8,HIGH); // this is off
 
-  // the wait one hour = 60x60*1000=3600000
-  wait=3600000;
+  // wait 15 mins = 15x60*1000=3600000
+  wait=900000;
   delay(wait);
   
   
