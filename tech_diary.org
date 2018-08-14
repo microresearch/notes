@@ -587,7 +587,7 @@ with plugin - top is now the signal
 - A computer processor is coerced into attempting to match its
   external temperature to the temperature recorded at high resolution
   within a pile of stones in Ancient Messene across 24 hours. The attempt
-  last longer than 24 hours.
+  lasts longer than 24 hours.
 
 - GPU mining to achieve a recorded temperature. both temperature and earnings are expressed in smoke
 
