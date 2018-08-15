@@ -1,7 +1,9 @@
 * orderings
 
-- myc/other ordering:
+- DARK INT: POTIS (mouser), 13700, 4053, lm358 maybe, joining parts
 
+
+** done 
 see mycelium_pcb_bom_.txt 
 
 additional + for myc: pt100, pt100 breakout (ebay), light sensor??, AD5933, AD620
@@ -13,6 +15,8 @@ additional + for myc: pt100, pt100 breakout (ebay), light sensor??, AD5933, AD62
 + for all_colours/other: 7490, light sensor for laser (BPW34), cheap multimeter, LED parts: 
 
 led lens: Mouser VCC 593-3000R (red), 593-3000A (amber) , red/amber 5mm LED
+
+
 
 * PI notes
 
