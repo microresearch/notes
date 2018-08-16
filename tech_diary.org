@@ -1,7 +1,14 @@
 * orderings
 
-- DARK INT: POTIS (mouser), 13700, 4053, lm358 maybe, joining parts
 
+LED, 5 mm, low-current, 2 mA, red and yellow
+
+
+** done 16/8
+
+- DARK INT: POTIS (mouser)RK09K1130A5R-X , 13700 X, HC4053 X, lm358, 
+
+- for earthboot: ad8606 soic-8 X, adr423 soic-8 X, 10M 0805 X, OPA337UAG4 X
 
 ** done 
 see mycelium_pcb_bom_.txt 
@@ -623,3 +630,14 @@ close-up reads over 100°C peak.
 final_temp1308.png
 
 - overclocking to 130MHz causes crashes so now reverted...
+* 16/8
+
+- thinking of unifying All Colours design also around transistors into atmega:
+
+http://www.electro-music.com/forum/topic-33190.html&postorder=asc - for gate/pulsing of noise or use 4066
+
+see also from synthi:
+
+http://www.dragonflyalley.com/synth/jurgenHaiblePages/trapezoid/trapezoid_sch.pdf
+
+http://www.phutney.com/TechnicalInfo/Y_S1.pdf
