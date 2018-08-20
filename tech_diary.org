@@ -1,8 +1,11 @@
 * orderings
 
-
 LED, 5 mm, low-current, 2 mA, red and yellow
 
+neutrik: NR-J4HF
+
+connectorx2 (REICHELT: BL 2X25G8 2,54) x22 =18
+connectorx1 (REICHELT: SL 2X25G 2,54) x10
 
 ** done 16/8
 
@@ -641,3 +644,38 @@ see also from synthi:
 http://www.dragonflyalley.com/synth/jurgenHaiblePages/trapezoid/trapezoid_sch.pdf
 
 http://www.phutney.com/TechnicalInfo/Y_S1.pdf
+
+* 17.8
+
+- re-programming mutable clouds/warps with our serial adapter
+
+: make -f warps/makefile upload_combo_serial 
+
+after we change stmlib/makefile.inc
+
+: TOOLCHAIN_PATH ?= /root/ARM/gcc-arm-none-eabi-4_9-2015q2/
+: PGM_SERIAL_PORT ?= /dev/ttyUSB0
+
+and we hold reset button down, hold sysboot and release reset
+
+on our adapter from top away from usb:
+
+0GND 0
+0    0
+0 RX 0 TX
+
+* 20/8
+
+- where was 5933 code which was not for Arduino: main.c in /root/projects/archived/bordeaux/new_skry (along with SD code)
+
+- for myc - tested serial fine, now HIH=i2c TODO-working
+
+- SD card basic open/record - need to do playback - we could just use raw read/write access
+
+at the moment with SDHC enabled we have size issues - fixed by removing FAT etc...
+
+
+
+- MAX3xxx temp
+
+- other sensors/AD5933
