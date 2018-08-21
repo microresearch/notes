@@ -333,7 +333,7 @@ http://kicad.rohrbacher.net/quicklib.php
 
 see also: http://kicad.txplore.com/index-p=96.html
 
-* 18/8
+* 18/7
 
 - some success with nS delays on Arduino:
 
@@ -674,8 +674,14 @@ on our adapter from top away from usb:
 
 at the moment with SDHC enabled we have size issues - fixed by removing FAT etc...
 
+* 21/8
 
+- MAX31865 code (simply ported from adafruit) is working - fixed so works with SD card... DONE
+- 555 on INT0 countings DONE
 
-- MAX3xxx temp
 
 - other sensors/AD5933
+
+- test rest of hardware side of things...
+
+- waterproofing tests...
