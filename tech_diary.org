@@ -557,7 +557,7 @@ for i in range(0,6):
 
     print("Temperature:",round(CallendarVanDusen(R),2), "deg. C\n")
     sleep(1)
-#END_SRC
+#+END_SRC
 
 * 6/8
 
@@ -738,6 +738,26 @@ void loop() {
   }
 #+END_SRC
 
-- what could heatsick distro have in: stress stuff, ported PI cpu,
-  temperature sensing, forking, scalamandi, scripts for top etc. - to
+- what could heatsick distro have in: stress, stress-ng, ported PI cpu python,
+  temperature sensing?lm-sensors, psensor, forking, scalamandi, scripts for top etc. - to
   compile a list!
+
+or use stresslinux distro: http://www.stresslinux.org/sl/wiki/Documentation
+
+cpuburn? - package?
+
+: while true; do date; sensors | grep Core; echo; sleep 60; done | tee -a paste1.log
+
+scaldamani.sh:
+
+: #!/bin/bash
+: p=0; n=1
+: while true; do
+: r=$(($p+$n))
+: p=$n; n=$r
+: done
+
+
+where is our livecd/and notes to build?
+
+- zx earthboot stuff was working with arduino - test with micro arduino and implement FET later switch on of zx after buffer fill...
