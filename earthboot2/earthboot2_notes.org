@@ -1,0 +1,7 @@
+* Reboot of earthboot
+
+- Schematics and pcb: https://github.com/microresearch/mycelium/tree/master/mycelium_pcb/earthboot
+
+** zx81 earthboot - for z80 processor
+
+
