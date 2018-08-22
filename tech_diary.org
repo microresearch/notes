@@ -685,3 +685,59 @@ at the moment with SDHC enabled we have size issues - fixed by removing FAT etc.
 - test rest of hardware side of things...
 
 - waterproofing tests...
+
+* 22/8
+
+- for top of earthboot: from left: SDA, SCL, 620_OUT->ADC, GND, VDDA (for 620 -3.3V or 5V depending on platform), 5V
+
+- test AD620->ADC:
+
+#+BEGIN_SRC c
+void setup() {
+  Serial.begin(9600); // start serial for output
+  }
+
+void loop() {
+  int x;
+  uint8_t c;
+  int value=analogRead(0);
+  Serial.write("AD620 test value ");
+  Serial.print(value);
+  Serial.write("\r\n");
+  }
+#+END_SRC
+
+- note to test interrupt on INT0
+
+#+BEGIN_SRC c
+// test incoming transistor pulse
+// INT0 on MEGA
+
+#include <Wire.h>
+
+const byte ledPin = 13;
+const byte interruptPin = 2;
+volatile byte state = LOW;
+
+
+void blink() {
+  state = !state;
+}
+
+void setup() {
+  pinMode(2, INPUT);
+  Serial.begin(9600); // start serial for output
+  //  pinMode(inputleft, INPUT_PULLUP);
+  attachInterrupt(0, blink, HIGH);
+  }
+
+void loop() {
+  int x;
+  uint8_t c;
+ digitalWrite(ledPin, state);
+  }
+#+END_SRC
+
+- what could heatsick distro have in: stress stuff, ported PI cpu,
+  temperature sensing, forking, scalamandi, scripts for top etc. - to
+  compile a list!
