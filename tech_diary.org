@@ -5,7 +5,7 @@ LED, 5 mm, low-current, 2 mA, red and yellow
 neutrik: NR-J4HF
 
 connectorx2 (REICHELT: BL 2X25G8 2,54) x22 =18
-connectorx1 (REICHELT: SL 2X25G 2,54) x10
+connectorx1 (REICHELT: SL 2X25G 2,54) x10 
 
 ** done 16/8
 
@@ -761,3 +761,13 @@ scaldamani.sh:
 where is our livecd/and notes to build?
 
 - zx earthboot stuff was working with arduino - test with micro arduino and implement FET later switch on of zx after buffer fill...
+
+* 23/8
+
+Arduino micro for zx/earthboot:
+
+pins: http://pinoutguide.com/Electronics/arduino_micro_pinout.shtml
+
+VIN can be 6-20V
+
+works with ard-makefile
