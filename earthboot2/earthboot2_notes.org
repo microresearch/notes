@@ -4,4 +4,6 @@
 
 ** zx81 earthboot - for z80 processor
 
+- pinouts for arduino uno/micro -> ROM http://searle.hostei.com/grant/zx80/zx80.html
 
+rom part?
