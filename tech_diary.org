@@ -771,3 +771,70 @@ pins: http://pinoutguide.com/Electronics/arduino_micro_pinout.shtml
 VIN can be 6-20V
 
 works with ard-makefile
+
+* 28/8
+
+: python /root/rsync2016/backup/gpsgeomancy002.py
+
+is working version - think other just has comment out: 
+
+: while (("West" not in str(satdict.values())) or ("East" not in str(satdict.values())) or ("North" not in str(satdict.values())) or ("South" not in str(satdict.values()))): 
+
+* 10/9
+
+** pololu avr programmer
+
+from top/end of cable with red bottom:
+
+reset/GND
+sck /MOSI
+MISO/VCC
+
+
+to our myc from right GND, SCK, MISO, MOSI, RESET, VCC
+
+: avrdude -c stk500v2 -P /dev/ttyACM1 -p m168p
+
+** pi and pinoir camera
+
+https://raspberrypi.stackexchange.com/questions/32397/how-to-increase-the-camera-exposure-time
+
+For pi we bring: static ip_address=192.168.1.14 (for picam)
+
+other pi is 15 and laptop 13 
+
+: raspistill -w 2592 -h 1944 -ISO 800 -ss 6000000 -br 80 -co 100 -o out.jpeg
+
+pi cam:
+
+: sudo pip install picamera
+
+#+BEGIN_SRC python
+# dark2.py
+
+from picamera import PiCamera
+from time import sleep
+from fractions import Fraction
+
+# Force sensor mode 3 (the long exposure mode), set
+# the framerate to 1/6fps, the shutter speed to 6s,
+# and ISO to 800 (for maximum gain)
+camera = PiCamera(resolution=(1280, 720), framerate=Fraction(1, 6), sensor_mode=3)
+camera.shutter_speed = 6000000
+camera.iso = 800
+# Give the camera a good long time to set gains and
+# measure AWB (you may wish to use fixed AWB instead)
+
+sleep(60)
+camera.exposure_mode = 'off'
+
+try:
+    for filename in camera.capture_continuous('/home/pi/augury/test/img{counter:03d}.jpg'):
+        print('Captured %s' % filename)
+        sleep(60) # wait 1 minute
+        camera.exposure_mode = 'off'
+finally:
+    camera.close()
+#+END_SRC
+
+from: https://picamera.readthedocs.io/en/release-1.13/recipes1.html?highlight=low%20light
