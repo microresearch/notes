@@ -1,9 +1,9 @@
 //FGM3 to sd card: fgm3 from bottom left to right: 5V, O/P, GND, f/b?
 
-#include <SD.h>
+//#include <SD.h>
 #include "/usr/lib/avr/include/avr/io.h"
-#define SAMPLE_DELAY 5 // number of seconds between samples
-#define SAMPLE_DURATION 5 // number of seconds to sample for.
+#define SAMPLE_DELAY 1 // number of seconds between samples
+#define SAMPLE_DURATION 1 // number of seconds to sample for.
 volatile int mult=0;
 static uint32_t timer=0;
 
@@ -16,7 +16,8 @@ ISR(TIMER1_COMPA_vect) {
   }
   } 
 
-float GetData(){
+// float GetData(){
+long GetData(){
    unsigned long count;
  unsigned long Frequency;
  
@@ -45,7 +46,8 @@ float GetData(){
   float usPeriod;
  usPeriod = float (Period) / 100000;
 
- return usPeriod;
+ // return usPeriod;
+ return Frequency;
 }
 
 // plot with gnuplot: find more software for png etc. just to test
@@ -59,21 +61,21 @@ float GetData(){
 // for SD card:
 
 int chipSelect = 9; // CS=chip select pin for the MicroSD Card Adapter
-File file; // file object that is used to read and write data
-char filename[7]="monk00";
+//File file; // file object that is used to read and write data
+//char filename[7]="monk00";
 int nott=0;
 
 void setup() {
-  Serial.begin(115200);
-  pinMode(chipSelect, OUTPUT); // chip select pin must be set to OUTPUT mode
+  Serial.begin(9600);
+  //  pinMode(chipSelect, OUTPUT); // chip select pin must be set to OUTPUT mode
   
-  if (!SD.begin(chipSelect)) { // Initialize SD card
+  /*  if (!SD.begin(chipSelect)) { // Initialize SD card
     Serial.println("Could not initialize SD card."); // if return value is false, something went wrong.
   }
-
+  */
   // increment name of file
 
-      strcpy(filename, "monk00");  filename[6]='\0';
+  /*  strcpy(filename, "monk00");  filename[6]='\0';
     // open new file
       ////
       while(nott==0){
@@ -95,24 +97,30 @@ void setup() {
 
       Serial.print("Opened filename: "); 
       Serial.println(filename);
+  */
+
+        Serial.println("OLA!"); 
+
 }
 
 
 
 void loop() {
 
-  if (file) {
+  //  if (file) {
 
     if (millis() > timer) {
    timer = millis() + (SAMPLE_DELAY*1000); //only run every 5 seconds or whatever
    float FGMreading;
-   FGMreading = GetData();
+   long freqy;
+   //   FGMreading = GetData();
+   freqy = GetData();
    //   Serial.print("FGM Reading. Period = ");
-   //..   Serial.print(FGMreading,5);
-   //   Serial.println(" microseconds");
-   file.println(FGMreading); // write number to file
-   file.flush();
-  }
+   //      Serial.println(FGMreading,5);
+      Serial.println(freqy);
+   //   file.println(FGMreading); // write number to file
+   //   file.flush();
+   //  }
   
   }
 }
