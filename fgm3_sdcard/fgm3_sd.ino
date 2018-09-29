@@ -1,5 +1,7 @@
 //FGM3 to sd card: fgm3 from bottom left to right: 5V, O/P, GND, f/b?
 
+// add in heat/FET playback - we use differences... pin 9 is fet heat!
+
 //#include <SD.h>
 #include "/usr/lib/avr/include/avr/io.h"
 #define SAMPLE_DELAY 1 // number of seconds between samples
@@ -103,10 +105,11 @@ void setup() {
 
 }
 
+  long lastdata=60000;
 
 
 void loop() {
-
+  int diffy, heat;
   //  if (file) {
 
     if (millis() > timer) {
@@ -115,9 +118,15 @@ void loop() {
    long freqy;
    //   FGMreading = GetData();
    freqy = GetData();
+   diffy=abs(lastdata-freqy);
+   lastdata=freqy;
    //   Serial.print("FGM Reading. Period = ");
    //      Serial.println(FGMreading,5);
-      Serial.println(freqy);
+   Serial.println(diffy);
+   heat=diffy*4;
+   if (heat>255) heat=255;
+   analogWrite(9,heat);
+
    //   file.println(FGMreading); // write number to file
    //   file.flush();
    //  }
