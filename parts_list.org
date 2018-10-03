@@ -1,3 +1,4 @@
+
 * Bulk/misc
 
 ** SMD bulk:
@@ -320,6 +321,28 @@ potis10kthru hole=RK09L1140A66, knobs from thonk
 
 ** ERD/WORM
 
+*** for next worms
+
+pcbcart: 30 pcb-80 (60 is 120) 30 panel-90 (60 is 135) [011/012]
+
+12 base pcb we have...
+
+thonk: 
+
+knobs we have: 94
+all cables we need
+jacks PJ301BM we have: 100
+
+for 25 we need - 7x25 jacks=175, 5x25 knobs=125, 5x25 potis=125
+
+mouser:
+
+potis we have: 42
+
+parts: 
+
+*** 
+
 res now segor
 
 | 100K         R5        ;              
@@ -363,27 +386,27 @@ res now segor
 | 1N           C19       ;             
 | 2.2uF        C35       ; x Xsegor           
 | 2.2uF        C36       ;            
-| 200K         R3        ; x - segor X
+| 200K         R3        ; x - segor X -X
 | 200K         R4        ;             
 | 200K         R6        ;             
 | 200K         R11       ;             
 | 200K         R13       ;             
-| 220P         C31       ; x - segorX         
+| 220P         C31       ; x - segorX -X         
 | 22P          C30       ;             
 
-| 27K          R24       ; x - reichX  -          
+| 27K          R24       ; x - reichX  -OO          
 | 330R         R26       ;             
-| 33K          R28       ; x - reichX           
-| 39K          R18       ; x - reichX           
+| 33K          R28       ; x - reichX -X          
+| 39K          R18       ; x - reichX -X           
 | 39K          R29       ;             
 | 4.7K         R30       ;             
 | 4.7K         R31       ;             
 | 4.7uF        C38       ; xX segor            
-| 470R         R1        ; x - reichX           
-| 5.6K         R27       ; x - reichX           
+| 470R         R1        ; x - reichX -X           
+| 5.6K         R27       ; x - reichX -X           
 | 5.6K         R32       ;             
 | 5.6K         R34       ;             
-| 66.5K        R9        ; x - mouserX           
+| 66.5K        R9        ; x - mouserX -X           
 | 66.5K        R10       ;             
 | 66.5K        R14       ;             
 | 66.5K        R15       ;             
@@ -399,17 +422,17 @@ res now segor
 
 | AUDIOINT_WM8731 audioint1 ; x - mouserX                            |
 
-| CONN_5X2     P1        ; 10 pin connector - reich X                |
-| DIODE        D3        ; x protection as on all=  - 1N5819HW-7-F X |
+| CONN_5X2     P1        ; 10 pin connector - reich X                | have plenty
+| DIODE        D3        ; x protection as on all=  - 1N5819HW-7-F X | -X
 | DIODE        D4        ; x                                         |
-| INDUCTOR     L1        ;                                           |
-| LED          D2        ; x - reich X                               |
+| INDUCTOR     L1        ;                                           | 81-BLM18BD252SN1D mouser have 18
+| LED          D2        ; x - reich X                               | -OO
 
-| LM1117-3.3V  U7        ; ebay                                      |
-| LM1117-5V    U8        ; ebay                                      |
+| LM1117-3.3V  U7        ; ebay                                      |check
+| LM1117-5V    U8        ; ebay                                      |check
 
-| LME          U5        ; xLME49720 - mouser X                      |
-| MCP          U6        ; xMCP6002 - mouserX                        |
+| LME          U5        ; xLME49720 - mouser X                      | have5
+| MCP          U6        ; xMCP6002 - mouserX                        | have maybe 90odd so enough for 25
 | MCP          U9        ;                                           |
 | MCP          U10       ;                                           |
 
@@ -422,7 +445,7 @@ res now segor
 | STM32F405RGT6 U14      ; x LQFP64 - mouser  |X
 | SWD          P45       ; 4 pins - reich X   |
 
-| ZENER        D5        ; LM4040B10   595-LM4040C10IDBZR  - mouser  X
+| ZENER        D5        ; LM4040B10   595-LM4040C10IDBZR  - mouser  X -have10
 
 ** plus
 
@@ -483,3 +506,5 @@ ARM M4 1024 FLASH
 5	
 RoHS1
 512-H11F1VM
+
+* myc parts

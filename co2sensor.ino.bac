@@ -21,7 +21,7 @@ void setup(){
 
 void loop(){ 
   //Read voltage
-  inot sensorValue = analogRead(sensorIn);  
+  int sensorValue = analogRead(sensorIn);  
 
   // The analog signal is converted to a voltage 
   float voltage = sensorValue*(5000/1024.0); 
