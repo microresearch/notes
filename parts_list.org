@@ -227,6 +227,8 @@ we should have 10 somewhere? TEST!
 
 ** ERD/GAMMA
 
+SBM-20
+
 | 1 uF         C4        ;             
 | 1.5K         R22       ; x -reichX                        
 | 100K         R13       ;             
