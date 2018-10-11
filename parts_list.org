@@ -327,19 +327,21 @@ potis10kthru hole=RK09L1140A66, knobs from thonk
 
 pcbcart: 30 pcb-80 (60 is 120) 30 panel-90 (60 is 135) [011/012]
 
-12 base pcb we have...
+12 base pcb we have... ORDERED 20 base, 30 panel - DONE
 
 thonk: 
 
 knobs we have: 94
-all cables we need
+all cables we need = 50
 jacks PJ301BM we have: 100
 
-for 25 we need - 7x25 jacks=175, 5x25 knobs=125, 5x25 potis=125
+for 25 we need - 7x25 jacks=175-100=75, 5x25 knobs=125-94=31, 
+
+extra 25= 175jacks total 250, 125+31=156 knobs - DONE
 
 mouser:
 
-potis we have: 42
+potis we have: 42 125-42=83 
 
 parts: 
 
@@ -368,7 +370,7 @@ res now segor
 | 100nF        C17       ;             
 | 100nF        C18       ;             
 | 10K          R2        ;             
-| 10u          C14       ; xXsegor            
+| 10u          C14       ; xXsegor ??  3x20/25v, 2x10v, 5x6v -we have-          
 | 10u          C20       ;             
 | 10u          C27       ;             
 | 10u          C34       ;             
@@ -386,7 +388,7 @@ res now segor
 | 1N           C8        ;             
 | 1N           C12       ;             
 | 1N           C19       ;             
-| 2.2uF        C35       ; x Xsegor           
+| 2.2uF        C35       ; x Xsegor ??          
 | 2.2uF        C36       ;            
 | 200K         R3        ; x - segor X -X
 | 200K         R4        ;             
@@ -396,14 +398,14 @@ res now segor
 | 220P         C31       ; x - segorX -X         
 | 22P          C30       ;             
 
-| 27K          R24       ; x - reichX  -OO          
+| 27K          R24       ; x - reichX  -OO ?? GG         
 | 330R         R26       ;             
 | 33K          R28       ; x - reichX -X          
 | 39K          R18       ; x - reichX -X           
 | 39K          R29       ;             
 | 4.7K         R30       ;             
 | 4.7K         R31       ;             
-| 4.7uF        C38       ; xX segor            
+| 4.7uF        C38       ; xX segor -- we have 20            
 | 470R         R1        ; x - reichX -X           
 | 5.6K         R27       ; x - reichX -X           
 | 5.6K         R32       ;             
@@ -422,18 +424,18 @@ res now segor
 | AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK6     ;             
 | AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK7     ;             
 
-| AUDIOINT_WM8731 audioint1 ; x - mouserX                            |
+| AUDIOINT_WM8731 audioint1 ; x - mouserX                            |GG
 
 | CONN_5X2     P1        ; 10 pin connector - reich X                | have plenty
-| DIODE        D3        ; x protection as on all=  - 1N5819HW-7-F X | -X
+| DIODE        D3        ; x protection as on all=  - 1N5819HW-7-F X | -X ??CHECK??
 | DIODE        D4        ; x                                         |
-| INDUCTOR     L1        ;                                           | 81-BLM18BD252SN1D mouser have 18
-| LED          D2        ; x - reich X                               | -OO
+| INDUCTOR     L1        ;                                           | 81-BLM18BD252SN1D mouser have 18 7+25=32 say 40 GG
+| LED          D2        ; x - reich X                               | -OO ??CHECK??
 
-| LM1117-3.3V  U7        ; ebay                                      |check
-| LM1117-5V    U8        ; ebay                                      |check
+| LM1117-3.3V  U7        ; ebay                                      |check??
+| LM1117-5V    U8        ; ebay                                      |check??
 
-| LME          U5        ; xLME49720 - mouser X                      | have5
+| LME          U5        ; xLME49720 - mouser X                      | have5 GG
 | MCP          U6        ; xMCP6002 - mouserX                        | have maybe 90odd so enough for 25
 | MCP          U9        ;                                           |
 | MCP          U10       ;                                           |
@@ -444,10 +446,10 @@ res now segor
 | POT          RV4       ;                                           |
 | POT          RV5       ;                                           |
 
-| STM32F405RGT6 U14      ; x LQFP64 - mouser  |X
+| STM32F405RGT6 U14      ; x LQFP64 - mouser  |X GG
 | SWD          P45       ; 4 pins - reich X   |
 
-| ZENER        D5        ; LM4040B10   595-LM4040C10IDBZR  - mouser  X -have10
+| ZENER        D5        ; LM4040B10   595-LM4040C10IDBZR  - mouser  X -have10 GG
 
 ** plus
 
