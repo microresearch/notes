@@ -838,3 +838,8 @@ finally:
 #+END_SRC
 
 from: https://picamera.readthedocs.io/en/release-1.13/recipes1.html?highlight=low%20light
+
+* 30/11
+
+- simulation with ngspice in kicad: http://ngspice.sourceforge.net/ngspice-eeschema.html
+
