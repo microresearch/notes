@@ -866,3 +866,13 @@ MONITOR_PORT = /dev/ttyACM1
 F_CPU = 8000000L
 
 libraries are in: /usr/share/arduino/libraries
+
+- 2n3055 with 100ohm 1watt resistor+ and op amp buffer - works good
+  for cv control on nichrome wire from eurorack but 3055 will need heatsink
+
+** to order
+
+general: 2n3904, 10k resistors, protoboard for logger
+power stuff, cases, plugs, sockets for final session
+all parts for proto-etched all colours
+

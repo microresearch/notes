@@ -6,11 +6,14 @@
 
 // RTC connection and timestamp (comma seperated),DONE more or less
 
-// power saving and rtc interrupt, test sd writing and all
+// power saving and rtc interrupt, test sd writing and all - DONE
 
-// switch SD card and ds1820 off and on with NPN - configuration? do we need to reinit anything?
+// switch SD card and ds1820 off and on with NPN - configuration? do we need to reinit anything?DONE-just SD
 
-// ------> finally take out LEDs, add own LED, fix SD card thing and measure current - then make solid all conns...
+// ------> finally take out all LEDs, add own LED-DONE, fix SD card thing and measure current - make solid all conns...
+
+///// -> so far we can't switch off ds1820 - draw=very low though in standby so we leave for now...
+
 
 /* REFS:
 
@@ -32,6 +35,12 @@ http://forum.arduino.cc/index.php?topic=109062.0
 
 https://forum.arduino.cc/index.php?topic=460850.0
 
+https://github.com/mharizanov/new_Funky/blob/master/examples/Funky_DS18B20_plus_powersave/Funky_DS18B20_plus_powersave.ino
+
+https://thecavepearlproject.org/2014/03/12/using-a-ds18b20-temp-sensor-without-a-dedicated-library/
+
+http://www.semifluid.com/2012/09/10/arduino-fio-ds18b20-temperature-logge/
+
  */
 
 #include <Wire.h>
@@ -41,7 +50,8 @@ https://forum.arduino.cc/index.php?topic=460850.0
 #include <SdFat.h>
 #include <DS3232RTC.h>
 
-// for sd card
+#define POWA 4    // pin 4 supplies power to microSD card breakout and DS1820
+#define LED 7 // pin 7 controls LED
 
 char filename[15] = "log.csv";
 int SDcsPin = 9; // pin 9 is CS pin for MicroSD breakout
@@ -66,10 +76,12 @@ ISR(PCINT0_vect)  // Interrupt Vector Routine to be executed when pin 8 receives
 }
 
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+
+  pinMode(POWA, OUTPUT);  // set output pins
+  pinMode(LED, OUTPUT);
   pinMode(SDcsPin, OUTPUT);
 
- Serial.begin(9600);
+  // Serial.begin(9600);
  // Serial.println("Dallas Temperature IC:");
  sensors.begin();
  /*
@@ -99,8 +111,11 @@ void setup() {
 // setTime(t);
  
  // sd card stuff
+
+ digitalWrite(POWA, HIGH);    // turn on SD card
+ delay(1); // give some delay to ensure RTC and
  
-  if(!sd.init(SPI_HALF_SPEED, SDcsPin))  // initialize SD card on the SPI bus - very important
+  if(!sd.init(SPI_FULL_SPEED, SDcsPin))  // initialize SD card on the SPI bus - very important - was HALF_SPEED
   {
     delay(10);
     //    SDcardError();
@@ -115,10 +130,10 @@ void setup() {
     file.print("Date/Time,Temp(C)");    // Print header to file
     file.println();
     file.close();    // close file - very important
-                     // give some delay by blinking status LED to wait for the file to properly close
-    digitalWrite(LED_BUILTIN, HIGH);
+
+    digitalWrite(LED, HIGH);
     delay(10);
-    digitalWrite(LED_BUILTIN, LOW);
+    digitalWrite(LED, LOW);
 }
 
   // RTC.alarm2set(dayStart, hourStart, minStart);  // Configure begin time
@@ -145,26 +160,10 @@ void printDigits(int digits)
     file.print(digits);
 }
 
-void digitalClockDisplay()
-{
-    // digital clock display of the time
-    Serial.print(hour());
-    printDigits(minute());
-    printDigits(second());
-    Serial.print(' ');
-    Serial.print(day());
-    Serial.print(' ');
-    Serial.print(month());
-    Serial.print(' ');
-    Serial.print(year());
-    Serial.println();
-}
-
-
+#
 void loop() {
-  digitalWrite(LED_BUILTIN, LOW); 
 
-  //  digitalWrite(POWA, LOW);  // turn off microSD card to save power
+  digitalWrite(POWA, LOW);  // turn off microSD card to save power
   delay(1);  // give some delay for SD card and RTC to be low before processor sleeps to avoid it being stuck
   
   chip.turnOffADC();    // turn off ADC to save power
@@ -189,15 +188,16 @@ void loop() {
 
   
   // DO OUR STUFF
+  sensors.begin(); // as before it didn;t work
 
   sensors.requestTemperatures(); // Send the command to get temperatures
   float temperature=sensors.getTempCByIndex(0); 
 
   
 
-  //  pinMode(POWA, OUTPUT); 
-  //  digitalWrite(POWA, HIGH);  // turn on SD card power
-  //delay(1); // give delay to let the SD card and SHT15 get full powa
+  pinMode(POWA, OUTPUT); 
+  digitalWrite(POWA, HIGH);  // turn on SD card power
+  delay(1); // give delay to let the SD card and SHT15 get full powa
   pinMode(SDcsPin, OUTPUT);
 
   if(!sd.init(SPI_FULL_SPEED, SDcsPin))    // very important - reinitialize SD card on the SPI bus
@@ -212,6 +212,7 @@ void loop() {
     delay(1);
     
     SPCR = 0;  // reset SPI control register
+    setSyncProvider(RTC.get); // the function to get the time from the RTC
     file.print(hour());
     printDigits(minute());
     printDigits(second());
@@ -228,16 +229,12 @@ void loop() {
     file.print(temperature, 2);  // print temperature upto 2 decimal places
     file.println();
     //    PrintFileTimeStamp();
-    file.close(); 
+    file.close();
+    digitalWrite(LED, HIGH);
+    delay(10);
+    digitalWrite(LED, LOW);
+    
   }
-  /*  pinMode(LED_BUILTIN, OUTPUT); 
-  digitalWrite(LED_BUILTIN, HIGH);   
-  delay(100);                       
-  digitalWrite(LED_BUILTIN, LOW); 
-  delay(100);                    
-  */
-
-
   
   /////////////////////////
   
@@ -249,22 +246,4 @@ void loop() {
 
 
   delay(1);
-
-  
-  /*
-  Serial.print("Requesting temperatures...");
-  sensors.requestTemperatures(); // Send the command to get temperatures
-  Serial.println("DONE");
-  Serial.print("Temperature for the device 1 (index 0) is: ");
-  Serial.println(sensors.getTempCByIndex(0)); 
-  */
-  //digitalClockDisplay();
-  //delay(1000); 
-  
-  /*
-  digitalWrite(LED_BUILTIN, HIGH);   
-  delay(1000);                       
-  digitalWrite(LED_BUILTIN, LOW); 
-  delay(1000);                    
-  */  
   }
