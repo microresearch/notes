@@ -795,6 +795,8 @@ to our myc from right GND, SCK, MISO, MOSI, RESET, VCC (purple we have on right)
 
 : avrdude -c stk500v2 -P /dev/ttyACM0 -p m168p
 
+we access serial port on ACM0
+
 ** pi and pinoir camera
 
 https://raspberrypi.stackexchange.com/questions/32397/how-to-increase-the-camera-exposure-time
@@ -852,3 +854,15 @@ from: https://picamera.readthedocs.io/en/release-1.13/recipes1.html?highlight=lo
 
 - simulation with ngspice in kicad: http://ngspice.sourceforge.net/ngspice-eeschema.html
 
+
+* 27/12
+
+- we access pololu serial on ACM1
+- arduino.mk settings to program arduino mini 3.3v:
+
+BOARD_TAG = pro5v328
+ARDUINO_LIBS = Wire SPI SD
+MONITOR_PORT = /dev/ttyACM1
+F_CPU = 8000000L
+
+libraries are in: /usr/share/arduino/libraries
