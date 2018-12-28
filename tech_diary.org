@@ -881,12 +881,16 @@ power stuff-4A supply, cases-largish, plugsX, sockets for final session 2.1mmX, 
 
 all parts for proto-etched all colours:
 
-3	Unpolarized capacitor, small symbol	C_Small	C58	100pF	C_0805	1	~
+3	Unpolarized capacitor, small symbol	C_Small	C58	100pF	C_0805	1	~ we have
+
 9	Polarized capacitor, small symbol	CP_Small	C11 C13	22uF	SMD-1206_Pol	2	~
 10		C-device	C12	330pF	C_0805	1	
-11	Unpolarized capacitor, small symbol	C_Small	C42 C43 C45 C46 C47 C48 C49 C50 C52 C53 C54 C55 C56 C57 C59 C60	47nF	C_0805	16	~
-12		CP1_Small-device	C24 C25 C28 C29	47u	SMD-1206_Pol	4	
+11	Unpolarized capacitor, small symbol	C_Small	C42 C43 C45 C46 C47 C48 C49 C50 C52 C53 C54 C55 C56 C57 C59 C60	47nF	C_0805	16	~ have with DET
+
+12		CP1_Small-device	C24 C25 C28 C29	47u	SMD-1206_Pol	4	- we have!
+
 13	Polarized capacitor, small symbol	CP_Small	C5 C9	47u	SMD-1206_Pol	2	~
+
 14	100V 0.15A standard switching diode, DO-35	1N4148	D14	1N4148	D_SOD-323	1	http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf
 15		D-device	D2 D4 D6 D8 D10 D12 D13	1n4148	D_SOD-323	7	
 16		D-device	D1 D3 D15	1n914/4148	D_SOD-323	3	
@@ -897,7 +901,8 @@ all parts for proto-etched all colours:
 
 
 
-68		R-device	R38 R39	150K	R_0805	2	CHECK
+68		R-device	R38 R39	150K	R_0805	2	CHECK we have
+
 69	Resistor, small symbol	R_Small	R90 R91	150K	R_0805	2	~
 
 74		R-device	R79 R87 R107	20K	R_0805	3	
@@ -905,10 +910,10 @@ all parts for proto-etched all colours:
 
 79		R_Small-device	R10 R11 R13 R16 R19 R20 R23 R24 R52	3K3	R_0805	9	
 
-80	Resistor, small symbol	R_Small	R98	470K	R_0805	1	~
-81		R-device	R34 R35	47K	R_0805	2	CHECK
+80	Resistor, small symbol	R_Small	R98	470K	R_0805	1	~ have with DI
+81		R-device	R34 R35	47K	R_0805	2	CHECK - have with DET
 82	Resistor, small symbol	R_Small	R69 R92 R93 R94	47K	R_0805	4	~
-84	Resistor, small symbol	R_Small	R54	50K	R_0805	1	~ use 50K
+84	Resistor, small symbol	R_Small	R54	50K	R_0805	1	~ use 47K
 
 85		R-device	R82	820R	R_0805	1	
 
@@ -920,5 +925,9 @@ all parts for proto-etched all colours:
 91		4024	U12	4024	SOIC-14_N	1	
 92	Analog Multiplexer 8 to 1 lins	4051	U10 U14	4051	SO-16-N	2	http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
 93	Triple analog Multiplexer 2 to 1 line	4053	U9 U17	4053	SO-16-N	2	http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
-94	Operational Amplifier, DIP-8/TO-99-8	TL071	U1 U6 U8 U11 U13 U15	TL071	SOIC-8-N	6	http://www.ti.com/lit/ds/symlink/tl071.pdf
-95		TL072-linear	U4 U5 U16 U19	TL072	SOIC-8-N	4	http://www.ti.com/lit/ds/symlink/tl071.pdf
+
+
+
+94	Operational Amplifier, DIP-8/TO-99-8	TL071	U1 U6 U8 U11 U13 U15	TL071	SOIC-8-N 6 - we have 4
+
+95		TL072-linear	U4 U5 U16 U19	TL072	SOIC-8-N	4	http://www.ti.com/lit/ds/symlink/tl071.pdf - we have 12..
