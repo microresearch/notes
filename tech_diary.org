@@ -1,5 +1,71 @@
 * orderings
 
+** to order
+
+leave case, heatsinks and psu for later...
+
+general: 2n3904X, 1k resistorsCHECK, protoboard for loggerX
+
+power stuff-4A supply-what voltage?, cases-largish=size?, plugsX, sockets for final session 2.1mmX, minijack sockets bareX
+
+3055x, heatsink bufferX, heatsinkTODO
+
+all parts for proto-etched all colours:
+
+3	Unpolarized capacitor, small symbol	C_Small	C58	100pF	C_0805	1	~ we have
+
+9	Polarized capacitor, small symbol	CP_Small	C11 C13	22uF	SMD-1206_Pol	2	~ X but wider than 1206
+
+10		C-device	C12	330pF	C_0805	1	X
+
+11	Unpolarized capacitor, small symbol	C_Small	C42 C43 C45 C46 C47 C48 C49 C50 C52 C53 C54 C55 C56 C57 C59 C60	47nF	C_0805	16	~ have with DET
+
+12		CP1_Small-device	C24 C25 C28 C29	47u	SMD-1206_Pol	4	- we have!
+13	Polarized capacitor, small symbol	CP_Small	C5 C9	47u	SMD-1206_Pol	2	~
+
+14	100V 0.15A standard switching diode, DO-35	1N4148	D14	1N4148	D_SOD-323	1	http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf
+15		D-device	D2 D4 D6 D8 D10 D12 D13	1n4148	D_SOD-323	7	XX
+16		D-device	D1 D3 D15	1n914/4148	D_SOD-323	3	XX
+
+60		Q_NPN_BEC-device	Q1 Q3 Q7 Q9 Q14 Q16 Q29 Q40 Q41	MMBT3904	SOT-23	9	
+61		Q_NPN_BEC-device	Q2 Q4 Q5 Q6 Q8 Q10 Q12 Q15 Q19 Q20 Q21 Q22 Q23 Q24 Q25 Q26 Q27 Q28 Q30 Q33 Q34 Q37 Q38 Q44 Q45 Q46 Q47 Q48 Q49 Q50 Q51 Q52 Q53 Q55	Q_NPN_BEC	SOT-23	34	
+XX
+
+62	PNP transistor, base/emitter/collector	Q_PNP_BEC	Q31 Q32 Q35 Q36 Q39 Q54	Q_PNP_BEC	SOT-23	6	~ MMBT3906 or try BC857B - but match with 847 also XX
+
+or mouser as we need 22uF
+
+68		R-device	R38 R39	150K	R_0805	2	CHECK we have
+80	Resistor, small symbol	R_Small	R98	470K	R_0805	1	~ have with DI
+81		R-device	R34 R35	47K	R_0805	2	CHECK - have with DET
+
+
+69	Resistor, small symbol	R_Small	R90 R91	150K	R_0805	2	~X
+74		R-device	R79 R87 R107	20K	R_0805	3	X
+76	Resistor, small symbol	R_Small	R95	2K7	R_0805	1	~X
+79		R_Small-device	R10 R11 R13 R16 R19 R20 R23 R24 R52	3K3	R_0805	9	X
+82	Resistor, small symbol	R_Small	R69 R92 R93 R94	47K	R_0805	4	~X
+84	Resistor, small symbol	R_Small	R54	50K	R_0805	1	~ use 47K X
+85		R-device	R82	820R	R_0805	1	X
+
+87		POT_TRIM-device	RV1 RV2	1M	Potentiometer_Trimmer-EVM3E	2	- prob only 500K X
+
+88	Hex Schmitt trigger inverter	40106	U2	40106	SOIC-14_N	1	http://www.nxp.com/documents/data_sheet/HEF40106B.pdf X
+89	Dual D  FlipFlop, Set & reset	4013	U3	4013		1	http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF X
+90		4015	U7	4015	SO-16-N	1	X
+91		4024	U12	4024	SOIC-14_N	1 X	
+92	Analog Multiplexer 8 to 1 lins	4051	U10 U14	4051	SO-16-N	2	X http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
+93	Triple analog Multiplexer 2 to 1 line	4053	U9 U17	4053	SO-16-N	2 	http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
+
+
+
+94	Operational Amplifier, DIP-8/TO-99-8	TL071	U1 U6 U8 U11 U13 U15	TL071	SOIC-8-N 6 - we have 4 X
+
+95		TL072-linear	U4 U5 U16 U19	TL072	SOIC-8-N	4	http://www.ti.com/lit/ds/symlink/tl071.pdf - we have 12..
+
+
+** done
+
 LED, 5 mm, low-current, 2 mA, red and yellow
 
 neutrik: NR-J4HF
@@ -871,63 +937,3 @@ libraries are in: /usr/share/arduino/libraries
 
   for cv control on nichrome wire from eurorack but 3055 will need heatsink materials
 
-** to order
-
-general: 2n3904X, 10k resistorsCHECK, protoboard for loggerX
-
-power stuff-4A supply, cases-largish, plugsX, sockets for final session 2.1mmX, minijack sockets bareX
-
-3055x, heatsink buffer, heatsinkTODO
-
-all parts for proto-etched all colours:
-
-3	Unpolarized capacitor, small symbol	C_Small	C58	100pF	C_0805	1	~ we have
-
-9	Polarized capacitor, small symbol	CP_Small	C11 C13	22uF	SMD-1206_Pol	2	~
-10		C-device	C12	330pF	C_0805	1	
-11	Unpolarized capacitor, small symbol	C_Small	C42 C43 C45 C46 C47 C48 C49 C50 C52 C53 C54 C55 C56 C57 C59 C60	47nF	C_0805	16	~ have with DET
-
-12		CP1_Small-device	C24 C25 C28 C29	47u	SMD-1206_Pol	4	- we have!
-
-13	Polarized capacitor, small symbol	CP_Small	C5 C9	47u	SMD-1206_Pol	2	~
-
-14	100V 0.15A standard switching diode, DO-35	1N4148	D14	1N4148	D_SOD-323	1	http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf
-15		D-device	D2 D4 D6 D8 D10 D12 D13	1n4148	D_SOD-323	7	
-16		D-device	D1 D3 D15	1n914/4148	D_SOD-323	3	
-
-60		Q_NPN_BEC-device	Q1 Q3 Q7 Q9 Q14 Q16 Q29 Q40 Q41	MMBT3904	SOT-23	9	
-61		Q_NPN_BEC-device	Q2 Q4 Q5 Q6 Q8 Q10 Q12 Q15 Q19 Q20 Q21 Q22 Q23 Q24 Q25 Q26 Q27 Q28 Q30 Q33 Q34 Q37 Q38 Q44 Q45 Q46 Q47 Q48 Q49 Q50 Q51 Q52 Q53 Q55	Q_NPN_BEC	SOT-23	34	
-62	PNP transistor, base/emitter/collector	Q_PNP_BEC	Q31 Q32 Q35 Q36 Q39 Q54	Q_PNP_BEC	SOT-23	6	~
-
-
-
-68		R-device	R38 R39	150K	R_0805	2	CHECK we have
-
-69	Resistor, small symbol	R_Small	R90 R91	150K	R_0805	2	~
-
-74		R-device	R79 R87 R107	20K	R_0805	3	
-76	Resistor, small symbol	R_Small	R95	2K7	R_0805	1	~
-
-79		R_Small-device	R10 R11 R13 R16 R19 R20 R23 R24 R52	3K3	R_0805	9	
-
-80	Resistor, small symbol	R_Small	R98	470K	R_0805	1	~ have with DI
-81		R-device	R34 R35	47K	R_0805	2	CHECK - have with DET
-82	Resistor, small symbol	R_Small	R69 R92 R93 R94	47K	R_0805	4	~
-84	Resistor, small symbol	R_Small	R54	50K	R_0805	1	~ use 47K
-
-85		R-device	R82	820R	R_0805	1	
-
-87		POT_TRIM-device	RV1 RV2	1M	Potentiometer_Trimmer-EVM3E	2	- prob only 500K
-
-88	Hex Schmitt trigger inverter	40106	U2	40106	SOIC-14_N	1	http://www.nxp.com/documents/data_sheet/HEF40106B.pdf
-89	Dual D  FlipFlop, Set & reset	4013	U3	4013		1	http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF
-90		4015	U7	4015	SO-16-N	1	
-91		4024	U12	4024	SOIC-14_N	1	
-92	Analog Multiplexer 8 to 1 lins	4051	U10 U14	4051	SO-16-N	2	http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
-93	Triple analog Multiplexer 2 to 1 line	4053	U9 U17	4053	SO-16-N	2	http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
-
-
-
-94	Operational Amplifier, DIP-8/TO-99-8	TL071	U1 U6 U8 U11 U13 U15	TL071	SOIC-8-N 6 - we have 4
-
-95		TL072-linear	U4 U5 U16 U19	TL072	SOIC-8-N	4	http://www.ti.com/lit/ds/symlink/tl071.pdf - we have 12..
