@@ -1478,7 +1478,7 @@ Wire Wire Line
 	5750 4450 6050 4450
 Text Label 1350 4300 2    50   ~ 0
 -10V
-Text Label 4800 2050 2    50   ~ 0
+Text Label 4600 2050 2    50   ~ 0
 +10V
 $Comp
 L Device:C_Small C?
