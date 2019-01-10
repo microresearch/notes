@@ -198,23 +198,23 @@ $EndComp
 $Comp
 L Device:R_Small R25
 U 1 1 5C412B3D
-P 3300 3450
-F 0 "R25" V 3496 3450 50  0000 C CNN
-F 1 "10K" V 3405 3450 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3300 3450 50  0001 C CNN
-F 3 "~" H 3300 3450 50  0001 C CNN
-	1    3300 3450
+P 3300 3625
+F 0 "R25" V 3496 3625 50  0000 C CNN
+F 1 "10K" V 3405 3625 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3300 3625 50  0001 C CNN
+F 3 "~" H 3300 3625 50  0001 C CNN
+	1    3300 3625
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C12
 U 1 1 5C412C33
-P 3300 3625
-F 0 "C12" V 3200 3625 50  0000 C CNN
-F 1 "47pF" V 3400 3600 50  0000 C CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3300 3625 50  0001 C CNN
-F 3 "~" H 3300 3625 50  0001 C CNN
-	1    3300 3625
+P 3300 3450
+F 0 "C12" V 3200 3450 50  0000 C CNN
+F 1 "47pF" V 3400 3425 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3300 3450 50  0001 C CNN
+F 3 "~" H 3300 3450 50  0001 C CNN
+	1    3300 3450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -255,12 +255,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 3450 3575 3450
 Wire Wire Line
-	3575 3450 3575 3200
-Wire Wire Line
 	3400 3625 3575 3625
-Wire Wire Line
-	3575 3625 3575 3450
-Connection ~ 3575 3450
 Wire Wire Line
 	2975 3450 2975 3625
 Wire Wire Line
@@ -280,23 +275,23 @@ $EndComp
 $Comp
 L Device:R_Small R26
 U 1 1 5C416247
-P 3300 4425
-F 0 "R26" V 3496 4425 50  0000 C CNN
-F 1 "10K" V 3405 4425 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3300 4425 50  0001 C CNN
-F 3 "~" H 3300 4425 50  0001 C CNN
-	1    3300 4425
+P 3300 4600
+F 0 "R26" V 3496 4600 50  0000 C CNN
+F 1 "10K" V 3405 4600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3300 4600 50  0001 C CNN
+F 3 "~" H 3300 4600 50  0001 C CNN
+	1    3300 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C13
 U 1 1 5C41624D
-P 3300 4600
-F 0 "C13" V 3200 4600 50  0000 C CNN
-F 1 "47pF" V 3400 4575 50  0000 C CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3300 4600 50  0001 C CNN
-F 3 "~" H 3300 4600 50  0001 C CNN
-	1    3300 4600
+P 3300 4425
+F 0 "C13" V 3200 4425 50  0000 C CNN
+F 1 "47pF" V 3400 4400 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3300 4425 50  0001 C CNN
+F 3 "~" H 3300 4425 50  0001 C CNN
+	1    3300 4425
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -317,15 +312,6 @@ Wire Wire Line
 Wire Wire Line
 	2975 4425 3200 4425
 Wire Wire Line
-	3400 4425 3575 4425
-Wire Wire Line
-	3575 4425 3575 4175
-Wire Wire Line
-	3400 4600 3575 4600
-Wire Wire Line
-	3575 4600 3575 4425
-Connection ~ 3575 4425
-Wire Wire Line
 	2975 4425 2975 4600
 Wire Wire Line
 	2975 4600 3200 4600
@@ -345,7 +331,6 @@ Wire Wire Line
 	3575 3625 3575 3925
 Wire Wire Line
 	3575 3925 3550 3925
-Connection ~ 3575 3625
 Wire Wire Line
 	3350 3925 2675 3925
 Wire Wire Line
@@ -355,10 +340,9 @@ Wire Wire Line
 Connection ~ 2975 4275
 Wire Wire Line
 	3575 3200 3725 3200
-Connection ~ 3575 3200
-Text Label 3725 3200 0    50   ~ 0
+Text Label 4000 3200 0    50   ~ 0
 NOR
-Text Label 3725 4175 0    50   ~ 0
+Text Label 4025 4175 0    50   ~ 0
 OR
 Wire Wire Line
 	3100 2675 2750 2675
@@ -370,8 +354,7 @@ Connection ~ 2975 3375
 Wire Wire Line
 	2975 3375 2975 3450
 Wire Wire Line
-	3575 4175 3725 4175
-Connection ~ 3575 4175
+	3575 4175 3625 4175
 $Comp
 L Amplifier_Operational:TL074 U6
 U 1 1 5C41B62E
@@ -709,23 +692,23 @@ $EndComp
 $Comp
 L Device:R_Small R41
 U 1 1 5C4279AC
-P 7050 3450
-F 0 "R41" V 7246 3450 50  0000 C CNN
-F 1 "10K" V 7155 3450 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7050 3450 50  0001 C CNN
-F 3 "~" H 7050 3450 50  0001 C CNN
-	1    7050 3450
+P 7050 3625
+F 0 "R41" V 7246 3625 50  0000 C CNN
+F 1 "10K" V 7155 3625 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7050 3625 50  0001 C CNN
+F 3 "~" H 7050 3625 50  0001 C CNN
+	1    7050 3625
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C15
 U 1 1 5C4279B2
-P 7050 3625
-F 0 "C15" V 6950 3625 50  0000 C CNN
-F 1 "47pF" V 7150 3600 50  0000 C CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7050 3625 50  0001 C CNN
-F 3 "~" H 7050 3625 50  0001 C CNN
-	1    7050 3625
+P 7050 3450
+F 0 "C15" V 6950 3450 50  0000 C CNN
+F 1 "47pF" V 7150 3425 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7050 3450 50  0001 C CNN
+F 3 "~" H 7050 3450 50  0001 C CNN
+	1    7050 3450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -766,12 +749,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3450 7325 3450
 Wire Wire Line
-	7325 3450 7325 3200
-Wire Wire Line
 	7150 3625 7325 3625
-Wire Wire Line
-	7325 3625 7325 3450
-Connection ~ 7325 3450
 Wire Wire Line
 	6725 3450 6725 3625
 Wire Wire Line
@@ -791,23 +769,23 @@ $EndComp
 $Comp
 L Device:R_Small R42
 U 1 1 5C4279D9
-P 7050 4425
-F 0 "R42" V 7246 4425 50  0000 C CNN
-F 1 "10K" V 7155 4425 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7050 4425 50  0001 C CNN
-F 3 "~" H 7050 4425 50  0001 C CNN
-	1    7050 4425
+P 7050 4600
+F 0 "R42" V 7246 4600 50  0000 C CNN
+F 1 "10K" V 7155 4600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7050 4600 50  0001 C CNN
+F 3 "~" H 7050 4600 50  0001 C CNN
+	1    7050 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C16
 U 1 1 5C4279DF
-P 7050 4600
-F 0 "C16" V 6950 4600 50  0000 C CNN
-F 1 "47pF" V 7150 4575 50  0000 C CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7050 4600 50  0001 C CNN
-F 3 "~" H 7050 4600 50  0001 C CNN
-	1    7050 4600
+P 7050 4425
+F 0 "C16" V 6950 4425 50  0000 C CNN
+F 1 "47pF" V 7150 4400 50  0000 C CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7050 4425 50  0001 C CNN
+F 3 "~" H 7050 4425 50  0001 C CNN
+	1    7050 4425
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -832,11 +810,6 @@ Wire Wire Line
 Wire Wire Line
 	7325 4425 7325 4175
 Wire Wire Line
-	7150 4600 7325 4600
-Wire Wire Line
-	7325 4600 7325 4425
-Connection ~ 7325 4425
-Wire Wire Line
 	6725 4425 6725 4600
 Wire Wire Line
 	6725 4600 6950 4600
@@ -856,7 +829,6 @@ Wire Wire Line
 	7325 3625 7325 3925
 Wire Wire Line
 	7325 3925 7300 3925
-Connection ~ 7325 3625
 Wire Wire Line
 	7100 3925 6425 3925
 Wire Wire Line
@@ -864,12 +836,9 @@ Wire Wire Line
 Wire Wire Line
 	6425 4275 6725 4275
 Connection ~ 6725 4275
-Wire Wire Line
-	7325 3200 7475 3200
-Connection ~ 7325 3200
-Text Label 7475 3200 0    50   ~ 0
+Text Label 7750 3200 0    50   ~ 0
 NAND
-Text Label 7475 4175 0    50   ~ 0
+Text Label 7775 4175 0    50   ~ 0
 AND
 Wire Wire Line
 	6850 2675 6500 2675
@@ -1651,4 +1620,101 @@ Wire Wire Line
 	9000 3475 8900 3475
 Text Label 8900 3475 2    50   ~ 0
 AND
+$Comp
+L Device:R_Small R44
+U 1 1 5C37FA3D
+P 3825 3200
+F 0 "R44" V 4021 3200 50  0000 C CNN
+F 1 "330R" V 3900 3200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3825 3200 50  0001 C CNN
+F 3 "~" H 3825 3200 50  0001 C CNN
+	1    3825 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3575 3200 3575 3450
+Connection ~ 3575 3200
+Wire Wire Line
+	3925 3200 3950 3200
+Wire Wire Line
+	3575 3625 3950 3625
+Wire Wire Line
+	3950 3625 3950 3200
+Connection ~ 3575 3625
+Connection ~ 3950 3200
+Wire Wire Line
+	3950 3200 4000 3200
+$Comp
+L Device:R_Small R45
+U 1 1 5C3A8CE0
+P 3825 4175
+F 0 "R45" V 4021 4175 50  0000 C CNN
+F 1 "330R" V 3900 4175 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3825 4175 50  0001 C CNN
+F 3 "~" H 3825 4175 50  0001 C CNN
+	1    3825 4175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3925 4175 3975 4175
+Wire Wire Line
+	3400 4425 3625 4425
+Wire Wire Line
+	3625 4425 3625 4175
+Connection ~ 3625 4175
+Wire Wire Line
+	3625 4175 3725 4175
+Wire Wire Line
+	3400 4600 3975 4600
+Wire Wire Line
+	3975 4600 3975 4175
+Connection ~ 3975 4175
+Wire Wire Line
+	3975 4175 4025 4175
+$Comp
+L Device:R_Small R46
+U 1 1 5C3D30F4
+P 7575 3200
+F 0 "R46" V 7771 3200 50  0000 C CNN
+F 1 "330R" V 7650 3200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7575 3200 50  0001 C CNN
+F 3 "~" H 7575 3200 50  0001 C CNN
+	1    7575 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7325 3450 7325 3200
+Connection ~ 7325 3200
+Wire Wire Line
+	7325 3625 7675 3625
+Wire Wire Line
+	7675 3625 7675 3200
+Wire Wire Line
+	7325 3200 7475 3200
+Connection ~ 7325 3625
+Wire Wire Line
+	7675 3200 7750 3200
+Connection ~ 7675 3200
+$Comp
+L Device:R_Small R47
+U 1 1 5C3FF7B3
+P 7575 4175
+F 0 "R47" V 7771 4175 50  0000 C CNN
+F 1 "330R" V 7650 4175 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7575 4175 50  0001 C CNN
+F 3 "~" H 7575 4175 50  0001 C CNN
+	1    7575 4175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7675 4175 7700 4175
+Wire Wire Line
+	7700 4600 7700 4175
+Wire Wire Line
+	7150 4600 7700 4600
+Connection ~ 7700 4175
+Wire Wire Line
+	7700 4175 7775 4175
+Text Notes 5475 5000 0    197  ~ 0
+on pcb we have different outs - straight and no short circuit protect
 $EndSCHEMATC

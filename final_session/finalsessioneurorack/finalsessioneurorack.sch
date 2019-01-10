@@ -974,7 +974,7 @@ F 3 "~" H 6925 2225 50  0001 C CNN
 	1    6925 2225
 	-1   0    0    1   
 $EndComp
-Text Notes 3000 1375 2    50   ~ 0
+Text Notes 4950 1450 2    197  ~ 0
 x2 on PCB only
 Wire Wire Line
 	6725 1925 6625 1925
