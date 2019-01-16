@@ -543,50 +543,63 @@ RoHS1
 
 
 X-we have all Thruhole
-
+O-ordered
 
 DUSG parts: x2
 
-47pf x4 
-1n x1 
+47pf x4 o
+1n x1 o
 10n x1 X
-22n x2
-100n x10
+22n x2 o
+100n x10 o
 47u elect x2 X
 
-5.6v diode x2
+5.6v diode x2 o
+
 1n4148 x8 X
-LF353  x2 
-TL072 x2 
-LM3900 x2 X1
+LF353  x2 o
+TL072 x2 o
+LM3900 x2 X1 o
 
 100R 2 X
 330R 2 X
-1k 4
+1k 4 ->o
 1k5 2 X
 2k2 6 X
-8k2 2 
+8k2 2 o
 33k 6 X
 47k 6 X
 68k 2 X
-82k 6 +some
+82k 6 +some o
 100k 12 X
 
-POTS etc: 50k lin x6, 16 jacks
+CHECK:
+220K 8
+330K 2
+470K 4
+820K 6
+1M 10 X
+10M 4 X
+
+100K trimmer?footprint?
+
+3904/6 3906 6 X 
+
+POTS etc: 50k lin x6, 14 jacks - is that for one DUSG? yes so x2= 12, 28 jacks
 
 analog logic/buffer parts:
 
-buffer tl072x2
+buffer tl072x2 o
 
-47pf 8
-100n 7
+47pf 8 o
+100n 7 o
 100u 25v 2 X
 
 1n4148 14 X
-bat48 4 we have BAt42/85?
+bat48 4 o
 
 tl074 2 X
-tl072 4
+tl072 4 o
 
 330R 8 X
 4k7 4 X
@@ -594,9 +607,16 @@ tl072 4
 100k 18 X
 270k 2 X
 
-bc557b 2
-bc547a 2
+bc557b 2 o
+bc547a 2 o
 
 does that include 2x mixer? yes
 
 POTS etc: 100k lin x12, how many jacks 
+
+total: 
+50k lin x12 -7 = 5*
+100k lin x12 = 11*
+32 jacks + for buffer/logic/mix==24 = 56jacks (say 60)
+
+thonk: 60xjacks, 50k lin x10, 100k lin x12, jacks=60//how many we have + WORM?,how many knobs=24+rest=14=40!
