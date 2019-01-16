@@ -541,32 +541,36 @@ RoHS1
 
 * for dusg and logic TO_GET/check:
 
-DUSG parts:
 
-47pf x4
-1n x1
-10n x1
+X-we have all Thruhole
+
+
+DUSG parts: x2
+
+47pf x4 
+1n x1 
+10n x1 X
 22n x2
 100n x10
-47u elect x2
+47u elect x2 X
 
 5.6v diode x2
-1n4148 x8
-LF353  x2
-TL072 x2
-LM3900 x2
+1n4148 x8 X
+LF353  x2 
+TL072 x2 
+LM3900 x2 X1
 
-100R 2
-330R 2
+100R 2 X
+330R 2 X
 1k 4
-1k5 2
-2k2 6
-8k2 2
-33k 6
-47k 6
-68k 2
-82k 6 
-100k 12
+1k5 2 X
+2k2 6 X
+8k2 2 
+33k 6 X
+47k 6 X
+68k 2 X
+82k 6 +some
+100k 12 X
 
 POTS etc: 50k lin x6, 16 jacks
 
@@ -576,19 +580,19 @@ buffer tl072x2
 
 47pf 8
 100n 7
-100u 25v 2
+100u 25v 2 X
 
-1n4148 14
-bat48 4
+1n4148 14 X
+bat48 4 we have BAt42/85?
 
-tl074 2
+tl074 2 X
 tl072 4
 
-330R 8
-4k7 4
-10k 24
-100k 18
-270k 2
+330R 8 X
+4k7 4 X
+10k 24 X
+100k 18 X
+270k 2 X
 
 bc557b 2
 bc547a 2
