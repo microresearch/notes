@@ -619,4 +619,25 @@ total:
 100k lin x12 = 11*
 32 jacks + for buffer/logic/mix==24 = 56jacks (say 60)
 
-thonk: 60xjacks, 50k lin x10, 100k lin x12, jacks=60//how many we have + WORM?,how many knobs=24+rest=14=40!
+thonk: 60xjacks, 50k lin x20, 100k lin x12, jacks=60//how many we have + WORM?,how many knobs=24+rest=14=40!
+
+spdt on off on x2x4
+
+if we order manhatten cv mixer:
+
+CHECK:
+47k 5
+470r 2
+100k 1 X
+4.7k 1 X
+680R 1
+39k 1
+33k 1 X
+1n4001 x2
+TL074 x1 X
+LT013 x1
+PTC fuse?
+100n x1 X
+10uF
+1uF
+xpots ordered
