@@ -574,16 +574,16 @@ LM3900 x2 X1 o
 100k 12 X
 
 CHECK:
-220K 8
+220K 8 X
 330K 2
-470K 4
+470K 4 X
 820K 6
 1M 10 X
 10M 4 X
 
 100K trimmer?footprint?
 
-3904/6 3906 6 X 
+3904/6 3906 6 
 
 POTS etc: 50k lin x6, 14 jacks - is that for one DUSG? yes so x2= 12, 28 jacks
 
@@ -626,11 +626,12 @@ spdt on off on x2x4
 if we order manhatten cv mixer:
 
 CHECK:
-47k 5
+47k 5 X
 470r 2
 100k 1 X
 4.7k 1 X
-680R 1
+680R 1 X
+
 39k 1
 33k 1 X
 1n4001 x2
@@ -638,6 +639,6 @@ TL074 x1 X
 LT013 x1
 PTC fuse?
 100n x1 X
-10uF
-1uF
+10uF X
+1uF X
 xpots ordered
