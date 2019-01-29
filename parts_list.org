@@ -575,15 +575,15 @@ LM3900 x2 X1 o
 
 CHECK:
 220K 8 X
-330K 2
+330K 2 o
 470K 4 X
-820K 6
+820K 6 o
 1M 10 X
 10M 4 X
 
-100K trimmer?footprint?
+100K trimmer x2 o - ACP 6-L 100k (was bourns 3306W horizontal)
 
-3904/6 3906 6 
+3904/6 3906 6 o
 
 POTS etc: 50k lin x6, 14 jacks - is that for one DUSG? yes so x2= 12, 28 jacks
 
@@ -627,17 +627,17 @@ if we order manhatten cv mixer:
 
 CHECK:
 47k 5 X
-470r 2
+470r 2 o
 100k 1 X
 4.7k 1 X
 680R 1 X
 
-39k 1
+39k 1 o
 33k 1 X
-1n4001 x2
-TL074 x1 X
-LT013 x1
-PTC fuse?
+1n4001 x2 o
+TL074 x1 Xo
+LT1013 x1 o
+PTC fuse?/non/
 100n x1 X
 10uF X
 1uF X
