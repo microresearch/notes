@@ -642,3 +642,7 @@ PTC fuse?/non/
 10uF X
 1uF X
 xpots ordered
+
+* pin heads/other parts
+
+reichelt: SL 1X40G 2,54
