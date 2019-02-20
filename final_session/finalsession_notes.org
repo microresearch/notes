@@ -1,0 +1,30 @@
+* packing list
+
+- lasers+psu, laser table, laser fittings and bolts, photodiodes, fan
+  driver+psu, fans, heat driver+psu, heat elements, ceramic heat bowls, any
+  chemistry, cables, lcd and holder, glass transmitter plates, radio
+
+- euro case, power cable and patch cables, output cables
+
+- matches, candles, incense bags
+
+- antennas, antenna box, coils
+
+- batteries
+
+- earth copper plates, ultrasonics, 
+
+- gas and head, glass pipes, gloves, goggles
+
+* Tech needs
+
+1x 12, 14 or 16 channel analogue audio mixer (with gains on at least 6 channels - Mackie 1402 or Soundcraft EPM-12)
+ 
+2x mono jack leads from mixer to PA/main mixer
+ 
+6x power sockets/extension cable
+
+access to earth, stone slabs
+
+switching off/disabling any smoke alarms
+
