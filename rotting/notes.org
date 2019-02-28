@@ -1,0 +1,308 @@
+* for rotting sounds 2019 exhibition and workshop
+
+** exhibition: Enrichment and depletion
+
+TODO:
+- build environment, run test code baremetal
+- fast interrupt out
+- pulse in within 400 per second interrupt (as long as is zero we wait
+  for a one in delayed loop)...
+- test output and low pass
+- tweaks
+
+- sigma delta with rock/radioactive decay, uv light - ingestion of rock in dying animal?
+
+pulses with clock are stored and looped very fast -> low pass
+
+- read in with clock at 400 khz (for 200cps average - we may need to
+  extend pulse time to catch pulses as bits), output/loop round output
+  up to last recorded and max buffersize
+- on pi? raw? as we need lots of memory for storage
+
+http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/
+
+- low pass?
+
+[what were we doing which also used looped storage and playback of bits? was from myx/sdcard so not so applicable....]
+
+- where is PSU? - in the peli box!
+
+
+** workshop: Circulation corruption.
+
+All technology that is derived of earth, must be decomposed and again
+reduced to earth.
+[Basil Valentine]
+
+Old earth, no more lies, I've seen you, it was me, with my other
+ravening eyes, too late.
+[Samuel Beckett]
+
+Circulation and corruption (workshop) examines the various
+circulations of media through the matters and bodies of the earth and
+atmosphere, and through a certain corruption or dissolution of
+(digital) identity, meaning and description.
+
+Within a one and a half day hands-on, speculative workshop we will
+collectively explore the interfaces and exchanges between living
+systems (earth, compost, worms, mycelium) and active audio
+electronics. We will participate primarily with our hands and our ears
+within circulations amongst earths, composts, mushroom mycelium,
+moulds, active chemistry, worms, crows, dusts, smokes and fogs and
+impulses and waves.
+
+During the workshop we will construct a series of open circuits which
+do not conceal their materiality but participate equally within
+material and electrochemical exchanges and circulations. These
+circuits are inspired through a media archaeology of electronic music
+production, and through the history of alchemical engagement with
+minerals, with decay and with the earth. These technical and
+conceptual influences are equally opened to circulation and corruption during
+the workshop.
+
+We will work with a range of materials (for example, machine cut
+copper sheets and oyster mushroom mycelium) and approaches (for
+example, with radio transmission and signal reception) to design and
+build these open circuits which will enter into processes of
+appreciable decay, corruption and dissolution. These open circuits
+will be placed during the workshop in selected interior and exterior
+locations to participate in various time scales of deterioration and
+degradation.
+
+ouroboros, latch and comparator circuits opened to moulds and decay, fungi, degradation
+
+
+** workshop reader
+
+*** beckett sucking stones
+From Beckett's early novel Molloy, later reprinted separately under the title of "Sucking-Stones".  
+
+
+I took advantage of being at the seaside to lay in a store of
+sucking-stones. They were pebbles but I call them stones. Yes, on this
+occasion I laid in a considerable store. I distributed them equally
+between my four pockets, and sucked them turn and turn about. This
+raised a problem which I first solved in the following way. I had say
+sixteen stones, four in each of my four pockets these being the two
+pockets of my trousers and the two pockets of my greatcoat.
+
+Taking a stone from the right pocket of my greatcoat, and putting it
+in my mouth, I replaced it in the right pocket of my greatcoat by a
+stone from the right pocket of my trousers, which I replaced by a
+stone from the left pocket of my trousers, which I replaced by a stone
+from the left pocket of my greatcoat, which I replaced by the stone
+which was in my mouth, as soon as I had finished sucking it. Thus
+there were still four stones in each of my four pockets, but not quite
+the same stones. And when the desire to suck took hold of me again, I
+drew again on the right pocket of my greatcoat, certain of not taking
+the same stone as the last time.  And while I sucked it I rearranged
+the other stones in the way I have just described. And so on.
+
+But this solution did not satisfy me fully. For it did not escape me
+that, by an extraordinary hazard, the four stones circulating thus
+might always be the same four. In which case, far from sucking the
+sixteen stones turn and turn about, I was really only sucking four,
+always the same, turn and turn about. But I shuffled them well in my
+pockets, before I began to suck, and again, while I sucked, before
+transferring them, in the hope of obtaining a more general circulation
+of the stones from pocket to pocket. But this was only a makeshift
+that could not long content a man like me. So I began to look for
+something else.
+
+And the first thing I hit upon was that I might do better to transfer
+the stones four by four, instead of one by one, that is to say, during
+the sucking, to take the three stones remaining in the right pocket of
+my greatcoat and replace them by the four in the right pocket of my
+trousers , and these by the four in the left pocket of my trousers,
+and these by the four in the left pocket of my greatcoat, and finally
+these by the three from the right pocket of my greatcoat, plus the
+one, as soon as I had finished sucking it, which was in my mouth.
+Yes, it seemed to me at first that by so doing I would arrive at a
+better result.
+
+But on further reflection I had to change my mind and confess that the
+circulation of the stones four by four came to exactly the same thing
+as their circulation one by one. For if I was certain of finding each
+time, in the right pocket of my greatcoat, four stones totally
+different from their immediate predecessors, the possibility
+nevertheless remained of my always chancing on the same stone, within
+each group of four, and consequently of my sucking, not the sixteen
+turn and turn about as I wished, but in fact four only, always the
+same, turn and turn about. So I had to seek elswhere than in the mode
+of circulation. For no matter how I caused the stones to circulate, I
+always ran the same risk.
+
+It was obvious that by increasing the number of my pockets I was bound
+to increase my chances of enjoying my stones in the way I planned,
+that is to say one after the other until their number was
+exhausted. Had I had eight pockets, for example, instead of the four I
+did have, then even the most diabolical hazard could not have
+prevented me from sucking at least eight of my sixteen stones, turn
+and turn about. The truth is I should have needed sixteen pockets in
+order to be quite easy in my mind. And for a long time I could see no
+other conclusion than this, that short of having sixteen pockets, each
+with its stone, I could never reach the goal I had set myself, short
+of an extraordinary hazard. And if at a pinch I could double the
+number of my pockets, were it only by dividing each pocket in two,
+with the help of a few safety-pins let us say, to quadruple them
+seemed to be more than I could manage. And I did not feel inclined to
+take all that trouble for a half-measure.
+
+For I was beginning to lose all sense of measure, after all this
+wrestling and wrangling, and to say, All or nothing. And if I was
+tempted for an instant to establish a more equitable proportion
+between my stones and my pockets , by reducing the former to the
+number of the latter, it was only for an instant. For it would have
+been an admission of defeat. And sitting on the shore, before the sea,
+the sixteen stones spread out before my eyes, I gazed at them in anger
+and perplexity.  For just as I had difficulty in sitting in a chair,
+or in an arm-chair, because of my stiff leg, you understand, so I had
+none in sitting on the ground, because of my stiff leg and my
+stiffening leg, for it was about this time that my good leg, good in
+the sense that it was not stiff, began to stiffen.  I needed a prop
+under the ham you understand, and even under the whole length of the
+leg, the prop of the earth.  And while I gazed thus at my stones,
+revolving interminable martingales all equally defective, and crushing
+handfuls of sand, so that the sand ran through my fingers and fell
+back on the strand, yes, while thus I lulled my mind and part of my
+body, one day suddenly it dawned on me, dimly, that I might perhaps
+achieve my purpose without increasing the number of my pockets, or
+reducing the number of my stones, but simply by sacrificing the
+principle of trim.
+
+The meaning of this illumination, which suddenly began to sing within
+me, like a verse of Isaiah, or of Jeremiah, I did not penetrate at
+once, and notably the word trim, which I had never met with, in this
+sense, long remained obscure. Finally I seemed to grasp that this word
+trim could not here mean anything else, anything better, than the
+distribution of the sixteen stones in four groups of four, one group
+in each pocket, and that it was my refusal to consider any
+distribution other than this that had vitiated my calculations until
+then and rendered the problem literally insoluble. And it was on the
+basis of this interpretation, whether right or wrong, that I finally
+reached a solution, inelegant assuredly, but sound, sound.
+
+Now I am willing to believe, indeed I firmly believe, that other
+solutions to this problem might have been found and indeed may still
+be found, no less sound, but much more elegant than the one I shall
+now describe, if I can.  And I believe too that had I been a little
+more insistent, a little more resistant, I could have found them
+myself.  But I was tired, but I was tired, and I contented myself
+ingloriously with the first solution that was a solution, to this
+problem.  But not to go over the heartbreaking stages through which I
+passed before I came to it here it is, in all its hideousness.
+
+All (all!) that was necessary was to put, for example, six stones in
+the right pocket of my greatcoat, or supply pocket, five in the right
+pocket of my trousers, and five in the left pocket of my trousers,
+that makes the lot, twice five ten plus six sixteen, and none, for
+none remained, in the left pocket of my greatcoat, which for the time
+being remained empty, empty of stones that is, for its usual contents
+remained, as well as occasional objects.  For where do you think I hid
+my vegetable knife, my silver, my horn and the other things that I
+have not yet named, perhaps shall never name.  Good. Now I can begin
+to suck. Watch me closely. I take a stone from the right pocket of my
+greatcoat , suck it, stop sucking it, put it in the left pocket of my
+greatcoat, the one empty (of stones). I take a second stone from the
+right pocket of my greatcoat, suck it put it in the left pocket of my
+greatcoat. And so on until the right pocket of my greatcoat is empty
+(apart from its usual and casual contents) and the six stones I have
+just sucked, one after the other, are all in the left pocket of my
+greatcoat.
+
+Pausing then, and concentrating, so as not to make a balls of it, I
+transfer to the right pocket of my greatcoat, in which there are no
+stones left, the five stones in the right pocket of my trousers, which
+I replace by the five stones in the left pocket of my trousers, which
+I replace by the six stones in the left pocket of my greatcoat. At
+this stage then the left pocket of my greatcoat is again empty of
+stones, while the right pocket of my greatcoat is again supplied, and
+in the vright way, that is to say with other stones than those I have
+just sucked. These other stones I then begin to suck, one after the
+other, and to transfer as I go along to the left pocket of my
+greatcoat, being absolutely certain, as far as one can be in an affair
+of this kind, that I am not sucking the same stones as a moment
+before, but others.
+
+And when the right pocket of my greatcoat is again empty (of stones),
+and the five I have just sucked are all without exception in the left
+pocket of my greatcoat, then I proceed to the same redistribution as a
+moment before, or a similar redistribution, that is to say I transfer
+to the right pocket of my greatcoat, now again available, the five
+stones in the right pocket of my trousers, which I replace by the six
+stones in the left pocket of my trousers, which I replace by the five
+stones in the left pocket of my greatcoat. And there I am ready to
+begin again. Do I have to go on? No, for it is clear that after the
+next series, of sucks and transfers, I shall be back where I started,
+that is with the first six stones back in the supply pocket, the next
+five in the right pocket of my stinking old trousers and finally the
+last five in left pocket of same, and my sixteen stones will have been
+sucked once at least in impeccable succession, not one sucked twice,
+not one left unsucked.
+
+It is true that next time I could scarcely hope to suck my stones in
+the same order as the first time and that the first, seventh and
+twelfth for example of the first cycle might very well be the sixth,
+eleventh, and sixteenth respectively of the second, if the worst came
+to the worst.  But this was a drawback I could not avoid.  And if in
+the cycles taken together utter confusion was bound to reign, at least
+within each cycle taken separately I could be easy in my mind, at
+least as easy as one can be, in a proceeding of this kind.  For in
+order for each cycle to be identical, as to the succession of stones
+in my mouth, and God knows I had set my heart on it, the only means
+were numbered stones or sixteen pockets.  And rather than make twelve
+more pockets or number my stones, I preferred to make the best of the
+comparative peace of mind I enjoyed within each cycle taken
+separately.
+
+For it was not enough to number the stones, but I would have had to
+remember, every time I put a stone in my mouth, the number I needed
+and look for it in my pocket.  Which would have put me off stone for
+ever, in a very short time.  For I would never have been sure of not
+making a mistake, unless of course I had kept a kind of register, in
+which to tick off the stones one by one, as I sucked them.  And of
+this I believed myself incapable.  No, the only perfect solution would
+have been the sixteen pockets, symmetrically disposed, each one with
+its stone.  Then I would have needed neither to number nor to think,
+but merely, as I sucked a given stone, to move on the fifteen others,
+a delicate business admittedly, but within my power, and to call
+always on the same pocket when I felt like a suck.  This would have
+freed me from all anxiety, not only within each cycle taken
+separately, but also for the sum of all cycles, though they went on
+forever.
+
+But however imperfect my own solution was, I was pleased at having
+found it all alone, yes, quite pleased.  And if it was perhaps less
+sound than I had thought in the first flush of discovery, its
+inelegance never diminished.  And it was above all inelegant in this,
+to my mind, that the uneven distribution was painful to me, bodily.
+It is true that a kind of equilibrium was reached, at a given moment,
+in the early stages of each cycle, namely after the third suck and
+before the fourth, but it did not last long, and the rest of the time
+I felt the weight of the stones dragging me now to one side, now to
+the other.  There was something more than a principle I abandoned,
+when I abandoned the equal distribution, it was a bodily need. But to
+suck the stones in the way I have described, not haphazard, but with
+method, was also I think a bodily need. Here then were two
+incompatible bodily needs, at loggerheads. Such things happen.
+
+But deep down I didn't give a tinker's curse about being off my
+balance, dragged to the right hand and the left, backwards and
+forewards. And deep down it was all the same to me whether I sucked a
+different stone each time or always the same stone, until the end of
+time. For they all tasted exactly the same. And if I had collected
+sixteen, it was not in order to ballast myself in such and such a way,
+or to suck them turn about, but simply to have a little store, so as
+never to be without. But deep down I didn't give a fiddler's curse
+about being without, when they were all gone they would be all gone, I
+wouldn't be any the worse off, or hardly any.  And the solution to
+which I rallied in the end was to throw away all the stones but one,
+which I kept now in one pocket, now in another, and which of course I
+soon lost, or threw away, or gave away, or swallowed.
+
+
+*** beckett earth
+
+*** circulations/images for dissolution/corruption
+
+*** 555/other open circuits

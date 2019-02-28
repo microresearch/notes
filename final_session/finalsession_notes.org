@@ -2,7 +2,7 @@
 
 - lasers+psu, laser table, laser fittings and bolts, photodiodes, fan
   driver+psu, fans, heat driver+psu, heat elements, ceramic heat bowls, any
-  chemistry, cables, lcd and holder, glass transmitter plates, radio
+  chemistry, cables, lcd and holder, glass transmitter plates, radio, other glass
 
 - euro case, power cable and patch cables, output cables
 
@@ -18,7 +18,7 @@
 
 * Tech needs
 
-1x 12, 14 or 16 channel analogue audio mixer (with gains on at least 6 channels - Mackie 1402 or Soundcraft EPM-12)
+1x 12, 14 or 16 channel analogue audio mixer (with gains on at least 8 channels - Mackie 1402 or Soundcraft EPM-12)
  
 2x mono jack leads from mixer to PA/main mixer
  
