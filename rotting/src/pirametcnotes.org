@@ -1,0 +1,84 @@
+: PATH=$PATH:/root/gcc-arm-none-eabi-7-2018-q2-update/bin/
+
+* 
+
+43 minutes to fill 1024*1024 buffer with 1/400s input
+
+* blinking led on pi3
+
+    #define LED_GPFSEL      GPIO_GPFSEL2
+    #define LED_GPFBIT      3
+    #define LED_GPSET       GPIO_GPSET0
+    #define LED_GPCLR       GPIO_GPCLR0
+    #define LED_GPIO_BIT    21
+
+for led on pin40 - GPIO21 this works
+
+copy to kernel7.img
+
+~/arm-tutorial-rpi/part-1/armc-03
+
+* now trying with pi zero
+
+- works with part-4/armc-013 and interrupts
+
+TODO:
+- connect to another pin = pin 40 as above GPIO21
+
+or pin 27 but none of these work with interrupts only with older code..
+
+now working with older GPIO code swopped in ...
+
+[was previously for GPIO47:
+
+    #define LED_GPFSEL      GPFSEL4
+    #define LED_GPFBIT      21
+    #define LED_GPSET       GPSET1
+    #define LED_GPCLR       GPCLR1
+    #define LED_GPIO_BIT    15
+]
+
+- write and read to memory - DONE, working with array
+
+- see how fast this runs with scope?
+
+- how to sense a GPIO pin? set as input, how to read input
+
+set 0 as input
+
+check bits #define GPIO_GPLEV0     13
+
+or edges #define GPIO_GPEDS0     16
+
+#define GPIO_GPREN0     19
+#define GPIO_GPREN1     20
+
+rising edge detect
+
+
+
+does this stay set - check in delay loop
+
+--- what does delay look like? -> 
+
+see part-3/arm012: void RPI_WaitMicroSeconds( uint32_t us )
+{
+    volatile uint32_t ts = rpiSystemTimer->counter_lo;
+
+    while( ( rpiSystemTimer->counter_lo - ts ) < us )
+    {
+        /* BLANK */
+    }
+}
+
+
+- what that loop will look like?
+
+depends on length of pulse?
+
+--- clear gpeds bit
+--- delay for 1/400th sec= 2500 microseconds
+--- is GPEDSn event detected?
+--- if so write a one to memory
+--- if not write a zero
+--- inc. memory bit

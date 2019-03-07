@@ -1,34 +1,4 @@
-* for rotting sounds 2019 exhibition and workshop
-
-** exhibition: Enrichment and depletion
-
-TODO:
-- build environment, run test code baremetal
-- fast interrupt out
-- pulse in within 400 per second interrupt (as long as is zero we wait
-  for a one in delayed loop)...
-- test output and low pass
-- tweaks
-
-- sigma delta with rock/radioactive decay, uv light - ingestion of rock in dying animal?
-
-pulses with clock are stored and looped very fast -> low pass
-
-- read in with clock at 400 khz (for 200cps average - we may need to
-  extend pulse time to catch pulses as bits), output/loop round output
-  up to last recorded and max buffersize
-- on pi? raw? as we need lots of memory for storage
-
-http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/
-
-- low pass?
-
-[what were we doing which also used looped storage and playback of bits? was from myx/sdcard so not so applicable....]
-
-- where is PSU? - in the peli box!
-
-
-** workshop: Circulation corruption.
+* workshop: Circulation corruption.
 
 All technology that is derived of earth, must be decomposed and again
 reduced to earth.
@@ -69,6 +39,19 @@ will be placed during the workshop in selected interior and exterior
 locations to participate in various time scales of deterioration and
 degradation.
 
+** notes:
+
 ouroboros, latch and comparator circuits opened to moulds and decay, fungi, degradation
 
 
+the circulatory system of an earth addiction encompassing extraction
+(of precious metals, of radioactive minerals), transport (along old
+and new Silk Roads) and consumption (the ingestion of earth-derived
+energies, materialities and earth-bound pharmaceutical products) and
+return or excretion (traces of isotopes and pollution elements in the
+body).
+
+
+* plan/schedule/activities
+
+* packing list
