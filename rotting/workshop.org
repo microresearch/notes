@@ -51,7 +51,132 @@ energies, materialities and earth-bound pharmaceutical products) and
 return or excretion (traces of isotopes and pollution elements in the
 body).
 
+* from pharmacy event
+
+Title: Digestion.
+
+Martin Howse
+
+No more fruit, no more trees, no more vegetables, no more plants
+pharmaceutical or otherwise and consequently no more food, but
+synthetic products to satiety, amid the fumes, amid the special humors
+of the atmosphere, on the particular axes of atmospheres wrenched
+violently and synthetically from the resistances of a nature which has
+known nothing of war except fear.
+
+[Antonin Artaud. To have done with the Judgement of God.]
+
+The health of any body is the concern of an interior against any
+outside, of a border and a boundary. The earth or body fortress is
+assailed by demonic winds and breath from outside its protecting
+walls. Spiritus mali, under the sign of four demons, designated as
+four elements, enter the body through gaps in the enclosing skin,
+through the mouth and the open pores.
+
+Guarded by four angels, the body becoming earth is concerned with its
+proper health as its property, rather than that of its improper
+parasites; a modern morality play of pneumatic, breath-borne or skin
+un-cleansed bacteria (beyond good and evil, a further taxonomy of
+ancient breaths and atoms). A partic-ular pharmakon prompts action
+against other decidedly out-of-control entities pursuing or making
+happen an unconscious, deep sea set and tabled processes against death
+(of their own) or otherwise; breathing and thus speaking out against
+all planetary and algorithmic parasites.
+
+What could it then mean to talk about the health of an earth or
+planet, its body and property and with reference to which atmospheric
+border, which morals and politics of a landing stage? The earth as a
+fortress, for either catalogued inhabitants named as bacteria, or for
+deathless macro-parasites, morphs into a robot-tended forest
+green-house adrift in that exterior space. Another planet is to be
+prepared for fit habitation, for a future garden of delights, leaving
+behind a toxic landscape which has become simply too elemental,
+crossing an entropic boundary but in which direction. A truly modern
+Fludd was correct in shaming the elements as evil agents in disease;
+monocultures of gold, iron and oxygen binding to cyanide, unable to
+sustain any form of life. Monocultures of wheat are set out on that
+outside drifting landscape. How does a toxic site appear, what could a
+poisonous or poisoned geology be?
+
+As is the case with all fortress, castle and boundary conditions (the
+earth as a container and always interior), expressed within Edgar
+Allen Poe's The Masque of the Red Death, the real and only threat to
+any health has always been inside the castle, body or planet. The
+plague and pestilence has always already entered, from the very
+beginning unobserved and masqueraded, retreating from an infested
+atmosphere, enjoying any feast, and yet always disguised as
+death. Here we learn that it is the superposition of language on both
+earth and body, as timely virus and as a clocking border control,
+which renders both of these sites toxic to all life.
+
+** 
+
+SR Unthology circulation:
+
+Fludd: it endeavor[s] to arise anew, and it hastens through the branches of the aorta to the South, that is the liver, and North or the spleen.
+
+the incorruptible spirit ... sendeth his beames of life ouer all the whole frame of man, to illuminate, give life, and circular motion vnto his spirit.
+
+circulation: the sun impresses on the wind a circular motion, breathed in, and reaching the heart, is carried around the body in circulation
+
 
 * plan/schedule/activities
 
 * packing list
+
+* parts orders
+
+// check parts, check etch
+
+24x 9v clips
+any copper boards, photoboards, etch stuff
+
+
+
+** 555 x12
+
+390R
+2.2u
+150K
+555
+
+** open 555 x12? or x1 only
+
+13x 3906 SMT
+13x 3904 SMT
+
+7x 4k7
+820
+1k
+10k
+100k
+15k
+6k8
+3k9
+220
+100
+
+** multivibrator large and small x12
+
+2x 3904 big
+2x 4k7
+2x 150
+
+2x 3904 smd
+2x 4k7
+2x 150
+
+** radio transmitter x12
+
+0.8mm wire
+547c
+IN
+
+** ouroboros x12
+
+large and small
+
+6x 3904
+6x 1n4148
+6x 1n
+6x 33k
