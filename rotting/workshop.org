@@ -122,7 +122,74 @@ circulation: the sun impresses on the wind a circular motion, breathed in, and r
 
 * plan/schedule/activities
 
-* packing list
+divide up days? divide up domains?
+
+** presentation and introductions
+
+** earth - myc, moulds, telluric currents and signals in the earth
+
+measure earth current, capacitors, earth signals listened to, earth battery and comms, worms and wormvoice
+
+mycelium radio demo, prepare cultures, prepare smoke mix, bread mix
+
+** bodies - crows and bread
+
+start baking in the earth, cultures for rye/ergot
+
+** atmospheres - smoke and particles, electromagnetics
+
+smoke and laser, em signal capture and recordings/notes
+
+** open circuits within each of these environments?
+
+techniques - etch? glass stacked for earth and bread, circuits for moulds in and on dishes, for the crows, worms...
+
+ouroboric, simple myc radio, 555 or open 555, multivibrator
+
+* tech materials/equipment
+
+- portable/battery powered speaker
+- for building, cutters, soldering irons/stations, knives, scissors, magnifier, sellotape
+- mycelium, apoprox a4 size plastic trays, plastic gloves, ziplock bags, silver foil and some kind cylinder/wax paper for caps
+- organic rye flour, organic rye grain, 500g-1kg sugar
+- hotplate, 2 basic small cooking pots, chopsticks, 
+- small bag of charcoal
+- for moulds: potato/dextrose/agar?, malt agar, sucrose?
+
+
+Medium 129: POTATO DEXTROSE AGAR 
+
+ Infusion from potatoes (see below)         1000.0     ml
+ Glucose                                      20.0      g
+ Agar                                         15.0      g
+
+Potato infusion:
+Boil 200 g scrubbed and sliced potatoes in 1000 ml water for 1 hour. Pass through fine sieve. Avoid
+new potatoes.
+
+*Malt agar* for fungi Mix 2 g of malt extract with 2 g of agar with 10
+cm3 of water into a paste. Slowly add more water with stirring until
+the volume is 100 cm3. Heat in a boiling water bath to 95 °C in the
+required container
+
+* prep
+
+- reader and ask headphones, recording apparatus
+
+* packing list/to get
+
+- glass sheets, copper sticky and sheets, wire, crocodile clips, 
+- 9v batteries
+- electronics, parts for each circuit:
+- petri dishes
+- magnifiers
+*- radio (+1 toget)*
+- audio cables
+
+- detektors x2, myc radio, new antennas and amp, wormvoice, vlf, *TODO_earthdiffamp*, *check earth boot for measurement IN*
+- laser with battery, photodiodes
+- potassium nitrate, fuses or sparklers
+- multimeter
 
 * parts orders
 
@@ -130,8 +197,6 @@ circulation: the sun impresses on the wind a circular motion, breathed in, and r
 
 24x 9v clips
 any copper boards, photoboards, etch stuff
-
-
 
 ** 555 x12
 
@@ -166,13 +231,13 @@ any copper boards, photoboards, etch stuff
 2x 4k7
 2x 150
 
-** radio transmitter x12
+** radio transmitter x12 - on glass/or petri dishes
 
 0.8mm wire
 547c
 IN
 
-** ouroboros x12
+** ouroboros x12 - hand-drawn
 
 large and small
 
