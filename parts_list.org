@@ -30,35 +30,20 @@ for euro regular PJ301BM/erthenvar
 ** SMD bulk:
 
 10R
-
 330R
-
 1K
-
 2K2
-
 4K7
-
 10K x2
-
 15K
-
 22K
-
 100K
-
 1M
-
 22p (low)
-
 100n
-
 1n
-
 10n
-
 1u
-
 10u (6V)
 
 ** misc/many:

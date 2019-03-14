@@ -178,17 +178,17 @@ required container
 
 * packing list/to get
 
-- glass sheets, copper sticky and sheets, wire, crocodile clips, 
-- 9v batteries
+- *glass sheets*, copper sticky and sheets, wire, crocodile clips, *needles*
+- *9v batteries*
 - electronics, parts for each circuit:
-- petri dishes
+- *petri dishes*
 - magnifiers
 *- radio (+1 toget)*
 - audio cables
 
 - detektors x2, myc radio, new antennas and amp, wormvoice, vlf, *TODO_earthdiffamp*, *check earth boot for measurement IN*
-- laser with battery, photodiodes
-- potassium nitrate, fuses or sparklers
+- *laser with battery*, photodiodes
+- potassium nitrate, fuses or *sparklers*
 - multimeter
 
 * parts orders
@@ -200,48 +200,48 @@ any copper boards, photoboards, etch stuff
 
 ** 555 x12
 
-390R
+390R - check all
 2.2u
 150K
 555
 
 ** open 555 x12? or x1 only
 
-13x 3906 SMT
+13x 3906 SMT - check
 13x 3904 SMT
 
-7x 4k7
+7x 4k7 X
 820
-1k
-10k
-100k
-15k
+1k X
+10k X
+100k X
+15k X
 6k8
-3k9
-220
-100
+3k9 Xsome
+220 
+100 Xsome
 
 ** multivibrator large and small x12
 
-2x 3904 big
+2x 3904 big - check all
 2x 4k7
 2x 150
 
 2x 3904 smd
-2x 4k7
+2x 4k7 X
 2x 150
 
 ** radio transmitter x12 - on glass/or petri dishes
 
-0.8mm wire
+0.8mm wire TO ORDER ALL!
 547c
-IN
+1nf
 
 ** ouroboros x12 - hand-drawn
 
-large and small
+large and small - check all
 
 6x 3904
 6x 1n4148
-6x 1n
-6x 33k
+6x 1n XSMD 
+6x 33k XSMD
