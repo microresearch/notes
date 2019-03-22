@@ -1,8 +1,46 @@
 * workshop reader
+** workshop intro and rough schedule - this may change 
+
+*** questions from workshop_pres.org
 
 
-** beckett sucking stones
-From Beckett's early novel Molloy, later reprinted separately under the title of "Sucking-Stones".  
+
+** circulations/images for dissolution/corruption
+
+
+It is a living thing, which no more dies, but when used gives an eternal increase.
+
+[Splendor Solis]
+
+Let the waters above the heavens fall
+
+and the earth will yield its fruit
+
+A serpent and a toad coming up above the earth (literally 'stepping
+up above,') is our Magistery.
+
+The way up and the way down [are] one and the same [...] Fire, water,
+earth are the way down, and earth, water, fire is the way up. And
+these two ways are forever being traversed in opposite directions at once.
+
+Heraclitus
+
+
+** Anna Lowenhaupt Tsing. The Mushroom at the End of the World
+
+We are contaminated by our encounter; they change who we are as we
+make way for others. As contamination changes world-making projects,
+mutual worlds and new directions may emerge. Everyone carries a
+history of contamination; purity is not an option. One value of
+keeping precarity in mind is that it makes us remember that changing
+with circumstances is the stuff of survival. 
+
+Collaboration means working across difference, which leads to
+contamination. Without collaborations, we all die. 
+
+[Anna Lowenhaupt Tsing. The Mushroom at the End of the World]
+
+** Samuel Beckett - Molloy, later reprinted separately under the title of "Sucking-Stones". 
 
 
 I took advantage of being at the seaside to lay in a store of
@@ -22,7 +60,7 @@ which was in my mouth, as soon as I had finished sucking it. Thus
 there were still four stones in each of my four pockets, but not quite
 the same stones. And when the desire to suck took hold of me again, I
 drew again on the right pocket of my greatcoat, certain of not taking
-the same stone as the last time.  And while I sucked it I rearranged
+the same stone as the last time. And while I sucked it I rearranged
 the other stones in the way I have just described. And so on.
 
 But this solution did not satisfy me fully. For it did not escape me
@@ -82,13 +120,13 @@ between my stones and my pockets , by reducing the former to the
 number of the latter, it was only for an instant. For it would have
 been an admission of defeat. And sitting on the shore, before the sea,
 the sixteen stones spread out before my eyes, I gazed at them in anger
-and perplexity.  For just as I had difficulty in sitting in a chair,
+and perplexity. For just as I had difficulty in sitting in a chair,
 or in an arm-chair, because of my stiff leg, you understand, so I had
 none in sitting on the ground, because of my stiff leg and my
 stiffening leg, for it was about this time that my good leg, good in
-the sense that it was not stiff, began to stiffen.  I needed a prop
+the sense that it was not stiff, began to stiffen. I needed a prop
 under the ham you understand, and even under the whole length of the
-leg, the prop of the earth.  And while I gazed thus at my stones,
+leg, the prop of the earth. And while I gazed thus at my stones,
 revolving interminable martingales all equally defective, and crushing
 handfuls of sand, so that the sand ran through my fingers and fell
 back on the strand, yes, while thus I lulled my mind and part of my
@@ -112,11 +150,11 @@ reached a solution, inelegant assuredly, but sound, sound.
 Now I am willing to believe, indeed I firmly believe, that other
 solutions to this problem might have been found and indeed may still
 be found, no less sound, but much more elegant than the one I shall
-now describe, if I can.  And I believe too that had I been a little
+now describe, if I can. And I believe too that had I been a little
 more insistent, a little more resistant, I could have found them
-myself.  But I was tired, but I was tired, and I contented myself
+myself. But I was tired, but I was tired, and I contented myself
 ingloriously with the first solution that was a solution, to this
-problem.  But not to go over the heartbreaking stages through which I
+problem. But not to go over the heartbreaking stages through which I
 passed before I came to it here it is, in all its hideousness.
 
 All (all!) that was necessary was to put, for example, six stones in
@@ -125,9 +163,9 @@ pocket of my trousers, and five in the left pocket of my trousers,
 that makes the lot, twice five ten plus six sixteen, and none, for
 none remained, in the left pocket of my greatcoat, which for the time
 being remained empty, empty of stones that is, for its usual contents
-remained, as well as occasional objects.  For where do you think I hid
+remained, as well as occasional objects. For where do you think I hid
 my vegetable knife, my silver, my horn and the other things that I
-have not yet named, perhaps shall never name.  Good. Now I can begin
+have not yet named, perhaps shall never name. Good. Now I can begin
 to suck. Watch me closely. I take a stone from the right pocket of my
 greatcoat , suck it, stop sucking it, put it in the left pocket of my
 greatcoat, the one empty (of stones). I take a second stone from the
@@ -171,43 +209,43 @@ It is true that next time I could scarcely hope to suck my stones in
 the same order as the first time and that the first, seventh and
 twelfth for example of the first cycle might very well be the sixth,
 eleventh, and sixteenth respectively of the second, if the worst came
-to the worst.  But this was a drawback I could not avoid.  And if in
+to the worst. But this was a drawback I could not avoid. And if in
 the cycles taken together utter confusion was bound to reign, at least
 within each cycle taken separately I could be easy in my mind, at
-least as easy as one can be, in a proceeding of this kind.  For in
+least as easy as one can be, in a proceeding of this kind. For in
 order for each cycle to be identical, as to the succession of stones
 in my mouth, and God knows I had set my heart on it, the only means
-were numbered stones or sixteen pockets.  And rather than make twelve
+were numbered stones or sixteen pockets. And rather than make twelve
 more pockets or number my stones, I preferred to make the best of the
 comparative peace of mind I enjoyed within each cycle taken
 separately.
 
 For it was not enough to number the stones, but I would have had to
 remember, every time I put a stone in my mouth, the number I needed
-and look for it in my pocket.  Which would have put me off stone for
-ever, in a very short time.  For I would never have been sure of not
+and look for it in my pocket. Which would have put me off stone for
+ever, in a very short time. For I would never have been sure of not
 making a mistake, unless of course I had kept a kind of register, in
-which to tick off the stones one by one, as I sucked them.  And of
-this I believed myself incapable.  No, the only perfect solution would
+which to tick off the stones one by one, as I sucked them. And of
+this I believed myself incapable. No, the only perfect solution would
 have been the sixteen pockets, symmetrically disposed, each one with
-its stone.  Then I would have needed neither to number nor to think,
+its stone. Then I would have needed neither to number nor to think,
 but merely, as I sucked a given stone, to move on the fifteen others,
 a delicate business admittedly, but within my power, and to call
-always on the same pocket when I felt like a suck.  This would have
+always on the same pocket when I felt like a suck. This would have
 freed me from all anxiety, not only within each cycle taken
 separately, but also for the sum of all cycles, though they went on
 forever.
 
 But however imperfect my own solution was, I was pleased at having
-found it all alone, yes, quite pleased.  And if it was perhaps less
+found it all alone, yes, quite pleased. And if it was perhaps less
 sound than I had thought in the first flush of discovery, its
-inelegance never diminished.  And it was above all inelegant in this,
+inelegance never diminished. And it was above all inelegant in this,
 to my mind, that the uneven distribution was painful to me, bodily.
 It is true that a kind of equilibrium was reached, at a given moment,
 in the early stages of each cycle, namely after the third suck and
 before the fourth, but it did not last long, and the rest of the time
 I felt the weight of the stones dragging me now to one side, now to
-the other.  There was something more than a principle I abandoned,
+the other. There was something more than a principle I abandoned,
 when I abandoned the equal distribution, it was a bodily need. But to
 suck the stones in the way I have described, not haphazard, but with
 method, was also I think a bodily need. Here then were two
@@ -222,15 +260,588 @@ sixteen, it was not in order to ballast myself in such and such a way,
 or to suck them turn about, but simply to have a little store, so as
 never to be without. But deep down I didn't give a fiddler's curse
 about being without, when they were all gone they would be all gone, I
-wouldn't be any the worse off, or hardly any.  And the solution to
+wouldn't be any the worse off, or hardly any. And the solution to
 which I rallied in the end was to throw away all the stones but one,
 which I kept now in one pocket, now in another, and which of course I
 soon lost, or threw away, or gave away, or swallowed.
 
-** beckett earth
+** Samuel Beckett Fizzles/Old Earth
 
-** circulations/images for dissolution/corruption
-** 555/other open circuits
-** tellyuric earth
-** circulations blood and wind fludd
+Old Earth, no more lies, I've seen you, it was me, with my other's
+ravening eyes, too late. You'll be on me, it will be you, it will be
+me, it will be us, it was never us. It won't be long now, perhaps not
+tomorrow, nor the day after, but too late. Not long now, how I gaze
+on you, and what refusal, how you refuse me, you so refused. It's a
+cockchafer year, next year there won't be any, nor the year after,
+gaze your fill. I come home at nightfall, they take to wing, rise
+from little oaktree and whirr away, glutted, into the shadows. I
+reach up, grasp the bough, pull myself up and go in. Three years in
+the earth, those the moles don't get, then guzzle guzzle, ten days
+long, a fortnight, and always the flight at nightfall. To the river
+perhaps, they head for the river. I turn on the light, then off,
+ashamed, stand at gaze before the window, the windows, going from one
+to another, leaning on the furniture. For an instant I see the sky,
+the different skies, then they turn to faces, agonies, loves, the
+different loves, happiness too, yes, there was that too, unhappily.
+Moments of life, of mine too, among other, no denying, all said and
+done. Happiness what happiness, but what deaths, what loves, I knew
+at the time it was too late then. Ah to love at your last and see
+them at theirs, the last minute loved ones, and be happy, why ah,
+uncalled for. No but now, now, simply stay still, standing before a
+window, one hand on the wall, the other clutching your shirt, and see
+the sky, a long gaze, but no, gasps and spasms, a childhood sea, other
+skies, another body.
+
+
+
+** see also workshop pres/hytt reader
+
+1- Splendor Solis:
+
+PUTREFACTION takes place when the natural heat of a moist body is
+expelled by an external heat, or else when the natural heat of the
+subject is destroyed by cold. For then the natural warmth leaves
+everything and gives room to putrefaction. The Philosophers do not
+mean th is kind of Putrefaction. Their Putrefaction is a moistening of
+dry bodies, that they may be restored to their former state of
+Greening and Growing. In this process of Putrefaction, moist and dry
+are joined together and not destroyed, but the moisture is quite
+separated from the dryness, then it is necessary to separate the dry
+parts that turned to ashes. This Incineration the Philosophers will
+also not have, but they will have their Putrefaction, which is a
+drying, trituration and calcination, to be done in such wise, that the
+natural moisture and dryness be united together, but separated and
+dried up from the superfluous moisture that is destructive. Even as
+the food is being absorbed on entering an animal's stomach, that it
+may be digested and changed and afterwards supply the feeding force
+and moisture necessary to the existence and augmentation of nature,
+and be separated of its superfluous parts. How then everything has to
+be fed in its way according to its nature will be shown in the
+aforesaid Philosopher's Stone.
+
+
+This Dissolution is nothing but a killing of the moist with the dry,
+in fact a PUTREFACTION, and consequently turns the MATTER black.
+
+The Soul is extracted by Putrefaction, and when nothing more of the
+soul remains, then have you well washed the Body, that they both again
+are one.
+
+
+Donum Dei: (excerpts)
+
+
+Here is made the putrefaction of Philosophers which was never seen and is called sulphur.
+
+
+Convert the natures of the Elements and thou shalt find what thou
+seekest. To convert the natures is to make a body a spirit in our
+Magistery, first we make of gross thin, and of a body water, and by
+consequent we make that which is beneath as that which is above, and
+the contrary, for the bodies dissolved are reduced to the nature of
+spirits, and they be never separated asunder, like as water is mixed
+with water, and truly all the regiment and work is none other, but
+water permanent having in himself all things which we need. Therefore
+hold fast that water which is good operations, for he maketh white to
+white, and red to red, it is on and the same thing which hath in him
+flesh or soul; the agent, or calx, and the 4 Elements, to whom it hath
+dominion, it is not made of other Elements which agreeth not in his
+nature. The putrefaction of the Philosophers is the head of the Crow
+a blackness transparent and shining. Here be the bodies put in
+putrefaction and be made black earth, and when you seest thy matter to
+be made black rejoice for that is the beginning of the operation. And
+it is necessary to be putrefied. I am black of white, and red of
+white, and citrine of red, and certainly I am a true sayer and not
+liar. And know ye that this red of the art is the Crow which in the
+blackness of the night and in the clearness of the day flyeth without
+wings. Of the bitterness in his throat the colour is taken, from his
+body the redness, and from his back pure water. Understand the gift of
+God, receive it and hide it from all unwise philosophers, for it is
+not hidden from the caverns of the metals, which stone is mineral, and
+animal, shining colours, or high hill, and an open sea. Behold I have
+expound it to you, truly when it is first black, we call it the cave
+of the science which is not without blackness, for it is the tincture
+which we seek, for in every body we give or put colour, which thing
+was hidden in his brass, as the Soul in man's body. Therefore dear
+Son, when thou art in thy work, see first thou have the black colour,
+and then art thou sure thou dost putrefy and proceedest the right way,
+patience and tarrying be necessary in our work. O Blessed Nature and
+blessed is thine operation, for of imperfect thou makest perfect with
+true putrefaction, which is black and obscure. Then after thou shalt
+make to spring new, and divers things, which thy viridity or green
+lion makest divers colours appear. The Head of the Crow is
+transparent blackness. This is upon the matter the black clouds,
+spirits or forms, This earth which is upon the matter descendeth in
+another vessel to the bottom and thence worms be brought forth.
+
+
+
+
+The Head of the Crow is black earth and feculent in the which be
+engendered worms, whereof the one devoureth the other, for the
+corruption of the one is the generation of the other.
+
+
+The black clouds descendeth unto the body from whence they came out
+and there is made connection between the earth and water and is made
+ashes. The crow is black, the Dove is white, the Phoenix burneth
+herself that she may procreate or bring forth an other of the ashes.
+
+
+http://charm.cs.uiuc.edu/users/jyelon/pict-donum.html
+
+** Ripley Putrefaction
+
+This text has been modernised by Adam McLean from the 1591 edition of The Compound of Alchymy. 
+
+THE FIFTH GATE - PUTREFACTION
+
+Now we begin the chapter of Putrefaction,
+Without which pole no seed may multiply,
+Which must be done only by continual action,
+Of heat in the body, moist not manually.
+For bodies else may not be altered naturally,
+Since Christ doth witness, unless the grain of wheat die in the ground,
+Increase may thou not get.
+
+And likewise unless the matter putrefy,
+It may in no way truly be altered,
+Neither may thy elements be divided kindly,
+Nor the conjunction of them perfectly celebrated,
+That thy labour therefore be not frustrated,
+The privitie of our putrefying well understand,
+Before ever you take this work in hand.
+
+And Putrefaction may thus be defined, after philosophers sayings,
+To be the slaying of bodies,
+And in our compound a division of things three,
+Leading forth into the corruption of killed bodies,
+And after enabling them unto regeneration,
+For things being in the earth, without doubt,
+Be engendered of rotation in the heavens about.
+
+And therefore as I have said before,
+Thine elements commixed and wisely coequate,
+Thou keep in temperate heat,
+Eschewing evermore that they be not incinerate by violent heat,
+To dry powder, unprofitably rubificated,
+But into powder black as a crow's bill,
+With heat of the Bath or else of our dunghill.
+
+Until the time that ninety nights be passed,
+In moist heat keep them for any thing,
+Soon after by blackness you shall espy,
+That they draw close to putrefying,
+Which after many colours you shall bring,
+With patience easily to perfect whiteness,
+And so thy seed in his nature will multiply.
+
+Make each the other then to hug and kiss,
+And like as children to play them up and down,
+And when their shirts are filled with piss,
+Then let the woman to wash be bound,
+Which often for faintness will fall in a swoon,
+And die at last with her children all,
+And go to purgatory to purge their filth original.
+
+When they be there, by little and little increase,
+Their pains with heat, aye, more and more,
+Never let the fire from them cease,
+And see that thy furnace be apt therefore,
+Which wise men call an Athanor,
+Conserving heat required most temperately,
+By which thy matter doth kindly putrefy.
+
+Of this principle speaks wise Guido,
+And sayeth "by rotting dieth the compound corporeal",
+And then after Morien and others more,
+Upriseth again regenerated, simple and spiritual,
+And were not heat and moisture continual,
+Sperm in the womb might have no abiding,
+And so there should be no fruit thereof upspring.
+
+Therefore at the beginning our stone thou take,
+And bury each one in other within their grave,
+Then equally between them a marriage make,
+To lie together six weeks let them have their seed conceived,
+Kindly to nourish and save,
+From the ground of their grave not rising that while,
+Which secret point doth many a one beguile.
+
+This time of conception with easy heat abide,
+The blackness showing shall tell you when they die,
+For they together like liquid pitch that tide,
+Shall swell and bubble, settle and putrefy,
+Shining colours therein you shall espy,
+Like to the rainbow marvellous to sight,
+The Water then beginneth to dry upright.
+
+For in moist bodies, heat working temperate,
+Engenders blackness first of all,
+Which is the assigned token of kindly Conjunction,
+And of true Putrefaction: remember this,
+For then perfectly to alter thou can not miss,
+And thus by the gate of blackness thou must come in,
+To light of Paradise in whiteness if you wilt win.
+
+For first the Sun in his uprising shall be obscured,
+And pass the waters of Noah's flood on earth,
+Which was continued a hundred and fifty days,
+Ere this water went away,
+Right so our waters shall pass (as wise men understood),
+That you with David shall say,
+"Abierunt in sicco flumina" : bear this away.
+
+Soon after that Noah planted his vineyard,
+Which royally flourished and brought forth grapes,
+After which space you shall not be afraid,
+For it likewise shall follow the nourishing of our stone,
+And soon after that 30 days be gone,
+You shall have grapes right as ruby red,
+Which is our Adrop, our Ucifer, and our red lead.
+
+For like as souls after pains transitory,
+Be brought to Paradise, which ever is joyful life,
+So shall our stone after his darkness in Purgatory be purged,
+And joined in Elements without strife,
+Rejoice the whiteness and beauty of his wife,
+And pass from darkness of purgatory to light of Paradise,
+In whiteness Elixir of great might.
+
+And that you may the rather to putrefaction win,
+This example take you for a true conclusion,
+For all the secret of Putrefaction rests therein,
+The heart of oak that hath of water continual infusion,
+Will not soon putrefy, I tell you without delusion,
+For though it lay in water a hundred years and more,
+Yet should you find it sound as ere it was before.
+
+But if you keep it sometimes wet and sometimes dry,
+As thou may see in timber by usual experiment,
+By process of time that oak shall utterly putrefy,
+And so likewise according to our intent,
+Sometimes our tree must with the Sun be burnt,
+And then with water we must make it cool,
+That by this means to rotting we may bring it well.
+
+For now in wet, and now again in dry,
+And now in heat, and now again to be in cold,
+Shall cause it soon to putrefy,
+And so shall thou bring to rotting your gold,
+Treat thy bodies as I have thee told,
+And in thy putrefying with heat be not too swift,
+Lest in the ashes thou seek after your thrift.
+
+Therefore your water you draw out of the earth,
+And make the soul therewith to ascend,
+Then down again into the earth it throw,
+That they oftentimes so ascend and descend,
+From violent heat and sudden cold descend your glass,
+And make your fire so temperate,
+That by the sides the matter be not vitrified.
+
+And be you wise in choosing of the matter,
+Meddle with no salts, sulphurs nor mean minerals,
+For whatsoever any worker to thee does clatter,
+Our Sulphur and Mercury be only in metals,
+Which some men call oils and waters,
+Fowls and bird, with many other names,
+So that fools should never know our stone.
+
+For of this world our stone is called the ferment,
+Which moved by craft as nature does require,
+In his increase shall be full opulent,
+And multiply his kind after thine own desire,
+Therefore is God vouchsafe you to inspire,
+To know the truth, and fancies to eschew,
+Like unto you in riches shall be but few.
+
+But many men be moved to work after their fantasy,
+In many subjects in which be tinctures gay,
+Both white and red divided manually to sight,
+But in the fire they fly away,
+Such break pots and glasses day by day,
+Poisoning themselves and losing their sight,
+With odours, smokes, and watching up by nights.
+
+Their clothes be bawdy and worn threadbare,
+Men may them smell for multipliers where they go,
+To file their fingers with corrosives they do not spare,
+Their eyes be bleary, their cheeks lean and blue,
+And thus I know they suffer loss and woe,
+And such when they have lost that was in their purse,
+Then do they chide, and Philosophers sore do curse.
+
+To see their houses is a noble sport,
+What furnaces, what glasses there be of diverse shapes,
+What salts, what powders, what oils, or acids,
+How eloquently of Materia Prima their tongues do clap,
+And yet to find the truth they have no hope,
+Of our Mercury they meddle and of our sulphur vive,
+Whereon they dote, and more and more unthrive.
+
+For all the while they have Philosophers been,
+Yet could they never know what was our Stone,
+Some sought it in dung, in urine, some in wine,
+Some in star slime (some thing it is but one),
+In blood and eggs : some till their thrift was gone,
+Dividing elements, and breaking many a pot,
+Shards multiplying, but yet they hit it not.
+
+They talk of the red man and of his white wife,
+That is a special thing, and of the Elixirs two,
+Of the Quintessence, and of the Elixir of life,
+Of honey, Celidonie, and of Secondines also,
+These they divide into Elements, with others more,
+No multipliers, but will they be called Philosophers,
+Which natural Philosophy did never read or see.
+
+This fellowship knows our Stone right well,
+They think them richer than is the King,
+They will him help, he shall not fail,
+To win for France a wondrous thing,
+The holy Cross home will they bring,
+And if the King were taken prisoner,
+Right soon his ransom would they make.
+
+A marvel it is that Westminster Kirk,
+Which these Philosophers do much haunt,
+Since they can so much riches work,
+As they make boast of and avaunt,
+Drinking daily at the wine due taunt,
+Is not made up perfectly at once,
+For truly it lacketh yet many stones.
+
+Fools do follow them at their tail,
+Promoted to riches wishing to be,
+But will you hear what worship and avail,
+They win in London that noble city ?
+With silver maces (as you may see),
+Sargents awaiteth on them each hour,
+So be they men of great honour.
+
+Sargents seek them from street to street,
+Merchants and Goldsmiths lay after them to watch,
+That well is him that with them may meet,
+For the great advantage that they do catch,
+They hunt about as does a dog,
+Expecting to win so great treasure,
+That ever in riches they shall endure.
+
+Some would catch their goods again,
+And some more good would adventure,
+Some for to have would be full fain,
+Of ten pounds one, I you ensure,
+Some which have lent their goods without measure,
+And are with poverty clad,
+To catch a noble, would be full glad.
+
+But when the Sargents do them arrest,
+Their pockets be stuffed with Paris balls,
+Or with signets of St Martin's at the least,
+But as for money it is pissed against the walls,
+Then they be led (as well for them befalls),
+To Newgate or Ludgate as I you tell,
+Because they shall in safeguard dwell.
+
+Where is my money become, saith one ?
+And where is mine, saith he and he ?
+But will you hear how subtle they be anon,
+In answering that they excused be,
+Saying of our Elixirs we were robbed,
+Else might we have paid you all your gold,
+Though it had been more by ten-fold.
+
+And then their creditors they flatter so,
+Promising to work for them again,
+In right short space the two Elixirs,
+Doting the Merchants that they be fain,
+To let them go, but ever in vain,
+They work so long, till at the last,
+They be again in prison cast.
+
+If any them ask why they be not rich ?
+They say that they can make fine gold of tin,
+But he (say they) may surely swim the ditch,
+Which is upholded by the chin,
+We have no stock, therefore may we not win,
+Which if we had, we would soon work enough,
+To finish up Westminster Kirk.
+
+And some of them be so devout,
+They will not dwell out of that place,
+For they may without doubt,
+Do what them list to their solace,
+The Archdeacon is so full of grace,
+That if they bless him with their cross,
+He forceth little of other mens loss.
+
+And when they there sit at the wine,
+These monks they say have many a pound,
+Would God (saith one) have some were mine,
+Yet care away, let the cup go round,
+Drink on saith another, the mean is found,
+I am a master of that Art,
+I warrant us we shall have part
+
+Such causes Monks evil to do,
+To waste their wages through their dotage,
+Some bringeth a mazer, and some a spoon,
+Their Philosophers gives them such comage,
+Behighting them winning with domage,
+A pound for a penny at the least again,
+And so fair promises make fools fain.
+
+A Royal medicine one upon twelve,
+They promise them thereof to have,
+Which they could never for themselves,
+Yet bring about, so God me save,
+Beware such Philosophers no man deprave,
+Which help these Monks to riches so,
+In threadbare coats that they must go.
+
+The Abbot ought well to cherish this company,
+For they can teach his Monks to live in poverty,
+And to go clothed and monied religiously,
+As did Saint Bennet, eschewing superfluity,
+Easing them also of the ponderosity of their purses,
+With pounds so aggravated,
+Which by Philosophy be now alleviated.
+
+Lo who meddles with this rich company,
+Great boast of their winning they may make,
+For they shall reap as much by their Philosophy,
+As they of the tail of an ape can take,
+Beware therefore for Jesus' sake,
+And meddle with nothing of great cost,
+For if thou do, it is but lost.
+
+These Philosophers (of which I spoke before),
+Meddle and blunder with many a thing,
+Running in errors ever more and more,
+For lack of true understanding,
+But like must always bring forth like,
+So hath God ordained in every kind,
+Would Jesus they would bear this is mind.
+
+They expect of a Nettle to have a Rose,
+Or of an Elder to have an apple sweet,
+Alas, that wisemen their goods should lose,
+Trusting such doctrines when they them meet,
+Which say our Stone is trodden under foot,
+And makes them vile things to distil,
+Till all their houses with stench they fill.
+
+Some of them never learned a word in Schools,
+Should such by reason understand Philosophy ?
+Be they Philosophers ? Nay, they be fools.
+For their works prove them without wit,
+Meddle not with them, if you would be happy,
+Lest with their flattery they so thee till,
+That you agree unto their will.
+
+Spend not thy money away in waste,
+Give not to every spirit credence,
+But first examine, grope and taste,
+And as thou provest, so put your confidence,
+But ever beware of great expense,
+And if the Philosopher do live virtuously,
+The better you may trust his Philosophy.
+
+Prove him first, and him appose,
+Of all the secrets of our Stone,
+Which if he know not, you need not to lose,
+Meddle you no further, but let him be gone,
+Though he make ever so piteous a moan,
+For then the Fox can fagg and faine,
+When he would to his prey attain.
+
+If he can answer as a Clerk,
+How he has not proved it indeed,
+And you then help him to his work,
+If he be virtuous I hold it merited,
+For he will thee quite if ever he speeds,
+And thou shalt know by a little anon,
+If he have knowledge of our Stone.
+
+One thing, one glass, one furnace, and no more,
+Behold if he does hold this principle,
+And if he do not, then let him go,
+For he shall never make thee a rich man,
+Timely it is better you forsake him,
+Than after with loss and variance,
+And other manner of unpleasance.
+
+But if God fortune you to have,
+This Science by doctrine which I have told,
+Reveal it not to whosoever it craves,
+For favour, fear, silver or gold.
+Be no oppressor, lecher not boaster bold,
+Serve thy God and help among the poor,
+If you wish this life to continue long.
+
+Unto thyself your secrets ever keep,
+From sinners, who have not God in dread,
+But will cast you in prison deep,
+Till you teach them to do it indeed,
+Then slander on you shall spring and spread,
+That you do coin then will they say,
+And so undo you for ever and aye.
+
+And if you teach them this cunning,
+Their sinful living for to maintain,
+In hell therefore shall be your winning,
+For God will take disdain of you and them,
+As thou nought could therefore you faine,
+That body and soul you may both save,
+And here in peace to have your living.
+
+Now in this Chapter I have taught you,
+How you must putrefy your body,
+And so to guide you that you be not caught,
+And put to durance loss and villany
+My doctrine therefore remember wisely,
+And pass forth towards the sixth gate,
+For thus the fifth is triumphate.
+
+*** eight gate sublimation
+
+And Sublimations we make for three causes,
+The first cause is, to make the body spiritual,
+The second is, that the spirit may be corporeal ,
+And become fixed with it and consubstantial,
+The third cause is, that from its filthy original
+It may be cleansed, and its saltiness sulphurious,
+May be diminished in it, which is infectious.
+
+
+** 555/other open circuits/all circuits/feedback
+** telluric earth/stubblefield/persinger
+** circulations blood and wind fludd - illustrations and texts
+
+.. that is by a hyemal winter fire, with which she rotteth; & then
+with a vernal or spring firre by which it groweth & indueth his green
+mantle; & then with his aestival or summer heat, by which he
+flourisheth & putteth on a crest or helmet of a more golden colour,
+hastening by this intense agent unto his maturity; and lastly he
+changeth that fire to an autumnal or harvest operation by which the
+mark of maturity so aimed at all the year is touched on the very head
+that then corruption may begin again.
+
+[connected to experiment with wheat - begins to "violate by corruption
+the bands of those four elements which did preserve that vegetable
+form until in a manner I had deprived it of quite all shape, & reduced
+the whole body unto a muddy or slimy substance ... "]
+
+** fludd wheat
 ** thermocultures
+** some stuff on ergot
+** growing fungi and fungi life cycles - from myc reader
+
+mushroomcycle.png
+
+** Video/other materials
+
+Friedrich Kittler. Non-Linear Oscillators & Computer Motherboards. 2010: https://www.youtube.com/watch?v=CxIHwCnVYIE
+
+Ergot: the story of a parasitic fungus: https://www.youtube.com/watch?v=ielb0C1JYsw

@@ -336,23 +336,21 @@ potis10kthru hole=RK09L1140A66, knobs from thonk
 
 *** for next worms
 
-pcbcart: 30 pcb-80 (60 is 120) 30 panel-90 (60 is 135) [011/012]
+pcbcart: 20pcb, 35 panel
 
-12 base pcb we have... ORDERED 20 base, 30 panel - DONE
 
 thonk: 
 
-knobs we have: 94
-all cables we need = 50
-jacks PJ301BM we have: 100
+knobs we have: 
+jacks PJ301BM we have
 
-for 25 we need - 7x25 jacks=175-100=75, 5x25 knobs=125-94=31, 
+for 25 we need - 7x25 jacks=175 , 5x25 knobs=125
 
 extra 25= 175jacks total 250, 125+31=156 knobs - DONE
 
 mouser:
 
-potis we have: 42 125-42=83 
+potis we have: to check - need 125
 
 parts: 
 

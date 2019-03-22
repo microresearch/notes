@@ -122,13 +122,16 @@ circulation: the sun impresses on the wind a circular motion, breathed in, and r
 
 * plan/schedule/activities
 
-divide up days? divide up domains?
+divide up days? divide up domains? series of walks/investigations seperated by more building/discussion
 
-** presentation and introductions
+eg. earth walk, em-signals/mould walk...
 
-** earth - myc, moulds, telluric currents and signals in the earth
+** day one: presentation and introductions
+** earth - telluric currents and signals in the earth
 
 measure earth current, capacitors, earth signals listened to, earth battery and comms, worms and wormvoice
+
+** myc, moulds, fermentations?
 
 mycelium radio demo, prepare cultures, prepare smoke mix, bread mix
 
@@ -136,25 +139,28 @@ mycelium radio demo, prepare cultures, prepare smoke mix, bread mix
 
 start baking in the earth, cultures for rye/ergot
 
-** atmospheres - smoke and particles, electromagnetics
+** atmospheres - smoke and particles, electromagnetic walk
 
 smoke and laser, em signal capture and recordings/notes
 
-** open circuits within each of these environments?
+** open circuits within each of these environments? during/before each activity
 
 techniques - etch? glass stacked for earth and bread, circuits for moulds in and on dishes, for the crows, worms...
 
-ouroboric, simple myc radio, 555 or open 555, multivibrator
+detektor, ouroboric, simple myc radio, 555 or open 555, multivibrator
+
+** day two - working in 3 groups on construction and placement of circulation/corruptions
 
 * tech materials/equipment
 
-- portable/battery powered speaker
-- for building, cutters, soldering irons/stations, knives, scissors, magnifier, sellotape
-- mycelium, apoprox a4 size plastic trays, plastic gloves, ziplock bags, silver foil and some kind cylinder/wax paper for caps
-- organic rye flour, organic rye grain, 500g-1kg sugar
-- hotplate, 2 basic small cooking pots, chopsticks, 
+- beamer, active monitor speaker, chairs, tables, multiple power points
+- hotplate for cooking, 2 very basic medium size (1-2L) cooking pots, chopsticks, 
+- portable/battery powered speaker, minijack to minijack (3.5mm) stereo cables (x6)
+- for building stuff: soldering irons/stations, craft knives, scissors, sellotape
+- mycelium, approx A4 size plastic trays, plastic gloves, ziplock bags, silver foil and some kind cylinder/wax paper for caps
+- 1kg organic rye flour, 1kg organic rye grain, 500g-1kg sugar
 - small bag of charcoal
-- for moulds: potato/dextrose/agar?, malt agar, sucrose?
+- for moulds: agar agar (15g), 200g potatoes, 20g glucose
 
 
 Medium 129: POTATO DEXTROSE AGAR 
@@ -178,37 +184,84 @@ required container
 
 * packing list/to get
 
+- wire cutters, tweezers, magnifiers
+- plastic/ohp sheets
 - *glass sheets*, copper sticky and sheets, wire, crocodile clips, *needles*
-- *9v batteries*
+- *9v batteries, AA  batteries*
 - electronics, parts for each circuit:
-- *petri dishes*
+- petri dishes
 - magnifiers
-*- radio (+1 toget)*
+- 2radios
 - audio cables
+- 2 different metals - copper we have and ...? pie dish?
 
-- detektors x2, myc radio, new antennas and amp, wormvoice, vlf, *TODO_earthdiffamp*, *check earth boot for measurement IN*
+- detektors x2or3, myc radio, new loop antennas and amp(XLR cable), wormvoice, vlf, *TODO_earthdiffamp*, *check earth boot for measurement IN*
 - *laser with battery*, photodiodes
 - potassium nitrate, fuses or *sparklers*
 - multimeter
+- zoom recorder (*test with loop antennas*)
+- etch kit
+- general kits of parts just in case, smd bulk/other parts
+
 
 * parts orders
 
 // check parts, check etch
 
-24x 9v clips
-any copper boards, photoboards, etch stuff
+24x 9v clips X
+any copper boardsX
 
-** 555 x12
+** simple elektor sniffer:
+
+2x 10k X
+2x 100k X
+1k X
+3x10uF X
+[220uF]
+BC547B X
+headphone socket? X
+1xAA clip X
+
+** multivibrator large and small x12
+
+2x 3904 big X
+2x 4k7 X
+2x 150 X 
+
+2x 3904 smd X
+2x 4k7 X
+2x 150 X
+
+** radio transmitter x12 - on glass/plastic or petri dishes
+
+0.8mm wire X
+547c X
+1nf X
+2x 10k X
+470R X
+
+** ouroboros x12 - hand-drawn
+
+large and small - check all
+
+6x 3904 X SMD?X
+6x 1n4148 X SMD?X
+6x 1n XSMD X 
+6x 33k XSMD X
+
+** NON
+
+[** NON- 555 x12
 
 390R - check all
 2.2u
 150K
-555
+555]
 
-** open 555 x12? or x1 only
+[** open 555 x1 only
 
-13x 3906 SMT - check
-13x 3904 SMT
+13x 3906 SMT ??mouser
+13x 3904 SMT 
 
 7x 4k7 X
 820
@@ -219,29 +272,4 @@ any copper boards, photoboards, etch stuff
 6k8
 3k9 Xsome
 220 
-100 Xsome
-
-** multivibrator large and small x12
-
-2x 3904 big - check all
-2x 4k7
-2x 150
-
-2x 3904 smd
-2x 4k7 X
-2x 150
-
-** radio transmitter x12 - on glass/or petri dishes
-
-0.8mm wire TO ORDER ALL!
-547c
-1nf
-
-** ouroboros x12 - hand-drawn
-
-large and small - check all
-
-6x 3904
-6x 1n4148
-6x 1n XSMD 
-6x 33k XSMD
+100 Xsome ]

@@ -1,7 +1,20 @@
 * Circulations (and corruptions)
 
+- format? - about the workshop/various circulations/circulations in own work/circulations in electronic/music//workshop schedule and practical
+
 - what is it about circulation that encourages corruption, putrefaction and decay?
-- alchemical cycle which involves putrefaction
+
+- how can we think of corruption in terms of material and/of media?
+  parasitism, degradation of information, making present of a material
+  substrate and material constraints, signals disturbed/noise,
+  muddied, what it means to corrupt something, to mix in additional
+  meanings, to degrade a signal
+
+- parasites
+
+- what are alchemical cycles which involve putrefaction
+
+- electronics and feedback, parasitic feedback/effects and putrefaction
 
 corruption as only images - donum dei sloane 2560
 
@@ -12,7 +25,67 @@ corruption as only images - donum dei sloane 2560
 - within the air - fludd also - wind, temp changes. crows
 - within electronics and electronic music - feedback
 
+
+** intro etc/notes from workshop.org
+
+All technology that is derived of earth, must be decomposed and again
+reduced to earth.
+[Basil Valentine]
+
+Old earth, no more lies, I've seen you, it was me, with my other
+ravening eyes, too late.
+[Samuel Beckett]
+
+Circulation and corruption (workshop) examines the various
+circulations of media through the matters and bodies of the earth and
+atmosphere, and through a certain corruption or dissolution of
+(digital) identity, meaning and description.
+
+Within a one and a half day hands-on, speculative workshop we will
+collectively explore the interfaces and exchanges between living
+systems (earth, compost, worms, mycelium) and active audio
+electronics. We will participate primarily with our hands and our ears
+within circulations amongst earths, composts, mushroom mycelium,
+moulds, active chemistry, worms, crows, dusts, smokes and fogs and
+impulses and waves.
+
+During the workshop we will construct a series of open circuits which
+do not conceal their materiality but participate equally within
+material and electrochemical exchanges and circulations. 
+
+*These circuits are inspired through a media archaeology of electronic
+music production, and through the history of alchemical engagement
+with minerals, with decay and with the earth. These technical and
+conceptual influences are equally opened to circulation and corruption
+during the workshop.*
+
+We will work with a range of materials (for example, machine cut
+copper sheets and oyster mushroom mycelium) and approaches (for
+example, with radio transmission and signal reception) to design and
+build these open circuits which will enter into processes of
+appreciable decay, corruption and dissolution. These open circuits
+will be placed during the workshop in selected interior and exterior
+locations to participate in various time scales of deterioration and
+degradation.
+
+*** notes:
+
+ouroboros, latch and comparator circuits opened to moulds and decay, fungi, degradation
+
+
+the circulatory system of an earth addiction encompassing extraction
+(of precious metals, of radioactive minerals), transport (along old
+and new Silk Roads) and consumption (the ingestion of earth-derived
+energies, materialities and earth-bound pharmaceutical products) and
+return or excretion (traces of isotopes and pollution elements in the
+body).
+
 ** notes etc
+
+
+*** jussi
+
+There’s no information to circulate without a physics and a chemistry.
 
 *** Fludd/Huffman p116 - The Second Book Containing the Mysteries of Wheat or Bread.
 
@@ -25,7 +98,7 @@ changeth that fire to an autumnal or harvest operation by which the
 mark of maturity so aimed at all the year is touched on the very head
 that then corruption may begin again.
 
-[connected to experiemnt with wheat - begins to "violate by corruption
+[connected to experiment with wheat - begins to "violate by corruption
 the bands of those four elements which did preserve that vegetable
 form until in a manner I had deprived it of quite all shape, & reduced
 the whole body unto a muddy or slimy substance ... "]
@@ -575,11 +648,16 @@ which renders both of these sites toxic to all life.
 
 *** SR Unthology circulation:
 
-Fludd: it endeavor[s] to arise anew, and it hastens through the branches of the aorta to the South, that is the liver, and North or the spleen.
+Fludd: it endeavor[s] to arise anew, and it hastens through the
+branches of the aorta to the South, that is the liver, and North or
+the spleen.
 
-the incorruptible spirit ... sendeth his beames of life ouer all the whole frame of man, to illuminate, give life, and circular motion vnto his spirit.
+the incorruptible spirit ... sendeth his beames of life ouer all the
+whole frame of man, to illuminate, give life, and circular motion vnto
+his spirit.
 
-circulation: the sun impresses on the wind a circular motion, breathed in, and reaching the heart, is carried around the body in circulation
+circulation: the sun impresses on the wind a circular motion, breathed
+in, and reaching the heart, is carried around the body in circulation
 
 
 
@@ -598,3 +676,5 @@ circulation: the sun impresses on the wind a circular motion, breathed in, and r
 *** SR in Messene/heatsick
 
 *** what else?
+
+** schedule
