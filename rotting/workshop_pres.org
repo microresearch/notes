@@ -16,10 +16,26 @@
 
 - electronics and feedback, parasitic feedback/effects and putrefaction
 
+circulations between earths, contained bodies (humans, worms and
+crows), plants, mushroom mycelium, atmospheres, technologies and
+infrastructures
+
+of particles, charges, electrons, energies, waves, polarisations, signals, noise, of media
+
+within circulations amongst earths, composts, mushroom mycelium,
+moulds, active chemistry, worms, crows, dusts, smokes and fogs and
+impulses and waves.
+
+///
+
+circuit-circulation
+
+parallel toad and ground in electronics - transistor feedback diagrams
+
 corruption as only images - donum dei sloane 2560
 
-- key emblem decoded
-- circulations of media
+- key emblems decoded
+- circulations of media - parallels 
 - within the body - fludd/blood, breath. worms
 - within the earth - telluric
 - within the air - fludd also - wind, temp changes. crows
@@ -665,16 +681,77 @@ in, and reaching the heart, is carried around the body in circulation
 
 *** earthcomputer
 
+images/ec001.jpg
+
 *** earthboot
+
+images/ebsm2.jpg
+
+images/earthcrash.png
+
+: resources/earthboot.mp4
 
 *** worms.txt
 
-*** mycelium works
+*** mycelium works - radio, radio astronomy
 
-*** TEH
+*** dissolutions and TEH
 
 *** SR in Messene/heatsick
 
 *** what else?
 
 ** schedule
+
+*** day one: presentation and introductions
+*** earth - telluric currents and signals in the earth
+
+measure earth current, capacitors, earth signals listened to, earth battery and comms, worms and wormvoice
+
+*** myc, moulds, fermentations?
+
+mycelium radio demo, prepare cultures, prepare smoke mix, bread mix
+
+*** bodies - crows and bread
+
+start baking in the earth, cultures for rye/ergot
+
+*** atmospheres - smoke and particles, electromagnetic walk
+
+smoke and laser, em signal capture and recordings/notes
+
+*** open circuits within each of these environments? during/before each activity
+
+techniques - etch? glass stacked for earth and bread, circuits for moulds in and on dishes, for the crows, worms...
+
+detektor, ouroboric, simple myc radio, multivibrator
+
+*** day two - working in 3 groups on construction and placement of circulation/corruptions
+
+** technical
+
+*** transistor pinouts
+
+**** 2n3904 - EBC
+
+file:resources/2n3904.gif
+
+**** BC547 - CBE
+
+file:resources/bc547.jpeg
+
+*** detektor circuit
+
+file:resources/elektoreng1cl.jpeg
+
+*** radio mycelium circuit
+
+file:resources/scrschem.JPG
+
+*** multivibrator
+
+file:resources/multivibrator2.png
+
+*** ouroboros
+
+file:resources/ouroborosm.jpeg

@@ -180,15 +180,19 @@ required container
 
 * prep
 
-- reader and ask headphones, recording apparatus
+- reader and ask headphones, recording apparatus, soldering iron/station
 
 * packing list/to get
 
+- complete setup for exhibition with psu, rocks etc...
+
+- example circuits, solder iron, 
+- scales
 - wire cutters, tweezers, magnifiers
 - plastic/ohp sheets
-- *glass sheets*, copper sticky and sheets, wire, crocodile clips, *needles*
+- *glass sheets*, copper sticky and sheets, wire, crocodile clips, *needles*, foil
 - *9v batteries, AA  batteries*
-- electronics, parts for each circuit:
+- electronics, parts for each circuit: check, parts from reichelt
 - petri dishes
 - magnifiers
 - 2radios

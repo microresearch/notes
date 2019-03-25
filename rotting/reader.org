@@ -1,20 +1,27 @@
-* workshop reader
-** workshop intro and rough schedule - this may change 
+#+TITLE: circulation/corruption reader
+#+AUTHOR: anonymous
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c) 
+#+CATEGORY:   geophysics
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE)
+#+latex_header: \usepackage[a4paper,includeheadfoot,margin=2.54cm]{geometry}
+#+latex_header: \usepackage[final]{pdfpages}.
 
-*** questions from workshop_pres.org
+\includegraphics[width=40em]{/root/org/images/halley.jpg}
 
+\includegraphics[width=40em]{resources/Donum_Dei_MPH_123_3.jpg}
 
+* Circulations and corruption
 
-** circulations/images for dissolution/corruption
+\includegraphics[width=40em]{resources/K068882sm.jpeg}
 
+\includegraphics[width=40em]{resources/K066056sm.jpeg}
 
 It is a living thing, which no more dies, but when used gives an eternal increase.
-
 [Splendor Solis]
 
-Let the waters above the heavens fall
-
-and the earth will yield its fruit
+Let the waters above the heavens fall and the earth will yield its fruit
 
 A serpent and a toad coming up above the earth (literally 'stepping
 up above,') is our Magistery.
@@ -23,10 +30,20 @@ The way up and the way down [are] one and the same [...] Fire, water,
 earth are the way down, and earth, water, fire is the way up. And
 these two ways are forever being traversed in opposite directions at once.
 
-Heraclitus
+[Heraclitus]
+
+\includegraphics[width=40em]{resources/K150158sm.jpeg}
+
+\includegraphics[width=40em]{resources/K150156sm.jpeg}
+
+\includegraphics[width=40em]{/root/org/images/tcb.jpg}
+
+\includegraphics[width=50em]{resources/harleysm.jpeg}
+
+\includegraphics[width=50em]{resources/ashmolesm.jpeg}
 
 
-** Anna Lowenhaupt Tsing. The Mushroom at the End of the World
+* Anna Lowenhaupt Tsing. The Mushroom at the End of the World
 
 We are contaminated by our encounter; they change who we are as we
 make way for others. As contamination changes world-making projects,
@@ -40,8 +57,7 @@ contamination. Without collaborations, we all die.
 
 [Anna Lowenhaupt Tsing. The Mushroom at the End of the World]
 
-** Samuel Beckett - Molloy, later reprinted separately under the title of "Sucking-Stones". 
-
+* Samuel Beckett - Molloy, later reprinted separately under the title of "Sucking-Stones". 
 
 I took advantage of being at the seaside to lay in a store of
 sucking-stones. They were pebbles but I call them stones. Yes, on this
@@ -265,7 +281,7 @@ which I rallied in the end was to throw away all the stones but one,
 which I kept now in one pocket, now in another, and which of course I
 soon lost, or threw away, or gave away, or swallowed.
 
-** Samuel Beckett Fizzles/Old Earth
+* Samuel Beckett Fizzles/Old Earth
 
 Old Earth, no more lies, I've seen you, it was me, with my other's
 ravening eyes, too late. You'll be on me, it will be you, it will be
@@ -294,9 +310,11 @@ skies, another body.
 
 
 
-** see also workshop pres/hytt reader
+* PUTREFACTION
 
-1- Splendor Solis:
+** Splendor Solis:
+
+\includegraphics[width=40em]{resources/19ss.jpg}
 
 PUTREFACTION takes place when the natural heat of a moist body is
 expelled by an external heat, or else when the natural heat of the
@@ -328,10 +346,22 @@ soul remains, then have you well washed the Body, that they both again
 are one.
 
 
-Donum Dei: (excerpts)
+** Donum Dei: (excerpts and images)
 
+\includegraphics[width=40em]{resources/dd000.jpeg}
 
-Here is made the putrefaction of Philosophers which was never seen and is called sulphur.
+\includegraphics[width=40em]{resources/Donum_Dei_Sloane_2560_8.jpg}
+
+\includegraphics[width=40em]{resources/Donum_Dei_Sloane_2560_7.jpg}
+
+\includegraphics[width=40em]{resources/Donum_Dei_Sloane_2560_6.jpg}
+
+\includegraphics[width=40em]{resources/Donum_Dei_Sloane_2560_5.jpg}
+
+\includegraphics[width=40em]{resources/Donum_Dei_Sloane_2560_4.jpg}
+
+Here is made the putrefaction of Philosophers which was never seen and
+is called sulphur.
 
 
 Convert the natures of the Elements and thou shalt find what thou
@@ -374,450 +404,66 @@ transparent blackness. This is upon the matter the black clouds,
 spirits or forms, This earth which is upon the matter descendeth in
 another vessel to the bottom and thence worms be brought forth.
 
-
-
-
 The Head of the Crow is black earth and feculent in the which be
 engendered worms, whereof the one devoureth the other, for the
 corruption of the one is the generation of the other.
 
-
 The black clouds descendeth unto the body from whence they came out
 and there is made connection between the earth and water and is made
 ashes. The crow is black, the Dove is white, the Phoenix burneth
-herself that she may procreate or bring forth an other of the ashes.
+
+* Ripley's Putrefaction
+
+[Eirenaeus Philalethes/George Starkey: Ripley reviv'd: or, an exposition upon Sir George Ripley's Hermetico poetical works]
+
+\includepdf[pages=151-173]{resources/ripley.pdf} 
+
+** Ripley's Eighth Gate - Sublimation
+
+\includegraphics[width=40em]{resources/corbeau.jpeg}
+
+\begin{verse}
+And Sublimations we make for three causes,\\
+The first cause is, to make the body spiritual,\\
+The second is, that the spirit may be corporeal ,\\
+And become fixed with it and consubstantial,\\
+The third cause is, that from its filthy original\\
+It may be cleansed, and its saltiness sulphurious,\\
+May be diminished in it, which is infectious.\\
+\end{verse}
 
 
-http://charm.cs.uiuc.edu/users/jyelon/pict-donum.html
+* Feedback and open circuits
 
-** Ripley Putrefaction
+\includepdf[pages=-]{resources/feedback000.pdf}
 
-This text has been modernised by Adam McLean from the 1591 edition of The Compound of Alchymy. 
+\includepdf[pages=-]{resources/feedbacktech.pdf}
 
-THE FIFTH GATE - PUTREFACTION
+\includepdf[pages=-]{resources/bare555.pdf}
 
-Now we begin the chapter of Putrefaction,
-Without which pole no seed may multiply,
-Which must be done only by continual action,
-Of heat in the body, moist not manually.
-For bodies else may not be altered naturally,
-Since Christ doth witness, unless the grain of wheat die in the ground,
-Increase may thou not get.
+\includepdf[pages=-]{resources/diyopamp.pdf}
 
-And likewise unless the matter putrefy,
-It may in no way truly be altered,
-Neither may thy elements be divided kindly,
-Nor the conjunction of them perfectly celebrated,
-That thy labour therefore be not frustrated,
-The privitie of our putrefying well understand,
-Before ever you take this work in hand.
+* Earth currents
 
-And Putrefaction may thus be defined, after philosophers sayings,
-To be the slaying of bodies,
-And in our compound a division of things three,
-Leading forth into the corruption of killed bodies,
-And after enabling them unto regeneration,
-For things being in the earth, without doubt,
-Be engendered of rotation in the heavens about.
+\includegraphics[width=40em]{resources/Nathan-Stubblefield-demonstration.jpg}
 
-And therefore as I have said before,
-Thine elements commixed and wisely coequate,
-Thou keep in temperate heat,
-Eschewing evermore that they be not incinerate by violent heat,
-To dry powder, unprofitably rubificated,
-But into powder black as a crow's bill,
-With heat of the Bath or else of our dunghill.
+\includegraphics[width=40em]{resources/induc1.jpg}
 
-Until the time that ninety nights be passed,
-In moist heat keep them for any thing,
-Soon after by blackness you shall espy,
-That they draw close to putrefying,
-Which after many colours you shall bring,
-With patience easily to perfect whiteness,
-And so thy seed in his nature will multiply.
+\includegraphics[width=40em]{resources/snowbatt1.jpg}
 
-Make each the other then to hug and kiss,
-And like as children to play them up and down,
-And when their shirts are filled with piss,
-Then let the woman to wash be bound,
-Which often for faintness will fall in a swoon,
-And die at last with her children all,
-And go to purgatory to purge their filth original.
+\includegraphics[width=40em]{resources/stubbcoils.jpg}
 
-When they be there, by little and little increase,
-Their pains with heat, aye, more and more,
-Never let the fire from them cease,
-And see that thy furnace be apt therefore,
-Which wise men call an Athanor,
-Conserving heat required most temperately,
-By which thy matter doth kindly putrefy.
+\includepdf[pages=2-18]{resources/telluric.pdf}
 
-Of this principle speaks wise Guido,
-And sayeth "by rotting dieth the compound corporeal",
-And then after Morien and others more,
-Upriseth again regenerated, simple and spiritual,
-And were not heat and moisture continual,
-Sperm in the womb might have no abiding,
-And so there should be no fruit thereof upspring.
+\includepdf[pages=-]{resources/stubblefield.pdf}
 
-Therefore at the beginning our stone thou take,
-And bury each one in other within their grave,
-Then equally between them a marriage make,
-To lie together six weeks let them have their seed conceived,
-Kindly to nourish and save,
-From the ground of their grave not rising that while,
-Which secret point doth many a one beguile.
+\includepdf[pages=1-28]{resources/stubblefield2.pdf}
 
-This time of conception with easy heat abide,
-The blackness showing shall tell you when they die,
-For they together like liquid pitch that tide,
-Shall swell and bubble, settle and putrefy,
-Shining colours therein you shall espy,
-Like to the rainbow marvellous to sight,
-The Water then beginneth to dry upright.
+\includepdf[pages=-]{resources/earth000.pdf}
 
-For in moist bodies, heat working temperate,
-Engenders blackness first of all,
-Which is the assigned token of kindly Conjunction,
-And of true Putrefaction: remember this,
-For then perfectly to alter thou can not miss,
-And thus by the gate of blackness thou must come in,
-To light of Paradise in whiteness if you wilt win.
+\includepdf[pages=141-159]{resources/persingerelf.pdf}
 
-For first the Sun in his uprising shall be obscured,
-And pass the waters of Noah's flood on earth,
-Which was continued a hundred and fifty days,
-Ere this water went away,
-Right so our waters shall pass (as wise men understood),
-That you with David shall say,
-"Abierunt in sicco flumina" : bear this away.
-
-Soon after that Noah planted his vineyard,
-Which royally flourished and brought forth grapes,
-After which space you shall not be afraid,
-For it likewise shall follow the nourishing of our stone,
-And soon after that 30 days be gone,
-You shall have grapes right as ruby red,
-Which is our Adrop, our Ucifer, and our red lead.
-
-For like as souls after pains transitory,
-Be brought to Paradise, which ever is joyful life,
-So shall our stone after his darkness in Purgatory be purged,
-And joined in Elements without strife,
-Rejoice the whiteness and beauty of his wife,
-And pass from darkness of purgatory to light of Paradise,
-In whiteness Elixir of great might.
-
-And that you may the rather to putrefaction win,
-This example take you for a true conclusion,
-For all the secret of Putrefaction rests therein,
-The heart of oak that hath of water continual infusion,
-Will not soon putrefy, I tell you without delusion,
-For though it lay in water a hundred years and more,
-Yet should you find it sound as ere it was before.
-
-But if you keep it sometimes wet and sometimes dry,
-As thou may see in timber by usual experiment,
-By process of time that oak shall utterly putrefy,
-And so likewise according to our intent,
-Sometimes our tree must with the Sun be burnt,
-And then with water we must make it cool,
-That by this means to rotting we may bring it well.
-
-For now in wet, and now again in dry,
-And now in heat, and now again to be in cold,
-Shall cause it soon to putrefy,
-And so shall thou bring to rotting your gold,
-Treat thy bodies as I have thee told,
-And in thy putrefying with heat be not too swift,
-Lest in the ashes thou seek after your thrift.
-
-Therefore your water you draw out of the earth,
-And make the soul therewith to ascend,
-Then down again into the earth it throw,
-That they oftentimes so ascend and descend,
-From violent heat and sudden cold descend your glass,
-And make your fire so temperate,
-That by the sides the matter be not vitrified.
-
-And be you wise in choosing of the matter,
-Meddle with no salts, sulphurs nor mean minerals,
-For whatsoever any worker to thee does clatter,
-Our Sulphur and Mercury be only in metals,
-Which some men call oils and waters,
-Fowls and bird, with many other names,
-So that fools should never know our stone.
-
-For of this world our stone is called the ferment,
-Which moved by craft as nature does require,
-In his increase shall be full opulent,
-And multiply his kind after thine own desire,
-Therefore is God vouchsafe you to inspire,
-To know the truth, and fancies to eschew,
-Like unto you in riches shall be but few.
-
-But many men be moved to work after their fantasy,
-In many subjects in which be tinctures gay,
-Both white and red divided manually to sight,
-But in the fire they fly away,
-Such break pots and glasses day by day,
-Poisoning themselves and losing their sight,
-With odours, smokes, and watching up by nights.
-
-Their clothes be bawdy and worn threadbare,
-Men may them smell for multipliers where they go,
-To file their fingers with corrosives they do not spare,
-Their eyes be bleary, their cheeks lean and blue,
-And thus I know they suffer loss and woe,
-And such when they have lost that was in their purse,
-Then do they chide, and Philosophers sore do curse.
-
-To see their houses is a noble sport,
-What furnaces, what glasses there be of diverse shapes,
-What salts, what powders, what oils, or acids,
-How eloquently of Materia Prima their tongues do clap,
-And yet to find the truth they have no hope,
-Of our Mercury they meddle and of our sulphur vive,
-Whereon they dote, and more and more unthrive.
-
-For all the while they have Philosophers been,
-Yet could they never know what was our Stone,
-Some sought it in dung, in urine, some in wine,
-Some in star slime (some thing it is but one),
-In blood and eggs : some till their thrift was gone,
-Dividing elements, and breaking many a pot,
-Shards multiplying, but yet they hit it not.
-
-They talk of the red man and of his white wife,
-That is a special thing, and of the Elixirs two,
-Of the Quintessence, and of the Elixir of life,
-Of honey, Celidonie, and of Secondines also,
-These they divide into Elements, with others more,
-No multipliers, but will they be called Philosophers,
-Which natural Philosophy did never read or see.
-
-This fellowship knows our Stone right well,
-They think them richer than is the King,
-They will him help, he shall not fail,
-To win for France a wondrous thing,
-The holy Cross home will they bring,
-And if the King were taken prisoner,
-Right soon his ransom would they make.
-
-A marvel it is that Westminster Kirk,
-Which these Philosophers do much haunt,
-Since they can so much riches work,
-As they make boast of and avaunt,
-Drinking daily at the wine due taunt,
-Is not made up perfectly at once,
-For truly it lacketh yet many stones.
-
-Fools do follow them at their tail,
-Promoted to riches wishing to be,
-But will you hear what worship and avail,
-They win in London that noble city ?
-With silver maces (as you may see),
-Sargents awaiteth on them each hour,
-So be they men of great honour.
-
-Sargents seek them from street to street,
-Merchants and Goldsmiths lay after them to watch,
-That well is him that with them may meet,
-For the great advantage that they do catch,
-They hunt about as does a dog,
-Expecting to win so great treasure,
-That ever in riches they shall endure.
-
-Some would catch their goods again,
-And some more good would adventure,
-Some for to have would be full fain,
-Of ten pounds one, I you ensure,
-Some which have lent their goods without measure,
-And are with poverty clad,
-To catch a noble, would be full glad.
-
-But when the Sargents do them arrest,
-Their pockets be stuffed with Paris balls,
-Or with signets of St Martin's at the least,
-But as for money it is pissed against the walls,
-Then they be led (as well for them befalls),
-To Newgate or Ludgate as I you tell,
-Because they shall in safeguard dwell.
-
-Where is my money become, saith one ?
-And where is mine, saith he and he ?
-But will you hear how subtle they be anon,
-In answering that they excused be,
-Saying of our Elixirs we were robbed,
-Else might we have paid you all your gold,
-Though it had been more by ten-fold.
-
-And then their creditors they flatter so,
-Promising to work for them again,
-In right short space the two Elixirs,
-Doting the Merchants that they be fain,
-To let them go, but ever in vain,
-They work so long, till at the last,
-They be again in prison cast.
-
-If any them ask why they be not rich ?
-They say that they can make fine gold of tin,
-But he (say they) may surely swim the ditch,
-Which is upholded by the chin,
-We have no stock, therefore may we not win,
-Which if we had, we would soon work enough,
-To finish up Westminster Kirk.
-
-And some of them be so devout,
-They will not dwell out of that place,
-For they may without doubt,
-Do what them list to their solace,
-The Archdeacon is so full of grace,
-That if they bless him with their cross,
-He forceth little of other mens loss.
-
-And when they there sit at the wine,
-These monks they say have many a pound,
-Would God (saith one) have some were mine,
-Yet care away, let the cup go round,
-Drink on saith another, the mean is found,
-I am a master of that Art,
-I warrant us we shall have part
-
-Such causes Monks evil to do,
-To waste their wages through their dotage,
-Some bringeth a mazer, and some a spoon,
-Their Philosophers gives them such comage,
-Behighting them winning with domage,
-A pound for a penny at the least again,
-And so fair promises make fools fain.
-
-A Royal medicine one upon twelve,
-They promise them thereof to have,
-Which they could never for themselves,
-Yet bring about, so God me save,
-Beware such Philosophers no man deprave,
-Which help these Monks to riches so,
-In threadbare coats that they must go.
-
-The Abbot ought well to cherish this company,
-For they can teach his Monks to live in poverty,
-And to go clothed and monied religiously,
-As did Saint Bennet, eschewing superfluity,
-Easing them also of the ponderosity of their purses,
-With pounds so aggravated,
-Which by Philosophy be now alleviated.
-
-Lo who meddles with this rich company,
-Great boast of their winning they may make,
-For they shall reap as much by their Philosophy,
-As they of the tail of an ape can take,
-Beware therefore for Jesus' sake,
-And meddle with nothing of great cost,
-For if thou do, it is but lost.
-
-These Philosophers (of which I spoke before),
-Meddle and blunder with many a thing,
-Running in errors ever more and more,
-For lack of true understanding,
-But like must always bring forth like,
-So hath God ordained in every kind,
-Would Jesus they would bear this is mind.
-
-They expect of a Nettle to have a Rose,
-Or of an Elder to have an apple sweet,
-Alas, that wisemen their goods should lose,
-Trusting such doctrines when they them meet,
-Which say our Stone is trodden under foot,
-And makes them vile things to distil,
-Till all their houses with stench they fill.
-
-Some of them never learned a word in Schools,
-Should such by reason understand Philosophy ?
-Be they Philosophers ? Nay, they be fools.
-For their works prove them without wit,
-Meddle not with them, if you would be happy,
-Lest with their flattery they so thee till,
-That you agree unto their will.
-
-Spend not thy money away in waste,
-Give not to every spirit credence,
-But first examine, grope and taste,
-And as thou provest, so put your confidence,
-But ever beware of great expense,
-And if the Philosopher do live virtuously,
-The better you may trust his Philosophy.
-
-Prove him first, and him appose,
-Of all the secrets of our Stone,
-Which if he know not, you need not to lose,
-Meddle you no further, but let him be gone,
-Though he make ever so piteous a moan,
-For then the Fox can fagg and faine,
-When he would to his prey attain.
-
-If he can answer as a Clerk,
-How he has not proved it indeed,
-And you then help him to his work,
-If he be virtuous I hold it merited,
-For he will thee quite if ever he speeds,
-And thou shalt know by a little anon,
-If he have knowledge of our Stone.
-
-One thing, one glass, one furnace, and no more,
-Behold if he does hold this principle,
-And if he do not, then let him go,
-For he shall never make thee a rich man,
-Timely it is better you forsake him,
-Than after with loss and variance,
-And other manner of unpleasance.
-
-But if God fortune you to have,
-This Science by doctrine which I have told,
-Reveal it not to whosoever it craves,
-For favour, fear, silver or gold.
-Be no oppressor, lecher not boaster bold,
-Serve thy God and help among the poor,
-If you wish this life to continue long.
-
-Unto thyself your secrets ever keep,
-From sinners, who have not God in dread,
-But will cast you in prison deep,
-Till you teach them to do it indeed,
-Then slander on you shall spring and spread,
-That you do coin then will they say,
-And so undo you for ever and aye.
-
-And if you teach them this cunning,
-Their sinful living for to maintain,
-In hell therefore shall be your winning,
-For God will take disdain of you and them,
-As thou nought could therefore you faine,
-That body and soul you may both save,
-And here in peace to have your living.
-
-Now in this Chapter I have taught you,
-How you must putrefy your body,
-And so to guide you that you be not caught,
-And put to durance loss and villany
-My doctrine therefore remember wisely,
-And pass forth towards the sixth gate,
-For thus the fifth is triumphate.
-
-*** eight gate sublimation
-
-And Sublimations we make for three causes,
-The first cause is, to make the body spiritual,
-The second is, that the spirit may be corporeal ,
-And become fixed with it and consubstantial,
-The third cause is, that from its filthy original
-It may be cleansed, and its saltiness sulphurious,
-May be diminished in it, which is infectious.
-
-
-** 555/other open circuits/all circuits/feedback
-** telluric earth/stubblefield/persinger
-** circulations blood and wind fludd - illustrations and texts
+* Bodily circulations
 
 .. that is by a hyemal winter fire, with which she rotteth; & then
 with a vernal or spring firre by which it groweth & indueth his green
@@ -831,16 +477,40 @@ that then corruption may begin again.
 [connected to experiment with wheat - begins to "violate by corruption
 the bands of those four elements which did preserve that vegetable
 form until in a manner I had deprived it of quite all shape, & reduced
-the whole body unto a muddy or slimy substance ... "]
+the whole body unto a muddy or slimy substance ..."]
 
-** fludd wheat
-** thermocultures
-** some stuff on ergot
-** growing fungi and fungi life cycles - from myc reader
+\includegraphics[width=40em]{resources/invasion.jpg}
 
-mushroomcycle.png
+\includegraphics[width=40em]{resources/fludd_exc_basilisk.jpg}
 
-** Video/other materials
+\includepdf[pages=-]{resources/debusfluddblood.pdf}
+
+\includepdf[pages=55-72]{resources/debusparacelsians.pdf}
+
+\includepdf[pages=-]{resources/circulationblood.pdf}
+
+\includepdf[pages=2-28]{resources/fluddwheat.pdf}
+
+
+* Ergot and parasites
+
+\includegraphics[width=40em]{resources/ergot-life-cycle-n.jpg}
+
+\includepdf[pages=-]{resources/ergot_lifecycle.pdf}
+
+* Mycelium
+
+\includegraphics[width=40em]{resources/mushroomcycle.png}
+
+* Media
+
+\includepdf[pages=-]{resources/thermocultures.pdf}
+
+\includepdf[pages=-]{resources/mediaarch.pdf}
+
+\includepdf[pages=73-95]{resources/Geologyofmedia.pdf}
+
+* Video and other materials
 
 Friedrich Kittler. Non-Linear Oscillators & Computer Motherboards. 2010: https://www.youtube.com/watch?v=CxIHwCnVYIE
 
