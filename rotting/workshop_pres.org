@@ -124,6 +124,25 @@ the waters had come in even unto her, wherefore they were putrefied
 and corrupted before the face of the lower hell and the shadow of
 death, for a tempest hath overwhelmed me
 
+** Heraclitus
+
+The way up and the way down [are] one and the same [...] Fire, water,
+earth are the way down, and earth, water, fire is the way up. And
+these two ways are forever being traversed in opposite directions at once.
+
+** Splendor Solis
+
+The Soul is extracted by Putrefaction, and when nothing more of the
+soul remains, then have you well washed the Body, that they both again
+are one.
+
+** Donum Dei
+
+The Head of the Crow is black earth and feculent in the which be
+engendered worms, whereof the one devoureth the other, for the
+corruption of the one is the generation of the other.
+
+
 ** Ripley Putrefaction
 
 This text has been modernised by Adam McLean from the 1591 edition of The Compound of Alchymy. 
@@ -624,11 +643,11 @@ in, and reaching the heart, is carried around the body in circulation
 
 * Circulation and corruption in electronics and electronic music (production)
 
-All circuits are circulations.
+All circuits are circulations. All circuits take part in earth/ed circulations.
 
-Short circuit.
+Short circuit. Grounded. Open circuit. Open loop. Closed loop.
 
-What is a circuit/circulation? An example, how it is described...
+What is a circuit/circulation? For example, how is it described...
 
 resources/blasser1.gif
 
@@ -658,11 +677,13 @@ that the Patent Office initially did not believe it would work."
 
 My own ouroboros.
 
-*** transistors
-
-
-
 *** operational amplifiers
+
+resources/feedback.jpg
+
+*** 
+
+resources/die-blocks.png
 
 *** 555/timer insides
 
@@ -778,23 +799,19 @@ detektor, simple myc radio, ouroboric/multivibrator
 
 etch, glass stacked for earth and bread, circuits for moulds in and on dishes, for the crows, worms...
 
-
 ** day one: presentation and introductions
 
 ** atmospheres - smoke and particles, electromagnetic walk
 
 detektor build, smoke and laser, em signal capture and recordings/notes
 
-
 ** myc, moulds, fermentations?
 
-mycelium radio demo, prepare cultures, prepare smoke mix, bread mix, myc radio circuit
-
+start to boil potatoes, mycelium radio demo, prepare cultures, prepare smoke mix, bread mix, myc radio circuit
 
 ** bodies - crows and bread
 
 multi/ouroboric, start baking in the earth, cultures for rye/ergot
-
 
 ** earth - telluric currents and signals in the earth or day two
 
@@ -803,6 +820,19 @@ measure earth current, capacitors, earth signals listened to, earth battery and 
 ** day two - working in 3 groups on construction and placement of circulation/corruptions
 
 * Technical
+
+** potato dextrose agar 
+
+Medium 129: POTATO DEXTROSE AGAR 
+
+ Infusion from potatoes (see below)         1000.0     ml
+ Glucose                                      20.0      g
+ Agar                                         15.0      g
+
+Potato infusion:
+Boil 200 g scrubbed and sliced potatoes in 1000 ml water for 1 hour. Pass through fine sieve. Avoid
+new potatoes.
+
 
 ** transistor pinouts
 
