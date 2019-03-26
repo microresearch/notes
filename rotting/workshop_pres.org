@@ -1,48 +1,6 @@
-* Circulations (and corruptions)
+* 
 
-- format? - about the workshop/various circulations/circulations in own work/circulations in electronic/music//workshop schedule and practical
-
-- what is it about circulation that encourages corruption, putrefaction and decay?
-
-- how can we think of corruption in terms of material and/of media?
-  parasitism, degradation of information, making present of a material
-  substrate and material constraints, signals disturbed/noise,
-  muddied, what it means to corrupt something, to mix in additional
-  meanings, to degrade a signal
-
-- parasites
-
-- what are alchemical cycles which involve putrefaction
-
-- electronics and feedback, parasitic feedback/effects and putrefaction
-
-circulations between earths, contained bodies (humans, worms and
-crows), plants, mushroom mycelium, atmospheres, technologies and
-infrastructures
-
-of particles, charges, electrons, energies, waves, polarisations, signals, noise, of media
-
-within circulations amongst earths, composts, mushroom mycelium,
-moulds, active chemistry, worms, crows, dusts, smokes and fogs and
-impulses and waves.
-
-///
-
-circuit-circulation
-
-parallel toad and ground in electronics - transistor feedback diagrams
-
-corruption as only images - donum dei sloane 2560
-
-- key emblems decoded
-- circulations of media - parallels 
-- within the body - fludd/blood, breath. worms
-- within the earth - telluric
-- within the air - fludd also - wind, temp changes. crows
-- within electronics and electronic music - feedback
-
-
-** intro etc/notes from workshop.org
+* Introduction
 
 All technology that is derived of earth, must be decomposed and again
 reduced to earth.
@@ -69,11 +27,11 @@ During the workshop we will construct a series of open circuits which
 do not conceal their materiality but participate equally within
 material and electrochemical exchanges and circulations. 
 
-*These circuits are inspired through a media archaeology of electronic
+These circuits are inspired through a media archaeology of electronic
 music production, and through the history of alchemical engagement
 with minerals, with decay and with the earth. These technical and
 conceptual influences are equally opened to circulation and corruption
-during the workshop.*
+during the workshop.
 
 We will work with a range of materials (for example, machine cut
 copper sheets and oyster mushroom mycelium) and approaches (for
@@ -84,26 +42,58 @@ will be placed during the workshop in selected interior and exterior
 locations to participate in various time scales of deterioration and
 degradation.
 
-*** notes:
-
-ouroboros, latch and comparator circuits opened to moulds and decay, fungi, degradation
+* Questions
 
 
-the circulatory system of an earth addiction encompassing extraction
-(of precious metals, of radioactive minerals), transport (along old
-and new Silk Roads) and consumption (the ingestion of earth-derived
-energies, materialities and earth-bound pharmaceutical products) and
-return or excretion (traces of isotopes and pollution elements in the
-body).
+what is it about circulation that encourages corruption, putrefaction and decay?
 
-** notes etc
+how can we think of corruption in terms of material and/of media?
+parasitism, degradation of information, making present of a material
+substrate and material constraints, signals disturbed/noise, muddied,
+what it means to corrupt something, to mix in additional meanings, to
+degrade a signal
+
+what are parasites?
+
+what are alchemical cycles which involve putrefaction
+
+electronics and feedback, parasitic feedback/effects and putrefaction
+
+circulations between earths, contained bodies (humans, worms and crows), plants, mushroom mycelium, atmospheres, technologies and infrastructures
+
+of particles, charges, electrons, energies, waves, polarisations, signals, noise, of media
+
+within circulations amongst earths, composts, mushroom mycelium, moulds, active chemistry, worms, crows, dusts, smokes and fogs and impulses and waves.
+
+corruption as only images - donum dei sloane 2560
+
+    key emblems decoded
+AS
+    circulations of media - parallels
+    within the body - fludd/blood, breath. worms
+    within the earth - telluric
+    within the air - fludd also - wind, temp changes. crows
+    within electronics and electronic music - feedback
 
 
-*** jussi
+* Excerpts - setting the scene
+
+
+** Anna Lowenhaupt Tsing. The Mushroom at the End of the World
+
+We are contaminated by our encounter; they change who we are as we
+make way for others. As contamination changes world-making projects,
+mutual worlds and new directions may emerge. Everyone carries a
+history of contamination; purity is not an option. 
+
+Collaboration means working across difference, which leads to
+contamination. Without collaborations, we all die. 
+
+** Jussi Parikka
 
 There’s no information to circulate without a physics and a chemistry.
 
-*** Fludd/Huffman p116 - The Second Book Containing the Mysteries of Wheat or Bread.
+** Fludd/Huffman p116 - The Second Book Containing the Mysteries of Wheat or Bread.
 
 .. that is by a hyemal winter fire, with which she rotteth; & then
 with a vernal or spring firre by which it groweth & indueth his green
@@ -119,12 +109,12 @@ the bands of those four elements which did preserve that vegetable
 form until in a manner I had deprived it of quite all shape, & reduced
 the whole body unto a muddy or slimy substance ... "]
 
-*** splendor solis plate 19
+** Splendor Solis plate 19
 
 This Dissolution is nothing but a killing of the moist with the dry,
 in fact a PUTREFACTION, and consequently turns the MATTER black
 
-*** Aurora Consurgens (date?)
+** Aurora Consurgens (15c)
 
 THE  FIRST  PARABLE:  OF  THE   BLACK  EARTH  WHEREIN  THE  SEVEN  PLANETS  TOOK  ROOT
 
@@ -134,7 +124,7 @@ the waters had come in even unto her, wherefore they were putrefied
 and corrupted before the face of the lower hell and the shadow of
 death, for a tempest hath overwhelmed me
 
-*** Ripley Putrefaction
+** Ripley Putrefaction
 
 This text has been modernised by Adam McLean from the 1591 edition of The Compound of Alchymy. 
 
@@ -551,64 +541,21 @@ For thus the fifth is triumphate.
 The end of the Fifth Gate
 
 
-*** 
 
-All technology that is derived of earth, must be decomposed and again
-reduced to earth.
-[Basil Valentine]
+** Earth circulations
 
-Old earth, no more lies, I've seen you, it was me, with my other
-ravening eyes, too late.
-[Samuel Beckett]
-
-Circulation and corruption (workshop) examines the various
-circulations of media through the matters and bodies of the earth and
-atmosphere, and through a certain corruption or dissolution of
-(digital) identity, meaning and description.
-
-Within a one and a half day hands-on, speculative workshop we will
-collectively explore the interfaces and exchanges between living
-systems (earth, compost, worms, mycelium) and active audio
-electronics. We will participate primarily with our hands and our ears
-within circulations amongst earths, composts, mushroom mycelium,
-moulds, active chemistry, worms, crows, dusts, smokes and fogs and
-impulses and waves.
-
-During the workshop we will construct a series of open circuits which
-do not conceal their materiality but participate equally within
-material and electrochemical exchanges and circulations. These
-circuits are inspired through a media archaeology of electronic music
-production, and through the history of alchemical engagement with
-minerals, with decay and with the earth. These technical and
-conceptual influences are equally opened to circulation and corruption during
-the workshop.
-
-We will work with a range of materials (for example, machine cut
-copper sheets and oyster mushroom mycelium) and approaches (for
-example, with radio transmission and signal reception) to design and
-build these open circuits which will enter into processes of
-appreciable decay, corruption and dissolution. These open circuits
-will be placed during the workshop in selected interior and exterior
-locations to participate in various time scales of deterioration and
-degradation.
-
-*** notes:
-
-ouroboros, latch and comparator circuits opened to moulds and decay, fungi, degradation
-
-
-the circulatory system of an earth addiction encompassing extraction
+The circulatory system of an earth addiction encompassing extraction
 (of precious metals, of radioactive minerals), transport (along old
 and new Silk Roads) and consumption (the ingestion of earth-derived
 energies, materialities and earth-bound pharmaceutical products) and
 return or excretion (traces of isotopes and pollution elements in the
 body).
 
-*** from pharmacy event
+** from pharmacy event/fludd
 
-Title: Digestion.
+resources/invasionsm.jpg
 
-Martin Howse
+*** 
 
 No more fruit, no more trees, no more vegetables, no more plants
 pharmaceutical or otherwise and consequently no more food, but
@@ -662,7 +609,7 @@ death. Here we learn that it is the superposition of language on both
 earth and body, as timely virus and as a clocking border control,
 which renders both of these sites toxic to all life.
 
-*** SR Unthology circulation:
+** Fludd circulation:
 
 Fludd: it endeavor[s] to arise anew, and it hastens through the
 branches of the aorta to the South, that is the liver, and North or
@@ -675,83 +622,216 @@ his spirit.
 circulation: the sun impresses on the wind a circular motion, breathed
 in, and reaching the heart, is carried around the body in circulation
 
+* Circulation and corruption in electronics and electronic music (production)
+
+All circuits are circulations.
+
+Short circuit.
+
+What is a circuit/circulation? An example, how it is described...
+
+resources/blasser1.gif
+
+*** 
+
+resources/blasser2.png
+
+** (negative) feedback in electronics
+
+resources/feedback.png
+
+Paul Voigt patented a negative feedback amplifier in January 1924,
+though his theory lacked detail. Harold Stephen Black independently
+invented the negative-feedback amplifier while he was a passenger on
+the Lackawanna Ferry (from Hoboken Terminal to Manhattan) on his way
+to work at Bell Laboratories (located in Manhattan instead of New
+Jersey in 1927) on August 2, 1927. 
+
+Black was working on reducing distortion in repeater
+amplifiers used for telephone transmission. On a blank space in his
+copy of The New York Times, he recorded the diagram found in Figure
+1 and the equations derived below. On August 8, 1928, Black
+submitted his invention to the U. S. Patent Office, which took more
+than 9 years to issue the patent. Black later wrote: "One reason for
+the delay was that the concept was so contrary to established beliefs
+that the Patent Office initially did not believe it would work."
+
+My own ouroboros.
+
+*** transistors
 
 
-** own works which deal with circulations
 
-*** earthcomputer
+*** operational amplifiers
 
-images/ec001.jpg
+*** 555/timer insides
 
-*** earthboot
+Inside a black box all is circulation. Productions of integrated circuits.
 
-images/ebsm2.jpg
+resources/bare555sm.png
 
-images/earthcrash.png
+** parallel toad and ground in electronics - transistor feedback diagrams
+
+resources/Eaglesm.jpg
+
+*** 
+
+resources/emitter.jpg
+
+** Common electronic audio circuits - oscillation, filters
+
+*** oscillation is feedback
+
+**** positive feedback
+
+resources/osc4.gif
+
+Positive feedback must occur only at one frequency, the required frequency
+of oscillation. This may be achieved by ensuring that only signals of
+the required frequency are fed back, or by ensuring the feedback
+signal is in the correct phase at only one frequency.
+
+**** flip flop/switching up and down
+
+resources/multivibrator2.png
+
+*** feedback in filters
+
+resources/tiefpass.png
+
+**** 
+
+resources/vcsfilter.jpg
+
+* My own works which deal with circulations
+
+** earthcomputer
+
+resources/images/ec001.jpg
+
+** earthboot
+
+resources/images/ebsm2.jpg
+
+resources/images/earthcrash.png
 
 : resources/earthboot.mp4
 
-*** worms.txt
+** worms.txt
 
-*** mycelium works - radio, radio astronomy
+/root/org/images/worms000_sm.jpg
 
-*** dissolutions and TEH
+Serpent Lucifer, how do you do?
 
-*** SR in Messene/heatsick
+Of your worms and your snakes I’d be one or two;
 
-*** what else?
+For in this dear planet of wool and of leather
 
-** schedule
+‘Tis pleasant to need neither shirt, sleeve, nor shoe,
 
-*** day one: presentation and introductions
-*** earth - telluric currents and signals in the earth
+And have arm, leg, and belly together.
+
+[Thomas Beddoes. 1850]
+
+Over the last year, a container of worms dieting on rotting coffee
+grains and waste vegetables have composed an ever-lengthening French
+language text which now numbers over 9000 pages. The compost worms
+have been provided with an electronic and software interface to a
+virtual typewriter. Tiny electrical changes within the worm's compost,
+which correspond to the worm's activity and movement allow the worms
+to writhe and wriggle through a French language probability table to
+actively steer the generation of this piece of writing; worms.txt.
+
+** mycelium works 
+
+/root/org/images/mra000.jpg
+
+Symbiotic ur-networks of silent fungal and root chatter and earth
+vibration, named chemical gradients tasted by rooty and human tongues
+fruit forest-wide in fairy rings, rising up in form and outgrowing
+Jodrell bank and Arecibo, outclassing them unknown in bringing down
+the stars to earth.
+
+** dissolutions and Test Execution Host TEH
+
+/root/org/images/dissmodsmallerl.png
+
+*** 
+
+/root/org/images/FFF08706.JPG
+
+** SR in Messene/heatsick
+
+/root/org/images/ebmessene2.png
+
+** Eurorack modules
+
+/root/org/images/vamp001small.jpeg
+
+* Schedule
+
+** open circuits within each of these environments? during/before each activity
+
+detektor, simple myc radio, ouroboric/multivibrator
+
+** techniques 
+
+etch, glass stacked for earth and bread, circuits for moulds in and on dishes, for the crows, worms...
+
+
+** day one: presentation and introductions
+
+** atmospheres - smoke and particles, electromagnetic walk
+
+detektor build, smoke and laser, em signal capture and recordings/notes
+
+
+** myc, moulds, fermentations?
+
+mycelium radio demo, prepare cultures, prepare smoke mix, bread mix, myc radio circuit
+
+
+** bodies - crows and bread
+
+multi/ouroboric, start baking in the earth, cultures for rye/ergot
+
+
+** earth - telluric currents and signals in the earth or day two
 
 measure earth current, capacitors, earth signals listened to, earth battery and comms, worms and wormvoice
 
-*** myc, moulds, fermentations?
+** day two - working in 3 groups on construction and placement of circulation/corruptions
 
-mycelium radio demo, prepare cultures, prepare smoke mix, bread mix
+* Technical
 
-*** bodies - crows and bread
+** transistor pinouts
 
-start baking in the earth, cultures for rye/ergot
+*** 2n3904 - EBC
 
-*** atmospheres - smoke and particles, electromagnetic walk
+resources/2n3904.gif
 
-smoke and laser, em signal capture and recordings/notes
+*** BC547 - CBE
 
-*** open circuits within each of these environments? during/before each activity
+resources/bc547.jpeg
 
-techniques - etch? glass stacked for earth and bread, circuits for moulds in and on dishes, for the crows, worms...
+** detektor circuit
 
-detektor, ouroboric, simple myc radio, multivibrator
+resources/elektoreng1cl.jpeg
 
-*** day two - working in 3 groups on construction and placement of circulation/corruptions
+** radio mycelium circuit
 
-** technical
+resources/scrschem.JPG
 
-*** transistor pinouts
+** multivibrator
 
-**** 2n3904 - EBC
+resources/multivibrator2.png
 
-file:resources/2n3904.gif
+** ouroboros
 
-**** BC547 - CBE
+resources/ouroborosm.jpeg
 
-file:resources/bc547.jpeg
+** smoke
 
-*** detektor circuit
-
-file:resources/elektoreng1cl.jpeg
-
-*** radio mycelium circuit
-
-file:resources/scrschem.JPG
-
-*** multivibrator
-
-file:resources/multivibrator2.png
-
-*** ouroboros
-
-file:resources/ouroborosm.jpeg
+Measure out 30 grams of Potassium Nitrate and 20 grams of Sugar into a
+small cup. 30 grams of Potassium Nitrate and 20 grams of Sugar is a
+60% / 40% mixture.

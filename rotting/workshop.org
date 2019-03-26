@@ -184,22 +184,22 @@ required container
 
 * packing list/to get
 
-- complete setup for exhibition with psu, rocks etc...
+- complete setup for exhibition with psu, rocks etc - *long light cable to fix up*
 
-- example circuits, solder iron, 
+- example circuits, solder iron, solder
 - scales
 - wire cutters, tweezers, magnifiers
 - plastic/ohp sheets
 - *glass sheets*, copper sticky and sheets, wire, crocodile clips, *needles*, foil
 - *9v batteries, AA  batteries*
-- electronics, parts for each circuit: check, parts from reichelt
+- electronics, parts for each circuit: check, parts from reichelt, wire
 - petri dishes
 - magnifiers
 - 2radios
 - audio cables
 - 2 different metals - copper we have and ...? pie dish?
 
-- detektors x2or3, myc radio, new loop antennas and amp(XLR cable), wormvoice, vlf, *TODO_earthdiffamp*, *check earth boot for measurement IN*
+- detektors x2or3, myc radio, new loop antennas and amp(XLR cable), wormvoice, vlf, TODO_earthdiffamp-INA114, earth boot for measurement
 - *laser with battery*, photodiodes
 - potassium nitrate, fuses or *sparklers*
 - multimeter
