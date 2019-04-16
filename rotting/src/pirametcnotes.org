@@ -1,5 +1,12 @@
 : PATH=$PATH:/root/gcc-arm-none-eabi-7-2018-q2-update/bin/
 
+* general pi notes
+
+copy to FAT32 partition:
+
+start.elf, bootcode.bin - from https://github.com/raspberrypi/firmware/tree/master/boot
+ and kernel.img (we generate)
+
 * 
 
 43 minutes to fill 1024*1024 buffer with 1/400s input
