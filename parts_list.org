@@ -334,7 +334,22 @@ potis10kthru hole=RK09L1140A66, knobs from thonk
 
 ** ERD/WORM
 
-*** for next worms
+*** for final worms
+
+all jacks/knobs/cables
+
+mouser = we have 24 potis and need 125 = 110
+
+rest of parts...
+
+| 10u          C14       ; xXsegor ??  3x20/25v, 2x10v, 5x6v -we have- |
+
+
+100x20/25v
+50x10v-we have 30 = 30!
+
+
+*** for next worms (till 75)
 
 pcbcart: 20pcb, 35 panel
 
@@ -353,6 +368,8 @@ mouser:
 potis we have: to check - need 125
 
 parts: 
+
+mcp 40 and we need 2x25=75 = 40
 
 *** 
 

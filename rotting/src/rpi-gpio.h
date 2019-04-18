@@ -42,6 +42,17 @@
     #define LED_ON()        do { gpio[LED_GPSET] = ( 1 << LED_GPIO_BIT ); } while( 0 )
     #define LED_OFF()       do { gpio[LED_GPCLR] = ( 1 << LED_GPIO_BIT ); } while( 0 )
 
+// add activity pin so we can see pulses
+
+    #define ALED_GPFSEL      GPIO_GPFSEL4
+    #define ALED_GPFBIT      21
+    #define ALED_GPSET       GPIO_GPSET1
+    #define ALED_GPCLR       GPIO_GPCLR1
+    #define ALED_GPIO_BIT    15
+    #define ALED_ON()        do { gpio[ALED_GPSET] = ( 1 << ALED_GPIO_BIT ); } while( 0 )
+    #define ALED_OFF()       do { gpio[ALED_GPCLR] = ( 1 << ALED_GPIO_BIT ); } while( 0 )
+
+
 // set up pin 40 GPIO21 as an input with rising edge
 
 #define IN_GPFSEL GPIO_GPFSEL2

@@ -1,23 +1,33 @@
+#+TITLE: circulation/corruption presentation/notes
+#+AUTHOR: anonymous
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c) 
+#+CATEGORY:   geophysics
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE)
+#+latex_header: \usepackage[a4paper,includeheadfoot,margin=2.54cm]{geometry}
+#+latex_header: \usepackage[final]{pdfpages}.
+
 * 
+ 
+file:resources/Donum_Dei_MPH_123_3.jpg
 
 * Introduction
 
-All technology that is derived of earth, must be decomposed and again
-reduced to earth.
+file:/root/org/images/halley.jpg
+
+All technology that is derived of earth, must be decomposed and again reduced to earth.
 [Basil Valentine]
 
-Old earth, no more lies, I've seen you, it was me, with my other
-ravening eyes, too late.
+Old earth, no more lies, I've seen you, it was me, with my other ravening eyes, too late.
 [Samuel Beckett]
 
-Circulation and corruption (workshop) examines the various
-circulations of media through the matters and bodies of the earth and
+Circulations of media through the matters and bodies of the earth and
 atmosphere, and through a certain corruption or dissolution of
 (digital) identity, meaning and description.
 
-Within a one and a half day hands-on, speculative workshop we will
-collectively explore the interfaces and exchanges between living
-systems (earth, compost, worms, mycelium) and active audio
+We will collectively explore the interfaces and exchanges between
+living systems (earth, compost, worms, mycelium) and active audio
 electronics. We will participate primarily with our hands and our ears
 within circulations amongst earths, composts, mushroom mycelium,
 moulds, active chemistry, worms, crows, dusts, smokes and fogs and
@@ -25,7 +35,7 @@ impulses and waves.
 
 During the workshop we will construct a series of open circuits which
 do not conceal their materiality but participate equally within
-material and electrochemical exchanges and circulations. 
+material and electrochemical exchanges and circulations.*
 
 These circuits are inspired through a media archaeology of electronic
 music production, and through the history of alchemical engagement
@@ -42,44 +52,89 @@ will be placed during the workshop in selected interior and exterior
 locations to participate in various time scales of deterioration and
 degradation.
 
-* Questions
+* Questions/terms
 
+What is it about circulation that encourages corruption, putrefaction and decay?
 
-what is it about circulation that encourages corruption, putrefaction and decay?
+How can we think of corruption in terms of material and/of media?
 
-how can we think of corruption in terms of material and/of media?
-parasitism, degradation of information, making present of a material
+Ideas like parasitism, degradation of information, making present of a material
 substrate and material constraints, signals disturbed/noise, muddied,
-what it means to corrupt something, to mix in additional meanings, to
-degrade a signal
+what it means to corrupt something, to bend towards additional/other senses, to
+degrade signals.
 
-what are parasites?
+What are media and signal parasites? Pharmaceuticals for example,
+dusts and particles from industrial productions, radioactive isotopes.
 
-what are alchemical cycles which involve putrefaction
+What are the connections between technolgies of electronics and
+feedback, parasitic feedback/effects and putrefaction?
 
-electronics and feedback, parasitic feedback/effects and putrefaction
+*  
 
-circulations between earths, contained bodies (humans, worms and crows), plants, mushroom mycelium, atmospheres, technologies and infrastructures
+Circulations between earths, contained bodies (humans, worms and
+crows), plants, mushroom mycelium, atmospheres, technologies and
+infrastructures
 
-of particles, charges, electrons, energies, waves, polarisations, signals, noise, of media
+Of particles, charges, electrons, energies, waves, polarisations, signals, noise, of media
 
-within circulations amongst earths, composts, mushroom mycelium, moulds, active chemistry, worms, crows, dusts, smokes and fogs and impulses and waves.
+And within circulations amongst earths, composts, mushroom mycelium,
+moulds, active chemistry, worms, crows, dusts, smokes and fogs and
+impulses and waves.
 
-corruption as only images - donum dei sloane 2560
+This is what we will work with. All is in circulation.
 
-    key emblems decoded
-AS
-    circulations of media - parallels
-    within the body - fludd/blood, breath. worms
-    within the earth - telluric
-    within the air - fludd also - wind, temp changes. crows
-    within electronics and electronic music - feedback
+The way up and the way down [are] one and the same [...] Fire, water,
+earth are the way down, and earth, water, fire is the way up. And
+these two ways are forever being traversed in opposite directions at once.
+
+[Heraclitus]
 
 
 * Excerpts - setting the scene
 
+file:resources/K150158sm.jpeg
 
-** Anna Lowenhaupt Tsing. The Mushroom at the End of the World
+* 
+
+    key emblems decoded
+
+AS
+
+    circulations of media - parallels
+
+    within the body - blood, breath. the bodies of worms and crows
+
+    within the earth - telluric currents, groundings.
+
+    within the air - evil currents
+
+    within electronics and electronic music - circuit and circulation. feedback inside the black box
+
+* 
+
+file:resources/K068882sm.jpeg
+
+* 
+
+file:resources/K066056sm.jpeg
+
+* 
+
+file:resources/K150156sm.jpeg
+
+* 
+
+file:/root/org/images/tcb.jpg
+
+* 
+
+file:resources/harleysm.jpeg
+
+* 
+
+file:resources/ashmolesm.jpeg
+
+* Anna Lowenhaupt Tsing. The Mushroom at the End of the World
 
 We are contaminated by our encounter; they change who we are as we
 make way for others. As contamination changes world-making projects,
@@ -89,11 +144,35 @@ history of contamination; purity is not an option.
 Collaboration means working across difference, which leads to
 contamination. Without collaborations, we all die. 
 
-** Jussi Parikka
+* Jussi Parikka. The Geology of Media.
 
 There’s no information to circulate without a physics and a chemistry.
 
-** Fludd/Huffman p116 - The Second Book Containing the Mysteries of Wheat or Bread.
+* Douglas Kahn. Earth Sound. Earth Signal.
+
+file:resources/Nathan-Stubblefield-demonstration.jpg
+
+* 
+
+Telegraph and telephone signals were returned through the earth, and a
+ground meant the ground underneath people's feet; information was
+underground information. Earth currents associated with auroral
+display and storms on the sun were sensed on telegraph lines and heard
+on the telephone.
+
+* 
+
+file:resources/induc1.jpg
+
+* 
+
+file:resources/snowbatt1.jpg
+
+* 
+
+file:resources/stubbcoils.jpg
+
+* Robert Fludd. The Second Book Containing the Mysteries of Wheat or Bread.
 
 .. that is by a hyemal winter fire, with which she rotteth; & then
 with a vernal or spring firre by which it groweth & indueth his green
@@ -109,12 +188,25 @@ the bands of those four elements which did preserve that vegetable
 form until in a manner I had deprived it of quite all shape, & reduced
 the whole body unto a muddy or slimy substance ... "]
 
-** Splendor Solis plate 19
+* Splendor Solis (16c)
+
+file:resources/19ss.jpg
+
+* 
 
 This Dissolution is nothing but a killing of the moist with the dry,
-in fact a PUTREFACTION, and consequently turns the MATTER black
+in fact a PUTREFACTION, and consequently turns the MATTER black.
 
-** Aurora Consurgens (15c)
+It is a living thing, which no more dies, but when used gives an eternal increase.
+
+Let the waters above the heavens fall and the earth will yield its fruit.
+
+The Soul is extracted by Putrefaction, and when nothing more of the
+soul remains, then have you well washed the Body, that they both again
+are one.
+
+
+* Aurora Consurgens (15c)
 
 THE  FIRST  PARABLE:  OF  THE   BLACK  EARTH  WHEREIN  THE  SEVEN  PLANETS  TOOK  ROOT
 
@@ -124,26 +216,18 @@ the waters had come in even unto her, wherefore they were putrefied
 and corrupted before the face of the lower hell and the shadow of
 death, for a tempest hath overwhelmed me
 
-** Heraclitus
-
-The way up and the way down [are] one and the same [...] Fire, water,
-earth are the way down, and earth, water, fire is the way up. And
-these two ways are forever being traversed in opposite directions at once.
-
-** Splendor Solis
-
-The Soul is extracted by Putrefaction, and when nothing more of the
-soul remains, then have you well washed the Body, that they both again
-are one.
-
-** Donum Dei
+* Donum Dei (15c)
 
 The Head of the Crow is black earth and feculent in the which be
 engendered worms, whereof the one devoureth the other, for the
 corruption of the one is the generation of the other.
 
+The black clouds descendeth unto the body from whence they came out
+and there is made connection between the earth and water and is made
+ashes. The crow is black, the Dove is white, the Phoenix burneth
 
-** Ripley Putrefaction
+
+* Ripley Putrefaction (16c)
 
 This text has been modernised by Adam McLean from the 1591 edition of The Compound of Alchymy. 
 
@@ -173,395 +257,7 @@ And after enabling them unto regeneration,
 For things being in the earth, without doubt,
 Be engendered of rotation in the heavens about.
 
-And therefore as I have said before,
-Thine elements commixed and wisely coequate,
-Thou keep in temperate heat,
-Eschewing evermore that they be not incinerate by violent heat,
-To dry powder, unprofitably rubificated,
-But into powder black as a crow's bill,
-With heat of the Bath or else of our dunghill.
-
-Until the time that ninety nights be passed,
-In moist heat keep them for any thing,
-Soon after by blackness you shall espy,
-That they draw close to putrefying,
-Which after many colours you shall bring,
-With patience easily to perfect whiteness,
-And so thy seed in his nature will multiply.
-
-Make each the other then to hug and kiss,
-And like as children to play them up and down,
-And when their shirts are filled with piss,
-Then let the woman to wash be bound,
-Which often for faintness will fall in a swoon,
-And die at last with her children all,
-And go to purgatory to purge their filth original.
-
-When they be there, by little and little increase,
-Their pains with heat, aye, more and more,
-Never let the fire from them cease,
-And see that thy furnace be apt therefore,
-Which wise men call an Athanor,
-Conserving heat required most temperately,
-By which thy matter doth kindly putrefy.
-
-Of this principle speaks wise Guido,
-And sayeth "by rotting dieth the compound corporeal",
-And then after Morien and others more,
-Upriseth again regenerated, simple and spiritual,
-And were not heat and moisture continual,
-Sperm in the womb might have no abiding,
-And so there should be no fruit thereof upspring.
-
-Therefore at the beginning our stone thou take,
-And bury each one in other within their grave,
-Then equally between them a marriage make,
-To lie together six weeks let them have their seed conceived,
-Kindly to nourish and save,
-From the ground of their grave not rising that while,
-Which secret point doth many a one beguile.
-
-This time of conception with easy heat abide,
-The blackness showing shall tell you when they die,
-For they together like liquid pitch that tide,
-Shall swell and bubble, settle and putrefy,
-Shining colours therein you shall espy,
-Like to the rainbow marvellous to sight,
-The Water then beginneth to dry upright.
-
-For in moist bodies, heat working temperate,
-Engenders blackness first of all,
-Which is the assigned token of kindly Conjunction,
-And of true Putrefaction: remember this,
-For then perfectly to alter thou can not miss,
-And thus by the gate of blackness thou must come in,
-To light of Paradise in whiteness if you wilt win.
-
-For first the Sun in his uprising shall be obscured,
-And pass the waters of Noah's flood on earth,
-Which was continued a hundred and fifty days,
-Ere this water went away,
-Right so our waters shall pass (as wise men understood),
-That you with David shall say,
-"Abierunt in sicco flumina" : bear this away.
-
-Soon after that Noah planted his vineyard,
-Which royally flourished and brought forth grapes,
-After which space you shall not be afraid,
-For it likewise shall follow the nourishing of our stone,
-And soon after that 30 days be gone,
-You shall have grapes right as ruby red,
-Which is our Adrop, our Ucifer, and our red lead.
-
-For like as souls after pains transitory,
-Be brought to Paradise, which ever is joyful life,
-So shall our stone after his darkness in Purgatory be purged,
-And joined in Elements without strife,
-Rejoice the whiteness and beauty of his wife,
-And pass from darkness of purgatory to light of Paradise,
-In whiteness Elixir of great might.
-
-And that you may the rather to putrefaction win,
-This example take you for a true conclusion,
-For all the secret of Putrefaction rests therein,
-The heart of oak that hath of water continual infusion,
-Will not soon putrefy, I tell you without delusion,
-For though it lay in water a hundred years and more,
-Yet should you find it sound as ere it was before.
-
-But if you keep it sometimes wet and sometimes dry,
-As thou may see in timber by usual experiment,
-By process of time that oak shall utterly putrefy,
-And so likewise according to our intent,
-Sometimes our tree must with the Sun be burnt,
-And then with water we must make it cool,
-That by this means to rotting we may bring it well.
-
-For now in wet, and now again in dry,
-And now in heat, and now again to be in cold,
-Shall cause it soon to putrefy,
-And so shall thou bring to rotting your gold,
-Treat thy bodies as I have thee told,
-And in thy putrefying with heat be not too swift,
-Lest in the ashes thou seek after your thrift.
-
-Therefore your water you draw out of the earth,
-And make the soul therewith to ascend,
-Then down again into the earth it throw,
-That they oftentimes so ascend and descend,
-From violent heat and sudden cold descend your glass,
-And make your fire so temperate,
-That by the sides the matter be not vitrified.
-
-And be you wise in choosing of the matter,
-Meddle with no salts, sulphurs nor mean minerals,
-For whatsoever any worker to thee does clatter,
-Our Sulphur and Mercury be only in metals,
-Which some men call oils and waters,
-Fowls and bird, with many other names,
-So that fools should never know our stone.
-
-For of this world our stone is called the ferment,
-Which moved by craft as nature does require,
-In his increase shall be full opulent,
-And multiply his kind after thine own desire,
-Therefore is God vouchsafe you to inspire,
-To know the truth, and fancies to eschew,
-Like unto you in riches shall be but few.
-
-But many men be moved to work after their fantasy,
-In many subjects in which be tinctures gay,
-Both white and red divided manually to sight,
-But in the fire they fly away,
-Such break pots and glasses day by day,
-Poisoning themselves and losing their sight,
-With odours, smokes, and watching up by nights.
-
-Their clothes be bawdy and worn threadbare,
-Men may them smell for multipliers where they go,
-To file their fingers with corrosives they do not spare,
-Their eyes be bleary, their cheeks lean and blue,
-And thus I know they suffer loss and woe,
-And such when they have lost that was in their purse,
-Then do they chide, and Philosophers sore do curse.
-
-To see their houses is a noble sport,
-What furnaces, what glasses there be of diverse shapes,
-What salts, what powders, what oils, or acids,
-How eloquently of Materia Prima their tongues do clap,
-And yet to find the truth they have no hope,
-Of our Mercury they meddle and of our sulphur vive,
-Whereon they dote, and more and more unthrive.
-
-For all the while they have Philosophers been,
-Yet could they never know what was our Stone,
-Some sought it in dung, in urine, some in wine,
-Some in star slime (some thing it is but one),
-In blood and eggs : some till their thrift was gone,
-Dividing elements, and breaking many a pot,
-Shards multiplying, but yet they hit it not.
-
-They talk of the red man and of his white wife,
-That is a special thing, and of the Elixirs two,
-Of the Quintessence, and of the Elixir of life,
-Of honey, Celidonie, and of Secondines also,
-These they divide into Elements, with others more,
-No multipliers, but will they be called Philosophers,
-Which natural Philosophy did never read or see.
-
-This fellowship knows our Stone right well,
-They think them richer than is the King,
-They will him help, he shall not fail,
-To win for France a wondrous thing,
-The holy Cross home will they bring,
-And if the King were taken prisoner,
-Right soon his ransom would they make.
-
-A marvel it is that Westminster Kirk,
-Which these Philosophers do much haunt,
-Since they can so much riches work,
-As they make boast of and avaunt,
-Drinking daily at the wine due taunt,
-Is not made up perfectly at once,
-For truly it lacketh yet many stones.
-
-Fools do follow them at their tail,
-Promoted to riches wishing to be,
-But will you hear what worship and avail,
-They win in London that noble city ?
-With silver maces (as you may see),
-Sargents awaiteth on them each hour,
-So be they men of great honour.
-
-Sargents seek them from street to street,
-Merchants and Goldsmiths lay after them to watch,
-That well is him that with them may meet,
-For the great advantage that they do catch,
-They hunt about as does a dog,
-Expecting to win so great treasure,
-That ever in riches they shall endure.
-
-Some would catch their goods again,
-And some more good would adventure,
-Some for to have would be full fain,
-Of ten pounds one, I you ensure,
-Some which have lent their goods without measure,
-And are with poverty clad,
-To catch a noble, would be full glad.
-
-But when the Sargents do them arrest,
-Their pockets be stuffed with Paris balls,
-Or with signets of St Martin's at the least,
-But as for money it is pissed against the walls,
-Then they be led (as well for them befalls),
-To Newgate or Ludgate as I you tell,
-Because they shall in safeguard dwell.
-
-Where is my money become, saith one ?
-And where is mine, saith he and he ?
-But will you hear how subtle they be anon,
-In answering that they excused be,
-Saying of our Elixirs we were robbed,
-Else might we have paid you all your gold,
-Though it had been more by ten-fold.
-
-And then their creditors they flatter so,
-Promising to work for them again,
-In right short space the two Elixirs,
-Doting the Merchants that they be fain,
-To let them go, but ever in vain,
-They work so long, till at the last,
-They be again in prison cast.
-
-If any them ask why they be not rich ?
-They say that they can make fine gold of tin,
-But he (say they) may surely swim the ditch,
-Which is upholded by the chin,
-We have no stock, therefore may we not win,
-Which if we had, we would soon work enough,
-To finish up Westminster Kirk.
-
-And some of them be so devout,
-They will not dwell out of that place,
-For they may without doubt,
-Do what them list to their solace,
-The Archdeacon is so full of grace,
-That if they bless him with their cross,
-He forceth little of other mens loss.
-
-And when they there sit at the wine,
-These monks they say have many a pound,
-Would God (saith one) have some were mine,
-Yet care away, let the cup go round,
-Drink on saith another, the mean is found,
-I am a master of that Art,
-I warrant us we shall have part
-
-Such causes Monks evil to do,
-To waste their wages through their dotage,
-Some bringeth a mazer, and some a spoon,
-Their Philosophers gives them such comage,
-Behighting them winning with domage,
-A pound for a penny at the least again,
-And so fair promises make fools fain.
-
-A Royal medicine one upon twelve,
-They promise them thereof to have,
-Which they could never for themselves,
-Yet bring about, so God me save,
-Beware such Philosophers no man deprave,
-Which help these Monks to riches so,
-In threadbare coats that they must go.
-
-The Abbot ought well to cherish this company,
-For they can teach his Monks to live in poverty,
-And to go clothed and monied religiously,
-As did Saint Bennet, eschewing superfluity,
-Easing them also of the ponderosity of their purses,
-With pounds so aggravated,
-Which by Philosophy be now alleviated.
-
-Lo who meddles with this rich company,
-Great boast of their winning they may make,
-For they shall reap as much by their Philosophy,
-As they of the tail of an ape can take,
-Beware therefore for Jesus' sake,
-And meddle with nothing of great cost,
-For if thou do, it is but lost.
-
-These Philosophers (of which I spoke before),
-Meddle and blunder with many a thing,
-Running in errors ever more and more,
-For lack of true understanding,
-But like must always bring forth like,
-So hath God ordained in every kind,
-Would Jesus they would bear this is mind.
-
-They expect of a Nettle to have a Rose,
-Or of an Elder to have an apple sweet,
-Alas, that wisemen their goods should lose,
-Trusting such doctrines when they them meet,
-Which say our Stone is trodden under foot,
-And makes them vile things to distil,
-Till all their houses with stench they fill.
-
-Some of them never learned a word in Schools,
-Should such by reason understand Philosophy ?
-Be they Philosophers ? Nay, they be fools.
-For their works prove them without wit,
-Meddle not with them, if you would be happy,
-Lest with their flattery they so thee till,
-That you agree unto their will.
-
-Spend not thy money away in waste,
-Give not to every spirit credence,
-But first examine, grope and taste,
-And as thou provest, so put your confidence,
-But ever beware of great expense,
-And if the Philosopher do live virtuously,
-The better you may trust his Philosophy.
-
-Prove him first, and him appose,
-Of all the secrets of our Stone,
-Which if he know not, you need not to lose,
-Meddle you no further, but let him be gone,
-Though he make ever so piteous a moan,
-For then the Fox can fagg and faine,
-When he would to his prey attain.
-
-If he can answer as a Clerk,
-How he has not proved it indeed,
-And you then help him to his work,
-If he be virtuous I hold it merited,
-For he will thee quite if ever he speeds,
-And thou shalt know by a little anon,
-If he have knowledge of our Stone.
-
-One thing, one glass, one furnace, and no more,
-Behold if he does hold this principle,
-And if he do not, then let him go,
-For he shall never make thee a rich man,
-Timely it is better you forsake him,
-Than after with loss and variance,
-And other manner of unpleasance.
-
-But if God fortune you to have,
-This Science by doctrine which I have told,
-Reveal it not to whosoever it craves,
-For favour, fear, silver or gold.
-Be no oppressor, lecher not boaster bold,
-Serve thy God and help among the poor,
-If you wish this life to continue long.
-
-Unto thyself your secrets ever keep,
-From sinners, who have not God in dread,
-But will cast you in prison deep,
-Till you teach them to do it indeed,
-Then slander on you shall spring and spread,
-That you do coin then will they say,
-And so undo you for ever and aye.
-
-And if you teach them this cunning,
-Their sinful living for to maintain,
-In hell therefore shall be your winning,
-For God will take disdain of you and them,
-As thou nought could therefore you faine,
-That body and soul you may both save,
-And here in peace to have your living.
-
-Now in this Chapter I have taught you,
-How you must putrefy your body,
-And so to guide you that you be not caught,
-And put to durance loss and villany
-My doctrine therefore remember wisely,
-And pass forth towards the sixth gate,
-For thus the fifth is triumphate.
-
-The end of the Fifth Gate
-
-
-
-** Earth circulations
+* Earth circulations
 
 The circulatory system of an earth addiction encompassing extraction
 (of precious metals, of radioactive minerals), transport (along old
@@ -570,11 +266,11 @@ energies, materialities and earth-bound pharmaceutical products) and
 return or excretion (traces of isotopes and pollution elements in the
 body).
 
-** from pharmacy event/fludd
+* The air
 
-resources/invasionsm.jpg
+file:resources/invasionsm.jpg
 
-*** 
+* 
 
 No more fruit, no more trees, no more vegetables, no more plants
 pharmaceutical or otherwise and consequently no more food, but
@@ -594,153 +290,73 @@ through the mouth and the open pores.
 
 Guarded by four angels, the body becoming earth is concerned with its
 proper health as its property, rather than that of its improper
-parasites; a modern morality play of pneumatic, breath-borne or skin
-un-cleansed bacteria (beyond good and evil, a further taxonomy of
-ancient breaths and atoms). A partic-ular pharmakon prompts action
-against other decidedly out-of-control entities pursuing or making
-happen an unconscious, deep sea set and tabled processes against death
-(of their own) or otherwise; breathing and thus speaking out against
-all planetary and algorithmic parasites.
+parasites.
 
 What could it then mean to talk about the health of an earth or
-planet, its body and property and with reference to which atmospheric
-border, which morals and politics of a landing stage? The earth as a
-fortress, for either catalogued inhabitants named as bacteria, or for
-deathless macro-parasites, morphs into a robot-tended forest
-green-house adrift in that exterior space. Another planet is to be
-prepared for fit habitation, for a future garden of delights, leaving
-behind a toxic landscape which has become simply too elemental,
-crossing an entropic boundary but in which direction. A truly modern
+planet, its body and properties?
+
 Fludd was correct in shaming the elements as evil agents in disease;
 monocultures of gold, iron and oxygen binding to cyanide, unable to
 sustain any form of life. Monocultures of wheat are set out on that
 outside drifting landscape. How does a toxic site appear, what could a
-poisonous or poisoned geology be?
+poisonous or poisoned geology be? (Chernobyl ref)
 
-As is the case with all fortress, castle and boundary conditions (the
-earth as a container and always interior), expressed within Edgar
-Allen Poe's The Masque of the Red Death, the real and only threat to
-any health has always been inside the castle, body or planet. The
-plague and pestilence has always already entered, from the very
-beginning unobserved and masqueraded, retreating from an infested
-atmosphere, enjoying any feast, and yet always disguised as
-death. Here we learn that it is the superposition of language on both
-earth and body, as timely virus and as a clocking border control,
-which renders both of these sites toxic to all life.
+* Robert Fludd. 
 
-** Fludd circulation:
-
-Fludd: it endeavor[s] to arise anew, and it hastens through the
+it endeavor[s] to arise anew, and it hastens through the
 branches of the aorta to the South, that is the liver, and North or
 the spleen.
 
-the incorruptible spirit ... sendeth his beames of life ouer all the
+... the incorruptible spirit ... sendeth his beames of life ouer all the
 whole frame of man, to illuminate, give life, and circular motion vnto
 his spirit.
 
-circulation: the sun impresses on the wind a circular motion, breathed
+... the sun impresses on the wind a circular motion, breathed
 in, and reaching the heart, is carried around the body in circulation
 
-* Circulation and corruption in electronics and electronic music (production)
+* 
 
-All circuits are circulations. All circuits take part in earth/ed circulations.
+file:resources/Donum_Dei_Sloane_2560_8.jpg
 
-Short circuit. Grounded. Open circuit. Open loop. Closed loop.
+* 
 
-What is a circuit/circulation? For example, how is it described...
+file:resources/Donum_Dei_Sloane_2560_7.jpg
 
-resources/blasser1.gif
+* 
 
-*** 
+file:resources/Donum_Dei_Sloane_2560_6.jpg
 
-resources/blasser2.png
+* 
 
-** (negative) feedback in electronics
+file:resources/Donum_Dei_Sloane_2560_5.jpg
 
-resources/feedback.png
+* 
 
-Paul Voigt patented a negative feedback amplifier in January 1924,
-though his theory lacked detail. Harold Stephen Black independently
-invented the negative-feedback amplifier while he was a passenger on
-the Lackawanna Ferry (from Hoboken Terminal to Manhattan) on his way
-to work at Bell Laboratories (located in Manhattan instead of New
-Jersey in 1927) on August 2, 1927. 
-
-Black was working on reducing distortion in repeater
-amplifiers used for telephone transmission. On a blank space in his
-copy of The New York Times, he recorded the diagram found in Figure
-1 and the equations derived below. On August 8, 1928, Black
-submitted his invention to the U. S. Patent Office, which took more
-than 9 years to issue the patent. Black later wrote: "One reason for
-the delay was that the concept was so contrary to established beliefs
-that the Patent Office initially did not believe it would work."
-
-My own ouroboros.
-
-*** operational amplifiers
-
-resources/feedback.jpg
-
-*** 
-
-resources/die-blocks.png
-
-*** 555/timer insides
-
-Inside a black box all is circulation. Productions of integrated circuits.
-
-resources/bare555sm.png
-
-** parallel toad and ground in electronics - transistor feedback diagrams
-
-resources/Eaglesm.jpg
-
-*** 
-
-resources/emitter.jpg
-
-** Common electronic audio circuits - oscillation, filters
-
-*** oscillation is feedback
-
-**** positive feedback
-
-resources/osc4.gif
-
-Positive feedback must occur only at one frequency, the required frequency
-of oscillation. This may be achieved by ensuring that only signals of
-the required frequency are fed back, or by ensuring the feedback
-signal is in the correct phase at only one frequency.
-
-**** flip flop/switching up and down
-
-resources/multivibrator2.png
-
-*** feedback in filters
-
-resources/tiefpass.png
-
-**** 
-
-resources/vcsfilter.jpg
+file:resources/Donum_Dei_Sloane_2560_4.jpg
 
 * My own works which deal with circulations
 
-** earthcomputer
+* earthcomputer
 
-resources/images/ec001.jpg
+file:/root/org/images/ec001.jpg
 
-** earthboot
+* earthboot
 
-resources/images/ebsm2.jpg
+file:/root/org/images/ebsm2.jpg
 
-resources/images/earthcrash.png
+* 
 
-: resources/earthboot.mp4
+file:/root/org/images/earthcrash.png
 
-** worms.txt
+* 
 
-/root/org/images/worms000_sm.jpg
+Earthboot video: https://vimeo.com/38842564
+
+* worms.txt
+
+file:/root/org/images/worms000_sm.jpg
+
+* 
 
 Serpent Lucifer, how do you do?
 
@@ -763,9 +379,10 @@ which correspond to the worm's activity and movement allow the worms
 to writhe and wriggle through a French language probability table to
 actively steer the generation of this piece of writing; worms.txt.
 
-** mycelium works 
+* mycelium works 
 
-/root/org/images/mra000.jpg
+file:/root/org/images/mra000.jpg
+* 
 
 Symbiotic ur-networks of silent fungal and root chatter and earth
 vibration, named chemical gradients tasted by rooty and human tongues
@@ -773,27 +390,121 @@ fruit forest-wide in fairy rings, rising up in form and outgrowing
 Jodrell bank and Arecibo, outclassing them unknown in bringing down
 the stars to earth.
 
-** dissolutions and Test Execution Host TEH
+* 
 
-/root/org/images/dissmodsmallerl.png
+file:resources/myc_sm2.jpg
 
-*** 
+* 
 
-/root/org/images/FFF08706.JPG
+file:resources/myc_sm1.jpg
 
-** SR in Messene/heatsick
+* Dissolutions and Test Execution Host TEH
 
-/root/org/images/ebmessene2.png
+file:/root/org/images/dissmodsmallerl.png
 
-** Eurorack modules
+* 
 
-/root/org/images/vamp001small.jpeg
+file:/root/org/images/FFF08706.JPG
+
+* SR in Messene/heatsick
+
+file:/root/org/images/ebmessene2.png
+
+* Eurorack modules
+
+file:/root/org/images/vamp001small.jpeg
+
+* Circulation and corruption in electronics and electronic music (production)
+
+All circuits are circulations. All circuits take part in earth/ed circulations.
+
+Short circuit. Grounded. Open circuit. Open loop. Closed loop.
+
+What is a circuit/circulation? For example, how is it described...
+
+file:resources/blasser1.gif
+
+* 
+
+file:resources/blasser2.png
+
+* (negative) feedback in electronics
+
+file:resources/feedback.png
+
+Paul Voigt patented a negative feedback amplifier in January 1924,
+though his theory lacked detail. Harold Stephen Black independently
+invented the negative-feedback amplifier while he was a passenger on
+the Lackawanna Ferry (from Hoboken Terminal to Manhattan) on his way
+to work at Bell Laboratories (located in Manhattan instead of New
+Jersey in 1927) on August 2, 1927. 
+
+Black was working on reducing distortion in repeater
+amplifiers used for telephone transmission. On a blank space in his
+copy of The New York Times, he recorded the diagram found in Figure
+1 and the equations derived below. On August 8, 1928, Black
+submitted his invention to the U. S. Patent Office, which took more
+than 9 years to issue the patent. Black later wrote: "One reason for
+the delay was that the concept was so contrary to established beliefs
+that the Patent Office initially did not believe it would work."
+
+My own ouroboros.
+
+* operational amplifiers
+
+file:resources/feedback.jpg
+
+* 
+
+file:resources/die-blocks.png
+
+* 555/timer insides
+
+Inside a black box all is circulation. Productions of integrated circuits.
+
+file:resources/bare555sm.png
+
+* parallel toad and ground in electronics - transistor feedback diagrams
+
+file:resources/Eaglesm.jpg
+
+A serpent and a toad coming up above the earth (literally 'stepping
+up above,') is our Magistery.
+
+* 
+
+file:resources/emitter.jpg
+
+* Common electronic audio circuits - oscillation, filters
+
+* oscillation is feedback
+
+* positive feedback
+
+file:resources/osc4.gif
+
+Positive feedback must occur only at one frequency, the required frequency
+of oscillation. This may be achieved by ensuring that only signals of
+the required frequency are fed back, or by ensuring the feedback
+signal is in the correct phase at only one frequency.
+
+* flip flop/switching up and down
+
+file:resources/multivibrator2.png
+
+* feedback in filters
+
+file:resources/tiefpass.png
+
+* 
+
+file:resources/vcsfilter.jpg
 
 * Schedule
 
 ** open circuits within each of these environments? during/before each activity
 
-detektor, simple myc radio, ouroboric/multivibrator
+detektor, simple mycelial radio transmitter, optional ouroboros/oscillator
 
 ** techniques 
 
@@ -803,25 +514,31 @@ etch, glass stacked for earth and bread, circuits for moulds in and on dishes, f
 
 ** atmospheres - smoke and particles, electromagnetic walk
 
-detektor build, smoke and laser, em signal capture and recordings/notes
+smoke substance mix, detektor build, smoke and laser, signal capture
+and recordings/notes = plug in plants, earth, trees, collecting
+different earths for mycelium mix
 
-** myc, moulds, fermentations?
+** lunch
 
-start to boil potatoes, mycelium radio demo, prepare cultures, prepare smoke mix, bread mix, myc radio circuit
+** myc, moulds
+
+start to boil potatoes, prepare cultures, bread mix, mycelium radio demo, cultures for rye/ergot, myc radio circuit and tests
 
 ** bodies - crows and bread
 
-multi/ouroboric, start baking in the earth, cultures for rye/ergot
+multi/ouroboric, start baking in the earth
 
-** earth - telluric currents and signals in the earth or day two
+** day two
+
+** earth - telluric currents and signals in the earth
 
 measure earth current, capacitors, earth signals listened to, earth battery and comms, worms and wormvoice
 
-** day two - working in 3 groups on construction and placement of circulation/corruptions
+** working in 3 groups on construction and placement of circulation/corruptions
 
 * Technical
 
-** potato dextrose agar 
+* potato dextrose agar 
 
 Medium 129: POTATO DEXTROSE AGAR 
 
@@ -833,35 +550,40 @@ Potato infusion:
 Boil 200 g scrubbed and sliced potatoes in 1000 ml water for 1 hour. Pass through fine sieve. Avoid
 new potatoes.
 
+* 2n3904 - EBC
 
-** transistor pinouts
+file:resources/2n3904.gif
 
-*** 2n3904 - EBC
+* BC547 - CBE
 
-resources/2n3904.gif
+file:resources/bc547.jpeg
 
-*** BC547 - CBE
+* detektor circuit
 
-resources/bc547.jpeg
+file:resources/elektoreng1cl.jpeg
 
-** detektor circuit
+* radio mycelium circuit
 
-resources/elektoreng1cl.jpeg
+file:resources/scrschem.JPG
 
-** radio mycelium circuit
+* multivibrator
 
-resources/scrschem.JPG
+file:resources/multivibrator2.png
 
-** multivibrator
+* ouroboros
 
-resources/multivibrator2.png
+file:resources/ouroborosm.jpeg
 
-** ouroboros
-
-resources/ouroborosm.jpeg
-
-** smoke
+* smoke
 
 Measure out 30 grams of Potassium Nitrate and 20 grams of Sugar into a
 small cup. 30 grams of Potassium Nitrate and 20 grams of Sugar is a
 60% / 40% mixture.
+
+* cameo
+
+- Make sure all of your shapes are with NO FILL, NO STROKE – just paths!
+
+* emacs
+
+: M-x widen

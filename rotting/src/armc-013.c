@@ -45,6 +45,7 @@ void kernel_main( unsigned int r0, unsigned int r1, unsigned int atags )
   //    RPI_GetGpio()->LED_GPFSEL |= LED_GPFBIT;
 
     gpio[LED_GPFSEL] |= ( 1 << LED_GPFBIT );
+    gpio[ALED_GPFSEL] |= ( 1 << ALED_GPFBIT );
 
     // set up pin for input - clear bit
     gpio[IN_GPFSEL] &= ~(1 << IN_GPFBIT);
@@ -108,8 +109,18 @@ void kernel_main( unsigned int r0, unsigned int r1, unsigned int atags )
       RPI_WaitMicroSeconds(2500);
       //      if ((gpio[GPIO_GPEDS0]&(1<<IN_GPRENBIT))==(1<<IN_GPRENBIT)) LED_ON(); // this works as long as interrupt is not too fast
       //      else LED_OFF();
-      if ((gpio[GPIO_GPEDS0]&(1<<IN_GPRENBIT))==(1<<IN_GPRENBIT)) memory[ourcounter++]=1;
-      else memory[ourcounter++]=0;
+
+      if ((gpio[GPIO_GPEDS0]&(1<<IN_GPRENBIT))==(1<<IN_GPRENBIT)) {
+	memory[ourcounter++]=1;
+	ALED_ON();
+      }
+      else
+	{
+	memory[ourcounter++]=0;
+	ALED_OFF();
+	}
+
+
       if (ourcounter&0x100000) ourcounter=0;
 
       

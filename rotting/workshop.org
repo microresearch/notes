@@ -158,7 +158,11 @@ detektor, ouroboric, simple myc radio, 555 or open 555, multivibrator
 - portable/battery powered speaker, minijack to minijack (3.5mm) stereo cables (x6)
 - for building stuff: soldering irons/stations, craft knives, scissors, sellotape
 - mycelium, approx A4 size plastic trays, plastic gloves, ziplock bags, silver foil and some kind cylinder/wax paper for caps
-- 1kg organic rye flour, 1kg organic rye grain, 500g-1kg sugar
+
+- 1kg organic rye flour, 1kg organic rye grain, 
+
+500g-1kg sugar
+
 - small bag of charcoal
 - for moulds: agar agar (15g), 200g potatoes, 20g glucose
 
