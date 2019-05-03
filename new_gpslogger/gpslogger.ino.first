@@ -1,0 +1,62 @@
+/*
+
+Log peak power in 1s period AD8313, coil and bare antenna, average
+power of these, FGM3 difference in freq (or we use flip flop so just one count)
+
+and log with 1 second GPS position!
+
+- First tests: test sd shield logs (serial out too), test gps with ublox 8 (software serial!)
+
+// REFS:
+
+GPS: https://www.reichelt.de/gnss-gps-engine-module-u-blox-8-ttl-navilock-62571-p152514.html? 
+
+
+ */
+
+#include <Wire.h>
+#include <SdFat.h>
+
+#define LED 7 // pin 7 controls LED
+
+char filename[15] = "log.csv";
+int SDcsPin = 4; // pin 4 is CS pin for seeed sd shield
+SdFat sd; 		// declare object for SdFat class
+SdFile file; // declare object for SdFile class
+
+void setup() {
+
+  pinMode(LED, OUTPUT);
+  pinMode(SDcsPin, OUTPUT);
+
+  Serial.begin(9600);
+  Serial.println("Test:");
+ 
+  if(!sd.init(SPI_FULL_SPEED, SDcsPin))  // initialize SD card on the SPI bus - very important - was HALF_SPEED
+  {
+    delay(10);
+    //    SDcardError();
+  Serial.println("SDerror");
+  }
+  else
+  {
+    // we want to create a new file for each one - maybe with date from GPS?
+    
+    delay(10);
+    file.open(filename, O_CREAT | O_WRITE);  // open file in write mode 
+    delay(1);
+    file.println();
+    file.print("Date/Time,Temp(C)");    // Print header to file
+    file.println();
+
+    digitalWrite(LED, HIGH);
+    delay(10);
+    digitalWrite(LED, LOW);
+}
+  
+}
+
+void loop() {
+
+    file.close();    // close file - very important
+}
