@@ -4,7 +4,21 @@ https://github.com/markfickett/gpslogger/blob/master/gpslogger.ino
 
 https://github.com/mikalhart/TinyGPS
 
-TODO: to test/fixed up for our GPS/ SD pins
+TODO: to test/fixed up for our GPS/ SD pins, sd write works, test later with new GPS
+
+FINAL:
+
+Log peak power in 1s period AD8313, coil and bare antenna, average
+power of these, FGM3 difference in freq (or we use flip flop so just one count)
+
+and log with 1 second GPS position!
+
+- First tests: test sd shield logs (serial out too), test gps with ublox 8 (software serial!)
+
+// REFS:
+
+GPS: https://www.reichelt.de/gnss-gps-engine-module-u-blox-8-ttl-navilock-62571-p152514.html? 
+
 
  */
 
@@ -166,6 +180,20 @@ static void startFilesOnSdNoSync() {
   */
 }
 
+static void testopenSDfile(SdFile &file) {
+  sprintf(
+      buf,
+      "testfile");
+  Serial.print(F("Starting file "));
+  Serial.println(buf);
+  if (sd.exists(buf)) {
+    Serial.println(F("warning: already exists, overwriting."));
+  }
+  if (!file.open(buf, O_CREAT | O_WRITE)) {
+    sd.errorHalt();
+  }
+}
+
 static void openTimestampedFile(const char *shortSuffix, SdFile &file) {
   sprintf(
       buf,
@@ -205,6 +233,19 @@ static void writeFormattedSampleDatetime(SdFile &file) {
       sample.second,
       sample.hundredths);
   file.print(buf);
+}
+
+static void testwritesd(){
+  sample.lat_deg=98.012f;
+  gpxFile.print(F("lat=\""));
+  writeFloat(sample.lat_deg, gpxFile, LATLON_PREC);
+  gpxFile.print(F("\n"));
+
+  //    digitalWrite(PIN_STATUS_LED, HIGH);
+    if (!gpxFile.sync() || gpxFile.getWriteError()) {
+      Serial.println(F("SD sync/write error."));
+    }
+    //    digitalWrite(PIN_STATUS_LED, LOW);
 }
 
 static void writeGpxSampleToSd() {
@@ -293,16 +334,22 @@ void setup() {
   Serial.begin(115200);
   setUpSd();
   //  resetGpsConfig();
-  getFirstGpsSample();
-  startFilesOnSdNoSync();
+  //  getFirstGpsSample();
+  //  startFilesOnSdNoSync();
+  testopenSDfile(gpxFile);
   digitalWrite(PIN_STATUS_LED, LOW);
 }
 
 void loop() {
-  readFromGpsUntilSampleTime();
+  /*  readFromGpsUntilSampleTime();
   fillGpsSample(gps);
   if (sample.fix_age_ms <= SAMPLE_INTERVAL_MS) {
-    // TODO: Write whenever there is new data (trust GPS is set at 1Hz).
     writeGpxSampleToSd();
-  }
+    }*/
+  digitalWrite(PIN_STATUS_LED, HIGH);
+  testwritesd();
+  delay(1000);
+  digitalWrite(PIN_STATUS_LED, LOW);
+  // say 2 second sampling 8313, antenna, FGM then gps read, write sd, then reset FGM counters!
+
 }
