@@ -1,8 +1,10 @@
-/**
+/*
 
 https://github.com/markfickett/gpslogger/blob/master/gpslogger.ino
 
 https://github.com/mikalhart/TinyGPS
+
+or neogps library....
 
 TODO: to test/fixed up for our GPS/ SD pins, sd write works, test later with new GPS
 
@@ -13,12 +15,21 @@ power of these, FGM3 difference in freq (or we use flip flop so just one count)
 
 and log with 1 second GPS position!
 
-- First tests: test sd shield logs (serial out too), test gps with ublox 8 (software serial!)
+- First tests: test sd shield logs (serial out too)DONE, test gps with ublox 8 (software serial), now with NEO-6M
+
+loop: sample for 2 seconds, write SD for last location GPS fixed to! CHECK FGM stuff how we sample that...
+
+OR:
+
+wait for GPS, then do all our averages, reset and write to SD!
+
+rx to gps 2, tx 3
 
 // REFS:
 
 GPS: https://www.reichelt.de/gnss-gps-engine-module-u-blox-8-ttl-navilock-62571-p152514.html? 
 
+new gps from ebay is: NEO-6M GY-GPS6MV2 
 
  */
 
@@ -34,7 +45,7 @@ GPS: https://www.reichelt.de/gnss-gps-engine-module-u-blox-8-ttl-navilock-62571-
 #define PIN_TX_TO_GPS 3
 #define PIN_SD_CHIP_SELECT 4
 
-#define DEFAULT_GPS_BAUD 9600 // what is baud of ours? should be 9600
+#define DEFAULT_GPS_BAUD 9600 // what is baud of ours? should be 9600 - new gps is also 9600
 #define GPS_BAUD 9600
 
 // Seek to fileSize + this position before writing track points.
@@ -297,6 +308,14 @@ static void writeGpxSampleToSd() {
 
 */
 
+  //  gpxFile.print(F("lat=\""));
+  writeFloat(sample.lat_deg, gpxFile, LATLON_PREC);
+  gpxFile.print(F(", "));
+  writeFloat(sample.lon_deg, gpxFile, LATLON_PREC);
+  gpxFile.print(F(", "));
+  writeFormattedSampleDatetime(gpxFile);
+
+  
   digitalWrite(PIN_STATUS_LED, HIGH);
   if (!gpxFile.sync() || gpxFile.getWriteError()) {
     Serial.println(F("SD sync/write error."));
@@ -334,8 +353,8 @@ void setup() {
   Serial.begin(115200);
   setUpSd();
   //  resetGpsConfig();
-  //  getFirstGpsSample();
-  //  startFilesOnSdNoSync();
+    getFirstGpsSample();
+  //  startFilesOnSdNoSync(); // TODO!
   testopenSDfile(gpxFile);
   digitalWrite(PIN_STATUS_LED, LOW);
 }
@@ -347,7 +366,9 @@ void loop() {
     writeGpxSampleToSd();
     }*/
   digitalWrite(PIN_STATUS_LED, HIGH);
-  testwritesd();
+  //  testwritesd();
+  readFromGpsSerial();
+  writeGpxSampleToSd();
   delay(1000);
   digitalWrite(PIN_STATUS_LED, LOW);
   // say 2 second sampling 8313, antenna, FGM then gps read, write sd, then reset FGM counters!
