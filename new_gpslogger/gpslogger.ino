@@ -6,7 +6,9 @@ https://github.com/mikalhart/TinyGPS
 
 or neogps library....
 
-TODO: to test/fixed up for our GPS/ SD pins, sd write works, test later with new GPS
+TODO: to test/fixed up for our GPS/ SD pins, sd write worksDONE, test
+later with new GPS-DONE, new library to try=neogps, not accurate so
+test outside TODO
 
 FINAL:
 
@@ -23,13 +25,13 @@ OR:
 
 wait for GPS, then do all our averages, reset and write to SD!
 
-rx to gps 2, tx 3
-
 // REFS:
 
 GPS: https://www.reichelt.de/gnss-gps-engine-module-u-blox-8-ttl-navilock-62571-p152514.html? 
 
 new gps from ebay is: NEO-6M GY-GPS6MV2 
+
+neogps library: https://github.com/SlashDevin/NeoGPS
 
  */
 
@@ -41,8 +43,8 @@ new gps from ebay is: NEO-6M GY-GPS6MV2
 
 #define PIN_STATUS_LED 13
 
-#define PIN_RX_FROM_GPS 2
-#define PIN_TX_TO_GPS 3
+#define PIN_RX_FROM_GPS 5 // THIs is TX on board
+#define PIN_TX_TO_GPS 3 // ignore this one
 #define PIN_SD_CHIP_SELECT 4
 
 #define DEFAULT_GPS_BAUD 9600 // what is baud of ours? should be 9600 - new gps is also 9600
@@ -134,7 +136,7 @@ void resetGpsConfig() {
 }
 
 void getFirstGpsSample() {
-  nss.begin(GPS_BAUD);
+    nss.begin(GPS_BAUD);
 
   while (true) {
     readFromGpsUntilSampleTime();
@@ -160,7 +162,11 @@ static void readFromGpsUntilSampleTime() {
 
 static bool readFromGpsSerial() {
   while (nss.available()) {
-    gps.encode(nss.read());
+    //gps.encode(nss.read());
+
+    char c = nss.read();
+    Serial.write(c);
+    gps.encode(c);
   }
 }
 
@@ -314,7 +320,9 @@ static void writeGpxSampleToSd() {
   writeFloat(sample.lon_deg, gpxFile, LATLON_PREC);
   gpxFile.print(F(", "));
   writeFormattedSampleDatetime(gpxFile);
+  gpxFile.print(F("\n"));
 
+  Serial.println(F("writing"));
   
   digitalWrite(PIN_STATUS_LED, HIGH);
   if (!gpxFile.sync() || gpxFile.getWriteError()) {
@@ -354,8 +362,8 @@ void setup() {
   setUpSd();
   //  resetGpsConfig();
     getFirstGpsSample();
-  //  startFilesOnSdNoSync(); // TODO!
-  testopenSDfile(gpxFile);
+    startFilesOnSdNoSync(); // TODO!
+    //  testopenSDfile(gpxFile);
   digitalWrite(PIN_STATUS_LED, LOW);
 }
 
