@@ -1,0 +1,35 @@
+* micro/avr golden rules
+
+- if porting or if code works on arduino remember that arduino makefile/ide sets up timers AND sei() - also tpo set certain pins and in or out
+- if it behaves oddly is a memory issue - check what other files are being compiled
+  
+* 4/6
+
+- AC: OCR1 (9 on arduino) is for slow pulses (decide on divider) -
+  alter pulse width and frequency, 16 bits, OCR2 (11) is fast 8 bit for
+  filter - square wave from 0=8MHz (/100=80KHz->300Hz when filter=255)
+
+
+- other notes: 
+
+- revisit crow and raven stuff - sort recoridng also for crows
+
+FROM: https://www.muffwiggler.com/forum/viewtopic.php?p=1529740
+
+To make the Krr sound, use a fast LFO (saw) that you gate with a VCA
+or analog switch. Control the VCA/switch with an EG or a gate
+processor that gives you one short pulse. Use the LFO to control the
+VCA of your ordinary signal patch.
+
+Maybe using some noise to FM an oscillator or possibly filtering noise
+to get the "K" followed quickly by a end of rise pulse triggering a
+second envelope for the "uh" with a formant patch? Might not
+work...just thinking outloud.
+
+I've gotten decent raven croaks with a low frequency impulse train
+(like 25 Hz) run through a vocal formant filter.
+
+
+https://www.muffwiggler.com/forum/files/crow_patch_in_nord_456.png
+
+- RAVEN ideas and check out
