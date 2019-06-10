@@ -55,11 +55,15 @@ neogps library: https://github.com/SlashDevin/NeoGPS
 #define GPX_EPILOGUE "\t</trkseg></trk>\n</gpx>\n"
 #define LATLON_PREC 6
 
+#define sbi(var, mask)   ((var) |= (uint8_t)(1 << mask))
+#define cbi(var, mask)   ((var) &= (uint8_t)~(1 << mask))
+
 TinyGPS gps;
 SoftwareSerial nss(PIN_RX_FROM_GPS, PIN_TX_TO_GPS);
 
 SdFat sd;
 SdFile gpxFile;
+int randomm;
 
 // General-purpose text buffer used in formatting.
 char buf[32];
@@ -98,6 +102,27 @@ static void readFromGpsUntilSampleTime();
 static void fillGpsSample(TinyGPS &gps);
 static bool readFromGpsSerial();
 static void openTimestampedFile(const char *shortSuffix, SdFile &file);
+
+void setupadc(void){
+
+  cbi(ADMUX, REFS1);
+  sbi(ADMUX, REFS0);
+  sbi(ADMUX, ADLAR);
+  ADMUX = (ADMUX & (unsigned int) 0xf0) | (0x00 & (unsigned int) 0x0f); // was 0x03 but we want ADC3 - on older board is 0x03 otherwise 0x02 - we want 00
+
+
+  // set a2d prescale factor to 128
+  // 16 MHz / 128 = 125 KHz, inside the desired 50-200 KHz range.
+  // XXX: this will not work properly for other clock speeds, and
+  // this code should use F_CPU to determine the prescale factor.
+    sbi(ADCSRA, ADPS2);
+  //    sbi(ADCSRA, ADPS0);
+
+  // enable a2d conversions
+  sbi(ADCSRA, ADEN);
+	
+}
+
 
 void setUpSd() {
   /*  if (PIN_SD_CHIP_SELECT != PIN_SPI_CHIP_SELECT_REQUIRED) {
@@ -165,7 +190,8 @@ static bool readFromGpsSerial() {
     //gps.encode(nss.read());
 
     char c = nss.read();
-    Serial.write(c);
+    // see what is HAPPENING TODO!
+    //    Serial.write(c);
     gps.encode(c);
   }
 }
@@ -319,6 +345,13 @@ static void writeGpxSampleToSd() {
   gpxFile.print(F(", "));
   writeFloat(sample.lon_deg, gpxFile, LATLON_PREC);
   gpxFile.print(F(", "));
+
+  sprintf(
+      buf,
+      "%02d",randomm);
+  gpxFile.print(buf);
+
+  gpxFile.print(F(", "));
   writeFormattedSampleDatetime(gpxFile);
   gpxFile.print(F("\n"));
 
@@ -359,25 +392,50 @@ void setup() {
   pinMode(PIN_STATUS_LED, OUTPUT);
   digitalWrite(PIN_STATUS_LED, HIGH);
   Serial.begin(115200);
+    setupadc(); // 
+  
+  
   setUpSd();
-  //  resetGpsConfig();
-    getFirstGpsSample();
-    startFilesOnSdNoSync(); // TODO!
-    //  testopenSDfile(gpxFile);
+  getFirstGpsSample();
+  startFilesOnSdNoSync(); //???
+  
+  
   digitalWrite(PIN_STATUS_LED, LOW);
 }
 
 void loop() {
-  /*  readFromGpsUntilSampleTime();
+  int y, accum, x, www, c, xx=0;
+  /* WAS:  readFromGpsUntilSampleTime();
   fillGpsSample(gps);
   if (sample.fix_age_ms <= SAMPLE_INTERVAL_MS) {
     writeGpxSampleToSd();
     }*/
   digitalWrite(PIN_STATUS_LED, HIGH);
-  //  testwritesd();
-  readFromGpsSerial();
+  
   writeGpxSampleToSd();
-  delay(1000);
+  
+  // do our random thing which takes 200x 16ms = 3.2s but looks like 3.7s
+  accum=0;
+// how long does this take?
+  unsigned long start = millis();
+  for (y=0;y<200;y++){
+
+    for (x=0;x<166;x++){
+      //      www = analogRead(0); // takes 0.1 ms so 166 is 16ms
+      sbi(ADCSRA, ADSC);
+      while (bit_is_set(ADCSRA, ADSC));
+      www = ADCH;
+      if (www&0x01) xx++;
+    }
+    accum+=(xx&0x01);
+    xx=0;
+  }
+
+	randomm=accum;
+	//  delay(1000);
+	/*		Serial.print(randomm);
+		Serial.print(" ,");
+		Serial.println(millis()-start);*/
   digitalWrite(PIN_STATUS_LED, LOW);
   // say 2 second sampling 8313, antenna, FGM then gps read, write sd, then reset FGM counters!
 
