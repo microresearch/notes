@@ -42,3 +42,7 @@ https://www.muffwiggler.com/forum/files/crow_patch_in_nord_456.png
 
 - adding kicad footprint for reichelt dc jack - DC-EBU 072337. swop over as plan/datasheet is from below...
 - added noise/logging to gpslogger - accuracy is good outside...
+
+* 11/6
+
+- alignment of all for breath looks good - double-check all before order!
