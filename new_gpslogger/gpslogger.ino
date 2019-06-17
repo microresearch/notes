@@ -39,7 +39,7 @@ neogps library: https://github.com/SlashDevin/NeoGPS
 #include <SdFat.h>
 #include <TinyGPS.h>
 
-#define SAMPLE_INTERVAL_MS 1000
+#define SAMPLE_INTERVAL_MS 500
 
 #define PIN_STATUS_LED 13
 
@@ -187,12 +187,12 @@ static void readFromGpsUntilSampleTime() {
 
 static bool readFromGpsSerial() {
   while (nss.available()) {
-    //gps.encode(nss.read());
+    gps.encode(nss.read());
 
-    char c = nss.read();
+    //    char c = nss.read();
     // see what is HAPPENING TODO!
-    //    Serial.write(c);
-    gps.encode(c);
+    //Serial.write(c);
+    //    gps.encode(c);
   }
 }
 
@@ -372,6 +372,7 @@ static void fillGpsSample(TinyGPS &gps) {
   sample.altitude_m = gps.f_altitude();
 
   sample.satellites = gps.satellites();
+
   sample.hdop_hundredths = gps.hdop();
 
   sample.course_deg = gps.f_course();
@@ -386,6 +387,9 @@ static void fillGpsSample(TinyGPS &gps) {
       &sample.second,
       &sample.hundredths,
       &sample.datetime_fix_age_ms);
+
+  Serial.print(sample.second);
+
 }
 
 void setup() {
@@ -405,20 +409,23 @@ void setup() {
 
 void loop() {
   int y, accum, x, www, c, xx=0;
-  /* WAS:  readFromGpsUntilSampleTime();
-  fillGpsSample(gps);
-  if (sample.fix_age_ms <= SAMPLE_INTERVAL_MS) {
-    writeGpxSampleToSd();
-    }*/
   digitalWrite(PIN_STATUS_LED, HIGH);
   
+  //  writeGpxSampleToSd();
+
+  readFromGpsUntilSampleTime();
+  readFromGpsSerial();
+  fillGpsSample(gps);
+  //    if (sample.fix_age_ms <= SAMPLE_INTERVAL_MS) {
   writeGpxSampleToSd();
+  //    }
+
   
-  // do our random thing which takes 200x 16ms = 3.2s but looks like 3.7s
+  // do our random thing which takes 200x 16ms = 3.2s but looks like 3.7s - more like 7s - for 100 randoms we have 4s
   accum=0;
 // how long does this take?
   unsigned long start = millis();
-  for (y=0;y<200;y++){
+  for (y=0;y<100;y++){ // was 100...
 
     for (x=0;x<166;x++){
       //      www = analogRead(0); // takes 0.1 ms so 166 is 16ms
