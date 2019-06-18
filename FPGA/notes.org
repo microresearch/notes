@@ -5,6 +5,16 @@
 
 https://github.com/nesl/ice40_examples/ - examples and installing tools
 
+** misc
+
+https://github.com/mcmayer/iCE40
+
+https://stuartl.longlandclan.id.au/blog/2015/12/06/fpga-fun/
+
+https://github.com/sjlongland/icestick/tree/ice40-hx8k
+
+https://github.com/SubProto/icestick-vga-test
+
 ** flip/flop//SR
 
 https://www.rs-online.com/designspark/a-gentle-introduction-to-fpga-programming
@@ -20,6 +30,8 @@ https://esrd2014.blogspot.com/p/d-flip-flop.html
 http://www.clifford.at/icestorm/ 
 
 https://wiki.debian.org/FPGA/Lattice - full outline and links
+
+https://github.com/abnoname/iceZ0mb1e
 
 * TODO:
 
@@ -39,7 +51,8 @@ transferring it to the FPGA, uses:
 
     fpga-icestorm - for the Lattice boards, using libusb/libftdi
 
-- how to connect to I/O
+- how to connect to I/O, clocking internal and clocking from outside!
+
 - simple shift register with all ins and outs
 - simulation
 - how to maybe implement ouroboric/SR mutated functionality
