@@ -15,7 +15,17 @@ https://github.com/sjlongland/icestick/tree/ice40-hx8k
 
 https://github.com/SubProto/icestick-vga-test
 
+http://hedmen.org/icestorm-doc/icestorm.html
+
+** pwm
+
+https://github.com/ZipCPU/wbpwmaudio
+
+https://hackaday.io/project/162557-fpga-dabbling
+
 ** flip/flop//SR
+
+https://reference.digilentinc.com/learn/programmable-logic/tutorials/use-flip-flops-to-build-a-clock-divider/start
 
 https://www.rs-online.com/designspark/a-gentle-introduction-to-fpga-programming
 
@@ -24,6 +34,10 @@ http://www.bitweenie.com/listings/verilog-shift-register/
 https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Chapter-10:-shift-register
 
 https://esrd2014.blogspot.com/p/d-flip-flop.html
+
+** verilog
+
+http://www.asic-world.com/verilog/veritut.html
 
 ** tools?
 
@@ -51,10 +65,22 @@ transferring it to the FPGA, uses:
 
     fpga-icestorm - for the Lattice boards, using libusb/libftdi
 
+
+DONE following https://github.com/nesl/ice40_examples/ on x200
+
 - how to connect to I/O, clocking internal and clocking from outside!
 
+pinmap.pcf -- the pin map file relating variable names referenced in
+top.v to physical I/O pins on the ICE40 HX8K. The syntax here is
+set_io <wire_name> <physical pin name>.
+
+we look at ice40breakout.pdf to see pins!
+
 - simple shift register with all ins and outs
-- simulation
+
+
+
+- how to do simulation
 - how to maybe implement ouroboric/SR mutated functionality
 
 
