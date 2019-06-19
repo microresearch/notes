@@ -46,3 +46,13 @@ https://www.muffwiggler.com/forum/files/crow_patch_in_nord_456.png
 * 11/6
 
 - alignment of all for breath looks good - double-check all before order!
+
+* 19/6
+
+- for all colours smaller panel: 20hp, one side is black mask on bare
+  pcb, other side is gold on black mask (or black mask on gold)
+
+filtered low freq pwm, 4 bit DAC (for both low and high sides),
+trimmers for noise level on back, finger osc centre pads into mix,
+maybe top or bottom is diff amp (TO TEST) and other is comparator (x2
+on each side)...
