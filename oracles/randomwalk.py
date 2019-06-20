@@ -39,6 +39,7 @@ oo=open(outfile,"w")
 
 runninglat=float(data[0][0])
 runninglong=float(data[0][1])
+count=0
 
 oo.write(str(runninglat) + ", " + str(runninglong) + "\n")
 
@@ -54,7 +55,7 @@ for rows in data:
         heading=0
     if heading==-1:
         heading=3
-    metres=abs(rngg)
+    metres=abs(dir)
     #    print metres, heading
     # calc lat, long based on heading
     if heading==0: # North so subtract from lat
@@ -69,6 +70,7 @@ for rows in data:
         onedeginmeters=40075000 * cos( runninglat ) / 360
         soonemeter=1/onedeginmeters
         runninglong-=soonemeter*metres*1.6666667
-    oo.write(str(runninglat) + ", " + str(runninglong) + "\n")
+    oo.write(str(runninglat) + ", " + str(runninglong) + ", " + str(count) + "\n")
+    count+=1
         
 oo.close

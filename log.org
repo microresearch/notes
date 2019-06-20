@@ -56,3 +56,9 @@ filtered low freq pwm, 4 bit DAC (for both low and high sides),
 trimmers for noise level on back, finger osc centre pads into mix,
 maybe top or bottom is diff amp (TO TEST) and other is comparator (x2
 on each side)...
+
+** avr heatwork
+
+- run through/playback all memory on interrupt (HOW? where we did something similar)?
+- pulse heat every X seconds and pause x seconds - 
+
