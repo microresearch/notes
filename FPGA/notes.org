@@ -25,7 +25,7 @@ https://hackaday.io/project/162557-fpga-dabbling
 
 ** flip/flop//SR
 
-https://reference.digilentinc.com/learn/programmable-logic/tutorials/use-flip-flops-to-build-a-clock-divider/start
+https://reference.digilentinc.com/learn/programmable-logic/tutorials/use-flip-flops-to-build-a-clock-divider/start 
 
 https://www.rs-online.com/designspark/a-gentle-introduction-to-fpga-programming
 
