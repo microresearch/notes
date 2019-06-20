@@ -1,6 +1,6 @@
 /* heatsick:
 
-- playback of all memory/registers while AVR (on SIR board) is subjected to heat in 5s steps.
+- playback of all memory/registers while AVR (on SIR board - but without filter - test first with arduino) is subjected to heat in 5s steps.
 - 0x0000->0x08FF
 
 but for gcc:
