@@ -62,3 +62,24 @@ on each side)...
 - run through/playback all memory on interrupt (HOW? where we did something similar)?
 - pulse heat every X seconds and pause x seconds - 
 
+// lots of new variations now - 1 bit address playback and 1 bit buffer/SHA256 playback but we need minute or longer heat pauses
+
+* 21/6
+
+- for pro mini arduino 5v we use:
+
+BOARD_TAG = pro5v
+BOARD_CLOCK=16mhz
+ARDUINO_LIBS = Wire 
+MONITOR_PORT = /dev/ttyACM1
+F_CPU = 16000000L
+include /root/Arduino-Makefile/Arduino.mk
+
+and hold down reset first until it starts uploading
+
+** all colours
+
+- tested comparator with pwm in and this can be interesting with external CV
+- also mix back filter feedback is very crackly and could pulse nicely somehow?
+- check paths
+

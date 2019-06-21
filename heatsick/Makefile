@@ -1,7 +1,7 @@
 # makefile, written by guido socher
 MCU=atmega168
 #MCU=at90s4433
-CC=avr-gcc
+CC=avr-g++
 #CEXTRA=-Wa,-adhlns=$(<:.c=.lst)
 #EXTERNAL_RAM = -Wl,--defsym=__heap_start=0x801100,--defsym=__heap_end=0x80ffff
 #EXTERNAL_RAM = -Wl,-Tdata=0x801100,--defsym=__heap_end=0x80ffff
