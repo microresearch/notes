@@ -35,6 +35,16 @@ https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Chapter-10:-shift-reg
 
 https://esrd2014.blogspot.com/p/d-flip-flop.html
 
+** random/noise also SR
+
+https://casper.ssl.berkeley.edu/wiki/Variable_Correlation_Digital_Noise_Source_for_FPGA
+
+https://github.com/frisnit/fpga-noise/blob/master/verilog/noise_generator.v
+
+http://liu.diva-portal.org/smash/get/diva2:305133/FULLTEXT01.pdf
+
+
+
 ** verilog
 
 http://www.asic-world.com/verilog/veritut.html
