@@ -49,8 +49,8 @@
     #define ALED_GPSET       GPIO_GPSET1
     #define ALED_GPCLR       GPIO_GPCLR1
     #define ALED_GPIO_BIT    15
-    #define ALED_ON()        do { gpio[ALED_GPSET] = ( 1 << ALED_GPIO_BIT ); } while( 0 )
-    #define ALED_OFF()       do { gpio[ALED_GPCLR] = ( 1 << ALED_GPIO_BIT ); } while( 0 )
+    #define ALED_ON()        do { gpio[ALED_GPCLR] = ( 1 << ALED_GPIO_BIT ); } while( 0 )
+    #define ALED_OFF()       do { gpio[ALED_GPSET] = ( 1 << ALED_GPIO_BIT ); } while( 0 )
 
 
 // set up pin 40 GPIO21 as an input with rising edge

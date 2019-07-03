@@ -43,11 +43,22 @@ https://github.com/frisnit/fpga-noise/blob/master/verilog/noise_generator.v
 
 http://liu.diva-portal.org/smash/get/diva2:305133/FULLTEXT01.pdf
 
+https://electronics.stackexchange.com/questions/263656/hardware-sources-of-entropy-on-an-fpga/274873
+
+https://github.com/alexforencich/verilog-mersenne/blob/master/rtl/axis_mt19937.v
+
+https://electronics.stackexchange.com/questions/30521/random-bit-sequence-using-verilog
+
+https://stackoverflow.com/questions/43136082/random-0-1-1-in-verilog/43137525#43137525
 
 
 ** verilog
 
 http://www.asic-world.com/verilog/veritut.html
+
+https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2016/avh34_sz296/ece5760_Final_Project_avh34_sz296/ece5760_Final_Project_avh34_sz296/ece5760.Final.Project.Report/ece5760.Final.Project.Report.html
+
+and code at: https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2016/avh34_sz296/ece5760_Final_Project_avh34_sz296/ece5760_Final_Project_avh34_sz296/ece5760.Final.Project.Report/code/nes_apu.zip
 
 ** tools?
 

@@ -1,4 +1,7 @@
 # to process files from oracle sites which miss the GPS data as random walks
+# and add numbering so we can make lines in qgis using Points2One plug-in
+
+#////////////////////////////////////////////////////
 
 # eg. /root/NOWprojects/oracles/20190614/112521.TXT
 
@@ -20,7 +23,7 @@
 
 # ///// read csv first value, open outfile
 
-# todo: test this
+# todo: test thisDONE
 
 from pylab import *
 import csv, os
@@ -32,7 +35,9 @@ def read_csv_file(filename):
     return data
 
 heading=0 # NESw 0123
-filet="/root/notes_and_projectsNOW/oracles/20190614/112521.TXT"
+filet="/root/notes_and_projectsNOW/oracles/20190615/084503.TXT" #   /root/notes_and_projectsNOW/oracles/20190615/084503.TXT
+
+
 data=read_csv_file(filet)
 outfile=filet+".walked"
 oo=open(outfile,"w")
@@ -41,7 +46,9 @@ runninglat=float(data[0][0])
 runninglong=float(data[0][1])
 count=0
 
-oo.write(str(runninglat) + ", " + str(runninglong) + "\n")
+oo.write(str(runninglat) + ", " + str(runninglong) + ", " + str(count) + "\n")
+
+count=1
 
 for rows in data:
     # deal with our RNG stuff
