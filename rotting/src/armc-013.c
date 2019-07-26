@@ -10,6 +10,12 @@
 /*
     Interrupts example, show how to use the interrupt controller and to load
     the vector table at runtime.
+
+PIN 27 (7th pin up left - sd at top) is audio out pin
+PIN 40 (GPIO21 bottom right) is input with rising edge
+
+activity led should go on for 1, off for zero impulse in!
+
 */
 
 #include <string.h>
@@ -62,7 +68,7 @@ void kernel_main( unsigned int r0, unsigned int r1, unsigned int atags )
     /* Setup the system timer interrupt */
     /* Timer frequency = Clk/256 * 0x400 */
     // see what frequency we get here?
-    RPI_GetArmTimer()->Load = 0x80; // was 0x100= 250 Khz - 581 KHz is limit for code
+    RPI_GetArmTimer()->Load = 0x80; // was 0x100= 250 Khz - 581 KHz is limit for code - was 0x80
     RPI_GetArmTimer()->PreDivider = 1; // 250 MHZ! (0x400 *1024) - was 1
 
     // but what we have is 61 KHz?
@@ -76,6 +82,9 @@ void kernel_main( unsigned int r0, unsigned int r1, unsigned int atags )
             RPI_ARMTIMER_CTRL_ENABLE |
             RPI_ARMTIMER_CTRL_INT_ENABLE |
             RPI_ARMTIMER_CTRL_PRESCALE_1;
+
+    //    ALED_ON(); // fixed in gpio as inverted
+    //      ALED_OFF();
 
     /* Enable interrupts! */
     _enable_interrupts();
@@ -105,6 +114,7 @@ void kernel_main( unsigned int r0, unsigned int r1, unsigned int atags )
 --- inc. memory bit
 
       */
+      
       gpio[GPIO_GPEDS0]&=(1 << IN_GPRENBIT); // clear it by writing a 1
       RPI_WaitMicroSeconds(2500);
       //      if ((gpio[GPIO_GPEDS0]&(1<<IN_GPRENBIT))==(1<<IN_GPRENBIT)) LED_ON(); // this works as long as interrupt is not too fast

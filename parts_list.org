@@ -187,7 +187,7 @@ POTIS: RK09K1130A5R XXXORDER
 inductorx1: 81-BLM18BD252SN1D (mouser) have118
 JACKSx2 (Banzai) XXX
 switchx1 (ebay supplier) XXX
-2.1mm DC socketx1 (SEGOR) -have12
+2.1mm DC socketx1 (SEGOR=DCBU 2,1-PR/Mini) -have12
 battery holder 9vx1 534-1294 (mouser) have20odd
 
 TOP:
@@ -330,7 +330,7 @@ SBM-20
 - thru hole zeners on CVs are schottkey BAT85 x6 
 - mega168, tl072, xtal 16mhz, 5 pin prog headers, 10pin conn, 112k,56kx2,33kx3,47n-have,
 
-potis10kthru hole=RK09L1140A66, knobs from thonk
+potis10kthru hole=RK09L1140A66, knobs from thonk: DAVIES 1900h clone - light gray D shaft
 
 ** ERD/WORM
 
