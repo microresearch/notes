@@ -4,14 +4,13 @@
 - how we connect things with pcf file
 - how we instantiate submodules
 
-
 * resources
 
 "Digital Design, An Embedded Systems Approach Using Verilog"
 
 https://github.com/nesl/ice40_examples/ - examples and installing tools
 
-https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN - tutorial
+https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN - tutorial we use
 
 ** misc
 
@@ -107,9 +106,23 @@ we look at ice40breakout.pdf to see pins!
 
 - simple shift register with all ins and outs
 
+//working now in  /root/open-fpga-verilog-tutorial/tutorial/ICESTICK/T10-shif-register
 
+shifted to testcode here!
+
+- changed makefile and pcf for our module and works!
+- make burn to run iceprog
+
+
+** ///
+
+- how we can make functionality of All Colours in FPGA and what speeds this could run at?
+
+- pulses in, out, XORs, random leaks, noise entry, timings(we have), PWM!
+
+practicalities of how to interface with iT?
 
 - how to do simulation
 - how to maybe implement ouroboric/SR mutated functionality
-
+- ouroboric instruction CPU with all instructions spilled and leaked to outside
 

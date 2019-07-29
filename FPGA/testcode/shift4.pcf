@@ -1,0 +1,15 @@
+
+set_io data[7] B5
+set_io data[6] B4
+set_io data[5] A2
+set_io data[4] A1
+set_io data[3] C5
+set_io data[2] C4
+set_io data[1] B3
+set_io data[0] C3
+set_io clk  J3
+
+
+
+
+
