@@ -1,0 +1,41 @@
+* arduino and rpi i2c working now
+
+: M-x compile
+
+: make -k upload
+
+test print and with minicom
+
+on arduino A5 is SCL, A4 is SDA
+
+** rpi 
+
+ssh and wpa must be in 1st partition!
+
+: nmap -sn 192.168.2.0/24 
+
+: mount /dev/mmcblk0p2 /media  
+
+12c connection: https://gonzalo123.com/2017/05/22/arduino-and-raspberry-pi-working-together-part-2-now-with-i2c/
+
+is UPSIDE DOWN see: https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/pinmappings/pinmappingsrpi
+
+* bootable
+
+https://l3net.wordpress.com/2013/09/21/how-to-build-a-debian-livecd/
+
+: rsync2016/livework
+
+: rm binary/live/filesystem.squashfs
+
+MAKE CHANGES in chroot and then:
+
+: mksquashfs chroot binary/live/filesystem.squashfs -comp xz -e boot 
+
+: xorriso -as mkisofs -r -J -joliet-long -l -cache-inodes \                                                                                                                                        ~/rsync2016/livework
+-isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin -partition_offset 16 \
+-A "Debian Live"  -b isolinux/isolinux.bin -c \
+isolinux/boot.cat -no-emul-boot -boot-load-size 4 \
+-boot-info-table -o teh.iso binary
+
+: dd if=teh.iso of=/dev/sdb
