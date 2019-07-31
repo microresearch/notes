@@ -11,6 +11,8 @@
 
 - add delay at start of calibration and throw away first measurement (also always measure darkness twice and discard)
 - wrap pi code so always restarts so we can plug in any order
+- use pi as backup/instead of desktop pc
+- on ouroboric.py use keypress to adjust +/- the width of the line!
 
 * zagreb TODO
 
