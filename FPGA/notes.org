@@ -4,6 +4,11 @@
 - how we connect things with pcf file
 - how we instantiate submodules
 
+where are our examples on x200:
+
+- open-fpga-verilog-tutorial
+- ice40_examples
+
 * resources
 
 "Digital Design, An Embedded Systems Approach Using Verilog"
@@ -119,6 +124,8 @@ shifted to testcode here!
 - how we can make functionality of All Colours in FPGA and what speeds this could run at?
 
 - pulses in, out, XORs, random leaks, noise entry, timings(we have), PWM!
+
+- all is 1.2v so we need to convert
 
 practicalities of how to interface with iT?
 

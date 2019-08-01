@@ -1,13 +1,23 @@
 
-set_io data[7] B5
-set_io data[6] B4
-set_io data[5] A2
+set_io data[7] C16 
+set_io data[6] D16
+set_io data[5] E16
 set_io data[4] A1
 set_io data[3] C5
 set_io data[2] C4
 set_io data[1] B3
 set_io data[0] C3
 set_io clk  J3
+
+set_io in1 B16
+set_io in2 D14
+set_io in3 D15
+set_io in4 E14
+set_io in5 F15
+set_io in6 G15
+set_io in7 H14
+set_io in8 F14
+
 
 
 
