@@ -9,7 +9,8 @@
 
 * notes for next setup - TODO
 
-- add delay at start of calibration and throw away first measurement (also always measure darkness twice and discard)
+- add delay at start of calibration and throw away first measurement (also always measure darkness twice and discard???means???)
+
 - wrap pi code so always restarts so we can plug in any order -> where?
 
 - use pi as backup/instead of desktop pc
@@ -23,10 +24,6 @@ export LC_ALL="en_US.UTF-8"
 /usr/bin/setterm -blank 0
 /usr/bin/python /root/ouroboric.py --port "/dev/ttyACM0"
 exit 0
-
-- test this and add keypad to latest ouroboric // check that latest is here, also add 
-
-: add delay at start of calibration and throw away first measurement (also always measure darkness twice and discard) ???
 
 
 * zagreb TODO
