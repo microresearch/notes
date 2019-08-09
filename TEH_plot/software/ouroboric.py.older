@@ -4,8 +4,6 @@
 
 # python ouroboric.py --port /dev/ttyUSB0
 
-# This should be latest one from Zagreb Dec 2019: size=21478
-
 # // CHANGES for Manchester, Holden Gallery...
 
 # check if TM repeatedly hits the end in which case we need to
@@ -221,16 +219,7 @@ moon = ephem.Moon()
 reg= ephem.star("Regulus")
 corvus= ephem.star("Gienah Corvi")
 degrees_per_radian = 180.0 / pi
-threshold=99
-
-# so we have 3 states...
-# symbol, dir, state = t = prog[state][symbol] # lookup instruction
-
-# state is 0 or 1, dir is +1 or -1, next state is 0, 1 or 2
-
-# generate random program
-
-
+threshold=60
 
 prog = [[(1, +1, 1), (1, +1, 0)],           # state 0
         [(0, -1, 2), (1, +1, 1)],           # state 1
@@ -238,7 +227,6 @@ prog = [[(1, +1, 1), (1, +1, 0)],           # state 0
 tape = [1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0]                  # The data tape
 head = 0                                    # head position on tape
 state = 0                                   # instruction pointer
-count = 0
 
 def calibrate():
     
@@ -348,56 +336,20 @@ def calibrate():
             
     white=white/3
     black=black/2
-    threshold=(abs(white-black)+black) # we just want first calibration
-#    threshold=99
+    threshold=white-black    
+    #    threshold=75
     print "calibration:", threshold
-    ser.write("R")
-    ser.flushOutput()
-    ser.flushInput()
-    sleep(2)
 
-def gopastit():
-    ser.flushOutput()
-    ser.flushInput()
-
-    ser.write("P") # start
-
-
-    ser.write("R")
-    ser.flushOutput()
-    ser.flushInput()
-    sleep(3)
-    ser.write("R")
-    ser.flushOutput()
-    ser.flushInput()
-    sleep(3)
-    ser.write("R")
-    ser.flushOutput()
-    ser.flushInput()
-    sleep(3)
-    ser.write("R")
-    ser.flushOutput()
-    ser.flushInput()
-    sleep(3)
-    ser.write("R")
-    ser.flushOutput()
-    ser.flushInput()
-    sleep(3)
 
 def resettm():
-    print "RESET TAPE"
+    print "RESET"
     global tape
     tape = [1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0]                  # The data tape
-    # for cc in range(23):
-    #     tape[cc]=random.randint(0,1)
     global head
     head = 0                                    # head position on tape
     global state
     state = 0                                   # instruction pointer
-    global counterr
-    counterr = 0
     calibrate()
-#    gopastit()
     # write tape 
     for things in tape:
         if things==0:
@@ -412,31 +364,10 @@ def resettm():
             ser.write("R") # move right - we don't need to check
             sleep(3)
     calibrate() # return to post-calibrate position
-            #    gopastit()
-    # we add new random program feature
-    
-    # for bb in range(3):
-    #     x=random.randint(0,1)
-    #     y=random.randint(0,1)
-    #     if y==0:
-    #         y=-1
-    #     else:
-    #         y=1
-    #     z=random.randint(0,2)
-    #     prog[bb][0]=(x,y,z)
-    #     x=random.randint(0,1)
-    #     y=random.randint(0,1)
-    #     if y==0:
-    #         y=-1
-    #     else:
-    #         y=1
-    #     z=random.randint(0,2)
-    #     prog[bb][1]=(x,y,z)
-    
+
 # //////
 
 sleep(3)
-#calibrate()
 resettm()
 #calibrate() # test our calibrate which is already in resettm
 #ser.close()
@@ -483,7 +414,7 @@ while(1):
 
     print "                          TEST EXECUTION HOST"
     print "                          +++++++++++++++++++"
-    print "Decoding ancient alchemical texts and emblems as (literal) instructions for the construction, execution and maintenance of a contemporary, geomantic and necessarily ouroboric live processor."
+    print "Decoding ancient alchemical texts and emblems as (literal) instructions for the construction, execution and maintenance of a\n contemporary, geomantic and necessarly ouroboric live processor."
     #    print time
     print
     print random.choice(alchquotes) # or this choice is dependent of darkness!
@@ -496,75 +427,35 @@ while(1):
 # ////////////////////////////////////////////////////////////////////////////////
     
     # run TM:
-    # counterr +=1
-    
-    # if counterr==23:
-    #     #        head=0 # do we not need to zero whole thing or go past calibration?????
-    #     #        state=0
-    #     counterr=0
-    #     resettm()
+
     if state==9:
-        head=0
-        state=0
-        # do rewind or not - keep going and see what happens
-        #        resettm()
-    
-    #    print "Program "
-    # print prog
-        
+        #        head=0 # do we not need to zero whole thing or go past calibration?????
+        #        state=0
+        resettm()
+
     #    symbol = tape[head]                         # read current tape symbol - read dark or light
     if darkness<threshold: # low is DARK!
         symbol=1
     else:
         symbol=0
-    print "Symbol: ",
-    print (symbol)
-        
+
     #    symbol=random.randint(0,1)
     symbol, dir, state = t = prog[state][symbol] # lookup instruction
-    #    print "        ",
-    print "Tape: "
+    print "        ",
     print(tape)
-    #print "        ",
-    if head<0:
-        head=0
+    print "        ",
+    print(' ' * (head * 3 + 1)+ '^  ' + str(t)) # display progress
     if head>=len(tape):
         tape.append(symbol) ## don't think we need to move right
     else:
         tape[head] = symbol                         # write new symbol on tape - write dark or light
-    print(' ' * (head * 3 + 1)+ '^  ' + str(t)) # display progress
     if symbol==0:
         # write zero
         ser.write("E")
-        print "... writes zero"
     else:
         ser.write("W")
-        print "... writes one"
     head = head + dir                           # move tape head 
-
-    # test code with the sun!
-    g.date = datetime.datetime.utcnow()# 
-    sun.compute(g)
-    moon.compute(g)
-
-
-    # go there
-    print "SUN:", deg(sun.alt), 
-    print "MOON:", deg(moon.alt) 
-
-    # run geomantics
-    # house = VIII. Death/Mortis - The House of Slaughter and Death: Heaviness, sadness, enemies, long torments, imprisonment, and the quality of death.
-    # this would be the 4th daughter
-    if ready==1:
-        mlist=domothers()
-        dlist=dodaughters(mlist)
-        ready=0
-    print "House = VIII. Death/Mortis - The House of Slaughter and Death: Heaviness, sadness, enemies, long torments, imprisonment, and the quality of death."
-    # take the fourth daughter and explain/display this
-    chosen=dlist[3]
-    print lookfig(chosen) # TODO: clean up a bit but works
-    drawfig(chosen)
-    sleep(12)
+    sleep(6)
     if dir==1:
         ser.write("R")
     else:
@@ -587,6 +478,133 @@ while(1):
         if data[0]=='R' or data[0]=='L':
             resettm()
             
+    # if head is too far over or left then move to middle - 
+    # if head<0:
+    #     ser.write("M")
+    #     head=200 # what is middle? 1800/4 = 400 say        
+    # if head>400:
+    #     ser.write("M")
+    #     head=200 # what is middle? 1800/4 = 400 say        
 
+        # ////////////////////////////
+
+        # planet calculations and plots
+
+    g.date = datetime.datetime.utcnow()# 
+
+    reg.compute(g)
+    print "REGULUS:",
+    print ephem.localtime(g.date), deg(reg.az),deg(reg.alt)
+
+    corvus.compute(g)
+    print "CORVUS - Gienah Corvi:",
+    print ephem.localtime(g.date), deg(corvus.az),deg(corvus.alt) # wrong localtime is set here on laptop - IGNORE!
+
+    # plot the planets...
+    # we have altitude and azimuth - horizon [------------------------] where to where? orient to 0 north in PDS
+    # say 80 lines across for azimuth = round 360/80=/4.5 but we just want 180 = /9
+    # say 10 lines for altitude (range 0to90) = /2.25
+
+    # REGULUS - check/TEST!
+    print
+    print "REGULUS position: az/alt"
+    # degrees is starting at 304 [wrap 360] to 124 (180
+    # for back wall - for front window we do 120 to 300 say
+    degg=deg(reg.az)
+    if degg>120 and degg<300: # upto 300 - 180
+        xcoord=int((degg-120)/2.25)
+    else:
+        xcoord=-1
+
+    if deg(reg.alt)>0.0: 
+        ycoord=np.ceil(deg(reg.alt)/9.0)
+    else: 
+        ycoord=-1 # below horizon
+    print xcoord,ycoord
+
+    for y in range(10):
+        print"|",
+        if (10-ycoord)==y and xcoord>0:
+            for x in range(xcoord):
+                print "",
+            print "O"
+        else:
+            print
+    print"--------------------------------------------------------------------------------"
+    print
+    print "CORVUS - Gienah Corvi position: az/alt"
+    # same as above
+    degg=deg(corvus.az)
+    if degg>120 and degg<300: # upto 300 - 180
+        xcoord=int((degg-120)/2.25)
+    else:
+        xcoord=-1
+
+    if deg(corvus.alt)>0.0: 
+        ycoord=np.ceil(deg(corvus.alt)/9.0)
+    else: 
+        ycoord=-1 # below horizon
+    print xcoord,ycoord
+
+    for y in range(10):
+        print"|",
+        if (10-ycoord)==y:
+            if xcoord>0:
+                for x in range(xcoord):
+                    print "",
+                print "O"
+        else:
+            print
+    print"--------------------------------------------------------------------------------"
+    print
+
+    # Planet-light HOW? 
+    # if is above horizon in our 180 degrees then move according to...
+    # arduino commands: move up/darken =N, down/lighten=n, zero=Z
+    # note that DOWN is more LIGHT
+
+    # test code with the sun!
+    sun.compute(g)
+    moon.compute(g)
+
+    # divide degrees of corvus to extent which is 170 - extent is depending ON VOLTAGE!
+    # this is position we need to get to (inverted) 170-cdrompos
+    # if we run to zero then do this as explicit Z
+    # TODO: was corvus
+    if deg(sun.alt)>0.0: 
+        wherepos=200-(np.ceil(deg(sun.alt)*6.0)) # 30 degrees and we 200 incs
+    else:
+        wherepos=200
+
+    # go there
+    print "SUN:", deg(sun.alt), 
+    print "MOON:", deg(moon.alt) 
+#    wherepos=200
+
+    # if wherepos==0:
+    #     ser.write("Z")
+    #     cdrompos=0
+
+    # while wherepos>cdrompos:
+    #     ser.write("N")
+    #     cdrompos+=1
+
+    # while wherepos<cdrompos:
+    #     ser.write("n")
+    #     cdrompos-=1
+                
+    # run geomantics
+    # house = VIII. Death/Mortis - The House of Slaughter and Death: Heaviness, sadness, enemies, long torments, imprisonment, and the quality of death.
+    # this would be the 4th daughter
+    if ready==1:
+        mlist=domothers()
+        dlist=dodaughters(mlist)
+        ready=0
+    print "House = VIII. Death/Mortis - The House of Slaughter and Death: Heaviness, sadness, enemies, long torments, imprisonment, and the quality of death."
+    # take the fourth daughter and explain/display this
+    chosen=dlist[3]
+    print lookfig(chosen) # TODO: clean up a bit but works
+    drawfig(chosen)
+    sleep(22)
 
 ser.close()
