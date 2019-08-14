@@ -25,6 +25,76 @@ export LC_ALL="en_US.UTF-8"
 /usr/bin/python /root/ouroboric.py --port "/dev/ttyACM0"
 exit 0
 
+- add SAND to materials list // check last mail - search CAC
+
+* shipping/tech shanghai
+
+Tech rider with materials which need to be prepared in Shanghai:
+
+- old computer/desktop PC and CRT monitor, necessary power and VGA cables
+
+- table-like base in wood - 280cm x 60cm - height 80cm
+
+- thick plastic sheeting to cover base and over the floor - 5 metres x 3 metres
+
+- concrete slabs and bricks for weighting (size is not important)
+
+- local mineral ores (20kg) - we can discuss this
+
+- 6x power points with European adapters
+
+
+Estimated time for installing: 8 hours, one person
+
+
+Here is the shipping information:
+
+1. Pickup and return: Martin Howse, Direktorenhaus, Am Kroegel 2, Berlin 10179, GERMANY
+
+Phone number is essential: 00491794206728
+
+2. Earliest date: 30 August 2019 (negotiable)
+
+3. 2x crates:
+
+1- size and weight of materials crate: 50x 40x 60cm 30kg
+
+2- size and weight of drylin rail crate:  210x 20x 20cm 7kg
+ 
+
+4. Item list:
+
+1-materials crate:
+
+3x water pumps, pipes, drylin metal sliding head WS, NEMA17 motor, motor driver, arduino, raspberry pi3, camera and associated custom electronics mounted on perspex travelling head, LED lights
+
+1x plastic motion belt
+
+1x additional raspberry pi3
+
+3x books
+
+1x variable power supply
+
+2x containers of ammonium iron(III) citrate, potassium ferricyanide
+
+perspex parts
+
+junk computer CPU components, rocks and fans
+
+custom ceramic breath object
+
+mini-itx PC, keyboard and mouse, USB stick with operating system
+
+2-drylin crate:
+
+drylin WS16-60 2meter long linear metal rail
+
+
+5. Insurance value: materials crate: 900 euros, drylin crate 160 euros
+
+
+
 
 * zagreb TODO
 
