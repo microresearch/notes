@@ -1,0 +1,13 @@
+#N canvas 257 125 999 692 10;
+#X text 72 157 no arg;
+#X obj 19 119 pink~;
+#X obj 103 170 osc~;
+#X obj 114 47 unsig~ 1;
+#X obj 102 119 cos;
+#X obj 143 88 * 100;
+#X obj 32 230 s~ pink;
+#X connect 1 0 3 0;
+#X connect 2 0 6 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 2 0;
