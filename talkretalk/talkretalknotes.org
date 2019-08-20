@@ -1,0 +1,110 @@
+* tech list
+
+[- 1 hot plate + 2 large pots]=pedro
+
+- power points for X participants, mixer, beamer etc.
+- OHP/overhead projector
+- video beamer/projector with VGA input and cable
+- VGA switcher for 4x connections
+- 16 channel audio mixer connected to PA: MACKIE 1604VLZ4 or identical (must have 8 direct outs/after faders)
+- X microphones in the room with cables to mixer
+- network access
+
+* packing
+
+- basic final session setup//eurorack+cables//incenses
+- dark interpreter
+- all cables - audio/power/network
+- soundcard
+- pickups/contacts
+- fermented products
+- radio receivers/scanner thing/arduino and mycelial transmitters
+- ohp transparencies and pens
+
+* acts/schedule
+
+19:35 - 21:00 (85min - TALK) - UNFINISHED BUSINESS - STWST
+21:00 - 21:30 (30min - RE:TALK) PD patching playback
+
+[session 2]
+21:30-23:00 (90min - TALK)  - UNFINISHED CODE - Winnie Soon
+23:00-23:30
+ (30min - RE:TALK) patching playback
+
+[session 3] 
+23:30-01:00 (90min - TALK) - UNFINISHED LAB  - Pedro Soler
+01:00-01:30 (30min - RE:TALK) PD patching playback
+
+[session 4]
+01:30-3:00 (90min - TALK) - UNFINISHED NETWORK - Davide Bevilacqua
+3:00-3:30
+ (30min - RE:TALK) PD patching playback
+
+[session 5] 
+3:30-5:00 (90min - TALK) - UNFINISHED BODY - Quimera Rosa
+5:00-5:30
+ (30min - RE:TALK) PD patching playback
+
+EXTRA - 5:30 -6:28 (58 minute) -  PLAYBACK THE FUTURE
+
+** 1 prologue/STWST
+
+- open patch in development, PING PATCH, tuning, self discussion
+
+** 2 unfinished code/winnie
+
+- more projection, OHP diagrams, teletext? comic code, silence of speech at the borders, code commentary, quotation
+
+** 3 lab pedro
+
+- cooking pots miced, dripping speech, fermentation, an object for each of the labs?
+
+** 4 network
+
+- leaking network, data radios, tubes?, radio speech/hiss
+
+** 5 body
+
+- smoke, smells, sense, low frequency, incense
+
+** playback the future
+
+PLAYBACK:
+
+Last orders and with only fifty eight minutes to go before sunrise,
+before all the future versions and patches are stowed, stashed,
+unsniffed, and enclosed for all possible futures, we play back the
+stoney tapes of future palate depositions, intrusions, compressions,
+degradations, and gradings of lightly spoken lithic entropy.
+
+With some urgency, we rifle through all of the late summer evening's
+signs and codes towards a future dream divination, a sleepy incubation
+in near darkness to uncover those hidden things for tomorrow. Of a
+dream of thirteen moons, thirteen years ahead, the previous Thames
+walk. A thankful code graveyard. The repository is symbolically
+drained.
+
+"Maybe I didn't dream it at all. Maybe I only heard it or read it
+somewhere. It doesn't matter."
+
+* TODO TODO
+
+- pd patch working, soundcard, refamiliarise
+
+missings: OSC stuff, rossler, ann/neuron, mixer~, mux~, pink~ question?, piperead~
+
+- test possible speech solutions: festival, own klatt>crappy, what else? espeak
+
+klatt working say > /dev/dsp : /root/projects/ERD_MODULES/RAVEN/older_notes_and_software/docs/rsynth-2005-12-16/
+
+: echo "hello" | espeak // different voices, options etc.
+
+- LPC and praat
+- darkint speech work/worm
+- something with git, version control, speech of diffs, of commits
+- transmitters/audio?
+- data radio
+
+
+
+
