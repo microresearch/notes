@@ -55,6 +55,38 @@ EXTRA - 5:30 -6:28 (58 minute) -  PLAYBACK THE FUTURE
 
 - more projection, OHP diagrams, teletext? comic code, silence of speech at the borders, code commentary, quotation
 
+LPC speech re-process, get speech files, buffering, code commit work
+
+https://dobbeltdagger.net/publication/vocable-code-13082018
+
+https://github.com/siusoon/VocableCode/blob/master/vocablecode_program/voices.json
+
+https://dobbeltdagger.net/sites/default/files/vocablecode13082018_stack_winniesoon.pdf
+
+https://github.com/siusoon/VocableCode/blob/master/vocablecode_program/vocableCode_xx.js
+
+https://github.com/siusoon/VocableCode/commits/master/vocablecode_program/vocableCode.js
+
+conversation with winnie: 20/8/2019
+
+*commits = execution* - play across levels of code, commentary, commit, execution and voice
+
+time gaps, visibility of github platform as infrastructure
+
+machine voice, vocable code, performing code
+
+10 min - intro, queer code, queer is... auto-completion
+
+source code as poem, binary logic
+
+20 min - groups, sentences, whiteboard 
+
+8 min - perform and voice sentences, chaos, repetition, executing sentences
+
+javascript, code base - loads voices on demand not pre-loaded so there is micro-temporality if buffering
+
+what is the temporality of wav file, against mp3, other encodings
+
 ** 3 lab pedro
 
 - cooking pots miced, dripping speech, fermentation, an object for each of the labs?
