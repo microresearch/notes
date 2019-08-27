@@ -27,6 +27,8 @@ void loop() {
   int serIn;
   uint16_t rtd = max.readRTD();  
   float ratio = rtd;
+  float tempdif;
+  static float lasttemp;
   float temper=max.temperature(RNOMINAL, RREF);
   ratio /= 32768;
   // if we want to do scaling and write to the FET?
@@ -34,10 +36,14 @@ void loop() {
   uint16_t scaled=(int)((temper-20.0)*6.0);
   if (scaled>255) scaled=255;
   //    Serial.println(scaled);
-  analogWrite(9,scaled);
-    while (Serial.available()>0) {
-      serIn=Serial.read();
+  //  analogWrite(9,scaled);
+  //    while (Serial.available()>0) {
+  //      serIn=Serial.read();
       //      Serial.println(serIn);
-      if (serIn==79) Serial.println(int(temper*100)); // printed *100 and rounded for pi
-    }
+      //      if (serIn==79) Serial.println(int(temper*100)); // printed *100 and rounded for pi
+  //    }
+  tempdif=abs(temper-lasttemp);
+  lasttemp=temper;
+    Serial.write(int(tempdif*100)); // printed *100 and rounded for pi - was println
+  //    Serial.println(int(tempdif*100)); // printed *100 and rounded for pi - was println
 }

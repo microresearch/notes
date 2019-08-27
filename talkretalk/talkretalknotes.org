@@ -22,6 +22,7 @@
 - fermented products
 - radio receivers/scanner thing/arduino and mycelial transmitters - for data radio, cables???
 - ohp transparencies and pens
+- arduino and temperature sensor
 
 * acts/schedule
 
