@@ -2,13 +2,15 @@
 
 [- 1 hot plate + 2 large pots]=pedro
 
-- power points for X participants, mixer, beamer etc.
+- 18 power points (for all participants, mixer, beamer etc.)
 - OHP/overhead projector
 - video beamer/projector with VGA input and cable
 - VGA switcher for 4x connections
 - 16 channel audio mixer connected to PA: MACKIE 1604VLZ4 or identical (must have 8 direct outs/after faders)
-- X microphones in the room with cables to mixer
+- 4 microphones in the room with cables to mixer
+- 1 microphone for patchers use
 - network access
+- mushroom mycelium (can we ask Taro?)
 
 * packing
 
@@ -98,7 +100,7 @@ what is the temporality of wav file, against mp3, other encodings
 
 ** 4 network
 
-- leaking network, data radios, tubes?, radio speech/hiss
+- leaking network, data radios, plastic tubes?, radio speech/hiss
 
 ** 5 body
 
@@ -128,7 +130,7 @@ somewhere. It doesn't matter."
 
 - pd patch working, soundcard//NO PCMCIA, refamiliarise
 
-missings: OSC stuff??, rossler, ann/neuron, mixer~, mux~, pink~ question?, piperead~//ext13
+missings: OSC stuff??, rossler, ann/neuron, mixer~X, mux~X, pink~ question?, piperead~//ext13Xinstalled
 
 - test possible speech solutions: festival, own klatt>crappy, what else? espeak
 
@@ -165,3 +167,5 @@ image in pd:
 
 
 
+
+mixer in ggee crashes in all permutations...

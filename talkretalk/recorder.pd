@@ -1,0 +1,13 @@
+#N canvas 1 50 999 692 10;
+#X obj 439 402 writesf~ 1;
+#X obj 498 221 r~ archive_main;
+#X msg 358 246 bang;
+#X msg 356 306 start;
+#X msg 465 361 open /root/notes_and_projectsNOW/talkretalk/archive/bigone.wav
+;
+#X msg 566 299 stop;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;
