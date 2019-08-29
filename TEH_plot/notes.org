@@ -11,7 +11,7 @@
 
 - add delay at start of calibration and throw away first measurement (also always measure darkness twice and discard???means???)
 
-- wrap pi code so always restarts so we can plug in any order -> where?
+- wrap pi code so always restarts so we can plug in any order -> where?DONE
 
 - use pi as backup/instead of desktop pc
 - on ouroboric.py use keypress to adjust +/- the width of the line!
@@ -178,7 +178,14 @@ values: black/50 white/120???
 
 brown to gnd
 
-orange to a5, red to a4
+orange to a5, red to a4 (a4, a5 on arduino)
+
+now we have: 
+
+A5 = yellow -> pi SCL 3 [from power bottom - left 1 pin up]
+A4 = purple -> pi SDA 5 
+black = gnd -> next to purple/5 (pin 6)
+
 
 ** stepper
 

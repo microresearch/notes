@@ -256,6 +256,12 @@ def calibrate():
     # first is w/b/w/b/w
 
     # maybe wait until we get data which is not 0 so now pi is running then get rest of data...
+
+    #- add delay at start of calibration and throw away first measurement (also always measure darkness twice and discard???this means what???)
+    sleep(5)
+
+    # do this twice - we start on white!!!
+    
     while (white==0):
         sleep(1)
         ser.flushOutput()
@@ -273,7 +279,24 @@ def calibrate():
                 white=int(data[0]) 
             except:
                 white=0
-
+    while (white==0):
+        sleep(1)
+        ser.flushOutput()
+        ser.flushInput()
+        ser.write("Q\n") # white
+        sleep(.1)
+        try:
+            line = ser.readline()
+            data = [val for val in line.split()]
+            #            print data
+        except KeyboardInterrupt:
+            print('exiting')
+        if len(data)>0:
+            try:
+                white=int(data[0]) 
+            except:
+                white=0
+                
     ser.write("R")
     ser.flushOutput()
     ser.flushInput()
