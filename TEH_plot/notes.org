@@ -243,6 +243,17 @@ int light=9;
 
 note that arduino is connected to psu gnd through stepper thing!
 
+
+** parts
+
+g2 pulley -reprapworld
+
+ 	GT2x9mm Timing belt (per meter) 	€ 21.00  	21.0000
+1 	GT2 driven pulley with bearing (20 teeth / 9 mm belt / 3 mm ID) 	€ 4.99  	4.9900
+2 	GT2 driven pulley with bearing (no teeth / 9 mm belt / 3 mm ID) 	€ 4.99  	9.9800
+  	  	  	
+
+
 * derbyshire sites (checked on mindat and google maps - there might be more?):
 
 route: https://www.google.de/maps/dir/Manchester+Airport+%28MAN%29,+Manchester,+UK/53.163973,-1.49179/%0953.294722222222+,+-1.6722222222222/%0953.13111,-1.62778/'53.15528,-1.47333'/'53.15167,-1.48694'/@53.1492512,-1.7800078,10z/data=!4m25!4m24!1m5!1m1!1s0x487a52c0dfd893c5:0x8b0b8247e5e4a5e0!2m2!1d-2.2727303!2d53.3588026!1m0!1m3!2m2!1d-1.6722222!2d53.2947222!1m3!2m2!1d-1.62778!2d53.13111!1m3!2m2!1d-1.47333!2d53.15528!1m3!2m2!1d-1.48694!2d53.15167!3e0

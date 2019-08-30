@@ -17,11 +17,8 @@ Main elements are:
 
 * 2 - take out rail and place on long table - raise a bit to avoid scratches
 
-* 2.5 attach perspex sides to the rail at each end with bolts
 
-you need to place some heavy bricks either side of the perspex sides to keep things steady. make sure these don't get in the way of the head
-
-* 3 - slide head carefully on to rail
+* 2.1 - slide head carefully on to rail
 
 place pump assembly behind the rail in the middle of the table area at the back
 
@@ -30,6 +27,14 @@ you may need to loosen the four bits on the underside of the metal sliding head
 avoid scratching the rail - the head should slide very smoothly up and down the rail
 
 the two switches should make contact with the ends of the rail
+
+
+* 2.5 attach perspex sides to the rail at each end with bolts
+
+the four holes on each side should be towards the back of the rail!
+
+you need to place some heavy bricks either side of the perspex sides to keep things steady. make sure these don't get in the way of the head
+
 
 * 4 - thread pulley through motor and attach to perspex sides at each end of the rail
 
@@ -60,7 +65,7 @@ plug in power supply, pi power supply (from head) to power strip
 
 do not plug power strips to mains power
 
-* 6.5
+* 6.5 - visual check all
 
 visual check - check all wires and pipes - does anything look loose or
 unconnected. if it is not covered here then please call me before
@@ -119,7 +124,7 @@ Place the calibration box to the right of the leftmost rail side and
 make sure that with the head far left a black square is under the
 camera of the head
 
-place sand, rocks, e-waste spread out across all the way that the head will follow
+place first a layer of sand, rocks, e-waste spread out across all the way that the head will follow 
 
 check that the head is not stopped in its movement by anything
 
