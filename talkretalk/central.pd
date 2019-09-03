@@ -72,7 +72,7 @@
 #X obj 298 401 + 10;
 #X floatatom 648 418 5 0 0 0 - - -, f 5;
 #X obj 1056 150 s~ archive_main;
-#X obj 268 474 tgl 15 0 empty empty empty 0 -6 0 8 -262144 -1 -1 0
+#X obj 268 474 tgl 15 0 empty empty empty 0 -6 0 8 -262144 -1 -1 1
 1;
 #X floatatom 665 582 5 0 0 0 - - -, f 5;
 #X msg 34 235 bang;
@@ -295,8 +295,13 @@
 #X obj 615 290 s~ lpcin2;
 #X obj 539 262 *~ 0.005;
 #X obj 635 265 *~ 0.005;
+#X obj 890 24 changelpc;
+#X obj 631 342 s lpc1;
+#X floatatom 628 319 5 0 0 0 - - -, f 5;
+#X text 628 364 lpc coeffs here!!;
 #X connect 0 0 63 0;
 #X connect 0 0 28 0;
+#X connect 0 0 140 0;
 #X connect 3 0 78 0;
 #X connect 13 0 76 0;
 #X connect 29 0 73 0;
@@ -326,7 +331,6 @@
 #X connect 79 0 68 0;
 #X connect 80 0 64 0;
 #X connect 80 0 120 0;
-#X connect 80 0 140 0;
 #X connect 97 0 72 0;
 #X connect 105 0 104 0;
 #X connect 106 0 101 0;
@@ -358,3 +362,4 @@
 #X connect 137 0 92 0;
 #X connect 140 0 138 0;
 #X connect 141 0 139 0;
+#X connect 144 0 143 0;

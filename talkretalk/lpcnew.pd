@@ -2,11 +2,11 @@
 #X obj 247 210 hsl 121 15 100 10000 0 1 empty empty filter-f -2 -6
 0 8 -225280 -62784 -90133 2909 1;
 #X floatatom 244 225 0 0 0 0 - - -;
-#N canvas 1 50 453 387 lpc-resynth 0;
-#X obj 27 199 lpreson~;
+#N canvas 1 50 453 387 lpc-resynth 1;
+#X obj 28 186 lpreson~;
 #X obj 28 244 hip~ 18;
 #X obj 27 49 inlet~;
-#X obj 145 64 inlet;
+#X obj 122 64 inlet;
 #X obj 202 34 inlet;
 #X obj 99 118 inlet~;
 #X obj 28 318 outlet~;
@@ -14,7 +14,7 @@
 #X obj 99 135 hip~ 1000;
 #X obj 27 216 lop~ 1000;
 #X obj 316 54 inlet;
-#X obj 27 111 lpc~ 32;
+#X obj 28 122 lpc~ 32;
 #X obj 27 152 *~ 1;
 #X obj 99 152 *~ 0;
 #X obj 202 51 sel 0 1;
@@ -33,6 +33,7 @@
 #X obj 142 221 tabreceive~ hanning;
 #X text 151 296 overlapping windows are essential;
 #X text 151 308 otherwise clicks will result;
+#X obj 252 175 s coeffs;
 #X connect 0 0 9 0;
 #X connect 1 0 26 0;
 #X connect 2 0 7 0;
@@ -47,6 +48,7 @@
 #X connect 10 0 8 1;
 #X connect 11 0 12 0;
 #X connect 11 1 0 0;
+#X connect 11 1 30 0;
 #X connect 12 0 0 0;
 #X connect 13 0 0 0;
 #X connect 14 0 17 0;
