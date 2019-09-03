@@ -182,10 +182,15 @@ orange to a5, red to a4 (a4, a5 on arduino)
 
 now we have: 
 
-A5 = yellow -> pi SCL 3 [from power bottom - left 1 pin up]
+A5 = yellow -> pi SCL 3 
 A4 = purple -> pi SDA 5 
 black = gnd -> next to purple/5 (pin 6)
 
+
+from bottom left
+BY
+xP
+xx
 
 ** stepper
 

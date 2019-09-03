@@ -266,7 +266,7 @@ def calibrate():
         sleep(1)
         ser.flushOutput()
         ser.flushInput()
-        ser.write("Q\n") # white
+        ser.write("Q\n") # white1
         sleep(.1)
         try:
             line = ser.readline()
@@ -279,11 +279,12 @@ def calibrate():
                 white=int(data[0]) 
             except:
                 white=0
+
     while (white==0):
         sleep(1)
         ser.flushOutput()
         ser.flushInput()
-        ser.write("Q\n") # white
+        ser.write("Q\n") # white1
         sleep(.1)
         try:
             line = ser.readline()
@@ -301,7 +302,7 @@ def calibrate():
     ser.flushOutput()
     ser.flushInput()
     sleep(10)
-    ser.write("Q\n") # black
+    ser.write("Q\n") # black2
     sleep(.1)
     try:
         line = ser.readline()
@@ -319,7 +320,7 @@ def calibrate():
     ser.flushOutput()
     ser.flushInput()
     sleep(10)
-    ser.write("Q\n") # white
+    ser.write("Q\n") # white3
     sleep(.1)
     try:
         line = ser.readline()
@@ -337,7 +338,7 @@ def calibrate():
     ser.flushOutput()
     ser.flushInput()
     sleep(10)
-    ser.write("Q\n") # black
+    ser.write("Q\n") # black4
     sleep(.1)
     try:
         line = ser.readline()
@@ -355,7 +356,7 @@ def calibrate():
     ser.flushOutput()
     ser.flushInput()
     sleep(10)
-    ser.write("Q\n") # white
+    ser.write("Q\n") # white5
     sleep(.1)
     try:
         line = ser.readline()
