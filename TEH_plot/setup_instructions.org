@@ -1,3 +1,11 @@
+* 0 packing list
+
+- check head, pumps, power supplies, rocks, books, e-waste, ceramic thing,
+  USB key, bolts, misc bolts, spare pump, spare motor, pi for dekstop,
+  acrifix glue, side bits and pulley thing, top to be glued to head, psu, cable ties
+
+/////
+
 See general set up and installation images to get an idea of the layout:
 
 Main elements are:
@@ -15,27 +23,52 @@ Main elements are:
 
 * 1 - carefully remove head and pump assembly from case and spread out elements
 
+
+* 1/5 remove backing from all perspex pieces (2 sides, 4x side/pulley clamps and 2 risers)
+
 * 2 - take out rail and place on long table - raise a bit to avoid scratches
 
-* 2.5 attach perspex sides to the rail at each end with bolts
 
-you need to place some heavy bricks either side of the perspex sides to keep things steady. make sure these don't get in the way of the head
-
-* 3 - slide head carefully on to rail
+* 2.1 - slide head carefully on to rail
 
 place pump assembly behind the rail in the middle of the table area at the back
 
-you may need to loosen the four bits on the underside of the metal sliding head 
+you may need to loosen the four bits on the underside of the metal sliding head to get it on the rail
 
 avoid scratching the rail - the head should slide very smoothly up and down the rail
 
-the two switches should make contact with the ends of the rail
+* 2.2 connect head and pump assembly
 
-* 4 - thread pulley through motor and attach to perspex sides at each end of the rail
+- using perspex glue (acrifix) glue the top head bits/risers which will support the pipes and wires so they don't get tangled up when in operation
+- wait for glue to dry (one hour)
+- three wires marked connect to arduino - how? with orange/L labelled wire towrads front of head
+- two pipes cables cable tied in to front
+- power supply connection brown from pumps->black, red from pumps->red, black from head->red, red from head->red
+- cable tie pipes and all cables to the two risers
+
+* 2.5 attach perspex sides to the rail at each end with bolts
+
+the four holes on each side should be towards the back of the rail!
+
+you need to place some heavy bricks either side of the perspex sides to keep things steady. make sure these don't get in the way of the head
+
+slied up and down and check that the two switches make contact with the
+ends of the rail - if necessary place blocks closer in so that they
+make contact sooner
+
+
+* 4 - attach pulley to left perspex side using 2 perspex clamp bits on each side, 2 bolts and 4 nuts with thread inside 
+
+thread through motor assembly/wheels with thread on inside
+
+tighten the pulley and clamp to other side
 
 the assembly should still move up and down freely by hand - it should not be too loose or tight
 
 it can easily be adjusted at any time
+
+double check smooth transport and that switches engage each side - if
+necessary place blocks closer in so that they make contact sooner
 
 * 5- mix chemistry and distilled water
 
@@ -52,7 +85,9 @@ distilled water bottle, the other two pipes into the two other
 bottle. it doesn't matter which. the two chemical bottles should be
 completely covered in foil or black wrap to keep the light out.
 
-* 6- hook up power supply
+* 6- check power supply and plug in plugs to power strip
+
+with nothing attached switch on power supply and check is around 12.00 on lower display (say 11.94->12.30)
 
 red wire to red (right hand connector), black to black (left hand connector)
 
@@ -60,7 +95,7 @@ plug in power supply, pi power supply (from head) to power strip
 
 do not plug power strips to mains power
 
-* 6.5
+* 6.5 - visual check all
 
 visual check - check all wires and pipes - does anything look loose or
 unconnected. if it is not covered here then please call me before
@@ -82,23 +117,25 @@ a new window should open - if it doesn't and there is an error go back and selec
 
 - in the top send portion 
 
-type: R (followed by return) - the head should move right
+type: R (followed by SEND) - the head should move right
 
-L (followed by return) - the head should move left
+L (followed by SEND) - the head should move left
 
 - check by moving the head with these commands that it moves smoothly to each end of the rail
 
-- type E (followed by return) - the light pump should pump
+- type E (followed by SEND) - the light pump should pump
 
 repeat this step until water drips from the head
 
-- type E (followed by return) - the light pump should pump
-
-repeat this step until water drips from the head
-
-- type W (followed by return) - the other 2 pumps should pump
+- type W (followed by SEND) - the other 2 pumps should pump
 
 repeat this step until dark chemistry drips from the head
+
+check pi: Q (SEND) to query light/dark - it should give a number (not zero)
+
+check edge switches - if you hold the left switch down and type L
+(SEND) then it should not move, if you hold the right switch down and
+type R (SEND) then it should not move
 
 switch off all power. Check for any leaks and if necessary re-attach any pipes and tighten any connections.
 
@@ -116,10 +153,10 @@ also function instead of the PC if necessary.
 * 9- calibration box placed and sand etc arranged
 
 Place the calibration box to the right of the leftmost rail side and
-make sure that with the head far left a black square is under the
+make sure that with the head far left a white square is under the
 camera of the head
 
-place sand, rocks, e-waste spread out across all the way that the head will follow
+place first a layer of sand, rocks, e-waste spread out across all the way that the head will follow 
 
 check that the head is not stopped in its movement by anything
 

@@ -182,10 +182,15 @@ orange to a5, red to a4 (a4, a5 on arduino)
 
 now we have: 
 
-A5 = yellow -> pi SCL 3 [from power bottom - left 1 pin up]
+A5 = yellow -> pi SCL 3 
 A4 = purple -> pi SDA 5 
 black = gnd -> next to purple/5 (pin 6)
 
+
+from bottom left
+BY
+xP
+xx
 
 ** stepper
 
@@ -242,6 +247,17 @@ int darktwo=11;
 int light=9;
 
 note that arduino is connected to psu gnd through stepper thing!
+
+
+** parts
+
+g2 pulley -reprapworld
+
+ 	GT2x9mm Timing belt (per meter) 	€ 21.00  	21.0000
+1 	GT2 driven pulley with bearing (20 teeth / 9 mm belt / 3 mm ID) 	€ 4.99  	4.9900
+2 	GT2 driven pulley with bearing (no teeth / 9 mm belt / 3 mm ID) 	€ 4.99  	9.9800
+  	  	  	
+
 
 * derbyshire sites (checked on mindat and google maps - there might be more?):
 

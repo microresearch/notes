@@ -15,13 +15,16 @@
 * packing
 
 - basic final session setup//eurorack+cables//incenses
+
+just for heat! no laser 
+
 - dark interpreter
 - all cables - audio/power/network
-- soundcard
-- pickups/contacts - TODO: cabling
-- fermented products
-- radio receivers/scanner thing/arduino and mycelial transmitters - for data radio, cables???
-- ohp transparencies and pens
+- new soundcard
+- pickups/contacts 
+- fermented products KIMCHI?
+- radio receivers/arduino and mycelial transmitters - for data radio, cables???
+- ohp transparencies and pens(?)
 - arduino and temperature sensor
 
 * acts/schedule
