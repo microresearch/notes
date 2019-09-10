@@ -368,7 +368,9 @@ usb light?ordered
 - /root/rsync2016/livework
 - https://l3net.wordpress.com/2013/09/21/how-to-build-a-debian-livecd/
 
-: xorriso -as mkisofs -r -J -joliet-long -l -cache-inodes -isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin -partition_offset 16 -A "Debian Live"  -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -o zagreb2.iso binary
+- mksquashfs... remove old one
+
+: xorriso -as mkisofs -r -J -joliet-long -l -cache-inodes -isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin -partition_offset 16 -A "Debian Live"  -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -o tehcac.iso binary
 
 
 * zagreb 

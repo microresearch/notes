@@ -143,7 +143,7 @@ switch off all power. Check for any leaks and if necessary re-attach any pipes a
 
 plug power into power strip. do not attach to mains or turn on
 
-attach usb cable to head
+Plug USB cable from head into computer or PI (see below).
 
 with computer powered but nothing else, switch on and check that it
 boots from the USB stick. If not you will need to maybe enter the BIOS
