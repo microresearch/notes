@@ -2,7 +2,7 @@
 
 - check head, pumps, power supplies, rocks, books, e-waste, ceramic thing,
   USB key, bolts, misc bolts, spare pump, spare motor, pi for dekstop,
-  acrifix glue, side bits and pulley thing, top to be glued to head, psu, cable ties
+  acrifix glue, side bits and pulley thing, top to be glued to head, psu, cable ties, calibration chart
 
 /////
 
@@ -152,8 +152,10 @@ also function instead of the PC if necessary.
 
 * 9- calibration box placed and sand etc arranged
 
+Glue or tape the calibration chart to a 6cm high cardboard box or book.
+
 Place the calibration box to the right of the leftmost rail side and
-make sure that with the head far left a white square is under the
+make sure that with the head far left a white square is directly underneath  the
 camera of the head
 
 place first a layer of sand, rocks, e-waste spread out across all the way that the head will follow 
