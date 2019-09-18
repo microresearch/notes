@@ -1,0 +1,305 @@
+#+TITLE: T>E>H now zagreb dec 2018
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c)  noexport(n)
+#+CATEGORY:   index
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:nil -:nil f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
+#+LINK_HOME: /org
+
+
+* notes for next setup - TODO
+
+- add delay at start of calibration and throw away first measurement (also always measure darkness twice and discard)
+- wrap pi code so always restarts so we can plug in any order
+
+* to pack if we go
+
+- solder, soldering iron, spare wire, multimeter
+- bolts
+- bolt turning set
+- ethernet cable
+- calibrationb chart
+
+* zagreb TODO
+
+- +shield chemistry+
+- +mix chemistry and re-test pumps+
+- +test steppers script+
+- +new calibration chart to PRINT+
+
+address for pi?
+
+192.168.1.10
+
+17/12 - we changed ouroboric.py for random programs on reset, random tape, also changed calibration code
+
+now: tehzagreb2.iso
+
+todo: we could print the program, clean up text, program has more states
+
+18/12 - reverted back but we don't reset the real head to beginning ...
+
+* manchester
+
+set up 3-6/7 Manchester = igus dryling rail, system profile, scrap pc parts and rocks
+
+opening FRI 6th 3-rocks and materials/4-basic setup/tests/5-tweak and bootusb - pumps and water/6-final
+
+
+* new notes
+
+pi is always last to start please!
+
+finished new boot image: dd tehnew.iso image ->
+
+chemicals shielded from light - foil?
+
+* shutdown/startup instructions
+
+It's quite simple and all about the order things start in (one thing needs to plug in after the software starts).
+
+STARTUP>
+
+- Before you switch on at the wall check that one of the four plugs in
+  the row on the table right - the one with masking tape on it and
+  looks like an adapter - is NOT plugged in. So if it is plugged in,
+  unplug it.
+
+- Check that nothing looks broken, weird(?) or that no leaks appear (liquid on floor).
+
+- Switch on at the wall power the right hand of the two.
+
+- Turn on the computer by pressing the round button on the front.
+
+- The computer should start up and screen blink on.
+
+- At this point wait until the head which has the pipes and light on
+  starts whirring and moving slowly left. At this point plug in the
+  adapter/masking taped plug. You have a bit of time to do this so
+  don't rush.
+
+- After a while the thing should start to do its thing.
+
+SHUTDOWN>
+
+- Switch off the wall power (right hand side).
+
+- Unplug the adapter/masking taped plug from the four socket adapter thing.
+
+That's it.
+
+*  notes
+
+** remote camera test
+
+mplayer -fps 200 -demuxer h264es ffmpeg://tcp://10.0.1.3:2222 on laptop
+
+raspivid -t 0 -w 1280 -h 720 -hf -ih -fps 20 -o - | nc -k -l 2222 on pi
+
+values: black/50 white/120???
+
+** pi wires
+
+brown to gnd
+
+orange to a5, red to a4
+
+** stepper
+
+NOTES: remember to take lab power supply!
+
+https://www.pololu.com/product/2133
+
+https://a.pololu-files.com/picture/0J4233.600.png?665d623ba84232de64511d8aa6644836
+
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  pinMode(3, OUTPUT); //step
+pinMode(4, OUTPUT); //dir
+ digitalWrite(4, LOW);  
+}
+
+// the loop function runs over and over again forever
+void loop() {
+   digitalWrite(3, HIGH);
+    // delay(10);      
+   digitalWrite(3, LOW);  
+  delay(10);                 
+}
+
+
+with heatsink at bottom:
+
+top right side:
+
+blue: VMOT +6V/12V
+
+black: GND
+
+to motor: yellow,red, green, blue on NEMA (soldered from left as YXGRXB
+
+red: LOGIC PWR 5v arduino
+
+black: GND
+
+
+top left side:
+
+green: STEP=2
+
+yellow: DIR=3
+
+** pumps 
+
+all tested and working on pins: 
+
+int darkone=10;
+int darktwo=11;
+int light=9;
+
+note that arduino is connected to psu gnd through stepper thing!
+
+* derbyshire sites (checked on mindat and google maps - there might be more?):
+
+route: https://www.google.de/maps/dir/Manchester+Airport+%28MAN%29,+Manchester,+UK/53.163973,-1.49179/%0953.294722222222+,+-1.6722222222222/%0953.13111,-1.62778/'53.15528,-1.47333'/'53.15167,-1.48694'/@53.1492512,-1.7800078,10z/data=!4m25!4m24!1m5!1m1!1s0x487a52c0dfd893c5:0x8b0b8247e5e4a5e0!2m2!1d-2.2727303!2d53.3588026!1m0!1m3!2m2!1d-1.6722222!2d53.2947222!1m3!2m2!1d-1.62778!2d53.13111!1m3!2m2!1d-1.47333!2d53.15528!1m3!2m2!1d-1.48694!2d53.15167!3e0
+
+https://ukfossils.co.uk/2011/03/11/butts-quarry/
+
+https://www.google.de/maps/dir/Manchester+Airport+%28MAN%29,+Manchester,+UK/53.163973,-1.49179/@53.2640202,-2.4460329,9z/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x487a52c0dfd893c5:0x8b0b8247e5e4a5e0!2m2!1d-2.2727303!2d53.3588026!1m0!3e0
+
+Ladywash mine: https://www.mindat.org/loc-1493.html way off? british flourpar company mine close by?
+
+Bonsall moor quarry: https://www.mindat.org/loc-4715.html - maybe on way to ashover...
+
+Milltown quarry: https://www.mindat.org/loc-1482.html close to ashover
+
+Gregory mine: https://www.mindat.org/loc-818.html close to ashover
+
+https://pdmhs.co.uk/derbyshire-industrial-heritage-sites/
+
+* frame and carriage
+
+2m long -  q of transport unless we just use off-shelf steel/aluminium as in:
+
+http://www.instructables.com/id/CoreXY-CNC-Plotter/ see: coreXY_parts_list.txt (2m lengths 1.5mm x 20mm x20mm Tee-section aluminium extrusion, drive belts etc)
+
+or use two sets ordered to berlin and manchester
+
+http://www.slidercam.ch/ uses https://www.igus.de/wpck/19782/DryLin_W_konfig drylin
+
+https://legotronics.wordpress.com/2015/11/24/diy-3-axis-cnc-router-prototype/ uses screw thread
+
+https://www.damencnc.com/products/mechanical-components/hiwin-linear-guideways/hg-standard-series/hgh-carriage-square-type/_404_w_197__GB_1 - carriages and rails
+
+(also has drylin)
+
+as in: https://3dwarehouse.sketchup.com/model.html?id=ff37fb1c-6565-4be0-96f1-48dfcefd3b59
+
+drylin: WS-16-60 	drylin® W, Linearführungssystem 	Länge 2000 mm
+WW-16-60-10 	drylin® W, Linearführungssystem 	 
+
+* chem/materials 
+
+for the head, cable ties, extensions, plastic tubing (reichelt), 
+
+ammonium iron(III) citrate and potassium ferricyanide
+
+Ammoniumeisen III citrat , grün
+
+ equal volumes of an 8.1% (w/v) solution of potassium ferricyanide and
+ a 20% solution of ferric ammonium citrate are mixed. Rinse after
+ this.
+
+
+ Solution A: 25 grams Ferric ammonium citrate (green) and 100 ml. water. - so for 1l = 250g=what we have...
+ Solution B: 10 grams Potassium ferricyanide and 100 ml. water. 1l=100g=what we have
+
+
+chem: add Ammonium ferric citrate to water into one container and
+Potassium ferricyanide to water in another. Stir with a plastic spoon
+until the chemicals dissolve. Mix equal quantities of each solution
+together in a third container. *Unused solutions can be stored
+separately in brown bottles away from light, but will not last very
+long once they have been mixed.*
+
+2 seperate solutions, 3/4 pumps
+
+* notes on electronics and pi
+
+- NEMA17 stepping motor (segor), psu and driver for arduino
+- lighting on head
+- 3 or 4 pumps: segor membranpumpe = diameter? measure?
+
+* tech we need/and building
+
+- old pc and monitor, necessary cables
+- table-like base for T.E.H - 2m+ by 70cm - height?
+- plastic sheeting over base and on the floor
+
+
+
+* packing
+
+- pyrites from studio
+- power splitter and adapter
+- lab power supply
+- [small PC and] USB plus all necessary cables
+- pumps (middle is outflow) and spares, all tubing and connectors
+- chemistry, *scales* and possibly glassware
+- slider head and perspex head
+- all cogs, drive belt and attachments and spares
+- motor, electronics-motor controller, switches, pi+cam, arduino, usb cables, power supply for pi, wire, breadboards, spare stuff
+- rocks, books, own publication!, montreal stuff inc. fan thing
+- cable ties, tools, spare cables, perspex parts, clamps
+- computer junk
+- calibration print
+- light for head/torch or find usb light
+
+TO GET THERE: side support materials- breeze blocks, distilled water =2L and bottles=larger than!!!
+
+height above rocks of rail should be about 180mm/200mm
+
+120mm + 60 + 150 for rocks = 330
+
+usb light?ordered
+
+* bootable USB
+
+- /root/rsync2016/livework
+- https://l3net.wordpress.com/2013/09/21/how-to-build-a-debian-livecd/
+
+: xorriso -as mkisofs -r -J -joliet-long -l -cache-inodes -isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin -partition_offset 16 -A "Debian Live"  -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -o zagreb2.iso binary
+
+
+* zagreb 
+
+- steppers and switches working
+- TODO: new pipes/cleaned/fix, test pumps, all
+- computer/cables tested...
+
+
+
+* TODO:
+
+- any shipping from canadaX
+- order: piX, pi-cameraX, motorX, mechanical partsX, steel strutsXS, timing beltX, pulleys/cogs etc.X
+- order parts for UK, cmp junk for UKX
+
+- QUESTIONS: nozzles for dripping and mix point for 2 chemistries,
+  brackets and connection materials, any laserprints, modify/ what we
+  strip out from ouroboros.py, final bootable USB, SWITCHES for ends,
+  what to do if gets stuck at end, electronics for pumps and stepper
+  control, distro and i2c for pi
+
+so: transport control, pumps, pc side, arduino, pi, structure, rocks and stuff
+
+pi+cam+power X
+|
+two wire interface to 
+|
+Arduino - add command for hit switches, add extra pump control -----> switches/3x pump controls/motor controller
+|
+USB (power also) to PC
+|
+PC with bootable USB - new software and redo BOOTABLE
