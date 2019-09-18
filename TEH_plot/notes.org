@@ -27,6 +27,13 @@ exit 0
 
 - add SAND to materials list // check last mail - search CAC
 
+* to pack if we go
+
+- solder, seoldering iron, spare wire, multimeter
+- bolts
+- bolt turning set
+- ethernet cable
+
 * shipping/tech shanghai
 
 Tech rider with materials which need to be prepared in Shanghai:

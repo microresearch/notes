@@ -6,9 +6,13 @@ https://github.com/mikalhart/TinyGPS
 
 or neogps library....
 
+SdFat library: https://github.com/greiman/SdFat (on x220 we had to edit for the yield function and change sd.init to sd.begin)
+
 TODO: to test/fixed up for our GPS/ SD pins, sd write worksDONE, test
 later with new GPS-DONE, new library to try=neogps, not accurate so
 test outside TODO
+
+18/9/2019: added AD8313 averaging, logging and flashing of pin3 on descending power, may have to adjust attenuation manually
 
 FINAL:
 
@@ -42,6 +46,7 @@ neogps library: https://github.com/SlashDevin/NeoGPS
 #define SAMPLE_INTERVAL_MS 500
 
 #define PIN_STATUS_LED 13
+#define COMPASS 3
 
 #define PIN_RX_FROM_GPS 5 // THIs is TX on board
 #define PIN_TX_TO_GPS 3 // ignore this one
@@ -133,7 +138,8 @@ void setUpSd() {
     sd.initErrorHalt();
     }*/
 
-  if(!sd.init(SPI_FULL_SPEED, PIN_SD_CHIP_SELECT))  // initialize SD card on the SPI bus - very important - was HALF_SPEED
+  //  if(!sd.init(SPI_FULL_SPEED, PIN_SD_CHIP_SELECT))  // initialize SD card on the SPI bus - very important - was HALF_SPEED
+    if(!sd.begin(PIN_SD_CHIP_SELECT, SPI_FULL_SPEED))  // initialize SD card on the SPI bus - very important - was HALF_SPEED
   {
     delay(10);
     //    SDcardError();
@@ -396,32 +402,35 @@ void setup() {
   pinMode(PIN_STATUS_LED, OUTPUT);
   digitalWrite(PIN_STATUS_LED, HIGH);
   Serial.begin(115200);
-    setupadc(); // 
+  setupadc(); // 
   
   
-  setUpSd();
-  getFirstGpsSample();
-  startFilesOnSdNoSync(); //???
+    setUpSd();
+    getFirstGpsSample();
+    startFilesOnSdNoSync(); //???
   
   
   digitalWrite(PIN_STATUS_LED, LOW);
 }
 
 void loop() {
-  int y, accum, x, www, c, xx=0;
+  uint16_t y, accum, x, c;
+  static int32_t www, oldwww=0;
   digitalWrite(PIN_STATUS_LED, HIGH);
   
   //  writeGpxSampleToSd();
 
+  
   readFromGpsUntilSampleTime();
   readFromGpsSerial();
   fillGpsSample(gps);
   //    if (sample.fix_age_ms <= SAMPLE_INTERVAL_MS) {
   writeGpxSampleToSd();
   //    }
-
+  
   
   // do our random thing which takes 200x 16ms = 3.2s but looks like 3.7s - more like 7s - for 100 randoms we have 4s
+  /*
   accum=0;
 // how long does this take?
   unsigned long start = millis();
@@ -438,7 +447,26 @@ void loop() {
     xx=0;
   }
 
-	randomm=accum;
+  randomm=accum;
+  */
+
+  // for testing - log AD8313 values on ADCx
+  www=0;
+  for (x=0;x<128;x++){ // average 64 readings
+  www += analogRead(1);
+  delay(1);
+  }
+  www=www/128;
+
+  if (oldwww-www>4) digitalWrite(COMPASS, LOW); // off if descending
+  else digitalWrite(COMPASS, HIGH);
+
+  Serial.println(oldwww-www);
+
+  
+  randomm=www;
+  oldwww=www;
+
 	//  delay(1000);
 	/*		Serial.print(randomm);
 		Serial.print(" ,");

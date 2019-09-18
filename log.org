@@ -85,3 +85,7 @@ and hold down reset first until it starts uploading
 - also mix back filter feedback is very crackly and could pulse nicely somehow?
 - check paths
 
+* 13/9/2019
+
+- compiling ERD/WORM on new x220 we needed to add flash section to flash.ld file to place .flash in FLASH and not in RAM
+- nvp code now crashes - probably to do with packing!
