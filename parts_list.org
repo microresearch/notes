@@ -651,130 +651,30 @@ reichelt: SL 1X40G 2,54
 
 ** for extra 3x worm
 
-| 100K         R5        ;                                             |
-| 100K         R7        ;                                             |
-| 100K         R8        ;                                             |
-| 100K         R12       ;                                             |
-| 100K         R16       ;                                             |
-| 100N         C1        ;                                             |
-| 100N         C2        ;                                             |
-| 100N         C3        ;                                             |
-| 100N         C4        ;                                             |
-| 100N         C5        ;                                             |
-| 100N         C9        ;                                             |
-| 100N         C10       ;                                             |
-| 100N         C11       ;                                             |
-| 100N         C32       ;                                             |
-| 100N         C33       ;                                             |
-| 100nF        C13       ;                                             |
-| 100nF        C15       ;                                             |
-| 100nF        C16       ;                                             |
-| 100nF        C17       ;                                             |
-| 100nF        C18       ;                                             |
-| 10K          R2        ;                                             |
-| 10u          C14       ; xXsegor ??  3x20/25v, 2x10v, 5x6v -we have- |
-| 10u          C20       ;                                             |
-| 10u          C27       ;                                             |
-| 10u          C34       ;                                             |
-| 10uF         C21       ;                                             |
-| 10uF         C22       ;                                             |
-| 10uF         C23       ;                                             |
-| 10uF         C24       ;                                             |
-| 10uF         C25       ;                                             |
-| 10uF         C26       ;                                             |
-| 18pF         C28       ; 22pf                                        |
-| 18pF         C29       ;                                             |
-| 1K           R33       ;                                             |
-| 1N           C6        ;                                             |
-| 1N           C7        ;                                             |
-| 1N           C8        ;                                             |
-| 1N           C12       ;                                             |
-| 1N           C19       ;                                             |
-| 2.2uF        C35       ; x Xsegor ??                                 |
-| 2.2uF        C36       ;                                             |
-| 200K         R3        ; x - segor X -X                              |
-| 200K         R4        ;                                             |
-| 200K         R6        ;                                             |
-| 200K         R11       ;                                             |
-| 200K         R13       ;                                             |
-| 220P         C31       ; x - segorX -X                               |
-| 22P          C30       ;                                             |
-
-| 27K          R24       ; x - reichX  -OO ?? GG         
-| 330R         R26       ;             
-| 33K          R28       ; x - reichX -X          
-| 39K          R18       ; x - reichX -X           
-| 39K          R29       ;             
-| 4.7K         R30       ;             
-| 4.7K         R31       ;             
-| 4.7uF        C38       ; xX segor -- we have 20            
 | 470R         R1        ; x - reichX -X           
 | 5.6K         R27       ; x - reichX -X           
 | 5.6K         R32       ;             
 | 5.6K         R34       ;             
-| 66.5K        R9        ; x - mouserX -X           
-| 66.5K        R10       ;             
-| 66.5K        R14       ;             
-| 66.5K        R15       ;             
-| 66.5K        R17       ;             
 | 8 MHz        X1        ; x - reichX            
-| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK1     ;             
-| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK2     ;             
-| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK3     ;             
-| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK4     ;             
-| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK5     ;             
-| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK6     ;             
-| AUDIO-JACKERTHENVAR_ERTHENVAR-JACK JACK7     ;             
-
-| AUDIOINT_WM8731 audioint1 ; x - mouserX                            |GG
-
-| DIODE        D3        ; x protection as on all=  - 1N5819HW-7-F X | -X ??CHECK??
-| DIODE        D4        ; x                                         |
-| INDUCTOR     L1        ;                                           | 81-BLM18BD252SN1D mouser have 18 7+25=32 say 40 GG
-| LED          D2        ; x - reich X                               | -OO ??CHECK??
-
-| LM1117-3.3V  U7        ; ebay                                      |check??
-| LM1117-5V    U8        ; ebay                                      |check??
 
 | LME          U5        ; xLME49720 - mouser X                      | have5 GG
 | MCP          U6        ; xMCP6002 - mouserX                        | have maybe 90odd so enough for 25
 | MCP          U9        ;                                           |
 | MCP          U10       ;                                           |
 
-| POT          RV1       ;                                           |
-| POT          RV2       ;                                           |
-| POT          RV3       ;                                           |
-| POT          RV4       ;                                           |
-| POT          RV5       ;                                           |
-
-| STM32F405RGT6 U14      ; x LQFP64 - mouser  |X GG
-| SWD          P45       ; 4 pins - reich X   |
-
 | ZENER        D5        ; LM4040B10   595-LM4040C10IDBZR  - mouser  X -have10 GG
 
 
 ** All colours test
 
-check caps and resistors
-
 4		C-device-allcolours-rescue	C6	10p	C_0805	1	
-6		C-device-allcolours-rescue	C41 C59 C60 C64	18p	C_0805	4	
-8		CP1_Small-device-allcolours-rescue	C1 C4	47u	SMD-1206_Pol	2	
+8		CP1_Small-device-allcolours-rescue	C1 C4	47u	SMD-1206_Pol	2	- we have 6.3V?
 
 12		D_Zener_Small-device-allcolours-rescue	D1	LM4040	SOT-23	1	https://en.wikipedia.org/wiki/Zener_diode
 
-18		Q_NPN_BEC-device-allcolours-rescue	Q2 Q4 Q7 Q9 Q10 Q11 Q12 Q13 Q23 Q24	MMBT3904	SOT-23	10	
-19		Q_NPN_BEC-device-allcolours-rescue	Q1 Q3 Q5 Q6	Q_NPN_BEC	SOT-23	4	
-
-24		R-device-allcolours-rescue	R2	150K	R_0805	1	
-27		R-device-allcolours-rescue	R50 R51 R52 R53 R54 R55	200K	R_0805	6	
-28		R_Small-device-allcolours-rescue	R85 R94 R96 R97	200K	R_0805	4	
 29		R_Small-device-allcolours-rescue	R79 R91 R104 R107	33K	R_0805	4	
 30		R-device-allcolours-rescue	R11	33k	R_0805	1	
-31		R_Small-device-allcolours-rescue	R86 R106	3K3	R_0805	2	
 32		R_Small-device-allcolours-rescue	R31	470R	R_0805	1	
-33		R-device-allcolours-rescue	R1 R3 R12	47K	R_0805	3	
-36		R_Small-device-allcolours-rescue	R39 R95 R98 R99	66.5K	R_0805	4	
 
 39		uA7810-Regulator_Linear	U5	L78M10	TO-252-2_Rectifier	1	http://www.ti.com/lit/ds/symlink/ua78.pdf
 42		MAX7490-MAX7490	U8	MAX7490	QSOP-16_3.9x4.9mm_Pitch0.635mm	1	DOCUMENTATION
@@ -784,34 +684,21 @@ check caps and resistors
 45		TL082-Amplifier_Operational	U3 U9 U11 U18 U19	TL082	SOIC-8-N	5	http://www.ti.com/lit/ds/symlink/tl081.pdf
 
 46		Opamp_Dual_Generic-Device	U2 U12	max4392	SOIC-8-N	2	
-47		maxim_7400-all_colours	U10	maxim_7400	SOIC-8-N	1	
 48		Crystal-Device	Y2	8 MHz	Crystal_SMD_HC49-SD	1	~
 
 
 
 ** breath full production (first x10)
 
-xx-> | CONN_5X2     P1        ; 10 pin connector - reich X                | have plenty
-
-check all thru hole:
 
 TIP3055
 
-DC BU sockets (correct ones):     DC-EBU 072339
+X-DC BU sockets (correct ones):     DC-EBU 072339 _ORDERED
 
-0.1R segor
+100n
 
-200R 
+X-small 10UF -> KS-A 10U 35 x2
 
-100n/small 10UF
-
-TL084
-
-BAT
-
-47K
-
-1N5820 diodes
 
 ** ERD/ERD
 

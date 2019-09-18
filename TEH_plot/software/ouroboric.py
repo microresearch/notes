@@ -210,10 +210,10 @@ timeout=1)
 
 g = ephem.Observer()  
 g.name='DISS'  
-g.lat='53.469616'  #Holden Gallery
-g.long='-2.238067'
+g.lat='31.250629'  # CAC shanghai NO.50 Moganshan rd, Shanghai #Holden Gallery
+g.long='121.442538'
 g.horizon=0
-g.elevation=43
+g.elevation=4
 
 # init geomantics/ephem
 sun = ephem.Sun()
@@ -263,7 +263,7 @@ def calibrate():
     # do this twice - we start on white!!!
     
     while (white==0):
-        sleep(1)
+        sleep(2)
         ser.flushOutput()
         ser.flushInput()
         ser.write("Q\n") # white1
@@ -271,7 +271,7 @@ def calibrate():
         try:
             line = ser.readline()
             data = [val for val in line.split()]
-            #            print data
+            print data
         except KeyboardInterrupt:
             print('exiting')
         if len(data)>0:
@@ -279,24 +279,23 @@ def calibrate():
                 white=int(data[0]) 
             except:
                 white=0
-
-    while (white==0):
-        sleep(1)
-        ser.flushOutput()
-        ser.flushInput()
-        ser.write("Q\n") # white1
-        sleep(.1)
+    white=0 # run it again
+    sleep(8)
+    ser.flushOutput()
+    ser.flushInput()
+    ser.write("Q\n") # white1
+    sleep(1)
+    try:
+        line = ser.readline()
+        data = [val for val in line.split()]
+        print data
+    except KeyboardInterrupt:
+        print('exiting')
+    if len(data)>0:
         try:
-            line = ser.readline()
-            data = [val for val in line.split()]
-            #            print data
-        except KeyboardInterrupt:
-            print('exiting')
-        if len(data)>0:
-            try:
-                white=int(data[0]) 
-            except:
-                white=0
+            white=int(data[0]) 
+        except:
+            white=0
                 
     ser.write("R")
     ser.flushOutput()
@@ -307,7 +306,7 @@ def calibrate():
     try:
         line = ser.readline()
         data = [val for val in line.split()]
-        #        print data
+        print data
     except KeyboardInterrupt:
         print('exiting')
     if len(data)>0:
@@ -325,7 +324,7 @@ def calibrate():
     try:
         line = ser.readline()
         data = [val for val in line.split()]
-        #        print data
+        print data
     except KeyboardInterrupt:
         print('exiting')
     if len(data)>0:
@@ -343,7 +342,7 @@ def calibrate():
     try:
         line = ser.readline()
         data = [val for val in line.split()]
-        #        print data
+        print data
     except KeyboardInterrupt:
         print('exiting')
     if len(data)>0:
@@ -361,7 +360,7 @@ def calibrate():
     try:
         line = ser.readline()
         data = [val for val in line.split()]
-        #        print data
+        print data
     except KeyboardInterrupt:
         print('exiting')
     if len(data)>0:
@@ -372,7 +371,7 @@ def calibrate():
             
     white=white/3
     black=black/2
-    threshold=(abs(white-black)+black) # we just want first calibration
+    threshold=((abs(white-black)/2)+black) # we just want first calibration
 #    threshold=99
     print "calibration:", threshold
     ser.write("R")
@@ -507,16 +506,17 @@ while(1):
 
     print "                          TEST EXECUTION HOST"
     print "                          +++++++++++++++++++"
+    print
     print "Decoding ancient alchemical texts and emblems as (literal) instructions for the construction, execution and maintenance of a contemporary, geomantic and necessarily ouroboric live processor."
     #    print time
     print
     print random.choice(alchquotes) # or this choice is dependent of darkness!
-
+    print
     # print registers - 
     print "     Digester temperature: disconnected Darkness: %d Threshold: %d" %(darkness, threshold)
-
+    print
     print "     Turing Machine Status:"
-
+    print
 # ////////////////////////////////////////////////////////////////////////////////
     
     # run TM:
@@ -557,6 +557,7 @@ while(1):
     else:
         tape[head] = symbol                         # write new symbol on tape - write dark or light
     print(' ' * (head * 3 + 1)+ '^  ' + str(t)) # display progress
+    print
     if symbol==0:
         # write zero
         ser.write("E")
@@ -568,11 +569,16 @@ while(1):
 
     # test code with the sun!
     g.date = datetime.datetime.utcnow()# 
+
+    # we put REG AND CORVUS back in
+    
+
     sun.compute(g)
     moon.compute(g)
 
 
     # go there
+    print
     print "SUN:", deg(sun.alt), 
     print "MOON:", deg(moon.alt) 
 
@@ -584,6 +590,7 @@ while(1):
         dlist=dodaughters(mlist)
         ready=0
     print "House = VIII. Death/Mortis - The House of Slaughter and Death: Heaviness, sadness, enemies, long torments, imprisonment, and the quality of death."
+    print
     # take the fourth daughter and explain/display this
     chosen=dlist[3]
     print lookfig(chosen) # TODO: clean up a bit but works
