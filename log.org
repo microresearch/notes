@@ -89,3 +89,25 @@ and hold down reset first until it starts uploading
 
 - compiling ERD/WORM on new x220 we needed to add flash section to flash.ld file to place .flash in FLASH and not in RAM
 - nvp code now crashes - probably to do with packing!
+
+* 4/10/2019
+
+- theremino MCA install on Debian Wheezy and running under WINE:
+
+https://www.theremino.com/en/downloads/radioactivity
+
+: apt-get install wine
+
+: export WINEPREFIX=/root/.wine32
+
+: export WINEARCH=win32 
+
+: winecfg
+
+: wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+
+: winetricks gdiplus
+
+: winetricks corefonts
+
+: winetricks dotnet30
