@@ -1,0 +1,251 @@
+* participants:
+
+conf:
+
+kat austen, mindaugas, peter, stephanie = 4 +
+
+tblank@posteo.net
+
+Marina Miller Dessau: marinadessau@gmail.com
+
+krista bell: kristabellestewart@gmail.com
+
+kenpwahl@googlemail.com
+
++ lfsaw@lfsaw.de
+
+inkagop@gmail.com
+
+total: 10
+
+* notes to participants
+
+11AM, 
+
+to bring:
+
+measurement devices, recording devices (notebooks, cameras, phones),
+objects, machines or beings which might demonstrate, embody or
+intervene within processes of energetic exchange, outdoor clothing
+(the weather should be good)
+
+* new notes
+
+- energetic exchanges - particles/radioactive - sensing of recording these
+
+bundles of energy/communication
+
+- zosimos p51/aristotle + cleopatra dialogue - metals as inhalations and exhalations of the earth
+
+pumps, flows, circulations
+
+peltier DIY
+
+earth computation
+
+working with radioactive particles - in the field with a cloud chamber - dew cloud chamber_?
+
+https://home.cern/news/news/experiments/how-make-your-own-cloud-chamber
+
+dew point
+
+sublimation
+
+dew
+
+what is sensitive to fogs, smogs and dew? circulations of dew, breath
+
+stack as model - energetic stack, transparancies, lightbox or OHP, rerouted stack, leaky stack, static electricity
+
+open call: stephanie, ioana, kat, peterF - recommends?, dan, (fara peluso), nenad popov
+
+* open call
+
+[donum dei image]
+
+Local Area Network (LAN). Workshop with Martin Howse
+13 Oct and 10 Nov 2019,  11-18.
+
+To register please send a short statement of interest to m@1010.co.uk by 5th October.
+
+Local Area Network (LAN) open workshop is a collective, speculative investigation of local fields/particles, and energetic exchanges, towards the hacking and re-routing of energy flows and networks at all stacked levels of local geological, environmental and technological "Umwelten", forking into a forensic exhibition at Art Laboratory Berlin.
+
+LAN works in the field - at sites along the Panke - and in the lab, punctuating an ongoing exhibition of changing processes and prototypes, examining the interface of data ecologies and the non-human through mapping, measuring and intervening within local and specific energetic transformations, entropic gradients and boundings of matters, materials and cultures.
+
+LAN examines and identifies sites of execution, the places where energetic transformations intersect with human infrastructure and agents of abstraction and logic; intervening within the co-existent realms of algorithmic entities, of the structures and infrastructures of computation, communication with the non-human entities of the earth (mycelium, microbes).
+
+For example, specific devices, developed in the course of collective workshops will examine relations of computation and decay, perhaps logging the growth of lichen and other parasitic fungi/forms on human infrastructures or examining branchy dew formations of radioactive particles. Workshops and devices will equally examine relations of the decay of particles, and the extension of the nuclear/geological within the interiors of plants and bodies.
+
+The first workshop will take place at Art Laboratory Berlin on the 13th October, the second on 10th November. For the 2nd workshop participants should follow the AND operator!
+
+
+Local Area Network (LAN) forms part of the exhibition Invisible Forces opening at Art Laboratory Berlin on 18 October: http://www.artlaboratory-berlin.org/html/eng-exh-archive.htm
+and is funded in part by a grant from Fachbereich Kunst und Kultur Bezirksamt Mitte and the Bezirkskulturfonds.
+
+
+* activities such as
+
+* orders/packing
+
+** packing
+
+geiger counters and materials, pyramid thing
+
+gps peli and other gps
+
+core memory
+
+arduinos, microsd adapters, co2 sensing, temo sensing
+
+radioactive sensors, radio receievers
+
+tools, wires, croc clips, general electronics, some glassware, copper wire, silver foil, hv netzteil, peltier, 12v computer psu
+
+radioactive rocks
+
+development trays, copper sheets
+
+for cloud and others: check materials below
+
+** orders/purchase
+
+jars for fermentations (collect)
+
+film, developer
+
+temp sensor+1, 
+
+transparencies/OHP stuff/pens
+
+mycelium -> co2
+
+cloud chamber stuff: isopropyl alcohol, cold spray, rubber and glass lid (modulor), fan and heatsink, cooling plate (metal), thermal compund (we have)
+
+spark gap: veroboard, we use inner wire, connectors
+
+theremino: BNC plugs 
+
+ziplock bags
+
+solar still/distillation:
+
+capacitors: bottles, foil, croc clips, wire
+
+rye grains
+
+static generator: 
+
+* for reader
+
+* for book
+
+- portfolio/portfolio images
+
+look trough past readers
+
+- about heat/media
+- some divination?
+- particle decay
+- stack
+- radiation in plants/bodies
+- lichen
+
+* art lab berlin proposal
+
+Title: Local Area Network
+
+Local Area Network (LAN) workshop and forensic exhibition is a
+transdisciplinary, speculative investigation of local fields and
+particles, energetic exchanges, towards the hacking and re-routing of
+circulations and networks at all stacked levels of local geological,
+environmental and technological "Umwelten".
+
+LAN intervenes within the co-existent realms of algorithmic entities,
+of the structures and infrastructures of computation, communication
+with the non-human entities of the earth (mycelium and
+microbes). 
+
+////
+
+Local Area Network (LAN) workshop and forensic exhibition is a
+transdisciplinary, speculative investigation of local fields and
+particles, energetic exchanges, towards the hacking and re-routing of
+circulations and networks at all stacked levels of local geological,
+environmental and technological "Umwelten".
+
+Devices, developed in the course of the two day collective workshops
+will examine relations of computation and decay, logging the growth of
+lichen and other parasitic fungi/forms on the heated dishes of
+satellite data up and downlinks. Workshops and devices will equally
+examine relations of the decay of particles, and the extension of the
+nuclear/geological within the interiors of plants and bodies.
+
+LAN proposes a series of two-day workshops (in the field - at sites
+such as an abandoned graveyard - and in the lab) punctuating an
+ongoing exhibition of changing processes and prototypes, examining the
+interface of data ecologies and the non-human through mapping,
+measuring and intervening within local and specific energetic
+transformations, entropic gradients and boundings of matters,
+materials and cultures.
+
+The model of the stack, borrowing from computer networks and
+infrastructures, and describing multiple layered domains of processes,
+abstractions and descriptions provides a useful method for
+investigating the insertion of the human within the deep time of
+geological process which is implied by the problematic term of the
+"anthropocene". This model will inform the elaboration of a series of
+exhibitable prototypes for an earth computational platform; an open
+and extendible set of physical devices which underscore relationships
+of earthly beings and matters with algorithmic technologies.
+
+This earthcode platform highlights and intervenes within the
+co-existent realms of algorithmic entities, of the structures and
+infrastructures of computation, communication with the non-human
+entities of the earth (mycelium, microbes). For example, specific
+devices, developed in the course of collective workshops will examine
+relations of computation and decay, logging the growth of lichen and
+other parasitic fungi/forms on the heated dishes of satellite data up
+and downlinks. Workshops and devices will equally examine relations of
+the decay of particles, and the extension of the nuclear/geological
+within the interiors of plants and bodies.
+
+
+Title: Local Area Network
+
+Local Area Network (LAN) workshop and forensic exhibition is a
+transdisciplinary, speculative investigation of local fields and
+particles, energetic exchanges, towards the hacking and re-routing of
+energy flows and networks at all stacked levels of local geological,
+environmental and technological "Umwelten".
+
+LAN proposes a series of two-day workshops (in the field - at sites
+such as an abandoned graveyard - and in the lab) punctuating an
+ongoing exhibition of changing processes and prototypes, examining the
+interface of data ecologies and the non-human through mapping,
+measuring and intervening within local and specific energetic
+transformations, entropic gradients and boundings of matters,
+materials and cultures.
+
+The model of the stack, borrowing from computer networks and
+infrastructures, and describing multiple layered domains of processes,
+abstractions and descriptions provides a useful method for
+investigating the insertion of the human within the deep time of
+geological process which is implied by the problematic term of the
+"anthropocene". This model will inform the elaboration of a series of
+exhibitable prototypes for an earth computational platform; an open
+and extendible set of physical devices which underscore relationships
+of earthly beings and matters with algorithmic technologies.
+
+This earthcode platform highlights and intervenes within the
+co-existent realms of algorithmic entities, of the structures and
+infrastructures of computation, communication with the non-human
+entities of the earth (mycelium, microbes). For example, specific
+devices, developed in the course of collective workshops will examine
+relations of computation and decay, logging the growth of lichen and
+other parasitic fungi/forms on the heated dishes of satellite data up
+and downlinks. Workshops and devices will equally examine relations of
+the decay of particles, and the extension of the nuclear/geological
+within the interiors of plants and bodies.
+
+
+
