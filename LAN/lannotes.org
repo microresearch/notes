@@ -68,19 +68,45 @@ Local Area Network (LAN). Workshop with Martin Howse
 
 To register please send a short statement of interest to m@1010.co.uk by 5th October.
 
-Local Area Network (LAN) open workshop is a collective, speculative investigation of local fields/particles, and energetic exchanges, towards the hacking and re-routing of energy flows and networks at all stacked levels of local geological, environmental and technological "Umwelten", forking into a forensic exhibition at Art Laboratory Berlin.
+Local Area Network (LAN) open workshop is a collective, speculative
+investigation of local fields/particles, and energetic exchanges,
+towards the hacking and re-routing of energy flows and networks at all
+stacked levels of local geological, environmental and technological
+"Umwelten", forking into a forensic exhibition at Art Laboratory
+Berlin.
 
-LAN works in the field - at sites along the Panke - and in the lab, punctuating an ongoing exhibition of changing processes and prototypes, examining the interface of data ecologies and the non-human through mapping, measuring and intervening within local and specific energetic transformations, entropic gradients and boundings of matters, materials and cultures.
+LAN works in the field - at sites along the Panke - and in the lab,
+punctuating an ongoing exhibition of changing processes and
+prototypes, examining the interface of data ecologies and the
+non-human through mapping, measuring and intervening within local and
+specific energetic transformations, entropic gradients and boundings
+of matters, materials and cultures.
 
-LAN examines and identifies sites of execution, the places where energetic transformations intersect with human infrastructure and agents of abstraction and logic; intervening within the co-existent realms of algorithmic entities, of the structures and infrastructures of computation, communication with the non-human entities of the earth (mycelium, microbes).
+LAN examines and identifies sites of execution, the places where
+energetic transformations intersect with human infrastructure and
+agents of abstraction and logic; intervening within the co-existent
+realms of algorithmic entities, of the structures and infrastructures
+of computation, communication with the non-human entities of the earth
+(mycelium, microbes).
 
-For example, specific devices, developed in the course of collective workshops will examine relations of computation and decay, perhaps logging the growth of lichen and other parasitic fungi/forms on human infrastructures or examining branchy dew formations of radioactive particles. Workshops and devices will equally examine relations of the decay of particles, and the extension of the nuclear/geological within the interiors of plants and bodies.
+For example, specific devices, developed in the course of collective
+workshops will examine relations of computation and decay, perhaps
+logging the growth of lichen and other parasitic fungi/forms on human
+infrastructures or examining branchy dew formations of radioactive
+particles. Workshops and devices will equally examine relations of the
+decay of particles, and the extension of the nuclear/geological within
+the interiors of plants and bodies.
 
-The first workshop will take place at Art Laboratory Berlin on the 13th October, the second on 10th November. For the 2nd workshop participants should follow the AND operator!
+The first workshop will take place at Art Laboratory Berlin on the
+13th October, the second on 10th November. For the 2nd workshop
+participants should follow the AND operator!
 
 
-Local Area Network (LAN) forms part of the exhibition Invisible Forces opening at Art Laboratory Berlin on 18 October: http://www.artlaboratory-berlin.org/html/eng-exh-archive.htm
-and is funded in part by a grant from Fachbereich Kunst und Kultur Bezirksamt Mitte and the Bezirkskulturfonds.
+Local Area Network (LAN) forms part of the exhibition Invisible Forces
+opening at Art Laboratory Berlin on 18 October:
+http://www.artlaboratory-berlin.org/html/eng-exh-archive.htm and is
+funded in part by a grant from Fachbereich Kunst und Kultur Bezirksamt
+Mitte and the Bezirkskulturfonds.
 
 
 * activities such as
@@ -95,9 +121,9 @@ gps peli and other gps
 
 core memory
 
-arduinos, microsd adapters, co2 sensing, temo sensing
+arduinos, microsd adapters, co2 sensing, temp sensing
 
-radioactive sensors, radio receievers
+radioactive sensors, radio receivers
 
 tools, wires, croc clips, general electronics, some glassware, copper wire, silver foil, hv netzteil, peltier, 12v computer psu
 
@@ -134,6 +160,10 @@ capacitors: bottles, foil, croc clips, wire
 rye grains
 
 static generator: 
+
+** shopping
+
+AA batteries, glass top/rubber/felt/gaffer - modulor, small trays/film/developer (Mitte), ziplock bags 
 
 * for reader
 
@@ -247,5 +277,24 @@ and downlinks. Workshops and devices will equally examine relations of
 the decay of particles, and the extension of the nuclear/geological
 within the interiors of plants and bodies.
 
+* mapping
 
+** for muon and RNG mapper (old one in orange case)
 
+- to convert to qgis format we use gpstoqgis.py
+
+note that 52.5 is our latitude (Y) and 13.4 is our longitude (X)
+
+Open delimited text file, WGS84 setting then add layers etc (see mapping.org HOWTO)
+
+*** For plots
+
+gpsrngcum.py and muon_entropy/py - TO TEST
+
+** for new gps logger/logging HF intensity
+
+- we can just load CSV as delimited text file again with second value as our X!
+
+*** For plots
+
+_gpsrng.py
