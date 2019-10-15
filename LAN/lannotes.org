@@ -57,7 +57,11 @@ total: 10
 
 * notes to participants
 
-iam@katausten.com, miga@o-o.lt, peter@peterflemming.net, rothenberg.stephanie@gmail.com, tblank@posteo.net, marinadessau@gmail.com, kristabellestewart@gmail.com, kenpwahl@googlemail.com, lfsaw@lfsaw.de, inkagop@gmail.com, gaytandiego@gmail.com, maggy.hamel-metsos@uni-weimar.de
+iam@katausten.com, miga@o-o.lt, peter@peterflemming.net,
+rothenberg.stephanie@gmail.com, tblank@posteo.net,
+marinadessau@gmail.com, kristabellestewart@gmail.com,
+kenpwahl@googlemail.com, lfsaw@lfsaw.de, inkagop@gmail.com,
+gaytandiego@gmail.com, maggy.hamel-metsos@uni-weimar.de
 
 
 Dear All, 
@@ -347,7 +351,11 @@ Open delimited text file, WGS84 setting then add layers etc (see mapping.org HOW
 
 *** For plots
 
-gpsrngcum.py and muon_entropy/py - TO TEST
+artlabpeter124551.txt
+
+artlabcub1310.txt
+
+gpsrngcum.py and muon_entropy.py
 
 ** for new gps logger/logging HF intensity
 

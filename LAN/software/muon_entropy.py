@@ -35,7 +35,7 @@ def process_gps_data(data):
 
 
 #y=read_csv_file('/root/collect2012-3/copenhagen/21stlog')
-y=read_csv_file('/root/projects/bordeaux/submarine21052017')
+y=read_csv_file('../artlabcub1310.txt')
 
 (lat, long, entropy,muon) = process_gps_data(y)
 # translate spherical coordinates to Cartesian
@@ -78,6 +78,7 @@ print maxxy, lat[max], long[max]
 
     
 g('set parametric')
+g('set linetype 1 lc rgb "black"') # this works for black and white
 g('set style data line')
 g('set surface')
 g('unset key')
@@ -88,11 +89,12 @@ g('set xlabel "metres WE"')
 g('set ylabel "metres NS"') 
 #g('set label "signal intensity" at -100,0,100') 
 g('set view 60,20')
-g.title("bordeaux 21052017 MUON")
-#g('set term png size 14043,9933') # A0
-g('set term png size 1024,768') # example
-g('set style lines 1')
-g('set output "/root/projects/bordeaux/images/submuon.png"')
+g.title("artlab 13102019 cosmic rays")
+g('set term png size 14043,9933') # A0
+#g('set term png size 1024,768') # example
+g('set term png size 3508,2480') # 2480 pixels x 3508 pixels (print resolution) a4
+#g('set style lines 1 linetype black')
+g('set output "artlabmuon13102019_cosmicA4.png"')
 
 #g.splot(Gnuplot.Data(newy, using=(1,2,3), with='lines'),Gnuplot.Data(newy, using=(1,2,4), with='lines'))
 

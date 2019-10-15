@@ -22,22 +22,6 @@ def read_csv_file(filename):
         data.append(row)
     return data
 
-def process_gps_data(data):
-    latitude    = []
-    longitude   = []
-    RNG          = []
-    ppp         = []
-    cnt=1
-    rngcum=0
-    for row in data:
-        latitude.append(float(row[0][0:2]) + \
-                            float(row[0][2:])/60.0)
-        longitude.append((float(row[1][0:3]) + \
-                              float(row[1][3:])/60.0))
-        rngcum+=(100-float(row[2]))
-        RNG.append(rngcum)
-	ppp.append((calc_limit_high_005(cnt*200))-(cnt*100))
-# now tells us sites of low entropy!
 
 from pylab import *
 import csv, os, Gnuplot, Gnuplot.funcutils
@@ -76,6 +60,7 @@ def process_gps_data(data):
         rngcum+=(float(row[2])-100)
         RNG.append(rngcum)
 	ppp.append((calc_limit_high_005(cnt*200))-(cnt*100))
+#        print rngcum, (calc_limit_high_005(cnt*200)-(cnt*100))
 #	ppp.append((cnt*100)-(calc_limit_high_005(cnt*200)))
         cnt+=1
 #	print rngcum, (cnt*100)-(calc_limit_high_005(cnt*200))
@@ -84,7 +69,7 @@ def process_gps_data(data):
                 array(RNG),array(ppp))
 
 #y=read_csv_file('/root/collect2012-3/copenhagen/21stlog')
-y=read_csv_file('/root/projects/bordeaux/submarine21052017')
+y=read_csv_file('../artlabcub1310.txt')
 (lat, long, RNG, ppp) = process_gps_data(y)
 
 
@@ -111,9 +96,12 @@ px = (long-min(long))*NMI*60.0*cos(D2R*lat)
 newy=[]
 cummd=0
 for x,yz,zz,pppp in zip(px,py,RNG,ppp):
-    newy.append((x,yz,zz,pppp))
+        print pppp
+        newy.append((x,yz,zz,pppp))
 
 g('set parametric')
+g('set term png size 3508,2480') # 2480 pixels x 3508 pixels (print resolution) a4
+g('set linetype 1 lc rgb "black"') # this works for black and white
 g('set style data line')
 g('set surface')
 g('unset key')
@@ -125,13 +113,13 @@ g('set ylabel "metres NS"')
 #g('set label "signal intensity" at -100,0,100') 
 g('set view 60,20')
 #g.title("21th November 2013 cumulative RNG Copenhagen")
-g.title("bordeaux 21052017 cumulative RNG/deviation")
-g('set term png size 14043,9933') # A0
-g('set term png size 1024,768') # example
+g.title("artlab 13102019 cumulative only")
+#g('set term png size 14043,9933') # A0
+#g('set term png size 1024,768') # example
 #g('set output "/root/collect2012-3/copenhagen/21stcumlog.png')
-g('set output "/root/projects/bordeaux/images/subcum.png"')
+g('set output "artlabcumrng131019_cumonly_bwa4.png"')
 g('set style lines 1')
 
-g.splot(Gnuplot.Data(newy, using=(1,2,3)),Gnuplot.Data(newy, using=(1,2,4))) 
+#g.splot(Gnuplot.Data(newy, using=(1,2,3)),Gnuplot.Data(newy, using=(1,2,4))) 
 
-#g.splot(Gnuplot.Data(newy, using=(1,2,3), with='lines'))
+g.splot(Gnuplot.Data(newy, using=(1,2,4)))

@@ -111,3 +111,13 @@ https://www.theremino.com/en/downloads/radioactivity
 : winetricks corefonts
 
 : winetricks dotnet30
+
+* 15/10/2019
+
+- gnuplot (in python) to get black lines for our plots:
+
+: g('set linetype 1 lc rgb "black"') # this works for black and white
+
+- in qgis/mapping how to get graduations on values say in 3rd column (rf/lan workshop example):
+
+layer properties->Style->graduated and then set column and play with other settings

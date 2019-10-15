@@ -1,3 +1,5 @@
+* LAN workshop
+
 * statements/intro
 
 docs_reader/reader/cosmicssm.jpg
@@ -103,7 +105,11 @@ SAFETY!
 * smaller groups for activities and prototyping - intro to what we have on offer
 * my interest in dews and fogs, static electricity
 
-dews and fogs: temperature differentials, heat exchanges, gains and losses
+dew.jpeg
+
+dews and fogs: temperature differentials, heat exchanges, gains and losses, changes in state = changes in energy, distillation, sublimation
+
+
 
 * cloud chamber diagrams and images
 
@@ -123,12 +129,35 @@ Notes: static can interfere, be careful with any sparks and alcohol/coolant
 
 For peltier - with red wire to right, cold is on TOP!
 
+fan.png
+
 https://www.instructables.com/id/Make-a-Cloud-Chamber-using-Peltier-Coolers/
 
 * networkings
 
 
 * final walk and locations
+
+
+** for muon and RNG mapper (old one in orange case)
+
+- to convert to qgis format we use gpstoqgis.py
+
+note that 52.5 is our latitude (Y) and 13.4 is our longitude (X)
+
+Open delimited text file, WGS84 setting then add layers etc (see mapping.org HOWTO)
+
+*** For plots
+
+gpsrngcum.py and muon_entropy/py - TO TEST
+
+** for new gps logger/logging HF intensity
+
+- we can just load CSV as delimited text file again with second value as our X!
+
+*** For plots
+
+_gpsrng.py
 
 
 * //////////////////////////////////////////////////////////////////////////////
