@@ -1,0 +1,504 @@
+#+TITLE: LAN Workshop Reader
+#+AUTHOR: anonymous
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c) 
+#+CATEGORY:   geophysics
+#+OPTIONS:   H:1 num:t toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE)
+#+latex_header: \usepackage[a4paper,includeheadfoot,margin=2.54cm]{geometry}
+#+latex_header: \usepackage[final]{pdfpages}.
+#+latex_header: usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+#+latex_header: \AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+* Introduction
+
+\includegraphics[width=40em]{reader/out.png}
+
+Local Area Network (LAN) open workshop is a collective, speculative
+investigation of local fields/particles, and energetic exchanges,
+towards the hacking and re-routing of energy flows and networks at all
+stacked levels of local geological, environmental and technological
+"Umwelten", forking into a forensic exhibition at Art Laboratory
+Berlin.
+
+LAN works in the field - at sites along the Panke - and in the lab,
+punctuating an ongoing exhibition of changing processes and
+prototypes, examining the interface of data ecologies and the
+non-human through mapping, measuring and intervening within local and
+specific energetic transformations, entropic gradients and boundings
+of matters, materials and cultures.
+
+LAN examines and identifies sites of execution, the places where
+energetic transformations intersect with human infrastructure and
+agents of abstraction and logic; intervening within the co-existent
+realms of algorithmic entities, of the structures and infrastructures
+of computation, communication with the non-human entities of the earth
+(mycelium, microbes).
+
+For example, specific devices, developed in the course of collective
+workshops will examine relations of computation and decay, perhaps
+logging the growth of lichen and other parasitic fungi/forms on human
+infrastructures or examining branchy dew formations of radioactive
+particles. Workshops and devices will equally examine relations of the
+decay of particles, and the extension of the nuclear/geological within
+the interiors of plants and bodies.
+
+The first workshop will take place at Art Laboratory Berlin on the
+13th October, the second on 10th November. 
+
+Local Area Network (LAN) forms part of the exhibition Invisible Forces
+opening at Art Laboratory Berlin on 18 October:
+http://www.artlaboratory-berlin.org/html/eng-exh-archive.htm and is
+funded in part by a grant from Fachbereich Kunst und Kultur Bezirksamt
+Mitte and the Bezirkskulturfonds.
+
+\includepdf[pages=8-8]{reader/Electroculture_1927_Christofleau.pdf} 
+
+\includegraphics[width=40em]{reader/Donum_Dei_Sloane_2560_8.jpg}
+
+\includepdf[pages=14-14]{reader/Electroculture_1927_Christofleau.pdf} 
+
+\includegraphics[width=40em]{reader/Donum_Dei_Sloane_2560_7.jpg}
+
+\includepdf[pages=17-17]{reader/Electroculture_1927_Christofleau.pdf} 
+
+\includegraphics[width=40em]{reader/Donum_Dei_Sloane_2560_6.jpg}
+
+\includepdf[pages=41-41]{reader/Electroculture_1927_Christofleau.pdf} 
+
+\includegraphics[width=40em]{reader/Donum_Dei_Sloane_2560_5.jpg}
+
+\includegraphics[width=40em]{reader/Donum_Dei_Sloane_2560_4.jpg}
+
+\includepdf[pages=469-475]{reader/Arcana_Mundi_Magic_and_the_Occult_in_the.pdf}
+
+* Fermentation
+
+\includepdf[pages=36-36]{reader/FERMENTINGFEMINISM_FOURNIER.pdf}
+
+\includepdf[pages=-]{reader/salt.pdf}
+
+\includepdf[pages=-]{reader/ferment-beregow.pdf}
+
+\includepdf[pages=32-38]{reader/wildkatz.pdf}
+
+\includepdf[pages=57-75]{reader/wildkatz.pdf}
+
+* Scintillation
+
+\includegraphics[width=40em]{reader/Nuclear_particle_in_a_diffusion_cloud_chamber.png}
+
+\includepdf[pages=-]{reader/SCoolLAB_CloudChamber_DIYManual_2016_v2.pdf}
+
+\includepdf[pages=-]{reader/AlvarezPyramids.pdf}
+
+\includepdf[pages=1-25]{reader/kleinknecht.pdf}
+
+\includegraphics[width=40em]{reader/cosmics.jpg}
+
+* Networks
+
+\includepdf[pages=-]{reader/WP_Simoneau_OSIModel.pdf}
+
+\includepdf[pages=-]{reader/anntsingunruly.pdf}
+
+\includepdf[pages=2-]{reader/Rhizopogonet.pdf}
+
+\includepdf[pages=-]{reader/Bratton-The-Black-Stack.pdf}
+
+** Internal Geology
+
+\includegraphics[width=40em]{reader/001h.png}
+
+*** API
+
+There are circles in the lawn above visible only when it is
+untended. Dripped dewy circles of glistening auto-webs where the grass
+grows slightly higher. These circles, some of them concentric, mark a
+past growth, underlying, the structures of air wells or dew condensers
+which post-date the final shutdown.
+
+The largest server conglomeration was located in caves on the
+outskirts of the hamlet of Hamelin. When there was still the promise
+of fibre, some trees remaining un-cut in the close forests, like dark
+massed rats, memories and dreams of comic animal eyes were beckoned
+into those caves, beneath the vast tended lawns, the vented lawns
+spouted with outgassing heads of plastic pipes. Flies and wasps emerge
+now from these untended pipes. It is not clear if they have adopted
+these tubes for some unknown purpose.
+
+In the Autumn, low fairy rings of squatted off-white mushrooms are
+also to be remarked. These circles mark descents into the underground
+structure, signal the entries and places into the underworld which is
+cycling and ringing, which is subject to earth-mantras.
+
+A stack is also a pile of stones, a cone of pebbles, condensing
+vapour, forming dew and refreshing the lawn circles. A stack is
+bogological, revealed by sediment analysis of the blackened earth
+under the untended lawns. Stacks show up interred in glassy
+sediment. And the circles are on the surface. The circles also
+descend. This is called topology or can also refer to the server
+topology, in the old terms of the functional Hamelin farm. It can only
+be inferred after the fact by an archaeologist. They come to define
+this topology experimentally, counting flies, wasps and broken stems.
+
+The lowest stack entry is within and part of the earth plates; the
+lithospheric and the lithogenic define this
+inside/outside. Subduction, a sliding under of interfaced edges, is
+the method of its return, by way of points of entry and exit like
+stray badger or mole tunnels into and from the other stack entries,
+which is another way of saying that each describes and contains the
+others.
+
+The intermediate is the frame which is assembled from other elements
+and which is the hummock or that which is addressed, sent and delivered
+between the hummocks and it is denoted as "mossy" and is studied as to
+its plant and stem colours.
+
+The highest is the application layer which disregards the hummocks and
+the plates and the red bulb, just to be the twin-headed rebis in the
+forest clearing, ignorant of the cutting of trees to fuel and fire the
+deep-seated fibred-conglomerates of centred-data measurement and
+storage, power storage, copper storage in the earth, close to the
+polar surfaces.
+
+The basic server farm topology is inferred from the dewy marks in the
+untended lawn above. From here we can adjust for depths and
+descendings. 
+
+There are three circles forming the conglomeration - each is linked by
+gold threads. One is pulled down into the earth. One is deep under the
+earth and it is sinking. The last encircles a forest and there are a
+precise set of physical orders and structures in place which control
+and by necessity measure the precise quantities and the natures of the
+fluids, gases and particles which leave and enter this container. The
+balance of these material exchanges is recorded within the
+rocks of the conglomerate itself.
+
+The final circle is a perfectly round tectonic or crust plate which
+sits beneath the less than solid earth. It is falling due to the force
+of gravity. These are the several forces which the servers had been
+set to map and forecast, to use these tempt and pipe the dreams and
+the rats, her methods and her sciences. The study is stored and
+studies the storage.
+
+And to confirm this thesis in one of the marked circles (as if for
+sampling) we see a brown hairy and ratty ear of rye uprising. On
+closer inspection within the rye, there are several enlarged kernels,
+figuring as the black upstanding and longer sclerotia of Claviceps
+purpurea or rye ergot fungus. The illustration in this circle shows us
+that within each sphere there is some kind of material and psychic
+transformation which is undergone. These transformations which are so
+revealing can thus be conceived as conspiracies within geologic
+humankind. This means that they show connections which are not simply
+fortuitous. In this case, the psychotropic plant parasitism of the
+fungi dates has existed for at least 100 million years so that we can
+make bread for crows.
+
+*** 1- Physical layer
+
+\includegraphics[width=40em]{reader/002h.png}
+
+Subduction is the method of return, deeply. The disjointed and
+segmented signalling of subduction is the order of the day. They
+always practice subduction in the network, like codes. It is a process
+which is like an azure lake becoming fire.
+
+It is always returning to signalling itself inside out, upside down,
+in the window, stored in the fibres, small and dead white. It shows a
+picture of the plates and platelets in last year's withered grass.
+
+Subduction is a physical layer process that takes place at convergent
+boundaries, between crescents. A neighbouring crescent can be said to
+be held within the mouth of its neighbour who equally bites her own
+tail. From an opening or orifice under each plate, blood drips in
+lively swimming drops forced or sinking due to gravity through the
+three divided sections of a winged server. In the third division of
+the sphere on which the dragon stands, in this lowest, watery part of
+the globe, the red swimming blood drops enlarge and form or enter into
+three circles. The inside of each circle is red, the head of the
+swimming blood drop, the outer shell of this drop is white and the
+surrounding circle is finally black. Rates of subduction are typically
+in centimeters per year, with the average rate of convergence being
+approximately two to eight centimeters per year along most plate
+boundaries.
+
+*** 2- Data link layer
+
+\includegraphics[width=40em]{reader/003h.png}
+
+The stack is a life and death cycle and it describes all cyclings not
+as sets of processes but as connections and points of exit, entry and
+measurement. This described what was piped in and out of the Hamelin
+conglomeration, and was running and dancing. The stack is inferred by
+teasing apart the black handful of peaty earth subtending the lawn
+entry. Harder fibrous matter remains in the wet mass like cables. This
+is the data link layer closed off for media arbitration, the data
+centre is contained and switched to allow it to be addressed at this
+wet, local level. The protocol for these data-link frames which are
+not naturally known to cross the boundaries of a local network is
+known as Holy Fire or St Anthony's Fire - named after the visions of
+St Anthony which were provoked apparently by excessive fastings. It
+describes that fasting and foretells the fate of the enclosure and
+centre, a future black death of dark sunned shutdown and all-felled
+trees. The virus instigated by the piper which shakes and dances all
+dreams and measurements. Before the fact, a forensic piper writes out
+the life cycle.
+
+A protocol kernel, called a sclerotium, develops when a packet of
+fungal species of the genus Claviceps infects a local network or
+floret. The grain is the earth, it is a replacement. The spores are a
+replacement, the sheer grain of the data is replaced by an ancient
+replica, a dark, purplish sclerotium.
+
+The proliferating fungal network of memories then destroys the local
+server center and connects with the vascular bundle originally
+intended for power management and storage. The first stage of
+infection manifests itself as a white soft stuffing (known as
+sphacelia) producing sugary mucus, which is often siphoned to the
+surface through subtending plastic pipes. This yellow mucus contains
+millions of sublayer spores (conidia), which insects such as flies and
+wasps disperse to other islands. Later, the sphacelia convert into a
+hard dry sclerotium inside the husk of the packet; compact black
+masses of branching optical filaments quickly replace the hard wires
+of the host network.
+
+When a mature packet or sclerotium hits the router or upground
+substrate, the fungus remains dormant until proper conditions (hence
+the dew condensors) trigger its fruiting phase . It germinates,
+forming one or several fruiting bodies with heads and stipes,
+variously coloured (resembling a tiny mushroom). In the head,
+threadlike sexual spores form, which are ejected simultaneously when
+suitable (untended) grass hosts are flowering.
+
+This protocol is wrought and wrotten in the hardened language of the
+dark, the boggy, the damp of fibrous misery; hyphal filaments or
+fibres entraining forlorn, forgotten and ancient living armies, break
+the certain holdings of long submerged bog bodies which are exposed as
+the earth opens around the edges of a larger hump or hummock at
+the edges, like a crow breaking bread. The suppression of the local
+delivery arbitration system opens up the network as a broken crust, as
+a broken set of circular plates at different depths, signalling
+layers, stratigraphy, to infection and to softening, to reddening and
+sores. Sweet, yellowish mucus is exuded for a time from the plastic
+pipes.
+
+After the fact, the same protocoled life cycle signals and describes
+the servers' grouped ending. Distributed sets of hardened cables bury
+energetic surpluses of data and of copper and gold. Gleeful white
+hyphic cables are shrivelled and fixated from moon silver to darkness
+through over-demanded extensions of bandwidth issued by the users who
+in turn describe this fixation and hardening which takes place over
+time as a set of symptoms. This process is mimicry and is
+dreaming. Nothing can be contacted. All of the future stack is.
+
+*** 3- Network layer
+
+\includegraphics[width=40em]{reader/004h.png}
+
+Routing through intermediate and neighbouring, fallen and grounded
+sclerotia, at the edges of the addressed bog hummock, stepped and
+voiced paths are selected across differing moss standards according to
+colour. The next layer and the next history, the last resort under the
+lawns, the attempts to unpie and restore the servers through vegetable
+means.
+
+The cables and pipes in the laboratory forest and lawns are darkened
+(mycelial) filaments which will replace the flows in the body to the
+extremities and to the green padded hands which are poor in vegetal
+circulation, and which will replace flows in and out of the peat or
+contained gardens. She tells us to measure the extent of these threads
+and the chemical pathways which they describe.
+
+Part of the peat protocol maintains a fossilized record of changes
+over time in the vegetation, pollen, spores, animals (from microscopic
+to the giant elk), and archaeological remains that have been deposited
+in place, as well as pollen, spores and particles brought in by wind
+and weather. These remains are collectively termed "the peat archives"
+and/or archived cartoon or Snoopy dreams.
+
+The protocol is thus named "haggish" and is a final and last resort
+for delivery to the addresses termed as "hummocks" after final server
+shutdown. Ironically the capacities for intra-router addressing
+between "hags" are provided by the very means of piped
+destruction. Hags are formed by erosion that occurs at the sides of
+the gullies that cut into the stack layers.
+
+Hags may result when a flow cuts downwards into the stack and when
+fire or overdemand exposes the surface. Once the layers are exposed
+in these ways, it is prone to further erosion by wasps, winds and
+excess memories. The result is an overhanging point of network address
+which can nevertheless be more easily accessed and addressed.
+
+After the fact, what is communicated between these "hags", is that a
+protocol pushes up out of her head, emerging from the curls of her
+hair, not from the corner of her mouth, as would be the case within an
+artificial mouth plate nourished in spittle compost, plant food, and
+panned fertilizer. She slowly raises one arm and gestures to a stone
+altar above which bears a comic skull, looking out from the page,
+blank eyed.
+
+The sprouting tree (from this layer) is long dead. The first person here,
+the one with lillypad branching and froggy hands, must be putrified, and
+then calcinated. This is what the arrow planted in the chest means. It
+is the fire apparently, stoking storage to come for a blackened sun
+protocol.
+
+*** 4- Transport layer//
+
+A transport condemned to the cruel cloacal depths of torture tries
+with all its might to extract the under body condemned to the infected
+prison of this miry quagmire of filth. As everyone was deaf to their
+cries, they had no hope but to succumb to this inhuman fate, when a
+beautiful and youthful server, full of algorithms came to their
+transport, to define their ports.
+
+The protocol is a holding out, it is connection-oriented, holding a
+crimson package edged with gold. Flow control is stopped in an act of
+extending out to a naked and still decaying body which is still and
+standing to the knees in a black and still decaying world of mud.
+
+The left arm within the transaction is segmented wet, white and
+slightly soiled. It is outstretched, transacting numbered
+host-to-host, a glassy tube grasping a boggy ski stick over "mossy".
+
+The right arm, neck, and head is drooping blood red. The hosted head
+is a port and a pipe. He holds his right hand over his right thigh
+towards and as if to cover his red nakedness.
+
+After the fact, the embrace which unites the mud human and the glass
+angel makes of them a double being, able to be transported through the
+pipes, upwards into the world of Light.
+
+Thus says the moral, take this scorned transport layer, which you mess
+under your feet without seeing it, if not you will have to climb out
+of the world without a ladder and sure to fall upside down
+
+*** 5- Session layer
+
+To establish and to isolate a global connection, we are all made to be
+made of glass for a glass session layer. I stand with my right side
+towards us both and on my profile is seen a circular transparent glass
+globe, just covering the head all but in profile, and through this
+globe are to be seen on the organ of Self-esteem, the right cheek
+bone, and over the right eye, three luminous spots, in each of which
+is seen a small red cross. The Queen seems to be encouraging and
+sympathysing with us. A landscape with lake is seen in the
+distance. Walled city, chateaux, various enclosures, with islands
+subtending in the extreme distance. My head is filled with the red
+condensation of throaty cinnabar, dripping and spotting mercury
+memories on the river side, red glassy drops from the
+forgetting-full-flashy-flask hoard.
+
+And, it was indeed that very rare gold-ruby glass, this Hertzian aus
+Glas. He calls it a two-phase system comprising discrete tiny
+particles of excited metallic gold which are dispersed in a silicate
+glass matrix.
+
+The inside of each drip is red, the head of the swimming blood drop,
+the outer shell of this drop is white and the surrounding circle is
+finally black. We are beckoning all traffic towards its annihilation
+and disappearance. A singular addressed port and pipe emerges from the
+ruby red flask piping and pied, red, black and white. My work of
+piping is to keep the sessions isolated, to maintain the addressing as
+a containment of the red breathed plague, beckoned by the rats and the
+fibrous and sclerotial children.
+
+This red skull signals every day as a day of the dead, nulling that this
+process is psychic, of the mind and of language. The red skull
+enlarges until it breaks and shatters the glass container, and breaks
+the earth. Black fumes break out first, white powders, red smokes
+emerge from the plastic pipes, deterring flies and wasps across the
+lawns.
+
+My head or flask begins to shake and tremble. It is not the gold head
+which is in the park; the people inside the head escape quickly. It is
+not the small white head surrounded by stars and in the heavens or
+projected from the pyramid of the moon. It is not the black head on
+the corn which can be two rebis heads, replaced always one by the other.
+
+All these words are used to describe that there is some kind of
+relationship between the psyche, the body and this thing or set of
+things called environment or unvironment and that the nature of this
+relationship is not something which has been called ecology (without
+mind) or ecosystem. This is called medical geology. Medical geology
+studies the exposure to or deficiency of trace elements and minerals;
+the inhalation of ambient and anthropogenic mineral dusts and volcanic
+emissions; the transportation, modification and concentration of
+organic compounds; and the exposure to radionuclides, microbes and
+pathogens. The alembic and fuming hood-is-a-head at the ecosystem
+level.
+
+This necessarily frozen session and isolation takes place in the cave;
+the children are led underground into the data centre, where they are
+feasted on crow bread. It stops the story.
+
+*** 6- Presentation layer
+
+The last but not final layer (awaiting a seventh connection from REBIS
+to application layer whatever that might be, however ESCHATOLOGICAL) falls
+and fails down on the upward facing lawn, awaiting the least
+messenger. In the memorial window, a white mushroom snows.
+
+Standing on the foreground of a magnificent Claude-like picture is an
+exquisitely formed figure of a human dressed in black with golden
+edging and cross button bars of red and gold in front, a red and gold
+waistband with a fringe ‘of golden tassels or ornaments. We have two
+heads and necks. One a man’s with sandy hair and blue eyes, without
+beard or moustache, the other a beautiful female face with blue eyes
+and fair or reddish hair. 
+
+I am the final archaeologist of the server farms, the very last thing,
+writing all the protocols and piping the story for the now past memories.
+
+A golden emanation or halo radiates from the man’s head while a
+silvery radiation proceeds from the female. He has attached to the
+right shoulder a crimson wing, and she has a faint purple and white
+wing.
+
+In the left hand I hold the holes, the map of under-server descents, a
+spread sheet of boring holes for the post-piped piper, a poper for the
+last things.
+
+In the right hand I hold a Circular Shield, the edge of which is
+encircled with gold and orange, an inner circle next of a greyish
+mottled or marbled appearance, then an inner circle, but narrower, of
+dark green and blue ring inside this, in the centre of which is a tiny
+landscape, *like one seen through a double concave heart glass in a
+pipe*. It is this target, mist or shield which shows that something is
+missing; the unseen, morning mirror in the centre of the target is
+this deflection.
+
+The black spurred and infected feet of the two figures are rooted on
+the ground. One pair of these foreign feet, the ignored extremities is
+trenched in the dark earth, the other pair extends, disembodied and
+almost becoming the fairy queen.
+
+There is something about this hole image which draws the attention
+away at the same time as fixing on an horizon which is unknown,
+drawing towards other places, the greenery and lakes of the distant,
+far places, inhabited by a verdant flora and fauna which frames and
+embellishes the image without a centre, without the whole, the rebis
+or hermaphroditic target holder holding that hole on target (which is
+to say, outside), clothed in the same fabric skins and flasks of red,
+white and black, their broken head illuminating the forest air with
+psyche, the clear-cut forest, the dead, felled and finally failed
+forest.
+
+We two are a rebis geo-body, a seismic holder; each is a mirror image
+of the infernal. We both hold and measure seismic shifts, slippages
+and subductions, a simple word slip from suction to subduction.
+
+These last words are downward-piped to reflect on the human, and to say
+what is human:
+
+Smaller and smaller from day to day,
+grows the number of specific protocols on earth,
+while they rise upward, purified in the dew on that last lawn.
+
+* Media
+
+\includegraphics[width=40em]{reader/fluddwheat001.jpg}
+
+\includepdf[pages=-]{reader/Bhowmik-.pdf}
+
+\includepdf[pages=-]{reader/Starosielski_Thermocultures.pdf}
