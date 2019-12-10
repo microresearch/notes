@@ -30,7 +30,7 @@ def process_gps_data(data):
     return (array(latitude), array(longitude), array(rngg))
 
 
-y=read_csv_file('samples/140055.txt')
+y=read_csv_file('../artlabpeter124551.txt')
 
 
 (lat, long, rngg) = process_gps_data(y)
@@ -60,6 +60,8 @@ print lat[max], long[max]
 
     
 g('set parametric')
+g('set linetype 1 lc rgb "black"') # this works for black and white
+g('set term png size 3508,2480') # 2480 pixels x 3508 pixels (print resolution) a4
 g('set style data line')
 g('set surface')
 g('unset key')
@@ -70,11 +72,11 @@ g('set xlabel "metres WE"')
 g('set ylabel "metres NS"') 
 #g('set label "signal intensity" at -100,0,100') 
 g('set view 60,20')
-g.title("Berlin test HF intensity")
+#g.title("artlab 13102019 HF RF intensity")
 #g('set term png size 14043,9933') # A0
-g('set term png size 1024,768') # example
+#g('set term png size 1024,768') # example
 g('set style lines 1')
-g('set output "/root/NOWprojects/LAN/software/samples/test710.png"')
+g('set output "artlabpeter124551a4bw.png"')
 
 #g.splot(Gnuplot.Data(newy, using=(1,2,3), with='lines'),Gnuplot.Data(newy, using=(1,2,4), with='lines'))
 

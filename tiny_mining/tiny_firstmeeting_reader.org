@@ -1,0 +1,347 @@
+#+TITLE: Tiny Mining [TM] first expert meeting reader
+#+AUTHOR: anonymous
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c) 
+#+CATEGORY:   geophysics
+#+OPTIONS:   H:1 num:t toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE)
+#+latex_header: \usepackage[a4paper,includeheadfoot,margin=2.54cm]{geometry}
+#+latex_header: \usepackage[final]{pdfpages}.
+#+latex_header: usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+#+latex_header: \AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+
+* Introduction
+
+** Introduction
+
+\includegraphics[width=40em]{firstreader_resources/images/merge.png}
+
+We are contaminated by our encounter; they change who we are as we
+make way for others. As contamination changes world-making projects,
+mutual worlds and new directions may emerge. Everyone carries a
+history of contamination; purity is not an option. One value of
+keeping precarity in mind is that it makes us remember that changing
+with circumstances is the stuff of survival.  
+
+Collaboration means working across difference, which leads to
+contamination.  Without collaborations, we all die. 
+
+[Anna Lowenhaupt Tsing. The Mushroom at the End of the World]
+
+
+I'm starting to feel that the company wants to hide the natural way of
+doing our things, of farming and eating, so that they can be
+financed and nourished by the mining that takes place within us.
+
+[Testimony from a Tiny Mining user]
+
+Tiny Mining is a speculative, interventionist artistic research and
+media project examining the links between extractivism, pharmacology
+and medical or environmental geology.
+
+Tiny Mining explores the material basis of computational and
+communications technology and infrastructures in relation to the human
+body and asks what such a potential relationship could be in terms of
+a closer connection between the material and environmental effects of
+the extraction and return (planned obsolescence, e-waste) of
+technology and the body could be. At the same time it explores and
+asks questions about the practical and ethical nature of this proposed
+new relationship.
+
+Media, computation and communications have always been geological,
+entering into material cycles through both extraction (mining, for
+example, copper), and processing (for example, the reburial of copper
+and fiber optic cables in the earth). What is perhaps new, in the
+recent naming of the becoming-geological of humankind (as the
+anthropocene or capitalocene), is the conjoined transformation and
+awareness of humans and their home planet as at once media and matter,
+information and geology. Industrial plastics, dust and radioactive
+isotopes lodge within all kinds of bodies, equally marking all things
+as geologic. 
+
+At the same time, humankind can be defined as always incorporating the
+earth: as food, as pharmakon and as media and this incorporation can
+be defined as geological. We can catalogue a history and a "bestiary"
+of an inner geology with its bezoars, otoliths, gallstones and
+gastroliths. Geology is not outside us; various timescales must be
+compared and contrasted (of lives and deaths, eating and shitting, of
+deep time and geological formation).
+
+This idea of a sensitivity to planetary and bodily health underwrites
+the Tiny Mining project with the Anthropocene viewed as both
+symptomatic and as psychosomatic. 
+
+The focus of the project is on the transitional interior and inferior
+geologies of media and communications. The notion of interior geology
+refers also to the circulatory system of an earth addiction encompassing
+extraction (of precious metals, of radioactive minerals),
+transport/circulation and consumption (the ingestion of earth-derived
+energies, materialities and earth-bound pharmaceutical products) and
+return or excretion (traces of isotopes and pollution elements in the
+body).
+
+Matter, like media are both purposefully ingested and accidentally
+absorbed, forming new internal, circulatory and transitional
+geologies. 
+
+Tiny Mining explores these multiple links and circulations between
+technology, the environment and the human body and psyche. It's
+important in times of climate disruption and environmental destruction
+that we begin to think and work deeply within these relationships and
+within the histories of media such as scientific discourse,
+pharmacological matters and medical geology; to think an alien,
+potentially geological post-nature.
+
+** 
+
+\includegraphics[width=40em]{firstreader_resources/images/image5.jpg}
+
+Tiny Mining projects and furthers a speculative near future in which
+potentially precious or useful minerals can be mined from within
+living (primarily human) bodies for the profit of both a larger
+corporation and its "users". Tiny Mining explores twin models of
+exploitation. Under the startup, distributed, late/post-capitalist
+model of corporations such as Amazon, pre-programmed nano-parasites
+for tiny mining are ordered by app under a subscription model with
+monthly payments (for mining revenues) delivered via paypal. A
+burgeoning DIY scene, calling themselves with some irony the "users"
+subvert and hack this proprietary model, offering online, underground
+resources for hacking tiny mining, sharing artefacts, recipes and
+techniques to mine and recover one's "own" minerals, and to extract
+and market these precious resources on dark, cryptographic networks
+and finance models.
+
+We will explore both of these potential outcomes of this near-future
+scenario within a series of fictions, video works, practical
+investigations, installations and interventions. On the one hand, a
+startup company will be created, seeking venture capital for
+investment and exploring various models for the functionality of a
+tiny nano-mining pill. At the same time, Tiny Mining is an open source
+project which explicitly attempts to mine, harvest or recover precious
+or useful minerals from within living bodies. It is made manifest as a
+collection of online practices and recipes for DIY recovery of
+elements, an ongoing research, and as an online community of DIY
+practitioners sharing artefacts and techniques.
+
+** Medical Geology/ Interior Geology
+
+\includegraphics[width=40em]{firstreader_resources/images/atherosclerosis.png}
+
+The emergence of the new scientific interdisciplinary field of medical
+geology (allied to that of environmental health), defined as “studying
+the relationship between natural geological factors and their effects
+on human and animal health” points towards a necessary and
+contemporary set of bindings between human, non-human and planetary
+health under regimes of industrial production and consumption. The
+landscape of the body (interior) and planet as geo-engineered
+workplace can be viewed within shifting traditions of observational
+perspective, vista, and landscape; marking a shift towards internal
+observation and data gathering, the planet instrumentalised as an
+array of non-visual sensors which could equally well be situated
+within and as of bodies.
+
+Medical geology, defined as "hydrobiogeochemoepidemiopathoecology",
+demonstrates its own crossing of disciplines, and equally its heritage
+within more esoteric systems of knowledge (links between geology and
+health in Paracelsus, bodily humours, winds and disease in Fludd). To
+this list of disciplines we can add those of weather studies and
+climate change; studies of the movement of earthly elements and
+potential toxins which enter and leave the bodies of humans and
+animals within equally weathered circulations. These movements define
+internal geologies which can also be viewed within a perspective on
+material questions shifting from those of extractivism (of precious
+metals and minerals) to circulation, to wider ecologies of
+circulations, and metabolism (defined as life sustaining material
+transformations - thus the link to health). We will examine the
+various transports, circulations, consumptions (the ingestion of
+earth-derived energies, materialities and earth-bound pharmaceutical
+products) and returns or excretions (traces of isotopes and pollution
+elements in the body).
+
+Medical geology is all about changes, flows and traces; the contact,
+or lack of contact (deficiency) of (internal) connections between wind
+or water borne elements, minerals, radionuclides, microbes and organic
+compounds and privileged or working, healthy or unhealthy
+bodies. These changes are metabolic, downstream signals for the
+health of any system which can be defined in ecological terms within
+the measurement of inflows and outflows from a closed object of study
+(eg. carbon sinks and carbon sources), from an ecology (such as a peat
+bog), a cell, or a planet. These are measured from the inside.
+
+The notion of bio-markers signals this signalling (of bodily of
+planetary health) as well as being open to discourses around material
+and capital flows, circulations and metabolics. A bio-marker is that
+thing which signals its presence, and thus the flow in which it is
+bound. The notion of bio-markers crosses various disciplines. For
+example in medicine, biomarkers are traceable substances such as
+radioactive isotopes which are introduced into a body in order to
+examine a specific organ’s functioning. Biomarkers link to
+weather-borne contaminants or elements which allow for the tracing of
+atmospheric flows. Within geology, a biomarker indicates the
+presence, past or present, of living things. In ecotoxicology,
+biomarkers are used to indicate an exposure to or the effect of
+xenobiotics.
+
+Tiny Mining (or Argotine, questioning this ontological realm of the
+pharmaceutical) can thus be considered as a pharmaceutical device
+mapping a cartographics of internal geologies; of bones, gall stones,
+and accumulations, energies, circulations, investments and capitals. A
+certain ethics thinks the relation to the planet and to the body, to a
+contagion of precarious "users" transmitting self-mining Argotine
+through bodily liquids such as blood, large quantities of saliva and
+other intimate interactions.
+
+** Technical - preliminary research
+
+\includegraphics[width=40em]{firstreader_resources/images/image10.jpg}
+
+Preliminary research suggests the formulation of a
+nanite, molecular machine or nanomachine, a parasitic composite of
+polarized molecules that once stimulated, produce mechanical movements
+on cellular surfaces in order to remove, harvest and restructure
+minerals from the human body on a macroscopic scale.
+
+The parasite, named Argotine (with reference to the rich history and
+folklore of the ergot fungus) is designed as an assemblage of
+nanoscopic units, each of them measuring around 10nm, that have
+specific compositions and electrical charges corresponding to the
+desired mining process.
+
+The different nanomachines create bonds, communicate and form larger
+structures (up to 100 micrometers) similar to fungi's mineral mining
+hyphae. Once injected into the bloodstream, they travel and stick to
+the affected/healthy cells where the extraction begins.
+
+This micro/tiny mining process, as in the case of soil mineral
+extractions performed by plants, fungi and microorganisms is
+facilitated thanks to bioleaching (the process of extracting metals
+from their ores through the use of living organisms) through
+chelation. The process is highly efficient for lead, arsenic,
+antimony, molybdenum, gold, silver and cobalt extractions.
+
+** Proposed outcomes
+
+\includegraphics[width=40em]{firstreader_resources/images/image3.png}
+
+Tiny Mining projects a series of research manifestations,
+interventions and outcomes which can be collected as an installation
+for exhibition. These can be summarised as follows:
+
+- Video documentation of users, interview with users and documentation
+  of the DIY processes of mining and extraction. We are particularly
+  interested in documenting and assessing the (psychological) side
+  effects of Argotine, one of the key pharmaceutical components within
+  Tiny Mining practice. Side effects include glossolalia (speaking in
+  tongues). These videos will be distributed primarily via social
+  media. Video material will be produced using both mobile phones
+  (underground) and as full HD video.
+
+- The online and legal manifestation and presence of the Tiny Mining
+  company and technical research around the feasibility and
+  possibilities of Tiny Mining technical solutions in consultation
+  with nanotechnology, bioprocess engineers and medical geology
+  scientists in Berlin. We will produce and publish a series of white
+  papers outlining the chemistry, biology and financial
+  instrumentation of Tiny Mining. Sales pitches will be created and
+  disseminated.
+
+- A set of online, DIY resources for a community of
+  "users". Discussion groups, HOWTOs, and DIY kit documentation will
+  be maintained and produced throughout the project which aims also to
+  promote a small community of near fictional "users".
+
+- 3D renderings and real artefacts (home-spun, pseudo-scientific and 3D
+  printed) relating to both the Tiny Mining corporation and DIY
+  use. For example, the DIY "kit" for self mining and extraction with
+  instructions and implements, waste objects form the DIY operations
+  which have become venerated as talismans.
+
+- A workshop at the v2_labs examining
+  real-world, hands-on and DIY solutions approaching Tiny Mining and
+  the geo-logical inversions which it enacts alongside discussion with
+  invited theorists and practitioners who work with both the
+  geological and the internal (Kat Austen, Alfonso Borragan, for
+  example). In the workshop, we will explore the genealogies and
+  histories of geophagy, pharmacology, iatrochemistry and
+non-linear geology. We will link these to Medical Geology, and the
+transport and circulation of psychoactive pharmacology, composing rich
+new and alternate mythologies of contemporary interior geologies. We
+will invent and enact rituals for a newly spectral, transitional
+geological era.
+
+** Extracts from the testimony of a Tiny Mining user
+
+\includegraphics[width=40em]{firstreader_resources/images/image7.jpg}
+
+I'm not sure how it works from the inside, some kind of nano-parasite,
+chelation is one of their buzz-words. Bio-remediation, all those
+things which sound healthy for the body, healing for the planet. And
+it is supposed to be good for the planet, for the earth. Why dig deep
+holes in the earth to pull out minerals when you can let the body
+extract minerals and then simply harvest these with nano-pills. In
+some extreme cases they say that it can even heal people if they have
+too much of one mineral, or too much of the wrong kind of minerals -
+heavy metals they say, or radioactivity. But those are special
+cases. I started tinymining because I needed the money, and somehow it
+felt good, like I was more in contact with something out there, not in here.
+
+I know it doesn't sound natural, but I think it is. It shows us,
+beneath all the technological crust, that we're one with nature. We're
+geological. Sometimes I even feel a bit more earthy, more stony after
+taking the pills. Like something is slowly flowing and changing
+through me, it feels a bit like watching an ice cube slowly melt, but
+you feel it yourself, that melting, see yourself. There's also always
+a mineral taste in my mouth and some foods taste a bit different. It
+could be the taste of blood though. Slightly metallic, always a bit
+sandy when I think about it, when I feel it. But redder, like red
+itchy eyes, but you feel it in the mouth, maybe a bit sore and rubbed.
+
+I don't know all the details. The company was quite open at the
+beginning and there was lots of information available. I glanced at
+some of it. It was quite technical, but slightly scary even back
+then. I remember seeing maps of the human body, like those acupuncture
+diagrams from the old days, showing where it would mine and for what,
+also how the pill would break open and the nano-miners move through
+the body. It looked all quite abstract, but these nano elements looked
+a bit like claws, like crab claws which grab hold of the minerals
+inside, then clump together with their spoils.
+
+\includepdf[pages=-]{firstreader_resources/docs/meeting.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/meta.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/company.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/nihms-113416.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/s11427-015-0365-3.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/Elixir.pdf}
+
+\includegraphics[width=40em]{firstreader_resources/images/needhamtoad.jpg}
+
+\includepdf[pages=144-214]{firstreader_resources/docs/needham5_2.pdf}
+
+\includepdf[pages=312-334]{firstreader_resources/docs/needham5_2.pdf}
+
+\includepdf[pages=347]{firstreader_resources/docs/needham5_2.pdf}
+
+\includepdf[pages=3-17]{firstreader_resources/docs/bezoar.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/ShR_Pharma_Responses.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/Ectomycorrhizalfungimobilizenutrientsfromminerals167TRENDSECOLEVOL.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/chelation_a_review.pdf}
+
+\includepdf[pages=187-248]{firstreader_resources/docs/Medical_Geology_Effects_of_Geological_En.pdf}
+
+\includepdf[pages=8-115]{firstreader_resources/docs/geochem.pdf} 
+
+\includepdf[pages=-]{firstreader_resources/docs/Morphological_Biosignatures_feart-07-00091.pdf}
+
+\includepdf[pages=133-148]{firstreader_resources/docs/censi.pdf}
+
+\includepdf[pages=-]{firstreader_resources/docs/HarvestingtheRareEarth_biotech_research_draft_paper.pdf}
+
+\includepdf[pages=72-73]{firstreader_resources/docs/Marder-Tondeur_2016_The-Chernobyl-Herbarium.pdf}

@@ -1,0 +1,78 @@
+* schedule/notes
+
+to observe and intervene within networks of energetic exchange - between the infrastructural and the pre-existent/accidental
+
+https://www.theatlantic.com/science/archive/2019/10/search-dark-matter-depends-ancient-shipwrecks/600718/
+
+"In you is hidden the whole terrible and strange mystery. Enlighten us
+in general, but especially about the elements. Tell us how the highest
+descends toward the lowest, and how the lowest ascends toward the
+highest and how the one in the middle approaches the highest to unite
+itself with it and what is the element (that acts) on them. And (tell
+us) how the blessed waters descend from above in order to see the dead
+that are lying around, in chains, oppressed in darkness and obscurity
+inside Hades, and how the remedy of life reaches them and wakes them
+up from sleep and awakens them to an awakening [reading eis gregorsin
+for tois ktetorsin vel sim.], and how the new waters flow toward them,
+at the beginning of the descent and borne on the couch, descend
+approaching with the fire, and a cloud carries them, and out of the
+sea ascends the cloud that carries the waters."
+
+11AM
+- new introductions 
+- impressions of last workshop
+- looking at the maps and qgis overview
+- collect from site and walk for intersections
+
+lunch--->
+
+PM
+
+- darkroom and processing/development/washing
+- fermenting (what?)
+- cloud chamber re-visited - ice and heatsink, double peltier
+- final discussions/questions/ideas
+
+* cloud chamber, with ice, peltier...
+
+12710 peltier on the bottom - 12V
+12709 on top - 5V
+
+For peltier - with red wire to right, cold is on TOP! check!
+
+https://www.instructables.com/id/Make-a-Cloud-Chamber-using-Peltier-Coolers/
+
+http://www.nothinglabs.com/cloudchamber/
+
+* map images and plots on the wall
+
+cubwalk_cosmic.png
+cubwalk_entropy.png
+peterwalk2.png
+
+
+* mapping
+
+** for muon and RNG mapper (old one in orange case)
+
+- to convert to qgis format we use gpstoqgis.py
+
+note that 52.5 is our latitude (Y) and 13.4 is our longitude (X)
+
+Open delimited text file, WGS84 setting then add layers etc (see mapping.org HOWTO)
+
+*** For plots
+
+artlabpeter124551.txt
+
+artlabcub1310.txt
+
+gpsrngcum.py and muon_entropy.py
+
+** for new gps logger/logging HF intensity
+
+- we can just load CSV as delimited text file again with second value as our X!
+
+*** For plots
+
+_gpsrng.py

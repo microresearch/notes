@@ -1,0 +1,167 @@
+* LAN workshop
+
+* statements/intro
+
+docs_reader/reader/cosmicssm.jpg
+
+* 
+
+to observe and intervene within networks of energetic exchange - between the infrastructural and the (pre-)existent/the accidental
+
+stack as model
+
+As earthly and cosmic signals are filtered, refracted and descend
+through the limestone and fluorspar of Treak Cliff cavern, they read
+and reflect the peculiar geological conditions of the site. Countering
+the decay of all signals emitted since the big bang, EOAE-TC attempts
+a backup of the cosmos on obsolete media.
+
+The second instrument (EOAE-TC #2 Decay), a bizarre inverted pyramid,
+can only have been used to monitor cosmic rays, perhaps observing
+changes in the hidden structures above the caverns themselves. It is
+unknown why the anonymous scientists who constructed this observatory
+chose to store these signals within a matrix of salvaged core memory.
+
+
+* depleted uranium ritual
+
+/root/projects/archived/geneva/images/radioactiveexposure.jpg
+
+* 
+
+The ritual commenced with the ingestion of a small amount of depleted
+uranium (DU) in the form of hexaflouride crystals, a byproduct of the
+industrial enrichment of naturally occurring Uranium ores for use in
+nuclear reactors and weapons. The biological half life for Uranium is
+15 days. This is the time it takes for the body to eliminate half of
+the ingested Uranium. This is to be contrasted on a geological scale
+with the half life of the Uranium-238 isotope which composes much of
+the DU sample. The time taken for half the sample to undergo
+radioactive decay is measured as 4.468 billion years. Given this slow
+decay depleted uranium is thus classified as mildly radioactive,
+although it is a toxic metal upon ingestion. The uses of depleted
+uranium include the manufacture of radiation shielding, armour plating
+and armour piercing projectiles. In the last cases, depleted uranium
+is returned, full cycle, to the industry of warfare. In this ritual
+depleted uranium was in this place returned to tbhe earth body, as a
+process of planetary depletion.
+
+* demonstrate geiger counter// spark gap
+
+- spark.jpg
+
+* 
+
+radioactive minerals
+
+decay - energetic geology
+
+Radioactive decay (also known as nuclear decay, radioactivity,
+radioactive disintegration or nuclear disintegration) is the process
+by which an unstable atomic nucleus loses energy (in terms of mass in
+its rest frame) by emitting radiation, such as an alpha particle, beta
+particle with neutrino or only a neutrino in the case of electron
+capture, or a gamma ray or electron in the case of internal
+conversion.
+
+* demonstrate scintillation - theremino 
+
+idea of scintillation // show materials
+
+: rmmod snd_hda_intel 
+
+: alsamixer -c 1 // settings around 30-40 on mic and on capture - AGC is OFF!!!
+
+: pulseaudio -vvv
+
+:  wine Downloads/Theremino_MCA/Theremino_MCA.exe
+
+: settings as: 11octbicron_am241.txt - may have to re-check pulseaudio selection
+
+* explain first walk - mappings/two groups
+
+oraclewalk.png
+
+* schedule
+
+SAFETY!
+
+- brief intro all participants - what we bring, LAN diagrams// what these diagrams could be, diagrams in the field/as the field
+
+*how can  we register energetic exchanges: examples from radioactive phenomena, photographic paper, sensitivity, drawing machines, growth, heat, cold, feeling*
+
+- first walk mapping and locations: interaction human infrastructure and diverse energies, collecting for fermentations
+
+- lunch
+
+- activities in groups: darkroom bags prepared, 2x cloud chambers, fermentations,
+  dew collections: drosometer=dew meter, heat measurements, mycelium connections, static
+  electricity, spark gap thing, prepare seeds, outside cloud chamber
+
+- networking these and how they could work as recording devices outside (outdoor cloud chamber)
+
+- final walk, mark GPS locations
+
+* smaller groups for activities and prototyping - intro to what we have on offer
+* my interest in dews and fogs, static electricity
+
+dew.jpeg
+
+dews and fogs: temperature differentials, heat exchanges, gains and losses, changes in state = changes in energy, distillation, sublimation
+
+
+
+* cloud chamber diagrams and images
+
+chamber.jpg
+
+* 
+
+cloudchamber.gif
+
+* 
+
+docs_reader/reader/chamber.png
+
+* 
+
+Notes: static can interfere, be careful with any sparks and alcohol/coolant
+
+For peltier - with red wire to right, cold is on TOP!
+
+fan.png
+
+https://www.instructables.com/id/Make-a-Cloud-Chamber-using-Peltier-Coolers/
+
+* networkings
+
+
+* final walk and locations
+
+
+** for muon and RNG mapper (old one in orange case)
+
+- to convert to qgis format we use gpstoqgis.py
+
+note that 52.5 is our latitude (Y) and 13.4 is our longitude (X)
+
+Open delimited text file, WGS84 setting then add layers etc (see mapping.org HOWTO)
+
+*** For plots
+
+gpsrngcum.py and muon_entropy/py - TO TEST
+
+** for new gps logger/logging HF intensity
+
+- we can just load CSV as delimited text file again with second value as our X!
+
+*** For plots
+
+_gpsrng.py
+
+
+* //////////////////////////////////////////////////////////////////////////////
+
+
+
+

@@ -1,33 +1,35 @@
-* participants:
+* statement
 
-conf:
+to observe and intervene within networks of energetic exchange - between the infrastructural and the pre-existent/accidental
 
-kat austen, mindaugas, peter, stephanie = 4 +
+* schedule
 
-tblank@posteo.net
+- brief intro all participants, LAN diagrams// what these digarmas could be, diagrams in the field/as the field
 
-Marina Miller Dessau: marinadessau@gmail.com
+to observe and intervene within networks of energetic exchange - between the infrastructural and the pre-existent (natural)
 
-krista bell: kristabellestewart@gmail.com
+interested in dews and fogs: temperature differentials, heat exchanges, gains and losses
 
-kenpwahl@googlemail.com
+examples//
 
-+ lfsaw@lfsaw.de
+- first walk mapping and locations: interaction human infrastructure and diverse energies
 
-inkagop@gmail.com
+- lunch
 
-total: 10
+- activities in groups: darkroom bags, cloud chamber, fermentations,
+  dew collections: drosometer-dew meter, heat measurements, mycelium connections, static
+  electricity, spark gap thing, prepare seeds, outside cloud chamber
 
-* notes to participants
+- networking these and how they could work as recording devices outside (outdoor cloud chamber)
 
-11AM, 
+- final walk, mark GPS locations
 
-to bring:
+* for presentation ???
 
-measurement devices, recording devices (notebooks, cameras, phones),
-objects, machines or beings which might demonstrate, embody or
-intervene within processes of energetic exchange, outdoor clothing
-(the weather should be good)
+- cloud chamber
+- spark gap
+- maps
+- static electricity
 
 * new notes
 
@@ -56,8 +58,6 @@ dew
 what is sensitive to fogs, smogs and dew? circulations of dew, breath
 
 stack as model - energetic stack, transparancies, lightbox or OHP, rerouted stack, leaky stack, static electricity
-
-open call: stephanie, ioana, kat, peterF - recommends?, dan, (fara peluso), nenad popov
 
 * open call
 
@@ -163,9 +163,11 @@ static generator:
 
 ** shopping
 
-AA batteries, glass top/rubber/felt/gaffer - modulor, small trays/film/developer (Mitte), ziplock bags 
+salt, AA batteries, glass top/rubber/felt/gafferX - modulorXX, small
+trays/film-orthi25 5x4/rodinal=developer (Mitte), ziplock bags, black
+bag/darkroom (kati), measuring jug(upstairs maybe)
 
-* for reader
+bring: any tools, black paper, plasticene (black)
 
 * for book
 
@@ -289,7 +291,11 @@ Open delimited text file, WGS84 setting then add layers etc (see mapping.org HOW
 
 *** For plots
 
-gpsrngcum.py and muon_entropy/py - TO TEST
+artlabpeter124551.txt
+
+artlabcub1310.txt
+
+gpsrngcum.py and muon_entropy.py
 
 ** for new gps logger/logging HF intensity
 
