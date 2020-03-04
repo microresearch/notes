@@ -1,3 +1,18 @@
+
+* for licht/breath and AC - larger pots, jaqcks, knobs:
+
+- licht: 1x 100k lin: order35 (15stock), 2x PJ301BM/erthenvar
+
+- breath: 2x regular 10k, 1x PJ301BM
+
+we have 90x PJ301BM = 50x3=150 for full run, 20x3=60 for first - order 60!
+
+- AC: 8x regular 10k, Thonkiconn Mono 3.5mm Audio Jacks (PJ398SM) (x32) - we have 220 odd so far -> 6
+
+knobs: Light Gray (D-Shaft) - 1900h Plastic Knob: 200+
+
+we need euro connectors:
+
 * potis etc
 ** alpha/small square
 
@@ -15,15 +30,6 @@
 many 1xUM
 2x 3pos(small)
 6x 2pos(big)
-
-** jacks
-
-for euro regular PJ301BM/erthenvar
-
-** screw knobs
-
-30x
-
 
 * Bulk/misc
 
