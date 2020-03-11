@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 # Second set of pre-conditioning for ItalSens HM1 - this is the second one which is run 10 times - we do this manually at first!
 
 print("Second set of pre-conditioning for ItalSens HM1 - this is the second one which is run 10 times - we do this manually at first! 10x")
+print("")
+print("Stirrer on during constant and off during squarewave")
+print("")
 
 port = '/dev/ttyACM3'    # Serial port for potentiostat device
 datafile = 'data_secondconditioning.txt'    # Name of output data file
