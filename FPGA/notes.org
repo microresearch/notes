@@ -118,16 +118,29 @@ shifted to testcode here!
 - changed makefile and pcf for our module and works!
 - make burn to run iceprog
 
+- TODO: shift register example with real-world connections, doppler workflow and tests
+
+- what chip we can use for our own work?
+
+** dadamachines doppler
+
+- about the board 
+
+- code and guide at: https://github.com/dadamachines/doppler/
+
+FPGA stuff at: https://github.com/dadamachines/doppler-FPGA-firmware
+
+- development and toolchain: did we use docker thing (check on x200 and make notes)?
 
 ** ///
 
 - how we can make functionality of All Colours in FPGA and what speeds this could run at?
 
-- pulses in, out, XORs, random leaks, noise entry, timings(we have), PWM!
+- pulses in, out, XORs, random leaks, noise entry, timings(we have), PWM, DACs
 
-- all is 1.2v so we need to convert
+- all is 1.2v so we need to convert = but is mixed 3.3v CMOS pins, anyways will translate pulses with transistors
 
-practicalities of how to interface with iT?
+practicalities of how to interface with it?
 
 - how to do simulation
 - how to maybe implement ouroboric/SR mutated functionality
