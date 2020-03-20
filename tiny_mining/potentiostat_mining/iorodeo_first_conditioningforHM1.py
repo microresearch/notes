@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 # Pre-conditioning for ItalSens HM1 - this is the first one which is run once
 
 print("Pre-conditioning for ItalSens HM1 - this is the first one which is run once")
+print("")
+print("Stirrer on during constant and off during squarewave")
+print("")
 
 port = '/dev/ttyACM3'    # Serial port for potentiostat device
 datafile = 'data_veryfirstconditioning.txt'    # Name of output data file
@@ -42,8 +45,8 @@ sample_rate = 15.0          # The number of samples/second to collect - was 10, 
 # Create dictionary of waveform parameters squarewave annodic stripping
 test_param = {
         'quietValue' : -1.1, # this is the eq value of 10 seconds
-        'quietTime'  :  10000,
-        'amplitude'  :  0.025,
+        'quietTime'  :  10000, # 10 seconds
+        'amplitude'  :  0.025, # SWV settings
         'startValue' : -1.1,
         'finalValue' : -0.15,
         'stepValue'  :  0.005,

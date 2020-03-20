@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 print("")
 print("Stripping SWV for ItalSens HM1 - this is the test itself.")
 print("")
-print("Stirrer should be on during deposition (constant = 25+120 seconds) and off during squarewave - manually!")
+print("Stirrer should be on during first deposition (constant = 25+120 seconds) and off during squarewave - manually!")
 
 port = '/dev/ttyACM3'    # Serial port for potentiostat device
 datafile = 'data_conditioningSWV.txt'    # Name of output data file
@@ -22,7 +22,7 @@ test_param = {
         'quietValue' : -0.12,        # Output voltage during quiet peroid
         'quietTime'  : 45000,       # Duration of quiet period (ms) 45 seconds
         'value'      : -1.15,        # Output volatage (V) durring constant voltage test
-        'duration'   : 120000,       # Duration of constant voltage test (ms) 120 seconds
+        'duration'   : 120000,       # Duration of constant voltage test (ms) 120 seconds deposition
         }
 
 # Create Device object and set sample rate, current range and test parameters
@@ -45,7 +45,7 @@ sample_rate = 15.0          # The number of samples/second to collect - was 10, 
 # Create dictionary of waveform parameters squarewave annodic stripping
 test_param = {
         'quietValue' : -1.1, # this is the eq value of 10 seconds
-        'quietTime'  :  10000,
+        'quietTime'  :  10000, # 10 seconds
         'amplitude'  :  0.025,
         'startValue' : -1.1,
         'finalValue' : -0.1,
