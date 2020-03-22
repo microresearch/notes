@@ -1,0 +1,554 @@
+* collected phrases - erasers etc.
+
+“stigmata handjob”.
+
+* spells crossed with readers letters
+
+* diana
+
+* dreams esp. latest vomit dream and alchemical texts in dream forms
+
+* software and steps
+
+  /root/rsync2016/projects/writing/diana
+
+mergepos.py is latest pos one we use for andy fanzine bbqed humans
+
+- downloads
+- conversion to txt, catting, merging
+- cleaning up
+
+poetry generators, rhyming stuff, parts of speech (POS), neural networks- LSTM - tensorflow, keras
+
+
+* which texts? 
+
+** visions of zosimos
+
+** ripley vision and gates
+
+
+
+** also commentary from Philalethes on the fifth gate: putrefaction
+
+https://www.alchemywebsite.com/ripley_revived.html
+
+Now we begin the Chapter of Putrefaction,
+Without which Pole no Seed can multiply,
+Which must be done only by continual action
+Of heat in the Body, moist not manually;
+For Bodies else may not be altered naturally.
+
+We have already run through four Gates, the first being opened, the rest stand open at will; so that thou hast need only to enter. The course and method of Philosophers now doth lead us to the Gate of Putrefaction, a horrible Gate, whose entrance is dark with Cimmerian night dreadful with many windings and turnings.
+
+And yet it is a Gate so necessary, that unless you pass through it, you may never expect to reap fruit from your labour; for without it can be no Life nor Generation, much less desired Multiplication: therefore saith the Poet,
+
+Felices atrum quotguot habere queant.
+
+The cause of this death, or corruption or rottenness, proceeds from the action of continual heat, not so much of the external Fire of the Athanor, as of the Compound within it self; in which the Fire of the Water which is against Nature, doth open the perfect Body by continual contrition and decoction, and so lets loose its Sulphur that was incarcerate, which is Fire of Nature, that so between these two in continual action and passion, together with the external heat continually acting, the whole Compound is brought to corruption, being sometimes roasted with external heat, which doth sublime the moisture, which again of its own accord returns continually, and doth moisten the earth so long, until by reason of the heat it have drunk up the moisture wholly, and then it dyes.
+
+And unless thou see this sign, of rotting of thy Compound, which is done in a black colour, a stinking odour, and with a discontinuity of parts, thy labour will still be in vain; for thou mayst never expect what thou desirest, to have a new form brought in, till the old form be corrupted and put off.
+
+Sith Christ doth witness, without the Grain of Wheat
+Dye in the Ground, increase thou mayst none get.
+And in like wise without the Matter putrefie,
+It may in no wise truly be alterate,
+Neither thy Elements may be divided kindly,
+Nor the Conjunction of them perfectly celebrate:
+That therefore thy labour be not frustrate,
+The privity of our putrefying well understand,
+Or every thou take this Work in hand.
+
+This is so constant to Natures constant proceedings, that the painful Husbandman, that he may have an increased harvest, commits his precious Seed to the Ground, in it to rot, and to be corrupted, that so a new Life may spring from the old dead Body; nor doth he ever expect increase, so long as it remains in his Garner.
+
+Right so we, so long as our material principles continue in their own nature and form, they are but of a single value, for Gold and Mercury are two such principles, that they will for ever delude as many as proceed to work on them in a Sophistical way; for whatever the Artist may think, they will remain the same unto the end of the World, unless pure Sol being mixed with its own pure and appropriated Mercury, and set in a due heat of digestion, there arise a mutual action and passion between them, which without the laying on of the Artists hands, will tend to a new Generation. For in a convenient Fire, in which the Compound may perpetually and uncessantly boyl, and the subtle parts may ascend and circulate upon the gross without intermission, the most digested Virtue or Soul of the fixed Body, (which is his basis of Tincture) will be extracted by the Water, and this will mix with it self with the pure Spirit of the Water, and with this it will ascend and return, until a total separation be made of the pure from the impure, and the subtle from the gross.
+
+Then shall the Body draw down its Soul again, and by the power of the most High it shall be united, and with it the Spirit of life shall be joined also, so that all three shall become one with an union indissolvable; but all this pre-supposeth a Putrefaction, or Corruption of one form, else cannot there be an Introduction of another.
+
+Therefore since this mystery of Putrefaction is not more secret then necessary, so necessary that without it there is nothing can be done to purpose, that is to say, with profit; I shall be a little plain and full in the prosecution of this mystery: For in the knowledge of this consists all that is required to make a Philosopher. All the intentions of the Artist, must be only so to prepare and order things, that he may be sure of this terminus; and when he is there come, he is as sure a Master as if he had the Stone in his Cabinet. By the failing of this sign, the Operator is always to turn either backward to seek out some other principles, or forward, or to the right, or to the left; but when he is Master of this, he then can fail in nothing but in the Regimen of the outward heat.
+
+And Putrefaction may thus defined be,
+After Philosophers definition to be of Bodies the slaying,
+And in our compound a division of things three,
+The killed Bodies into Corruption forth leading,
+And after unto Regeneration them ableing;
+For things being in the Earth, without doubt
+Be engendered of Rotation of the Heaven about.
+
+The definition that the Philosophers give of this Operation, is perpetually Allegorical, for this Gate they have named by all Metaphors almost in the World, especially from death, and dead men: therefore they allegorize the Vessel in this station, to Grave, or Tomb, and emblematically discover this Operation by the types of Skuls, dead Bones, and rotten Carcasses; according to which Metaphors they call Putrefaction, the death of the Compound.
+
+For when they saw the Body with the Water to melt in the Fire, to flow and to boyl, they called this Magnesia; when they saw the Water partly to ascend, and partly to descend, and partly to remain below, so that there was both a Sublimation in vapour, and a Motion of what was below; they said that it was the Spirit of the Water that ascended, or more Airy part; and the more Fiery part, which rejoyceth most to be united to, and hidden in Earth, remained below, for that was more capable of the Fire, and did better agree with it, as with its like: which because it did so uncessantly swell and boyl, and rage at the bottom, and make the Body begin to change its colour, they said it was Fire against Nature. Again, when they saw the ascending Vapour to change colour, they said it was the Soul of the Bodies was mixed with the Spirit, which because it was green, they said it was a vegetative Soul, and Fire of nature.
+
+Now when the Body below began to thicken, they said this was an Hermaphroditical Body, because part of the Water always remained below, and made the Body to boyl, and bubble, and flow; and therefore this they called a new Body compounded of two Bodies, the Sun and Moon, the Man and the Wife, which because it grew to a slimy consistence, they named it Limus, or Limbus, Hyle, and a Chaos, or Terra Adamica.
+
+When this Body began to grow very black, and to send up foul exhalation, yellowish, blewish, and black, they said this was Death and Corruption, which followed the separation of the Soul from the Body.
+
+Now when they see the Souls to be again united, and to remain bellows together, they knew that the Soul and Spirit were Immortal, that is, the Tincture or Vital Balsam was Incorruptible; and because they see them again unite, they knew the Soul and Spirit would renew the Bodies, and this seeming Corruption, was but a natural step to a glorious Regeneration; for if the Souls be again united to the Bodies, they will surely regenerate them, and renew them, and make them incorruptible; for if the Spirits had not returned t this union, they might only have expected the Exhalation of them: for Spiritual Tinctures or Essences, cannot be destroyed by corruption in many Vegetals,  much less in the most perfect of Minerals and Metals. The union then of the Souls with the Bodies, argues evidently a hidden purity, under the apparent rottenness, which will after Purificaiton be exalted to transcendent Glory.
+
+Hereupon they said, that the Spirit and Soul which were above, were the Heavenly Quintessence, and the Body below was the Earth; and this Circulation of Spirits, were but as the Circulation of the Heavens about the Earth; and the falling drops, were but as the influential dew, which did cause the Earth to fructifie; and the blackness and darkness, were but the Winter Latitude, which with its Clouds and droppings do mellow and fertilize the Earth, to shoot forth with the more beautiful varieties in the Springe.
+
+And therefore like as I have said before,
+Thine Elements commixt and wisely coequate,
+Thou keep in temperate heat, eschewing evermore
+That they by violent heat be not incinerate,
+To powder dry unprofitably Rubificate:
+But into powder black as the Crows Bill,
+With heat of our bath, or else of our Dunghill.
+
+For this cause they looked upon this as a secret, mysterious, yet very natural Operation, whereby the most solid and perfect Minerals, are by Nature so applied one to another, and cultivated, that the very Earth or Ground should be found, in which this noble Tree of the Hesperides may be planted and grow; the Matrix or Womb should be prepared, in which this noble Off-spring may again enter, and be born again.
+
+Therefore what by long Experience, and profound Meditation, Philosophers have found out and seen, that also they committed and communicated unto us; so that we also are made fellow Heirs of this great Treasure, and we shall as faithfully communicate our knowledge for thy Instruction. First then, take thy Body which is Gold, and thy Water which is Mercury, the one ready made by Nature to thy hand, the other thou must Prepare, for it is not to be found in the Land of the Living, but must be made; Nature here is at a non-plus, and so is Art, taken asunder, but both together effect it.
+
+Mix these together in due proportion, so as I have often told thee; then set them to the Fire to decoct, and give them a convenient heat, in which they may boyl, ascend and descend perpetually, without any intermission night or day.
+
+But especially and before all things be careful in your Internal heat, to wit, the proportion of your water for your Sulphur; that you must add and supply to it in the beginning of your Work, in its Preparation, is that which doth perform all the work within, without which your External heat is of no value, for it is of it self uneffectual.
+
+If then thou accend this heat so much as that it predominate, it will not then dissolve the Bodies, as thou expectest, but contrariwise burn the Flowers before they are extractd from the depths of their marrow: this thou mayst easily do, either if thy Arsnick be not made as it ought, or else the number of Eagles exceeded, or the proportion of thy Water to thy Body not agreeing to the number of Eagles, or thy Glass not well proportioned to thy Matter; it will easily burn, if thy Glass be too big, for so the moisture will so much be dispersed about the Concave, that it will not return before the earth below be left too dry. I have given Rules easily to avoid all these inconveniences.
+
+And on the other hand, be sure that thou do not erre in too little heat; let thy Water have Fire enough within it, to make a true division and corruption, which if either thy Arsnick have sufficient Fiery virtue, or if the union of this and thy Water be not well attended, but slightly performed, or the Purgation of thy water be not thoroughly made each Eagle, for so two or three eagles may not add the virtue of one, or if thy number of eagles be not just, or thy proportion of quantity be not duly observed.
+
+Therefore follow my advice, and be careful in both these particulars, and then let your External heat be so that your Compound may boyl and sublime, which for its similitude is called a Balneum, so long till the Vapours Cease, and are retained within; then will the Compound rot, which for its great likeness is called our Dunghill.
+
+Until the time that Nights be passed ninety,
+In moist heat keep them for any thing,
+Soon after by blackness thou shalt espy,
+That they draw fast to putrefying.
+
+First then, our Operations begin in humido, for in the beginning moisture it prevails, and is called the Phlegmatick Constitution of our Embrio; and this is called the Reign of the Woman, which (according to Flammel) seeks to get the Domination for many months, that is to say, for three month or thereabouts, which according to our Author is ninety days and nights, to whom many other Authors agree. This time may be longer or shorter, according to the better or worse preparation of the Matter, and the Regimen of the Fire.
+
+But when thou hast set thy Glass once, in the first place be sure that thou give a due, yet temperate heat; govern it so as that between the Waters above, and the Flouds beneath, the Earth may liquefie; then continue your decoction, and the Vessel shall be beclouded, and thy Compound shall with constant Circulation become black.
+
+This colour shall be a sign unto you that you have not run your course in vain; this is the first Gate, into which and through which you must enter; now know for certain that thy Seeds begin to rot and engender. In this Putrefaction there is life, for this Operation is nothing else but an extracting of Natures from their profundity or root; this is that which will make thy fixt Body to become a volatile Spirit, for Putrefaction doth loose the bands of all the Elements.
+
+Which after many colours, thou mayst bring
+To perfect whiteness, by patience easily,
+And so the Seed in his nature shall multiply.
+
+So soon then as thou shalt have blackness, know for certain that in this blackness whiteness is really hidden, so really as a living Plant in its Seed. But before thou attain to this whiteness, thou mayst have patience and pass through many middle changing colours, which will be no small cheating to the Work-man, who must wait with a great deal of Longanimity until the Earth and Heaven be united.
+
+Then shall thy Elements perfectly accord, and one colour shall cover thy new-married Soul and Body, and that will be like to the most pure Lilly, or sublimed Salt, sparkling like to a new-slipped Sword in the Sun beams.
+
+In this whiteness is the Multiplicative virtue exalted, and made apparent in its first degree; by this white Soul thou mayst turn either Mercury, or Saturn, or Jupiter, or Venus, or Mars, into most pure refined Silver, in a short time, and that not Sophistically, to apparency, but in reality, inwardly and outwardly to abide all Essays.
+
+Make each the other to hales and kiss,
+And like as Children play them up and down,
+And when their Shirts are filled with Piss,
+The let the Woman to wash be bown,
+Which oft for faintness will fall in a swonn,
+And die at last with her Children all,
+And go to Purgatory to wash their filth Original.
+
+But in thy first Operation, as is said before, first look for blackness, which will appear in the first Regimen by continual decoction, which blackness shall be an Indicium to you that your two Natures do begin now to imbrace and kiss one another.
+
+For so soon as they feel the Fire, they flow together within the Vessel, and boyl by continuance of decoction visibly, and the tender Nature not enduring the heat, flyeth aloft, and being inclosed so that it cannot get out, it congeals in drops in the head of the vessel, and about the sides, and again returns to its Body, which may well be called Childrens play, running round as it were in a Circular motion: This play continues so long, till the Water begins to leave its thicker parts, with the thicker parts of the Body, which in the bottom of the Vessel is called Urina puerorum; and the thinner parts of the Water, mixed with the thinner parts of the Body, which is dissolved in it, flies still and circulates until it have made a more full dissolution of the Body, which here by the odour of its Sulphur doth penetrate the Spirit and Soul, and makes them faint at last, and remain as it were breathless in the bottom of the Glass.
+
+Then shall the Body be destroyed, and both the Water and it rot into small Atoms, which will lie without motion, growing every day more and more black, until at length Cimmerian darkness cover the whole Sky.
+
+This is called the North Latitude of our Stone, and it is Winter, cold and dirty; here are the Elements brought to rest for a time, until a Generation be made in the bottom of the Glass, when though the will and power of God, a clean thing shall be brought out of this uncleanness and black venenosity.
+
+When they be there, by little and little increase
+Their pains with heat aye more and more,
+The Fire from them let never cease,
+And see that thy Furnace be surely apt therefore,
+Which wise men call an Athanor:
+Concerning heat required most temperately,
+By which thy Matter doth kindly putrefie.
+
+Now thy Bath will begin to be a little more heated and stirred up, to wash this young King, which though noble, is yet conceived in a Stable; for at this time thou hast the Sulphur of thy dissolved Body let loose, which mixing with the Sulphur of the Water, doth acuate it exceedingly; the one being a natural, the other a Fire against Nature, both together make an unnatural Fire, burning like to the Fire of Hell, comparable to nothing but the Alcahest.
+
+Nor must thou think that this increase of Fire consists in the blowing of the Coal, no verily, it is a more subtle internal Fire that we have, and yet that also must be kept constant, and in due order.
+
+For this cause see that thy Furnace be trusty, else thou mayst and wilt fail; for though the Fire of Coals do not effect anything, yet it excites, and the Water though it be of a wonderful nature, yet it acts no further then it is stirred up, and intermission in this Work when once begun, will in the end prove fatal extinction.
+
+Therefore the Wise men have named the Furnace in which they work their Secrets, an Athanor, that is, Immortal, shewing that from the beginning to the end the Fire must not go out, for the extinction of it destroys the Work; and as death includes all sicknesses, which are steps to it, so an Immortal Furnace or Athanor, must not only preserve the Fire from going out, but also from exorbitancy either on one hand or other, for whatever swerves from the temperate mean, hinders the kind operation of the Matter, which is Putrefaction, by which means the Work is notably retarded and weakned, and by continuance of any extremity it will be destroyed, but with its due heat it doth putrefie kindly.
+
+Of this principle speaketh sapient Guido,
+And saith by rotting dyeth the Compound corporal,
+And then after Morien and others moe,
+Up riseth again regenerate, simple and spiritual.
+And were not heat and moisture continual,
+Sperm in the Womb might have none abiding,
+And so there should no fruit thereof up spring.
+
+This according to the intention of all Philosophers, Guido, Turba, Arnaldus, and others, but especially noble Trevisan, whom I chiefly honor; so Flammel, Artephius, Morien, and all Philosophers testifie this much, namely, that the heat must be so adequated to the Compound, as that in it the Body, through the Pontick virtue of the Water, may have its Sulphur let loose, and so these two Sulphurs mixing together, may bring the whole to rotting or Putrefaction.
+
+By which putridness a Ferment is engendred, which as it doth volatilize all things naturally, so it doth quicken this gross dead Body, in so much that it mounts aloft upon the Fire with the Water, and riseth a new glorious Body mixed with the Water, so that both being become one together, the Spirit borrows from the Body permanency, and the Body from the Spirit obtaineth penetrativeness, so that both make one coelestial and terrestrial Compound, named the Regenerate Body and Stone of Paradise incombustible. All which is occasioned by the continuance and not failing of heat, both inwardly and outwardly, by which the moisture is circulated and depurated, without which the seminal virtue would be extinct, which only vegetates by heat and moisture.
+
+And if once the seminal virtue were kill’d, the remaining Compound would be no better then a dead unprofitable thing, which could never be recoverd; so that if either moisture or heat within, or convenient heat without should fail, there is nothing to be expected, but according to the Poet,
+
+Cunct a rent, quae non ulla reparaveris Arte.
+
+Therefore at the beginning our Stone thou take,
+And bury each in other with their Grave,
+Then equal between them a marriage make,
+To lig together six weeks let them have.
+Their Seed conceived, kindly nourish and save,
+From the ground of their Grave not rising the while,
+Which secret point doth many one beguile.
+
+This then is the process of our Work; take at first our Stone, that is, the true Material principles thereof, which are one in kind, and two in number: mix these together in a due proportion, then shalt thou see as follows. First, thy Feminine nature will so embrace thy Masculine, as to extract from him his Seed, that is, the most digested virtue, so shall the Body dye, and the water shall intomb it.
+
+The Water by Cohabitation shall contract amity and friendship with the Body, for it is nothing else but a Feminine Body of the same Stock, which when they are united and joined, this is called the marriage of Gabritius with Beya.
+
+Then shall the Vapours cease, and all Exhalation shall be withheld from ascending or descending during the space of 40 days, or 42 at most, in which time though thou see not the former Circulation, rejoice, for now the Body begins to retain his Soul in a black colour.
+
+Now the Queen hath conceived the Kingly Seed, which must be nourished with gentle convenient Fire, till it wax strong, and becomes a puissant triumphant Champion, whom no earthly force is able to withstand.
+
+Thou must of necessity then let them have this prefixed time for their solitude and retirement, in which time the fixt and the volatile, the cold and the moist, the hot and the dry, do learn to agree each with other, being reconciled in this Head of the Crow, which is the conversion of natures into a discontinuous Calx, finer then Atoms of the Sun.
+
+This Operation as it is the Wyld and Labyrinth of all who seek this Art in vain, so it is the Capo di Bone esperanza to as many as attain to the perfect sight hereof; for now most of the difficulties are passed, which they are like to meet withal in this their Voyage to the Oriental Indies.
+
+This time of Conception with easie heat abide,
+The blackness appearing shall tell thee when they die,
+For they together like liquid Pitch that tide
+Shall swell and bubble, settle and putrefie;
+Shining colours therein thou shalt espy,
+Like to the Rainbow, marvelous to sight,
+The Water then beginneth to dry upright.
+
+Thou must then be very carefull that thy over-heat do not now hinder their Conjunction, for now is the main fear of burning thy Flowers, which thou mayst easily do, and makes these Natures become a half Red, or Orange colour, instead of the true Crows Bill.
+
+Whereas if thy external heat be so gentle, as not to extinguish motion, thou shalt find that in this period thy Natures shall both of them die together, for one is not killed, nor dieth without the other; which death in its approach thou shalt discover by the appearing blackness.
+
+And when once the Crow shall begin to shew itself, know that thou shalt see a terrile day, for thou must expect to be in the heat of the shore, and in the storm of the inraged Sea, which now the Winds are abated, after a long and strong blowing of them, doth arise in waves, raging and taking on, and raising the filth from the very bottom, so that all becomes like to a troubled Glass of ink, or melting boiling Pitch.
+
+After this blackness, which shall endure for a long and tedious time, thou shalt see various and glorious colours to succeed, such as thou never hast seen; for all the colours that the mind of man possibly can imagine, shall then present themselves to view, which shall be an evident token to thee, that the moist and dark Dominion of the Woman doth now begin to vanish, and instead thereof the Man beginneth to rule, who first dryeth up the moisture of the Woman, with which there will vanish blackness, and the changeable colours, and after all shall be fixed in a sparkling dry white Powder, which is the Stone of Paradise.
+
+For in moist Bodies heat working temperate,
+Engendreth blackness first of all, which is
+Of kindly Conjunction the token assignate,
+And of true putrefying; remember this,
+For then perfectly to alter thou canst not miss.
+And thus by the gate of blackness thou must come in
+To the light of paradise in whiteness, if thou wilt win.
+
+In the beginning therefore of our Work, through the Co-operation of heat both internal and external, and the moisture of the Matter concurring, our Body gives a blackness like unto Pitch, which for the most part happens in 40, or at the most in 50 days.
+
+This colour discovers plainly that the two Natures are united, and if they are united, they will certainly operate one upon another, and alter and change each other from thing to thing, and from state to state, until all come to one Nature and substance Regenerate, which is a new Heavenly Body.
+
+But before there can be this renovation, the Old man necessarily must be destroyed, that is, thy first Body must rot and be corrupted, and lose its form, that it may have it repaid with a new form, which is a thousand times more noble. So then our Work is not a forced and apparent, but a natural and radical Operation, in which our Natures are altered perfectly, in so much that the one and the other having fully lost what they were before, yet without change of any kind, they become a third thing, Homogeneal to both the former.
+
+Thus they who sow in tears, shall reap in joy; and he who goeth forth mourning, and carrying precious Seed, shall return with an abundance of increase, with their hands filled with sheaves, and their mouths with the praises of the Lord: thus the chosen or redeemed of the Lord shall return with Songs, and everlasting Joy shall be upon their heads, and sighing and sorrows shall fly away.
+
+For first the Sun in his uprising obscurate
+Shall be, and pass the Waters of Noah’s Floud,
+On Earth which were a hundred days continuate
+And fifty, away ere all these Waters god,
+Right so our Waters, as Wife men understood,
+Shall pass, that thou with David may say,
+Abierunt in sicco flumina; bear this away.
+
+Remember then this Chymical Maxim, namely that a sad cloudy morning, begins a fair day, and a chearfull noontide; for our Work is properly to be compared to a day, in which he morning is dark and cloudy, so that the Sun appears not.
+
+After that, the Sky is over-clouded, and the Air cold with Northerly winds, and much Rain falls, which endures for its season; but after that, the Sun breaks out, and shines hotter and hotter, till all become dry, and then at Noon-day not a Cloud appearing, but all clear from one end of the Heaven to the other.
+
+But our Waters may more fitly be compared to Noah’s Floud, or Deluge, then to a day-showr, by reason of their continuance; for before our Waters shall all be overcome, and dried up by prevailing siccity, it will be about 5 months, in which time the Artist shall be held in constant horrour, according as the Allegory of Aristeus hath it;
+
+Sed ne poeniteat faciem fuligine pingi,
+Adferet haec Phoebi nigra favilla jubar.
+
+Wait patiently, for thou shalt see the Day-star arising with deliverance, and these Waters shall through the command of the Almighty abate; Jupiter then shall rule, in whose reign all things shall be restored: for by constant decoction, thy Body shall have virtue to receive Tincture, and to retain it, and to increase it, by which it shall be renewed, and shall by little and little digest all the moisture, which then shall be unto it as nourishment, Milk of Life, which we call Virgins milk.
+
+Then shalt thou have leisure to contemplate these wonders of the most High, which if they do not ravish and astonish thee in the beholding of them, it is because God hath not intended this Science to thee in Mercy, but in Judgment, to wit, that it should be unto thee a snare and trap, and a stumbling-block at which thou shalt stumble and fall, and never rise again. Remember then when once thou shalt see the renewing of these Natures, that with humble heart and bended knees thou praise and extol, and magnifie that gracious God, who hath been nigh unto thee, and heard thee, and directed thine Operations, enlightned thy Judgment; for certainly flesh and bloud never taught thee this, but it was the free gift of that God who giveth to whom he pleaseth.
+
+Soon after that Noah planted this Vineyard,
+Which Royally flourished, and brought forth Grapes anon,
+After which space thou shalt not be afeard.
+
+Now as the Earth when the Waters of the Floud were abated, was as it were renewed; even so thy Earth is made new, and the Rain-bow is to the a sign that there shall never again happen such another Deluge, as thou hast now passed. Thy Earth then being renewed, behold how it is decked with an admirable green colour, which is then named the Philosophers Vineyard.
+
+This greenness, after the perfect whiteness, is to thee a token that thy Matter hath re-attained, through the will and power of the Almighty, a new vegetative life: observe then how this Philosophical Vine doth seem to flower, and to bring forth tender green Clusters; know then that thou art now preparing for a rich Vintage.
+
+Thy Stone hath already passed through many hazards, and yet the danger is not quite over, although it be not great, for thy former experience may bow guide thee, if rash joy do not make thee mad.
+
+For in like wise shall follow the flourishing of our Stone.
+
+Consider now that thou art in process to a new Work, and though in perfect whiteness thy Stone was incombustible, yet in continuing it on the Fire without moving, it is now become tender again; therefore though it be not in so great danger of Fire now as heretofore, yet immoderacy now may and will certainly spoil all, and undo thy hopes: Govern with prudence therefore during the while that these colours shall come and go, and be not either over-hasty, nor despondent, but wait the end with patience.
+
+And soon that after thirty are gone,
+Thou shalt have Grapes right as Ruby red,
+Which is our Adrop, our Usifur, and our red Lead.
+
+For in a short time thou shalt find, that this green will be overcome by the Azure, and that by the pale wan colour, which will a length come to a Citrine, which Citrine shall endure for the space of 46 days.
+
+Then shall the heavenly Fire descend, and illuminate the Earth with inconceivable Glory; the Crown of thy Labours shall be brought unto thee, when our Sol shall sit in the South, shining with redness incomparable.
+
+This is our Tyre, our Basilisk, our red Poppy of the Rock, our Adrop, our Usifur, our red Lead, our Lion devouring all things: This is our true Light, our Earth glorified; rejoice now, for our King hath passed from death to life, and now possesseth the Keys of both Death and Hell, and over him nothing now hath power.
+
+For like as Souls after pains transitory,
+Be brought to Paradise where ever is joyful life;
+So shall our Stone after his darkness in Purgatory,
+Be purged and joined in Elements withouten strife.
+
+As then it is with those who are Redeemed, their Old man is crucified, in which is sorrow, anguish, grief, heart-breaking, and many tears; after that the New man is restored, and then is joy, shouting, clapping of hands, singing, and the like, for the ransomed of the Lord shall return with Songs, and everlasting Joy shall be on their heads: even so it is after a sort in our Operation, for first of all our old Body dyeth, rots, and is as it were corrupted, yielding a most loathsome stink, and engendering squallid and filthy colours, and most venomous exhalations, which is at it were the Purgatory of his old Body, in which its corruption is overcome by a long and gentle decoction.
+
+And when it once is purged, and made clean and pure, then are the elements joined, and are of four contraries made one perfect, perpetual, indissolvable unity; so that fro henceforth there is nothing but concord and amity to be found in all our habitations.
+
+Rejoyce the whiteness and beauty of his Wife.
+
+Our Man then to shew his singular love to his Wife, and to give an evident token that they will never fall out any more, is content to attain the degree of its perfection in her colour; so that the first stable colour of thy renovate Body, after its Eclipsation in blackness, is the sparkling white, which is a luster hardly imaginable.
+
+And pass from darkness of Purgatory to light
+Of Paradise, in whiteness Elixir of great might.
+
+This is a noble step, from Hell to Heaven; from the bottom of the Grave, to the top of Power and Glory; from obscurity in blackness, to resplendent whiteness; from the height of venenosity, to the height of Medicine. Oh Nature! How dost thou alter things into things, casting down the high and mighty, and again exalting them being base and lowly! Oh Death! How art thou vanquished when thy Prisoners are taken from thee, and carried to a state and place of Immortality! This is the Lords doing, and it is marvelous in our eyes.
+
+And that thou mayst the rather to Putrefaction,
+Win this example, thou take, &c.
+The heart of an Oak which hath of Water continual infusion;
+For though it in Water lay an hundred years and more,
+Yet shouldest thou find it found as ever it was before.
+
+O happy Gate of blackness, which art the passage to this so glorious a change! Study therefore, whoever applyest thy self to this Art, only to know this Secret; for know this, and know all, and contrariwise be ignorant of this, and be ignorant of all.
+
+Therefore if that possible thou mayst attain the depth of this Mystery, I shall endeavor to unfold it to thy capacity by similitudes and examples.
+
+Thou knowest that if a solid piece of Wood lie in water perpetually, it will tire the patience of the most patient expecter to see it rot, for it will abide many Generation, and in the end be as found as when it was first laid in, Yea some contend, that in our days Pine-Trees are dug up in their intire proportion, which have been buried ever since the Floud, being found in such places in which no Histories ever mentioned that such Trees grew, and so deep under ground as it is almost incredible; which certainly have layn at lest many hundred years, and yet the Wood a found as any other Tree of that sort, which hath not been cut down above a year or two: such is the force of constant Humefaction, to prevent the ordinary corruption of Timber.
+
+But and thou keep it sometimes wet and sometimes dry,
+As thou mayst see in Timber,
+And so even likewise, &c.
+Sometimes our Tree must with the Sun be brent.
+
+But contrariwise, Timber which is kept wet sometimes, and dry sometimes, as usually the foundations of Timber Houses are, if not secured by the Masons Art, it would tire the Householders patience to see how soon such Timber will rot, and molder away, and become fit for nothing; which is a thing so well known, that the experience of every Rustick almost can teach it him.
+
+So resolve our Stone must be used, I thou intend to have it putrefie kindly; our Wheel for Putrefaction must go round, in a constant Elevation or Extraction of the Water or Humidity from the Body, by which Operation our Man the Sun is helped in his acting; and this Water must as constantly return to the Earth, to moisten it, by which the Woman the Moon is helped in her acting.
+
+And then with Water we must it keel,
+That so to rotting we may being it weel.
+
+Between these two various Operations which one and the same Fire produceth, our Body is both heated and cooled, his sweat is drawn forth and returned upon him again, by the which means it is triturated, ground, softned, and made weak even unto death; and dying, it rots and putrefies, changing colours from one into another, until at the length it becomes black as Ink or Pitch, which is our Toad, our Crow, our Tomb filled with rottenness, our Golgotha or place of dead bones, our Terra foliata or Earth of Leaves.
+
+For now in wet, &c.
+To be shall cause it soon to putrefie.
+And so shall thou bring to rotting thy Gold,
+Intreat thy Bodies, &c.
+And in thy putrefying with heat be not too swift,
+Lest in the Ashes thou seek after thy thrift.
+
+Our Operation then, saith Morien, is noting else but extracting Water from the Earth, and returning it again upon the Earth, and returning it again upon the earth, so long and so often till the Earth putrefie; for by elevation of the moisture the Body is heated and dried, and by returning it again it is cooled and moistned, by the continuation of which successive Operation, it is brought to corrupt and rot, to lose its form, and for a season to remain as dead.
+
+This is the true intention and manner of our working, and there is no other manner of working that can be invented, that can give thee the effect of this our Operation; for this is the true way and means by which thy Body of Gold will be destroyed, and no other way profitable for our Art: Proceed therefore as I have directed thee, and swerve not either to the right hand or to the left. Take this Body which I have shewed thee, and joyn it with the Spirit which is proper to it, which the Wise men have called their Venus, or Goddess of Love, and circulate these two Natures one upon the other, until the one have conceived by the other.
+
+But beware you urge not the Spirit too much, but remember that he is a volatile substance, and if he be over-provoked, he will certainly break the Vessel, and fly, and leave thee the ruines of thy Glass for a recompence of thy over-speedy rashness; which trust me will make thee fetch a deep Philosophical sigh, and say when it is too late, I would I had been content to wait Natures time. Let the Fire then be such in which thy Spirit may be so stirred up, as to return to its Body in the Glass, and not so irritated as to break the Vessel, and return to the Ashes or Sand of the nest, or stick about the sides of the Cover of your Nest, or else fly about in the Room wherein the Artist is, and lodge in his Head, and so make it far more unconstant then it was before, by adding to his rash giddiness a Paralytical shaking.
+
+Therefore the Water out of the Earth thou draw,
+And make the Soul therewith for to ascend,
+Then down again into the Earth it throw,
+That they oft-times so ascend and descend.
+
+Proceed therefore not as a Fool, but as a Wise man; make the Water of thy Compound to arise and circulate, so long and often until the Soul, that is to say, the most subtle virtue of the Body, arise with it, circulating with the Spirit in manner of a fiery form, by which both the Spirit and Body are the Spirit and Body are enforced to change their colour and complexion: for it is this Soul of the dissolved Bodies, which is the subject of Wonders; it is the life, and therefore quickens the dead; it is the Vegetative Soul, and therefore it makes the dead and sealed Bodies, which in their own Nature are barren to fructifie exceedingly.
+
+Therefore if this return unto the earth for which it first took its flight, it will make it for to fructifie, and to increase in Tincture, and in the earth it self will multiply as a grain of Wheat doth in the ground.
+
+Be sure then that so fast as thou makest thy ascension, so fast also thy descension by; this is agreeable both to Nature, and the intent of all Philosophers, especially Trevisan in his Chymical Miracle; Authors, saith he, differ especially in the documents of the Fire, but in this all agree, that the volatile ascend not higher then it may return. This is the true temperament of the fire.
+
+From violent heat and sudden cold defend
+Thy Glass, and make thy Fire so temperate,
+That by the sides the Matter be not vitrificate.
+
+Take diligent heed then that thou exceed not this measure, especially have a care that your Furnace be not apt to exceed, but that you may govern it at your pleasure, without uncertain increasing or slacking of heat, but that your Fire be equal and continually vaporous and boyling, for such a degree is altogether agreeable to the intention of Nature.
+
+Whereas if thou be too hasty, with Vulcan thou art always subject to errour; for even then when a discreet Work-man is past fear, I mean in the fourth Operation, in which the Elements are fixed and incerated, a hasty rash Vulcanist shall make his Medicines to grow hard at the first, and with a stronger and continuate degree of heat, to melt into a vitrificate substance, without any hope of future profit.
+
+Now then that Vitrification is an errour which is incident in the last Operation, as burning of the Flowers is in the first Operation; for if in Calcination the Fire be too violent, instead of black thou shalt have a Citrine, or half red unprofitable Calx: so in the fourth Operation, by too violent Fire thy Elixir will melt being vitrified, instead of a natural flowing or Inceration.
+
+And be thou wise in choosing of the Matter,
+Meddle with no Salts, &c
+But whatsoever any Worker to thee chatter,
+Our Sulphur and our Mercury been only in Metals,
+Which Oyls and Waters some men them calls,
+Fowls and Birds, &c.
+Because that Fools should never know our Stone.
+
+If thou hast attended well to what hath been told thee in these five Gates, thou art secure; make sure of thy true Matter, which is no small thing to know, and though we have named it, yet we have done it so cunningly that if thou wilt be heedless, thou mayst sooner stumble at our Books, then at any thou ever didst read in thy life.
+
+Meddle with nothing out of kind, whether Salts, or Sulphur, or whatever is of the like Imposition; and whatever is Alien from the perfect Metals, is reprobate in our Mastery. Be not deceived wither with Receipt or Discourse, for we verily do not intend to deceive you, but if you will be deceived, be deceived.
+
+Our principal know that it is but one, and that is in Metals, even those metals which you may buy commonly, to wit, the perfectest of them: but before you can command it out of them, you must be a Master, and not a Scholar, namely as is wisely said in Norton;
+
+To know to destroy their whole Composition,
+That some of their Components may help in conclusion.
+
+But trust me this is not for a Tyro, nor for every one of us, unless he have the Secret from his own Studies, and not by Tradition from a Master or Guide. Know then that this fore-recited way is true, but involved with a thousand broileries.
+
+But our way which is an easie way, and in which no man may erre, our broad way, our Linear way, we have vowed never to reveal it but in Metaphors; I being moved with pity, will hint it to you. Take that which is not yet perfect, nor yet wholly imperfect, but in a way to perfection and out of it make what is most noble and most perfect: This you may conceive to be an easier Receipt, then to take that which is already perfect, and extract out of it what is imperfect, and then make it perfect, and after out of that perfection to draw a plusquam perfection: and yet this is true, and we have wrought it, And because it is an immense Labour for any to undertake, we describe that way; but this last discovery which I hinted in few words, is it which no man ever did so plainly lay open, nor may any man make it more plain, upon pain of an Anathema.
+
+For of this World our Stone is called the Cement,
+Which moved by craft as Nature doth require,
+In his increase shall be full opulent,
+And multiply his kind after thy own desire:
+Therefore if God vouchsafe thee to inspire,
+Like unto thee in Riches shall be but few.
+
+Our Stone it is the Representative of the great World, and hath the Virtues of that great Fabrick, comprised or collected in this little System; in it is the virtue Magnetical, attractive of its like in the whole World: it is the Coelestial Virtue, expounded universally in the whole Creation, but Epitomized in this small Map or Abridgment.
+
+This Virtue or Power is in it self barren, sluggish, dead and unactive, and for this cause it remaineth without fruit; but being loosed by Art, it doth through the co-operation of Nature, produce that Arcanum which hath not its like in the whole World; for it doth heal the imperfections of all Creatures and Metals, taking away their sickness, and restoring them to perfect health.
+
+The reward which his Mastery will bring to the Artist, is indeed inestimable; for having it, he needs want no worldly blessing, for wealth he need take no care, and from all frailties of Body he hath a most sure Antidote.
+
+Pray then to God, that he would be propitious unto your studies and labours, in giving thee the true knowledge of this secret Mystery; it is the gift of God, I have holpen thee what I can, but venture not to practice barely upon my words, for know that what I have only hinted, is far more then what I have discovered; and what I have declared to thy first apprehension most openly, hath yet its lurking Serpent under the green Grass, I mean some hidden thing which thou oughtest to understand, which thou being Cock-sure at first blush wilt neglect; but yet it will bite thee by the heel when thou approachest to practice, and make thee begin again, and it may be at last throw away all as a man desperate: for know that this is an Art very Cabalistical, and we do study expression such as we know will suit almost with any mans fancy, in one place or other; but be sure to take this Maxim from one who knows best the sence of what he hath written: Where we speak most plainly, there be most circumspect, for we do not go about to betray the Secrets of Nature; especially then in those places which seem to give Receipts so plain as you would desire, suspect either a Metaphor, or else be sure that something or other is supprest, which thou wilt hardly without Inspiration ever find of thy self, which in tryal will make all thy confident knowledge vanish; yet to a Son of Art, we have written that which never heretofore was by any revealed.
+
+Now for a close of this most secret Gate,
+Whereat few enter, none but they who are
+By Gods grace favour’d; its not luck ne fate
+That in disclosing this can claim a share:
+It is a portion which is very rare,
+Bestowe’d on those whom the most High shall chuse,
+To such the Truth freely I shall declare,
+Nor ought through Envy to them shall refuse,
+Nor with unwonted Riddles shall their hopes abuse.
+
+Of uncouth subjects now shall be my Song,
+My mind intends high Wonders to reveal,
+Which have lain hidden heretofore full long,
+Each Artist striving them how to conceal,
+Lest wretched Caitiffs should these Treasures steal:
+Nor Villains should their Villanies maintain
+By this rare Art; which danger they to heal,
+In horrid metaphors veil’d an Art most plain,
+Lest each Fool knowing it, should it when known disdain.
+
+Remember Man how he produced was,
+How formed from a lump of abject Clay,
+From whence Created; he each thing doth pass,
+Which next to Angels ever saw the day:
+For God in him infus’d so bright a Ray
+Of his own Image, which the Body joyn’d
+To it, ennobled so that both pourtray
+Their maker, as though Heaven with earth combin’d
+A little System of the Universe to find.
+
+But yet though he of Soul and Body both
+Was made, and of the two the nobler part doth
+The subject nominate; yet that same Art
+That made so rare a piece, dot from the part
+Less noble name the whole, Adam, or Dust,
+Wherein a Mystery was couch’d, whose heart
+Of life the Centre, to Earth’s bowels must
+Return, the Earth it self for man’s sake being cursed.
+
+Right so our Stone containeth Natures two,
+One hidden, subtle Soul, Heavens Progeny,
+The other gross, compact, terrene also,
+Earth’s product must to Earth by destiny;
+Which when resolv’d is made a feculency
+To sight, but the Coelestial part is still
+(Though over-clouded) most pure inwardly,
+And shall at last most Pearlie drops distill,
+Which shall the barren Earth with fruit in plenty fill.
+
+Thus all our Secrets from the Eath do flow,
+‘Tis Earth which for our base at first we take,
+Our Wate also unto Earth must go,
+And both together must a Limus make,
+Which we with respite by our Art must bake,
+Ill all become a Spirit glorify’d,
+Whose firmness wasting, time shall never shake;
+By perfect union th’ are so surely ty’d,
+Each Element the other three within it self doth hide.
+
+Take then that thing which Gold we plese to call,
+But ‘tis not Gold, yet Gold it is in truth;
+Metalline ‘tis, yet from a Mineral
+It flows, which Art by Nature holp renew’th,
+And to a Fool an ugly face it sheweth;
+Yet to a Son of Art it lovely seems,
+‘Tis Stellar white, and tender in his youth,
+And vile appears in many mens esteems,
+Yea the most part of men it for a trifle deems.
+
+From it is made a subject of great price,
+Shew it the Goldsmith and he’l swear ‘tis Gold;
+But look you sell it not, if you be wise,
+The Basis ‘tis of secrets manifold,
+This for their secret main the Sages hold:
+The like is in Gold digged from the Mine,
+But to procure it is scarce to be told,
+That you may understand, though every line
+Were plainly wrote, yet might your practice oft decline.
+
+For ‘tis a Labour hardly to be borne,
+So many tricks and turnings in it be,
+And he that tryeth it is surely forlorne,
+Unless a crafty Master, credit me;
+For I have tried both, yet could not see
+How any in this way can be secure:
+I therefore who have vowed secrecy
+Have writ this way, which we can scarce endure
+For knowledge-sake to try, its ease will none allure.
+
+Our Kingly road I also hinted have,
+Our way in which a Fool can hardly erre,
+Our secret way, which much mad toyl will save,
+Which is so easie, that I may aver,
+If thou shouldst see it, thou wouldst it prefer
+To any earthly pleasure; yet beware
+That you mistake not, for I do aver,
+A mingled Doctrine these lines do declare,
+I or both ways in this Book of mine do claim a share.
+
+Learn to distinguish every sentence well,
+And know to what Work it doth appertain;
+This is great skill, which few as I can tell
+By all their reading yet could ere attain,
+And yet of Theory this is the main:
+Also to know accordingly to give
+Due heat, which in one way thou must be fain
+T’ increase ten-fold, thou mayst me well believe,
+For what we decoct, t’other away will drive.
+
+Also their Operations different
+Appear, the one thou must sublime and boyl,
+O tedious way! In which much time is spent,
+And many errours, which the Work will spoyl:
+The other silently doth make no toyl,
+Like the still voice which to Eliah came,
+About which Work thou needest not to broyl,
+Nor wantst thou fiery Vulcan’s parching flame,
+A far more gentle heat begins and ends this Game.
+
+But if thou canst each Work perform apart,
+And knowst them afterward to reconcile,
+Then art thou Master of a Princely Art,
+The very success will thy hopes beguile;
+Thou hast all Natures Works ranks in a File,
+And all her Treasures at command dost keep,
+On thee the Fate shall never dare but smile,
+No Mystery is now for thee too deep,
+Th’ art Natures Darling, whether thou dost wake or sleep.
+
+Pardon my plainness, if the Art thou knowst,
+‘Twas the fruit of my untamed desire
+To profit many; and without a boast,
+No man above my Candour shall aspire:
+My zeal was kindled with Minerva’s Fire,
+And thou who to this Art wilt now apply,
+My Book in Natures way shall lead thee higher,
+Then ever thou alone mayst hope to fly,
+If only thou shalt favour’d be by Destiny.
+
+Peruse these lines, and being read, review
+And read again, and on them meditate,
+Each reading shall fresh Mysteries and new
+Discover, which are scatter’d in each Gate;
+For they so linked are, that all relate
+To each, and we our words have woven so,
+That thou mayst soon erre by misleading Fate,
+Unless for to distinguish thou do know;
+Remember that ‘mongst Briars thick, sweet Roses grow. 
+
+
+
+
+* results
+
+** baseline
+
+in my leg. 
+
+i hadn’t got hallway 
+across the room when 
+my arm was grabbed. it 
+was erica
+|
