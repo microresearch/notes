@@ -1,4 +1,42 @@
 * Lattice iCE40-HX8K breakout board
+
+* doppler board
+
+- installation of tools following again: https://github.com/nesl/ice40_examples/ on x220 now
+- follow installation for arduino at: https://github.com/dadamachines/arduino-board-index
+
+we are running: Downloads/arduino-1.8.5/arduino
+
+- general guide is here:
+
+https://github.com/dadamachines/doppler/
+
+- examples/firmware:
+
+https://github.com/dadamachines/doppler-FPGA-firmware
+
+// so for making the FPGA bitstream we use makefiles 
+
+and then we upload code with bitstream via. arduino - it defaults to
+doppler_simple_io_bin (this is in ICEClass.h) which is specified as an array in:
+doppler_simple_io.h
+
+or we can specify eg: 
+
+ #include "[PATHTO]/top.bin.h" // set up the path to doppler_simple_io or custom firmware
+  ICEClass ice40;   // subclass ICEClass to implement custom spi protocol
+   
+  void setup() {
+    ice40.upload(top_bin,sizeof(top_bin)); // Upload BitStream Firmware to FPGA -> see variant.h
+
+// tested this process
+
+make in FPGA source files, upload in arduino with path to .h with binary
+
+: export PATH=/usr/local/avr/bin:$PATH
+
+// pins/connections/code
+
 * verilog
 
 - how we connect things with pcf file
