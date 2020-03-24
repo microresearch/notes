@@ -20,6 +20,10 @@ mergepos.py is latest pos one we use for andy fanzine bbqed humans
 
 poetry generators, rhyming stuff, parts of speech (POS), neural networks- LSTM - tensorflow, keras
 
+** rhyming
+
+>>> import pronouncing
+>>> pronouncing.rhymes("climbing")
 
 * which texts? 
 

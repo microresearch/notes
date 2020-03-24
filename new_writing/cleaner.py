@@ -3,7 +3,7 @@
 text=[]
 newtext=""
 
-with open("razz83.txt") as file:
+with open("escort.txt") as file:
     for line in file:
         line = line.rstrip()
         if line:
