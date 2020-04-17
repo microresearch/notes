@@ -76,7 +76,7 @@ F 3 "" H 3450 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3375 2450 3450 2450
-Text Notes 9700 1250 0    79   ~ 0
+Text Notes 3725 2200 0    79   ~ 0
 Jacks are in pairs:\n\n- filterbank out FB1 (AC), env AC in\n\n- env cv out, env cv in (negative) - jumper
 Text Notes 4025 225  0    118  ~ 0
 2 sets of 4 panels (total 8 order 10) same as:
@@ -116,7 +116,7 @@ Text Label 4825 2725 0    50   ~ 0
 JJ1
 Wire Wire Line
 	4750 2725 4825 2725
-Text Notes 3425 2200 0    79   ~ 0
+Text Notes 2550 2100 0    79   ~ 0
 no norming\n
 Text Notes 4950 2825 0    50   ~ 0
 to pin 2- mid
@@ -555,32 +555,17 @@ F 3 "~" H 8175 1625 50  0001 C CNN
 	1    8175 1625
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 5E95978E
-P 10325 1975
-F 0 "#PWR016" H 10325 1725 50  0001 C CNN
-F 1 "GND" H 10500 1975 50  0000 C CNN
-F 2 "" H 10325 1975 50  0001 C CNN
-F 3 "" H 10325 1975 50  0001 C CNN
-	1    10325 1975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10325 1975 10500 1975
-Wire Wire Line
-	10500 1975 10500 2075
 Wire Wire Line
 	10500 2175 10325 2175
-Text Label 10325 2175 0    50   ~ 0
+Text Label 10325 2675 0    50   ~ 0
 FB1
 Wire Wire Line
 	10500 2275 10325 2275
-Text Label 10325 2275 0    50   ~ 0
+Text Label 10325 2575 0    50   ~ 0
 FB_1
 Wire Wire Line
 	10500 2375 10325 2375
-Text Label 10325 2375 0    50   ~ 0
+Text Label 10325 2975 0    50   ~ 0
 FB2
 Wire Wire Line
 	10500 2475 10325 2475
@@ -588,35 +573,35 @@ Text Label 10325 2475 0    50   ~ 0
 FB_2
 Wire Wire Line
 	10500 2575 10325 2575
-Text Label 10325 2575 0    50   ~ 0
+Text Label 10325 3275 0    50   ~ 0
 FB3
 Wire Wire Line
 	10500 2675 10325 2675
-Text Label 10325 2675 0    50   ~ 0
+Text Label 10325 2375 0    50   ~ 0
 FB_3
 Wire Wire Line
 	10325 2775 10500 2775
-Text Label 10325 2775 0    50   ~ 0
+Text Label 10325 3575 0    50   ~ 0
 FB4
 Wire Wire Line
 	10500 2875 10325 2875
-Text Label 10325 2875 0    50   ~ 0
+Text Label 10325 2275 0    50   ~ 0
 FB_4
 Wire Wire Line
 	10500 2975 10325 2975
-Text Label 10325 2975 0    50   ~ 0
+Text Label 10325 3875 0    50   ~ 0
 FB5
 Wire Wire Line
 	10500 3075 10325 3075
-Text Label 10325 3075 0    50   ~ 0
+Text Label 10325 2175 0    50   ~ 0
 FB_5
 Wire Wire Line
 	10500 3175 10325 3175
-Text Label 10325 3175 0    50   ~ 0
+Text Label 10325 2775 0    50   ~ 0
 J1
 Wire Wire Line
 	10500 3275 10325 3275
-Text Label 10325 3275 0    50   ~ 0
+Text Label 10325 3075 0    50   ~ 0
 J2
 Wire Wire Line
 	10500 3375 10325 3375
@@ -624,35 +609,33 @@ Text Label 10325 3375 0    50   ~ 0
 J3
 Wire Wire Line
 	10500 3475 10325 3475
-Text Label 10325 3475 0    50   ~ 0
+Text Label 10325 3675 0    50   ~ 0
 J4
 Wire Wire Line
 	10500 3575 10325 3575
-Text Label 10325 3575 0    50   ~ 0
+Text Label 10325 3975 0    50   ~ 0
 J5
 Wire Wire Line
 	10500 3675 10325 3675
-Text Label 10325 3675 0    50   ~ 0
+Text Label 10325 2875 0    50   ~ 0
 JJ1
 Wire Wire Line
 	10500 3775 10325 3775
-Text Label 10325 3775 0    50   ~ 0
+Text Label 10325 3175 0    50   ~ 0
 JJ2
 Wire Wire Line
 	10500 3875 10325 3875
-Text Label 10325 3875 0    50   ~ 0
+Text Label 10325 3475 0    50   ~ 0
 JJ3
 Wire Wire Line
 	10500 3975 10325 3975
-Text Label 10325 3975 0    50   ~ 0
+Text Label 10325 3775 0    50   ~ 0
 JJ4
 Wire Wire Line
 	10500 4075 10325 4075
 Text Label 10325 4075 0    50   ~ 0
 JJ5
-Wire Wire Line
-	10500 4175 10325 4175
-Text Label 10325 4175 0    50   ~ 0
+Text Label 10500 2075 2    50   ~ 0
 PSBUS
 $Comp
 L Device:Jumper_NO_Small JP1
@@ -846,4 +829,17 @@ Text Label 8350 4475 2    50   ~ 0
 FB5
 Text Notes 6975 2675 0    50   ~ 0
 jumpers for second set of filterbank sliders
+Wire Wire Line
+	10500 4175 10325 4175
+$Comp
+L power:GND #PWR?
+U 1 1 5E9AA80F
+P 10325 4175
+F 0 "#PWR?" H 10325 3925 50  0001 C CNN
+F 1 "GND" H 10330 4002 50  0000 C CNN
+F 2 "" H 10325 4175 50  0001 C CNN
+F 3 "" H 10325 4175 50  0001 C CNN
+	1    10325 4175
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
