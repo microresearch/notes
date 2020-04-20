@@ -14,10 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 650  750  0    94   ~ 0
-Each panel has say 5 sliders (PTA6043)and 2 rows of 5 = total 10 jacks mounted and all to headers. Check HP?
-Text Notes 725  1375 0    94   ~ 0
-One pot is ccw to gnd and CW to each filterbank out, wiper to each filterbank in.\n  \nOther is ccw to gnd and CW to PS-BUS all, wiper to each filterbank CV out.
+Text Notes 500  1400 0    94   ~ 0
+Case 1: CCW to gnd and CW to each filterbank out (brd), wiper to each filterbank out (jack J1) and then normed/patched to JJ1.\n  \nCase 2: CCW to gnd and CW to PS_BUS normed JJ, wiper to each filterbank CV in (brd)
 $Comp
 L Device:R_POT RV4
 U 1 1 5E8E4A9B
@@ -29,8 +27,6 @@ F 3 "~" H 1075 2325 50  0001 C CNN
 	1    1075 2325
 	1    0    0    -1  
 $EndComp
-Text Notes 850  1675 0    79   ~ 16
-CCW is lower end of slider - CHECK THIS!
 Text Label 1275 2325 0    94   ~ 0
 FB1
 Wire Wire Line
@@ -77,9 +73,9 @@ $EndComp
 Wire Wire Line
 	3375 2450 3450 2450
 Text Notes 3725 2200 0    79   ~ 0
-Jacks are in pairs:\n\n- filterbank out FB1 (AC), env AC in\n\n- env cv out, env cv in (negative) - jumper
+Jacks are in pairs:\n\n- filterbank out (AC), env AC in\n\n- env cv out, env cv in (negative) - jumper
 Text Notes 4025 225  0    118  ~ 0
-2 sets of 4 panels (total 8 order 10) same as:
+2 sets of 4 panels (total 8 order 10) ->
 Text Label 3450 2750 0    50   ~ 0
 J1
 Wire Wire Line
@@ -116,8 +112,6 @@ Text Label 4825 2725 0    50   ~ 0
 JJ1
 Wire Wire Line
 	4750 2725 4825 2725
-Text Notes 2550 2100 0    79   ~ 0
-no norming\n
 Text Notes 4950 2825 0    50   ~ 0
 to pin 2- mid
 $Comp
@@ -496,7 +490,7 @@ Wire Wire Line
 	4700 6100 4775 6100
 Text Notes 4900 6200 0    50   ~ 0
 to pin 2- mid
-Text Notes 9550 1625 0    79   ~ 0
+Text Notes 9625 1850 0    79   ~ 0
 10 plus 2x5 = 20 conns + GND = 21 plus 1 PSBUS (optional)
 $Comp
 L Connector_Generic:Conn_01x22 J1
@@ -509,50 +503,28 @@ F 3 "~" H 10700 3075 50  0001 C CNN
 	1    10700 3075
 	1    0    0    -1  
 $EndComp
-Text Notes 7325 1450 0    118  ~ 0
+Text Notes 10650 5750 0    118  ~ 0
 standoff holes
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5E9250ED
-P 7000 1650
-F 0 "H2" H 7100 1696 50  0000 L CNN
-F 1 "MountingHole" H 7100 1605 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 7000 1650 50  0001 C CNN
-F 3 "~" H 7000 1650 50  0001 C CNN
-	1    7000 1650
+P 10325 5950
+F 0 "H2" H 10425 5996 50  0000 L CNN
+F 1 "MountingHole" H 10425 5905 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10325 5950 50  0001 C CNN
+F 3 "~" H 10325 5950 50  0001 C CNN
+	1    10325 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E959466
-P 7000 1200
-F 0 "H1" H 7100 1246 50  0000 L CNN
-F 1 "MountingHole" H 7100 1155 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 7000 1200 50  0001 C CNN
-F 3 "~" H 7000 1200 50  0001 C CNN
-	1    7000 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5E9594B6
-P 8175 1175
-F 0 "H3" H 8275 1221 50  0000 L CNN
-F 1 "MountingHole" H 8275 1130 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8175 1175 50  0001 C CNN
-F 3 "~" H 8175 1175 50  0001 C CNN
-	1    8175 1175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5E95954E
-P 8175 1625
-F 0 "H4" H 8275 1671 50  0000 L CNN
-F 1 "MountingHole" H 8275 1580 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8175 1625 50  0001 C CNN
-F 3 "~" H 8175 1625 50  0001 C CNN
-	1    8175 1625
+P 10325 5500
+F 0 "H1" H 10425 5546 50  0000 L CNN
+F 1 "MountingHole" H 10425 5455 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10325 5500 50  0001 C CNN
+F 3 "~" H 10325 5500 50  0001 C CNN
+	1    10325 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -655,7 +627,7 @@ Wire Wire Line
 Text Label 7525 3000 0    50   ~ 0
 PSBUS
 Text Label 6875 3000 2    50   ~ 0
-FB_1
+NN1
 $Comp
 L Device:Jumper_NO_Small JP2
 U 1 1 5E9743F6
@@ -674,7 +646,7 @@ Wire Wire Line
 Text Label 7525 3400 0    50   ~ 0
 PSBUS
 Text Label 6875 3400 2    50   ~ 0
-FB_2
+NN2
 $Comp
 L Device:Jumper_NO_Small JP3
 U 1 1 5E975A95
@@ -693,7 +665,7 @@ Wire Wire Line
 Text Label 7525 3775 0    50   ~ 0
 PSBUS
 Text Label 6875 3775 2    50   ~ 0
-FB_3
+NN3
 $Comp
 L Device:Jumper_NO_Small JP4
 U 1 1 5E975A9F
@@ -712,7 +684,7 @@ Wire Wire Line
 Text Label 7525 4125 0    50   ~ 0
 PSBUS
 Text Label 6875 4125 2    50   ~ 0
-FB_4
+NN4
 $Comp
 L Device:Jumper_NO_Small JP5
 U 1 1 5E97798F
@@ -731,7 +703,7 @@ Wire Wire Line
 Text Label 7525 4475 0    50   ~ 0
 PSBUS
 Text Label 6875 4475 2    50   ~ 0
-FB_5
+NN5
 $Comp
 L Device:Jumper_NO_Small JP6
 U 1 1 5E97B617
@@ -745,8 +717,6 @@ F 3 "~" H 8675 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8575 3000 8350 3000
-Wire Wire Line
-	8775 3000 9000 3000
 Text Label 9000 3000 0    50   ~ 0
 J1
 Text Label 8350 3000 2    50   ~ 0
@@ -764,8 +734,6 @@ F 3 "~" H 8675 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8575 3400 8350 3400
-Wire Wire Line
-	8775 3400 9000 3400
 Text Label 9000 3400 0    50   ~ 0
 J2
 Text Label 8350 3400 2    50   ~ 0
@@ -783,8 +751,6 @@ F 3 "~" H 8675 3775 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8575 3775 8350 3775
-Wire Wire Line
-	8775 3775 9000 3775
 Text Label 9000 3775 0    50   ~ 0
 J3
 Text Label 8350 3775 2    50   ~ 0
@@ -802,8 +768,6 @@ F 3 "~" H 8675 4125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8575 4125 8350 4125
-Wire Wire Line
-	8775 4125 9000 4125
 Text Label 9000 4125 0    50   ~ 0
 J4
 Text Label 8350 4125 2    50   ~ 0
@@ -821,25 +785,259 @@ F 3 "~" H 8675 4475 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8575 4475 8350 4475
-Wire Wire Line
-	8775 4475 9000 4475
 Text Label 9000 4475 0    50   ~ 0
 J5
 Text Label 8350 4475 2    50   ~ 0
 FB5
-Text Notes 6975 2675 0    50   ~ 0
+Text Notes 7125 2450 0    50   ~ 0
 jumpers for second set of filterbank sliders
 Wire Wire Line
 	10500 4175 10325 4175
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 5E9AA80F
 P 10325 4175
-F 0 "#PWR?" H 10325 3925 50  0001 C CNN
+F 0 "#PWR016" H 10325 3925 50  0001 C CNN
 F 1 "GND" H 10330 4002 50  0000 C CNN
 F 2 "" H 10325 4175 50  0001 C CNN
 F 3 "" H 10325 4175 50  0001 C CNN
 	1    10325 4175
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 2525 4750 2600
+Wire Wire Line
+	4750 2600 4950 2600
+Text Label 4950 2600 0    50   ~ 0
+NN1
+Wire Wire Line
+	4750 3400 4750 3450
+Wire Wire Line
+	4750 3450 4975 3450
+Text Label 4975 3450 0    50   ~ 0
+NN2
+Wire Wire Line
+	4725 4275 4725 4325
+Wire Wire Line
+	4725 4325 4950 4325
+Text Label 4950 4325 0    50   ~ 0
+NN3
+Wire Wire Line
+	4700 5100 4700 5150
+Wire Wire Line
+	4700 5150 4875 5150
+Text Label 4875 5150 0    50   ~ 0
+NN4
+Wire Wire Line
+	4700 5900 4700 5950
+Wire Wire Line
+	4700 5950 4875 5950
+Text Label 4875 5950 0    50   ~ 0
+NN5
+Text Notes 8900 2825 0    50   ~ 0
+case1\n
+Text Notes 7575 2775 0    50   ~ 0
+case2\n
+$Comp
+L Device:Jumper_NO_Small JP11
+U 1 1 5EA1556C
+P 7200 4850
+F 0 "JP11" H 7200 5035 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 4944 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 4850 50  0001 C CNN
+F 3 "~" H 7200 4850 50  0001 C CNN
+	1    7200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4850 6875 4850
+Text Label 7525 4850 0    50   ~ 0
+JJ1
+Text Label 6875 4850 2    50   ~ 0
+FB_1
+$Comp
+L Device:Jumper_NO_Small JP12
+U 1 1 5EA15577
+P 7200 5250
+F 0 "JP12" H 7200 5435 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 5344 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 5250 50  0001 C CNN
+F 3 "~" H 7200 5250 50  0001 C CNN
+	1    7200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5250 6875 5250
+Text Label 7525 5250 0    50   ~ 0
+JJ2
+Text Label 6875 5250 2    50   ~ 0
+FB_2
+$Comp
+L Device:Jumper_NO_Small JP13
+U 1 1 5EA15582
+P 7200 5625
+F 0 "JP13" H 7200 5810 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 5719 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 5625 50  0001 C CNN
+F 3 "~" H 7200 5625 50  0001 C CNN
+	1    7200 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5625 6875 5625
+Text Label 7525 5625 0    50   ~ 0
+JJ3
+Text Label 6875 5625 2    50   ~ 0
+FB_3
+$Comp
+L Device:Jumper_NO_Small JP14
+U 1 1 5EA1558D
+P 7200 5975
+F 0 "JP14" H 7200 6160 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 6069 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 5975 50  0001 C CNN
+F 3 "~" H 7200 5975 50  0001 C CNN
+	1    7200 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5975 6875 5975
+Text Label 7525 5975 0    50   ~ 0
+JJ4
+Text Label 6875 5975 2    50   ~ 0
+FB_4
+$Comp
+L Device:Jumper_NO_Small JP15
+U 1 1 5EA15598
+P 7200 6325
+F 0 "JP15" H 7200 6510 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 6419 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 6325 50  0001 C CNN
+F 3 "~" H 7200 6325 50  0001 C CNN
+	1    7200 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 6325 6875 6325
+Text Label 7525 6325 0    50   ~ 0
+JJ5
+Text Label 6875 6325 2    50   ~ 0
+FB_5
+Wire Wire Line
+	7300 4850 7525 4850
+Wire Wire Line
+	7300 5250 7525 5250
+Wire Wire Line
+	7300 5625 7525 5625
+Wire Wire Line
+	7300 5975 7525 5975
+Wire Wire Line
+	7300 6325 7525 6325
+Wire Wire Line
+	8775 3000 9000 3000
+Wire Wire Line
+	8775 3400 9000 3400
+Wire Wire Line
+	8775 3775 9000 3775
+Wire Wire Line
+	8775 4125 9000 4125
+Wire Wire Line
+	8775 4475 9000 4475
+$Comp
+L Device:Jumper_NO_Small JP16
+U 1 1 5E9E5E07
+P 8675 5025
+F 0 "JP16" H 8675 5210 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 5119 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 5025 50  0001 C CNN
+F 3 "~" H 8675 5025 50  0001 C CNN
+	1    8675 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 5025 8350 5025
+Text Label 9000 5025 0    50   ~ 0
+J1
+Text Label 8350 5025 2    50   ~ 0
+NN1
+$Comp
+L Device:Jumper_NO_Small JP17
+U 1 1 5E9E5E11
+P 8675 5425
+F 0 "JP17" H 8675 5610 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 5519 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 5425 50  0001 C CNN
+F 3 "~" H 8675 5425 50  0001 C CNN
+	1    8675 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 5425 8350 5425
+Text Label 9000 5425 0    50   ~ 0
+J2
+Text Label 8350 5425 2    50   ~ 0
+NN2
+$Comp
+L Device:Jumper_NO_Small JP18
+U 1 1 5E9E5E1B
+P 8675 5800
+F 0 "JP18" H 8675 5985 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 5894 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 5800 50  0001 C CNN
+F 3 "~" H 8675 5800 50  0001 C CNN
+	1    8675 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 5800 8350 5800
+Text Label 9000 5800 0    50   ~ 0
+J3
+Text Label 8350 5800 2    50   ~ 0
+NN3
+$Comp
+L Device:Jumper_NO_Small JP19
+U 1 1 5E9E5E25
+P 8675 6150
+F 0 "JP19" H 8675 6335 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 6244 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 6150 50  0001 C CNN
+F 3 "~" H 8675 6150 50  0001 C CNN
+	1    8675 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 6150 8350 6150
+Text Label 9000 6150 0    50   ~ 0
+J4
+Text Label 8350 6150 2    50   ~ 0
+NN4
+$Comp
+L Device:Jumper_NO_Small JP20
+U 1 1 5E9E5E2F
+P 8675 6500
+F 0 "JP20" H 8675 6685 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 6594 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 6500 50  0001 C CNN
+F 3 "~" H 8675 6500 50  0001 C CNN
+	1    8675 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 6500 8350 6500
+Text Label 9000 6500 0    50   ~ 0
+J5
+Text Label 8350 6500 2    50   ~ 0
+NN5
+Text Notes 8900 4850 0    50   ~ 0
+case1\n
+Wire Wire Line
+	8775 5025 9000 5025
+Wire Wire Line
+	8775 5425 9000 5425
+Wire Wire Line
+	8775 5800 9000 5800
+Wire Wire Line
+	8775 6150 9000 6150
+Wire Wire Line
+	8775 6500 9000 6500
 $EndSCHEMATC
