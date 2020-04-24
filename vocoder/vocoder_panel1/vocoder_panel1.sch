@@ -1,0 +1,1043 @@
+EESchema Schematic File Version 4
+LIBS:vocoder_panel1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 500  1400 0    94   ~ 0
+Case 1: CCW to gnd and CW to each filterbank out (brd), wiper to each filterbank out (jack J1) and then normed/patched to JJ1.\n  \nCase 2: CCW to gnd and CW to PS_BUS normed JJ, wiper to each filterbank CV in (brd)
+$Comp
+L Device:R_POT RV4
+U 1 1 5E8E4A9B
+P 1075 2325
+F 0 "RV4" H 1005 2371 50  0000 R CNN
+F 1 "R_POT" H 1005 2280 50  0000 R CNN
+F 2 "vocoder_panel1:SMC-PTA6043-2015CPB103" H 1075 2325 50  0001 C CNN
+F 3 "~" H 1075 2325 50  0001 C CNN
+	1    1075 2325
+	1    0    0    -1  
+$EndComp
+Text Label 1275 2325 0    94   ~ 0
+FB1
+Wire Wire Line
+	1225 2325 1275 2325
+$Comp
+L power:GND #PWR04
+U 1 1 5E8E4C90
+P 775 2175
+F 0 "#PWR04" H 775 1925 50  0001 C CNN
+F 1 "GND" H 780 2002 50  0000 C CNN
+F 2 "" H 775 2175 50  0001 C CNN
+F 3 "" H 775 2175 50  0001 C CNN
+	1    775  2175
+	1    0    0    -1  
+$EndComp
+Text Label 1075 2650 0    94   ~ 0
+FB_1
+Wire Wire Line
+	775  2175 1075 2175
+Wire Wire Line
+	1075 2475 1075 2650
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M4
+U 1 1 5E8E6195
+P 3075 2550
+F 0 "M4" H 3081 2769 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 3075 2550 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 3105 2700 20  0001 C CNN
+F 3 "" H 3075 2550 94  0001 C CNN
+	1    3075 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5E8E62F0
+P 3450 2450
+F 0 "#PWR09" H 3450 2200 50  0001 C CNN
+F 1 "GND" H 3625 2450 50  0000 C CNN
+F 2 "" H 3450 2450 50  0001 C CNN
+F 3 "" H 3450 2450 50  0001 C CNN
+	1    3450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 2450 3450 2450
+Text Notes 3725 2200 0    79   ~ 0
+Jacks are in pairs:\n\n- filterbank out (AC), env AC in\n\n- env cv out, env cv in (negative) - jumper
+Text Notes 4025 225  0    118  ~ 0
+2 sets of 4 panels (total 8 order 10) ->
+Text Label 3450 2750 0    50   ~ 0
+J1
+Wire Wire Line
+	3375 2750 3450 2750
+Text Notes 1200 2750 0    50   ~ 0
+from pin 3
+Text Notes 1600 2300 0    50   ~ 0
+to slider
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M9
+U 1 1 5E8E673C
+P 4450 2525
+F 0 "M9" H 4456 2744 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 4450 2525 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 4480 2675 20  0001 C CNN
+F 3 "" H 4450 2525 94  0001 C CNN
+	1    4450 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5E8E6743
+P 4825 2425
+F 0 "#PWR014" H 4825 2175 50  0001 C CNN
+F 1 "GND" H 5000 2425 50  0000 C CNN
+F 2 "" H 4825 2425 50  0001 C CNN
+F 3 "" H 4825 2425 50  0001 C CNN
+	1    4825 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2425 4825 2425
+Text Label 4825 2725 0    50   ~ 0
+JJ1
+Wire Wire Line
+	4750 2725 4825 2725
+Text Notes 4950 2825 0    50   ~ 0
+to pin 2- mid
+$Comp
+L Device:R_POT RV5
+U 1 1 5E8E713B
+P 1075 3200
+F 0 "RV5" H 1005 3246 50  0000 R CNN
+F 1 "R_POT" H 1005 3155 50  0000 R CNN
+F 2 "vocoder_panel1:SMC-PTA6043-2015CPB103" H 1075 3200 50  0001 C CNN
+F 3 "~" H 1075 3200 50  0001 C CNN
+	1    1075 3200
+	1    0    0    -1  
+$EndComp
+Text Label 1275 3200 0    94   ~ 0
+FB2
+Wire Wire Line
+	1225 3200 1275 3200
+$Comp
+L power:GND #PWR05
+U 1 1 5E8E7144
+P 775 3050
+F 0 "#PWR05" H 775 2800 50  0001 C CNN
+F 1 "GND" H 780 2877 50  0000 C CNN
+F 2 "" H 775 3050 50  0001 C CNN
+F 3 "" H 775 3050 50  0001 C CNN
+	1    775  3050
+	1    0    0    -1  
+$EndComp
+Text Label 1075 3525 0    94   ~ 0
+FB_2
+Wire Wire Line
+	775  3050 1075 3050
+Wire Wire Line
+	1075 3350 1075 3525
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M5
+U 1 1 5E8E714D
+P 3075 3425
+F 0 "M5" H 3081 3644 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 3075 3425 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 3105 3575 20  0001 C CNN
+F 3 "" H 3075 3425 94  0001 C CNN
+	1    3075 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5E8E7154
+P 3450 3325
+F 0 "#PWR010" H 3450 3075 50  0001 C CNN
+F 1 "GND" H 3625 3325 50  0000 C CNN
+F 2 "" H 3450 3325 50  0001 C CNN
+F 3 "" H 3450 3325 50  0001 C CNN
+	1    3450 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 3325 3450 3325
+Text Label 3450 3625 0    50   ~ 0
+J2
+Wire Wire Line
+	3375 3625 3450 3625
+Text Notes 1200 3625 0    50   ~ 0
+from pin 3
+Text Notes 1600 3175 0    50   ~ 0
+to slider
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M10
+U 1 1 5E8E715F
+P 4450 3400
+F 0 "M10" H 4456 3619 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 4450 3400 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 4480 3550 20  0001 C CNN
+F 3 "" H 4450 3400 94  0001 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5E8E7166
+P 4825 3300
+F 0 "#PWR015" H 4825 3050 50  0001 C CNN
+F 1 "GND" H 5000 3300 50  0000 C CNN
+F 2 "" H 4825 3300 50  0001 C CNN
+F 3 "" H 4825 3300 50  0001 C CNN
+	1    4825 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3300 4825 3300
+Text Label 4825 3600 0    50   ~ 0
+JJ2
+Wire Wire Line
+	4750 3600 4825 3600
+Text Notes 4950 3700 0    50   ~ 0
+to pin 2- mid
+$Comp
+L Device:R_POT RV3
+U 1 1 5E8E7479
+P 1050 4075
+F 0 "RV3" H 980 4121 50  0000 R CNN
+F 1 "R_POT" H 980 4030 50  0000 R CNN
+F 2 "vocoder_panel1:SMC-PTA6043-2015CPB103" H 1050 4075 50  0001 C CNN
+F 3 "~" H 1050 4075 50  0001 C CNN
+	1    1050 4075
+	1    0    0    -1  
+$EndComp
+Text Label 1250 4075 0    94   ~ 0
+FB3
+Wire Wire Line
+	1200 4075 1250 4075
+$Comp
+L power:GND #PWR03
+U 1 1 5E8E7482
+P 750 3925
+F 0 "#PWR03" H 750 3675 50  0001 C CNN
+F 1 "GND" H 755 3752 50  0000 C CNN
+F 2 "" H 750 3925 50  0001 C CNN
+F 3 "" H 750 3925 50  0001 C CNN
+	1    750  3925
+	1    0    0    -1  
+$EndComp
+Text Label 1050 4400 0    94   ~ 0
+FB_3
+Wire Wire Line
+	750  3925 1050 3925
+Wire Wire Line
+	1050 4225 1050 4400
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M3
+U 1 1 5E8E748B
+P 3050 4300
+F 0 "M3" H 3056 4519 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 3050 4300 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 3080 4450 20  0001 C CNN
+F 3 "" H 3050 4300 94  0001 C CNN
+	1    3050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E8E7492
+P 3425 4200
+F 0 "#PWR08" H 3425 3950 50  0001 C CNN
+F 1 "GND" H 3600 4200 50  0000 C CNN
+F 2 "" H 3425 4200 50  0001 C CNN
+F 3 "" H 3425 4200 50  0001 C CNN
+	1    3425 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 4200 3425 4200
+Text Label 3425 4500 0    50   ~ 0
+J3
+Wire Wire Line
+	3350 4500 3425 4500
+Text Notes 1175 4500 0    50   ~ 0
+from pin 3
+Text Notes 1575 4050 0    50   ~ 0
+to slider
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M8
+U 1 1 5E8E749D
+P 4425 4275
+F 0 "M8" H 4431 4494 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 4425 4275 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 4455 4425 20  0001 C CNN
+F 3 "" H 4425 4275 94  0001 C CNN
+	1    4425 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5E8E74A4
+P 4800 4175
+F 0 "#PWR013" H 4800 3925 50  0001 C CNN
+F 1 "GND" H 4975 4175 50  0000 C CNN
+F 2 "" H 4800 4175 50  0001 C CNN
+F 3 "" H 4800 4175 50  0001 C CNN
+	1    4800 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 4175 4800 4175
+Text Label 4800 4475 0    50   ~ 0
+JJ3
+Wire Wire Line
+	4725 4475 4800 4475
+Text Notes 4925 4575 0    50   ~ 0
+to pin 2- mid
+$Comp
+L Device:R_POT RV1
+U 1 1 5E8E79A3
+P 1025 4900
+F 0 "RV1" H 955 4946 50  0000 R CNN
+F 1 "R_POT" H 955 4855 50  0000 R CNN
+F 2 "vocoder_panel1:SMC-PTA6043-2015CPB103" H 1025 4900 50  0001 C CNN
+F 3 "~" H 1025 4900 50  0001 C CNN
+	1    1025 4900
+	1    0    0    -1  
+$EndComp
+Text Label 1225 4900 0    94   ~ 0
+FB4
+Wire Wire Line
+	1175 4900 1225 4900
+$Comp
+L power:GND #PWR01
+U 1 1 5E8E79AC
+P 725 4750
+F 0 "#PWR01" H 725 4500 50  0001 C CNN
+F 1 "GND" H 730 4577 50  0000 C CNN
+F 2 "" H 725 4750 50  0001 C CNN
+F 3 "" H 725 4750 50  0001 C CNN
+	1    725  4750
+	1    0    0    -1  
+$EndComp
+Text Label 1025 5225 0    94   ~ 0
+FB_4
+Wire Wire Line
+	725  4750 1025 4750
+Wire Wire Line
+	1025 5050 1025 5225
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M1
+U 1 1 5E8E79B5
+P 3025 5125
+F 0 "M1" H 3031 5344 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 3025 5125 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 3055 5275 20  0001 C CNN
+F 3 "" H 3025 5125 94  0001 C CNN
+	1    3025 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E8E79BC
+P 3400 5025
+F 0 "#PWR06" H 3400 4775 50  0001 C CNN
+F 1 "GND" H 3575 5025 50  0000 C CNN
+F 2 "" H 3400 5025 50  0001 C CNN
+F 3 "" H 3400 5025 50  0001 C CNN
+	1    3400 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 5025 3400 5025
+Text Label 3400 5325 0    50   ~ 0
+J4
+Wire Wire Line
+	3325 5325 3400 5325
+Text Notes 1150 5325 0    50   ~ 0
+from pin 3
+Text Notes 1550 4875 0    50   ~ 0
+to slider
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M6
+U 1 1 5E8E79C7
+P 4400 5100
+F 0 "M6" H 4406 5319 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 4400 5100 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 4430 5250 20  0001 C CNN
+F 3 "" H 4400 5100 94  0001 C CNN
+	1    4400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5E8E79CE
+P 4775 5000
+F 0 "#PWR011" H 4775 4750 50  0001 C CNN
+F 1 "GND" H 4950 5000 50  0000 C CNN
+F 2 "" H 4775 5000 50  0001 C CNN
+F 3 "" H 4775 5000 50  0001 C CNN
+	1    4775 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5000 4775 5000
+Text Label 4775 5300 0    50   ~ 0
+JJ4
+Wire Wire Line
+	4700 5300 4775 5300
+Text Notes 4900 5400 0    50   ~ 0
+to pin 2- mid
+$Comp
+L Device:R_POT RV2
+U 1 1 5E8E7F99
+P 1025 5700
+F 0 "RV2" H 955 5746 50  0000 R CNN
+F 1 "R_POT" H 955 5655 50  0000 R CNN
+F 2 "vocoder_panel1:SMC-PTA6043-2015CPB103" H 1025 5700 50  0001 C CNN
+F 3 "~" H 1025 5700 50  0001 C CNN
+	1    1025 5700
+	1    0    0    -1  
+$EndComp
+Text Label 1225 5700 0    94   ~ 0
+FB5
+Wire Wire Line
+	1175 5700 1225 5700
+$Comp
+L power:GND #PWR02
+U 1 1 5E8E7FA2
+P 725 5550
+F 0 "#PWR02" H 725 5300 50  0001 C CNN
+F 1 "GND" H 730 5377 50  0000 C CNN
+F 2 "" H 725 5550 50  0001 C CNN
+F 3 "" H 725 5550 50  0001 C CNN
+	1    725  5550
+	1    0    0    -1  
+$EndComp
+Text Label 1025 6025 0    94   ~ 0
+FB_5
+Wire Wire Line
+	725  5550 1025 5550
+Wire Wire Line
+	1025 5850 1025 6025
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M2
+U 1 1 5E8E7FAB
+P 3025 5925
+F 0 "M2" H 3031 6144 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 3025 5925 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 3055 6075 20  0001 C CNN
+F 3 "" H 3025 5925 94  0001 C CNN
+	1    3025 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E8E7FB2
+P 3400 5825
+F 0 "#PWR07" H 3400 5575 50  0001 C CNN
+F 1 "GND" H 3575 5825 50  0000 C CNN
+F 2 "" H 3400 5825 50  0001 C CNN
+F 3 "" H 3400 5825 50  0001 C CNN
+	1    3400 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 5825 3400 5825
+Text Label 3400 6125 0    50   ~ 0
+J5
+Wire Wire Line
+	3325 6125 3400 6125
+Text Notes 1150 6125 0    50   ~ 0
+from pin 3
+Text Notes 1550 5675 0    50   ~ 0
+to slider
+$Comp
+L erthenvar:AUDIO-JACKERTHENVAR M7
+U 1 1 5E8E7FBD
+P 4400 5900
+F 0 "M7" H 4406 6119 45  0000 C CNN
+F 1 "AUDIO-JACKERTHENVAR" H 4400 5900 45  0001 L BNN
+F 2 "erthenvar:ERTHENVAR-JACK" H 4430 6050 20  0001 C CNN
+F 3 "" H 4400 5900 94  0001 C CNN
+	1    4400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5E8E7FC4
+P 4775 5800
+F 0 "#PWR012" H 4775 5550 50  0001 C CNN
+F 1 "GND" H 4950 5800 50  0000 C CNN
+F 2 "" H 4775 5800 50  0001 C CNN
+F 3 "" H 4775 5800 50  0001 C CNN
+	1    4775 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5800 4775 5800
+Text Label 4775 6100 0    50   ~ 0
+JJ5
+Wire Wire Line
+	4700 6100 4775 6100
+Text Notes 4900 6200 0    50   ~ 0
+to pin 2- mid
+Text Notes 9625 1850 0    79   ~ 0
+10 plus 2x5 = 20 conns + GND = 21 plus 1 PSBUS (optional)
+$Comp
+L Connector_Generic:Conn_01x22 J1
+U 1 1 5E8E9986
+P 10700 3075
+F 0 "J1" H 10780 3117 50  0000 L CNN
+F 1 "Conn_01x22" H 10780 3026 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x22_Pitch2.54mm" H 10700 3075 50  0001 C CNN
+F 3 "~" H 10700 3075 50  0001 C CNN
+	1    10700 3075
+	1    0    0    -1  
+$EndComp
+Text Notes 10650 5750 0    118  ~ 0
+standoff holes
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E9250ED
+P 10325 5950
+F 0 "H2" H 10425 5996 50  0000 L CNN
+F 1 "MountingHole" H 10425 5905 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10325 5950 50  0001 C CNN
+F 3 "~" H 10325 5950 50  0001 C CNN
+	1    10325 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E959466
+P 10325 5500
+F 0 "H1" H 10425 5546 50  0000 L CNN
+F 1 "MountingHole" H 10425 5455 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10325 5500 50  0001 C CNN
+F 3 "~" H 10325 5500 50  0001 C CNN
+	1    10325 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2175 10325 2175
+Text Label 10325 2675 0    50   ~ 0
+FB1
+Wire Wire Line
+	10500 2275 10325 2275
+Text Label 10325 2575 0    50   ~ 0
+FB_1
+Wire Wire Line
+	10500 2375 10325 2375
+Text Label 10325 2975 0    50   ~ 0
+FB2
+Wire Wire Line
+	10500 2475 10325 2475
+Text Label 10325 2475 0    50   ~ 0
+FB_2
+Wire Wire Line
+	10500 2575 10325 2575
+Text Label 10325 3275 0    50   ~ 0
+FB3
+Wire Wire Line
+	10500 2675 10325 2675
+Text Label 10325 2375 0    50   ~ 0
+FB_3
+Wire Wire Line
+	10325 2775 10500 2775
+Text Label 10325 3575 0    50   ~ 0
+FB4
+Wire Wire Line
+	10500 2875 10325 2875
+Text Label 10325 2275 0    50   ~ 0
+FB_4
+Wire Wire Line
+	10500 2975 10325 2975
+Text Label 10325 3875 0    50   ~ 0
+FB5
+Wire Wire Line
+	10500 3075 10325 3075
+Text Label 10325 2175 0    50   ~ 0
+FB_5
+Wire Wire Line
+	10500 3175 10325 3175
+Text Label 10325 2775 0    50   ~ 0
+J1
+Wire Wire Line
+	10500 3275 10325 3275
+Text Label 10325 3075 0    50   ~ 0
+J2
+Wire Wire Line
+	10500 3375 10325 3375
+Text Label 10325 3375 0    50   ~ 0
+J3
+Wire Wire Line
+	10500 3475 10325 3475
+Text Label 10325 3675 0    50   ~ 0
+J4
+Wire Wire Line
+	10500 3575 10325 3575
+Text Label 10325 3975 0    50   ~ 0
+J5
+Wire Wire Line
+	10500 3675 10325 3675
+Text Label 10325 2875 0    50   ~ 0
+JJ1
+Wire Wire Line
+	10500 3775 10325 3775
+Text Label 10325 3175 0    50   ~ 0
+JJ2
+Wire Wire Line
+	10500 3875 10325 3875
+Text Label 10325 3475 0    50   ~ 0
+JJ3
+Wire Wire Line
+	10500 3975 10325 3975
+Text Label 10325 3775 0    50   ~ 0
+JJ4
+Wire Wire Line
+	10500 4075 10325 4075
+Text Label 10325 4075 0    50   ~ 0
+JJ5
+Text Label 10500 2075 2    50   ~ 0
+PSBUS
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5E970591
+P 7200 3000
+F 0 "JP1" H 7200 3185 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 3094 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 3000 50  0001 C CNN
+F 3 "~" H 7200 3000 50  0001 C CNN
+	1    7200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3000 6875 3000
+Wire Wire Line
+	7300 3000 7525 3000
+Text Label 7525 3000 0    50   ~ 0
+PSBUS
+Text Label 6875 3000 2    50   ~ 0
+NN1
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5E9743F6
+P 7200 3400
+F 0 "JP2" H 7200 3585 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 3494 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 3400 50  0001 C CNN
+F 3 "~" H 7200 3400 50  0001 C CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3400 6875 3400
+Wire Wire Line
+	7300 3400 7525 3400
+Text Label 7525 3400 0    50   ~ 0
+PSBUS
+Text Label 6875 3400 2    50   ~ 0
+NN2
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5E975A95
+P 7200 3775
+F 0 "JP3" H 7200 3960 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 3869 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 3775 50  0001 C CNN
+F 3 "~" H 7200 3775 50  0001 C CNN
+	1    7200 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3775 6875 3775
+Wire Wire Line
+	7300 3775 7525 3775
+Text Label 7525 3775 0    50   ~ 0
+PSBUS
+Text Label 6875 3775 2    50   ~ 0
+NN3
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5E975A9F
+P 7200 4125
+F 0 "JP4" H 7200 4310 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 4219 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 4125 50  0001 C CNN
+F 3 "~" H 7200 4125 50  0001 C CNN
+	1    7200 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4125 6875 4125
+Wire Wire Line
+	7300 4125 7525 4125
+Text Label 7525 4125 0    50   ~ 0
+PSBUS
+Text Label 6875 4125 2    50   ~ 0
+NN4
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 5E97798F
+P 7200 4475
+F 0 "JP5" H 7200 4660 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 4569 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 4475 50  0001 C CNN
+F 3 "~" H 7200 4475 50  0001 C CNN
+	1    7200 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4475 6875 4475
+Wire Wire Line
+	7300 4475 7525 4475
+Text Label 7525 4475 0    50   ~ 0
+PSBUS
+Text Label 6875 4475 2    50   ~ 0
+NN5
+$Comp
+L Device:Jumper_NO_Small JP6
+U 1 1 5E97B617
+P 8675 3000
+F 0 "JP6" H 8675 3185 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 3094 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 3000 50  0001 C CNN
+F 3 "~" H 8675 3000 50  0001 C CNN
+	1    8675 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 3000 8350 3000
+Text Label 9000 3000 0    50   ~ 0
+J1
+Text Label 8350 3000 2    50   ~ 0
+FB1
+$Comp
+L Device:Jumper_NO_Small JP7
+U 1 1 5E97B621
+P 8675 3400
+F 0 "JP7" H 8675 3585 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 3494 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 3400 50  0001 C CNN
+F 3 "~" H 8675 3400 50  0001 C CNN
+	1    8675 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 3400 8350 3400
+Text Label 9000 3400 0    50   ~ 0
+J2
+Text Label 8350 3400 2    50   ~ 0
+FB2
+$Comp
+L Device:Jumper_NO_Small JP8
+U 1 1 5E97B62B
+P 8675 3775
+F 0 "JP8" H 8675 3960 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 3869 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 3775 50  0001 C CNN
+F 3 "~" H 8675 3775 50  0001 C CNN
+	1    8675 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 3775 8350 3775
+Text Label 9000 3775 0    50   ~ 0
+J3
+Text Label 8350 3775 2    50   ~ 0
+FB3
+$Comp
+L Device:Jumper_NO_Small JP9
+U 1 1 5E97B635
+P 8675 4125
+F 0 "JP9" H 8675 4310 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 4219 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 4125 50  0001 C CNN
+F 3 "~" H 8675 4125 50  0001 C CNN
+	1    8675 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 4125 8350 4125
+Text Label 9000 4125 0    50   ~ 0
+J4
+Text Label 8350 4125 2    50   ~ 0
+FB4
+$Comp
+L Device:Jumper_NO_Small JP10
+U 1 1 5E97B63F
+P 8675 4475
+F 0 "JP10" H 8675 4660 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 4569 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 4475 50  0001 C CNN
+F 3 "~" H 8675 4475 50  0001 C CNN
+	1    8675 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 4475 8350 4475
+Text Label 9000 4475 0    50   ~ 0
+J5
+Text Label 8350 4475 2    50   ~ 0
+FB5
+Text Notes 7125 2450 0    50   ~ 0
+jumpers for second set of filterbank sliders
+Wire Wire Line
+	10500 4175 10325 4175
+$Comp
+L power:GND #PWR016
+U 1 1 5E9AA80F
+P 10325 4175
+F 0 "#PWR016" H 10325 3925 50  0001 C CNN
+F 1 "GND" H 10330 4002 50  0000 C CNN
+F 2 "" H 10325 4175 50  0001 C CNN
+F 3 "" H 10325 4175 50  0001 C CNN
+	1    10325 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2525 4750 2600
+Wire Wire Line
+	4750 2600 4950 2600
+Text Label 4950 2600 0    50   ~ 0
+NN1
+Wire Wire Line
+	4750 3400 4750 3450
+Wire Wire Line
+	4750 3450 4975 3450
+Text Label 4975 3450 0    50   ~ 0
+NN2
+Wire Wire Line
+	4725 4275 4725 4325
+Wire Wire Line
+	4725 4325 4950 4325
+Text Label 4950 4325 0    50   ~ 0
+NN3
+Wire Wire Line
+	4700 5100 4700 5150
+Wire Wire Line
+	4700 5150 4875 5150
+Text Label 4875 5150 0    50   ~ 0
+NN4
+Wire Wire Line
+	4700 5900 4700 5950
+Wire Wire Line
+	4700 5950 4875 5950
+Text Label 4875 5950 0    50   ~ 0
+NN5
+Text Notes 8900 2825 0    50   ~ 0
+case1\n
+Text Notes 7575 2775 0    50   ~ 0
+case2\n
+$Comp
+L Device:Jumper_NO_Small JP11
+U 1 1 5EA1556C
+P 7200 4850
+F 0 "JP11" H 7200 5035 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 4944 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 4850 50  0001 C CNN
+F 3 "~" H 7200 4850 50  0001 C CNN
+	1    7200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4850 6875 4850
+Text Label 7525 4850 0    50   ~ 0
+JJ1
+Text Label 6875 4850 2    50   ~ 0
+FB_1
+$Comp
+L Device:Jumper_NO_Small JP12
+U 1 1 5EA15577
+P 7200 5250
+F 0 "JP12" H 7200 5435 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 5344 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 5250 50  0001 C CNN
+F 3 "~" H 7200 5250 50  0001 C CNN
+	1    7200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5250 6875 5250
+Text Label 7525 5250 0    50   ~ 0
+JJ2
+Text Label 6875 5250 2    50   ~ 0
+FB_2
+$Comp
+L Device:Jumper_NO_Small JP13
+U 1 1 5EA15582
+P 7200 5625
+F 0 "JP13" H 7200 5810 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 5719 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 5625 50  0001 C CNN
+F 3 "~" H 7200 5625 50  0001 C CNN
+	1    7200 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5625 6875 5625
+Text Label 7525 5625 0    50   ~ 0
+JJ3
+Text Label 6875 5625 2    50   ~ 0
+FB_3
+$Comp
+L Device:Jumper_NO_Small JP14
+U 1 1 5EA1558D
+P 7200 5975
+F 0 "JP14" H 7200 6160 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 6069 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 5975 50  0001 C CNN
+F 3 "~" H 7200 5975 50  0001 C CNN
+	1    7200 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5975 6875 5975
+Text Label 7525 5975 0    50   ~ 0
+JJ4
+Text Label 6875 5975 2    50   ~ 0
+FB_4
+$Comp
+L Device:Jumper_NO_Small JP15
+U 1 1 5EA15598
+P 7200 6325
+F 0 "JP15" H 7200 6510 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7200 6419 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7200 6325 50  0001 C CNN
+F 3 "~" H 7200 6325 50  0001 C CNN
+	1    7200 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 6325 6875 6325
+Text Label 7525 6325 0    50   ~ 0
+JJ5
+Text Label 6875 6325 2    50   ~ 0
+FB_5
+Wire Wire Line
+	7300 4850 7525 4850
+Wire Wire Line
+	7300 5250 7525 5250
+Wire Wire Line
+	7300 5625 7525 5625
+Wire Wire Line
+	7300 5975 7525 5975
+Wire Wire Line
+	7300 6325 7525 6325
+Wire Wire Line
+	8775 3000 9000 3000
+Wire Wire Line
+	8775 3400 9000 3400
+Wire Wire Line
+	8775 3775 9000 3775
+Wire Wire Line
+	8775 4125 9000 4125
+Wire Wire Line
+	8775 4475 9000 4475
+$Comp
+L Device:Jumper_NO_Small JP16
+U 1 1 5E9E5E07
+P 8675 5025
+F 0 "JP16" H 8675 5210 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 5119 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 5025 50  0001 C CNN
+F 3 "~" H 8675 5025 50  0001 C CNN
+	1    8675 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 5025 8350 5025
+Text Label 9000 5025 0    50   ~ 0
+J1
+Text Label 8350 5025 2    50   ~ 0
+NN1
+$Comp
+L Device:Jumper_NO_Small JP17
+U 1 1 5E9E5E11
+P 8675 5425
+F 0 "JP17" H 8675 5610 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 5519 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 5425 50  0001 C CNN
+F 3 "~" H 8675 5425 50  0001 C CNN
+	1    8675 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 5425 8350 5425
+Text Label 9000 5425 0    50   ~ 0
+J2
+Text Label 8350 5425 2    50   ~ 0
+NN2
+$Comp
+L Device:Jumper_NO_Small JP18
+U 1 1 5E9E5E1B
+P 8675 5800
+F 0 "JP18" H 8675 5985 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 5894 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 5800 50  0001 C CNN
+F 3 "~" H 8675 5800 50  0001 C CNN
+	1    8675 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 5800 8350 5800
+Text Label 9000 5800 0    50   ~ 0
+J3
+Text Label 8350 5800 2    50   ~ 0
+NN3
+$Comp
+L Device:Jumper_NO_Small JP19
+U 1 1 5E9E5E25
+P 8675 6150
+F 0 "JP19" H 8675 6335 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 6244 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 6150 50  0001 C CNN
+F 3 "~" H 8675 6150 50  0001 C CNN
+	1    8675 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 6150 8350 6150
+Text Label 9000 6150 0    50   ~ 0
+J4
+Text Label 8350 6150 2    50   ~ 0
+NN4
+$Comp
+L Device:Jumper_NO_Small JP20
+U 1 1 5E9E5E2F
+P 8675 6500
+F 0 "JP20" H 8675 6685 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8675 6594 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8675 6500 50  0001 C CNN
+F 3 "~" H 8675 6500 50  0001 C CNN
+	1    8675 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 6500 8350 6500
+Text Label 9000 6500 0    50   ~ 0
+J5
+Text Label 8350 6500 2    50   ~ 0
+NN5
+Text Notes 8900 4850 0    50   ~ 0
+case1\n
+Wire Wire Line
+	8775 5025 9000 5025
+Wire Wire Line
+	8775 5425 9000 5425
+Wire Wire Line
+	8775 5800 9000 5800
+Wire Wire Line
+	8775 6150 9000 6150
+Wire Wire Line
+	8775 6500 9000 6500
+$EndSCHEMATC
