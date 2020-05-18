@@ -1,0 +1,162 @@
+** TITLE?
+
+** Notes
+
+- embed tables, recipes, documentary stuff
+
+* Introdcution - States of Exception
+
+Daniel Defoe's A Journal of the Plague Year presents one of the
+earliest first-hand accounts of daily life under the scourge of the
+Plague. The Journal documents the economic and social consequences of both the
+epidimiology of the bubonic plague during the 1665-1666 epidemic wave, and
+the restrictions imposed in its wake. He describes how the Londoners
+applied themselves successfully to the new arts of both home baking
+and amateur fermentation. This anecdotal, material and witnessed account is
+peppered with verbatim, forensic transcripts from the orders of the Lord Mayor
+as to the conduct of the citizens (for example those concerning infected
+houses and persons sick of the plague), and tables of reckonings for
+those dead or recovered in each parish. 
+
+At the time of this plague pandemic outbreak in London in the late
+17th century, Defoe was only five years old. Defoe composes a new form
+of fiction suitable for a state of exception [footnote: Agamben,
+exception in software or we deal with this later in intor maybe],
+presented as documentary, as social document.
+
+Although there are easy social and burocratic comparisons, between the
+bubonic plague of 1665-1666 re-invented by Defoe, I'm not sure that
+the pandemics of 2020 and perhaps beyond can be so readily
+compared. However, as highlighted by Defoe, both
+operate as *exposures* (in a photographic sense) of new forms of life
+and death, of living together with and apart from, seperated from
+other each other and with multiple worlds; new forms for a state of
+exception which are somehow informed by older materials and
+many customs. 
+
+The domain of plague and virus is, in appearance, the realm of
+disintegration, decay, and destruction, of an undoing (of that which
+is, of the more established and antecedant). And it is this "other"
+world of decay which Peter Flemming [note Alexander Flemming -
+antibiotics and penicillin - maybe come back to this] makes visible as
+a series of connections, an open or closed circuit within the linked
+works, Sour Bodies and Low Places, created during a rather different
+Year, yet forming another exceptional Journal for our times and
+matters. It is the less-than-obvious connection between the realms of
+material and living, energetic transformation and the worlds of
+(human) technology, defined within embracing terms of command,
+control, and communication [cybernetics, systems creation and
+modelling, economy and the infrastructures and created mechanisms
+which enable the feedback and construction of ...] which is made
+evident within Flemmings's work, defining and defined by the point of
+connection between those Sour Bodies and those Low Places [that the
+technological realm which Flemming opens up and lets spill out (the
+contents of that particular black box transformed as if by magic, so
+that the familiar contained materiality of algorithmic infrastructures
+(even if we did expose them, we are none-the-wiser to the microscoped
+conduits of silicon and copper) becomes sand, plastic, buckets and
+pipes), of system-which-has-been set up with all its mechanisms and
+circuits and discordant materialities, is the low place, like a swamp,
+a dumping ground, a bog, whereas the place of a more cohered and
+involving process of fermentation, perhaps equally controlled but with
+a more casual hand in its setting-in-process, maybe even more
+contained and enclised, is the body, or bodies, the sour, *pissed-off*
+body at odds with and conflicting with both themselves and their
+perhaps self-controlled environment [and what might cause such a body
+to be so contrary to a place which they apparently have so adapted to
+themselves - ref. Wiener, bio-adapter].
+
+
+"this is how I do it; not exactly scientific; and good to read the
+thing through as a whole, *it is not exaclty [sic] a step-by-step*"
+
+
+I will try, like the little virus I am, to expose this essential
+connection within a series of recipes which equally form a kind of journal [In
+the summer, during Peter's residency, we exchanged rough recipes for
+ginger beer starters, known as ginger *bugs*, experimenting with the
+addition of tumeric and honey to the mix.] Just as Low Places can be
+viewed as an algorithm made flesh (hesitantly, silently and without
+words which might enlighten), a straightforward recipe is a series of instructions
+which makes visible its own construction (in words). ["the magic of
+ordinary things" - Henricks]. These words become bread, become pickles
+(of course with access to suitable and seasonal materials or
+"produce"). [bread of dreams - camporesi]. These words become dreams,
+repeating and changing procedures, become new recipes in a kind of
+version control. The Low Places are these dreamy, moulding, recipes,
+embodied and seperated from any written series of awkward steps. Peter
+feigns to show us the recipe to construct a Flemming [reminding me of
+the instructions for maintaining Peter's .... "the electrodes will be
+LIVE and you must not touch them!", the whispering mismatch between a
+decayed reality, someone has moved the ladder,  and these ideal
+recipes]
+
+
+"If you can't get the salt ratio, maybe just pour in 4 or 5 Arduinos to each bottle?"
+
+
+All the pieces are there, we consider that we might even be able to
+purchase all of the materials off-the-shelf from the local hardware store (OBI,
+Bauhaus, Hellweg). No specialized materials or scientific equipment is
+required for the construction of your ecosystem; if only we know what
+to ask for, sourly and deadpan, for ourselves. There is something
+which escapes us, sand trickling out of a useless bucket, pooling on
+the floor. It is not wholly transparent. [closed exhalation of the
+rubbered jar]
+
+[one link, thermocultures - coal-fired computer, Sam Bhowmik work]
+
+[below as the first recipe with barbeque intro]
+
+What do unknowable processes variously described as decay, rotting,
+putrefaction, decomposition, fermentation, corruption, spoiling,
+composting, dissolution, souring, moulding - processes which connect
+with the abject, with ordure, with the discarded, the declining, the
+defiled and unwanted, the addled and descending, what do these
+processes have to do with technology [footnote rotting sounds] and how
+does Flemmings work enlighten or enliven or even upset the apple wagon
+of this potential relationship?
+
+What do a mobile phone and a pickle have in common? The simple answer
+is that they are both embedded within thermocultural systems of
+control occupied with the conservation and preservation [we can also call
+pickles, conserves] of state and the (economic) management of discrete
+levels of energy. Within technological infrastructures there is a
+maintenance of state (storage in the cloud should maintain our
+memories without glitch) which implies an expenditure of energy (a
+bucket spilling out water or sand drives a mini turbine, Peter lifts
+the bucket each day drawing on his own reserves of energy in some
+schoolbook illustration)[coal fired comp]. sandy maxwells demon -
+downhill temperature gradient of entropy leads us back into the dammed
+low country. 
+
+The memorial of a one or a zero on a grand scale [Pynchon] also
+releases heat as excess, a sour and unwanted byproduct of these
+bits circulating as a flow of electricity through less-than-pure
+metals. [Finn Brunton "the work of computation is the work of managing
+heat".] A recipe for a mobile phone, which we'll return to, would also
+include these now-wishful impurities, as happy rogue atoms nestling
+within non-conductive silicon and allowing for a highly selective
+circulation.
+
+The abyss is not filled to overflowing,
+It is fille opnly to the rim. [IC]
+
+Decay and preservation become questions of energetic exchanges and
+circulations signalled by material change. Water fills a pit only to
+the rim, and then flows on [Jung;s intro to the I Ching which is also
+a form of recipe - the K'an hexagram is here describing pits and
+pitfalls]. As we heat water slowly it evaporates, and as the resulting
+vapour cools, droplets condense on the side of the vessel. 
+
+
+
+
+
+** Recipes:
+
+*** Shit, winter, summer, kimchi, bread, phone
+
+
+
+
