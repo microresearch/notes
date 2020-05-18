@@ -72,24 +72,24 @@ thing through as a whole, *it is not exaclty [sic] a step-by-step*"
 
 
 I will try, like the little virus I am, to expose this essential
-connection within a series of recipes which equally form a kind of journal [In
-the summer, during Peter's residency, we exchanged rough recipes for
-ginger beer starters, known as ginger *bugs*, experimenting with the
-addition of tumeric and honey to the mix.] Just as Low Places can be
-viewed as an algorithm made flesh (hesitantly, silently and without
-words which might enlighten), a straightforward recipe is a series of instructions
-which makes visible its own construction (in words). ["the magic of
-ordinary things" - Henricks]. These words become bread, become pickles
-(of course with access to suitable and seasonal materials or
-"produce"). [bread of dreams - camporesi]. These words become dreams,
-repeating and changing procedures, become new recipes in a kind of
-version control. The Low Places are these dreamy, moulding, recipes,
-embodied and seperated from any written series of awkward steps. Peter
-feigns to show us the recipe to construct a Flemming [reminding me of
-the instructions for maintaining Peter's .... "the electrodes will be
-LIVE and you must not touch them!", the whispering mismatch between a
-decayed reality, someone has moved the ladder,  and these ideal
-recipes]
+connection within this abstract series of recipes which equally form a
+kind of journal [In the summer, during Peter's residency, we exchanged
+rough recipes for ginger beer starters, known as ginger *bugs*,
+experimenting with the addition of tumeric and honey to the mix.] Just
+as Low Places can be viewed as an algorithm made flesh (hesitantly,
+silently and without words which might enlighten), a straightforward
+recipe is a series of instructions which makes visible its own
+construction (in words). ["the magic of ordinary things" -
+Henricks]. These words become bread, become pickles (of course with
+access to suitable and seasonal materials or "produce"). [bread of
+dreams - camporesi]. These words become dreams, repeating and changing
+procedures, become new recipes in a kind of version control. The Low
+Places are these dreamy, moulding, recipes, embodied and seperated
+from any written series of awkward steps. Peter feigns to show us the
+recipe to construct a Flemming [reminding me of the instructions for
+maintaining Peter's .... "the electrodes will be LIVE and you must not
+touch them!", the whispering mismatch between a decayed reality,
+someone has moved the ladder, and these ideal recipes]
 
 
 "If you can't get the salt ratio, maybe just pour in 4 or 5 Arduinos to each bottle?"
@@ -110,48 +110,118 @@ rubbered jar]
 
 What do unknowable processes variously described as decay, rotting,
 putrefaction, decomposition, fermentation, corruption, spoiling,
-composting, dissolution, souring, moulding - processes which connect
-with the abject, with ordure, with the discarded, the declining, the
-defiled and unwanted, the addled and descending, what do these
-processes have to do with technology [footnote rotting sounds] and how
-does Flemmings work enlighten or enliven or even upset the apple wagon
-of this potential relationship?
+composting, infection [Lister called infection fermentation]
+dissolution, souring, moulding - processes which connect with the
+abject, with ordure, with the discarded, the declining, the defiled
+and unwanted, the addled and descending, what do these processes have
+to do with technology [footnote rotting sounds] and how does Flemmings
+work enlighten or enliven or even upset the apple wagon of this
+potential relationship?
 
 What do a mobile phone and a pickle have in common? The simple answer
 is that they are both embedded within thermocultural systems of
-control occupied with the conservation and preservation [we can also call
-pickles, conserves] of state and the (economic) management of discrete
-levels of energy. Within technological infrastructures there is a
-maintenance of state (storage in the cloud should maintain our
+control occupied with the conservation and preservation [we can also
+call pickles, conserves] of state and the (economic) management of
+discrete levels of energy. Within technological infrastructures there
+is a maintenance of state (storage in the cloud should maintain our
 memories without glitch) which implies an expenditure of energy (a
-bucket spilling out water or sand drives a mini turbine, Peter lifts
-the bucket each day drawing on his own reserves of energy in some
+bucket spilling out water or sand drives a mini turbine which
+generates electricity to charge my phone, a pickle-fed Peter lifts the
+bucket each day drawing on his own reserves of energy in some
 schoolbook illustration)[coal fired comp]. sandy maxwells demon -
 downhill temperature gradient of entropy leads us back into the dammed
-low country. 
+low country.
 
 The memorial of a one or a zero on a grand scale [Pynchon] also
-releases heat as excess, a sour and unwanted byproduct of these
-bits circulating as a flow of electricity through less-than-pure
+releases heat as excess, a sour and unwanted byproduct of these bits
+circulating as a flow of electricity through less-than-pure
 metals. [Finn Brunton "the work of computation is the work of managing
-heat".] A recipe for a mobile phone, which we'll return to, would also
-include these now-wishful impurities, as happy rogue atoms nestling
-within non-conductive silicon and allowing for a highly selective
-circulation.
+heat".] If the heat stays inside, if it isn't dissipated as the
+balloons flexibly take in the build up of carbon dioxide by the sour bodies, we
+risk cooking the phone. A recipe for a mobile phone, which we'll
+return to, would also include these now-wishful impurities, as happy
+rogue atoms nestling within non-conductive silicon and allowing for a
+highly selective circulation.
 
 The abyss is not filled to overflowing,
-It is fille opnly to the rim. [IC]
+It is filled only to the rim. [IC]
 
 Decay and preservation become questions of energetic exchanges and
 circulations signalled by material change. Water fills a pit only to
 the rim, and then flows on [Jung;s intro to the I Ching which is also
 a form of recipe - the K'an hexagram is here describing pits and
-pitfalls]. As we heat water slowly it evaporates, and as the resulting
-vapour cools, droplets condense on the side of the vessel. 
+pitfalls]. On the windowsill, within a closed jam jar, water
+evaporates in the summer's heat, and as the resulting
+vapour cools in the evening, droplets condense on the sides of the
+jar. Alchemy occupies itself with these processes of transformation
+become symbolic as in an algorithm or a recipe but perhaps this
+becoming is a one way street, a downhill slope to those low places, to
+the abyss. Not a zero though. Not im-pure.
 
+////
 
+significance of these closed vessels, inhabited by some contained
+process, impervious to other sour breaths or influences, allowing for
+gassy expansions only and subsequent awaited and expected
+contractions.  impermeable - rubber glove, balloon or condom.
 
+an attention to detail within fermentation, observation of state (is
+it bubbling, what happens when I open the jar or door, risking the entry of
+unwanted agencies or dopy impurities - as well as a certain roughness,
+we do not need sterile conditions, we can make vague measurements
+judging by eye or by hand, gauging temperature without external
+apparatus.
 
+thermopolitics
+
+lactic acid fermentation - kimchi what is the process - and
+putrefaction ?? enzymes produced
+
+barbeque pit - blue cheese (flemming bit there form pres)
+
+Semiconductor manufacturing works like a barbeque pit where hickory
+smoke seeps into the meat and imparts a distinctive flavor. In the
+diffusion process, a bar of silicon is cooked in a furnace at high
+heat, and then a gas containing the appropriate doping impurities
+... is pumped into the furnace ... In the same way that a barbeque
+chef knows how long to cook the ribs to get the right taste of
+hickory, solid-state physicists gradually determined the proper time
+and temperature needed to put the precise amounts of impurities at
+precise points on the silicon block.
+
+[T.R. Reid quoted in Thermocultures of Geological Media. Nicole Starosielski]
+
+Semiconductor manufacturing works like a blue cheese dairy where a
+bacterium such as Penicillium roqueforti are inoculated or injected
+into milk or milk curds and imparts a distinctive flavor. Just as in
+the crystalline world of the diffusion process, ripening mould and
+salt crystals stud the cheese as it ferments. Once the cheese has
+matured over several months, it is sterilized at ultra high
+temperatures. This heat treatment also inactivates the Penicillium
+roqueforti, inhibiting further fermentation. In the same manner,
+solid-state physicists determine the proper time and temperature
+needed to put the precise amounts of impurities at precise points on
+the silicon block.
+
+[the bacterium Brevibacterium linens is responsible for the smell of many blue cheeses, as well as foot odour and other human body odors.]
+
+barbeque chef could be a sacrificial priest if we return to the
+ancient practice of alchemy - Zosimos - bodies are seperated, torn asunder, hewn like tree trunks (Dante
+suicides) QUOTE!
+
+I always wanted to make a rough catalogue of artists who have mae
+creative use of piss, shit and the material outcomes of other
+em-bodied proceses.
+
+how can sacrifice emerge as a theme?
+
+to be able to think in words or abstraction simultaneous with the
+clear description of precise physical properties or processes,
+Becket's peat thing
+
+that all of these descriptions, analogies and connections are
+fictions, not in a negative sense, they are myths - the cheesemaker,
+the sacrificial priest, the pit barbeque chef, the chip manufacturer.
 
 ** Recipes:
 
