@@ -1,0 +1,632 @@
+** TODO
+
+- where we found the commonplace and low in alchemy, the common
+  alchemist are exhorted to find the prima materia in these lowly
+  places - Verse and Transmutation
+
+- mortificatio chapter
+
+= momney/other articles
+
+- structurings
+
+** TITLE?
+
+** Notes
+
+- embed tables, recipes, documentary stuff
+
+* Introduction - States of Exception
+
+Daniel Defoe's A Journal of the Plague Year presents one of the
+earliest first-hand accounts of daily life under the scourge of the
+Plague. The Journal documents the economic and social consequences of both the
+epidimiology of the bubonic plague during the 1665-1666 epidemic wave, and
+the restrictions imposed in its wake. He describes how the Londoners
+applied themselves successfully to the new arts of both home baking
+and amateur fermentation. This anecdotal, material and witnessed account is
+peppered with verbatim, forensic transcripts from the orders of the Lord Mayor
+as to the conduct of the citizens (for example those concerning infected
+houses and persons sick of the plague), and tables of reckonings for
+those dead or recovered in each parish. 
+
+At the time of this plague pandemic outbreak in London in the late
+17th century, Defoe was only five years old. Defoe composes a new form
+of fiction suitable for a *state of exception* [footnote: Agamben,
+exception in software or we deal with this later in intro maybe],
+presented as documentary, as social document.
+
+Although there are easy social and burocratic comparisons, between the
+handling of the bubonic plague of 1665-1666 as re-invented and
+recounted by Defoe, I'm not sure that the pandemics of 2020 and
+perhaps beyond can be so readily compared. However, as highlighted by
+Defoe, both operate as *exposures* (in a photographic sense) of new
+forms of life and death, of living together-with and apart-from,
+seperated from other each other and within multiple worlds; new forms
+for a state of exception which are somehow informed by older materials
+and customs.
+
+The domain of plague and virus is, in appearance, the realm of
+disintegration, decay, and destruction, of an undoing (of that which
+is, of the more established and antecedant). And it is this "other"
+world of decay which Peter Flemming [note Alexander Flemming -
+antibiotics and penicillin - maybe come back to this] makes visible as
+a series of connections, an open or closed circuit within the linked
+works, Sour Bodies and Low Places, created during a rather different
+Year, yet forming another exceptional Journal for our times and
+matters. It is the less-than-obvious connection between the realms of
+material and living, energetic transformation and the worlds of
+(human) technology, defined within embracing terms of command,
+control, and communication [cybernetics, systems creation and
+modelling, economy and the infrastructures and created mechanisms
+which enable the feedback and construction of ...] which is made
+evident within Flemmings's work, defining and defined by the point of
+connection between those Sour Bodies and those Low Places [that the
+technological realm which Flemming opens up and lets spill out (the
+contents of that particular black box transformed as if by magic, so
+that the familiar contained materiality of algorithmic infrastructures
+(even if we did expose them, we are none-the-wiser to the microscoped
+conduits of silicon and copper) becomes sand, plastic, buckets and
+pipes), of system-which-has-been set up with all its mechanisms and
+circuits and discordant materialities, is the low place, like a swamp,
+a dumping ground, a bog, whereas the place of a more cohered and
+involving process of fermentation, perhaps equally controlled but with
+a more casual hand in its setting-in-process, maybe even more
+contained and enclised, is the body, or bodies, the sour, *pissed-off*
+body at odds with and conflicting with both themselves and their
+perhaps self-controlled environment [and what might cause such a body
+to be so contrary to a place which they apparently have so adapted to
+themselves - ref. Wiener, bio-adapter].
+
+
+"this is how I do it; not exactly scientific; and good to read the
+thing through as a whole, *it is not exaclty [sic] a step-by-step*"
+
+
+I will try, like the little virus I am, to expose this essential
+connection within this abstract series of recipes which equally form a
+kind of journal [In the summer, during Peter's residency, we exchanged
+rough recipes for ginger beer starters, known as ginger *bugs*,
+experimenting with the addition of turmeric and honey to the mix.] Just
+as Low Places can be viewed as an algorithm made flesh (hesitantly,
+silently and without words which might enlighten), a straightforward
+recipe is a series of instructions which makes visible its own
+construction (in words). ["the magic of ordinary things" -
+Henricks]. These words become bread, become pickles (of course with
+access to suitable and seasonal materials or "produce"). [bread of
+dreams - camporesi]. These words become dreams, repeating and changing
+procedures, become new recipes in a kind of version control. The Low
+Places are these dreamy, moulding, recipes, embodied and seperated
+from any written series of awkward steps. Peter feigns to show us the
+recipe to construct a Flemming [reminding me of the instructions for
+maintaining Peter's .... "the electrodes will be LIVE and you must not
+touch them!", the whispering mismatch between a decayed reality,
+someone has moved the ladder, and these ideal recipes]
+
+
+"If you can't get the salt ratio, maybe just pour in 4 or 5 Arduinos to each bottle?"
+
+
+All the pieces are there, we consider that we might even be able to
+purchase all of the materials off-the-shelf from the local hardware store (OBI,
+Bauhaus, Hellweg). No specialized materials or scientific equipment is
+required for the construction of your ecosystem; if only we know what
+to ask for, sourly and deadpan, for ourselves. There is something
+which escapes us, sand trickling out of a useless bucket, pooling on
+the floor. It is not wholly transparent. [closed exhalation of the
+rubbered jar] Some kind of wordless, biting incantation for expsoure would be
+require in times of need, a magic circle or circuit chalked on the
+ground or up the wall as follows:
+
+[below as the first recipe with barbeque intro]
+
+What do unknowable processes variously described as decay, rotting,
+putrefaction, decomposition, fermentation, corruption, spoiling,
+composting, digestion, moulting, infection [Lister called infection
+fermentation] dissolution, souring, moulding, disintegration -
+processes which connect with the abject, with ordure, excreta,
+disjecta, with the discarded and the rejected, the declining, the
+defiled and unwanted, the addled and descending, the leaked and
+spilled, unfrothed, what do these processes have to do with technology
+[footnote rotting sounds] and how does Flemming'[s work enlighten or
+enliven or even upset the rotting and worm-ridden apple-cart of this
+potential relationship?
+
+What do a mobile phone and a pickle (or a discarded mattress) have in
+common? The simple answer is that they are both embedded within
+thermocultural systems of control occupied with the conservation and
+preservation [we can also call pickles, conserves] of state and the
+(economic) management of discrete levels of energy. Within
+technological infrastructures there is a maintenance of state (storage
+in the cloud should maintain our memories without glitch) which
+implies an expenditure of energy (a bucket spilling out water or sand
+drives a mini turbine which generates electricity to charge my phone,
+a pickle-fed Peter lifts the bucket each day drawing on his own
+reserves of energy in some schoolbook illustration)[coal fired
+comp]. sandy maxwells demon - downhill temperature gradient of entropy
+leads us back into the dammed and thus civilized low countries.
+
+The memorial of a one or a zero on a grand scale [Pynchon: “If
+patterns of ones and zeroes were "like" patterns of human lives and
+deaths, if everything about an individual could be represented in a
+computer record by a long strings of ones and zeroes, then what kind
+of creature could be represented by a long string of lives and
+deaths?” - Vineland? She pictures to herself the mattress he sleeps
+on, bearing the “vestiges of every nightmare sweat, helpless
+overflowing bladder, viciously, tearfully consummated wet dream, like
+the memory bank to a computer of the lost.” Crying lot 49] also releases heat as
+excess, a sour and unwanted byproduct of these bits circulating as a
+flow of electricity through less-than-pure metals. [Finn Brunton "the
+work of computation is the work of managing heat".] If the heat stays
+inside, if it isn't dissipated as the balloons flexibly take in the
+build up of carbon dioxide by the sour bodies, we risk cooking the
+phone. A recipe for a mobile phone, which we'll return to, would also
+include these now-wishful impurities, as happy rogue atoms nestling
+within non-conductive silicon and allowing for a highly selective
+circulation.
+
+The abyss is not filled to overflowing,
+It is filled only to the rim. [IC]
+
+Decay and preservation become questions of energetic exchanges and
+circulations signalled by material changes. Water fills a pit only to
+the rim, and then flows on [Jung;s intro to the I Ching which is also
+a form of recipe - the K'an hexagram is here describing pits and
+pitfalls]. On the windowsill, within a closed jam jar, water
+evaporates in the summer's heat, and as the resulting vapour cools in
+the evening, droplets condense on the sides of the jar. Alchemy
+occupies itself with these processes of transformation become symbolic
+as in an algorithm or a recipe. Perhaps this becoming is a one way
+street, a downhill slope bringing to those swampy low places, to the
+abyss. Not a zero though. Not im-pure.
+
+peat bog?
+
+sand?
+
+////
+
+significance of these closed vessels, inhabited by some contained
+process, impervious to other sour breaths or influences, allowing for
+gassy expansions only and subsequent awaited and expected
+contractions.  impermeable - rubber glove, balloon or condom.
+
+an attention to detail within fermentation, observation of state (is
+it bubbling yet, what happens when I open the jar or door, risking the
+entry of unwanted agencies or wishful, dopey-eyed impurities,
+maintaining a social distance which is all about exchange - as well
+as a certain roughness, we do not need sterile conditions, we can make
+vague measurements judging by eye or by hand, gauging temperature
+without external apparatus, tasting and smelling as ways of becoming
+acquainted and gauging the progress of invisible processes of inner
+transformation, we can read the visible and tangible signs of
+fermentation, cloudiness of the brine, changes in colour of a beetroot kimchi
+
+
+- becoming familiar with the signallings of a certain complex of aromas, for example, of
+fermenting, salted cabbage or of habanero peppers with crushed garlic
+maturing in a salty brine
+
+controlling temperature exchanges, managing gas exchanges, venting, air-locks
+
+
+
+
+thermopolitics?
+
+lactic acid fermentation - kimchi what is the process - and
+putrefaction ?? enzymes produced
+
+barbeque pit - blue cheese (flemming bit there form pres)
+
+Semiconductor manufacturing works like a barbeque pit where hickory
+smoke seeps into the meat and imparts a distinctive flavor. In the
+diffusion process, a bar of silicon is cooked in a furnace at high
+heat, and then a gas containing the appropriate doping impurities
+... is pumped into the furnace ... In the same way that a barbeque
+chef knows how long to cook the ribs to get the right taste of
+hickory, solid-state physicists gradually determined the proper time
+and temperature needed to put the precise amounts of impurities at
+precise points on the silicon block.
+
+[T.R. Reid quoted in Thermocultures of Geological Media. Nicole Starosielski]
+
+Semiconductor manufacturing works like a blue cheese dairy where a
+fungus such as Penicillium roqueforti are inoculated or injected
+into sheep milk or milk curds and imparts a distinctive flavor. Just as in
+the crystalline world of the diffusion process, ripening mould and
+salt crystals stud the cheese as it ferments. Once the cheese has
+matured over several months, it is sterilized at ultra high
+temperatures. This heat treatment also inactivates the Penicillium
+roqueforti, inhibiting further fermentation. In the same manner,
+solid-state physicists determine the proper time and temperature
+needed to put the precise amounts of impurities at precise points on
+the silicon block.
+
+[the bacterium Brevibacterium linens is responsible for the smell of many blue cheeses, as well as foot odour and other human body odors.]
+
+barbeque chef could be a sacrificial priest if we take inspiration
+from the ancient practice of alchemy - Zosimos - bodies are seperated,
+torn asunder, hewn like tree trunks (Dante suicides) QUOTE zosimos -
+also the prima materia image from Ripley scroll
+
+alchemy, domination and gender articel, also jung - torture theme
+
+alchemist refer to the torture of metals - examples - with reference
+to pasteurisation latour talks of the scientist as now being able to
+"starve the microbes, kill them with antiseptics, make them eat
+anything, in short, torture them in innumerable ways, in order to
+learn something about them each time" (1988 the pasteurisation of france)
+
+[I always wanted to make a rough catalogue of artists who have made
+creative use of piss, shit and the material outcomes of other
+em-bodied proceses.]
+
+Shit is repetition and circulation, and all repetition is shit and circulates.
+
+how can sacrifice emerge as a theme? though the sacrificial priest -
+the sacrificed and the sacrificer - 
+
+to be able to think in words or abstraction simultaneous with the
+clear description of precise physical properties or processes,
+Becket's peat thing
+
+that all of these descriptions, analogies and connections are
+fictions, not in a negative sense, they are myths - the cheesemaker,
+the sacrificial priest, the pit barbeque chef, the chip manufacturer.
+
+** conclusions
+
+obvious that technologies of computation, control and communication are always
+subject to the noisy un-constraints of both materials (substrates) and
+material-un-bound processes (thermodynamics), just as s/our bodies are
+subject to disease, and disintegration, to good and bad microbes and moulds.
+
+whilst relying on these materials
+
+crossing nouns/material and processes - cheese, dunes, fermentation
+and shit/shitting, sanding.
+
+Peter Flemming - speculation of what a technology which acknowledges
+its debts to the pleasures of approximate and un-studied cooking and
+to fermentation, which attempts to willfully roll down into those low
+places of thermodynamic gradient, of waste heat, to un-damm the flows
+and circulations seperating various abysses with names such as
+Anthropocene, computation, currency and exchange. sacrifice? burial of
+the anthropocene
+
+a darkly promiscuous set of technologies of sour-pissed-on/off bodies, of local,
+overheating parasites (Serres ref), and perhaps finally of sand,
+rather than silicon, dribbling and spilling over binary logic.
+
+a bread of plagued and low dreams which is baked according to
+technologies which are not for a human or a visible crow to
+do-something-to-something-else with, to hide something or to transform
+it, to transfer it, but technologies and techniques for the others,
+precisely that imagination which mirrors all these of our endeavours
+in another realm, of the decaying and of the dead.
+
+woman of the dunes as postscript perhaps - a burial in sand, in the
+lowest of places (lowest in alchemy, the most base)
+
+Water will go to the low places
+everyone despises
+and be content.
+
+** Recipes:
+
+*** Shit, winter, summer, kimchi, bread, phone
+
+** quotes
+
+*** Cooked or Fermented? The Thermal Logic of Social Transformation
+
+Elena Beregow
+
+Inspired by thermodynamics, Serres notes that the 'best definition' of
+the parasite is that it functions as a 'thermal exciter': it affects
+the energy distribution within a system by warming it up or cooling it
+down, by producing thermal noise and disorder.
+p9
+
+*necrological vitalism* of fermentation - fermentation's cold fire
+... -> *these could go with alchemical torture bit*
+
+Fermentation presupposes the movement of living bacteria that
+transform organic matter into acids, gas or alcohol ... This primal
+metabolic process breaks living things down, reducing them so their
+energies and atoms can be reused. 
+p9
+
+In fact, the life of these bacteria means decay, decomposoition, rot;
+due to this paradoxical character of life processes that work on their
+own dissolution, Eugene Thacker (2012: 26 After Life) speaks of
+fermentation as a laboratory for a 'necrological vitalism'.
+
+...
+
+this uncanny figure of flourishing death via self-digestion
+demonstrates the limits of the assumed logic of cyclic repetition.
+
+p10
+
+Limiting fermentation to the endless cycle of ubiquitous, flourishing
+life and renewal - as vitalist accounts tend to do - means to overlook
+that fermentation irritates and interrupts this very cyclical logic of
+life by introducing the irreducible principles of death and *mortification*.
+p17
+
+Accentuating this dark line ... fermentation would not stand for the
+recycling of the existing world (after the virus), but for its slow
+inner destruction. Indeed, it is not only the Anthropocene or the
+Pasteurian scinetist who is controlling and torturing microbes;
+fermenting menas that the involved bacteria eagerly begin their decay
+work by killing other 'bad' microorganisms in a necrological
+zombie-like movement between self-preservation and
+self-elimination. Fermentation always has this uncanny, almost bleak
+dimension to it: it is only the thin semi-permeable membrane of the
+gastro-intestinal tract that prevents us from digesting ourselves.
+p17
+
+*** Thermocultures of Geological Media
+
+Nicole Starosielski
+
+... thermal technologies underpin the standardization of culture,
+decreasing the distinctiveness of otherwise heterogenous meidia
+objects and facilitating their circulation as global commodities. This
+is visible in media production, as well as in the use of heating and
+cooling to stabilize media over time, a key defense in the foght
+against decay.
+p294
+
+The drive toward purity that structures the thermal production of
+digital hardware is neither necessary nor neutral. It is designed
+specifically to reduce error and *compartmentalize* digital content.
+p294
+
+... beliefs about purity and pollution circulate within the
+electronics and mining industries and shape the design of thermal
+technologies. They are deliberately crafted to remove 'impurities'
+that 'contaninate' copper. 
+p298
+
+[thermodynamics and thermopolitics underwrite the circulation of
+materials and bodies]
+
+Purity, as a cultural value, not only structures the arrangement of
+inorganic materials but conditions possibilities for how bodily matter
+can circulate through the world, whether its movements are facilitated
+by high-speed digital networks or inhibted by toxic substances.
+p299
+
+Hyungsub Choi (2007:770) observes that in the history of early
+transistors, "making junction transistors by the alloying technique
+was comparable to baking cookies. Workers, usually women, attached
+indium dots to either side of the germanium wafer and installed them
+in the furnace. Just as in baking cookies, two variables were crucial:
+temperature and time."
+
+Writing in 1997, John F. Flynn argued that even though "cooking in
+general, and breadmaking in particular, may be regarded as central to
+the empirical foundations of technology and science, even the most
+general references to either is consistently and conspicuously absent
+from standard hsitorical surveys of Western technology," despite the
+many ties between cooking, alchemy, chemistry and metallurgy. 
+p306
+
+*** Internet Daemons. Fenwick McKelvey.
+
+The "leaky bucket" algorithm imagines a packet flow as water filling a
+bucket and leaking out of it through a hole. .... Leaky buckets
+regulate the intermittent flow of packets by varying queue size (how
+big a bucket) and average bandwidth (the size of the hole). A queue
+fills with packets arriving irregularly and holds them until they
+might be sent at a regular rate. When a bucket overfills, water spills
+out, When the queue fills, daemons drop packet, signalling congestion.
+
+p107/108
+
+[water with sand]
+
+*** Zosimos/Jung torture etc.
+
+And as they drew near to the place of punishments, he who held the
+sword in his hand [said]: "Cut off his head, immolate his body, and
+cut his flesh into pieces, that it may first be boiled according to
+the method, and then delivered to the place of punishments."
+
+Thereupon I awoke and said: "I have well understood, this concerns the
+liquids in the art of the metals." And he who bore the sword in his
+hand said again: "You have completed the descent of the seven steps."
+And the other answered, as he caused the waters to gush forth from all
+the moist places: "The procedure is completed."
+
+[gush forth from all the low places]
+
+Collected Works of C.G. Jung: Alchemical Studies (Volume 13) C. G Jung
+p?
+
+more from Jung?/other article?
+
+It is characteristic of this rite that the priest is at once the sacrificer and the sacrificed.
+
+** cheese
+
+The mold that gives Roquefort its distinctive character (Penicillium
+roqueforti) is found in the soil of the local caves. Traditionally,
+the cheesemakers extracted it by leaving bread in the caves for six to
+eight weeks until it was consumed by the mold. The interior of the
+bread was then dried to produce a powder. In modern times, the mold
+can be grown in a laboratory, which allows for greater
+consistency. The mold may either be added to the curd or introduced as
+an aerosol through holes poked in the rind.
+
+Contrary to popular belief, Penicillium roqueforti does not produce
+penicillin.[15] However, due to the presence of other
+anti-inflammatory proteins,[16] it was common in country districts for
+shepherds to apply this cheese to wounds to avoid gangrene.[17]
+
+Roquefort,Bleu de Bresse, Bleu du Vercors-Sassenage, Brebiblu,
+Cabrales, Cambozola (Blue Brie), Cashel Blue, Danish blue, Polish
+Rokpol, Fourme d'Ambert, Fourme de Montbrison,
+Lanark Blue, Shropshire Blue, Stilton, Bleu
+d'Auvergne, Gorgonzola, Bleu de Gex and Rochebaron.
+
+rotting bread. hallucinatory bread of dreams, crow bread
+
+blue cheese. MAOI inhibition, neurotoxins
+
+** from other notes
+
+** ???
+
+https://aras.org/concordance/content/mortificatio
+
+And when this corpse the force of vital breath began to lack, This
+dying Toad became forthwith like coal for color black: Thus drowned in
+his proper veins of poisoned flood, For term of eighty days and four
+he rotting stood: By trial then this venom to expel I did desire, For
+which I did commit his carcass to a gentle fire: Which done, a wonder
+to the sight, but more to be rehearsed,
+
+Feces, excrement, and bad odors refer to the putrefactio. The common
+dreams of neglected or overflowing toilets which plague puritan-minded
+people belong to this symbolism. Odor sepulcrorum (the stench of the
+graves) is another synonym for the putrefactio. Since people today
+seldom smell a rotting corpse, this image does not appear often in
+dreams
+
+One modern equivalent I have encountered is a dream of severe air
+pollution. Worms accompany putrefaction, and dreams of worms convey
+this image with powerful impact (fig. 006.07) . In the I Ching,
+Hexagram 18 is entitled, “Work on What has been Spoiled,” and the text
+tells us that “the Chinese character ku represents a bowl in whose
+contents the worms are breeding. This means decay” ( Wilhelm, trans.,
+The I Ching or Book of Changes, p. 75 ). Typical of the paradoxical
+imagery of the unconscious, the despicable worm can turn into the
+supreme value. Thus the Messiah is equated with a worm in the
+messianic Psalm 22 : 6: “But I am a worm and no man; a reproach of
+men, and despised of the people” (AV) AOP ¶ 0
+
+Ion, the priest of the inner sanctuaries, is a personification of both the prima materia and the Philosophers' Stone. 
+
+"This man of copper whom you have seen is the sacrificial priest and
+the sacrifice and he who vomited out his own flesh. To him was given
+authority over the water and over those men in mortification." -
+zosimos
+
+http://www.levity.com/alchemy/zosimos.html
+
+- the despised, the most common - aurora consurgens, low places swamp
+  man - 
+
+“The prima materia is ‘saturnine,’ and the malefic Saturn is the abode
+of the devil, or again it is the most despised and rejected thing,
+‘thrown out into the street,’ ‘cast on the dung-hill,’ ‘found in
+filth”.
+
+*FIND IN ALCH POEMS - RIPLEY*
+
+*** ripley 12 gates putrefaction
+
+And Putrefaction may thus be defined, after philosophers sayings,
+To be the slaying of bodies,
+And in our compound a division of things three,
+Leading forth into the corruption of killed bodies,
+And after enabling them unto regeneration,
+For things being in the earth, without doubt,
+Be engendered of rotation in the heavens about.
+
+[...]
+
+Make each the other then to hug and kiss,
+And like as children to play them up and down,
+And when their shirts are filled with piss,
+Then let the woman to wash be bound,
+Which often for faintness will fall in a swoon,
+And die at last with her children all,
+And go to purgatory to purge their filth original.
+
+*** fermentation
+
+For like as flour of wheat made into a paste,
+Requires ferment, which we call leaven of bread,
+That it may have the kindly taste,
+And become cordial food to man and woman,
+So you shall ferment your medicine,
+That it may taste of the Ferment pure,
+At all assays for ever to endure.
+
+[...]
+
+For true Fermentation as I tell you,
+Is the incorporation of the soul with the bodies,
+Restoring to it the kindly smell,
+With taste and colour by natural compacting together,
+Of things dissevered, a due re-integration,
+Whereby the body of the spirit takes impression.
+That either the other may help to have ingression.
+
+
+*** un être condamnée aux cruels supplices d'un cloaque
+
+a being condemned to the cruel tortures of a
+shithole/cesspit/cloaque/which is another way of saying that all
+energy is sucked down...
+
+sticking fast in a black, dirty and foul smelling slime or clay
+
+original text - french/german
+
+Lennep quotes the original text, which describes "un être condamnée
+aux cruels supplices d'un cloaque, paraissait aussi noir qu'un Maure,
+n'épargnant rien de ses forces pour délivrer son corps condamné aux
+infectes prisons de ce bourbier fangeux et plein d'immondices. Comme
+chacun restait sourd à sa complainte, il n'aspirait plus qu'à la
+Parque inhumaine, lorsqu'une jeune beauté plein d'humanité, vint à son
+secours." As well as being called a "moor" in this text, other
+alchemical texts refer to the figure as an Ethiopian (see Lennep,
+op. cit. p. 119). The text goes on to tell how the woman clothes the
+man in the robe, lifts him up and takes him with her to heaven.
+
+Translation; "a being condemned to the cruel cloacal depths of
+torture, looking as black as a Moor, trying with all his might to
+extract his body condemned to the infected prison of this miry
+quagmire of filth. As everyone was deaf to his cries, he had no hope
+but to succumb to this inhuman fate, when a beautiful young woman,
+full of humanity came to his rescue"
+
+other/close version: https://archive.org/stream/latoysondorovlaf00tris#page/60/mode/2up
+
+this is 1612 version of elaborated 1602 french translation. 
+
+Das älteste bekannte Exemplar der alchemistischen Grundlehre stammt
+aus den Jahren 1531–1532 und wird im Kupferstichkabinett (Handschrift
+78 D 3) der Staatlichen Museen Berlin am Berliner Kulturforum
+aufbewahrt.[3] Weitere Exemplare (insgesamt 20 sind bekannt) befinden
+sich unter anderem in der British Library (MS Harley 3469) zu London
+und der Pariser Nationalbibliothek.
+
+Maier: 
+
+Voici un extrait du traité alchimique de Michael Maïer "Symbola aurae mensae" édité en 1617 où il est question de Morienus le Romain :
+
+ "Morien le sage avait quitté
+Le monde impur, ses vaines joies
+Pour embrasser dans le désert
+Tout le poids de la solitude.
+Au roi Calid, qui l'appelait,
+Il sut montrer l'art intégral,
+Tout en protégeant sa lumière
+D'un voile aux yeux des ignorants.
+Prends cette chose méprisée
+Que tu foules aux pieds sans le voir,
+Sinon tu montes sans échelle,
+Sûr de tomber à la renverse." 
+
+take this scorned thing, which you mess under your feet without seeing
+it,
+if not you will climb with out a ladder
+sure to fall upside down
+
