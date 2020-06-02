@@ -17,7 +17,7 @@ all: sim sint
 #-- Objetivo para hacer la simulacion del
 #-- banco de pruebas
 #----------------------------------------------
-sim: $(NAME)_tb.vcd
+sim: $(NAME).vcd
 	
 #-----------------------------------------------
 #-  make sint
@@ -31,16 +31,16 @@ sint: $(NAME).bin
 #-------------------------------
 #-- Compilacion y simulacion
 #-------------------------------
-$(NAME)_tb.vcd: $(NAME).v $(DEPS) $(NAME)_tb.v
+$(NAME).vcd: $(NAME).v $(DEPS) $(NAME).v
 	
 	#-- Compilar
-	iverilog $^ -o $(NAME)_tb.out
+	iverilog $^ -o $(NAME).out
 	
 	#-- Simular
-	./$(NAME)_tb.out
+	./$(NAME).out
 	
 	#-- Ver visualmente la simulacion con gtkwave
-	gtkwave $@ $(NAME)_tb.gtkw &
+	gtkwave $@ $(NAME).gtkw &
 
 #------------------------------
 #-- Sintesis completa
