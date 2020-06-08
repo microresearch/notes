@@ -1,0 +1,10 @@
+set_io pa22 10		# CLK			sercom: 3.0/5.1		arduino pin: 14
+
+# program and spi (sercom5)
+set_io cfg_so	14		#		PB02 sercom:  n.a/5.0	arduino pin: 23
+set_io cfg_sck	15		#		PB03 sercom:  n.a/5.1	arduino pin: 21
+set_io cfg_cs		16		#		PB22 sercom:  1.2/5.2	arduino pin: 24
+set_io cfg_si 		17		#		PB23 sercom:  1.3/5.3	arduino pin: 22
+# reset  pa17 arduino pin: 26
+# cdone pa16 arduino pin: 25
+
