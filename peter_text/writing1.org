@@ -342,7 +342,7 @@ and regimes to annihilate unwanted bacteria and microbes
 (Pasteurisation), catching those *exceptions* before they sabotage and
 parisite global food sources (grains as well as dairy products).
 
-This junction point or detector is a holy interchange of bread (and its fermented companions, wine and cheese), shit
+This junction point or bodily detector is a holy interchange of bread (and its fermented companions, wine and cheese), shit
 and crystalline sand (a fine recipe for a sour day out at a dismal
 seaside spot). These are all our only earths, in their running down
 and up.
@@ -368,94 +368,66 @@ worn or rounded more or less by attrition.  [Hutton 290]
 
 /////
 
-** Ethereal Strainer + Spoils - soil/shit/decay - but maybe combine all 3 as a kind of interlude - Low bodies
+** Ethereal Strainer + Spoils - soil/shit/decay - but maybe combine all 3 as a kind of interlude - Low bodies  - Narrate three lies - Digestion - bread/cheese/pickles
 
-This sour body is a language, garden tractor, squirrel, a bread body, an
-enzyme that cleaves, an impediment, an exception, a can of worms, an
-exceptional recipe which mires us in deep shit, a mountain, a steam
-engine, a crystalline cluster of tyrosine inside a well-aged cheese, a
-contagion, a two-player, turn-based board game, a stone administered
-to disguise an odour, a series of instructions, a maintenance of
-state, a one way street, a system, a stimulation of bacterial
-proliferation that is likely to involve adaptation and
-diversification, a material which enters, a dream of severe air
-pollution, and a personification.
+Flemming's work shows us that these earths and sands are vitalist, diverse and
+extensible uncut equivalences. They form economies of production and
+consumption at every kind of junction:
 
-thirsty data bodies greedy for energetic resources and leaky buckets,
-leaky bodies and unsatiated data buckets - an ecology and an equilibrium
+When a bucket overfills, sand spills out. When the queue fills,
+daemons drop packets, signalling congestion.  
+[Internet Daemons. Fenwick McKelvey. p107/108]
 
-buckets of coal, buckets of shit, buckets of packets, of sand, of dosa mix
+For example, these thirsty data bodies are greedy for energetic resources.
 
-did you e’er see a well with two buckets, whilst one comes up full to
+... did you e’er see a well with two buckets, whilst one comes up full to
 be emptied, another goes down empty to be filled? such is the state of
-all humanity. marston the malcontent
+all humanity. 
 
-2 buckets in beckett - obscure locks p. 78 
+[marston the malcontent]
 
-The buckets are balanced. Hungry or thirsty. Winning or losing
+The buckets always appear to be balanced. Hungry or thirsty. Winning
+or losing. Eating and shitting.
 
-for the duck simulation - transparency and realism is tied to the
-production of the most organic of matters
+But un-fortunately for Jacques de Vaucanson and his rusing duck in the /grand
+salle des quatres saisons/, in this garden of earthly delights:
 
 ... this observer concluded that the grain input and excrement output
 were entirely unrelated and that the tail end of the Duck must be
-loaded befiore each act with fake excrement. [The Defecating Duck, or,
-the Ambiguous Origins of Artificial Life Jessica Riskin Critical
-Inquiry Vol. 29, No. 4 (Summer 2003), pp. 599-633]
+loaded befiore each act with fake excrement.  
+[The Defecating Duck, or, the Ambiguous Origins of Artificial Life
+Jessica Riskin Critical Inquiry Vol. 29, No. 4 (Summer 2003),
+pp. 599-633]
 
-** Narrate three lies - Digestion = bread/cheese/pickles
+Equally in this series of equivalences:
 
-Starolieski - 2017. the "stabilization of media in archives [and other
+[for] the "stabilization of media in archives [and other
 memory institutions] keeps them from degrading, becoming waste, [yet]
 the shift to energy-intensive cooling mechanisms substitutes the waste
 of media objects for the waste produced by fossil fuels."
+[Starolieski - 2017]
 
-parallel to heating
+In LP+SB the junctions are everywhere, the entrails can be divined
+from, looking back acrosss geological time like Dante's cursed soothsayers. 
 
-cooking substituting for digestion - the work of fossil and other fuels and the work of digestion
+Digestion requires huge amounts of energy; it takes hard work for the
+body to process raw foods. Cooking (and fermentation) literally externalizes this energy
+[Beregow]
 
-Beregow - Digestion requires huge amounts of energy; it takes hard work for the body to process raw foods. Cooking literally externalizes this energy ...
+Peter answers the winding gutty question as to what unknowable
+processes variously described as decay, rotting, putrefaction,
+decomposition, deterioration, fermentation (controlled rotting),
+circulation, corruption, spoiling, composting, digestion, degradation,
+moulting, infection [Lister called infection fermentation],
+dissolution, souring, moulding, disintegration - processes which
+connect with the abject, with ordure, excreta, disjecta, with the
+discarded and the rejected, the declining, the defiled and unwanted,
+the sorely addled and the descending, the leaked and spilled, frothed
+and then de-frothed, skimming its scum, what these processes have
+to do with (technology, defined as command, control, and
+communication.
 
-what would substitute for the waste of digestion  equation here?
-
-cooling saves media, preserves memory, wastes fuel.
-
-cooking saves digestion, preserves time/saves time, wastes fuel.
-
-** Arterial Sheer Net - Cut sand/crystals/technology
-
-The "leaky bucket" algorithm imagines a packet flow as sand filling a
-bucket and leaking out of it through a hole. .... Leaky buckets
-regulate the intermittent flow of packets by varying queue size (how
-big a bucket) and average bandwidth (the size of the hole). A queue
-fills with packets arriving irregularly and holds them until they
-might be sent at a regular rate. When a bucket overfills, sand spills
-out. When the queue fills, daemons drop packets, signalling congestion.
-
-[Internet Daemons. Fenwick McKelvey. p107/108]
-
-
-"this is how I do it; not exactly scientific; and good to read the
-thing through as a whole, *it is not exaclty [sic] a step-by-step*"
-
-////
-
-What do unknowable processes variously described as decay, rotting,
-putrefaction, decomposition, deterioration, fermentation (controlled
-rotting), circulation, corruption, spoiling, composting, digestion,
-degradation, moulting, infection [Lister called infection
-fermentation], dissolution, souring, moulding, disintegration -
-processes which connect with the abject, with ordure, excreta,
-disjecta, with the discarded and the rejected, the declining, the
-defiled and unwanted, the sorely addled and the descending, the leaked
-and spilled, frothed and then de-frothed, skimming its scum, what do
-these processes have to do with (human) technology, defined as
-command, control, and communication - systems creation and modelling,
-economy and the infrastructures and created mechanisms and how does
-Flemming's work enlighten or enliven or even upset the rotting and
-*worm-ridden* apple-cart of this potential relationship?
-
-More simply, what do a laptop and a pickle have in common? 
+He poses more simply, what do a laptop or a thermostat and a pickle have in common? 
 
 The simple answer is that they are both embedded within thermocultural
 systems of control occupied with the conservation and preservation
@@ -487,13 +459,9 @@ a flow of electricity through less-than-pure metals. [Finn Brunton
 computing is also the history of air conditioning and temperature
 control".] 
 
-** Earthen retailers + Deceivers - Conclusion
+In an ideal world.
 
-
-All is shit, unending suck of spoil-black sopping peat, surge of giant fans,
-heathery gulfs of quiet where the ventilator drowns, my life and its old
-jangles to the coprophilic jingle of Cheers and its theme song "Where
-everybody takes a shit."
+** Earthen retailers + Deceivers
 
 Semiconductor manufacturing works like a blue cheese dairy where a
 fungus such as Penicillium roqueforti are inoculated or injected
@@ -508,111 +476,58 @@ needed to put the precise amounts of impurities at precise points on
 the silicon block.
 [T.R. Reid quoted in Thermocultures of Geological Media. Nicole Starosielski]
 
-In this story, the cheese maker could also be a barbeque chef, doping the
-pure silicon of meat with hickory smoke, and she could equally be a
-sacrificial priest = bodies are seperated, torn asunder, hewn like tree
-trunks (Dante suicides) QUOTE zosimos - also the prima materia image
-from Ripley scroll
-
-And Putrefaction may thus be defined, after philosophers sayings,
-To be the slaying of bodies,
-And in our compound a division of things three,
-Leading forth into the corruption of killed bodies,
-And after enabling them unto regeneration,
-For things being in the earth, without doubt,
-Be engendered of rotation in the heavens about.
-[ripley 12 gates putrefaction]
-
-
-alchemist refer to the torture of metals - examples - with reference
-to pasteurisation latour talks of the scientist as now being able to
+In this story, the cheese maker could also be a barbeque chef, doping
+the pure silicon of meat with hickory smoke, and she could equally be
+a sacrificial priest. The continuous extensible bodies are seperated,
+torn asunder, hewn like tree trunks, slayed, divided, leading forth
+into the corruption of killed bodies. Commercial metallurgists talk of
+the torture of ores pulled from the earth. With reference to
+pasteurisation Bruno Latour talks of the scientist as now being able to
 "starve the microbes, kill them with antiseptics, make them eat
 anything, in short, torture them in innumerable ways, in order to
-learn something about them each time" (1988 the pasteurisation of france)
+learn something about them each time" [1988 the pasteurisation of
+france]. Fermentation is an "uncanny figure of flourishing death via self-digestion
+[which] demonstrates the limits of the assumed logic of cyclic repetition."
+[p10 beregow]
 
-Fermentation presupposes the movement of living bacteria that
-transform organic matter into acids, gas or alcohol ... This primal
-metabolic process breaks living things down, reducing them so their
-energies and atoms can be reused. 
-p9beregow
+It is painfully obvious that technologies of computation, control and
+communication are always subject to the noisy un-constraints of both
+materials (substrates) and material-un-bound processes
+(thermodynamics), just as s/our bodies are subject to disease, and
+disintegration, to good and bad microbes and moulds; whilst relying on
+these materials as a necessity.
 
-In fact, the life of these bacteria means decay, decomposition, rot;
-due to this paradoxical character of life processes that work on their
-own dissolution, Eugene Thacker (2012: 26 After Life) speaks of
-fermentation as a laboratory for a 'necrological vitalism'.beregow
-
-this uncanny figure of flourishing death via self-digestion
-demonstrates the limits of the assumed logic of cyclic repetition.
-p10 beregow
-
-obvious that technologies of computation, control and communication are always
-subject to the noisy un-constraints of both materials (substrates) and
-material-un-bound processes (thermodynamics), just as s/our bodies are
-subject to disease, and disintegration, to good and bad microbes and moulds.
-
-whilst relying on these materials
-
-crossing nouns/material and processes - cheese, dunes, fermentation
-and shit/shitting, sanding, sacrifice.
-
-Peter Flemming - speculation of what a technology which acknowledges
-its debts to the pleasures of approximate and un-studied cooking and
-to fermentation, which attempts to willfully roll down into those low
+Peter Flemming shows us a set of speculative technologies which
+acknowledge the pleasures of approximate and un-studied cooking and
+to fermentation, which attempt to willfully roll down into those low
 places of thermodynamic gradient, of waste heat, to un-damm the flows
 and circulations seperating various abysses with names such as
-Anthropocene, computation, currency and exchange. sacrifice? burial of
-the anthropocene
+Anthropocene, computation, currency and exchange. 
 
-fermentation would not stand for the
-recycling of the existing world, but for its slow
-inner destruction. Indeed, it is not only the Anthropocene or the
-Pasteurian scientist who is controlling and torturing microbes;
-fermenting means that the involved bacteria eagerly begin their decay
-work by killing other 'bad' microorganisms in a necrological
-zombie-like movement between self-preservation and
+... fermentation would not stand for the recycling of the existing world,
+but for its slow inner destruction. Indeed, it is not only the
+Anthropocene or the Pasteurian scientist who is controlling and
+torturing microbes; fermenting means that the involved bacteria
+eagerly begin their decay work by killing other 'bad' microorganisms
+in a necrological zombie-like movement between self-preservation and
 self-elimination. Fermentation always has this uncanny, almost bleak
 dimension to it: it is only the thin semi-permeable membrane of the
 gastro-intestinal tract that prevents us from digesting ourselves.
-p17 Beregow
+[p17 Beregow]
 
-a darkly promiscuous set of technologies of sour-pissed-on/off bodies, of local,
-overheating parasites (Serres ref), and perhaps finally of sand,
-rather than silicon, dribbling and spilling over binary logic.
+These are darkly promiscuous set of technologies of sour-pissed-on/off
+bodies, of local, overheating parasites, technologies which are not
+for a human or a visible crow to do-something-to-something-else with,
+to hide something or to transform it, to transfer it, but technologies
+and techniques for the others, precisely that imagination which
+mirrors all these of our endeavours in another realm, of the decaying
+and of the dead.
 
-a bread of plagued and low dreams which is baked according to
-technologies which are not for a human or a visible crow to
-do-something-to-something-else with, to hide something or to transform
-it, to transfer it, but technologies and techniques for the others,
-precisely that imagination which mirrors all these of our endeavours
-in another realm, of the decaying and of the dead.
-
-the most despised, the unwanted and the excluded in this vile world of
-plenty, this cesspit homogenized without the dreadful cut, sucking
-down all energy, sticking fast in a black, dirty and foul smelling
-slime or clay
-
-
-AURORA C
-
-... the waters have covered my face and the earth hath been polluted
-and defiled in my works; for there was darkness over it , because I
-stick fast in the mire of the deep and my substance is not disclosed.
-
-II what wisdom is.
-
-For there is a stone, which he that knoweth layeth it upon his eyes,
-but he tht doth not, casteth it upon the dunghill...
-
-p33 cast forth in the streets ??where
-
-trodden into the mire by beasts of burden and by cattle
-
-vile and dear and covered with filth
-
-“The prima materia is ‘saturnine,’ and the malefic Saturn is the abode
-of the devil, or again it is the most despised and rejected thing,
-‘thrown out into the street,’ ‘cast on the dung-hill,’ ‘found in
-filth”.
+Technologies for the most despised, the unwanted, vile and the
+excluded in this vile world of plenty, this cesspit homogenized
+without the dreadful cut, sucking down all energy, sticking fast in a
+black, dirty and foul smelling slime or clay, which is vile and dear
+and covered with filth
 
 Prends cette chose méprisée
 Que tu foules aux pieds sans le voir,
