@@ -1,6 +1,8 @@
 * TITLE: The world is dirt.
 [e fango è il mondo. A se stesso leopardi 1834]
 
+
+
 ** There are entrails
 
 Where there are such hills and dales, there the Earth has been matured
@@ -10,6 +12,9 @@ and there the best crystals may be found.
 But where the earth is low there has been no accumulation of such
 fumes and vapours, and there no ores will be found.  
 [splendor solis]
+
+... on this crust a mouldy film has produced living and knowing beings: this is empirical truth, the real, the world.
+[Schopenhauer]
 
 
 As measured by an array of shop-bought sensors manufactured in a
@@ -95,23 +100,24 @@ stationary state." It is vital yet enjoys the "beauty of death".
 Sand not only flows but this sand is the flow. [Woman Dunes. p99]
 
 
+
 ** Earth you low exception
 
 In conversation, explaining the obscure bucket logic and simple rules
-of Flemming's Low Placed, Peter talks of an "ideal window" of temperature; not
-losing too much sand that will need to be plains-takingly
-re-plenished by hand, thus avoiding the destruction of the mounds or islands which
-have been formed by the activities of a subtle nervous system, a
-"water war" between greedy buckets pulling these more peacable time
-keepers slowly too and fro. Those buckets will also need to be topped
-up, suffering the temperature dependent effects of evaporation, a
-vapourous and energetic transformation. We also talk about
-*hysteresis*, ensuring that another kind of window exists, a quiet,
-resting place of measurements preventing the thermostat from
-flip-flopping madly backwards and forwards, adjusting for cold, becoming too
-warm, returning to this warmth and comfort and so on back up and
-down. It should stay up or down for at least some dribbling measure of
-time.
+of Flemming's Low Placed, Peter talks of an "ideal window" of
+temperature; not losing too much bucketed sand that will need to be
+plains-takingly re-plenished by hand, risking the destruction of the
+mounds or islands which have been formed by the activities of a subtle
+nervous system, a "water war" between greedy buckets pulling these
+more peacable time keepers slowly too and fro. Those buckets will also
+need to be topped up, suffering the temperature dependent effects of
+evaporation, a vapourous and energetic transformation. We also talk
+about *hysteresis*, ensuring that another kind of window exists, a
+quiet, resting place of measurements preventing the thermostat from
+flip-flopping madly backwards and forwards, adjusting for cold,
+becoming too warm, descending to this warmth and comfort and so on
+ascending and gushing. It should stay up or down for at least some
+dribbling measure of time.
 
 Rot management strategies involve temperature control, as fermentation
 usually requires specific outside temperature ranges. Most of the
@@ -136,17 +142,18 @@ long ago became indistinct from the machines they maintain.
 [http://yoha.co.uk/cfc YoHa 2010]
 
 
+
 ** Earthrise Eternal 
 
-"How were these low and high places of crystal, dead coal and
-loamy or doughy sand formed and what delights do they have in store for our sour
-bodies, eyes and ears?" Peter Flemming asks, perhaps drawing on the deepest
-foundations of geology by way of core founder, James Hutton, in 1785, 
-asking us "to consider [...] the globe of this earth as a
+"How were these low and high places of crystal, dead coal and loamy or
+doughy sand formed and what delights do they have in store for our
+sour bodies, eyes and ears?" Peter Flemming asks, perhaps drawing on
+the deepest foundations of geology by way of core founder, James
+Hutton asking us "to consider [...] the globe of this earth as a
 machine, constructed on chemical as well as mechanical principles."
 [216?]
 
-In "Sour Bodies + Low Places" (SB+LP) Peter appears to offer up a
+In "Sour Bodies + Low Places" Peter appears to offer up a
 rather-more-lively binary choice between these two discrete worldings,
 earth origin stories, or geologies; the chemical and the
 mechanical. 
@@ -165,19 +172,20 @@ We watch a flickering cinema of relaxed and incidental light changes, clocking o
 temperature, and listen to the bubbled sparse crackling of a ginger
 bug culture. Closed vessels, inhabited by some contained process,
 impervious and impermeable to other fouler breaths or influences,
-allow for gassy rubbered up expansion and silent, prepared
+allow for gassy rubbered-up expansion and silent, prepared
 contraction. Rising and falling.
 
 This dirty physics of cracking-crystal fermentation depends on casual
 observation and light, if not rough, intervention. Is it bubbling
 today, what happens when I open or vent the jar or door, risking the
-entry of wishful, dopey-eyed impurities. Judging by eye or by hand,
+entry of wishful, dopey-eyed impurities? Judging by eye or by hand,
 gauging temperature without external apparatus, tasting and smelling
 as ways of becoming acquainted and auguring the progress of invisible
-processes of inner transformation, the cloudiness of the solute, subtle
-rainbows of deep red in a beetroot kimchi, the signallings of a certain
-complex of aromas, for example, of fermenting, salted cabbage or of
-habanero peppers with crushed garlic maturing in a salty brine.
+processes of inner transformation, the cloudiness of the solute,
+subtle rainbow expansions of deep red in a beetroot kimchi, the
+signallings of a certain complex of aromas, for example, of
+fermenting, salted cabbage or of habanero peppers with crushed garlic
+maturing in a salty brine.
 
 
 If you can't get the salt ratio, maybe just pour in 4 or 5 Arduinos to each bottle?
@@ -188,25 +196,30 @@ vanishing hairs of a balding, ducked decision between the chemical,
 verging on the lively, and the lowly sandbagged mechanicals with no
 theatre or magic.
 
-We return to that point of assymetric flow between two materials, the
-"thermal exciters", parasites munching cheese rinds alongside,
-scanning the greying coals, close to those ...
+We return to that point of assymetric flow between two materials, a
+one-way sandy flow between Sour Bodies, the "thermal exciters",
+parasites munching cheese rinds, and those Low Places, between
+self-preservation and self-elimination, between cooking, alchemy,
+chemistry and metallurgy, between idea, confidence, trust, and
+material foundation, between the transition from base matter to life
+and the traffic that passes in the inverse direction, between human
+toes, between casein micelles, between two worldings, wordings like
+think and sphinc-ter. 
 
-between those Sour Bodies and those Low Places, between self-preservation and
-self-elimination, between cooking, alchemy, chemistry and metallurgy, between
-idea, confidence, trust, and material foundation, between the
-transition from base matter to life and the traffic that passes in the
-inverse directio, between human toes, between casein micelles, between two
-worldings, wordings like think and sphinc-ter. between the realms of material
-and living, energetic transformation.
+Thermal techniques are operations that produce "cuts" in this flux
+(Barad 2007), tease out different material potentials, and shape
+"solid" media out of geological substances.  
+[Starosielski p295]
 
-In the case of the crystal which forms one essential element within
-the construction of a crystal radio [footnote workshop] we cannot
-point solely to the fine gold wire, or the crystalline mineral (such
-as galena) as operative agent in this essential radio wave detection,
-rather it is the un-narrowable point of flow and assymetric exchange
-between these two cut and sometimes-refined earth mineralities, a flow
-which extends and entrails outwards through all of the earth.
+In the case of the crystal which forms the detector, one essential
+element within the construction of a crystal radio set, which we
+rigged up recently as part of Peter's xxxx workshop, we cannot point
+solely to the fine gold wire, or to the crystalline mineral (such as
+leaden mined ore galena) as prime operative agent in this focussed
+radio wave detection, rather it is the un-narrowable point of flow and
+assymetric exchange between these two cut and sometimes-refined earth
+mineralities, a flow which extends and entrails outwards through all
+of the earth.
 
 Hyungsub Choi (2007:770) observes that in the history of early
 transistors, "making junction transistors by the alloying technique
@@ -214,43 +227,35 @@ was comparable to baking cookies. Workers, usually women, attached
 indium dots to either side of the germanium wafer and installed them
 in the furnace. Just as in baking cookies, two variables were crucial:
 temperature and time."
-
-Thermocultures of Geological Media Nicole Starosielski
+[Thermocultures of Geological Media Nicole Starosielski]
 
 This flow of electrons, of electricity, of energetic particles and
 absence, can also be modelled and simulated as a flow of water or sand
-for that matter, reflect that (SB+LP) is amorphous, allowing for a
-non-homogenous re-modelling of itself in other muddier forms.
+for that matter; (SB+LP) is amorphous, allowing for a non-homogenous
+re-modelling of itself in other muddier forms. Low Places is a
+technological black box transformed as if by magic, the
+familiar contained materiality of algorithmic and media
+infrastructures - even if we could expose them, we become
+none-the-wiser to the microscoped entrails of silicon and copper -
+become sand, plastic, buckets and pipes.
 
-The contents of that technological black box transformed as if by magic,
-so that the familiar contained materiality of algorithmic and media
-infrastructures - even if we did expose them, we are none-the-wiser to
-the microscoped conduits of silicon and copper - becomes sand, plastic,
-buckets and pipes.
+The low place is a system-which-has-been-set-up (manufactured,
+machined howsoever primitively) with all its mechanisms and circuits
+and discordant materialities, like a swamp, a dumping ground, a boggy
+future investment, whereas the site of a more cohered and involving
+process of fermentation, perhaps equally controlled but with a more
+casual hand in its setting-in-process, maybe even more contained and
+enclosed, is the body, or bodies, the sour, *pissed-off* body at odds
+with and conflicting with both themselves and their bio-adapted
+environment - and what might cause such a body to be so contrary to a
+place which they apparently have so adapted to themselves like a pit.
 
-of a system-which-has-been-set-up (manufactured, machined howsoever
-primitively) with all its mechanisms and circuits and discordant
-materialities, is the low place, like a swamp, a dumping ground, a
-bog, whereas the place of a more cohered and involving process of
-fermentation, perhaps equally controlled but with a more casual hand
-in its setting-in-process, maybe even more contained and enclosed, is
-the body, or bodies, the sour, *pissed-off* body at odds with and
-conflicting with both themselves and their perhaps self-controlled
-environment [and what might cause such a body to be so contrary to a
-place which they apparently have so adapted to themselves
 
 The abyss is not filled to overflowing,
-It is filled only to the rim. [IC]
+It is filled only to the rim. 
+[IC]
 
-Water (or sand) fills a pit only to the rim, and then flows on.
-
-Starosielski p295 - Thermal techniques are operations that produce
-"cuts" in this flux (Barad 2007), tease out different material
-potentials, and shape "solid" media out of geological substances.
-
-These processes are heavily temperature and environment influenced,
-and involve feedback through visual observation and tasting to adjust
-(eg. add water, stir, skim etc.) [Flemming]]
+This means that water (or sand) fills a pit only to the rim, and then flows on.
 
 ... it’s worth dwelling on the fact that the mass of once living
 organisms that have returned to base matter has been estimated at
@@ -259,12 +264,13 @@ itself (see Davis 1996, 73), while as far as scientists have been able
 to ascertain, matter has only organised itself into life but once on
 our planet. There is, then, something of an asymmetry between the
 transition from base matter to life and the traffic that passes in the
-inverse direction. p45 [**** Deep Shit. Nigel Clark Myra J. Hird]
+inverse direction. 
+p45 [**** Deep Shit. Nigel Clark Myra J. Hird]
 
 For both Low Places (Hutton's geological foundation) and Sour Bodies
-(Alexander Flemming) the liveliness of this earthy machine depends on
-essential dissolution and decay: for example, the grinding down of
-rock to sand:
+(Alexander Flemming'a antithesis) the liveliness of this earthy
+machine depends on essential dissolution and decay: for example, the
+grinding down of rock to sand:
 
 A solid body of land could not have answered the purpose of a
 habitable world; for a soil is necessary to the growth of plants; and
@@ -278,7 +284,7 @@ and covered with plants and animals, is made by nature to decay ...
 
 Decay and dissolution are essential for the creation of this least
 sour of all possible worlds, if solely to show us that it is not simply a
-machine in its breathy running down into dis-repair, a chilled heat
+machine in its breathy running down into dis-repair, a chilled-out heat
 death and burial:
 
 But is this world to be considered thus merely as a machine, to last no
@@ -289,37 +295,20 @@ is naturally repaired, in the exertion of those productive powers by
 which it had been formed.
 [216] Hutton Theory of the Earth, Volume 1 (of 4)
 
+Equally:
+
+If the process [of fermentation] keeps going, the substrate will decompose entirely and
+return to humus, the half-dead organic matter of the soil.
+[Beregow. p11]
+
 But where does the power in "the exertion of those productive powers"
-comes from that enables a dough-like raising up from the low places,
+come from that enables a dough-like raising up from the low places,
 if not from those low places? Where does this "necrological vitalism"
 [ref] spring up from and how like SB+LP can we forge crystalline
 junctions between these disparate matters, between coal, crystals and
 liveliness?
 
-The land, which was like potters clay and entirely soft. But as the
-sun’s fire shone upon the land, it first of all became firm, and then,
-since its surface was in a ferment because of the warmth, portions of
-the wet swelled up in masses in many places, and in these pustules
-covered with delicate membranes made their appearance.  Such a
-phenomenon can be seen even yet in swamps and marshy places whenever,
-the ground having become cold, the air suddenly and without any
-gradual change becomes intensely warm. And while the wet was being
-impregnated with life by reason of the warmth in the manner described,
-by night the living things forthwith received their nourishment from
-the mist that feli from the envelop- ing air, and by day were made
-solid by the intense heat; and finally, when the embryos had attained
-their full development and the membranes had been thoroughly heated
-and broken open, there was pro- duced every form of animal life. 1 Of
-these, such as had partaken of the most warmth set off to the higher
-regions, having become winged, and such as retained an earthy
-consistency came to be numbered in the class of creeping things and of
-the other land animals, while those whose composition partook the most
-of the wet element gathered into the region congenial to them,
-receiving the name of water animals. [https://archive.org/stream/DiodorosOfSicily034.598/Diodoros%20of%20Sicily%2001%20%281.1-2.34%29_djvu.txt]
-
-[condense the above]
-
-In like manner, we can read in Gabriel Gohau's "History of Geology"
+As we can read in Gabriel Gohau's "History of Geology"
 that:
 
 "Needham's most original idea on mountain building was the analogy he
@@ -344,38 +333,42 @@ Heat (of the gravy)
 
 [ref: https://www.brainscape.com/flashcards/spontaneous-generation-scientific-experim-5608742/packs/7911289]
 
-This junction point or bodily detector is a holy interchange of bread
-(and its fermented companions, wine and cheese), shit and crystalline
-sand (a fine recipe for a sour day out at a dismal seaside
-spot). These are all our only earths, in their running down and up.
+This junction point for a sour bodily detector is a holy interchange
+of bread (and its fermented companions, wine and cheese), shit and
+crystalline sand (a fine recipe for a sour day out at a dismal seaside
+spot). These are all our only earths, in their running down and
+up. Buckets of soup, shit and coal, on their way down
+to be filled, on their way up to be emptied. A decline is signalled by
+one pot remaining full while the other is still filling.
 
-/P. roqueforti/ for use in Roquefort cheese is traditionally obtained
-from homemade rye bread that is over-baked and allowed to deteriorate
-for a month in the caves. The coat of mold that develops on the bread
-is powdered and sprinkled on the cheese ...
-[Science of Cheese] - re-write
+The earth was like bread and entirely soft. But as the sun’s fire
+shone upon the land, it first of all became firm, and then, since its
+surface was in a ferment because of the warmth, portions of the wet
+swelled up in masses in many places, and in these pustules covered
+with delicate membranes, living things made their appearance in the
+swamps and marshy places, and in the higher regions. Those that
+retained an earthy consistency came to be numbered in the class of
+creeping things ...
 
-If the process [of fermentation] keeps going, the substrate will decompose entirely and
-return to humus, the half-dead organic matter of the soil.
-[Beregow. p11]
+[based on https://archive.org/stream/DiodorosOfSicily034.598/Diodoros%20of%20Sicily%2001%20%281.1-2.34%29_djvu.txt]
 
-"every last one of these poor wretches could live off his own manure."
-[History of Shit p131]
+When this rye bread is over-baked and allowed to rot for months in
+the caves, protected from the greedy crows, the coat of mould which develops is powdered and sprinled
+on the cheese.
 
-... on this crust a mouldy film has produced living and knowing beings: this is empirical truth, the real, the world.
-[Schopenhauer]
+
 
 ** Ethereal Strainer 
 
-Flemming's work shows us that these earths and sands are vitalist, diverse and
-extensible uncut equivalences. They form economies of production and
-consumption at every kind of junction:
+Flemming's work shows us that these many earths are vitalist, diverse and
+extensible uncut equivalences. They form shifty, shitty economies of production and
+consumption at every kind of structural and infrastructural junction:
 
 When a bucket overfills, sand gushes out. When the queue fills,
 daemons drop packets, signalling congestion.  
 [Internet Daemons. Fenwick McKelvey. p107/108. altered]
 
-For example, these thirsty data bodies are greedy for energetic resources.
+These thirsty data bodies are greedy for energetic resources.
 
 ... did you e’er see a well with two buckets, whilst one comes up full to
 be emptied, another goes down empty to be filled? such is the state of
@@ -411,24 +404,23 @@ Digestion requires huge amounts of energy; it takes hard work for the
 body to process raw foods. Cooking (and fermentation) literally externalizes this energy
 [Beregow]
 
-Peter answers the winding gutty question as to what unknowable
+Peter thus answers the winding gutty question as to what unknowable
 processes variously described as decay, rotting, putrefaction,
 decomposition, deterioration, fermentation (controlled rotting),
 circulation, corruption, spoiling, composting, digestion, degradation,
-moulting, infection [Lister called infection fermentation],
-dissolution, souring, moulding, disintegration - processes which
-connect with the abject, with ordure, excreta, disjecta, with the
-discarded and the rejected, the declining, the defiled and unwanted,
-the sorely addled and the descending, the leaked and spilled, frothed
-and then de-frothed, skimming its scum, what these processes have
-to do with (technology, defined as command, control, and
-communication.
+moulting, infection (according to Joseph Lister), dissolution,
+souring, moulding, disintegration, processes which connect with the
+abject, with ordure, excreta, disjecta, with the discarded and the
+rejected, the declining, the defiled and unwanted, the sorely addled
+and the descending, the leaked and spilled, frothed and then
+de-frothed, skimming its scum, what these processes have to do with
+(technology, defined as command, control, and communication.
 
 He poses more simply, what do a laptop or a thermostat and a pickle have in common? 
 
 The simple answer is that they are both embedded within thermocultural
 systems of control occupied with the conservation and preservation
-(preserves, conserves) of state and the (economic) management of
+(preserves and conserves) of state and the (economic) management of
 discrete levels of energy. Within technological infrastructures there
 is a maintenance of state (storage in the cloud should maintain our
 memories without glitch) which implies an expenditure of energy (a
@@ -440,21 +432,21 @@ energy in some schoolbook illustration). A sandy-k/need demon surfs
 downhill a temperature gradient of entropy leading us back into the
 dammed and thus civilized and effluent low countries.
 
-The memorial of a one or a zero on a grand scale [Thomas Pynchon lets
-us choose between: “If patterns of ones and zeroes were "like"
-patterns of human lives and deaths, if everything about an individual
-could be represented in a computer record by a long strings of ones
-and zeroes, then what kind of creature could be represented by a long
-string of lives and deaths?” - Vineland? She pictures to herself the
-mattress he sleeps on, bearing the “vestiges of every nightmare sweat,
-helpless overflowing bladder, viciously, tearfully consummated wet
-dream, like the memory bank to a computer of the lost.” Crying lot
-49 - sand-buried pickle tasting like a urine-infested mattress ] also releases heat
-as excess, a sour and unwanted byproduct of these bits circulating as
-a flow of electricity through less-than-pure metals. [Finn Brunton
-"the work of computation is the work of managing heat. The history of
-computing is also the history of air conditioning and temperature
-control".] 
+This memorial of a one or a zero on a grand sand scale also releases
+heat as excess, a sour and unwanted byproduct of these bits
+circulating as a flow of electricity through less-than-pure
+metals. [Finn Brunton "the work of computation is the work of managing
+heat. The history of computing is also the history of air conditioning
+and temperature control".] Thomas Pynchon lets us choose between: “If
+patterns of ones and zeroes were "like" patterns of human lives and
+deaths, if everything about an individual could be represented in a
+computer record by a long strings of ones and zeroes, then what kind
+of creature could be represented by a long string of lives and
+deaths?” - [Vineland?] and "She pictures to herself the mattress he
+sleeps on, bearing the “vestiges of every nightmare sweat, helpless
+overflowing bladder, viciously, tearfully consummated wet dream, like
+the memory bank to a computer of the lost.” [Crying lot
+49]. Alternatively, returning to a burial in the dunes:
 
 The Ripples of sand at his feet suddenly looked like the motionless
 crests of waves.
@@ -485,15 +477,15 @@ In this story, the cheese maker could also be a barbeque chef, doping
 the pure silicon of meat with hickory smoke, and she could equally be
 a sacrificial priest. The continuous extensible bodies are seperated,
 torn asunder, hewn like tree trunks, slayed, divided, leading forth
-into the corruption of killed bodies. Commercial metallurgists talk of
+into the corruption of killed bodies. Commercial metallurgists relish
 the torture of ores pulled from the earth. With reference to
-pasteurisation Bruno Latour talks of the scientist as now being able to
-"starve the microbes, kill them with antiseptics, make them eat
+pasteurisation Bruno Latour talks of the scientist as now being able
+to "starve the microbes, kill them with antiseptics, make them eat
 anything, in short, torture them in innumerable ways, in order to
 learn something about them each time" [1988 the pasteurisation of
-france]. Fermentation is an "uncanny figure of flourishing death via self-digestion
-[which] demonstrates the limits of the assumed logic of cyclic repetition."
-[p10 beregow]
+france]. Fermentation is an "uncanny figure of flourishing death via
+self-digestion [which] demonstrates the limits of the assumed logic of
+cyclic repetition."  [p10 beregow]
 
 It is painfully obvious that technologies of computation, control and
 communication are always subject to the noisy un-constraints of both
