@@ -270,8 +270,8 @@ p45 [**** Deep Shit. Nigel Clark Myra J. Hird]
 
 For both Low Places (Hutton's geological foundation) and Sour Bodies
 (Alexander Flemming'a antithesis) the liveliness of this earthy
-machine depends on essential dissolution and decay: for example, the
-grinding down of rock to sand:
+machine depends on essential dissolution and decay, the grinding down
+of rock to sand:
 
 A solid body of land could not have answered the purpose of a
 habitable world; for a soil is necessary to the growth of plants; and
@@ -402,7 +402,7 @@ deaths, if everything about an individual could be represented in a
 computer record by a long strings of ones and zeroes, then what kind
 of creature could be represented by a long string of lives and
 deaths?” - [Vineland?] and "She pictures to herself the mattress he
-sleeps on, bearing the “vestiges of every nightmare sweat, helpless
+sleeps on, bearing the vestiges of every nightmare sweat, helpless
 overflowing bladder, viciously, tearfully consummated wet dream, like
 the memory bank to a computer of the lost.” [Crying lot
 49]. 

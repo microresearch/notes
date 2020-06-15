@@ -9,6 +9,7 @@ heathery gulfs of quiet where the wind drowns, my life and its old
 jangles to the coprophilic jingle of Cheers and its theme song "Where
 everybody takes a shit."
 
+#+BEGIN_VERSE
 Taking a shit in the world today
 takes everything you got
 Taking a shit on all your worries 
@@ -17,8 +18,6 @@ Wouldn't you like to take a shit?
 Sometime you wanna go
 Where everybody takes a shit
 And they're always glad you shit
-
-etc.
 
 Making your way in the world today
 Takes everything you've got;
@@ -46,6 +45,7 @@ And didn't even write;
 And your husband wants to be a girl;
 
 Be glad there's one place in the world… 
+#+END_VERSE
 
 order/ordure = points of ordure
 
@@ -92,9 +92,18 @@ Kathy Acker. Eurydice in the Underworld.
 
 p66/67:
 
+pisseyes like pissholes in the snow full of piss and vinegar not to
+have a pot to piss in panther piss a piss hard-on piss-hole bandit-piss
+bones piss pins and needles piss-proud pisser
 
+tickle the shit out of someone shit crap poo does a bear shit in the
+woods doodle-shit eat shit full of shit have shit for brains holy shit
+horse shit shit-hole shit-hunter shit-locker shittle-cum-shaw like
+pigs in clover like shit through a tin horn like ten pounds of shit in
+a five pound bag piece of shit pile of shit scare the shit out of
+someone
 
-
+(replace with sand???)
 
 rotting, raw, pasteurisation, ferment
 
@@ -117,11 +126,13 @@ heat in the data centre - hytt text also
 
 ** beginnings
 
+#+BEGIN_VERSE
 It's winter time and the servers are brittle
 As stiff as unworked flour-dusted dough
 Causing multiple draining fans to shear crystalline under a new frost
 Dusty plastic circuits strain and crack under my bare feet
 Like a fresh baked toffee recipe from Peter
+#+END_VERSE
 
 secret ingredient of apple cider vinegar
 
@@ -241,7 +252,7 @@ older english or....
 
 ** Fermentation - older
 
-
+#+BEGIN_VERSE
 TRew Fermentacyon few Workers do understond,     1
 That secrett therfore I wyll expounde to the,
 I travelyd trewly thorow many a Lond:
@@ -380,9 +391,11 @@ That Water wyll to Oyle dyssolve them sone;
 Make therfore Oyle of Son and Mone
 Which ys Ferment most fragrant for to smell,
 And so the 9th Gate ys Conquered of thys Castell.
+#+END_VERSE
 
 *** Ripley's Ninth Gate - fermentation modernised
 
+#+BEGIN_VERSE
 True Fermentation few workers understand,
 That secret therefore I will expound to you.
 I travelled truly through many a land,
@@ -536,9 +549,11 @@ Which is ferment most fragrant for to smell,
 And so the ninth gate of this Castle is conquered.
 
 The end of the Ninth Gate.
+#+END_VERSE
 
 ** Ripley's fifth gate - putrefaction
 
+#+BEGIN_VERSE
 NOw begynnyth the Chapter of Putrefaccion,     1
 Wythout whych Pole no sede may multyply,
 Whych must be done only by contynuall accyon
@@ -908,10 +923,11 @@ And put in duraunce, losse, and vylanye:
 My doctryne therefore remember wyttyly,
 And passe forth toward the Syxth Gate,
 For thys the Fyfthe ys tryumphate,
+#+END_VERSE
 
 ** Putrefaction: This text has been modernised by Adam McLean from the 1591 edition of The Compound of Alchymy. 
 
-
+#+BEGIN_VERSE
 Now we begin the chapter of Putrefaction,
 Without which pole no seed may multiply,
 Which must be done only by continual action,
@@ -1319,6 +1335,7 @@ And put to durance loss and villany
 My doctrine therefore remember wisely,
 And pass forth towards the sixth gate,
 For thus the fifth is triumphate.
+#+END_VERSE
 
 ** Acker text {fill in]
 
@@ -1439,6 +1456,7 @@ This text has been modernised by Adam McLean from the 1591 edition of The Compou
 
 THE FIFTH GATE - PUTREFACTION
 
+#+BEGIN_VERSE
 Now we begin the chapter of Putrefaction,
 Without which pole no seed may multiply,
 Which must be done only by continual action,
@@ -1462,6 +1480,7 @@ Leading forth into the corruption of killed bodies,
 And after enabling them unto regeneration,
 For things being in the earth, without doubt,
 Be engendered of rotation in the heavens about.
+#+END_VERSE
 
 *** Earth/air circulations
 
@@ -2010,5 +2029,9 @@ Smaller and smaller from day to day
 grows the number of specific protocols on earth
 
 while they rise upward, purified in the dew on that last lawn.
+
 ** old autumn garden - rd laing film - AP
+
+the cold air of
+a day spent clearing the leaves for a bonfire by the fallen glasshouse
 
