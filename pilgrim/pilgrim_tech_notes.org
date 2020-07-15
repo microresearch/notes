@@ -1,0 +1,130 @@
+* 15/7/2020
+
+** previous notebook notes 
+
+- cooling for installation and cloud chamber. base shouldbe 6cm x 6cm copper (Michal)
+
+top peltier is small one (?) at 3.3v, lower is twin peltier (19809?) at 15v from
+meanwell - using drop of water to fix thermometer(PT100 and arduino)
+we reach -37degrees
+
+with 5v for top we get -25
+
+fan power is:
+
+-----
+
+11111[pin1]
+   +-
+
+heater for top with 2 sets of parallel 3x 68 ohm 0.25watt - how hot
+and where?
+
+guide: DIY-Wilson.pdf
+
+design for an insulated case: 
+
+- inlets and outlets for pumps
+
+- mesh/stand for alcohol descent
+
+- liquid cooling for piezos inserted in the base
+(so we need a square cut out in base maybe also using 2 sets of
+peltiers (4 total) for this. size?
+
+- pi camera somewhere in case
+
+- molex connections, all power sockets...
+
+for installation at invalidovna we have 3 sources: 
+
+- radio receiver for 2 glass transmitters - one on cold side, one on
+  hot side (heat is from radioactive pulses (stretched with glide) so
+  we need to take modulor case - external heat side. cold is under
+  glass, peltier set up with power supply
+
+- clamped ultrasonic on glass
+
+- laser light across walls and above any smoke 
+
+smoke machine is in first space, wall cornices, decorative pieces?
+
+TODO: which is laser psu as now we use one for peltier-12vfromfanone, smoke from?
+
+script: smoke machine on, heavy switches???, radios
+
+** radon measurements 
+
+- sample we have from 14/7 should be 80kBq/l - collected from Agricola pipe in Svornost mine, Jachymov
+- half life is 3.8 days
+
+- how to measure? collect? radon daughters...
+
+uranium 234 or 238
+radium RA-226
+radon RA-224
+
+
+There are 37 known isotopes of radon (86Rn), from 195Rn to 231Rn; all
+are radioactive. The most stable isotope is 222Rn with a half-life of
+3.823 days, which decays into 218 Po . Five isotopes of radon, 217,
+218, 219, 220, 222Rn occur in trace quantities in nature as decay
+products of, respectively, 217At, 218At, 223Ra, 224Ra, and
+226Ra. 217Rn is produced in a rare branch in the decay chain of trace
+quantities of 237Np, 218Rn and 222Rn are intermediate steps in the
+decay chain for 238U, with 219Rn an intermediate step in the decay
+chain for 235U, and 220Rn occurring in the decay chain for 232Th.
+
+brachytherapie
+
+testing on 15/07 with theremino and probe:
+
+radon activity concentration is determined by taking the weighted
+average of the concentrations derived from gamma-ray lines associated
+with (214)Pb and (214)Bi decay.
+
+214pb=
+214bi=
+
+which we kind of have in spectrum
+
+532 pulses per second
+
+try on 16th am and on return from Berlin!
+
+** photo development using 1/2 litre of this mine water with peat bog materials
+
+ADOX PL ORTHO 25 film
+
+25g washing soda
+2.5g powdered vitamin c
+
+following sam nightingale augury recipe:
+
+Ingredients:
+Analogue film
+Washing Soda
+Vitamin C powder
+Organic matter from surroundings
+Photochemical fixer
+Lake water
+Trays and buckets
+Instructions:
+1. Go to the woods with a lake close by.
+2. Mix some lake water with washing soda and add a dash of vitamin C.
+3. Collect and soak organic material.
+4. When ready drain and place on the surface of the film.
+5. Leave the film and organic material to ‘expose’ for as long as you want.
+6. Mix-up photochemical fixer in a tray with some lake water.
+7. Remove organic material from film and place the film in the fixer.
+8. Wash film in a bucket of lake water and hang it up to dry.
+
+first exposure - soak 1 hour 15 mins exposure, 
+
+FOMAFIX: 1+5water, 3 minutes fix.
+
+** ideas 
+
+- radiation on digital image, pech or curse - end of the silver, suro.cz contact? 
+- pi camera and tracking, like satellite/telescope dish tracking of
+  orbits of satellites or stars
