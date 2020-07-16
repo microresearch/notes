@@ -88,7 +88,7 @@ with (214)Pb and (214)Bi decay.
 
 which we kind of have in spectrum
 
-532 pulses per second
+532 pulses per second, background is around 200!
 
 try on 16th am and on return from Berlin!
 
@@ -128,3 +128,15 @@ FOMAFIX: 1+5water, 3 minutes fix.
 - radiation on digital image, pech or curse - end of the silver, suro.cz contact? 
 - pi camera and tracking, like satellite/telescope dish tracking of
   orbits of satellites or stars
+- develop super8 film in mine water and fix in mine water
+
+* 16/7/2020
+
+- second set of theremino radon water measures at 10.50am - we use
+  background recorded in studio and subtract this (this should also
+  have been the case for the previous days recordings)
+
+400-420 pulses per second today
+
+- film placed in radon water and soda/vitC mixture from 10.36 to 11.30
+  and then developed
