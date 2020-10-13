@@ -64,7 +64,7 @@ void main(void){
   // seed random - randomSeed(analogRead(0));
 
   srandom(time(0));
-
+  while(1){
   if ((rand()%12)==11) {
     // pick wildcard with suitable modifier
   picked_card=rand()%22; 
@@ -80,8 +80,6 @@ void main(void){
   strcat(fullessid, inst_operands[picked_card]);
   }  
 }
-    
-
  else {
   picked_card=rand()%22;
   strcpy(fullessid, cards[picked_card]);
@@ -101,7 +99,12 @@ void main(void){
   picked_card=rand()%22;
   strcat(fullessid, inst_operands[picked_card]);
  }
+
+  // test truncating code
+  if (strlen(fullessid)>31) fullessid[31]='\0';
   
   printf("%s \n", fullessid);
   printf("%d \n",strlen(fullessid)); // is it longer than 32 if so cut.
-}
+  }
+
+  }
