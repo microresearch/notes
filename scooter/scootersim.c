@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-// TODO: add wildcards that are quite clear instructions, add in some assembly language, arduino/essid, deliver web page with instructions
+// TODO: arduino/setup/loop/essid code, deliver web page with instructions -> see test code...
 
 const char *wildcards[22] = {"jumponthescooterandrideto",
 			     "takeESSIDXstepsforward=",
@@ -42,19 +42,19 @@ char wildifmod[22]={2,1,2,2,2,0,0,2,2,0,0,0,0,1,2,2,2,2,2,2,0,2};
 
 const char *cards[22] = {"FOOL","MAGIC","WITCH","QUEEN","KING","AMETHYST","LOVERS","CAR","ADJUST","HERMIT","FORTUNE","LUST","HANGED","DEATH","ART","DEVIL","TOWER","STAR","MOON","SUN","AEON","UNIV"};
 
-const char *conditions[22] = {"Begin","always","letme","ifopen","0x","if","EQU","0x","else","Never","when","Forever","stay","ifending","ifnot","always","ifending","when","ifnight","ifday","return","--"};
+const char *conditions[22] = {"Begin","always","letme","ifopen","0x","if","EQU","0x","else","Never","when","Forever","CMP","ifending","ifnot","ifalways","WAIT","when","ifnight","ifday","LOOP","-->"};
 
 char condif[22]={1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0};
 
-const char *cond_operands[22] = {"start","want","guided","oppose","ordered","hidden","two","motion","equal","alone","surplus","longing","changing","ending","equal","shadow","failing","shining","reflecting","day","forever","returned"};
+const char *cond_operands[22] = {"start","want","guided","oppose","ordered","hidden","two","inmotion","equal","alone","surplus","longing","changing","ending","ZERO","shadow","BRK","shining","reflecting","day","forever","returned"};
 
-const char *instruction[22]={"ride","want","dream","bury","wok","reveal","lick","go","dissasm","stay","shop","shout","stand","leave","build","mine","destroy","shine","reflect","burn","loop","reboot"};
+const char *instruction[22]={"ride","want","dream","bury","wok","reveal","lick","go","dis-sasm","stay","shop","shout","stand","leave","build","mine","destroy","shine","reflect","burn","loop","reboot"};
 
-const char *inst_mods[22] = {"to","from","back","into","in","thru","of","of","at","-","N","N","N","0","1","both","all","to","from","over","in","to"};
+const char *inst_mods[22] = {"to","from","back","into","in","thru","of","of","at","-","N","N","N","0","1","both","all","EXE","from","over","in","to"};
 
 char numericmod[22]={0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0}; 
 
-const char *inst_operands[22] = {"scooter","Turing","tree","earth","sacrifice","u-bahn","conjunct","crow","cafe","LAIR","shop","stain","cross","mask","future","tunnel","building","water","mirror","SUN","fire","stone"};
+const char *inst_operands[22] = {"scooter","Turing","tree","earth","sacrifice","u-bahn","JOINING","crow","cafe","LAIR","shop","stain","coil","mask","future","tunnel","building","water","mirror","SUN","fire","SRC"};
 
 
 char fullessid[128]; // but max essid is only 32 so might have to truncate!
