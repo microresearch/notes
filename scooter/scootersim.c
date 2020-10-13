@@ -56,16 +56,19 @@ char numericmod[22]={0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0};
 
 const char *inst_operands[22] = {"scooter","Turing","tree","earth","sacrifice","u-bahn","JOINING","crow","cafe","LAIR","shop","stain","coil","mask","future","tunnel","building","water","mirror","SUN","fire","SRC"};
 
+const char *cars[22] = {"$","%","\(",")","*","*","_","#",".","$","+","V","¬","\\","/","^","@","*","\(",".","~","0"};
 
-char fullessid[128]; // but max essid is only 32 so might have to truncate!
+char fullessid[2][128]; // but max essid is only 32 so might have to truncate!
 
 void main(void){
   char picked_card, inter[3];
   // seed random - randomSeed(analogRead(0));
 
+  // how we can simply break down and loop around - say 2 strings: card+cond, ops
+  
   srandom(time(0));
-  while(1){
-  if ((rand()%12)==11) {
+  //  while(1){
+    /*  if ((rand()%12)==11) {
     // pick wildcard with suitable modifier
   picked_card=rand()%22; 
   strcpy(fullessid, cards[picked_card]);
@@ -80,31 +83,38 @@ void main(void){
   strcat(fullessid, inst_operands[picked_card]);
   }  
 }
- else {
+else {*/
   picked_card=rand()%22;
-  strcpy(fullessid, cards[picked_card]);
+  strcpy(fullessid[0], cards[picked_card]);
   picked_card=rand()%22;  
-  if (condif[picked_card]==1) strcat(fullessid, conditions[picked_card]);
+  if (condif[picked_card]==1) strcat(fullessid[0], conditions[picked_card]);
   picked_card=rand()%22;
-  strcat(fullessid, cond_operands[picked_card]);
+  strcat(fullessid[0], cond_operands[picked_card]);
   picked_card=rand()%22;
-  strcat(fullessid, instruction[picked_card]);
+
+  strcpy(fullessid[1], instruction[picked_card]);
   picked_card=rand()%22;
-  if (numericmod[picked_card]==0) strcat(fullessid, inst_mods[picked_card]);
+  if (numericmod[picked_card]==0) strcat(fullessid[1], inst_mods[picked_card]);
   else {
     sprintf(inter,"%d",rand()%12);
-    strcat(fullessid, inter);
+    strcat(fullessid[1], inter);
   }
-    
+
+  if ((rand()%6)==2) {
   picked_card=rand()%22;
-  strcat(fullessid, inst_operands[picked_card]);
- }
+  strcat(fullessid[1], cars[picked_card]);
+  }
+  
+  picked_card=rand()%22;
+  strcat(fullessid[1], inst_operands[picked_card]);
+  // }
 
   // test truncating code
-  if (strlen(fullessid)>31) fullessid[31]='\0';
+  //  if (strlen(fullessid)>31) fullessid[31]='\0';
   
-  printf("%s \n", fullessid);
-  printf("%d \n",strlen(fullessid)); // is it longer than 32 if so cut.
-  }
+  printf("%s \n", fullessid[0]);
+  printf("%s \n", fullessid[1]);
+  //  printf("%d \n",strlen(fullessid)); // is it longer than 32 if so cut.
+  //  }
 
   }

@@ -1,8 +1,8 @@
-// Captive portal with (arduino) OTA + SPIFFS
+// wok the cables
 
-// SSID is working...
+// Follow conditions and interpret instructions relayed in hotspot/ESSID tags at 10 minute intervals. 
+// Document all findings of divinatory art on any social media using hashtag #wokthecables.
 
-// TODO: serving of index on unknown
 
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
@@ -13,35 +13,37 @@
 #include "./DNSServer.h" // Dns server
 #include <FS.h> // SPIFFS
 
-const char *wildcards[22] = {"WOKthescooterandrideto",
-			     "takeESSIDXstepsforward=",
-			     "ShopCLoseto",
-			     "CrawlyourskinBACKto",
-			     "BuyandfollowaCABLEto",
-			     "TOAST-eatairwire1-0sign",
-			     "FollowtheONEseenNOW",
-			     "go-UNdergroundTO",
-			     "RemainSTAYandstrugglewith",
-			     "Repeat'THIS'message@lastMESSAGEE",
-			     "GOTOfoundreceiverTOSScoins",
-			     "DOlastINST_AGAIN&comment",
-			     "turn0/left>0right@nexXroads",
-			     "reversedirectionXsteps=",
-			     "firstleftfromtheNXT_",
-			     "doitagainANDdarklyfollow_",
-			     "goINside@nearest*",
-			     "watchsigns~for#shinesto",
-			     "revealitandshowit_to",
-			     "climb_nearest",
-			     "NOWMAKE_YOUR_INVENTORY",
-			     "GAMEOVER-returnto"
+const char *final_mess[3] = {"0","0","READ&EXE#wokthecables"}; 
+
+const char *wildcards[44] = {"WOKthescooter","andrideto",
+			     "takeESSIDX","stepsforward=",
+			     "ShopforLAST-", "CLose*to",
+			     "Crawlyourskin", "BACKto",
+			     "Buyandfollow", "a CABLEto",
+			     "TOAST-eatair", "wire1-0sign",
+			     "FollowtheONE", "seenJUST NOW",
+			     "go-EXE-","UNdergroundTO",
+			     "RemainSTAYand","struggle|with",
+			     "SendTHISmessage","@lastMESSAGEE",
+			     "GOTOfoundreceiver","thenTOSScoins",
+			     "DOtlastINSTRUCT","AGAIN&comment",
+			     "turn0/left>0right","@next Xroads",
+			     "REVdirection","forXsteps=",
+			     "firstleft","fromNXT_",
+			     "doitagainAND","darklyfollow_",
+			     "goINside","@nearest*_",
+			     "watchsigns~for","&#shinesto",
+			     "revealitand","showit_2_",
+			     "climb_nearest","^^^^",
+			     "NOWMAKE_YOUR","YOURFULL_INVENTORY",
+			     "GAMEOVER","-return_to"
 };
 
 // add a modifier: 0=none, 1-number, 2=operands, 3=instruction
 
 char wildifmod[22]={2,1,2,2,2,0,0,2,2,0,0,0,1,1,2,2,2,2,2,2,0,2};
 
-const char *cards[22] = {"FOOL","MAGIC","WITCH","QUEEN","KING","AMETHYST","LOVERS","CAR","ADJUST","HERMIT","FORTUNE","LUST","HANGED","DEATH","ART","DEVIL","TOWER","STAR","MOON","SUN","AEON","UNIV"};
+const char *cards[22] = {"aFOOL-","aMAGIC-","aWITCH-","aQUEEN-","aKING-","aAMETHYST-","aLOVERS-","aCAR-","aADJUST-","aHERMIT-","aFORTUNE-","aLUST-","aHANGED-","aDEATH-","aART-","aDEVIL-","aTOWER-","aSTAR-","aMOON-","aSUN-","aAEON-","aUNIVERS-"};
 
 const char *conditions[22] = {"BEGIN","always","letME_","ifOpen","0x","if","EQU","0x","else","Nver","when","4ever","CMP","ifending","ifNOT","ifAlways","WAIT","when","ifnight","ifday","LOOP","<-"};
 
@@ -49,17 +51,19 @@ char condif[22]={1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0};
 
 const char *cond_operands[22] = {"start","Want","guided","opposed","ordered","hidden","two","inmotion","==","Alone","SURplus","l0nging","changing","ending","ZERO","shad0w","BRK","sh1n1ng","reflecting","day","forever","r3turned"};
 
-const char *instruction[22]={"RIDE","WANT","dream","buRy","WOK","reveal","LICK","GO","dis-ASM","stay","shop","SHOUT!","stand","leave","build","MINE","Dstroy","SH1ne","refl3ct","BURN","LOOP4_","reboot"};
+const char *instruction[22]={"RIDE","WANT","dream","buRy","WOK","reveal","LICK","GO","dis-ASM","stay","shop","SHOUT!","stand","leave","raise","MINE","Dstroy","SHine","refl3ct","BURN","LOOP4_","reboot"};
 
-const char *inst_mods[22] = {"_2_","FRom","back","INto","IN","thru","of","of","@","-","N","N","N","0","1","both","ALL","EXE","from","over","IN","_2to"};
+const char *inst_mods[22] = {"_2_","FROM","back","INto","IN","thru","of","of","@","-","N","N","N","0","1","both","ALL","EXE","from","over","IN","_2to"};
 
 char numericmod[22]={0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0}; 
 
-const char *inst_operands[22] = {"scooter","Tur/n/ing","TREE","earth","SACRIFICE","U-Bahn","JOINING","crow","cafe","LAIR","shop","stain","COIL","mask","future","tunnel","building","water","mirror","SUN","fire","SRC"};
+const char *inst_operands[22] = {"scooter","Tur/n/ing","TREE","earth","SACRIFICE","U-Bahn","JOINING","crow","cafe","LAIR","shop","stain","COIL","mask","future","tunnel","building","water","mirror","SUN","fire","EXCEPTION"};
+
+const char *cars[22] = {"$","%","\(",")","*","*","_","#",".","$","+","V","¬","\\","/","^","@","*","\(",".","~","0"};
 
 DNSServer dnsServer;
 const byte DNS_PORT = 53;
-int taroty=0;
+int taroty=6001, mess=0;
       
 ESP8266WebServer server(80);
 
@@ -103,66 +107,100 @@ void setup() {
       
   server.begin();
 
-  randomSeed(analogRead(0));
+  
+  randomSeed(RANDOM_REG32);
 
   
 }
 
 void loop() {
   char picked_card, inter[3];
-  char fullessid[128]; // but max essid is only 32 so might have to truncate!
+  char fullessid[2][64]; // loop to display
   
   // code to generate ESSID string from cards
   // run this every 10 minutes for new ESSID 
   
-  if ((taroty++) >100){ // test with 100 = 10 seconds so 600onemin - 6000=tenmins
+  if ((taroty++) > 6000){ // test with 100 = 10 seconds so 600onemin - 6000=tenmins
     taroty=0;
-  if ((rand()%12)==11) {
+    if ((rand()%12)==11) {
     // pick wildcard with suitable modifier
-  picked_card=rand()%22; 
-  strcpy(fullessid, cards[picked_card]);
-  strcat(fullessid, wildcards[picked_card]);
-  if (wildifmod[picked_card]==1) {
-    sprintf(inter,"%d",(rand()%12));
-    strcat(fullessid, inter);
-  }
+      picked_card=rand()%22; 
+      strcpy(fullessid[0], cards[picked_card]);
+      strcat(fullessid[0], wildcards[picked_card*2]);
+      strcpy(fullessid[1], wildcards[(picked_card*2)+1]);
+      
+      if (wildifmod[picked_card]==1) {
+	sprintf(inter,"%d",(rand()%12));
+	strcat(fullessid[1], inter);
+      }
 
-  if (wildifmod[picked_card]==2) {
-  picked_card=rand()%22;
-  strcat(fullessid, inst_operands[picked_card]);
-  }  
-}
+      if (wildifmod[picked_card]==2) {
+	picked_card=rand()%22;
+	strcat(fullessid[1], inst_operands[picked_card]);
+      }  
+    }//////
  else {
   picked_card=rand()%22;
-  strcpy(fullessid, cards[picked_card]);
+  strcpy(fullessid[0], cards[picked_card]);
+
   picked_card=rand()%22;  
-  if (condif[picked_card]==1) strcat(fullessid, conditions[picked_card]);
+  if (condif[picked_card]==1) strcat(fullessid[0], conditions[picked_card]);
+
   picked_card=rand()%22;
-  strcat(fullessid, cond_operands[picked_card]);
+  strcat(fullessid[0], cond_operands[picked_card]);
+
+  if ((rand()%6)==2) {
   picked_card=rand()%22;
-  strcat(fullessid, instruction[picked_card]);
+  strcat(fullessid[0], cars[picked_card]);
+  }
+
   picked_card=rand()%22;
-  if (numericmod[picked_card]==0) strcat(fullessid, inst_mods[picked_card]);
+  strcpy(fullessid[1], instruction[picked_card]);
+
+  picked_card=rand()%22;
+  if (numericmod[picked_card]==0) strcat(fullessid[1], inst_mods[picked_card]);
   else {
     sprintf(inter,"%d",rand()%12);
-    strcat(fullessid, inter);
+    strcat(fullessid[1], inter);
   }
-    
+
+  if ((rand()%6)==2) {
   picked_card=rand()%22;
-  strcat(fullessid, inst_operands[picked_card]);
+  strcat(fullessid[1], cars[picked_card]);
+  }
+  
+  picked_card=rand()%22;
+  strcat(fullessid[1], inst_operands[picked_card]);
  }
 
   // if is longer than 32 truncate
-  if (strlen(fullessid)>31) fullessid[31]='\0';
+  //  if (strlen(fullessid)>31) fullessid[31]='\0';
   
   //  printf("%s \n", fullessid);
   //  printf("%d \n",strlen(fullessid)); // is it longer than 32 if so cut.
 
-  Serial.println(fullessid);
-  WiFi.softAP(fullessid);
+    //  Serial.println(fullessid[0]);
+    //  Serial.println(fullessid[1]);
 }
+
+  // loop through ESSID as my HANDY only shows 16 say characters
+  // so first 2 fullessids and then final mess
+  //  WiFi.softAP(fullessid);
+  if ((taroty%200)==0) {// was 200 but now less for testing
+    if (mess>2) mess=0;
+    if (mess<2) {
+      Serial.println(fullessid[mess]);
+      WiFi.softAP(fullessid[mess]);
+    }
+    else {
+      Serial.println(final_mess[mess]);
+      WiFi.softAP(final_mess[mess]);
+    }
+    mess++;
+  }
     
 
+  
   //  MDNS.begin("esp8266", WiFi.softAPIP());
   //  Serial.println("Ready");
   //  Serial.print("IP address: ");
