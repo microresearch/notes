@@ -1,5 +1,7 @@
 from pattern.web import URL, plaintext, Crawler
 
+trynow=["http://lustybooks.com/erotica/7/full-bodied-babe-lane-novak/"]
+
 listy=['http://lustybooks.com/erotica/1/18-hole-swap-richard-alexis/'
 ,'http://lustybooks.com/erotica/7/the-24-hour-orgy-robin-peters/'
 ,'http://lustybooks.com/erotica/5/3-for-all-d-w-masters/'
@@ -584,11 +586,11 @@ class Polly(Crawler):
         def fail(self, link):
             print 'failed:', repr(link.url)
 
-for list in listy:
+for list in trynow:
     # p = Polly(links=list, delay=1)
     #while not p.done:
     #    p.crawl(method=1, cached=True, throttle=1)
-    for xx in range(1,30):
+    for xx in range(1,10):
         try:
             lister=str(list)+"p-"+str(xx)+".html"
             #        print(list)

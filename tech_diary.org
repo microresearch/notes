@@ -937,3 +937,11 @@ libraries are in: /usr/share/arduino/libraries
 
   for cv control on nichrome wire from eurorack but 3055 will need heatsink materials
 
+
+* 1.5.2020
+
+- for boards 
+
+- worm was 12hp= 60.6mm across 128.5mm up
+
+brd was 57x109mm
