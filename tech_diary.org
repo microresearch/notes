@@ -1,3 +1,20 @@
+* pi and transmit/receive
+
+: export TERM=xterm
+
+using rpitx - easytest.sh
+
+https://github.com/F5OEO/rpitx
+
+GRAVES frequency is 143.05 MHz use USB (upper side band). 2m band is 144 MHz
+
+using cubicsdr but had to make file   /etc/modprobe.d/sdr.conf
+
+with line: blacklist dvb_usb_rtl28xxu 
+
+and then reboot (on x220)
+
+
 * orderings
 
 ** to order
