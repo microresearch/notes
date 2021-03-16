@@ -400,8 +400,6 @@ F 3 "~" H 8365 1450 50  0001 C CNN
 	1    8365 1450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7345 1350 7375 1350
 Connection ~ 7345 1350
 $Comp
 L allcolours-rescue:AUDIO-JACKERTHENVAR-PJ398 M?
@@ -529,19 +527,6 @@ Wire Wire Line
 Wire Wire Line
 	7195 1850 7345 1850
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C?
-U 1 1 60502587
-P 7475 1350
-AR Path="/604F46FB/60502587" Ref="C?"  Part="1" 
-AR Path="/60502587" Ref="C9"  Part="1" 
-F 0 "C9" H 7567 1396 50  0000 L CNN
-F 1 "100N" H 7390 1190 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7475 1350 50  0001 C CNN
-F 3 "~" H 7475 1350 50  0001 C CNN
-	1    7475 1350
-	0    1    1    0   
-$EndComp
-$Comp
 L Amplifier_Operational:TL084 U?
 U 5 1 605025B6
 P 2490 6235
@@ -615,8 +600,6 @@ Wire Wire Line
 Connection ~ 6300 1250
 Wire Wire Line
 	6300 1250 6300 1245
-Text Notes 7155 1260 0    63   ~ 0
-optional cap
 Wire Wire Line
 	7620 1550 7620 1765
 Wire Wire Line
@@ -699,8 +682,6 @@ Wire Wire Line
 	1690 930  1890 930 
 Wire Wire Line
 	2040 2180 2190 2180
-Wire Wire Line
-	7575 1350 7620 1350
 Connection ~ 5670 1145
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R?
@@ -873,8 +854,6 @@ F 3 "~" H 8375 2770 50  0001 C CNN
 	1    8375 2770
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7355 2670 7385 2670
 Connection ~ 7355 2670
 $Comp
 L allcolours-rescue:AUDIO-JACKERTHENVAR-PJ398 M?
@@ -963,19 +942,6 @@ Wire Wire Line
 Wire Wire Line
 	7205 3170 7355 3170
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C?
-U 1 1 6050BAF2
-P 7485 2670
-AR Path="/604F46FB/6050BAF2" Ref="C?"  Part="1" 
-AR Path="/6050BAF2" Ref="C22"  Part="1" 
-F 0 "C22" H 7577 2716 50  0000 L CNN
-F 1 "100N" H 7400 2510 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7485 2670 50  0001 C CNN
-F 3 "~" H 7485 2670 50  0001 C CNN
-	1    7485 2670
-	0    1    1    0   
-$EndComp
-$Comp
 L licht-rescue:CP_Small-Device-licht-rescue C?
 U 1 1 6050BAF9
 P 5580 2465
@@ -1002,8 +968,6 @@ Wire Wire Line
 Connection ~ 6310 2570
 Wire Wire Line
 	6310 2570 6310 2565
-Text Notes 7165 2580 0    63   ~ 0
-optional cap
 Wire Wire Line
 	7630 2870 7630 3085
 Wire Wire Line
@@ -1045,8 +1009,6 @@ Wire Wire Line
 	5680 2465 5680 2690
 Wire Wire Line
 	5680 2690 5635 2690
-Wire Wire Line
-	7585 2670 7630 2670
 Connection ~ 5680 2465
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R?
@@ -1219,8 +1181,6 @@ F 3 "~" H 8390 4065 50  0001 C CNN
 	1    8390 4065
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7370 3965 7400 3965
 Connection ~ 7370 3965
 $Comp
 L allcolours-rescue:AUDIO-JACKERTHENVAR-PJ398 M?
@@ -1309,19 +1269,6 @@ Wire Wire Line
 Wire Wire Line
 	7220 4465 7370 4465
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C?
-U 1 1 6050F52C
-P 7500 3965
-AR Path="/604F46FB/6050F52C" Ref="C?"  Part="1" 
-AR Path="/6050F52C" Ref="C24"  Part="1" 
-F 0 "C24" H 7592 4011 50  0000 L CNN
-F 1 "100N" H 7415 3805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7500 3965 50  0001 C CNN
-F 3 "~" H 7500 3965 50  0001 C CNN
-	1    7500 3965
-	0    1    1    0   
-$EndComp
-$Comp
 L licht-rescue:CP_Small-Device-licht-rescue C?
 U 1 1 6050F533
 P 5595 3760
@@ -1348,8 +1295,6 @@ Wire Wire Line
 Connection ~ 6325 3865
 Wire Wire Line
 	6325 3865 6325 3860
-Text Notes 7180 3875 0    63   ~ 0
-optional cap
 Wire Wire Line
 	7645 4165 7645 4380
 Wire Wire Line
@@ -1391,8 +1336,6 @@ Wire Wire Line
 	5695 3760 5695 3985
 Wire Wire Line
 	5695 3985 5650 3985
-Wire Wire Line
-	7600 3965 7645 3965
 Connection ~ 5695 3760
 $Comp
 L licht-rescue:R_Small-Device-licht-rescue R?
@@ -1565,8 +1508,6 @@ F 3 "~" H 8375 5295 50  0001 C CNN
 	1    8375 5295
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7355 5195 7385 5195
 Connection ~ 7355 5195
 $Comp
 L allcolours-rescue:AUDIO-JACKERTHENVAR-PJ398 M?
@@ -1655,19 +1596,6 @@ Wire Wire Line
 Wire Wire Line
 	7205 5695 7355 5695
 $Comp
-L licht-rescue:C_Small-Device-licht-rescue C?
-U 1 1 60515ECE
-P 7485 5195
-AR Path="/604F46FB/60515ECE" Ref="C?"  Part="1" 
-AR Path="/60515ECE" Ref="C23"  Part="1" 
-F 0 "C23" H 7577 5241 50  0000 L CNN
-F 1 "100N" H 7400 5035 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7485 5195 50  0001 C CNN
-F 3 "~" H 7485 5195 50  0001 C CNN
-	1    7485 5195
-	0    1    1    0   
-$EndComp
-$Comp
 L licht-rescue:CP_Small-Device-licht-rescue C?
 U 1 1 60515ED5
 P 5580 4990
@@ -1694,8 +1622,6 @@ Wire Wire Line
 Connection ~ 6310 5095
 Wire Wire Line
 	6310 5095 6310 5090
-Text Notes 7165 5105 0    63   ~ 0
-optional cap
 Wire Wire Line
 	7630 5395 7630 5610
 Wire Wire Line
@@ -1737,8 +1663,6 @@ Wire Wire Line
 	5680 4990 5680 5215
 Wire Wire Line
 	5680 5215 5635 5215
-Wire Wire Line
-	7585 5195 7630 5195
 Connection ~ 5680 4990
 Text Notes 7590 6915 0    79   ~ 16
 Array of 4 lichts without trigger 15/3/2021
@@ -2195,4 +2119,12 @@ Wire Wire Line
 Connection ~ 2340 4830
 Wire Wire Line
 	2340 4830 2340 4850
+Wire Wire Line
+	7345 1350 7620 1350
+Wire Wire Line
+	7355 2670 7630 2670
+Wire Wire Line
+	7370 3965 7645 3965
+Wire Wire Line
+	7355 5195 7630 5195
 $EndSCHEMATC

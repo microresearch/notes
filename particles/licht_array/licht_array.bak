@@ -404,7 +404,7 @@ Wire Wire Line
 	7345 1350 7375 1350
 Connection ~ 7345 1350
 $Comp
-L erthenvar:AUDIO-JACKERTHENVAR M?
+L allcolours-rescue:AUDIO-JACKERTHENVAR-PJ398 M?
 U 1 1 60502546
 P 8800 1650
 AR Path="/604F46FB/60502546" Ref="M?"  Part="1" 
@@ -877,7 +877,7 @@ Wire Wire Line
 	7355 2670 7385 2670
 Connection ~ 7355 2670
 $Comp
-L erthenvar:AUDIO-JACKERTHENVAR M?
+L allcolours-rescue:AUDIO-JACKERTHENVAR-PJ398 M?
 U 1 1 6050BAC5
 P 8810 2970
 AR Path="/604F46FB/6050BAC5" Ref="M?"  Part="1" 
@@ -1223,7 +1223,7 @@ Wire Wire Line
 	7370 3965 7400 3965
 Connection ~ 7370 3965
 $Comp
-L erthenvar:AUDIO-JACKERTHENVAR M?
+L allcolours-rescue:AUDIO-JACKERTHENVAR-PJ398 M?
 U 1 1 6050F4FF
 P 8825 4265
 AR Path="/604F46FB/6050F4FF" Ref="M?"  Part="1" 
@@ -1569,7 +1569,7 @@ Wire Wire Line
 	7355 5195 7385 5195
 Connection ~ 7355 5195
 $Comp
-L erthenvar:AUDIO-JACKERTHENVAR M?
+L allcolours-rescue:AUDIO-JACKERTHENVAR-PJ398 M?
 U 1 1 60515EA1
 P 8810 5495
 AR Path="/604F46FB/60515EA1" Ref="M?"  Part="1" 

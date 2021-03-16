@@ -1,0 +1,345 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2005 210  0    79   ~ 0
+tests mainly around antenna (fractal, coil etc), amp here, and any heterodyning (but here we have demodulation)
+$Comp
+L Device:R_Small R1
+U 1 1 60568D4C
+P 3885 1925
+F 0 "R1" H 3944 1971 50  0000 L CNN
+F 1 "10K" H 3944 1880 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3885 1925 50  0001 C CNN
+F 3 "~" H 3885 1925 50  0001 C CNN
+	1    3885 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 60568E74
+P 4365 1595
+F 0 "R3" H 4424 1641 50  0000 L CNN
+F 1 "10K" H 4424 1550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4365 1595 50  0001 C CNN
+F 3 "~" H 4365 1595 50  0001 C CNN
+	1    4365 1595
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 60568F08
+P 4965 1400
+F 0 "R5" H 5024 1446 50  0000 L CNN
+F 1 "1K" H 5024 1355 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4965 1400 50  0001 C CNN
+F 3 "~" H 4965 1400 50  0001 C CNN
+	1    4965 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 60568FE4
+P 4175 2795
+F 0 "R2" V 3979 2795 50  0000 C CNN
+F 1 "100K" V 4070 2795 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4175 2795 50  0001 C CNN
+F 3 "~" H 4175 2795 50  0001 C CNN
+	1    4175 2795
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 605690C7
+P 4445 2795
+F 0 "R4" V 4249 2795 50  0000 C CNN
+F 1 "100K" V 4340 2795 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4445 2795 50  0001 C CNN
+F 3 "~" H 4445 2795 50  0001 C CNN
+	1    4445 2795
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 6056917B
+P 3405 2345
+F 0 "C1" V 3176 2345 50  0000 C CNN
+F 1 "100n" V 3267 2345 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3405 2345 50  0001 C CNN
+F 3 "~" H 3405 2345 50  0001 C CNN
+	1    3405 2345
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 6056940E
+P 3545 1780
+F 0 "C2" H 3663 1826 50  0000 L CNN
+F 1 "10u" H 3663 1735 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1206_Pol" H 3583 1630 50  0001 C CNN
+F 3 "~" H 3545 1780 50  0001 C CNN
+	1    3545 1780
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 60569545
+P 3545 1980
+F 0 "#PWR03" H 3545 1730 50  0001 C CNN
+F 1 "GND" H 3550 1807 50  0000 C CNN
+F 2 "" H 3545 1980 50  0001 C CNN
+F 3 "" H 3545 1980 50  0001 C CNN
+	1    3545 1980
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 605695CF
+P 3885 2590
+F 0 "#PWR04" H 3885 2340 50  0001 C CNN
+F 1 "GND" H 3890 2417 50  0000 C CNN
+F 2 "" H 3885 2590 50  0001 C CNN
+F 3 "" H 3885 2590 50  0001 C CNN
+	1    3885 2590
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 6056960C
+P 4365 2295
+F 0 "#PWR06" H 4365 2045 50  0001 C CNN
+F 1 "GND" H 4370 2122 50  0000 C CNN
+F 2 "" H 4365 2295 50  0001 C CNN
+F 3 "" H 4365 2295 50  0001 C CNN
+	1    4365 2295
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 6056962B
+P 4965 2015
+F 0 "#PWR07" H 4965 1765 50  0001 C CNN
+F 1 "GND" H 4970 1842 50  0000 C CNN
+F 2 "" H 4965 2015 50  0001 C CNN
+F 3 "" H 4965 2015 50  0001 C CNN
+	1    4965 2015
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 6056964A
+P 4310 3125
+F 0 "#PWR05" H 4310 2875 50  0001 C CNN
+F 1 "GND" H 4315 2952 50  0000 C CNN
+F 2 "" H 4310 3125 50  0001 C CNN
+F 3 "" H 4310 3125 50  0001 C CNN
+	1    4310 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 60569673
+P 4310 2945
+F 0 "C3" H 4428 2991 50  0000 L CNN
+F 1 "10u" H 4070 2920 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1206_Pol" H 4348 2795 50  0001 C CNN
+F 3 "~" H 4310 2945 50  0001 C CNN
+	1    4310 2945
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 6056991A
+P 5235 1535
+F 0 "C4" V 5490 1535 50  0000 C CNN
+F 1 "10u" V 5399 1535 50  0000 C CNN
+F 2 "SMD_Packages:SMD-1206_Pol" H 5273 1385 50  0001 C CNN
+F 3 "~" H 5235 1535 50  0001 C CNN
+	1    5235 1535
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3885 2025 3885 2055
+Connection ~ 3885 2055
+Wire Wire Line
+	3885 2055 3885 2145
+Wire Wire Line
+	3885 2055 4065 2055
+Wire Wire Line
+	4365 1695 4365 1775
+Connection ~ 4365 1775
+Wire Wire Line
+	4365 1775 4365 1855
+Wire Wire Line
+	4965 1500 4965 1535
+Connection ~ 4965 1535
+Wire Wire Line
+	4965 1535 4965 1575
+Wire Wire Line
+	4965 1535 5050 1535
+Wire Wire Line
+	3885 2545 3885 2590
+Wire Wire Line
+	4365 2255 4365 2295
+Wire Wire Line
+	4965 1975 4965 2015
+Wire Wire Line
+	5050 1535 5050 2795
+Wire Wire Line
+	5050 2795 4545 2795
+Connection ~ 5050 1535
+Wire Wire Line
+	5050 1535 5085 1535
+Wire Wire Line
+	3505 2345 3550 2345
+Wire Wire Line
+	3550 2345 3550 2795
+Wire Wire Line
+	3550 2795 4075 2795
+Connection ~ 3550 2345
+Wire Wire Line
+	3550 2345 3585 2345
+Wire Wire Line
+	4310 3095 4310 3125
+Wire Wire Line
+	3545 1930 3545 1980
+Wire Wire Line
+	3545 1630 3650 1630
+Wire Wire Line
+	3885 1630 3885 1825
+Wire Wire Line
+	3885 1630 4065 1630
+Wire Wire Line
+	4065 1630 4065 1495
+Wire Wire Line
+	4065 1495 4365 1495
+Connection ~ 3885 1630
+Wire Wire Line
+	4365 1495 4650 1495
+Wire Wire Line
+	4650 1495 4650 1300
+Wire Wire Line
+	4650 1300 4965 1300
+Connection ~ 4365 1495
+Wire Wire Line
+	3265 2345 3305 2345
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 6056D6BC
+P 5615 1535
+F 0 "J3" H 5505 1340 50  0000 C CNN
+F 1 "OUT" H 5690 1330 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5615 1535 50  0001 C CNN
+F 3 "~" H 5615 1535 50  0001 C CNN
+	1    5615 1535
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 6056D8D4
+P 5380 1635
+F 0 "#PWR08" H 5380 1385 50  0001 C CNN
+F 1 "GND" H 5385 1462 50  0000 C CNN
+F 2 "" H 5380 1635 50  0001 C CNN
+F 3 "" H 5380 1635 50  0001 C CNN
+	1    5380 1635
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5385 1535 5415 1535
+Wire Wire Line
+	5380 1635 5415 1635
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 6056E3A3
+P 3255 1430
+F 0 "J2" H 3149 1105 50  0000 C CNN
+F 1 "BATT" H 3330 1225 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3255 1430 50  0001 C CNN
+F 3 "~" H 3255 1430 50  0001 C CNN
+	1    3255 1430
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 6056E6AA
+P 3485 1430
+F 0 "#PWR02" H 3485 1180 50  0001 C CNN
+F 1 "GND" H 3490 1257 50  0000 C CNN
+F 2 "" H 3485 1430 50  0001 C CNN
+F 3 "" H 3485 1430 50  0001 C CNN
+	1    3485 1430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3455 1330 3650 1330
+Wire Wire Line
+	3650 1330 3650 1630
+Connection ~ 3650 1630
+Wire Wire Line
+	3650 1630 3885 1630
+Wire Wire Line
+	3455 1430 3485 1430
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 6056FEFA
+P 3065 2345
+F 0 "J1" H 2959 2120 50  0000 C CNN
+F 1 "ANT" V 2959 2211 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 3065 2345 50  0001 C CNN
+F 3 "~" H 3065 2345 50  0001 C CNN
+	1    3065 2345
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4365 1775 4665 1775
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 60570D72
+P 3785 2345
+F 0 "Q1" H 3976 2391 50  0000 L CNN
+F 1 "517-BEC" H 3976 2300 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3985 2445 50  0001 C CNN
+F 3 "~" H 3785 2345 50  0001 C CNN
+	1    3785 2345
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 605710A0
+P 4265 2055
+F 0 "Q2" H 4456 2101 50  0000 L CNN
+F 1 "847-BEC" H 4456 2010 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4465 2155 50  0001 C CNN
+F 3 "~" H 4265 2055 50  0001 C CNN
+	1    4265 2055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q3
+U 1 1 60571192
+P 4865 1775
+F 0 "Q3" H 5056 1821 50  0000 L CNN
+F 1 "847-BEC" H 5056 1730 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5065 1875 50  0001 C CNN
+F 3 "~" H 4865 1775 50  0001 C CNN
+	1    4865 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 2795 4310 2795
+Connection ~ 4310 2795
+Wire Wire Line
+	4310 2795 4345 2795
+$EndSCHEMATC
