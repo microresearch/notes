@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name allcolours_analogue-cache)(type Legacy)(uri /root/projects/ERD_MODULES/all_colours/all_colours_kicad_analogue_breakup/allcolours_analogue-cache.lib)(options "")(descr ""))
+  (lib (name allcolours_analogue-rescue)(type Legacy)(uri /root/projects/ERD_MODULES/all_colours/all_colours_kicad_analogue_breakup/allcolours_analogue-rescue.lib)(options "")(descr ""))
+  (lib (name allcolours_analogue)(type Legacy)(uri /root/projects/ERD_MODULES/all_colours/all_colours_kicad_analogue_breakup/allcolours_analogue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,47 @@
+* from kicad to cutout
+
+** new working
+
+- in kicad/pcbnew PLOT layer as dxf
+- open it in librecad
+- export as maker svg
+- open in inkscape and outline should be fine - check size
+
+** older not really working
+
+- plot as svg in kicad
+-> inkscape path tool
+- select lines/tracks bit by bit with
+- stroke to path and then union of those paths
+- keep going by hand... ctrl-x delete inside path pads
+- add pads also
+
+new one pdf/noembed - outline mode ??? 
+
+, select all, paths->combine, select all, use path too, and delete inside paths - somehow???
+
+- in inkscape -> extensions -> export -> send to silhouette // do settings work there????
+
+what works best - try 
+
+we have manual setting close to 2: and 2,10 for cutting vinyl itself - but settings in inkscape don't effect anything!
+
+set to around 1 now
+
+but that is not enough for vinyl/copper on tonpaper - 
+
+weigert extension - best one?
+
+for pen we adjust height manually...
+
+think about conversion to svg maybe by way of kicad?
+
+* tracing and conversion to svg
+
+potrace, convert, autotrace
+
+autotrace -output-format svg inputfile
+
+https://askubuntu.com/questions/470495/how-do-i-convert-a-png-to-svg-using-software
+
+http://www.imagemagick.org/discourse-server/viewtopic.php?t=14385
