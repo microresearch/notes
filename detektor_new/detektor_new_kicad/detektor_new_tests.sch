@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:detektor_new_tests-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -195,8 +196,6 @@ Wire Wire Line
 Wire Wire Line
 	4965 1975 4965 2015
 Wire Wire Line
-	5050 1535 5050 2795
-Wire Wire Line
 	5050 2795 4545 2795
 Connection ~ 5050 1535
 Wire Wire Line
@@ -257,7 +256,7 @@ F 3 "" H 5380 1635 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5385 1535 5415 1535
+	5385 1535 5395 1535
 Wire Wire Line
 	5380 1635 5415 1635
 $Comp
@@ -342,4 +341,53 @@ Wire Wire Line
 Connection ~ 4310 2795
 Wire Wire Line
 	4310 2795 4345 2795
+$Comp
+L 1503_09:1503_09 X1
+U 1 1 60A86B04
+P 5845 2155
+F 0 "X1" H 6182 2183 50  0000 L CNN
+F 1 "1503_09" H 6182 2092 50  0000 L CNN
+F 2 "detektor_new:1503_09" H 5845 2155 50  0001 L BNN
+F 3 "" H 5845 2155 50  0001 L BNN
+F 4 "" H 5845 2155 50  0001 L BNN "MPN"
+F 5 "unknown" H 5845 2155 50  0001 L BNN "OC_NEWARK"
+F 6 "1243244" H 5845 2155 50  0001 L BNN "OC_FARNELL"
+F 7 "" H 5845 2155 50  0001 L BNN "MF"
+F 8 "1" H 5845 2155 50  0001 L BNN "POPULARITY"
+	1    5845 2155
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5645 1955 5530 1955
+Wire Wire Line
+	5530 2255 5645 2255
+$Comp
+L power:GND #PWR0101
+U 1 1 60A87AAB
+P 5590 2355
+F 0 "#PWR0101" H 5590 2105 50  0001 C CNN
+F 1 "GND" H 5595 2182 50  0000 C CNN
+F 2 "" H 5590 2355 50  0001 C CNN
+F 3 "" H 5590 2355 50  0001 C CNN
+	1    5590 2355
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5590 2355 5645 2355
+Wire Wire Line
+	5530 1955 5530 2255
+Wire Wire Line
+	5050 1535 5050 2795
+Wire Wire Line
+	5395 1535 5395 1590
+Wire Wire Line
+	5395 1590 5290 1590
+Wire Wire Line
+	5290 1590 5290 1955
+Wire Wire Line
+	5290 1955 5530 1955
+Connection ~ 5395 1535
+Wire Wire Line
+	5395 1535 5415 1535
+Connection ~ 5530 1955
 $EndSCHEMATC
