@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:detektor_new_tests-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -342,4 +343,6 @@ Wire Wire Line
 Connection ~ 4310 2795
 Wire Wire Line
 	4310 2795 4345 2795
+Text Notes 5195 2095 0    50   ~ 0
+847 could be dual?
 $EndSCHEMATC

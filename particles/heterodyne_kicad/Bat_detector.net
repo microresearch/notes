@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /root/notes_and_projectsNOW/particles/heterodyne_kicad/Bat_detector.sch)
-    (date "Mon 15 Mar 2021 21:34:21 CET")
+    (date "Mon 17 May 2021 23:23:21 CEST")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -218,7 +218,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 604E988D))
     (comp (ref R12)
-      (value 1K)
+      (value 220)
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
