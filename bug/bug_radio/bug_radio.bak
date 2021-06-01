@@ -1,0 +1,218 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 5FA3DC67
+P 4055 2310
+F 0 "Q?" H 4246 2356 50  0000 L CNN
+F 1 "847BEC" H 4245 2190 50  0000 L CNN
+F 2 "" H 4255 2410 50  0001 C CNN
+F 3 "~" H 4055 2310 50  0001 C CNN
+	1    4055 2310
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 5FA3DE69
+P 4155 1975
+F 0 "L?" H 4202 2021 50  0000 L CNN
+F 1 "L_Small" H 4202 1930 50  0000 L CNN
+F 2 "" H 4155 1975 50  0001 C CNN
+F 3 "~" H 4155 1975 50  0001 C CNN
+	1    4155 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FA3DF7D
+P 3735 2470
+F 0 "C?" H 3535 2550 50  0000 L CNN
+F 1 "1N" H 3545 2465 50  0000 L CNN
+F 2 "" H 3735 2470 50  0001 C CNN
+F 3 "~" H 3735 2470 50  0001 C CNN
+	1    3735 2470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FA3E02E
+P 3855 2470
+F 0 "R?" H 3914 2516 50  0000 L CNN
+F 1 "10K" H 3914 2425 50  0000 L CNN
+F 2 "" H 3855 2470 50  0001 C CNN
+F 3 "~" H 3855 2470 50  0001 C CNN
+	1    3855 2470
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5FA3E0BD
+P 3855 1925
+F 0 "#PWR?" H 3855 1775 50  0001 C CNN
+F 1 "+9V" H 3870 2098 50  0000 C CNN
+F 2 "" H 3855 1925 50  0001 C CNN
+F 3 "" H 3855 1925 50  0001 C CNN
+	1    3855 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FA3E23E
+P 4350 2100
+F 0 "TP?" H 4408 2220 50  0000 L CNN
+F 1 "cpad" H 4435 2125 50  0000 L CNN
+F 2 "" H 4550 2100 50  0001 C CNN
+F 3 "~" H 4550 2100 50  0001 C CNN
+	1    4350 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FA3E407
+P 4155 2645
+F 0 "R?" H 4214 2691 50  0000 L CNN
+F 1 "470R" H 4214 2600 50  0000 L CNN
+F 2 "" H 4155 2645 50  0001 C CNN
+F 3 "~" H 4155 2645 50  0001 C CNN
+	1    4155 2645
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FA3E5CA
+P 3855 2085
+F 0 "R?" H 3914 2131 50  0000 L CNN
+F 1 "10K" H 3914 2040 50  0000 L CNN
+F 2 "" H 3855 2085 50  0001 C CNN
+F 3 "~" H 3855 2085 50  0001 C CNN
+	1    3855 2085
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA3E6B3
+P 3855 2600
+F 0 "#PWR?" H 3855 2350 50  0001 C CNN
+F 1 "GND" H 3860 2427 50  0000 C CNN
+F 2 "" H 3855 2600 50  0001 C CNN
+F 3 "" H 3855 2600 50  0001 C CNN
+	1    3855 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA3E6EF
+P 4155 2775
+F 0 "#PWR?" H 4155 2525 50  0001 C CNN
+F 1 "GND" H 4160 2602 50  0000 C CNN
+F 2 "" H 4155 2775 50  0001 C CNN
+F 3 "" H 4155 2775 50  0001 C CNN
+	1    4155 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5FA3EACD
+P 4155 1825
+F 0 "#PWR?" H 4155 1675 50  0001 C CNN
+F 1 "+9V" H 4170 1998 50  0000 C CNN
+F 2 "" H 4155 1825 50  0001 C CNN
+F 3 "" H 4155 1825 50  0001 C CNN
+	1    4155 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FA3EE3C
+P 4440 2525
+F 0 "TP?" H 4498 2645 50  0000 L CNN
+F 1 "cpad" H 4525 2550 50  0000 L CNN
+F 2 "" H 4640 2525 50  0001 C CNN
+F 3 "~" H 4640 2525 50  0001 C CNN
+	1    4440 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5FA3EFB3
+P 2850 1805
+F 0 "J?" H 2956 1983 50  0000 C CNN
+F 1 "powc" H 2956 1892 50  0000 C CNN
+F 2 "" H 2850 1805 50  0001 C CNN
+F 3 "~" H 2850 1805 50  0001 C CNN
+	1    2850 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5FA3F08F
+P 3115 1805
+F 0 "#PWR?" H 3115 1655 50  0001 C CNN
+F 1 "+9V" H 3130 1978 50  0000 C CNN
+F 2 "" H 3115 1805 50  0001 C CNN
+F 3 "" H 3115 1805 50  0001 C CNN
+	1    3115 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA3F0D1
+P 3095 1905
+F 0 "#PWR?" H 3095 1655 50  0001 C CNN
+F 1 "GND" H 3100 1732 50  0000 C CNN
+F 2 "" H 3095 1905 50  0001 C CNN
+F 3 "" H 3095 1905 50  0001 C CNN
+	1    3095 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1805 3115 1805
+Wire Wire Line
+	3050 1905 3095 1905
+Wire Wire Line
+	3855 1925 3855 1985
+Wire Wire Line
+	4155 1825 4155 1875
+Wire Wire Line
+	4155 2075 4155 2100
+Wire Wire Line
+	4350 2100 4155 2100
+Connection ~ 4155 2100
+Wire Wire Line
+	4155 2100 4155 2110
+Wire Wire Line
+	3855 2185 3855 2310
+Wire Wire Line
+	3855 2310 3855 2370
+Connection ~ 3855 2310
+Wire Wire Line
+	3735 2370 3855 2370
+Connection ~ 3855 2370
+Wire Wire Line
+	4155 2510 4155 2525
+Wire Wire Line
+	4440 2525 4155 2525
+Connection ~ 4155 2525
+Wire Wire Line
+	4155 2525 4155 2545
+Wire Wire Line
+	4155 2745 4155 2775
+Wire Wire Line
+	3735 2570 3855 2570
+Wire Wire Line
+	3855 2570 3855 2600
+Connection ~ 3855 2570
+$EndSCHEMATC

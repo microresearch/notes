@@ -1,0 +1,15 @@
+bugs notes in drive
+
+fasthenry:  export PATH=$PATH:/usr/local/xictools/bin/
+
+
+
+python3 cmdline.py --mm --width=40 --height=40 --pitch=6 --trace_width=3 --turns=3 --fasthenry --kicad_mod=ant.kicad_mod --frequency=100e6
+Analysis of 40.0 mm x 40.0 mm 3-turn 6.0 mm pitch 3.0 mm trace inductor at 100.0 MHz
+
+          Inductance: 299.9 nH
+Resonant capacitance: 8.4 pF
+                   Q: 1.5e+03
+
+Footprint written to ant.kicad_mod
+
