@@ -1,0 +1,501 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="260.000mm" height="80.000mm" version="1.1"
+     viewBox="0 0 260.000 80.000"
+     xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" 
+     xmlns:fpd="http://www.schaeffer-ag.de">
+  <desc>Created with the Front Panel Designer by the export of the file 'backsmoke.fpd'.</desc>
+  <defs>
+    <pattern id="revside-fill" x="1" y="1" width="2.600" height="2.600" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="2.600" y2="2.600" style="stroke-width:0.260; stroke:black; stroke-dasharray:none;" />
+      <line x1="0" y1="2.600" x2="2.600" y2="0" style="stroke-width:0.260; stroke:black; stroke-dasharray:none;" />
+    </pattern>
+    <pattern id="revside-fill-silver" x="1" y="1" width="2.600" height="2.600" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="2.600" y2="2.600" style="stroke-width:0.260; stroke:#e0e0e0; stroke-dasharray:none;" />
+      <line x1="0" y1="2.600" x2="2.600" y2="0" style="stroke-width:0.260; stroke:#e0e0e0; stroke-dasharray:none;" />
+    </pattern>
+  </defs>
+<g transform="scale(1,-1) translate( -0.000, -80.000)" 
+   fill-rule="evenodd"
+   style="stroke-linecap:round; stroke-linejoin:round; stroke-opacity:1.0; stroke-opacity:1.0;">
+<path d="
+M260.000 80.000
+L260.000 0.000
+L0.000 0.000
+L0.000 80.000
+L260.000 80.000
+" 
+fill="#000000" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" />
+<path d="
+M14.000 28.486
+A12.000,12.000 0 1,0 38.000,28.486
+A12.000,12.000 0 1,0 14.000,28.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M33.950 16.486
+A1.550,1.550 0 1,0 37.050,16.486
+A1.550,1.550 0 1,0 33.950,16.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M14.950 16.486
+A1.550,1.550 0 1,0 18.050,16.486
+A1.550,1.550 0 1,0 14.950,16.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M14.950 40.486
+A1.550,1.550 0 1,0 18.050,40.486
+A1.550,1.550 0 1,0 14.950,40.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M33.950 40.486
+A1.550,1.550 0 1,0 37.050,40.486
+A1.550,1.550 0 1,0 33.950,40.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M76.800 20.486
+A3.200,3.200 0 1,0 83.200,20.486
+A3.200,3.200 0 1,0 76.800,20.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M89.000 20.486
+A3.200,3.200 0 1,0 95.400,20.486
+A3.200,3.200 0 1,0 89.000,20.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M101.200 20.486
+A3.200,3.200 0 1,0 107.600,20.486
+A3.200,3.200 0 1,0 101.200,20.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M113.400 20.486
+A3.200,3.200 0 1,0 119.800,20.486
+A3.200,3.200 0 1,0 113.400,20.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M12.800 60.486
+A3.200,3.200 0 1,0 19.200,60.486
+A3.200,3.200 0 1,0 12.800,60.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M24.800 60.486
+A3.200,3.200 0 1,0 31.200,60.486
+A3.200,3.200 0 1,0 24.800,60.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M36.800 60.486
+A3.200,3.200 0 1,0 43.200,60.486
+A3.200,3.200 0 1,0 36.800,60.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M48.800 60.486
+A3.200,3.200 0 1,0 55.200,60.486
+A3.200,3.200 0 1,0 48.800,60.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M207.950 70.486
+A4.050,4.050 0 1,0 216.050,70.486
+A4.050,4.050 0 1,0 207.950,70.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M223.950 70.486
+A4.050,4.050 0 1,0 232.050,70.486
+A4.050,4.050 0 1,0 223.950,70.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M207.950 55.486
+A4.050,4.050 0 1,0 216.050,55.486
+A4.050,4.050 0 1,0 207.950,55.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M223.950 55.486
+A4.050,4.050 0 1,0 232.050,55.486
+A4.050,4.050 0 1,0 223.950,55.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M207.950 40.486
+A4.050,4.050 0 1,0 216.050,40.486
+A4.050,4.050 0 1,0 207.950,40.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M223.950 40.486
+A4.050,4.050 0 1,0 232.050,40.486
+A4.050,4.050 0 1,0 223.950,40.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M207.950 25.486
+A4.050,4.050 0 1,0 216.050,25.486
+A4.050,4.050 0 1,0 207.950,25.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M223.950 25.486
+A4.050,4.050 0 1,0 232.050,25.486
+A4.050,4.050 0 1,0 223.950,25.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M207.950 10.486
+A4.050,4.050 0 1,0 216.050,10.486
+A4.050,4.050 0 1,0 207.950,10.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M223.950 10.486
+A4.050,4.050 0 1,0 232.050,10.486
+A4.050,4.050 0 1,0 223.950,10.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M239.950 70.486
+A4.050,4.050 0 1,0 248.050,70.486
+A4.050,4.050 0 1,0 239.950,70.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M239.950 56.486
+A4.050,4.050 0 1,0 248.050,56.486
+A4.050,4.050 0 1,0 239.950,56.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M2.450 74.486
+A1.550,1.550 0 1,0 5.550,74.486
+A1.550,1.550 0 1,0 2.450,74.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M2.450 4.486
+A1.550,1.550 0 1,0 5.550,4.486
+A1.550,1.550 0 1,0 2.450,4.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M54.450 74.486
+A1.550,1.550 0 1,0 57.550,74.486
+A1.550,1.550 0 1,0 54.450,74.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M254.450 4.486
+A1.550,1.550 0 1,0 257.550,4.486
+A1.550,1.550 0 1,0 254.450,4.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M254.450 74.486
+A1.550,1.550 0 1,0 257.550,74.486
+A1.550,1.550 0 1,0 254.450,74.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M54.450 4.486
+A1.550,1.550 0 1,0 57.550,4.486
+A1.550,1.550 0 1,0 54.450,4.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M146.800 20.486
+A3.200,3.200 0 1,0 153.200,20.486
+A3.200,3.200 0 1,0 146.800,20.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M159.000 20.486
+A3.200,3.200 0 1,0 165.400,20.486
+A3.200,3.200 0 1,0 159.000,20.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M171.200 20.486
+A3.200,3.200 0 1,0 177.600,20.486
+A3.200,3.200 0 1,0 171.200,20.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M183.400 20.486
+A3.200,3.200 0 1,0 189.800,20.486
+A3.200,3.200 0 1,0 183.400,20.486
+" 
+fill="#ffffff" fill-opacity="1.000000" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" fpd:print_element="0" />
+<path d="
+M260.000 80.000
+L260.000 0.000
+L0.000 0.000
+L0.000 80.000
+L260.000 80.000
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="0.100mm" stroke-opacity="1.000000" fpd:visible="front back" />
+<path d="
+M-2.699 0.000
+L2.699 0.000
+M0.000 -2.699
+L0.000 2.699
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M23.301 28.486
+L28.699 28.486
+M26.000 25.787
+L26.000 31.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M32.801 16.486
+L38.199 16.486
+M35.500 13.787
+L35.500 19.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M13.801 16.486
+L19.199 16.486
+M16.500 13.787
+L16.500 19.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M13.801 40.486
+L19.199 40.486
+M16.500 37.787
+L16.500 43.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M32.801 40.486
+L38.199 40.486
+M35.500 37.787
+L35.500 43.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M77.301 20.486
+L82.699 20.486
+M80.000 17.787
+L80.000 23.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M89.501 20.486
+L94.899 20.486
+M92.200 17.787
+L92.200 23.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M101.701 20.486
+L107.099 20.486
+M104.400 17.787
+L104.400 23.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M113.901 20.486
+L119.299 20.486
+M116.600 17.787
+L116.600 23.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M13.301 60.486
+L18.699 60.486
+M16.000 57.787
+L16.000 63.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M25.301 60.486
+L30.699 60.486
+M28.000 57.787
+L28.000 63.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M37.301 60.486
+L42.699 60.486
+M40.000 57.787
+L40.000 63.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M49.301 60.486
+L54.699 60.486
+M52.000 57.787
+L52.000 63.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M209.301 70.486
+L214.699 70.486
+M212.000 67.787
+L212.000 73.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M225.301 70.486
+L230.699 70.486
+M228.000 67.787
+L228.000 73.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M209.301 55.486
+L214.699 55.486
+M212.000 52.787
+L212.000 58.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M225.301 55.486
+L230.699 55.486
+M228.000 52.787
+L228.000 58.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M209.301 40.486
+L214.699 40.486
+M212.000 37.787
+L212.000 43.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M225.301 40.486
+L230.699 40.486
+M228.000 37.787
+L228.000 43.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M209.301 25.486
+L214.699 25.486
+M212.000 22.787
+L212.000 28.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M225.301 25.486
+L230.699 25.486
+M228.000 22.787
+L228.000 28.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M209.301 10.486
+L214.699 10.486
+M212.000 7.787
+L212.000 13.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M225.301 10.486
+L230.699 10.486
+M228.000 7.787
+L228.000 13.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M241.301 70.486
+L246.699 70.486
+M244.000 67.787
+L244.000 73.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M241.301 56.486
+L246.699 56.486
+M244.000 53.787
+L244.000 59.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M1.301 74.486
+L6.699 74.486
+M4.000 71.787
+L4.000 77.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M1.301 4.486
+L6.699 4.486
+M4.000 1.787
+L4.000 7.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M53.301 74.486
+L58.699 74.486
+M56.000 71.787
+L56.000 77.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M253.301 4.486
+L258.699 4.486
+M256.000 1.787
+L256.000 7.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M253.301 74.486
+L258.699 74.486
+M256.000 71.787
+L256.000 77.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M53.301 4.486
+L58.699 4.486
+M56.000 1.787
+L56.000 7.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M147.301 20.486
+L152.699 20.486
+M150.000 17.787
+L150.000 23.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M159.501 20.486
+L164.899 20.486
+M162.200 17.787
+L162.200 23.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M171.701 20.486
+L177.099 20.486
+M174.400 17.787
+L174.400 23.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+<path d="
+M183.901 20.486
+L189.299 20.486
+M186.600 17.787
+L186.600 23.185
+" 
+fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="0.100mm" stroke-opacity="1.000000" />
+</g>
+</svg>

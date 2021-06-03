@@ -1,0 +1,167 @@
+#+TITLE: Particle
+#+AUTHOR: Martin Howse
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c) 
+#+CATEGORY:   geophysics
+#+OPTIONS:   H:2 num:nil toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE)
+#+latex_header: \usepackage[a4paper,includeheadfoot,margin=2.54cm]{geometry}
+#+latex_header: \usepackage[final]{pdfpages}.
+#+latex_header: usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+#+latex_header: \AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+
+
+* Concept and theoretical background
+
+file:background_images/invasion.jpg
+
+file:docu_images/P1150644_smokey000sm.JPG 
+
+\noindent
+[the daimon's] pneumatic part grows fat, for it lives on vapours and
+exhalations, in a complex fashion and from complex sources, and it
+draws power from the smoke that rises from industrial chimneys and
+server farms.
+
+[Porphyry. On Abstinence]
+ 
+** Energy exchanges and how these are made manifest as material changes or changes in state 
+
+An instrument to render experiential/audible environmental interactions between
+anthropogenic particles (smoke, dust, particle emissions), "natural"
+particulate matter (pollen, moulds) and environmental conditions (heat, cold,
+wind, ionizing radiation, static electricity).
+
+Changes in state across gas, liquid, solid and particulate matter can
+be classified in terms of fogs, dew, clouds, condensed vapours, air
+particles, and trails of ionising radiation or static ionisation. We
+are interested here in energy gradients and transformations,
+borderline anthropogenic shifts in state.
+
+** The environment as an instrument
+
+It is a sensor or instrument which forms part of its environment and
+which manipulates, stimulates and simulates changes within that environment.
+
+A wider question of how we can sample and make evident small scale
+changes and transitions over different time scales (minutes, days,
+weeks).
+
+Over the last year I have been working on the Heatsick project which
+explored correspondances between diurnal temperature change in
+materials such as earth, stone and air, and the execution or
+algorithm-based temperature changes elicited by computational acts.
+
+Fine-resolution (temporal) temperature changes were recorded in
+different environments and later "re-played" as algorithmic processes
+which produced exactly the same relational changes in heat (but scaled
+up) on different computer processors (within a desktop PC, and on a
+Raspberry PI). Material changes were transformed into software
+producing equal material change within computational hardware.
+
+Similar ideas were later used in a divination-inspired series of
+performances (The Final Session) sonifying the production of smoke
+from timed temperature changes/heat and the timed movement of
+fans. This relied on optical methods of sonification/detection using a
+controlled light source (laser) and light sensor (photo
+detector/diode) which are also widely used in particulate matter (PM)
+sensing for air quality/pollution measurements. These optical particle
+counters detect particulate pollution by measuring the light scattered
+by particles.
+
+
+
+** How does optical particle counting work?
+
+A laser and photodiode are arranged orthogonally such that the focal
+point of the laser is located directly above the photodiode. A small
+fan draws air through the system and across the photodiode. Particles
+in the air stream that intersect the path of the laser scatter light
+onto the photodiode; the resulting voltage signal from the photodiode
+is amplified by an operational amplifier circuit and sampled by a
+micro-controller. Peaks in the resulting waveform correspond to
+particles crossing the photodiode, and can be counted. The amplitude
+of the peaks can be used to roughly approximate the size of particles
+(higher peaks correspond to larger particles).
+
+The major differences to my Final Session being a highly controlled
+air flow across sensor, and the measurement and counting of peaks in
+the waveform.
+
+** How does a cloud chamber work: interactions of saturated clouds and ionizing particles?
+
+file:background_images/chambersm.png
+
+I recently started working again with cloud or particle chambers for
+the visualisation of ionizing radiation from radioactive minerals and
+from the interactions with cosmic rays. I became interested in how
+this demonstrates a further set of energetic interactions with
+varying types of particles and smoke or vapour clouds.
+
+The cloud chamber is based on the same principles that determine the
+formation of clouds in the sky. If air is saturated with water vapor
+and then cooled, tiny droplets of mist form around floating bits of
+dust or other material. They also form readily around ions;
+electrically charged atoms or groups of atoms. When a charged
+particle, such as a proton, passes through the chamber it leaves
+behind a trail of ions as it strikes molecules in the air along its
+path and tears away electrons. Mist droplets form around these ions,
+creating a cloud track.
+
+[ https://home.cern/news/news/experiments/how-make-your-own-cloud-chamber ]
+
+* Current practical research
+
+** How the Final Session performance case works
+
+file:docu_images/P1150663_labelledsm.JPG
+
+- A largely air, water and light-tight case contains heating elements,
+  fan, laser, mirror and photo detector.
+
+- Current through a mesh of nichrome heat wire is controlled to heat
+  various burning/aromatic substances (sage, copal) to produce timed
+  smoke emissions to disturb...
+
+- A collimated green laser beam is bounced off a mirror to hit a
+  photodiode/detector with amplifier which transforms the changes in
+  scattered light intensity into electricity/sound signal
+
+- A fan at the back of the case controls air flow in and out of the
+  case, and of smoke across the beam
+
+- Filters can also be placed across the beam
+
+- Temperature is measured inside the case and can be used to provide
+  timed/controlled feedback
+
+** How it will be developed
+
+- Finer control of smoke production
+- Control of air flow across the light beam and light sensor
+- Analysis of the signal from the light sensor
+- Working with sampled environments - gases, collected air samples can be pumped in to the chamber
+- Series of chambers/pumps for greater control
+- Temperature differentials/replay of temperatures (stored on SD card)
+  controlling peltiers - heating/cooling elements which prompt state
+  changes (to vapours, to smoke, condensing of clouds)
+- Recording and logging of temperatures inside the case
+- Rendered audible in this case/changes can equally be recorded as data and particle sizes measured
+- Further experiments with other vapours and gases, for example supersaturated clouds (isopropyl alcohol as in the cloud chamber)
+- Exploration of further interactions with ionizing radioactive sources, static electricity
+
+* inspirational apparatuses
+
+\noindent
+https://www.wikiwand.com/en/Wire_chamber
+
+\noindent
+https://home.cern/science/experiments/cloud
+
+* further research/references
+
+\noindent
+https://www.instructables.com/id/How-to-Build-a-Portable-Accurate-Low-Cost-Open-Sou/
+
+
+
