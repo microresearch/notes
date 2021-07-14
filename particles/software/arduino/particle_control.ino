@@ -1,13 +1,22 @@
 #include <Adafruit_MAX31865.h>
 
-// measure temp for pi/serial and also do pwm pin 9 for smoking in ramge 20-80 odd degrees
-
-// we could also do temp feedback!
-
 // CLK=13, DO-MISO=12, DI=MOSI=11, CS=8
-
 // use hardware SPI, just pass in the CS pin
+
+// tested with 3x MAX31865, and with relay board
+// Pins 4, 5, 6, and 7 control relays 4, 3, 2, and 1 respectively.
+// commands: read temp1, temp2, temp3 // relay1, relay2 - on/off // output value on pwm1, pwm2 (analogwrite - pins 3 and 10)
+
+// commands: T, U, V to show temperature
+// W to write integer to analogwrite pin 3, E to write pin 10
+// Z, X: on off relay1 pin 7:
+// A, S: on off relay2 pin 6:
+
+
+
 Adafruit_MAX31865 max = Adafruit_MAX31865(8);
+Adafruit_MAX31865 max2 = Adafruit_MAX31865(9);
+Adafruit_MAX31865 max3 = Adafruit_MAX31865(2);
 
 // The value of the Rref resistor. Use 430.0 for PT100 and 4300.0 for PT1000
 #define RREF      430.0
@@ -47,66 +56,97 @@ int readline(int readch, char *buffer, int len) {
 void setup() {
   Serial.begin(115200);
   max.begin(MAX31865_2WIRE);  // set to 2WIRE or 4WIRE as necessary
+  max2.begin(MAX31865_2WIRE);  // set to 2WIRE or 4WIRE as necessary
+  max3.begin(MAX31865_2WIRE);  // set to 2WIRE or 4WIRE as necessary
 
+  pinMode(6, OUTPUT);  // relays
+  pinMode(7, OUTPUT);
+
+  pinMode(3, OUTPUT);  // analogue output
+  pinMode(10, OUTPUT);
+   
   pinMode(8, OUTPUT); // chip select pin must be set to OUTPUT mode
   pinMode(9, OUTPUT);
-  analogWrite(9,0); // start at zero
+  pinMode(2, OUTPUT);
+
+  analogWrite(3,0); // start at zero
+  analogWrite(10,0); // start at zero
+  digitalWrite(6,LOW); 
+  digitalWrite(7,LOW); 
 
 }
 
 void loop() {
-  static int reading;
-  float tempdif;
-  static float lasttemp;
-
-  // if we want to do scaling and write to the FET?
-  // scale between say 20-80 degrees = 70 to 0-255
-  //  uint16_t scaled=(int)((temper-20.0)*6.0);
-  //  if (scaled>255) scaled=255;
-  //    Serial.println(scaled);
-  //  analogWrite(9,scaled);
-  //      while (Serial.available()>0) {
-  //        serIn=Serial.read();
-  //            Serial.println(serIn);
-      //      if (serIn==79) Serial.println(int(temper*100)); // printed *100 and rounded for pi
-  //    }
-  //  tempdif=abs(temper-lasttemp);
-  //  lasttemp=temper;
-  //  Serial.println(temper); // this is temperature
-  //    Serial.write(int(tempdif*100)); // printed *100 and rounded for pi - was println
-  //    Serial.println(int(tempdif*100)); // printed *100 and rounded for pi - was println
-  
+  static int reading, readingg;
+ 
  if (readline(Serial.read(), buf, 80) > 0) {
-   //        Serial.print("You entered: >");
-   //        Serial.print(buf);
-   //        Serial.println("<");
+
    if (reading==1) {
      // get integer and write to anlog
    int anlog=atoi(buf);
-   Serial.print("Heating: ");
+   Serial.print("Out1: ");
    Serial.println(anlog);
-  //    Serial.println(scaled);
    if (anlog>255) anlog=255;
-   analogWrite(9,anlog);
-   
+   analogWrite(3,anlog); // what pins to use for analogwrite?   
    reading=0;
  }
 
-   // commands: T to show temperature
-   //   W to write integer to analogwrite:
+      if (readingg==1) {
+     // get integer and write to anlog
+   int anlog=atoi(buf);
+   Serial.print("Out2: ");
+   Serial.println(anlog);
+   if (anlog>255) anlog=255;
+   analogWrite(10,anlog); // what pins to use for analogwrite?   
+   readingg=0;
+ }
+   
 
+      if (!strcmp(buf, "z")) {
+	digitalWrite(7,HIGH); 
+      }
+
+      if (!strcmp(buf, "x")) {
+	digitalWrite(7,LOW); 
+      }
+
+      if (!strcmp(buf, "a")) {
+	digitalWrite(6,HIGH); 
+      }
+
+      if (!strcmp(buf, "s")) {
+	digitalWrite(6,LOW); 
+      }
+
+      
+      
    if (!strcmp(buf, "t")) {
-     //     uint16_t rtd = max.readRTD();  //not needed
-     //     float ratio = rtd;
      float temper=max.temperature(RNOMINAL, RREF);
-     //     ratio /= 32768;
-
      Serial.println(temper); // this is temperature
-
    }
+
+   if (!strcmp(buf, "u")) {
+     float temper=max2.temperature(RNOMINAL, RREF);
+     Serial.println(temper); // this is temperature
+   }
+
+   if (!strcmp(buf, "v")) {
+     float temper=max3.temperature(RNOMINAL, RREF);
+     Serial.println(temper); // this is temperature
+   }
+
+   
    if (!strcmp(buf, "w")) {
      reading=1;
-     //     Serial.println(reading);
    }
- }
+
+   if (!strcmp(buf, "e")) {
+     readingg=1;
+   }
+
+
+   // commands
+
+   
+ } // readlie
 }
