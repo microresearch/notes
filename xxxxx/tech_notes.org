@@ -1,1 +1,19 @@
-* 30/7/2021+
+* 5/8/2021+
+
+- using many_solstices.py (in contiguity/software) to load locations
+  from csv and output x years of solstice horizon alignments
+
+- for qgis we use python panel to load a full directory of the generated csv,s:
+
+#+BEGIN_SRC python 
+import os.path, glob
+layers=[]
+for file in glob.glob('/root/notes_and_projectsNOW/contiguity_res/software/results/*'): # Change this base path
+  uri = "file:///" + file + "?type=csv&delimiter=%7C&useHeader=No&wktField=field_2&spatialIndex=no&subsetIndex=no&watchFile=no&crs=epsg:4326"
+  vlayer = QgsVectorLayer(uri, os.path.basename(file), "delimitedtext")
+  vlayer.addAttributeAlias(0,'X')
+  vlayer.addAttributeAlias(1,'Y')
+  layers.append(vlayer)
+
+QgsMapLayerRegistry.instance().addMapLayers(layers)
+#+END_SRC
