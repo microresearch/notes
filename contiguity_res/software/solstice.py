@@ -50,11 +50,11 @@ from math import pi, degrees, radians
 from operator import mod
 import ephem
 
-year = 2017
-month = 6
-day = 21
-longitude = -1.826165 # [degrees] - keep to stonehenge just to check and see...
-latitude = 51.178848  # [degrees]
+# year = 2017
+# month = 6
+# day = 21
+# longitude = -1.826165 # [degrees] - keep to stonehenge just to check and see...
+# latitude = 51.178848  # [degrees]
 elevation = 101.5     # elevation above sea level [meters]
 
 # now try with one of our power stations
@@ -64,16 +64,16 @@ elevation = 101.5     # elevation above sea level [meters]
 #latitude= 48.515120
 
 # For Messene location of Temple of Asclepius
-longitude = 21.92050694
-latitude= 37.17559276
+#longitude = 21.92050694
+#latitude= 37.17559276
 
-# try for location of monastery in Klosterstrasse:
-longitude=13.4120535
-latitude=52.5184131667
+# try for location of monastery in Klosterstrasse = make more precise: 13.41293,52.51854
+longitude=13.41285
+latitude=52.51854
 
 height = 2            # height of observer [meters] - whether we use height?
 timezone_offset = 3   # time offset from UTC time [hours] - 3 for Greece - we don't use this
-label_distance = 500  # distance along ephemeris vector [meters]
+label_distance = 100  # distance along ephemeris vector [meters]
 
 obs = ephem.Observer()
 obs.long, obs.lat = str(longitude), str(latitude) 
@@ -125,24 +125,24 @@ def calculate_geographic_offset(azimuth_angle,altitude_angle, distance):
 #     })
 
 data = []
-for dayz in range(0,30):
-    date = datetime(year,month,day)+timedelta(days=dayz)
-    obs.date = '{year}/{month}/{day} {hour}:{minute}'.format(
-        year = date.year,
-        month = date.month,
-        day = date.day,
-        hour = date.hour,
-        minute = date.minute,
-    )
+# for dayz in range(0,30):
+#     date = datetime(year,month,day)+timedelta(days=dayz)
+#     obs.date = '{year}/{month}/{day} {hour}:{minute}'.format(
+#         year = date.year,
+#         month = date.month,
+#         day = date.day,
+#         hour = date.hour,
+#         minute = date.minute,
+#     )
 
-    sunrise=obs.next_rising(sun)
-    obs.date=sunrise
-    sun.compute(obs)    
-    data.append({
-        'datetime UTC': obs.date,
-        'azimuth_angle': sun.az.real,
-        'altitude_angle': sun.alt.real,
-    })
+#     sunrise=obs.next_rising(sun)
+#     obs.date=sunrise
+#     sun.compute(obs)    
+#     data.append({
+#         'datetime UTC': obs.date,
+#         'azimuth_angle': sun.az.real,
+#         'altitude_angle': sun.alt.real,
+#     })
 
     
 #print data
@@ -153,7 +153,7 @@ for dayz in range(0,30):
 
 # cycle through 100 years of next solstic dates
 
-for i in range(2021, 3021, 10): #? was (2018, 12018, 100)? # now 1000 years?
+for i in range(1571, 1584, 1): #? was (2018, 12018, 100)? # now 1000 years?
     d1 = ephem.next_solstice(str(i)) # how can we get all sunrises?
     #    print(d1)
     #    obs.date=datetime(year,month,day)

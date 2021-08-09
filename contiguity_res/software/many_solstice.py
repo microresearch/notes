@@ -6,6 +6,20 @@ TODO:
 - open text file for writing data (name+???)
 - process and print to text file
 
+To open all the CSVs as layers we use this pythin script in qgis python interpreter box:
+
+import os.path, glob
+layers=[]
+for file in glob.glob('/root/notes_and_projectsNOW/contiguity_res/software/results/*'): # Change this base path
+  uri = "file:///" + file + "?type=csv&delimiter=%7C&useHeader=No&wktField=field_2&spatialIndex=no&subsetIndex=no&watchFile=no&crs=epsg:4326"
+  vlayer = QgsVectorLayer(uri, os.path.basename(file), "delimitedtext")
+  vlayer.addAttributeAlias(0,'X')
+  vlayer.addAttributeAlias(1,'Y')
+  layers.append(vlayer)
+
+QgsMapLayerRegistry.instance().addMapLayers(layers)
+
+
 '''
 
 from datetime import datetime, timedelta
