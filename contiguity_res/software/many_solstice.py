@@ -1,12 +1,16 @@
 #!/usr/bin/python
 '''
-TODO: 
 
-- open text file and for each line read in name, long and lat 
-- open text file for writing data (name+???)
-- process and print to text file
+10,000 summer solstice sunrises charts the alignment of the rising sun
+on the summer solstice every 10 years over the course of 10,000 years
+at key human infrastructural locations, such as power stations,
+nuclear waste dumps and server farms.
 
-To open all the CSVs as layers we use this pythin script in qgis python interpreter box:
+We need a CSV named places.csv with lines with name, longitude and latitude.
+
+VAKKahl am Main, 50.0591294, 8.9871812, BWR, 15, 1960–1985, 
+
+To open all the CSVs as layers we use this python script in qgis python interpreter box:
 
 import os.path, glob
 layers=[]
@@ -71,19 +75,15 @@ for row in data:
     longitude=float(row[2]) ## was reversed
     latitude=float(row[1])
     name=row[0]
-    #print longitude, latitude, name
     obs = ephem.Observer()
     obs.long, obs.lat = str(longitude), str(latitude) 
     obs.elev = elevation + height
     sun = ephem.Sun()
 
-    #open file name
     f=open("results/"+name, "w")
     
-    for i in range(2021, 12021, 100): #? was (2018, 12018, 100)? 10,000 years of solstice sunrises
-        d1 = ephem.next_solstice(str(i)) # how can we get all sunrises?
-        #    print(d1)
-        #    obs.date=datetime(year,month,day)
+    for i in range(2021, 12021, 100): # 10,000 years of solstice sunrises - every 100 years
+        d1 = ephem.next_solstice(str(i)) 
         obs.date=d1
         obs.horizon= '-0.34'
 
@@ -99,10 +99,7 @@ for row in data:
         lon = longitude + degrees(delta_lon_rad)
         lat = latitude + degrees(delta_lat_rad)
         alt = height + delta_alt
-        #print str(ephem.localtime(sunrise))+"|LINESTRING("+str(longitude)+" "+str(latitude)+","+str(lon)+" "+str(lat)+")" # notes this is OUR localtime in GERMANY
+
         sunrise=ephem.Date(sunrise + 2 * ephem.hour)
-    # write to file with name
-    
-        f.write(str(sunrise)+"|LINESTRING("+str(longitude)+" "+str(latitude)+","+str(lon)+" "+str(lat)+")"+"\n") # notes this is OUR localtime in GERMANY - THIS ONE TO USE!
-        #print str(sunrise)+"|LINESTRING("+str(longitude)+" "+str(latitude)+","+str(lon)+" "+str(lat)+")"
-    f.close()
+        f.write(str(sunrise)+"|LINESTRING("+str(longitude)+" "+str(latitude)+","+str(lon)+" "+str(lat)+")"+"\n") 
+        f.close()

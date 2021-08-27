@@ -1,3 +1,61 @@
+* 16/8/2021
+
+- altered arduino code for contiguity residency - self measurement code so that via serial we have commands:
+
+l for list sd card, d and then type number of file to dump!
+
+- for particles/target processor (we need to add pt100 sensor to
+  atmega) we have kimuno code on atmega328 16MHz and we want to upload
+  code for kim to the processor (eventually over hardware serial
+  using commands in particle_control.ino but for now we test on
+  minicom
+
+seem able to send (with 20msec delay for char and 200msec for line0
+
+commands in 6502
+TAB - get into terminal mode
+L - to load
+[S in minicom - send software]
+0200 (or start) + SPC
+G - to run 
+
+but doesn't print correctly - or software not set for serial but in
+other display mode is also odd...
+
+but microchess at 0c000 in kimuno rom seems to display ok, also loads
+from ptp but then runs without stop
+
+///
+
+TODO: how to assemble/compile code to ptp / papertape files:
+
+http://retro.hansotten.nl/6502-sbc/kim-1-manuals-and-software/kim-replicas-and-clones/load-papertape-format/
+
+arduino code to set serial settings and send code on soft serial
+to target (and how to test if is running on target - call and response)
+
+2,3 RX, TX... to 11,10 in example code for softwareserial seems to work 
+
+- TODO: try loading code and see if temperature changes on running code...
+
+* 12/8/2021
+
+we measure temperature of atmega328u in atmega board - measuring itself...
+
+set terminal png
+set output "test.png"
+plot "owntempmeasured12082021" with lines
+
+"upload with programmer" in arduino was key!
+
+* 10/8/2021
+
+: jupyter notebook --allow-root
+
+copy sections for plotting, what we can plot and how (eg. space between)
+
+librecad is for dxf
+
 * 5/8/2021+
 
 - using many_solstices.py (in contiguity/software) to load locations
