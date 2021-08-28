@@ -1,3 +1,11 @@
+* 27/8/2021
+
+https://rhodesmill.org/pyephem/quick.html#phases-of-the-moon
+
+https://gist.github.com/jgrocha/11259d44e2906bfc8bc0
+
+https://michelanders.blogspot.com/2011/01/moon-phases-with-pyephem.html
+
 * 16/8/2021
 
 - altered arduino code for contiguity residency - self measurement code so that via serial we have commands:

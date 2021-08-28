@@ -1,3 +1,4 @@
+
 #include <Adafruit_MAX31865.h>
 
 // measure temp for pi/serial and also do pwm pin 9 for smoking in ramge 20-80 odd degrees
@@ -44,6 +45,8 @@ void loop() {
   //    }
   tempdif=abs(temper-lasttemp);
   lasttemp=temper;
-    Serial.write(int(tempdif*100)); // printed *100 and rounded for pi - was println
+  Serial.println(temper);
+
+  //    Serial.write(int(tempdif*100)); // printed *100 and rounded for pi - was println
   //    Serial.println(int(tempdif*100)); // printed *100 and rounded for pi - was println
 }
