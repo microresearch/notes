@@ -1,0 +1,77 @@
+* Deprecation: Rotting Registers /// (25 minutes) presentation
+
+** notes so far from notebook
+
+*** 1- what is a SR? with lots of diagrams, audio examples maybe, what it is used for
+
+In the rarified realm of digital designers, an equivalent to the
+Ouroboros is the linear-feedback-shift register (LFSR), in which the
+output from a standard-shift register is manipulated and fed back to
+its input so as to cause the function to endlessly cycle through a
+sequence of patterns.
+
+Much like the Ouroboros, LFSRs keep on rearing their heads again and
+again and again, because however much you know, there are always more
+tricks to learn. The great psychoanalyst Carl Jung speculated that the
+Ouroboros could be part of the collective consciousness, so had he
+dabbled in electronics, he may well have considered LFSRs to form part
+of the digital consciousness. Hold onto that couch, Carl; I’m on my
+way! [EDN website/beebop boolean boogie]
+
+describe an obsession - SR as ouroboros, SR as Swiss project title, SR
+as geological, as depth and as circulation, enacted in bits in
+algorithmic time, SR as particulate.
+
+serial to parallel
+
+*** 2- feedback loops, geological feedback loops - images form stack, frame, heap
+
+we inhale and ingest our own geological indicators (metals, isotopes, markers)
+
+that it is not outside us, we eat and inhale our own - belonging to
+us, anthropogenic - signifiers of the becoming geological (not just
+marking an outside, but an inside, a double psychological loop)
+
+*** 3- what SR in the earth could be - as intro to becoming geological
+
+becoming geo-logical!
+
+becoming geological, preserved, immortal, supposedly protected against decay. to be immortal is to be dead.
+
+logic is antithetical and opposed to the earth
+
+what are the naive necessities for logic or SR in the earth:
+
+- that it must be transmissable and measurable (it cannot be indeterminate or die out)
+- that it must be within the limit of certain thresholds (to signify a 1 or a 0 and be able to pass this on)
+- non-linearity of logical operations (eg. XOR)
+- bounded cells, no leakage, no less, no decay
+- it can be clocked or strobed to define certain operations - the timing is event-driven, of thresholds, discontinuous and discrete
+- that the measurable nature of the energetic transforms employed (eg. electrochemical, thermodynamic) are common to input and outputs
+- that the measurable nature of the energetic transforms is not subject to interference from other flows or transformations
+
+what types of logic are there? such as fluid gates, heat gates
+
+*** conclusion - particulate logics maybe?
+
+** notes on particles and becoming geological to incorporate [mummy, chinese alch images]
+
+- link SR and Tiny Mining
+
+I started thinking about the ingestion of particles, starting to think
+if this becoming geology through ingestion is not so foreign to
+humanity so far - the project of a becoming immortal as a dead or
+undecaying geological mummy. The anthropocene could be seen as some
+kind of circular ingestion of the markers of our own entry into
+geological timeframes, which seems to have a familiar logic!
+
+if the project of humanity is not this becoming geological - becoming
+immortal as a dead or undying body of jade or mercury (Chinese Alchemy)
+
+the questionable term of the anthropocene is re-written as the
+ingestion and inhalation of our "own" entry point into geological
+time. (explain this with ref to radioactive tracers, markers)
+
+radio-active dating slewed by ingestion and uptake of anthrogenic markers  (another feedback loop)
+
+- feedback loops of warming and particulate exhalations of burning forests
