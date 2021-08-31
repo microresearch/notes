@@ -1,8 +1,6 @@
 * Deprecation: Rotting Registers /// (25 minutes) presentation
 
-** notes so far from notebook
-
-*** 1- what is a SR? with lots of diagrams, audio examples maybe, what it is used for
+** 1- what is a SR? with lots of diagrams, audio examples maybe, what it is used for
 
 In the rarified realm of digital designers, an equivalent to the
 Ouroboros is the linear-feedback-shift register (LFSR), in which the
@@ -24,7 +22,7 @@ algorithmic time, SR as particulate.
 
 serial to parallel
 
-*** 2- feedback loops, geological feedback loops - images form stack, frame, heap
+** 2- feedback loops, geological feedback loops - images form stack, frame, heap
 
 we inhale and ingest our own geological indicators (metals, isotopes, markers)
 
@@ -32,7 +30,7 @@ that it is not outside us, we eat and inhale our own - belonging to
 us, anthropogenic - signifiers of the becoming geological (not just
 marking an outside, but an inside, a double psychological loop)
 
-*** 3- what SR in the earth could be - as intro to becoming geological
+** 3- what SR in the earth could be - as intro to becoming geological
 
 becoming geo-logical!
 
@@ -52,9 +50,9 @@ what are the naive necessities for logic or SR in the earth:
 
 what types of logic are there? such as fluid gates, heat gates
 
-*** conclusion - particulate logics maybe?
+** conclusion - particulate logics maybe?
 
-** notes on particles and becoming geological to incorporate [mummy, chinese alch images]
+*** notes on particles and becoming geological to incorporate [mummy, chinese alch images]
 
 - link SR and Tiny Mining
 
