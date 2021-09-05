@@ -4,7 +4,7 @@
 
 // TODO: read serial for 2 commands: l-list files
 // d dump file x (monk+number)
-
+// r reset and try open from scratch all
 
 // plot with gnuplot: find more software for png etc. just to test
 // plot "/root/test2" with lines
@@ -16,6 +16,7 @@
 // Adafruit_MAX31865::Adafruit_MAX31865(int8_t spi_cs, int8_t spi_mosi, int8_t spi_miso, int8_t spi_clk) {
 Adafruit_MAX31865 max = Adafruit_MAX31865(3, 4, 5, 6);
 
+//void(* resetFunc) (void) = 0;
 
 // use hardware SPI, just pass in the CS pin
 //Adafruit_MAX31865 max = Adafruit_MAX31865(10);
@@ -30,14 +31,16 @@ Adafruit_MAX31865 max = Adafruit_MAX31865(3, 4, 5, 6);
 
 int chipSelect = 10; // CS=chip select pin for the MicroSD Card Adapter
 File file; // file object that is used to read and write data
-char filename[7]="monk00";
+//char filename[7]="monk00";
 int nott=0;
 
 char line[10];
 char buf[80];
-char filenamen[7]="monk";
+char filename[12]="monk";
+char filenamen[12]="";
 
-void printDirectory(File dir, int numTabs) {
+int printDirectory(File dir, int numTabs) {
+  int numfiles=0;
   dir.seek(0); /////// Add seek ///////////////////
   while(true) {
           File entry =  dir.openNextFile();
@@ -50,7 +53,7 @@ void printDirectory(File dir, int numTabs) {
        Serial.print('\t');
      }
      Serial.print(entry.name());
-
+     numfiles++;
      if (entry.isDirectory()) {
        Serial.println("/");
        printDirectory(entry, numTabs+1);
@@ -61,6 +64,7 @@ void printDirectory(File dir, int numTabs) {
      }     
      entry.close();
    }
+  return numfiles;
 }
 
 int readline(int readch, char *buffer, int len) {
@@ -90,6 +94,10 @@ int readline(int readch, char *buffer, int len) {
     return 0;
 }
 
+unsigned char charrr[8];
+File root;
+
+
 void setup() {
   Serial.begin(115200);
   pinMode(8, OUTPUT); // chip select pin must be set to OUTPUT mode
@@ -101,6 +109,8 @@ void setup() {
   SPI.begin();
   SPI.setDataMode(SPI_MODE1);  
 
+  Serial.println(" l: list files d: dump file x (monk+number)");
+  
   max.begin(MAX31865_2WIRE);  // set to 2WIRE or 4WIRE as necessary
   delay(500);
 
@@ -120,37 +130,23 @@ void setup() {
 	  digitalWrite(7, LOW);
 	  }
   
-  // increment name of file
-
-      strcpy(filename, "monk00");  filename[6]='\0';
-    // open new file
-      ////
-      nott=0;
-      while(nott==0){
-
-      for (filename[4] = '0'; filename[4] <= '9'; filename[4]++) {
-	for (filename[5] = '0'; filename[5] <= '9'; filename[5]++) {
-	  if(!SD.exists(filename)){
-	    file = SD.open(filename, FILE_WRITE); // open "file.txt" to write data
-	    nott=1;
-	    break;
-	  }
-	  //	else file.close();
-	if (nott==1) break;
-	}
-	if (nott==1) break;
-      }
-	}
-      delay(2000);
-
-      Serial.print("Opened filename: "); 
-      Serial.println(filename);
-  
+  // xx
+    root = SD.open("/");
+    int numfiles=printDirectory(root, 0);
+    numfiles++;
+    itoa(numfiles,charrr,10);
+    strcpy(filenamen,filename);
+    strcat(filenamen, charrr);
+    if(!SD.exists(filenamen)){
+      file = SD.open(filenamen, FILE_WRITE); // open "file.txt" to write data
+    }
+    Serial.print("Opened filename: "); 
+    Serial.println(filenamen);
+    delay(1000);
 }
 
 void loop() {
   static int reading=0;
-  File root;
   //  if (file) {
   //       uint16_t rtd = max.readRTD();
     //  uint16_t lighter;
@@ -164,7 +160,7 @@ void loop() {
     //  lighter=analogRead(0);
   //  Serial.print(lighter);
   //  Serial.print(", ");
-  SPI.setDataMode(SPI_MODE1);  
+  //  SPI.setDataMode(SPI_MODE1);  
   //  Serial.println(max.temperature(RNOMINAL, RREF));
 
   // concat lighter and temperature
@@ -180,90 +176,80 @@ void loop() {
   
  if (readline(Serial.read(), buf, 80) > 0) {
 
-   if (reading==1) {
+   /*   if (!strcmp(buf, "r")) { // reset all
+     resetFunc();
+     }*/
+   
+   if (!strcmp(buf, "d")) { // dump file
+     //     reading=1;
+     //   if (reading==1) {
      // close last file
      file.close();
      // get integer and dump that file monkxx
      // buf is with number
      // make new filenamen with number
-     strcat(filenamen, buf);
+     int num=Serial.parseInt();
+     itoa(num,charrr,10);
+     strcpy(filenamen,filename);
+     strcat(filenamen, charrr);
+     Serial.print("Opening filename: "); 
+     Serial.println(filenamen);
+
      file = SD.open(filenamen, FILE_READ); 
      delay(1000);
      if (file){
        Serial.print("Opened filename: "); 
        Serial.println(filenamen);
      }
+     else
+       {
+       Serial.println("FAILED");
+       }
   
   if (file) {
     while (file.available()) {
       Serial.write(file.read());
     }
-  }
+    //  }
   
      file.close();
+     delay(500);
      // open new file to write data to
-      strcpy(filename, "monk00");  filename[6]='\0';
-    // open new file
-      ////
-            nott=0;
-      while(nott==0){
-
-      for (filename[4] = '0'; filename[4] <= '9'; filename[4]++) {
-	for (filename[5] = '0'; filename[5] <= '9'; filename[5]++) {
-	  if(!SD.exists(filename)){
-	    file = SD.open(filename, FILE_WRITE); // open "file.txt" to write data
-	    nott=1;
-	    break;
-	  }
-	  //	else file.close();
-	if (nott==1) break;
-	}
-	if (nott==1) break;
-      }
-	}
-      delay(2000);
-
-      Serial.print("Opened filename: "); 
-      Serial.println(filename);
-     reading=0;
+    root = SD.open("/");
+    int numfiles=printDirectory(root, 0);
+    numfiles++;
+    itoa(numfiles,charrr,10);
+    strcpy(filenamen,filename);
+    strcat(filenamen, charrr);
+    if(!SD.exists(filenamen)){
+      file = SD.open(filenamen, FILE_WRITE); // open "file.txt" to write data
+    }
+    Serial.print("Opened filename: "); 
+    Serial.println(filenamen);
+    delay(1000);
+      reading=0;
    }
 
-   if (!strcmp(buf, "d")) { // dump file
-     reading=1;
+
    }
 
    if (!strcmp(buf, "l")) {
      //      Serial.println("l");
      file.close();
+     delay(500);
      // print the list the files
      root = SD.open("/");
-     printDirectory(root, 0);
-     // open new file to write data to
-      strcpy(filename, "monk00");  filename[6]='\0';
-    // open new file
-      ////
-      nott=0;
-      while(nott==0){
-
-      for (filename[4] = '0'; filename[4] <= '9'; filename[4]++) {
-	for (filename[5] = '0'; filename[5] <= '9'; filename[5]++) {
-	  if(!SD.exists(filename)){
-	    file = SD.open(filename, FILE_WRITE); // open "file.txt" to write data
-	    nott=1;
-	    break;
-	  }
-	  //	else file.close();
-	if (nott==1) break;
-	}
-	if (nott==1) break;
-      }
-	}
-      delay(2000);
-
-      Serial.print("Opened filename: "); 
-      Serial.println(filename);
-
-
+    int numfiles=printDirectory(root, 0);
+    numfiles++;
+    itoa(numfiles,charrr,10);
+    strcpy(filenamen,filename);
+    strcat(filenamen, charrr);
+    if(!SD.exists(filenamen)){
+      file = SD.open(filenamen, FILE_WRITE); // open "file.txt" to write data
+    }
+    Serial.print("Opened filename: "); 
+    Serial.println(filenamen);
+    delay(1000);
    }
  }
 }

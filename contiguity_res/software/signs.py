@@ -23,6 +23,7 @@ def format_angle_as_time(a):
 
 def print_ephemeris_for_date(date, bodies):
     date = Date(date)
+    #    date = now()
     print datetime.datetime(*date.tuple()[:3]).strftime('%A')[:2],
     print '{0:02}'.format(date.tuple()[2]),
     greenwich = Observer()
@@ -57,4 +58,6 @@ def print_ephemeris_for_year(year):
         print_ephemeris_for_month(year, month, bodies)
         print
 
-print_ephemeris_for_year(2021)
+#print_ephemeris_for_year(2021)
+
+print_ephemeris_for_month(2021, 9, [Moon()])

@@ -127,7 +127,7 @@ print str(suntime)+"|LINESTRING("+str(longitude)+" "+str(latitude)+","+str(lon)+
 #and for 1575 now
 obs.date= ephem.Date('1575/08/31 14:48:45.12')
 sun.compute(obs)
-suntime=ephem.Date('1575/08/31 14:48:45.12')b
+suntime=ephem.Date('1575/08/31 14:48:45.12')
 delta_lat_rad, delta_lon_rad, delta_alt = calculate_geographic_offset(
     azimuth_angle=radians(adjust_heading_degrees(degrees(sun.az.real))),
     altitude_angle=sun.alt.real,
