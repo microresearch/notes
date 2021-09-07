@@ -1,5 +1,8 @@
 * Deprecation: Rotting Registers /// (25 minutes) presentation
 
+images cycle in background: - SR project, dissolutions etc, mummy, TM
+images (sweatshop, sonic acts pres).
+
 ** 1- what is a SR? with lots of diagrams, audio examples maybe, what it is used for
 
 In the rarified realm of digital designers, an equivalent to the
@@ -16,21 +19,125 @@ dabbled in electronics, he may well have considered LFSRs to form part
 of the digital consciousness. Hold onto that couch, Carl; I’m on my
 way! [EDN website/beebop boolean boogie]
 
-describe an obsession - SR as ouroboros, SR as Swiss project title, SR
-as geological, as depth and as circulation, enacted in bits in
-algorithmic time, SR as particulate.
+*** what exactly is a shift register - how does it operate
 
-serial to parallel
+A shift register is a type of digital circuit using a cascade of flip
+flops where the output of one flip-flop is connected to the input of
+the next. They share a single clock signal, which causes the data
+stored in the system to shift from one location to the next. By
+connecting the last flip-flop back to the first, the data can cycle
+within the shifters for extended periods, and in this form they were
+used as a form of computer memory. In this role they are very similar
+to the earlier delay line memory systems and were widely used in the
+late 1960s and early 1970s to replace that form of memory.
 
-** 2- feedback loops, geological feedback loops - images form stack, frame, heap
+[wikipedia] - key characteristics - the movement of well-defined data
+from one cell to another as a form of memory, which is against
+disintegration, and dissolution - that these material forms such as
+the delay line were built on necessary decay - acoustic delay line,
+light delay line, gin story! - re-circulation against loss!
 
-we inhale and ingest our own geological indicators (metals, isotopes, markers)
+[serial to parallel]
 
-that it is not outside us, we eat and inhale our own - belonging to
-us, anthropogenic - signifiers of the becoming geological (not just
-marking an outside, but an inside, a double psychological loop)
+http://www.righto.com/2014/12/inside-intel-1405-die-photos-of-shift.html
 
-** 3- what SR in the earth could be - as intro to becoming geological
+*** the first shift register? collosus
+
+One of the first known examples of a shift register was in the Mark 2
+Colossus, a code-breaking machine built in 1944. It was a six-stage
+device built of vacuum tubes and thyratrons. A shift register was
+also used in the IAS machine, built by John von Neumann and others at
+the Institute for Advanced Study in the late 1940s.
+
+e program but with different input data from the tape, an effective
+speed of 25,000 characters per second was obtained and was
+enough. Five separate processors presented little difficulty. A
+photoelectric reader to supply them with data would have to read six
+lines of tape simultaneously, however, and would be very difficult to
+construct. Six lines were needed so that two consecutive but different
+lines could be presented to each of the five processors. This
+difficulty was solved by shift registers invented for the
+purpose. Data read from the tape were read into six-bit shift
+registers, which meant that six consecutive characters from the
+message tape were available for processing using a tape reader that
+had to read only one line at a time and was thus simplified compared
+with the readers first used with the Robinson machine.
+
+*** To describe an obsession - SR as ouroboros
+
+Providing a link between the technological and the mystical (how to put this)
+
+*** SR as Swiss project title
+
+- that part of this lecture is about explaining how that title was
+  chosen and what it means so to explain here would make us ahead of
+  ourselves.
+
+What that project was about? 
+
+how we can render experiential the questionable markers of the anthropocene?
+
+*** SR as geological, as depth and as circulation
+
+that there is something geological and stratified about the shift
+register, data is shuffled down the line
+
+but the SR is enacted in bits in algorithmic time, SR as
+particulate/discrete/digital in a sense.
+
+*SR is a discrete form of circulation*
+
+SR forms one link between the digital and the geological...
+
+at the same time the SR is somehow organic - there is the transition
+from something dying or decaying (losing its identity, its unitary
+body) to become something living. catholic shift registers of
+resurrection... alive until it dies again and is reborn in a new
+identity. what it inherits from the oroborus in terms of philosophy.
+
+started thinking about Samuel Beckett's stones or pebbles:
+
+I took advantage of being at the seaside to lay in a store of
+sucking-stones. They were pebbles but I call them stones. Yes, on this
+occasion I laid in a considerable store. I distributed them equally
+between my four pockets, and sucked them turn and turn about. This
+raised a problem which I first solved in the following way. I had say
+sixteen stones, four in each of my four pockets these being the two
+pockets of my trousers and the two pockets of my greatcoat. Taking a
+stone from the right pocket of my greatcoat, and putting it in my
+mouth, I replaced it in the right pocket of my greatcoat by a stone
+from the right pocket of my trousers, which I replaced by a stone from
+the left pocket of my trousers, which I replaced by a stone from the
+left pocket of my greatcoat, which I replaced by the stone which was
+in my mouth, as soon as I had finished sucking it. Thus there were
+still four stones in each of my four pockets, but not quite the same
+stones
+
+And looking into what this could have to do with Shift Registers when
+I found this:
+
+Another type of Gray code, the Beckett–Gray code, is named for Irish
+playwright Samuel Beckett, who was interested in symmetry. His play
+"Quad" features four actors and is divided into sixteen time
+periods. Each period ends with one of the four actors entering or
+leaving the stage. The play begins with an empty stage, and Beckett
+wanted each subset of actors to appear on stage exactly once.
+
+Clearly the set of actors currently on stage can be represented by a
+4-bit binary Gray code. Beckett, however, placed an additional
+restriction on the script: he wished the actors to enter and exit so
+that the actor who had been on stage the longest would always be the
+one to exit. The actors could then be represented by a first in, first
+out queue (a shift register), so that (of the actors onstage) the
+actor being dequeued is always the one who was enqueued first.
+
+gray code: an ordering of the binary numeral system such that two successive values differ in only one bit (binary digit). 
+
+Beckett was unable to find a Beckett–Gray code for his play, and
+indeed, an exhaustive listing of all possible sequences reveals that
+no such code exists for n = 4.
+
+** 2- what SR in the earth could be - as intro to becoming geological
 
 becoming geo-logical!
 
@@ -50,7 +157,53 @@ what are the naive necessities for logic or SR in the earth:
 
 what types of logic are there? such as fluid gates, heat gates
 
-** conclusion - particulate logics maybe?
+that it is already geological - the shift registers of extraction and
+return, of refinement, depracation, obsolesence and return to the
+earth - 
+
+// repeating and circling text
+
+copper is extracted from the earth (according to speculative
+algorithms running on hardware which is partially dependent on the
+future extraction of these metals or at least geological and
+metallurgical research into alternative resources which will inform
+and affect the extraction of these and other elements), refined (here
+is the link to the SR, the cut - where we wrote on this/Peter
+article - Barad a meeting of two disparate and heavily refined
+materials taking good advantage of the asymmetric conduction of
+electric current between a crystal and a metal, the “cut”1 between two
+apparently discrete materials or objects. the cut as language) and
+reworked, re-combined with other equally refined mineralities to
+fulfill the demands of logic or the SR in the earth that we
+mentioned...
+
+extracted, refined, deprecated like any protocol, abandoned, rendered
+obsolete, once again refined and seperated from any other unwanted
+elements (which are returned to the earth with traces of that use and
+of those other constituents), to be re-used ideally within new logics,
+or quite possibly the same logical structures embedded in "new"
+interfaces, promoted algorithmicallly by hardware  which ...
+
+is partially dependent on the future extraction of these metals or at
+least geological and metallurgical research into alternative resources
+which will inform and affect the extraction of these and other
+elements), refined (here is the link to the SR, the cut - where we
+wrote on this/Peter article - Barad) and reworked, re-combined with
+other equally refined mineralities to fulfill the demands of logic or
+the SR in the earth that we mentioned...
+
+** 3- more feedback loops, geological feedback loops 
+
+and as a necessary byproduct of these loops:
+
+we inhale and ingest our own geological indicators (metals, isotopes, markers)
+
+that it is not outside us, we eat and inhale our own - belonging to
+us, anthropogenic - signifiers of the becoming geological (not just
+marking an outside, but an inside, a double psychological loop)
+
+
+** conclusion - towards decaying, mortal particulate logics
 
 *** notes on particles and becoming geological to incorporate [mummy, chinese alch images]
 
