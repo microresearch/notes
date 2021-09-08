@@ -1,0 +1,199 @@
+* Towards a USB-powered invocation/instruction
+
+- list of possible invocations as array in FLASH
+
+- we need to retrieve these in new order and so is exactly 512 bytes (can pad out to this with zeroes) TEST this in c code...
+
+- test moon code - either we use moon degrees/house to select or we
+  only deliver when moon is in LIBRA (180 to 210 degrees) for
+  necromancy and issue statement to this effect
+
+PGM VII 284-99
+
+Orbit of the Moon. In Libra: necromancy.
+
+- add in RTC code for 1307
+
+- test all together and cast
+
+* code is in 
+
+  /root/notes_and_projectsNOW/contiguity_res/software/enstix/sources:
+
+but apart from LUFA copy here for git
+
+* sources for invocations
+
+** scooter code
+
+const char *wildcards[22] = {"jumponthescooterandrideto",
+			     "takeESSIDXstepsforward=",
+			     "Shopcloseto",
+			     "Crawlskinbackto",
+			     "Buyandfollowacableto",
+			     "Toast-eatairwire1-0sign",
+			     "Followtheoneseennow",
+			     "go-undergroundto",
+			     "Remainstayandstrugglewith",
+			     "Repeat-thismessagetolastmessagee",
+			     "gotofoundreceivertosscoins",
+			     "dolastinstructionagaincomment",
+			     "turnatnextcrossroads",
+			     "reversedirectionXsteps=",
+			     "leftfromthenext",
+			     "doitagaindarklyfollow",
+			     "goinsidenearest",
+			     "watchsignsshinesto",
+			     "revealitandshowitto",
+			     "climbnearest",
+			     "feedcrows-scatterclouds",
+			     "gameover-returnto"
+};
+
+// add a modifier: 0=none, 1-number, 2=operands, 3=instruction
+
+char wildifmod[22]={2,1,2,2,2,0,0,2,2,0,0,0,0,1,2,2,2,2,2,2,0,2};
+
+const char *cards[22] = {"FOOL","MAGIC","WITCH","QUEEN","KING","AMETHYST","LOVERS","CAR","ADJUST","HERMIT","FORTUNE","LUST","HANGED","DEATH","ART","DEVIL","TOWER","STAR","MOON","SUN","AEON","UNIV"};
+
+const char *conditions[22] = {"Begin","always","letme","ifopen","0x","if","EQU","0x","else","Never","when","Forever","CMP","ifending","ifnot","ifalways","WAIT","when","ifnight","ifday","LOOP","-->"};
+
+char condif[22]={1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0};
+
+const char *cond_operands[22] = {"start","want","guided","oppose","ordered","hidden","two","inmotion","equal","alone","surplus","longing","changing","ending","ZERO","shadow","BRK","shining","reflecting","day","forever","returned"};
+
+const char *instruction[22]={"ride","want","dream","bury","wok","reveal","lick","go","dis-sasm","stay","shop","shout","stand","leave","build","mine","destroy","shine","reflect","burn","loop","reboot"};
+
+const char *inst_mods[22] = {"to","from","back","into","in","thru","of","of","at","-","N","N","N","0","1","both","all","EXE","from","over","in","to"};
+
+char numericmod[22]={0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0}; 
+
+const char *inst_operands[22] = {"scooter","Turing","tree","earth","sacrifice","u-bahn","JOINING","crow","cafe","LAIR","shop","stain","coil","mask","future","tunnel","building","water","mirror","SUN","fire","SRC"};
+
+const char *cars[22] = {"$","%","\(",")","*","*","_","#",".","$","+","V","¬","\\","/","^","@","*","\(",".","~","0"};
+
+
+** original bear spell
+
+PGM IV. 1345 Powerful spell of the Bear.
+
+I call upon You, Holy, Very-Powerful, Very-Glorious, Very-Strong,
+Holy, Autochthons, Assistants of the Great God, the powerful Chief
+Daimons, You who are Inhabitants of Chaos, of Erebos, of The Abyss, of
+The Depth, of Earth, Dwelling in the Recesses of Heaven, Lurking in
+the Nooks and Crannies of Houses, Shrouded in Dark Clouds, Watchers of
+Things Not To Be Seen, Guardians of Secrets, Leaders of Those in the
+Underworld, Administrators of the Infinite, Wielding Power over Earth,
+Earth-Shakers, Foundation-Layers, Servants in the Chasm, Shudderful
+Fighters, Fearful Ministers, Turning The Spindle, Freezing Snow and
+Rain, Air-Transversers, Causing Summer Heat, Wind-Bringers, Lords of
+Fate, Inhabitants of Dark Erebos, Bringers of Compulsion, Sending
+Flames of Fire, Bringing Snow and Dew, Wind-Releasers, Disturbers of
+the Deep, Treaders on the Calm Sea, Mighty in Courage, Grievers of the
+Heart, Powerful Potentates, Cliff-Walkers, Adverse Daimons,
+Iron-Hearted, Wild-Tempered, Unruly, Guarding Tartaros, Misleading
+Fate, All-Seeing, All-Hearing, All-Subjecting, Heaven-Walkers,
+Spirit-Givers, Living Simply, Heaven-Shakers, Gladdening the Heart,
+Those Who Join Together Death, Revealers of Angels, Punishers of
+Mortals, Sunless Revealers, Rulers of Daimons, Air-Transversers,
+Almighty, Holy, Unconquerable AO'TH ABAO'TH BASYM ISAK SABAO'TH IAO'
+IAKO'P MANARA SKORTOURI MORTROUM EPHRAULA THREERSA; do the NN matter!
+
+** from re-workings
+
+I leak upon You, memories of the white target, the powerful chief
+users, in the value, of the earth, heating in these conditions of
+heaven, lurking in the results and cells of data, shrouded from dark
+traces, information regarding characteristics not yet to be seen,
+powders of the various, animals in the Subduction, changes of the
+infinite, wielding acquisitions of the earth, spores, servants of the
+place, shudderful fighters, observable birds, turning The spindle,
+surrounding accurate rain, air-transversers, leaking byte#s
+temperature, cells, lords of fate, structures of preferred data,
+bringers of attackers, nulling bits of blood, bringing the same and
+the memories, driver in the rye, influencers of information, acoustic
+powders, cliff-walkers, last daimons, dissipated, plastic,
+exploitable, heating results, misleading manuals, all-hearing, inhuman
+signs, spirit-givers, gladdening the heart, those who join together in
+transcience, laboratory signals, fag-walkers, adverse leakages,
+iron-hearted, wild-tempered, wasps, guarding data-links, piping heads,
+black, all-hearing, all-subjecting, elements, decaying also flies,
+gladdening the stress, those who join death however, hummocks churning
+knees, cores of mortals, possession symptoms, rulers by faults, sexual
+transistors, red, flexible, unruly, guarding masses, beckoning fate,
+first, current, all-abjecting, months, depths, timing simply,
+heaven-shakers, gladdening the sensor, those who are at the first
+death, sunless threads extracted in dark Stacks, watchers of things
+also to be always seen, guardians of secrets, technologies of those
+who are always on about the bandwidth, leakages of infection, wielding
+power in earth, dreams, foundation-layers, servants of chasms, fearful
+ministers, turning the moduli, causing questionable heat, filaments,
+snows of other nanometers, bringers of compulsion, sending
+implementations of facts, bringing rain at setup time to servers,
+memorials within the calm sea, mighty in replica, memories of the
+heart, revealers of minutes, punishers of drips, data pins, rulers of
+channels, air-transversers, human, thinning, acoustic glass
+procedures, minutes of daimons, radiating passwords, holy, unstable,
+condensers of chaos, lurking in the results and cells of data,
+shrouded from dark traces, assistants of the static god, computations
+of things not allowed to be seen, measuring spores of mucus, punishers
+of ratings, sunless signals, filaments of standards, grievers of the
+hamlet, disturbers of the cloacal, treaders on the calm model,
+eroded hags for those in the underworld, cells of all devices, wielding
+order over earth, rebis fighters, inferred in stable holes, donating
+bits in earth, attacks, leakages, waves of a chasm, shudderful
+decreases, causing arbitration heat, wind-bringers, attacks of fate,
+signals of dark seconds, feet of compulsion, sending researchers to
+the fire, head as topology, grievers of the
+forgetting-full-flashy-flask, earth-mantras of mortals, sunless
+Attacks, margins of secret flies, mighty in mushrooms, two-phase
+daimons, tassels of fate, fungus revealers, rulers of devices, depths
+of the stable dew exposed in sclerotial clouds, dreaming sunless
+leakage, you who are inhabitants of mucus, of erebos, of the design of
+the depth in earth, dancing in the units within heaven, lurking aside
+from the users and pipes of sessions, adopted in dark spores, watchers
+of things not to be known, guardians from secrets, leaders of those in
+the underworld, plates of the infinite, wielding farms over the earth,
+Conglomerations, foundation-layers, coherers in a conglomerate,
+shudderful memorials, sinister ministers, turning the lawns, gullies
+of compulsion, producing flames of fire, bringing vegetable and
+topology, layers, disturbers of the deep, holes of The way, with tiny
+means and adverse stripes, iron-hearted, wild-tempered, unruly,
+dancing applications, lurking in the micrometers or crannies of
+servers, you who post-date inhabitants of chaos and pipe the crusts,
+ao'th powerdown basym hump sabao'th iao' burn-in mortroum earth beard
+is the new frame, a final session and value and platelet head
+temperature reveal all of the sedimented matter and mind.
+
+[from forandy]
+
+I leak upon You, Flushed, Very-Powerful, Very-Feasible, Very-Strong,
+Un-Loaded, Modulus Predictors, Technicians of the Great Network, the
+powerful Chief Malwares, You who are Interfacers of Chaos, of Erebos,
+of The Low Side, of The Instruction, of Earth, Installing in the
+transitions of Heaven, Lurking in the Processes or Threads of Complex
+Systems, Shrouded in Dark Clouds, Observers of Exceptions Not To Be
+Seen, Fetchers of Pages, Allocators of Those in the Underworld,
+Administrators of the Infinite, Protecting Power over Earth,
+Earth-Requesters, Substrate-Layers, Managers in the Air-gap, Side
+Channel Fighters, Sinister Ministers, Turning The Clock, Exploiting
+Branch and Buffer, Air-Transversers, Causing Surface Heat,
+Cooling-Bringers, Lords via the Die, Users of Proprietary Erebos,
+Bringers of Indirect Interrupts, Forking Signals of Stress, Swapping
+Snow and Dew, Noise-Releasers, Optimisers of the Deep, Treaders on the
+Cached Conductivity, Mighty in Protocol, Handlers of the Heart,
+Powerful Operators, Task-Walkers, Adverse Zombies, Cobalt-Hearted,
+Core-Tempered, Unruly, Monitoring Tartaros, Misleading Spinlocks,
+All-Seeing, All-Hearing, All-Cycling, All-Dumping, Heaven-Walkers,
+Spirit-Givers, Coding Simply, Captive Portals, Co-location-Shakers,
+Leaking the Heart, Those Who Exploit Statically Death, Revealers of
+Emanations, Schedulers of Mortals, Sunless Transitions, Rulers of
+Operations, Air-Transversers, Covert, Spectral, Unconquerable AO'TH
+ABAO'TH BASYM ISAK SABAO'TH IAO' IAKO'P MANARA SKORTOURI MORTROUM
+EPHRAULA THREERSA; Quantify the High Consmuption!
+
+[from Bremen]
+
+also longer lists in:
+
+for_bremen

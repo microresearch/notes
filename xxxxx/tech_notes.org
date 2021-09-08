@@ -1,3 +1,11 @@
+* 7/9/2021
+
+- working file/fat fake virtiual FATFS is in: 
+
+  /root/notes_and_projectsNOW/contiguity_res/software/enstix/sources:
+
+- moon etc. astro arduino software:
+
 * 27/8/2021
 
 https://rhodesmill.org/pyephem/quick.html#phases-of-the-moon

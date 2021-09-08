@@ -1,3 +1,14 @@
+* short deescription
+
+Deprecation: rotting registers
+
+Deprecation explores the shift register, a digital device, circuit or
+conceit, which links technical and media histories with the esoteric
+and the geological. The shift register was implicated in early forms
+of computer memory, and provides for ways of thinking about both
+digital and human preservation and dissolution in the context of the
+questionable term of the anthropocene.
+
 * Deprecation: Rotting Registers /// (25 minutes) presentation
 
 images cycle in background: - SR project, dissolutions etc, mummy, TM
@@ -62,6 +73,11 @@ registers, which meant that six consecutive characters from the
 message tape were available for processing using a tape reader that
 had to read only one line at a time and was thus simplified compared
 with the readers first used with the Robinson machine.
+
+*** musical/artistic use of shift registers
+
+random noise, recurring patterns. use in instruments like the Triadex
+Muse, Benjolin, digital filter structures
 
 *** To describe an obsession - SR as ouroboros
 

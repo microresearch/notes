@@ -8,6 +8,7 @@ zodiac = 'AR TA GE CN LE VI LI SC SG CP AQ PI'.split()
 def format_zodiacal_longitude(longitude):
     "Format longitude in zodiacal form (like '00AR00') and return as a string."
     l = math.degrees(longitude.norm)
+    print(l)
     degrees = int(l % 30)
     sign = zodiac[int(l / 30)]
     minutes = int(round((l % 1) * 60))
@@ -23,7 +24,8 @@ def format_angle_as_time(a):
 
 def print_ephemeris_for_date(date, bodies):
     date = Date(date)
-    #    date = now()
+    #date = now()
+    print date
     print datetime.datetime(*date.tuple()[:3]).strftime('%A')[:2],
     print '{0:02}'.format(date.tuple()[2]),
     greenwich = Observer()
@@ -31,6 +33,7 @@ def print_ephemeris_for_date(date, bodies):
     print format_angle_as_time(greenwich.sidereal_time()),
     for b in bodies:
         b.compute(date, date)
+        #        print(Ecliptic(b).long)
         print format_zodiacal_longitude(Ecliptic(b).long),
     print
 
