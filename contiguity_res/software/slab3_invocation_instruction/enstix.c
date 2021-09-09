@@ -5,15 +5,15 @@
  */
 
 #include "LufaLayer.h"
-#include "SerialHelpers.h"
+//#include "SerialHelpers.h"
 #include "enstix.h"
+//#include <avr/time.h>
+//#include "crypto/crypto.h"
+//#include "crypto/sha256.h"
 
-#include "crypto/crypto.h"
-#include "crypto/sha256.h"
+//#include "sd_raw/sd_raw.h"
 
-#include "sd_raw/sd_raw.h"
-
-#include "apipage.h"
+//#include "apipage.h"
 
 #include <avr/eeprom.h>
 //#include "eeprom_contents.c"
@@ -76,6 +76,7 @@ int main(void)
   bool button_press_registered = false;
   uint32_t button_press_length = 0;
 
+  
   // should set the disk size soon
   disk_size_GLOBAL = VIRTUALFAT_DISK_BLOCKS;
 
@@ -102,211 +103,11 @@ int main(void)
   //  eeprom_read_block((void*)key, (const void*)aes_key_encrypted, 16); // it's still encrypted at this point
 
   /* Must throw away unused bytes from the host, or it will lock up while waiting for the device */
-  usb_serial_flush_input();
+  //  usb_serial_flush_input();
 
   /* Main loop.*/
   for (;;)
   {
-    // run the task which checks the state of the button
-    service_button();
-    // for how long was the button pressed?
-    button_press_length = button_pressed_for();
-    // if at least 70ms and we haven't acted on this press yet
-    if( button_press_length >= 7 && !button_press_registered ) {
-      // remember that we've acted on the current button press
-      button_press_registered = true;
-      // announce the button press over the serial
-      usb_serial_writeln_P(PSTR("Button pressed."));
-      //usb_keyboard_press(HID_KEYBOARD_SC_N, HID_KEYBOARD_MODIFIER_LEFTSHIFT);
-    }
-    // was the button released after being pressed?
-    if( button_press_registered && button_press_length < 7 ) {
-      button_press_registered = false;
-    }
-
-    // check dtr
-    dtr = usb_serial_dtr();
-    if( dtr && !prev_dtr ) {
-      _delay_ms(50);
-      print_header();
-      print_help();
-    }
-    prev_dtr = dtr;
-
-    /* Handling of the serial dialogue */
-    if( usb_serial_available() > 0 ) {
-      switch(usb_serial_getchar()) {
-        case 'i': // info
-          print_header();
-#if defined(USE_SDCARD)
-          usb_serial_write_P(PSTR("(Micro)SD status: "));
-          if(sd_exists) {
-            usb_serial_writeln_P(PSTR("initialised"));
-            print_sd_card_info();
-          } else {
-            usb_serial_writeln_P(PSTR("not connected/communicating"));
-          }
-#endif
-          if(disk_state_GLOBAL == DISK_STATE_INITIAL) {
-            usb_serial_write_P(PSTR("Encrypted main AES key: "));
-	    //            hexprint(key, 16);
-          } else if(disk_state_GLOBAL == DISK_STATE_ENCRYPTING) {
-            usb_serial_write_P(PSTR("Main AES key: "));
-	    //            hexprint(key, 16);
-            usb_serial_write_P(PSTR("Hashed passphrase: "));
-	    //            hexprint(pp_hash, 32);
-            usb_serial_write_P(PSTR("Hashed hashed passphrase: "));
-	    //            hexprint(pp_hash_hash, 32);
-            usb_serial_write_P(PSTR("Disk state: "));
-            if(disk_read_only_GLOBAL) {
-              usb_serial_writeln_P(PSTR("read-only"));
-            } else {
-              usb_serial_writeln_P(PSTR("writable"));
-            }
-          }
-          break;
-        case 'c': // change the password
-          if(disk_state_GLOBAL == DISK_STATE_ENCRYPTING) {
-            usb_serial_writeln_P(PSTR("Enter current passphrase:"));
-            usb_serial_readline(passphrase, PASSPHRASE_MAX_LEN, true);
-            // compute hashes
-            usb_serial_writeln_P(PSTR("Computing hashes..."));
-            usb_tasks(); // so that the serial message gets through before we start computing...
-            compute_many_hashes((const void*)passphrase, strlen(passphrase), (uint8_t *)temp_buf);
-            compute_many_hashes((const void*)temp_buf, 32, (uint8_t *)passphrase); // reuse passphrase buffer for hash^^
-            int compare = memcmp((const void *)passphrase, (const void *)pp_hash_hash, 32);
-            memset(passphrase, 0xFF, PASSPHRASE_MAX_LEN); // wipe the passphrase from memory
-            if(compare == 0) {
-              usb_serial_writeln_P(PSTR("Enter a new passphrase:"));
-              usb_serial_readline(passphrase, PASSPHRASE_MAX_LEN, true);
-              usb_serial_writeln_P(PSTR("Enter the new passphrase again:"));
-              usb_serial_readline(temp_buf, PASSPHRASE_MAX_LEN, true);
-              compare = strcmp(passphrase, temp_buf);
-              memset(temp_buf, 0xFF, PASSPHRASE_MAX_LEN);
-              if(compare == 0) {
-                usb_serial_writeln_P(PSTR("Match. Changing the passphrase."));
-                usb_serial_writeln_P(PSTR("Computing hashes..."));
-                usb_tasks(); // so that the serial message gets through before we start computing...
-                compute_many_hashes((const void*)passphrase, strlen(passphrase), pp_hash);
-                memset(passphrase, 0xFF, PASSPHRASE_MAX_LEN); // wipe the passphrase from memory
-                compute_many_hashes((const void*)pp_hash, 32, pp_hash_hash);
-                memcpy(temp_buf, key, 16); // copy the key to a temp buffer for encrypting
-		//                aes128_enc_single(pp_hash, temp_buf); // encrypt the aes key
-                // save the new pp_hash_hash and encr.aes.key to EEPROM
-		//                eeprom_write_block((const void*)temp_buf, (void*)aes_key_encrypted, 16);
-		//                eeprom_write_block((const void*)pp_hash_hash, (void*)passphrase_hash_hash, 32);
-                usb_serial_writeln_P(PSTR("Done."));
-              } else {
-                usb_serial_writeln_P(PSTR("The passphrases don't match. Not changing anything."));
-              }
-            } else {
-              usb_serial_writeln_P(PSTR("Entered passphrase is not correct."));
-            }
-          } else {
-            usb_serial_writeln_P(PSTR("Passphrase changing works only in encrypted mode."));
-          }
-          break;
-        case 'r': // switch ro/rw
-          if(disk_state_GLOBAL == DISK_STATE_ENCRYPTING) {
-            usb_serial_write_P(PSTR("Disk state: "));
-            if(disk_read_only_GLOBAL) {
-              usb_serial_writeln_P(PSTR("read-only. Switch to writable? [yN]"));
-            } else {
-              usb_serial_writeln_P(PSTR("writable. Switch to read-only? [Yn]"));
-            }
-            usb_serial_wait_for_key();
-            char c = usb_serial_getchar();
-            if(disk_read_only_GLOBAL) {
-              if(c == 'Y' || c == 'y') {
-                usb_serial_write_P(PSTR("Switching to writable."));
-                usb_serial_writeln_P(PSTR("Everything will disconnect."));
-                usb_serial_write_P(PSTR("Press a key to continue..."));
-                usb_serial_wait_for_key();
-                USB_Disable();
-                disk_read_only_GLOBAL = false;
-                _delay_ms(1000);
-                USB_Init();
-                _delay_ms(200);
-                usb_serial_flush_input();
-                break;
-              }
-            } else {
-              if(c != 'N' && c != 'n') {
-                usb_serial_write_P(PSTR("Switching to read-only."));
-                usb_serial_writeln_P(PSTR("Everything will disconnect."));
-                usb_serial_write_P(PSTR("Press a key to continue..."));
-                usb_serial_wait_for_key();
-                USB_Disable();
-                disk_read_only_GLOBAL = true;
-                _delay_ms(1000);
-                USB_Init();
-                _delay_ms(200);
-                usb_serial_flush_input();
-                break;
-              }
-            }
-            usb_serial_writeln_P(PSTR("Not doing anything."));
-          } else {
-            usb_serial_writeln_P(PSTR("This only works in encrypted mode."));
-          }
-          break;
-        case 'p': // enter password
-          if(disk_state_GLOBAL == DISK_STATE_INITIAL) {
-            usb_serial_writeln_P(PSTR("Enter passphrase:"));
-            usb_serial_readline(passphrase, PASSPHRASE_MAX_LEN, true);
-            // compute hashes
-            usb_serial_writeln_P(PSTR("Computing hashes..."));
-            usb_tasks(); // so that the serial message gets through before we start computing...
-            compute_many_hashes((const void*)passphrase, strlen(passphrase), pp_hash);
-            compute_many_hashes((const void*)pp_hash, 32, pp_hash_hash);
-            // wipe the passphrase from memory
-            memset(passphrase, 0xFF, PASSPHRASE_MAX_LEN);
-            // compare the hash of hash of the passphrase with the eeprom
-            bool match = true;
-            for(uint8_t i=0; i<32; i++) {
-	      //              if(eeprom_read_byte(passphrase_hash_hash+i) != pp_hash_hash[i]) {
-	      //                match = false;
-	      //                break;
-	      //              }
-            }
-            if(match) { // if the passphrase is correct
-#if defined(__AVR_ATxmega128A3U__) || defined(__AVR_ATxmega128A4U__)
-                // hardware AES decryption needs another key
-                AES_lastsubkey_generate(pp_hash, lastsubkey);
-                aes128_dec_single(lastsubkey, key); // decrypt the aes key
-                AES_lastsubkey_generate(key, lastsubkey);
-#else
-                aes128_dec_single(pp_hash, key); // decrypt the aes key
-#endif
-              sha256((sha256_hash_t *)key_hash, (const void*)key, 8*16); // remember the hash as well, for ESSIV
-              usb_serial_writeln_P(PSTR("Password OK. Switching to encrypted disk mode (everything will disconnect)."));
-              usb_serial_write_P(PSTR("Press a key to continue..."));
-              usb_serial_wait_for_key();
-              disk_state_GLOBAL = DISK_STATE_ENCRYPTING;
-              disk_read_only_GLOBAL = true;
-#if defined(USE_SDCARD)
-              if(sd_exists) {
-                disk_size_GLOBAL = (uint32_t)(sd_card_info.capacity / DISK_BLOCK_SIZE);
-              }
-#endif
-              USB_Disable();
-              // which to use? _Detach and _Attach; or _Disable and _Init; or _ResetInterface
-              // best experience with Disable/Init so far
-              _delay_ms(1000);
-              USB_Init();
-              _delay_ms(200);
-              usb_serial_flush_input();
-            } else {
-              usb_serial_writeln_P(PSTR("Problem: the entered passphrase is not correct. Not doing anything."));
-            }
-          } else {
-            usb_serial_writeln_P(PSTR("Already in encrypted disk mode."));
-          }
-          break;
-        default:
-          print_help();
-      }
-    }
 
     /* need to run this relatively often to keep the USB connection alive */
     usb_tasks();
@@ -348,9 +149,9 @@ int16_t CALLBACK_disk_readSector(uint8_t out_sectordata[DISK_BLOCK_SIZE], const 
   /* decrypt */
 #if defined(__AVR_ATxmega128A3U__) || defined(__AVR_ATxmega128A4U__)
     // hardware AES module needs a different key for decryption
-    aes128_cbc_dec(lastsubkey, iv, out_sectordata, DISK_BLOCK_SIZE);
+  //    aes128_cbc_dec(lastsubkey, iv, out_sectordata, DISK_BLOCK_SIZE);
 #else
-    aes128_cbc_dec(key, iv, out_sectordata, DISK_BLOCK_SIZE);
+    //    aes128_cbc_dec(key, iv, out_sectordata, DISK_BLOCK_SIZE);
 #endif
 
   return DISK_BLOCK_SIZE;
@@ -361,7 +162,7 @@ int16_t CALLBACK_disk_writeSector(uint8_t in_sectordata[DISK_BLOCK_SIZE], const 
   compute_iv_for_sector(sectorNumber);
 
   /* encrypt the data */
-  aes128_cbc_enc(key, iv, in_sectordata, DISK_BLOCK_SIZE);
+  //  aes128_cbc_enc(key, iv, in_sectordata, DISK_BLOCK_SIZE);
 
 #if defined(USE_SDCARD)
   if(sd_exists) {
@@ -400,7 +201,7 @@ void compute_iv_for_sector(uint32_t sectorNumber) {
   memset(iv, 0, 16);
   memcpy(iv, (const void*)&sectorNumber, sizeof(uint32_t));
   // encrypt the sn with aes128, the key being the hash of the main key
-  aes128_enc_single(key_hash, iv);
+  //  aes128_enc_single(key_hash, iv);
 }
 
 void print_help(void) {
@@ -417,11 +218,11 @@ void compute_many_hashes(const void *source, uint8_t count, uint8_t *hash) {
   uint8_t *cur_dst;
   uint8_t *swap_ptr;
 
-  sha256((sha256_hash_t *)hash, source, 8*count);
+  //  sha256((sha256_hash_t *)hash, source, 8*count);
   cur_src = hash;
   cur_dst = temp_hash;
   for(uint16_t j=1; j<HASH_ITERATIONS; j++) { // going to repeatedly hash
-    sha256((sha256_hash_t *)cur_dst, (const void*)cur_src, 8*32);
+    //    sha256((sha256_hash_t *)cur_dst, (const void*)cur_src, 8*32);
     swap_ptr = cur_src; cur_src = cur_dst; cur_dst = swap_ptr; // switch src/dest (pp_hash vs temp_hash)
   }
   if( HASH_ITERATIONS % 2 == 0 )

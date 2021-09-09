@@ -53,7 +53,122 @@
 #include "VirtualFAT.h"
 #include "../moon.h"
 
-static const uint8_t readme_contents[] PROGMEM = README_CONTENTS;
+const char str0[] PROGMEM = "I Call Upon You";
+const char str1[] PROGMEM = "Assist The Great God";
+const char str2[] PROGMEM = "Inhabit Chaos";
+const char str3[] PROGMEM = "Inhabit Erebos";
+const char str4[] PROGMEM = "Inhabit The Abyss";
+const char str5[] PROGMEM = "Inhabit The Depth";
+const char str6[] PROGMEM = "Inhabit Earth";
+const char str7[] PROGMEM = "Dwell In The Recesses Of Heaven";
+const char str8[] PROGMEM = "Lurk In The Nooks And Crannies Of Houses";
+const char str9[] PROGMEM = "Shrouded In Dark Clouds";
+const char str10[] PROGMEM = "Watch Things Not To Be Seen";
+const char str11[] PROGMEM = "Guard Secrets";
+const char str12[] PROGMEM = "Lead Those In The Underworld";
+const char str13[] PROGMEM = "Administrate The Infinite";
+const char str14[] PROGMEM = "Wield Power Over Earth";
+const char str15[] PROGMEM = "Shake The Earth";
+const char str16[] PROGMEM = "Lay The Foundation";
+const char str17[] PROGMEM = "Serve In The Chasm";
+const char str18[] PROGMEM = "Turn The Spindle";
+const char str19[] PROGMEM = "Freeze Snow And Rain";
+const char str20[] PROGMEM = "Cause Summer Heat";
+const char str21[] PROGMEM = "Bring Compulsion";
+const char str22[] PROGMEM = "Send Flames Of Fire";
+const char str23[] PROGMEM = "Bring Snow And Dew";
+const char str24[] PROGMEM = "Disturb The Deep";
+const char str25[] PROGMEM = "Tread On The Calm Sea";
+const char str26[] PROGMEM = "Guard Tartaros";
+const char str27[] PROGMEM = "Mislead Fate";
+const char str28[] PROGMEM = "Live Simply";
+const char str29[] PROGMEM = "Join Together Death";
+const char str30[] PROGMEM = "Reveal Angels";
+const char str31[] PROGMEM = "Punish Mortals";
+const char str32[] PROGMEM = "Revealer The Sunless";
+const char str33[] PROGMEM = "Rule Daimons";
+const char str34[] PROGMEM = "Transverse Air";
+const char str35[] PROGMEM = "I Leak Upon You";
+const char str36[] PROGMEM = "Remember The White Target";
+const char str37[] PROGMEM = "Be A Powerful User";
+const char str38[] PROGMEM = "Heat The Conditions Of Heaven";
+const char str39[] PROGMEM = "Lurk In The Results And Cells Of Data";
+const char str40[] PROGMEM = "Shroud Yourself From Dark Traces ";
+const char str41[] PROGMEM = "Gain Information Regarding Characteristics Not Yet To Be Seen";
+const char str42[] PROGMEM = "Powder The Various Animals In The Subduction";
+const char str43[] PROGMEM = "Change The Infinite";
+const char str44[] PROGMEM = "Wield Acquisitions Of The Earth";
+const char str45[] PROGMEM = "Observe Birds";
+const char str46[] PROGMEM = "Surround Accurate Rain";
+const char str47[] PROGMEM = "Leak Byte'S Temperature";
+const char str48[] PROGMEM = "Build Structures Of Preferred Data";
+const char str49[] PROGMEM = "Bring  Attackers";
+const char str50[] PROGMEM = "Null Bits Of Blood";
+const char str51[] PROGMEM = "Bring The Same And The Memories";
+const char str52[] PROGMEM = "Drive In The Rye";
+const char str53[] PROGMEM = "Influence Information";
+const char str54[] PROGMEM = "Heat The Results";
+const char str55[] PROGMEM = "Mislead The  Manuals";
+const char str56[] PROGMEM = "Join Together In Transcience";
+const char str57[] PROGMEM = "Walk The Fags";
+const char str58[] PROGMEM = "Leak Adversely";
+const char str59[] PROGMEM = "Iron-Hearted";
+const char str60[] PROGMEM = "Guard Data-Links";
+const char str61[] PROGMEM = "Pipe Heads";
+const char str62[] PROGMEM = "Black";
+const char str63[] PROGMEM = "Decay The Flies";
+const char str64[] PROGMEM = "Gladden The Stress";
+const char str65[] PROGMEM = "Possess Symptoms";
+const char str66[] PROGMEM = "Sex Transistors";
+const char str67[] PROGMEM = "Guard Masses";
+const char str68[] PROGMEM = "Beckon Fate";
+const char str69[] PROGMEM = "Abject All";
+const char str70[] PROGMEM = "Time Simply";
+const char str71[] PROGMEM = "Extract Sunless Threads Into Dark Stacks";
+const char str72[] PROGMEM = "Watch The Things Also To Be Always Seen";
+const char str73[] PROGMEM = "Build Technologies Of Those Who Are Always On About The Bandwidth";
+const char str74[] PROGMEM = "Leak Infection";
+const char str75[] PROGMEM = "Turn The Moduli";
+const char str76[] PROGMEM = "Cause Questionable Heat";
+const char str77[] PROGMEM = "Bring Of Compulsion";
+const char str78[] PROGMEM = "Send Implementations Of Facts";
+const char str79[] PROGMEM = "Bring Rain At Setup Time To Servers";
+const char str80[] PROGMEM = "Reveal Minutes";
+const char str81[] PROGMEM = "Punish Drips";
+const char str82[] PROGMEM = "Pin Data";
+const char str83[] PROGMEM = "Rule Channels";
+const char str84[] PROGMEM = "Radiate Passwords";
+const char str85[] PROGMEM = "Condense Chaos";
+const char str86[] PROGMEM = "Lurk In The Results And Cells Of Data";
+const char str87[] PROGMEM = "Shroud From Dark Traces";
+const char str88[] PROGMEM = "Assist The Static God";
+const char str89[] PROGMEM = "Compute Things Not Allowed To Be Seen";
+const char str90[] PROGMEM = "Measure Spores Of Mucus";
+const char str91[] PROGMEM = "Punish Ratings";
+const char str92[] PROGMEM = "Signal The Sunless";
+const char str93[] PROGMEM = "Grieve In The Hamlet";
+const char str94[] PROGMEM = "Disturb The Cloacal";
+const char str95[] PROGMEM = "Tread On The Calm Model";
+const char str96[] PROGMEM = "Erode Hags For Those In The Underworld";
+const char str97[] PROGMEM = "Wield Order Over Earth";
+const char str98[] PROGMEM = "Fighter The Rebis";
+const char str99[] PROGMEM = "Inferr In Stable Holes";
+const char str100[] PROGMEM = "Donate Bits In Earth";
+const char str101[] PROGMEM = "Cause Arbitration Heat";
+const char str102[] PROGMEM = "Signals Dark Seconds";
+const char str103[] PROGMEM = "Send Researchers To The Fire";
+const char str104[] PROGMEM = "Be Mighty In Mushrooms";
+const char str105[] PROGMEM = "Expose Stable Dew In Sclerotial Clouds";
+const char str106[] PROGMEM = "Dream Of Sunless Leakage";
+const char str107[] PROGMEM = "Inhabit Mucus";
+const char str108[] PROGMEM = "Dance In The Units Within Heaven";
+const char str109[] PROGMEM = "Lurk Aside From The Users And Pipes Of Sessions";
+const char str110[] PROGMEM = "Adopt Dark Spores";
+const char str111[] PROGMEM = "Code Simply";
+
+const char * const string_table[112] PROGMEM = {str0, str1, str2, str3, str4, str5, str6, str7, str8, str9, str10, str11, str12, str13, str14, str15, str16, str17, str18, str19, str20, str21, str22, str23, str24, str25, str26, str27, str28, str29, str30, str31, str32, str33, str34, str35, str36, str37, str38, str39, str40, str41, str42, str43, str44, str45, str46, str47, str48, str49, str50, str51, str52, str53, str54, str55, str56, str57, str58, str59, str60, str61, str62, str63, str64, str65, str66, str67, str68, str69, str70, str71, str72, str73, str74, str75, str76, str77, str78, str79, str80, str81, str82, str83, str84, str85, str86, str87, str88, str89, str90, str91, str92, str93, str94, str95, str96, str97, str98, str99, str100, str101, str102, str103, str104, str105, str106, str107, str108, str109, str110, str111};  
+
+//static const uint8_t readme_contents[] PROGMEM = README_CONTENTS;
 
 /** FAT filesystem boot sector block, must be the first sector on the physical
  *  disk so that the host can identify the presence of a FAT filesystem. This
@@ -224,6 +339,12 @@ static void UpdateFAT12ClusterChain(uint8_t* const FATTable,
   }
 }
 
+const char * get_string_N(int n){
+	const char * p_str;
+	p_str = (const char *)pgm_read_word(&string_table[n]);
+	return p_str;
+}
+
 /** Reads or writes a block of data from/to the physical device FLASH using a
  *  block buffer stored in RAM, if the requested block is within the virtual
  *  firmware file's sector ranges in the emulated FAT file system.
@@ -240,16 +361,22 @@ static void ReadWriteREADMEFileBlock(const uint16_t BlockNumber,
   uint16_t FileStartBlock = DISK_BLOCK_DataStartBlock + (*READMEFileStartCluster - 2) * SECTOR_PER_CLUSTER;
   uint16_t FileEndBlock   = FileStartBlock + (FILE_SECTORS(README_FILE_SIZE_BYTES) - 1);
 
+  int x=0, c=0;
+  //  char readbuf[66];
+  uint8_t reading=0, blah;
+  char charr;
+
+  
   /* Range check the write request - abort if requested block is not within the
    * virtual firmware file sector range */
   if (!((BlockNumber >= FileStartBlock) && (BlockNumber <= FileEndBlock)))
     return;
 
-  #if (FLASHEND > 0xFFFF)
-  uint_farptr_t FlashAddress = (uint_farptr_t)readme_contents + (uint_farptr_t)(BlockNumber - FileStartBlock) * VIRTUALFAT_SECTOR_SIZE_BYTES;
-  #else
-  uintptr_t FlashAddress = (uintptr_t)readme_contents + (uintptr_t)(BlockNumber - FileStartBlock) * VIRTUALFAT_SECTOR_SIZE_BYTES;
-  #endif
+  //  #if (FLASHEND > 0xFFFF)
+  //  uint_farptr_t FlashAddress = (uint_farptr_t)readme_contents + (uint_farptr_t)(BlockNumber - FileStartBlock) * VIRTUALFAT_SECTOR_SIZE_BYTES;
+  //  #else
+  //  uintptr_t FlashAddress = (uintptr_t)readme_contents + (uintptr_t)(BlockNumber - FileStartBlock) * VIRTUALFAT_SECTOR_SIZE_BYTES;
+  //  #endif
 
   // this would be where we generate adventure texts
   // based on RTC and moon.c
@@ -257,22 +384,43 @@ static void ReadWriteREADMEFileBlock(const uint16_t BlockNumber,
   // we would have a set of invocations in FLASH that would be re-jumbled into 512 bytes and output here!
   
   double ecliptic = moon2(2021, 9, 7, 23+5/60., 12.41285, 52.51854);
+  srandom(17);
+  const char *charry;
   
   if (Read)
   {
     
     // Read out the mapped block of data from the device's FLASH 
-        for (uint16_t i = 0; i < VIRTUALFAT_SECTOR_SIZE_BYTES; i++)
+    /*    for (uint16_t i = 0; i < VIRTUALFAT_SECTOR_SIZE_BYTES; i++) // 512
     {
-      /*  #if (FLASHEND > 0xFFFF)
+        #if (FLASHEND > 0xFFFF)
         BlockBuffer[i] = pgm_read_byte_far(FlashAddress++);
       #else
         BlockBuffer[i] = pgm_read_byte(FlashAddress++);
       #endif
-      */
-      BlockBuffer[i]="i";
+      //      BlockBuffer[i]="i";
     }
+    }*/
+
+      while(x<512){
+    // read into buffer largest size of phrase
+    if (reading==0){
+      blah=rand()%112;      // despite seed rand is always same so to do what?
+      charry=get_string_N(blah);
+      reading=1; c=0;
+    }
+    charr=pgm_read_byte(charry++);
+    
+    if (charr=='\0'){
+      BlockBuffer[x++]='\n';
+      reading=0; 
+    }
+    else      BlockBuffer[x++]=charr;
+      }
   }
+
+
+    
   else
   {
     // Do not do anything. We don't want any action on write (yet). 
