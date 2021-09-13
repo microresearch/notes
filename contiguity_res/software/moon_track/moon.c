@@ -23,7 +23,8 @@ as array... to print /30 degrees
 
 #include <string.h>
 #include <ctype.h>
-
+#include <stdio.h>
+#include <math.h>
 //const char *zodiac[12] = {"AR", "TA", "GE", "CN", "LE", "VI", "LI", "SC", "SG", "CP", "AQ", "PI"};
 
 // Translated from the WSJT Fortran code by Pete VE5VA
@@ -53,7 +54,7 @@ double moon2(int y,int m,int Day,
   double ecl                          ;//Obliquity of the ecliptic
 
   double d                            ;//Ephemeris time argument in days
-  //  double r                            ;//Distance to sun, AU
+  double r                            ;//Distance to sun, AU
   double xv,yv                        ;//x and y coords in ecliptic
   double lonecl,latecl                ;//Ecliptic long and lat of moon
   double xg,yg,zg                     ;//Ecliptic rectangular coords
@@ -126,4 +127,10 @@ double moon2(int y,int m,int Day,
        -0.015 * sin((2.*FF-2.*DD)/rad)
        +0.011 * sin((MM-4.*DD)/rad);
   return lonecl;
+}
+
+void main(){
+double ecl=  moon2(2021, 9, 13, 13+7/60., 12.41285, 52.51854);
+ printf("%d\n", (int)ecl);
+
 }

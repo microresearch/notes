@@ -28,7 +28,7 @@ F_USB        = $(F_CPU)
 OPTIMIZATION = s
 TARGET       = enstix
 # $(shell find "crypto/avr-crypto-lib/aes" -name "*.c" -o -name "*.S") $(shell find "crypto/avr-crypto-lib/bcal/" -name "bcal_aes*.c" -o -name "bcal-basic.c" -o -name "bcal-cbc.c" -o -name "*.S") $(shell find "crypto/avr-crypto-lib/memxor" -name "*.c" -o -name "*.S")
-SRC          = $(TARGET).c LufaLayer.c Descriptors.c Timer.c SCSI/SCSI.c VirtualFAT/VirtualFAT.c moon.c $(shell find "crypto" -maxdepth 1 -name "*.c" -o -name "*.S") $(LUFA_SRC_USB) $(LUFA_SRC_USBCLASS)
+SRC          = $(TARGET).c LufaLayer.c Descriptors.c Timer.c SCSI/SCSI.c VirtualFAT/VirtualFAT.c moon.c RTC.c $(shell find "crypto" -maxdepth 1 -name "*.c" -o -name "*.S") $(LUFA_SRC_USB) $(LUFA_SRC_USBCLASS)  $(LUFA_SRC_TWI)
 LUFA_PATH    = LUFA
 CC_FLAGS     = -DUSE_LUFA_CONFIG_HEADER -IConfig/
 LD_FLAGS     = apipage.a

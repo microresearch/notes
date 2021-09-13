@@ -20,6 +20,9 @@
 
 #include <string.h>
 
+#include "RTC.h"
+
+
 /*************************************************************************
  * ----------------------- Global variables -----------------------------*
  *************************************************************************/
@@ -93,6 +96,10 @@ int main(void)
   /* Initialisation */
   init();
 
+  TWI_Init(TWI_BIT_PRESCALE_4, TWI_BITLENGTH_FROM_FREQ(4, 50000));
+  RTC_Init();
+
+  
 #if defined(USE_SDCARD)
   if( sd_raw_init() && sd_raw_get_info(&sd_card_info) ) {
     sd_exists = 1;

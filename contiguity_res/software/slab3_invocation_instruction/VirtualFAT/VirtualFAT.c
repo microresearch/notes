@@ -52,6 +52,10 @@
 #define  INCLUDE_FROM_VIRTUAL_FAT_C
 #include "VirtualFAT.h"
 #include "../moon.h"
+#include "../RTC.h"
+#include <stdlib.h>
+
+
 
 const char str0[] PROGMEM = "I Call Upon You";
 const char str1[] PROGMEM = "Assist The Great God";
@@ -236,13 +240,13 @@ static FATDirectoryEntry_t FirmwareFileEntries[] =
           .Reserved1       = 0,
           .Reserved2       = 0,
 
-          .Checksum        = FAT_CHECKSUM('R','E','A','D','M','E',' ',' ','T','X','T'),
+          .Checksum        = FAT_CHECKSUM('I','N','V','O','K','E',' ',' ','T','X','T'),
 
-          .Unicode1        = 'R',
-          .Unicode2        = 'E',
-          .Unicode3        = 'A',
-          .Unicode4        = 'D',
-          .Unicode5        = 'M',
+          .Unicode1        = 'I',
+          .Unicode2        = 'N',
+          .Unicode3        = 'V',
+          .Unicode4        = 'O',
+          .Unicode5        = 'K',
           .Unicode6        = 'E',
           .Unicode7        = '.',
           .Unicode8        = 'T',
@@ -259,7 +263,7 @@ static FATDirectoryEntry_t FirmwareFileEntries[] =
     {
       .MSDOS_File =
         {
-          .Filename        = "README  ",
+          .Filename        = "INVOKE  ",
           .Extension       = "TXT",
           .Attributes      = 0,
           .Reserved        = {0},
@@ -360,6 +364,7 @@ static void ReadWriteREADMEFileBlock(const uint16_t BlockNumber,
 {
   uint16_t FileStartBlock = DISK_BLOCK_DataStartBlock + (*READMEFileStartCluster - 2) * SECTOR_PER_CLUSTER;
   uint16_t FileEndBlock   = FileStartBlock + (FILE_SECTORS(README_FILE_SIZE_BYTES) - 1);
+  TimeDate_t CurrentTimeDate;
 
   int x=0, c=0;
   //  char readbuf[66];
@@ -383,8 +388,15 @@ static void ReadWriteREADMEFileBlock(const uint16_t BlockNumber,
 
   // we would have a set of invocations in FLASH that would be re-jumbled into 512 bytes and output here!
   
-  double ecliptic = moon2(2021, 9, 7, 23+5/60., 12.41285, 52.51854);
-  srandom(17);
+  //  double ecliptic = moon2(2021, 9, 7, 23+5/60., 12.41285, 52.51854);
+  
+  RTC_GetTimeDate(&CurrentTimeDate);
+  int year=2000+CurrentTimeDate.Year;
+  double ecliptic = moon2(year, CurrentTimeDate.Month, CurrentTimeDate.Day, CurrentTimeDate.Hour+(CurrentTimeDate.Minute/60.), 12.41285, 52.51854);
+  //  srandom((int)ecliptic);
+  //  usb_serial_writeln_dec16((int)ecliptic); // now working YES!!!!!
+
+  
   const char *charry;
   
   if (Read)
@@ -405,7 +417,7 @@ static void ReadWriteREADMEFileBlock(const uint16_t BlockNumber,
       while(x<512){
     // read into buffer largest size of phrase
     if (reading==0){
-      blah=rand()%112;      // despite seed rand is always same so to do what?
+      blah=((int)ecliptic+x)%112;      // despite seed rand is always same so to do what?
       charry=get_string_N(blah);
       reading=1; c=0;
     }

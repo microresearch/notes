@@ -14,7 +14,13 @@ HEAT LOGIC:
 TODO:
 - DS1820 x2 DONE
 - SD card (need to find extra working SD) DONE
-- heating circuit tests/PWM
+- heating circuit tests/PWM DONE
+
+TESTING battery...
+
+- what logic could be:
+
+average x, y for x seconds - next x seconds if is below is a 0, above is a 1
 
 - logic and averages etc///
 - test all
@@ -166,34 +172,8 @@ void setup() {
     delay(1000);  
 }
 
-void loop() {
-  static int toggle=0;
-  delay(1);  // give some delay for SD card and RTC to be low before processor sleeps to avoid it being stuck
-  
-  // DO OUR STUFF
-  sensors.begin(); // as before it didn;t work
-  sensors.requestTemperatures(); // Send the command to get temperatures
-  float temper=sensors.getTempCByIndex(0); 
-  //  Serial.println(temper);
-  float temperr=sensors.getTempCByIndex(1); 
-  //  Serial.println(temperr);
-  //  Serial.println();  
-
-  file.print(temper); 
-  file.print(", "); 
-  file.print(temperr);
-  file.println();
-  file.flush();
-
-  // testing write to pwm 1 second on, one second off
-  toggle^=1;
-  if (toggle==0) analogWrite(6,255);
-    else analogWrite(6,0);
-  Serial.println(toggle);
-
-  delay(10000); // or we save power here but then need to close sd and re-open...
-
-  
+void commandline(){
+{
  if (readline(Serial.read(), buf, 80) > 0) {
 
       if (!strcmp(buf, "r")) { // reset all
@@ -272,4 +252,82 @@ void loop() {
     delay(1000);
    }
  }
+}
+}
+
+
+void loop() {
+  static int toggle=0, x=0;
+  float av1, av2, avv1, avv2;
+  int logic1, logic2, outcome;
+  delay(1);  // give some delay for SD card and RTC to be low before processor sleeps to avoid it being stuck
+  
+  sensors.begin(); // as before it didn;t work
+  av1=0; av2=0;avv1=0;avv2=0;
+
+  // DO OUR STUFF and put serial ops in here somewhere
+  
+  for (x=0;x<10;x++){    // stage 1: average each of temps for x seconds
+    sensors.requestTemperatures(); 
+    float temper=sensors.getTempCByIndex(0);
+    float temperr=sensors.getTempCByIndex(1);   
+    av1+=temper;
+    av2+=temperr;
+    //    delay(50);
+    commandline();
+  }
+  av1=av1/10.0;
+  av2=av2/10.0;
+  
+  for (x=0;x<10;x++){    // stage 2: average each of temps for x seconds
+    sensors.requestTemperatures(); 
+    float temper=sensors.getTempCByIndex(0); // or is much slower than we imagine
+    float temperr=sensors.getTempCByIndex(1);   
+    avv1+=temper;
+    avv2+=temperr;
+    //    delay(50);
+    commandline();
+  }
+  avv1=avv1/10.0;
+  avv2=avv2/10.0;
+
+  // logic for each and output to heat for x seconds
+  if (avv1>av1) logic1=1;
+  else logic1=0;
+
+  if (avv2>av2) logic2=1;
+  else logic2=0;
+  outcome=logic1^logic2;
+  
+  if (outcome) {
+    analogWrite(6,255);
+    Serial.println("1-HEAT");
+  }
+  else {
+    analogWrite(6,0);
+    Serial.println("0-NO");
+  }
+
+  for (x=0;x<100;x++){  
+    delay(50);
+  commandline();
+  }
+  
+  // record to SD states (eg. 0 0 1), and average temps
+  
+  file.print(av1); 
+  file.print(", "); 
+  file.print(avv1);
+  file.print(", "); 
+  file.print(av2); 
+  file.print(", "); 
+  file.print(avv2);
+  file.print(", "); 
+  file.print(logic1); 
+  file.print(", "); 
+  file.print(logic2);
+  file.print(", "); 
+  file.print(outcome);
+  file.println();
+  file.flush();
 }

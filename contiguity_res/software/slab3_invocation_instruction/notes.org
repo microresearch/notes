@@ -1,5 +1,13 @@
 * Towards a USB-powered invocation/instruction
 
+13/9/2021: all working with RTC, test in some time, but not so happy with phrase generations
+
+9/9/2021: basics of phrases working, moon to test with RTC and wrap up
+(we can fit more phrases in FLASH)
+
+
+////////////////
+
 - list of possible invocations as array in FLASH
 
 - we need to retrieve these in new order and so is exactly 512 bytes (can pad out to this with zeroes) TEST this in c code...
