@@ -9,10 +9,10 @@ of computer memory, and provides for ways of thinking about both
 digital and human preservation and dissolution in the context of the
 questionable term of the anthropocene.
 
-* Deprecation: Rotting Registers /// (25 minutes) presentation
 
-images cycle in background: - SR project, dissolutions etc, mummy, TM
-images (sweatshop, sonic acts pres).
+images cycle in background: - SR project?
+
+* Deprecation: Rotting Registers /// (25 minutes) presentation
 
 ** 1- what is a SR? with lots of diagrams, audio examples maybe, what it is used for
 
@@ -152,6 +152,8 @@ gray code: an ordering of the binary numeral system such that two successive val
 Beckett was unable to find a Beckett–Gray code for his play, and
 indeed, an exhaustive listing of all possible sequences reveals that
 no such code exists for n = 4.
+
+code is fifo which is an SR
 
 ** 2- what SR in the earth could be - as intro to becoming geological
 

@@ -9,7 +9,7 @@ HEAT LOGIC:
 // plot with gnuplot: find more software for png etc. just to test
 // plot "/root/test2" with lines
 
-// CLK=13, DO-MISO=12, DI=MOSI=11, CS=10
+// CLK=13, DO-MISO=12, DI=MOSI=11, CS=10, heat on pin 6
 
 TODO:
 - DS1820 x2 DONE
