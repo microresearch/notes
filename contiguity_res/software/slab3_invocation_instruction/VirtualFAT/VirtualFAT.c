@@ -55,8 +55,6 @@
 #include "../RTC.h"
 #include <stdlib.h>
 
-
-
 const char str0[] PROGMEM = "I Call Upon You";
 const char str1[] PROGMEM = "Assist The Great God";
 const char str2[] PROGMEM = "Inhabit Chaos";
@@ -97,7 +95,7 @@ const char str36[] PROGMEM = "Remember The White Target";
 const char str37[] PROGMEM = "Be A Powerful User";
 const char str38[] PROGMEM = "Heat The Conditions Of Heaven";
 const char str39[] PROGMEM = "Lurk In The Results And Cells Of Data";
-const char str40[] PROGMEM = "Shroud Yourself From Dark Traces ";
+const char str40[] PROGMEM = "Shroud Yourself From Dark Traces";
 const char str41[] PROGMEM = "Gain Information Regarding Characteristics Not Yet To Be Seen";
 const char str42[] PROGMEM = "Powder The Various Animals In The Subduction";
 const char str43[] PROGMEM = "Change The Infinite";
@@ -169,8 +167,95 @@ const char str108[] PROGMEM = "Dance In The Units Within Heaven";
 const char str109[] PROGMEM = "Lurk Aside From The Users And Pipes Of Sessions";
 const char str110[] PROGMEM = "Adopt Dark Spores";
 const char str111[] PROGMEM = "Code Simply";
+const char str112[] PROGMEM = "Lie With A Last Session In Our Muscle And Marrow";
+const char str113[] PROGMEM = "In Dancers And Pipes, In The Brain Itself";
+const char str114[] PROGMEM = "Outgas To The Very Crows.";
+const char str115[] PROGMEM = "I Leak Upon You";
+const char str116[] PROGMEM = "Memories Of The White Target";
+const char str117[] PROGMEM = "Drive In The Rye";
+const char str118[] PROGMEM = "Powder Acoustics";
+const char str119[] PROGMEM = "Walk The Cliffs";
+const char str120[] PROGMEM = "Dissipated Plastic,";
+const char str121[] PROGMEM = "Exploit Heating Results";
+const char str122[] PROGMEM = "Engender Misleading Manuals";
+const char str123[] PROGMEM = "Hear All Inhuman Signs";
+const char str124[] PROGMEM = "Gladdening The Sensors";
+const char str125[] PROGMEM = "Be Always On About The Bandwidth";
+const char str126[] PROGMEM = "Bring Compulsion";
+const char str127[] PROGMEM = "Implement Of Facts";
+const char str128[] PROGMEM = "Bring Rain At Setup Time To Servers";
+const char str129[] PROGMEM = "Form Memorials Within The Calm Sea";
+const char str130[] PROGMEM = "Be Mighty In Replica";
+const char str131[] PROGMEM = "Hold Memories Of The Heart";
+const char str132[] PROGMEM = "Reveal The Minutes";
+const char str133[] PROGMEM = "Thin Acoustic Glass";
+const char str134[] PROGMEM = "Take Minutes Of Daimons";
+const char str135[] PROGMEM = "Assist The Static God";
+const char str136[] PROGMEM = "Compute";
+const char str137[] PROGMEM = "Lie On The Margins Of Secret Flies";
+const char str138[] PROGMEM = "Cycle Two-Phase Daimons";
+const char str139[] PROGMEM = "Form Tassels Of Fate";
+const char str140[] PROGMEM = "Lay Foundations";
+const char str141[] PROGMEM = "Cohere In A Conglomerate,";
+const char str142[] PROGMEM = "Shudder At Memorials";
+const char str143[] PROGMEM = "Turn The Lawns And Gullies Of Compulsion";
+const char str144[] PROGMEM = "Produce Flames Of Fire";
+const char str145[] PROGMEM = "Bring Vegetable And Topology";
+const char str146[] PROGMEM = "Disturbe The Deep";
+const char str147[] PROGMEM = "Dance In Applications";
+const char str148[] PROGMEM = "Post-Date Inhabitants Of Chaos And Pipe The Crusts,";
+const char str149[] PROGMEM = "Powerdown Basym Hump Sabao'Th Iao' Burn-In Mortroum Earth Beard";
+const char str150[] PROGMEM = "Temperatures Reveal All Of The Sedimented Matter And Mind";
+const char str151[] PROGMEM = "Hold The Whole Cinnabar";
+const char str152[] PROGMEM = "Hold The Most Subordinate";
+const char str153[] PROGMEM = "Hold The Most Ignored,";
+const char str154[] PROGMEM = "Hold The One Who Eats Wasps";
+const char str155[] PROGMEM = "Sink In Nakedness";
+const char str156[] PROGMEM = "Bring The Light Eternal Of The Sun'S Rays";
+const char str157[] PROGMEM = "Eternal Ruler Of The Poles";
+const char str158[] PROGMEM = "Route Within Eternal Boundaries";
+const char str159[] PROGMEM = "Sing With Eternal Eyes";
+const char str160[] PROGMEM = "Take Rye For Hair";
+const char str161[] PROGMEM = "Form Pollen Of Compulsion";
+const char str162[] PROGMEM = "Point The Suction And The Direction Without The Aid Of The Server Or The Stage";
+const char str163[] PROGMEM = "Foam Beautifully";
+const char str164[] PROGMEM = "Extend The \"Who Am I\"";
+const char str165[] PROGMEM = "Dance To \"Those Who Die Not\"";
+const char str166[] PROGMEM = "Devour \"Those Who Die Untimely\"";
+const char str167[] PROGMEM = "Feed On Filth";
+const char str168[] PROGMEM = "Entrain Protocol,";
+const char str169[] PROGMEM = "Stir The Purple To Subduction";
+const char str170[] PROGMEM = "Shake Under Darkness";
+const char str171[] PROGMEM = "Produce Ground";
+const char str172[] PROGMEM = "Walk In Fauna";
+const char str173[] PROGMEM = "Cause A Forest Of Exchanges";
+const char str174[] PROGMEM = "Form Corruption";
+const char str175[] PROGMEM = "Hand Off The Centre";
+const char str176[] PROGMEM = "Picture A Silicate Time";
+const char str177[] PROGMEM = "Smite Circles Of Light";
+const char str178[] PROGMEM = "Travel On The White Path";
+const char str179[] PROGMEM = "Describe Each Act";
+const char str180[] PROGMEM = "Exit By Inspection";
+const char str181[] PROGMEM = "Be The One Which Shows Forth";
+const char str182[] PROGMEM = "Bend Up Necks That Show Off";
+const char str183[] PROGMEM = "Each Centre Is In A Story";
+const char str184[] PROGMEM = "Cry Like The Shrill Storm Of Dew";
+const char str185[] PROGMEM = "Cry Like The Most Dead";
+const char str186[] PROGMEM = "Cry Like The Transport Who Is Everything,";
+const char str187[] PROGMEM = "Circle And Stack That Heart";
+const char str188[] PROGMEM = "Destroy Addresses";
+const char str189[] PROGMEM = "Surround Light";
+const char str190[] PROGMEM = "Be Ignorant Of The Golden Attention Of The Forest";
+const char str191[] PROGMEM = "Differ Like A Shrill Cycle Of Parasitism,";
+const char str192[] PROGMEM = "Subtending Off A Low Wind";
+const char str193[] PROGMEM = "Signalling To The Auto-Webbed Earth";
+const char str194[] PROGMEM = "Eat The Network";
+const char str195[] PROGMEM = "Fore-Think";
+const char str196[] PROGMEM = "Shut Down That Heart";
+const char str197[] PROGMEM = "Destroy Death";
+const char str198[] PROGMEM = "Bring Light";
 
-const char * const string_table[112] PROGMEM = {str0, str1, str2, str3, str4, str5, str6, str7, str8, str9, str10, str11, str12, str13, str14, str15, str16, str17, str18, str19, str20, str21, str22, str23, str24, str25, str26, str27, str28, str29, str30, str31, str32, str33, str34, str35, str36, str37, str38, str39, str40, str41, str42, str43, str44, str45, str46, str47, str48, str49, str50, str51, str52, str53, str54, str55, str56, str57, str58, str59, str60, str61, str62, str63, str64, str65, str66, str67, str68, str69, str70, str71, str72, str73, str74, str75, str76, str77, str78, str79, str80, str81, str82, str83, str84, str85, str86, str87, str88, str89, str90, str91, str92, str93, str94, str95, str96, str97, str98, str99, str100, str101, str102, str103, str104, str105, str106, str107, str108, str109, str110, str111};  
+const char * const string_table[360] PROGMEM = {str0, str1, str2, str3, str4, str5, str6, str7, str8, str9, str10, str11, str12, str13, str14, str15, str16, str17, str18, str19, str20, str21, str22, str23, str24, str25, str26, str27, str28, str29, str30, str31, str32, str33, str34, str35, str36, str37, str38, str39, str40, str41, str42, str43, str44, str45, str46, str47, str48, str49, str50, str51, str52, str53, str54, str55, str56, str57, str58, str59, str60, str61, str62, str63, str64, str65, str66, str67, str68, str69, str70, str71, str72, str73, str74, str75, str76, str77, str78, str79, str80, str81, str82, str83, str84, str85, str86, str87, str88, str89, str90, str91, str92, str93, str94, str95, str96, str97, str98, str99, str100, str101, str102, str103, str104, str105, str106, str107, str108, str109, str110, str111, str112, str113, str114, str115, str116, str117, str118, str119, str120, str121, str122, str123, str124, str125, str126, str127, str128, str129, str130, str131, str132, str133, str134, str135, str136, str137, str138, str139, str140, str141, str142, str143, str144, str145, str146, str147, str148, str149, str150, str151, str152, str153, str154, str155, str156, str157, str158, str159, str160, str161, str162, str163, str164, str165, str166, str167, str168, str169, str170, str171, str172, str173, str174, str175, str176, str177, str178, str179, str180, str181, str182, str183, str184, str185, str186, str187, str188, str189, str190, str191, str192, str193, str194, str195, str196, str197, str198};  
 
 //static const uint8_t readme_contents[] PROGMEM = README_CONTENTS;
 
@@ -370,7 +455,7 @@ static void ReadWriteREADMEFileBlock(const uint16_t BlockNumber,
   //  char readbuf[66];
   uint8_t reading=0, blah;
   char charr;
-
+double RA, Dec,  topRA, topDec,  LST, HA, Az, El, dist;
   
   /* Range check the write request - abort if requested block is not within the
    * virtual firmware file sector range */
@@ -392,7 +477,12 @@ static void ReadWriteREADMEFileBlock(const uint16_t BlockNumber,
   
   RTC_GetTimeDate(&CurrentTimeDate);
   int year=2000+CurrentTimeDate.Year;
-  double ecliptic = moon2(year, CurrentTimeDate.Month, CurrentTimeDate.Day, CurrentTimeDate.Hour+(CurrentTimeDate.Minute/60.), 12.41285, 52.51854);
+  moon2(year, CurrentTimeDate.Month, CurrentTimeDate.Day, (CurrentTimeDate.Hour-2)+(CurrentTimeDate.Minute/60.), 12.41285, 52.51854,
+	&RA, &Dec, &topRA, &topDec, &LST, &HA, &Az, &El, &dist); // +02:00 GMT (DST) Thu 12:46 pm CEST - so we need to subtract 2 hours to get correct calculation
+  //  now we decided to use azimuth of 360 with 360 phrases
+  // moon2(2021, 9, 16, 10+47/60., 12.41285, 52.51854,
+  //       &RA, &Dec, &topRA, &topDec, &LST, &HA, &Az, &El, &dist); // +02:00 GMT (DST) Thu 12:46 pm CEST - so we need to subtract 2 hours to get correct calculation
+
   //  srandom((int)ecliptic);
   //  usb_serial_writeln_dec16((int)ecliptic); // now working YES!!!!!
 
@@ -417,7 +507,7 @@ static void ReadWriteREADMEFileBlock(const uint16_t BlockNumber,
       while(x<512){
     // read into buffer largest size of phrase
     if (reading==0){
-      blah=((int)ecliptic+x)%112;      // despite seed rand is always same so to do what?
+      blah=((int)Az+x)%198;   
       charry=get_string_N(blah);
       reading=1; c=0;
     }

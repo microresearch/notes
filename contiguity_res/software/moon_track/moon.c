@@ -130,7 +130,7 @@ double moon2(int y,int m,int Day,
 }
 
 void main(){
-double ecl=  moon2(2021, 9, 13, 13+7/60., 12.41285, 52.51854);
+double ecl=  moon2(2021, 9, 16, 12+00/60., 12.41285, 52.51854);
  printf("%d\n", (int)ecl);
 
 }

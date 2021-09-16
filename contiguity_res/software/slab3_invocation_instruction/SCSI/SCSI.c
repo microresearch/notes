@@ -80,8 +80,8 @@ static const SCSI_Inquiry_Response_t InquiryData =
     .WideBus32Bit        = false,
     .RelAddr             = false,
 
-    .VendorID            = "LUFA",
-    .ProductID           = "enstix",
+    .VendorID            = "xxxxx",
+    .ProductID           = "invocation/instruction",
     .RevisionID          = {'0','.','0','0'},
   };
 

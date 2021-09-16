@@ -1,6 +1,6 @@
 * short deescription
 
-Deprecation: rotting registers
+Deprecation: rotting or shiftless registers
 
 Deprecation explores the shift register, a digital device, circuit or
 conceit, which links technical and media histories with the esoteric
@@ -76,7 +76,7 @@ with the readers first used with the Robinson machine.
 
 *** musical/artistic use of shift registers
 
-random noise, recurring patterns. use in instruments like the Triadex
+bridge between random noise and recurring patterns. use in instruments like the Triadex
 Muse, Benjolin, digital filter structures
 
 *** To describe an obsession - SR as ouroboros
@@ -91,7 +91,43 @@ Providing a link between the technological and the mystical (how to put this)
 
 What that project was about? 
 
-how we can render experiential the questionable markers of the anthropocene?
+- how we can render experiential the questionable markers of the anthropocene?
+
+Shifting registers, shifting marks of registration of this
+questionable new era.
+
+Shift Register investigates and renders legible the material evidence
+of human activities on the earth, registering these not as indicators
+of human achievement, but as ambiguous negotiations and signposts of
+planetary exhaustion. The project undertakes fieldwork and research
+re-routed from the natural and physical sciences as the means to bear
+witness to these sites of human impact.
+
+Another shift sideways:
+
+Martin Howse has attempted to interrogate the nature of such
+computational enclosures, with their “separation of users and of their
+desires and affects,” and how “The possibility of transferring
+execution outside these sets of containers or black boxes into the
+world is resolutely denied.” In different ways, each of these pieces
+pose what Howse (cited in Sayej 2013) sees as a key question to be
+addressed:
+
+    where exactly do these seemingly abstract coded processes which
+    seriously effects our lives, where do these take place? At first
+    it seems simple, somewhere inside this machine or black box, a
+    laptop, a smartphone, but looking at it closer there’s no easy
+    answer. And I feel that this answer has to do with our skin and
+    the Earth.
+
+For Howse (with a nod to JG Ballard's Crash), one method or exploit
+for triggering a reacquainting of the faultlines of such a question is
+the act of shifting the site of an executable process from its typical
+or stabilised domain to a less typical or stable one. To this end,
+Howse carries out a range of experiments that, in one way or another,
+attempt to shift computational sites of execution into “new material
+(data), outside the particular confines of a trusted and identifiable
+process or skin,"
 
 *** SR as geological, as depth and as circulation
 
@@ -155,15 +191,14 @@ no such code exists for n = 4.
 
 code is fifo which is an SR
 
-** 2- what SR in the earth could be - as intro to becoming geological
+** 2- Shift registers as a methodology for becoming geological!
 
-becoming geo-logical!
+Becoming geological, preserved, immortal, supposedly protected against decay. To be immortal is to be dead.
 
-becoming geological, preserved, immortal, supposedly protected against decay. to be immortal is to be dead.
+The contradiction is that logic is antithetical and opposed to the
+(dead hence ever living) earth.
 
-logic is antithetical and opposed to the earth
-
-what are the naive necessities for logic or SR in the earth:
+We can ask what are the naive necessities for logic or SR in the earth:
 
 - that it must be transmissable and measurable (it cannot be indeterminate or die out)
 - that it must be within the limit of certain thresholds (to signify a 1 or a 0 and be able to pass this on)
