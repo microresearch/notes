@@ -308,10 +308,10 @@ void loop() {
     Serial.println("0-NO");
   }
 
-  for (x=0;x<100;x++){  
-    delay(50);
-  commandline();
-  }
+  //  for (x=0;x<100;x++){  
+  //    delay(500);
+  //  commandline();
+  //  }
   
   // record to SD states (eg. 0 0 1), and average temps
   
