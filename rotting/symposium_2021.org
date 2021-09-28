@@ -1,6 +1,7 @@
-* short deescription
+* Deprecation: Rotting of Shiftless Registers /// (25 minutes) presentation
 
-Deprecation: rotting or shiftless registers
+
+** intro/abstract Deprecation: rotting or shiftless registers
 
 Deprecation explores the shift register, a digital device, circuit or
 conceit, which links technical and media histories with the esoteric
@@ -9,12 +10,30 @@ of computer memory, and provides for ways of thinking about both
 digital and human preservation and dissolution in the context of the
 questionable term of the anthropocene.
 
+** 1- what is a SR?
 
-images cycle in background: - SR project?
+*** what exactly is a shift register - how does it operate
 
-* Deprecation: Rotting Registers /// (25 minutes) presentation
+A shift register is a type of digital circuit using a cascade of flip
+flops where the output of one flip-flop is connected to the input of
+the next. They share a single clock signal, which causes the data
+stored in the system to shift from one location to the next. By
+connecting the last flip-flop back to the first, the data can cycle
+within the shifters for extended periods, and in this form they were
+used as a form of computer memory. In this role they are very similar
+to the earlier delay line memory systems and were widely used in the
+late 1960s and early 1970s to replace that form of memory.
+[wikipedia] 
 
-** 1- what is a SR? with lots of diagrams, audio examples maybe, what it is used for
+Key characteristics are the movement of well-defined data
+from one cell to another as a form of memory, which is against
+disintegration, and dissolution 
+
+That these material forms such as the delay line were built on
+necessary decay - acoustic delay line, light delay line, Alan Turing delay line
+re-circulation against loss and decay of a signal, fading out
+
+*** Ouroboros
 
 In the rarified realm of digital designers, an equivalent to the
 Ouroboros is the linear-feedback-shift register (LFSR), in which the
@@ -28,29 +47,8 @@ tricks to learn. The great psychoanalyst Carl Jung speculated that the
 Ouroboros could be part of the collective consciousness, so had he
 dabbled in electronics, he may well have considered LFSRs to form part
 of the digital consciousness. Hold onto that couch, Carl; I’m on my
-way! [EDN website/beebop boolean boogie]
-
-*** what exactly is a shift register - how does it operate
-
-A shift register is a type of digital circuit using a cascade of flip
-flops where the output of one flip-flop is connected to the input of
-the next. They share a single clock signal, which causes the data
-stored in the system to shift from one location to the next. By
-connecting the last flip-flop back to the first, the data can cycle
-within the shifters for extended periods, and in this form they were
-used as a form of computer memory. In this role they are very similar
-to the earlier delay line memory systems and were widely used in the
-late 1960s and early 1970s to replace that form of memory.
-
-[wikipedia] - key characteristics - the movement of well-defined data
-from one cell to another as a form of memory, which is against
-disintegration, and dissolution - that these material forms such as
-the delay line were built on necessary decay - acoustic delay line,
-light delay line, gin story! - re-circulation against loss!
-
-[serial to parallel]
-
-http://www.righto.com/2014/12/inside-intel-1405-die-photos-of-shift.html
+way! 
+[EDN website/beebop boolean boogie]
 
 *** the first shift register? collosus
 
@@ -60,9 +58,7 @@ device built of vacuum tubes and thyratrons. A shift register was
 also used in the IAS machine, built by John von Neumann and others at
 the Institute for Advanced Study in the late 1940s.
 
-e program but with different input data from the tape, an effective
-speed of 25,000 characters per second was obtained and was
-enough. Five separate processors presented little difficulty. A
+Five separate processors presented little difficulty. A
 photoelectric reader to supply them with data would have to read six
 lines of tape simultaneously, however, and would be very difficult to
 construct. Six lines were needed so that two consecutive but different
@@ -76,8 +72,10 @@ with the readers first used with the Robinson machine.
 
 *** musical/artistic use of shift registers
 
-bridge between random noise and recurring patterns. use in instruments like the Triadex
-Muse, Benjolin, digital filter structures
+As a bridge between random noise and recurring patterns. 
+
+Historic use in instruments like the Triadex Muse, Benjolin, and
+misuses of digital filter structures.
 
 *** To describe an obsession - SR as ouroboros
 
@@ -131,23 +129,28 @@ process or skin,"
 
 *** SR as geological, as depth and as circulation
 
-that there is something geological and stratified about the shift
-register, data is shuffled down the line
+That there is something geological and stratified about the shift
+register, data is shuffled down the line. We think of an ice or
+geological core sample. What is most recent is at the top of the
+sample, forever shifting down. Peat samples that we took!
 
-but the SR is enacted in bits in algorithmic time, SR as
+But the shift register is enacted in bits in algorithmic time, SR as
 particulate/discrete/digital in a sense.
 
 *SR is a discrete form of circulation*
 
 SR forms one link between the digital and the geological...
 
-at the same time the SR is somehow organic - there is the transition
-from something dying or decaying (losing its identity, its unitary
-body) to become something living. catholic shift registers of
-resurrection... alive until it dies again and is reborn in a new
-identity. what it inherits from the oroborus in terms of philosophy.
+At the same time the SR is somehow organic in the sense that decay is
+organic an alive - there is the transition from something dying or
+decaying (losing its identity, its unitary body) to become something
+living. Catholic shift registers of resurrection... alive until it
+dies again and is reborn in a new identity. This is hat it inherits
+from the oroborus in terms of hermetic philosophy.
 
-started thinking about Samuel Beckett's stones or pebbles:
+I was reminded of Samuel Beckett's stones or pebbles:
+
+https://www.youtube.com/watch?v=TXoq_H9BrTE
 
 I took advantage of being at the seaside to lay in a store of
 sucking-stones. They were pebbles but I call them stones. Yes, on this
@@ -183,22 +186,25 @@ one to exit. The actors could then be represented by a first in, first
 out queue (a shift register), so that (of the actors onstage) the
 actor being dequeued is always the one who was enqueued first.
 
-gray code: an ordering of the binary numeral system such that two successive values differ in only one bit (binary digit). 
+gray code: an ordering of the binary numeral system such that two
+successive values differ in only one bit (binary digit).
 
 Beckett was unable to find a Beckett–Gray code for his play, and
 indeed, an exhaustive listing of all possible sequences reveals that
 no such code exists for n = 4.
 
-code is fifo which is an SR
+Beckett code is a FIFO which is an SR.
 
 ** 2- Shift registers as a methodology for becoming geological!
 
-Becoming geological, preserved, immortal, supposedly protected against decay. To be immortal is to be dead.
+Becoming geological, preserved, immortal, supposedly protected against
+decay. To be immortal is to be dead.
 
 The contradiction is that logic is antithetical and opposed to the
 (dead hence ever living) earth.
 
-We can ask what are the naive necessities for logic or SR in the earth:
+[IF TIME:
+[We can ask what are the naive necessities for logic or SR in the earth:
 
 - that it must be transmissable and measurable (it cannot be indeterminate or die out)
 - that it must be within the limit of certain thresholds (to signify a 1 or a 0 and be able to pass this on)
@@ -209,58 +215,50 @@ We can ask what are the naive necessities for logic or SR in the earth:
 - that the measurable nature of the energetic transforms is not subject to interference from other flows or transformations
 
 what types of logic are there? such as fluid gates, heat gates
+]]
 
-that it is already geological - the shift registers of extraction and
+That it is already geological - the shift registers of extraction and
 return, of refinement, depracation, obsolesence and return to the
-earth - 
+earth.
 
-// repeating and circling text
+// A repeating and circling text
 
-copper is extracted from the earth (according to speculative
+Copper is extracted from the earth (according to speculative
 algorithms running on hardware which is partially dependent on the
 future extraction of these metals or at least geological and
 metallurgical research into alternative resources which will inform
-and affect the extraction of these and other elements), refined (here
-is the link to the SR, the cut - where we wrote on this/Peter
-article - Barad a meeting of two disparate and heavily refined
-materials taking good advantage of the asymmetric conduction of
-electric current between a crystal and a metal, the “cut”1 between two
-apparently discrete materials or objects. the cut as language) and
-reworked, re-combined with other equally refined mineralities to
-fulfill the demands of logic or the SR in the earth that we
-mentioned...
-
-extracted, refined, deprecated like any protocol, abandoned, rendered
-obsolete, once again refined and seperated from any other unwanted
-elements (which are returned to the earth with traces of that use and
-of those other constituents), to be re-used ideally within new logics,
-or quite possibly the same logical structures embedded in "new"
-interfaces, promoted algorithmicallly by hardware  which ...
-
-is partially dependent on the future extraction of these metals or at
+and affect the extraction of these and other elements), refined
+(rendered as an identity, as copper) and reworked, re-combined with
+other equally refined mineralities to fulfill the demands of logic or
+the SR in the earth to become deprecated like any protocol, abandoned,
+rendered obsolete, once again refined and seperated from any other
+unwanted elements (which are returned to the earth with traces of that
+use and of those other constituents), to be re-used ideally within new
+logics, or quite possibly the same logical structures embedded in
+"new" interfaces, promoted algorithmicallly by hardware which is
+partially dependent on the future extraction of these metals or at
 least geological and metallurgical research into alternative resources
 which will inform and affect the extraction of these and other
-elements), refined (here is the link to the SR, the cut - where we
-wrote on this/Peter article - Barad) and reworked, re-combined with
-other equally refined mineralities to fulfill the demands of logic or
-the SR in the earth that we mentioned...
+elements), refined and reworked, re-combined with other equally
+refined mineralities to fulfill the demands of logic or the SR in the
+earth.
 
 ** 3- more feedback loops, geological feedback loops 
 
-and as a necessary byproduct of these loops:
+... and as a necessary byproduct of these loops:
 
-we inhale and ingest our own geological indicators (metals, isotopes, markers)
+We inhale and ingest our own geological indicators (metals, isotopes, markers)
 
-that it is not outside us, we eat and inhale our own - belonging to
+That it is not outside us, we eat and inhale our own - belonging to
 us, anthropogenic - signifiers of the becoming geological (not just
 marking an outside, but an inside, a double psychological loop)
+
+- feedback loops of warming and particulate exhalations of burning forests...
 
 
 ** conclusion - towards decaying, mortal particulate logics
 
-*** notes on particles and becoming geological to incorporate [mummy, chinese alch images]
-
-- link SR and Tiny Mining
+The link between SR and Tiny Mining
 
 I started thinking about the ingestion of particles, starting to think
 if this becoming geology through ingestion is not so foreign to
@@ -269,13 +267,10 @@ undecaying geological mummy. The anthropocene could be seen as some
 kind of circular ingestion of the markers of our own entry into
 geological timeframes, which seems to have a familiar logic!
 
-if the project of humanity is not this becoming geological - becoming
+If the project of humanity is not this becoming geological - becoming
 immortal as a dead or undying body of jade or mercury (Chinese Alchemy)
 
-the questionable term of the anthropocene is re-written as the
+The questionable term of the anthropocene is re-written as the
 ingestion and inhalation of our "own" entry point into geological
 time. (explain this with ref to radioactive tracers, markers)
 
-radio-active dating slewed by ingestion and uptake of anthrogenic markers  (another feedback loop)
-
-- feedback loops of warming and particulate exhalations of burning forests

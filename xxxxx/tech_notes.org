@@ -1,6 +1,71 @@
+* 28.9.2021
+
+- to zip files from dired in emacs:
+
+mark with m, then ! (operation), then: zip -r yourfile.zip *
+
+- to automate processing of materials eg. text, audio, gps/geographic...
+
+for text:
+
+: e2ps -af Helvetica -p -nh -size 24 -line 120 2709_slab2logic.txt > 2709slab2.ps
+
+: ps2pdf 2709slab2.ps
+
+: pdfnup 2709slab2.pdf --nup 4x4 --no-landscape
+
+(or other options. then to change size to A0 we need to open and print-to-file in evince)
+
+
+
+* 21.9.2021
+
+- alignment for cuttings (but not sure how we made it!)
+
+align.svg
+
+- shifted slab3 - invocation/instruction code to:
+
+  /root/notes_and_projectsNOW/contiguity_res/software/slab3_invocation_instruction
+
+// quick note that we had to reduce number of instructions as was
+over-writing bootloader (which we had to reprogram from arduino app)
+
+Slab 3-Invocation/instruction
+
+Slab 3 is a USB storage device which is activated by the data receiver
+(on plugging into the slab) and which presents a changing invocation
+or set of instructions which are dependent on the position of the moon at
+that time and at that specific location. The instructions are based on
+the invocation of the Bear asterism (Ursa Major) from ancient Greek papyri.
+
+A sample instruction/invocation might read as follows (not to be interpreted):
+
+Cohere In A Conglomerate
+Feed On Filth
+Be The One Which Shows Forth
+Lead Those In The Underworld
+Gain Information Regarding Characteristics Not Yet To Be Seen
+Send Researchers To The Fire
+Reveal The Minutes
+Hold The Whole Cinnabar
+Hand Off The Centre
+Fore-Think
+Lurk In The Nooks And Crannies Of Houses
+Bring  Attackers
+Sex Transistors
+Pin Data
+Punish Ratings
+Dream Of Sunless Leakage
+Hold Memories Of The Heart
+Route Within Eternal Boundaries
+Be Ignorant Of The Golden Attention Of The Forest
+
+
+
 * 7/9/2021
 
-- working file/fat fake virtiual FATFS is in: 
+- working file/fat fake virtual FATFS is in: 
 
   /root/notes_and_projectsNOW/contiguity_res/software/enstix/sources:
 

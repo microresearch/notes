@@ -27,7 +27,7 @@ sent=[]
 
 #a location
 
-for x in range(10):
+for x in range(100000):
     
     addon=random.choice(addons)
     if addon==' ':
