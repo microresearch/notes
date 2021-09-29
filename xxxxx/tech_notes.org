@@ -1,3 +1,19 @@
+* 29.9.2021
+
+- for transmission ecologies radio transmission broadcast:
+
+: python meminping.py
+
+- access to /dev/mem (using kernel module ->  https://github.com/ozgunawesome/devmem-full-access
+
+- insmod module
+
+- sending data in ICMP packets - using USRP and gnuradio companion to
+  receive - we tuned to 2.4GHz with -1.8M seek (fmradio2.grc file),
+  gain at 66 and RX2 antenna
+
+- in audacity we open data as 32 bit float...
+
 * 28.9.2021
 
 - to zip files from dired in emacs:
