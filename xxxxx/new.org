@@ -1,0 +1,69 @@
+* pornographic logic
+
+- porn cpu, alu, shift register, basic gates towards the adder
+
+** shift register
+
+for SR we need D flip flops (or possible edge triggered otherwise how we stop a 1 going through all flipflops)
+
+https://electronics.stackexchange.com/questions/561971/cascaded-flip-flops-and-shift-register-timing
+
+file://f3La8.png
+
+To understand it, consider first a gated D-Latch which is level
+sensitive which means that the input is applied to the output as long
+as the gate (E) is active, otherwise the last state is maintained:
+
+Now one way to implement an edge triggered D-FlipFlop is by using two
+D-Latches in a master-slave configuration:
+
+
+When the clock is low the first latch (the master) is activated and
+its output follows the D input but the second latch (slave) retains
+its last state.
+
+When the clock switches to 1, the master holds the state available at
+the rising edge and then the slave will be active and its output
+follows the maintained output of the master. This value will remian
+until the next clock edge.
+
+Now if you consider the successive D-FlipFlops of your circuit:
+
+Before the clock rising edge, the master of each Flipflop is connected
+to the state held by the slave of the previous Flipflop at the
+previous clock edge .  At the rising edge of the clock, it is this
+maintained value that will be latched by the master of each Flipflop
+which is the status at the previous clock edge. this maintained value
+will be applied to the output of the D-Flipflop after the rising edge.
+
+** is porn logic using mechanics and bodies/prosthetics or just bodies?
+
+** full adder
+
+9 NAND gates
+
+half adder would be 5 NAND gates
+
+or
+
+2x XOR, 1x OR, 2x AND - total of 5 gates/people (plus one or two output participants)
+
+** beckett/gray code for pornographic logic
+
+- all possible combinations without repeating
+- FIFO - one who leaves has been there longest
+- at each period one of x actors enters or leaves the stage
+
+fucker x performs y on z. 3 sets of beckett/gray code for n=upto7
+
+** older notes
+
+how text becomes subject to logical operations (maybe revisit
+grading/summary of text, OR or XOR of texts: two inputs (two subjects
+writing), one output which then is one of the two inputs for the next
+set of gates … recursive
+
+star charts as entries to graphical shift registers (and plot some of
+our own from SEGs)
+
+

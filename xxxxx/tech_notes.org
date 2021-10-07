@@ -1,3 +1,38 @@
+* 7/10/2021
+
+- beckett codes and new pornographic logic
+
+- revisiting island2 (root) - we re-made with new makefile:
+
+: obj-m += island.o
+: all
+:	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+:
+:clean:
+:	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+
+now compile and we use kzalloc to zero the data,,,
+
+we can check it with:
+
+: hexdump -C -s 0x10000000 /dev/mem | head
+
+* 5.10.2021
+
+** archidoxa prints and cutouts
+
+https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN645230227&PHYSID=PHYS_0048&DMDID=DMDLOG_0004
+
+- scale to 320mm
+
+- thershold/colour
+
+- for backsides we need to flip and then rotate to match
+
+- gimp despeckle for outlines/cuts to get svg
+
+- in inkscape we trace bitmap
+
 * 29.9.2021
 
 - for transmission ecologies radio transmission broadcast:
