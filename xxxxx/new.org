@@ -2,6 +2,51 @@
 
 - porn cpu, alu, shift register, basic gates towards the adder
 
+** machine learning now in testing.ipynb to pull out/edit 
+
+now storyof0.ipynb
+
+- TODO: how we could work per chapter on this////
+
+** re-visiting dianacrash materials and code
+
+*** ballardmatcher.py
+
+collated NPs with new working code but we can't seem to match: pagetlatestNP001
+
+maybe new tagger is different?
+
+(replacing:tag1= nltk.data.load(nltk.tag._POS_TAGGER)
+
+tags = nltk.pos_tag(tokenized)
+    print(tags)
+
+NP: {<DT>?<N.*|JJ.*><IN|N.*|VBN><VBN|IN|N.*><JJ.*|N.*><N.*>} # from crash wounds text
+NP: {<DT>?<N.*|JJ.*>+<IN|N.*|VBN>+<VBN|IN|N.*>?<JJ.*|N.*>?<N.*>}
+NP: {<DT>?<JJ.*>*<N.*>*<N.*>}
+NP: {<JJ.*>?<CC>?<JJ.*>?<INJ><V.*>?<IN>?<V.*|JJ.*|N.*>+<V.*|JJ.*|CC|POS|IN|N.*>+}
+NP: {<COL|INJ|CHR><DT|V.*|JJ.*|CC|POS|IN|NN.*|PRP.*|COL|TO|,>+}  =*****
+NP: {<JJ.*>?<VBD|N.*>?<IN|VBD>?<NN>?<N.*>} # dt jj nn = the adjective noun 
+NP: {<JJ|NN>?<NN><MD|R.*|WDT||V.*|JJ.*|CC|P.*|TO|DT|IN|NN.*|NN|COL|CHR>+}
+NP: {<JJ.*>?<VBD|N.*>?<IN|VBD>?<NN>?<N.*>} # dt jj nn = the adjective noun 
+NP: {<DT>?<JJ>?<NN|NNS>+<IN>?<JJ>?<NN|NNS>?<CC>?<JJ|NN>?<IN>?<NNS>}
+
+new code in try2.py:
+
+Attempt to:
+
+- Classify sentences DONE
+- Take first Noun phrase (NP) with X or more words from first sentence // question of waht o do with fullstop: ignore full stop?
+- Count how many times this occurs in the full text?
+- Output NP and maybe convert to grammar
+
+ grammar = "NP: {<NN><NN>}  # Chunk two consecutive nouns"
+
+- Take next NP (shift one? until we hit end of sentence?)
+
+or try to match whole sentence?
+
+
 ** shift register
 
 for SR we need D flip flops (or possible edge triggered otherwise how we stop a 1 going through all flipflops)

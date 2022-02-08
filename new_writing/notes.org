@@ -12,6 +12,8 @@
 
   /root/rsync2016/projects/writing/diana
 
+/root/projects/archived/forandy/mergepos.py
+
 mergepos.py is latest pos one we use for andy fanzine bbqed humans
 
 - downloads
