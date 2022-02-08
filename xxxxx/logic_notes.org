@@ -1,0 +1,63 @@
+* notebook notes
+
+[see also new.org]
+
+towards an adventure game...
+
+** 15/10
+
+he accepts the new bit and passes on the olf one - remembers the old
+one. how this memory works - how does he remember? how does the gate
+remember?
+
+logic records itself (the results) - the record is the logic...
+
+logic of observers, of participants. 1-2
+outputs. gates. splitters. passers-on. lick, penetrate or...
+
+rewrite datasheet of a shift register for pornographic logic
+
+diagrams/camera - 2 people -> 1 person / 1 out. they observe each
+other. agree on what is a 1 or 0
+
+1 person as logical structure
+
+active low
+
+** 20/12
+
+1. strictly permutational texts - eg following beckett gray codes or
+   slabs work X does Y to Z [constraints on ordering]
+
+enters/receives - penetrates/withdraws - her/his/their
+
+2. part of speech substitution. Ballardian and other analyzed
+   phrasings - see latest
+
+3. textgenrnn crossings
+
+4. handwritten - logic of observer, of participants
+
+// code which can execute = across platforms as active, between a
+pill, a module, a cartridge, a text/piece of writing/broken down
+
+traditional - compiler, assembler in one direction. disassembler in
+the other.
+
+consecutive narrators (as in a book) why and how and under what
+circumstances they can narrate eg. my hands are tied, I wasn't
+there. My words are made up. This is not how it happened.
+
+8 bit hybrids of pornlogic/ergot/cartridges/tinymining/planets/metals
+SCRAMs source, in code, in graphics, in hardware and slab instructions
+
+logic/geomancy/usb combinatorials
+
+towards -> combine adventure game and nltk/porn merges
+
+as a real game which can be used to construct ideas/productions
+
+open to the outside/embedded
+
+divination game inside out
+
