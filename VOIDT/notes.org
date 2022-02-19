@@ -1,0 +1,142 @@
+*  16/2/2022
+
+most notes on google docs
+
+** TODO
+
+- fix up gps/particle walk case
+
+check with multimeter, arduino as programmer (see what is wrong)
+
+*re-do all using arduino and coincidence we have...*
+
+- how to connect to pi in suite (with funny network): does it connect
+  at all, make own wireless net and dhcp (how again) and fake the mac
+  address?
+
+** cosmic
+
+- test c1, c2, c3 and log 10 minute results
+
+import_data.py is in cosmic in particles dir...
+
+c1 is ch341 /on docs/
+c2 is ch341 - 0.507
+c3 is FTDI - 0.622
+
+** particle walk
+
+- particle walk tests and HOWTO/re-acquaint
+
+first correct 16.5 first co-ord to -16.5
+
+convert: 
+
+: python gpstoqgis.py ../data/16022022_0
+
+then open in qgis: layer/add layer/add delimited text layer
+
+first as x, second as y
+
+how to do blurry thing: try with symbology, heat map, weight with... and blend types/opacity
+
+- particle case stopped logging after first test.
+
+GPS tested fine with arduino, sd card looks ok, reformatted as fat16 mkfs too...
+
+problem: low power, serial connection, micro fault, sd card connector fault
+
+GPS is navilock NL852ETTl with 3.3v TTL says 5v supply? no change at 5v
+
+* 17/2
+
++re-do all using arduino and coincidence we have...+
+
+- how to connect to pi in suite (with funny network): does it connect
+  at all, make own wireless net and dhcp (how again) and fake the mac
+  address? or just use wired and connect to wider net (find notes on this):
+
++test first sd and gps logging - DONE+
+
++// interrupt attach - test on its own+
+
++previously int was on 2 so we need to move gps serial...+
+
++//TEST ALL?DONE+
+
+- first walk results: 
+
+* 18/2
+
+- decided on walker proposal so need identify materials and stages
+
+cosmic->pi->3904->relay(GPIO)
+
++5v powerbank for pi/cosmic+, 12v for relay (larger battery), usb charged tiny speaker and amp maybe
+
+rucksack, (refillable) container and valve assembly
+
+NEVER INSTALL ON LAPTOP - broken
+
+--- connect to cosmicwatch (either we use software there and interpret this - as sends data on each event).
+
+- 9600 baud
+
+--- GPIO activate relay/transistor
+
+--- algo and walk algo to think on: one hit is one small dispensing or we need stay still for x seconds and how we signal this - flash led, stop go, sound/speech...
+also could be speech for walk left/right etc. random walk.
+
+stop/start/left/right/forward
+
+// first to do is fix up dispensing
+
+** 19/2
+
+- not so keen on speech - keep walking and dispense on cosmic hit - TO TEST
+
+TODO: +connect to PI, fwd PI to network, install and test cosmicwatch data acquisition.+
+
+- python: +new cosmic software to register hits and also log data, flash+ test relay even (but we need 12v)
+
+[thing is cosmic sends strings with header lines first so would trigger opening... 5 or 6 lines]
+
+- start cosmic on start with default file (data/time), and USB0 - in /etc/rc.local and working now
+
+next stages: 
+
+- software to test relay, maybe have cosmicwatch with gps (fwd to pi or to laptop by way of an arduino)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+:  scp own_cosmic.py pi@192.168.1.24:/home/pi
+
+: minicom -D /dev/ttyUSB0 -b 9600
+
+- attach to pi:
+
+--- connect via ethernet, route net via laptop
+
+: ifconfig enp0s25 192.168.1.23
+: iptables -F
+: sysctl -w net.ipv4.ip_forward=1
+:  iptables -t nat -A POSTROUTING -o wlp3s0 -j MASQUERADE
+
+on laptop
+
+On pi: in /etc/dhcpcd.conf:
+
+interface eth0
+
+static ip_address=192.168.1.24
+
+static routers=192.168.1.23
+
+static domain_name_servers=8.8.8.8
+
+NOTE:
+
+: export TERM=xterm
+
+
+
