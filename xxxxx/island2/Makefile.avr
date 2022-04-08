@@ -1,0 +1,29 @@
+MCU=atmega8
+CC=avr-gcc
+CEXTRA=-Wa,-adhlns=$(<:.c=.lst)
+LDFLAGS  = -mmcu=${MCU} ${EXTERNAL_RAM} -Wl,-u,vfprintf -lprintf_flt -lm
+OBJCOPY=avr-objcopy
+CFLAGS=-g -mmcu=$(MCU) -Wall -Wstrict-prototypes -Os -mcall-prologues ${CEXTRA}
+TARGET=island_avr
+#-------------------
+all: island_avr.hex
+#-------------------
+island_avr.hex : island_avr.out 
+	$(OBJCOPY) -R .eeprom -O ihex island_avr.out island_avr.hex 
+
+island_avr.out : island_avr.o 
+	$(CC) ${LDFLAGS} $(CFLAGS) -o island_avr.out  island_avr.o -lm
+
+island_avr.o : island_avr.c 
+	$(CC) $(CFLAGS) -Os -c island_avr.c
+
+island_avr.elf: island_avr.o
+	$(CC) ${LDFLAGS} $(CFLAGS) -o island_avr.elf island_avr.o -lm
+
+disasm:	island_avr.elf
+	avr-objdump -d island_avr.elf
+
+#-------------------
+clean:
+	rm -f *.o *.map *.out *t.hex
+#-------------------

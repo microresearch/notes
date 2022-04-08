@@ -151,7 +151,7 @@ static routers=10.0.0.1
 
 static domain_name_servers=75.75.75.75 75.75.76.76 2001:558:feed::1 2001:558:feed::2
 
-do gate add default gw blah also...
+do route add default gw blah also...
 
 * 30/6
 

@@ -25,7 +25,7 @@ def signal_handler(signal, frame):
 
 def relay():
     GPIO.output(RELAIS_1_GPIO, GPIO.HIGH) # on
-    time.sleep(0.5) # test with half second on
+    time.sleep(0.5) # test
     GPIO.output(RELAIS_1_GPIO, GPIO.LOW) # off
 
 os.system('echo none > /sys/class/leds/led0/trigger')
@@ -65,14 +65,18 @@ while True:
     # toggle green led / do relay maybe...
     # if another ray hits whilst is still open then stays open
     # how to start relay as blocks now with readline and we want to time relay - threading...
-    thread = threading.Thread(target=relay)
-    thread.start()
+    counter=counter+1
+    if counter>10:
+        thread = threading.Thread(target=relay)
+        thread.start()
+        tog=tog^1
+        if tog==1:
+                brightness_on()
+        else:
+                brightness_off()
+                
+        file.write(str(datetime.now())+" "+data)    
+        print(str(datetime.now())+" "+data)
     
-    tog=tog^1
-    if tog==1:
-        brightness_on()
-    else:
-        brightness_off()
-    file.write(str(datetime.now())+" "+data)    
 ComPort.close()     
 file.close()  

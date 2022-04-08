@@ -1,14 +1,28 @@
+* invoices
+
+- from here:
+
+
+
+- reichelt/change name
+- ebay scint block
+- paypal canada postage
+
+TOTAL: 
+
 *  16/2/2022
 
-most notes on google docs
+WED
+
+[most notes on google docs]x
+
+Hub: https://www.mouser.de/ProductDetail/?qs=WyAARYrbSnbEMm1mgQbCVg%3D%3D 
 
 ** TODO
 
-- fix up gps/particle walk case
+- +fix up gps/particle walk case+
 
-check with multimeter, arduino as programmer (see what is wrong)
-
-*re-do all using arduino and coincidence we have...*
++re-do all using arduino and coincidence we have...+
 
 - how to connect to pi in suite (with funny network): does it connect
   at all, make own wireless net and dhcp (how again) and fake the mac
@@ -20,7 +34,7 @@ check with multimeter, arduino as programmer (see what is wrong)
 
 import_data.py is in cosmic in particles dir...
 
-c1 is ch341 /on docs/
+c1 is ch341 - 0.574
 c2 is ch341 - 0.507
 c3 is FTDI - 0.622
 
@@ -28,11 +42,15 @@ c3 is FTDI - 0.622
 
 - particle walk tests and HOWTO/re-acquaint
 
-first correct 16.5 first co-ord to -16.5
+// for new version we don't do this:
+
+[ first correct 16.5 first co-ord to -16.5
 
 convert: 
 
-: python gpstoqgis.py ../data/16022022_0
+: python gpstoqgis.py ../data/16022022_0 
+
+]
 
 then open in qgis: layer/add layer/add delimited text layer
 
@@ -46,7 +64,7 @@ GPS tested fine with arduino, sd card looks ok, reformatted as fat16 mkfs too...
 
 problem: low power, serial connection, micro fault, sd card connector fault
 
-GPS is navilock NL852ETTl with 3.3v TTL says 5v supply? no change at 5v
+GPS is navilock NL852ETTL with 3.3v TTL says 5v supply? no change at 5v
 
 * 17/2
 
@@ -70,9 +88,9 @@ GPS is navilock NL852ETTl with 3.3v TTL says 5v supply? no change at 5v
 
 - decided on walker proposal so need identify materials and stages
 
-cosmic->pi->3904->relay(GPIO)
+cosmic->pi->[/3904/]->relay(GPIO)
 
-+5v powerbank for pi/cosmic+, 12v for relay (larger battery), usb charged tiny speaker and amp maybe
++5v powerbank for pi/cosmic+, 12v for relay (larger battery)
 
 rucksack, (refillable) container and valve assembly
 
@@ -91,13 +109,13 @@ stop/start/left/right/forward
 
 // first to do is fix up dispensing
 
-** 19/2
+* 19/2
 
 - not so keen on speech - keep walking and dispense on cosmic hit - TO TEST
 
 TODO: +connect to PI, fwd PI to network, install and test cosmicwatch data acquisition.+
 
-- python: +new cosmic software to register hits and also log data, flash+ test relay even (but we need 12v)
+- python: +new cosmic software to register hits and also log data, flash+
 
 [thing is cosmic sends strings with header lines first so would trigger opening... 5 or 6 lines]
 
@@ -105,7 +123,11 @@ TODO: +connect to PI, fwd PI to network, install and test cosmicwatch data acqui
 
 next stages: 
 
-- software to test relay, maybe have cosmicwatch with gps (fwd to pi or to laptop by way of an arduino)
+- software to test relayDONE, maybe have cosmicwatch with gps (fwd to pi or to laptop by way of an arduino)
+
+- test relay with 12v supply and solenoid...
+
+- how to plot and interpret data
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -138,5 +160,285 @@ NOTE:
 
 : export TERM=xterm
 
+* 20/2 +
 
+sunday
+
+- DONEbotanic garden walk  - MONK14 is last one: 16_2002022.csv
+
+- think also to re-code to measure time between hits on orange case:
+  look into (but then is also question of deadtime - or not as we use
+  interrupt - just count millis between interrupts) - but this doesn't
+  really make sense as time resolution of GPS doesn't match though
+  mentions update rate of 18 Hz, rate of walking also not so fine...
+
+options: update location in main loop (if that works for heatmap
+clusters?), signal write from interrupt->main (turn off interrupt in
+write, can write old GPS pos if not updated)
+
+** cosmicwatch
+
+understand deadtime and other measurements
+
+- test coincidence mode// connections: 3 wires, 5v gnd and communication
+
+- test c1 with pi: // hopefully fixed date and network! DONE
+
+plotting etc. from cosmicwatch:
+
+: jupyter notebook ExamplePlots/ExampleiPythonNotebook.ipynb
+
+http://localhost:8888/notebooks/ExampleiPythonNotebook.ipynb
+
+http://localhost:8888/notebooks/test.ipynb is the one we work with and make changes to...
+
+// for our data we had to make device name and remove odd characters from the data file
+
+only starts to make sense for different kinds of measurement...
+
+// narrowing cosmic ray window with coincidence - 2 on edge distanced one above the other
+
+* 21/2
+
+- cave visit (cuevas de chimiche): short walk MONK17, 1:2500 scale, darken, 20mm radius weighted heat map
+
+- connected 3 connectors - data(orange), tip/5v(red) and GND(brown)
+socket
+[+V] [ ] [GND]
+   [ ] [data]
+
+ - first to reset is MASTER - shows all pulses, second is coincidence
+   (slave) only - coincidence data only (so we should cable this one to serial!)
+
+in coincidence mode different data:
+
+Serial.println((String)count + " " + time_stamp+ " " + adc+ " " + sipm_voltage+ " " + measurement_deadtime+ " " + temperatureC);}
+
+check this with plottings
+
+* 22/2
+
+tue
+
+- date off on pi - had to add device name to file and header...
+
+test.ipynb
+
+20220220-211509.txt - is yesterday from caves/travelling/home: 212022.pdf
+
+20220220-112532.txt - is older/home/tigaiga: 202022.pdf
+
+but for plot from coincidence we only have 6 lines // as above...
+
++question is if serial open resets and then we have problem as need to reset second* - test with lap...+ no it doesn't reset
+
+TODO: 
+
+- +check cosmiclog from 21st, and 20th long logs - questions of plots+ DONE
+- new code for GPS mappings 
+- check different coincidence setups and counts, test plots of coincident counts (overnight)
+
+for new GPS mappings:
+
+- +trial millisec recording between hits+
+- +trial with GPS - how often does it update?+ DONE
+(cueva honda/malpais), archaeological cave Don Gaspar
+
+* 23/2
+
+renamed. C1-Dee, C2-Kelley, C3-Ebersbach. Hardcoded master and slave - for C2 and C3... *so we attach USB always to C3*
+
+- +need to get better foil for changing to silicone gel+
+
+- new GPS code to test with walk
+
+- what is average coincidence rate? from paper looks to be around 0.12 to 0.15 
+
+collect sand, script, start thinking on audio: 
+
+particle sounds from detector, live sounds of mechanism/solenoid, sand
+falling by hand or mechanism, entry into shift register, do we still
+have old HW sounds? yes from AND now downloaded here...
+
+- mechanism testing and calibration
+
+- new mapping, make maps
+
+* 24/2
+
+- hard coded c2 as master c3 (ebersbach) as slave - and both have new optical gel...
+
+- 2 is quite high count (3.0 still so far at 0.07 for coincidence)
+
+- testing relay timing. grey/3.3v, white GND, purple GPIO_17, solenoid 12v - we need to try with sand and dust 
+
+(orange PLUS at top of solenoid)???
+
+TODO: inside and outside new coincidence recordings (C2/C3-slave): 
+
+Inside: x hours (14.10->17.10): 3 hours c2: 3.0 or so (high) c3:0.99
+
+Outside: x hours... (17.10->): moved closer at 18.30 (0.116) as raining a bit - 21.43 moved inside to back of flat (0.107) - to see changes  
+
+(c2 2.8) - below we only got 17.10->19.25
+
+- TODO: check orange case on walk (tested voltages fine and
+  re-soldered loose connection), plots, reading for C3 as master,
+  walking timings and drops (0.1 is one in 10 seconds which could be ok - 6 in one minute)
+
+*TO GET: battery/tape/cable ties/case-for battery, pi, 2x cosmics and powerbank*
+
+Script: slow storyline, with orange case in distance on the ridge, entering the cave and setup (ritualistic), spiral walks, other parts of cave
+
+* 26/2
+
+- 25th was trip to ITER: research fumaroles/ openings for gases
+
+radon earthquake prediction: http://radjournal.com/news/italy%20radon%20earthquake.htm
+
+https://earth-planets-space.springeropen.com/articles/10.1186/s40623-018-0783-y
+
+- plot from 24th-25th somehow we only have 2 hours: 242022.pdf
+
+need to re-do for outside/inside comparison
+
+- check c3/Ebersbach as master - rough rate: 2.7 (re-programmed as slave now)
+
+logged 14.19->16.09 - why does it stop??? we run own_cosmic.py in rc.local - commented out for now...
+
+added allow-hotplug eth0 to  /etc/network/interfaces also... *no change*
+
+- our deadtime seems longer than example data files (factor of 6x which could indicate 57600 baud) - but does this effect much...
+
+TODO:
+
+- TIMING for walking - different speeds...
+
+say for 0.1 is one drop every 10 seconds - in 10 minutes we would have 50-60 drops!
+
+in one hour: 330 drops - 2m x 2m = ???
+
+- sand dropping times
+
+* 27/2
+
+- testing new orange case code - how to map it (tried with maximum("cosmic")-cosmic to invert but ...
+
+trying now IDW interpolation but seems to work only sometimes
+
+/////
+
+plotted today's no lcd//less deadtime version: 2702 - looks ok
+
+- see what deadtime is like with minimal display
+
+- looking at: https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/issues/10
+
+and calculating deadtime as % of uptime
+
+for nolcd: 0.3%
+
+for regular code: 24%
+
+for stripped lcd: 20%
+
+so something is wrong in lcd code! // updating library... nada
+
+now with different code: MuonDetector.ino and is working better/// display is upside down... 
+
+DONE +change physical display, fix name of each one??, hardcode for master/servant and test for those 2+
+
+- change isMaster and name in strings//also one change in dir for 6
+
+c1.dee c2.kelley c3.ebersbach
+
+*now we have higher coincidence at 0.178 (after 20 minutes) and much lower deadtime*
+
+so 1 drop every 5 seconds (timed walk length of abandoned park medium
+pace was 1.40 minutes so 100 seconds... which would be 20 drops...
+
+TODO: new qgis work, lapalma, caves????
+
+* 28/2
+
+- 2 new walks to join/testDONE
+
+- extra tape for c2/KELLEY
+
+qgis: for 16th botanical walk happier with IDW (think was max 2048x), quantile and other settings for render/properties AFTER
+
+lighter areas are most cosmic
+
+try with from27 which is extracted part of 27th with just the walk in abandoned park with new code (highest numbers there are longest intervals so should be darker)
+
+so we invert the colour map, and also use darken rather than dodge...
+
+* 1/3
+
+- have to save interpolations as we lose them as only temporary
+
+- walk in la orotava visualised
+
+- still eth0/unplug issue with pi
+
+testing sand deposits: too small amount for 1s so we need to think about enlarging hole, also sand sieving operations... full column of sand is maybe 20s
+
+// measure sand quantities.. (0.5l etc): 
+
+15ml sand per second +but can't find calculation page...+
+
+recalculate as: 12L sand in 2 hours = 120 minutes x60 = 7200 minutes
+
+with one deposit every 10 seconds... = 720 deposits
+
+12000ml / 720 = 16 ml = approx. one tablespoon
+
+* 2/3
+
+workplan: 
+
+- shoot date/edit/sound
+- drillings (23mm/8/10mm), 12v etc+rucksack+bucket - fix up whole mechanism
+- *presentation* googledocs
+- cave/Teide/>>>
+
+finalise walks and images (oratava, teide, puerto/botanic, cave area) - different colours?
+
+* 3/3
+
+office/
+
+* 4/3
+
+- larger approx 8mm hole in dispenser, maybe head for 2 seconds(too much) or 1.5 secs dispensings
+
+TODO/DONE: 
+
+fake code: every 0.1 seconds we have 1/100 chance of 1.5 second drop...
+
+[1 drops per 10 seconds - 1 in 100 chance]
+
+test cosmic and full set up and measure size of parts(12vbattery), colours for qgis and finalise after Monday, receipts
+
+QGIS: min/max standard deviation
+
+* 5/3
+
+- DONE: set up spare pi. raspi-config for updating date, record particle sensor with dust droppings...
+
+/etc/rc.local: 
+
+sudo /usr/bin/python /home/pi/own_cosmic.py &
+
++TODO: slope/bottle/plasticene, spread checked is ok+
+
+* 7-8/3
+
+- fix up all 
+- spares/what to take
+- script
+
+Plan for filming: what we need to take? charged laptop, cable, whole
+cosmic setup with pi on auto-start - batteries charged, spare cosmic,
+cables, spare pi, screwdriver, cutter, croc clips, orange case, zoom, extra batteries
 
