@@ -1,3 +1,17 @@
+* 19/4/2022
+
+- erdsir_wormversion.c - how to reprogram?
+
+also problems with island2 compilation/segfaults below - move towards new void - how we can prove it?
+
+printings/dot matrix - epson 9 pin OKI_DATA_CORP_ML186 in cups - but doesn;t print pdf only test, libreoffice, for just plain text:
+
+: cat /root/Downloads/test > /dev/usb/lp2
+
+
+
+
+
 * 7/10/2021
 
 - beckett codes and new pornographic logic

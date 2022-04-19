@@ -4,9 +4,28 @@
 
 towards an adventure game...
 
+** 19/4/2022
+
+Diana - text for circulation of fluids and binary interpretation - Thomas Vaughan, milk of diana
+
+That the instructions to complete the circulation and to interpret the fluids has been convyed in binary by these same methods.
+
+[also some notes before to fill in below:]
+
+- only copy in when the receiver has made one circulation
+[stories for each: ]
+when you have circulated, i will copy in. 
+
+when i have acknowledged that you have circulated you can copy in
+
+what does it mean - when you have circulated...
+
+///
+where is writing/app for process or logic which creates a record which is (its own) logic...?
+
 ** 15/10
 
-he accepts the new bit and passes on the olf one - remembers the old
+he accepts the new bit and passes on the old one - remembers the old
 one. how this memory works - how does he remember? how does the gate
 remember?
 
