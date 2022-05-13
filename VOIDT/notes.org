@@ -2,8 +2,6 @@
 
 - from here:
 
-
-
 - reichelt/change name
 - ebay scint block
 - paypal canada postage

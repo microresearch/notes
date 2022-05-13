@@ -1,3 +1,37 @@
+* 13/5/2022
+
+- 1n4007 as protetcion diode across solenoid fixes errors on pi (serial urb issues) from interference)
+[plus of diode towards plus supply] 
+
+sep supplies tho. try same supply
+
+* 10/5/2022
+
+/etc/network/interfaces on pi with cosmicwatch:
+
+source-directory /etc/network/interfaces.d
+
+allow-hotplug enxb827eb0ace62
+allow-hotplug wlan0  
+
+iface enxb827eb0ace62 inet static
+address 192.168.1.10  
+netmask 255.255.255.0
+network 192.168.1.0
+broadcast 192.168.1.255
+
+iface wlan0 inet dhcp
+   wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+
+
+* 5/5/2022
+
+- access to atari working with: 
+
+: wine RespeQt/RespeQt.exe
+
+but some atr/exe images crash computer...
+
 * 19/4/2022
 
 - erdsir_wormversion.c - how to reprogram?
@@ -7,10 +41,6 @@ also problems with island2 compilation/segfaults below - move towards new void -
 printings/dot matrix - epson 9 pin OKI_DATA_CORP_ML186 in cups - but doesn;t print pdf only test, libreoffice, for just plain text:
 
 : cat /root/Downloads/test > /dev/usb/lp2
-
-
-
-
 
 * 7/10/2021
 
@@ -80,8 +110,6 @@ for text:
 : pdfnup 2709slab2.pdf --nup 4x4 --no-landscape
 
 (or other options. then to change size to A0 we need to open and print-to-file in evince)
-
-
 
 * 21.9.2021
 

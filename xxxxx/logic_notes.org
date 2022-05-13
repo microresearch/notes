@@ -20,9 +20,6 @@ when i have acknowledged that you have circulated you can copy in
 
 what does it mean - when you have circulated...
 
-///
-where is writing/app for process or logic which creates a record which is (its own) logic...?
-
 ** 15/10
 
 he accepts the new bit and passes on the old one - remembers the old

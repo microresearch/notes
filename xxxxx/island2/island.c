@@ -19,7 +19,7 @@
 #define ISLAND_MAJOR 240
 #define ISLAND_NAME "island"
 
-#define LEN (1*1024*1024)
+#define LEN (1*1024*1024) // 1MB max
 unsigned long * membase, * physbase;
 
 static int __init island_init_module (void) {
@@ -27,6 +27,7 @@ static int __init island_init_module (void) {
   membase = kmalloc(LEN, GFP_KERNEL);
   //  memset(membase, 0, LEN);
   physbase = virt_to_phys(membase);
+  //  printk("I got: %zu bytes of memory\n", ksize(membase));
   printk("membase=0x%lx\n", membase);
   printk("physbase=0x%lx\n", physbase);
   return 0;

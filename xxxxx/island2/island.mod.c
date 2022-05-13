@@ -24,6 +24,7 @@ __attribute__((section("__versions"))) = {
 	{ 0xe15704bf, __VMLINUX_SYMBOL_STR(module_layout) },
 	{ 0x6bc3fbc0, __VMLINUX_SYMBOL_STR(__unregister_chrdev) },
 	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x4ea5d10, __VMLINUX_SYMBOL_STR(ksize) },
 	{ 0x7cd8d75e, __VMLINUX_SYMBOL_STR(page_offset_base) },
 	{ 0x4c9d28b0, __VMLINUX_SYMBOL_STR(phys_base) },
 	{ 0x1430a3de, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },

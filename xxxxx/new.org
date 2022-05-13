@@ -1,3 +1,105 @@
+* logic/recursive process
+
+logic or a process records itself and the record becomes/is the logic
+
+lays itself down, writes itself [in smoke, in fire, un the body,
+in/as writing, a system of notation, as an operation]
+
+bear spell...
+
+a process or rather a logic which creates a record which is (its own) logic...?
+
+[from darmstadt] The creation a series of material objects which bear
+witness to these material interactions (of particles, raidation,
+extractive materials), alongside a documentation of a process
+involving particles (such as heavy ion collision or the detection of
+muons passing through matter, of decay) in which the means of
+recording (a camera or specialized detector) is implicated in the
+process which is being documented.
+
+The recording device is part of the process and is subjected to
+material/atomic processes and interactions. 
+
+what examples can we find? eg. fukushima camera on robot which records
+the environment and ha its sensors destroyed by that environment...
+
+from other notes/also starting with contiguity...[large notebook]
+
+how documentation becomes part of/is the process eg. dissolution in
+the earth of a recording device. thinking how this could relate to
+*side channel attacks* - revealing of an underground or hidden process
+in  order to gain entry into this process. how can recursion be
+applied here?
+
+----------------------
+V                    |
+recording -of- process
+
+------------------
+V                |
+process <- measure
+
+not the same- feedback of small material changes effect the
+calculations of planetary, solar, astral events for that location -
+time shifts...
+
+translations of micro changed (dew) into other realms (finance)
+
+we did: computation of temperature changes temp of computed/measured
+environment [difference to fukushima example]
+
+* void works
+
+void smoke work
+
+lava emptying/burning... burning leaves a void
+
+VOIDT videos to finish
+
+** VOID GPS work 
+
+- GPS antenna, tcxo 0.5ppm ref!
+
+** island/VOID work
+
+
+
+
+
+
+where is the void located? on a server which proves its existence somehow...
+
+see tech_notes
+
+certificate - yves klein
+
+Yves Klein, Zone de sensibilité picturale immatérielle (1959). 
+
+zones of empty space
+
+Klein offered his collectors the choice to participate in a
+performance that involved burning the receipt and throwing half the
+gold into the Seine. This act was meant to “rebalance the natural
+order” that had been disrupted by the sale in the first place.
+
+https://ipfs.io/ipfs/QmcdKPjcJgYX2k7weqZLoKjHqB9tWxEV5oKBcPV6L8b5dD
+
+https://github.com/mitchellfchan/IKB
+
+ERC 721
+
+Solidity - smart contracts - examples???
+
+wallet? which ones we have?
+
+* other works/ideas
+
+- ergot, storage, cartridges, ROM
+- ouroboric pyrotechnics - connection of metals to pyro/ usb fuses
+  //particle cases
+- slabs/crypto work
+- elixir
+
 * pornographic logic
 
 - porn cpu, alu, shift register, basic gates towards the adder

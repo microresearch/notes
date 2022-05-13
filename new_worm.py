@@ -8,7 +8,7 @@ from time import sleep
 import math
 import random
 import time
-#import serial
+import serial
 import codecs
 import os
 import subprocess as sp
@@ -21,8 +21,8 @@ def convert_accents(text):
     return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore')
 
 
-#f = codecs.open("/root/projects/archived/worms_txt/chants","r","utf-8")
-f = codecs.open("/root/projects/archived/worms_txt/zosimos","r","utf-8")
+f = codecs.open("zosimos","r","utf-8")
+#f = codecs.open("/root/projects/archived/worms_txt/zosimos","r","utf-8")
 #f = codecs.open("/root/projects/archived/worms_txt/short")
 cry = f.read()
 #cry=[y.lower() for y in cry]
@@ -81,16 +81,16 @@ def genereate(dct,model,letter,n):
         probb.sort()
         probb.reverse()
         #        print probb
-        #        line = ser.read(1)
-        line = random.randint(0,32)
+        line = ser.read(1)
+#        line = random.randint(0,32)
 #        line=1
         try:
-#            nummm = ord(line)/3 # how much to divide?
-            nummm = line/3
+            nummm = int(ord(line)/3) # how much to divide?
+#            nummm = int(line/3)
         except:
             nummm = 1
         if nummm>=len(probb):
-            nummm=len(probb)-1;
+            nummm=len(probb)-1;        
         letter=probb[random.randint(0,nummm)][1]
         result=result+letter
         probb=[]
@@ -99,7 +99,7 @@ def genereate(dct,model,letter,n):
     return result[0:-1]
 
 inpt=time.time()
-#ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
+ser = serial.Serial('/dev/ttyACM3', 9600, timeout=1)
 seedletter='e'
 
 fullon=[]
@@ -107,9 +107,9 @@ count=0
 
 #pr=lm.generate(2000) # this seems to work with our model but not our generate which lacks spaces for one thing
 #print ''.join(pr)
-for x in range(100):
+for x in range(1000000):
     x=genereate(up,lm,seedletter,149) # max length of line
-    print x
+    print(x)
 
 # while True: # question of timings
 #     # how to convert to slow scan->

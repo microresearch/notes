@@ -1,4 +1,4 @@
-BOARD_TAG = mega
-ARDUINO_LIBS = Wire SPI Adafruit_MAX31865 SD
-MONITOR_PORT = /dev/ttyUSB0 
+BOARD_TAG = micro
+ARDUINO_LIBS = Wire
+MONITOR_PORT = /dev/ttyACM3 
 include /root/Arduino-Makefile/Arduino.mk
