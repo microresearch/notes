@@ -1,9 +1,34 @@
+* 16/5/2022
+
+- trashed pi sd with misplaced diode - so - re-install for VOID003
+
+what was usv setup? what did we install on pi and run...
+
+http://downloads.s-usv.de/files/pdf/SUSV_Manual_Industrial_Rev2_0_EN.pdf
+
+: sudo apt-get install python-smbus i2c-tools
+
+enable i2c in raspi-config
+
+: wget http://downloads.s-usv.de/files/software/susvd-en-2.40-systemd-pi.tar.gz
+
+tar zxvf / dpkg -i
+
+: sudo ./susvd -start 
+
+: sudo ./susv -timer 10
+
+-status 
+ 
+
+
+
 * 13/5/2022
 
-- 1n4007 as protetcion diode across solenoid fixes errors on pi (serial urb issues) from interference)
+- 1n4007 as protection diode across solenoid fixes errors on pi (serial urb issues) from interference)
 [plus of diode towards plus supply] 
 
-sep supplies tho. try same supply
+sep supplies tho. try same supply FINE
 
 * 10/5/2022
 
