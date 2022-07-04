@@ -1,3 +1,25 @@
+* 17/6/2022
+
+Q in dired to query/replace across multiple files, ! to accept all per file...
+
+* 15/6/2022
+
+(defun increment-number-at-point ()
+  (interactive)
+  (skip-chars-backward "0-9")
+  (or (looking-at "[0-9]+")
+      (error "No number at point"))
+  (replace-match (number-to-string (1+ (string-to-number (match-string 0))))))
+
+
+* 14/6/2022
+
+- 30v we had marked for lois/cosmic VOID003 work...
+
+re-test...
+
+test also static address: 192.168.1.10  
+
 * 16/5/2022
 
 - trashed pi sd with misplaced diode - so - re-install for VOID003

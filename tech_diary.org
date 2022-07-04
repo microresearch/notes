@@ -1,3 +1,15 @@
+* pi ipfwd port forward iptables ethernet
+
+on lap/x220:
+
+: iptables -t nat -A POSTROUTING -o wlp3s0 -j MASQUERADE
+
+on pi:
+
+: sudo route add default gw 192.168.2.1
+
+which is ethernet address of the laptop/x220!
+
 * pi and transmit/receive
 
 : export TERM=xterm
@@ -136,6 +148,18 @@ network={
     psk="«your_PSK»"
     key_mgmt=WPA-PSK
 }
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=  DE
+
+network={
+    ssid="Direktorenhaus UB"
+    psk="venator10179"
+    key_mgmt=WPA-PSK
+}
+
+
 
 : nmap -sn 192.168.2.0/24 # to find address
 
