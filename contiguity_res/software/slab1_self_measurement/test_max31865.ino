@@ -104,7 +104,7 @@ void setup() {
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);     // change this to 53 on a mega
 
-  pinMode(7, OUTPUT); // led on pin 7
+  pinMode(13, OUTPUT); // led on pin 13
   
   SPI.begin();
   SPI.setDataMode(SPI_MODE1);  
@@ -121,7 +121,7 @@ void setup() {
     Serial.println("Could not initialize SD card."); // if return value is false, something went wrong.
   }
     else {// flash twice on success)
-	  digitalWrite(7, HIGH);
+	  digitalWrite(13, HIGH);
 	  delay(300);
 	  digitalWrite(7, LOW);
 	  delay(600);
@@ -169,6 +169,7 @@ void loop() {
   SPI.setDataMode(SPI_MODE0);
   file.println(max.temperature(RNOMINAL, RREF)); // write number to file
   file.flush();
+  
   delay(1000); // or we save power here but then need to close sd and re-open...
   // TODO: read serial for 2 commands: l-list files
   // d dump file x (monk+number)

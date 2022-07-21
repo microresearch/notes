@@ -1,6 +1,5 @@
 BOARD_TAG = uno
-BOARD_SUB = atmega328
-ARDUINO_LIBS = Wire SPI Adafruit_MAX31865 SD
+BOARD_SUB = atmega328p
 MONITOR_PORT = /dev/ttyACM3
 
 include /root/Arduino-Makefile/Arduino.mk

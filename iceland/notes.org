@@ -1,0 +1,68 @@
+* newer ideas
+
+- seperation of earths, isolation, islands
+
+* ideas/from doc
+
+Iceland planning
+
+flight/bus: 45 mins — bus time 3am. flight 5.45am so yes
+
+design and resin cast for cores and for radio myc for iceland and future workshop:
+what we cast with (plasticene, resin/silicon - try alginate, something which decomposes or is mycelium mould itself?)
+design and drawings
+drivers for cores - parts
+
+
+pack list/todo:
+larger notebook 
+small toolkit(arduinos, FGM, wirings, PI+psu/battery pack, pi camera, earthboot, net cable, temp sensors, sd card thing/arduino from orange case and wirings), very basic parts
+radio mycelium, AAA batteries + radio receiver
+hot sauce!
+geomancy papers
+ergot/rye grains, agar powder (to get FRI)
+core plus drivers and cast?
+earthcode (silver box - resolder others which are earthboot), pots (do we still have the copper sulphate? yes at home)
+
+ideas/thoughts 
+Rúgbrauð (Icelandic pronunciation: ​[ˈruːɣˌprœiːθ]) is
+an Icelandic straight rye bread. It is traditionally baked in a pot or
+steamed in special wooden casks by burying it in the ground near a
+geyser.
+
+techniques for any site - an underground observatory, for the dead.
+
+the material conditions of “the passage of” time: shadows, light, decay, disintegration, growth
+
+dew (book?)
+
+geomancy and recursion, stacks and recursion - point of departure marked on the stack
+
+soil recursion, soil coding - jonni’s earth peel, earth code - recoding and recursion 
+
+earth->interpreted as an instruction->process applied to the earth which changes the earth!
+post-locations
+
+volcanic: - Fagradalsfjall near Grindavík
+
+* FGM3
+
+- tests with mega working (1280 on board) - latest pasted code...
+
+pin 47 for frequency
+
+* CORES 
+
+- where is code? but that was for mega...
+
+/root/misc/shiftregister
+
+how to test code? we would need 5v supply for 2A for power///logic pwr from arduino
+
+- 5v core power??? - from same supply as arduino/VIN? - we use usb in...
+
+each core tested singly gives 100, should be 1,1,0??? or...
+
+* temperature - MAX31865
+
+- we use code from /root/notes_and_projectsNOW/contiguity_res/software/slab1_self_measurement but now for uno // works fine...

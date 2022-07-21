@@ -1,4 +1,3 @@
-
 * for licht/breath and AC - larger pots, jaqcks, knobs:
 
 - licht: 1x 100k lin: order35 (15stock), 2x PJ301BM/erthenvar

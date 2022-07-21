@@ -902,7 +902,7 @@ to our myc from right GND, SCK, MISO, MOSI, RESET, VCC (purple we have on right)
 
 : avrdude -c stk500v2 -P /dev/ttyACM0 -p m168p
 
-we access serial port on ACM0
+we access serial port on ACM0 ???
 
 ** pi and pinoir camera
 
