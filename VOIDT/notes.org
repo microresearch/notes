@@ -440,3 +440,15 @@ Plan for filming: what we need to take? charged laptop, cable, whole
 cosmic setup with pi on auto-start - batteries charged, spare cosmic,
 cables, spare pi, screwdriver, cutter, croc clips, orange case, zoom, extra batteries
 
+* 13/8/2022
+
+- rebuilding orange case as took out arduino:
+
+on GPS: yellow is gnd, green +v, blue serial->pin3
+
+sd pins: 
+
+                MOSI   	MISO    SCK	CS
+Arduino Uno	11	12	13	10
+
+// test all // non. is GPS serial on pin 3 or 5: pin 3 - just remember it writes MONKx.csv

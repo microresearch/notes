@@ -16,7 +16,7 @@ first=0
 # while we have data 
 for i in range(0, len(data), xx):
     pp=IP(dst="192.168.1.1")/ICMP()/(str(data[i:i + xx]))
-    print i, len(pp)
+    #    print i, len(pp)
     if first==0:
         first=len(pp)
     send(pp)
