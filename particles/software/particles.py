@@ -21,7 +21,7 @@ parser = argparse.ArgumentParser(description="serial")
 # add expected arguments
 parser.add_argument('--port', dest='port', required=True)
 args = parser.parse_args()
-ser = serial.Serial(args.port, 115200,    parity=serial.PARITY_NONE,\
+ser = serial.Serial(args.port, 9600,    parity=serial.PARITY_NONE,\
     stopbits=serial.STOPBITS_ONE,\
     bytesize=serial.EIGHTBITS,\
 timeout=1)
@@ -59,7 +59,14 @@ def pwm1(heaty):
         ser.flushOutput()
         ser.flushInput()
         ser.write("w\n") # heat
+        try:
+            line = ser.readline()
+            print line
+        except KeyboardInterrupt:
+            print('exiting')
+        sleep(0.1)
         ser.write(str(heaty)+"\n")
+        sleep(0.2)
         try:
             line = ser.readline()
             print line
@@ -71,7 +78,14 @@ def pwm2(heaty):
         ser.flushOutput()
         ser.flushInput()
         ser.write("e\n") # heat
+        try:
+            line = ser.readline()
+            print line
+        except KeyboardInterrupt:
+            print('exiting')
+        sleep(0.1)
         ser.write(str(heaty)+"\n")
+        sleep(0.2)
         try:
             line = ser.readline()
             print line
@@ -85,8 +99,12 @@ def gettemp1():
     ser.write("t\n") # temperature
     try:
         line = ser.readline()
+        line=line.strip()
         #print line
-        xx=float(line)
+        try:
+                xx=float(line)
+        except:
+                xx=0
         #        print(xx)
         # next step read into a variable and test scaled heat write
     except KeyboardInterrupt:
@@ -101,7 +119,11 @@ def gettemp2():
     try:
         line = ser.readline()
         #print line
-        xx=float(line)
+        line=line.strip()
+        try:
+                xx=float(line)
+        except:
+                xx=0
         #        print(xx)
         # next step read into a variable and test scaled heat write
     except KeyboardInterrupt:
@@ -115,8 +137,14 @@ def gettemp3():
     ser.write("v\n") # temperature
     try:
         line = ser.readline()
+        line=line.strip()
         #print line
-        xx=float(line)
+        #        xx=float(line)
+        try:
+                xx=float(line)
+        except:
+                xx=0
+
         #        print(xx)
         # next step read into a variable and test scaled heat write
     except KeyboardInterrupt:
@@ -128,7 +156,7 @@ while(1):
     #    for x in range(255): 
     #    heater(x)
 
-    xx=gettemp()
-    print(xx)
+    xx=gettemp1()
     ht=int(xx*10)
+    print(ht)
     pwm1(ht)

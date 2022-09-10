@@ -15,9 +15,8 @@
 
 // heating is routing of analogue signals only!
 
-// adding command Q to send code to target platform for temp readings (serial on pins A0 and A1 say which is analogue A0, A1)
+// added command Q to send code to target platform for temp readings (serial on pins A0 and A1 say which is analogue A0, A1)
 // just using pass-through code from example softwareserial we can send/upload
-// but how do we signal leaving this mode
 
 //115200 baud
 
@@ -65,7 +64,7 @@ int readline(int readch, char *buffer, int len) {
 }
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   mySerial.begin(9600);
 
   max.begin(MAX31865_2WIRE);  // set to 2WIRE or 4WIRE as necessary

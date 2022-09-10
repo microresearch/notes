@@ -1,0 +1,40 @@
+* notes for case
+
+** TESTING:
+
+- PMx2X, PWMx2X, PWMwithheatX, PWmwithfans-very low range 200->255 values as has filter, diodesX, relays/coolingsX 
+
+
+
+** power guide/outs/ins
+
+12v is general/for laser, PM // +/-12V for diodes/pwm
+
+[q what is 2nd voltage out for?] none/nowhere!
+
+where is voltage for PM sensors? from main 12v
+
+fans is 12v in, relays 12v 
+
+heat voltages (from other box), light outs and PM outs
+
+left fan routes in, right is outwards
+
+** particle-control.ino
+
+// commands: T, U, V to show temperature
+// W to write integer to analogwrite pin 3, E to write pin 10
+// Z, X: on off relay1 pin 7:
+// A, S: on off relay2 pin 6:
+// command Q/ESC exit// to send code to target platform for temp readings (serial on pins A0 and A1 say which is analogue A0, A1)
+
+** particles.py
+
+example python code to send commands to case (here we measure first temp (mid one)) and then send to pwm one
+
+** pwm outputs from case
+
+pwm1 is second from edge, 2 is furthest - up to 10v from arduino, uses +12v/-12v? supply
+
+
+ 
