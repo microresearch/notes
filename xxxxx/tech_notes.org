@@ -1,3 +1,19 @@
+* 18/9/2022
+
+GPS spoof:
+
+- brdc file: from https://cddis.nasa.gov/archive/gnss/data/daily/2022/brdc/
+
+- static - ./gps-sdr-sim -b 8 -e brdc2610.22n -l 30.286502,120.032669,100
+
+- tells us we have clock 0x01 attached:  hackrf_debug --si5351c -n 0 -r
+
+- transmit:  hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 0
+
+-x is what? gain - tried -x 10 but no results
+
+//
+
 * 17/6/2022
 
 Q in dired to query/replace across multiple files, ! to accept all per file...
