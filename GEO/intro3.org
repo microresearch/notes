@@ -596,7 +596,7 @@ p43
 
 *KEY:* on this plane of consistency: 
 
-Furthermore, if we consider the plane of con- sistency we note that
+Furthermore, if we consider the plane of consistency we note that
 the most disparate of things and signs move upon it: a semiotic
 fragment rubs shoulders with a chemical interaction, an electron
 crashes into a language, a black hole captures a genetic message, a
