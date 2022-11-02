@@ -900,9 +900,11 @@ MISO/VCC
 
 to our myc from right GND, SCK, MISO, MOSI, RESET, VCC (purple we have on right) and always connect VCC
 
-: avrdude -c stk500v2 -P /dev/ttyACM0 -p m168p
-
 we access serial port on ACM0 ???
+
+and for dark interpreter:
+
+
 
 ** pi and pinoir camera
 
