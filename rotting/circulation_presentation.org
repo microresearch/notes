@@ -1,0 +1,586 @@
+#+TITLE: circulation/corruption presentation/notes
+#+AUTHOR: anonymous
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+SEQ_TODO:   TODO(t) INPROGRESS(i) WAITING(w@) | DONE(d) CANCELED(c@)
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c) 
+#+CATEGORY:   geophysics
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE)
+#+latex_header: \usepackage[a4paper,includeheadfoot,margin=2.54cm]{geometry}
+#+latex_header: \usepackage[final]{pdfpages}.
+
+* 
+ 
+file:resources/Donum_Dei_MPH_123_3.jpg
+
+* Introduction
+
+file:/root/org/images/halley.jpg
+
+All technology that is derived of earth, must be decomposed and again reduced to earth.
+[Basil Valentine]
+
+Old earth, no more lies, I've seen you, it was me, with my other ravening eyes, too late.
+[Samuel Beckett]
+
+Circulations of media through the matters and bodies of the earth and
+atmosphere, and through a certain corruption or dissolution of
+(digital) identity, meaning and description.
+
+We will collectively explore the interfaces and exchanges between
+living systems (earth, compost, worms, mycelium) and active audio
+electronics. We will participate primarily with our hands and our ears
+within circulations amongst earths, composts, mushroom mycelium,
+moulds, active chemistry, worms, crows, dusts, smokes and fogs and
+impulses and waves.
+
+During the workshop we will construct a series of open circuits which
+do not conceal their materiality but participate equally within
+material and electrochemical exchanges and circulations.*
+
+These circuits are inspired through a media archaeology of electronic
+music production, and through the history of alchemical engagement
+with minerals, with decay and with the earth. These technical and
+conceptual influences are equally opened to circulation and corruption
+during the workshop.
+
+We will work with a range of materials (for example, machine cut
+copper sheets and oyster mushroom mycelium) and approaches (for
+example, with radio transmission and signal reception) to design and
+build these open circuits which will enter into processes of
+appreciable decay, corruption and dissolution. These open circuits
+will be placed during the workshop in selected interior and exterior
+locations to participate in various time scales of deterioration and
+degradation.
+
+* Questions/terms
+
+What is it about circulation that encourages corruption, putrefaction and decay?
+
+How can we think of corruption in terms of material and/of media?
+
+Ideas like parasitism, degradation of information, making present of a material
+substrate and material constraints, signals disturbed/noise, muddied,
+what it means to corrupt something, to bend towards additional/other senses, to
+degrade signals.
+
+What are media and signal parasites? Pharmaceuticals for example,
+dusts and particles from industrial productions, radioactive isotopes.
+
+What are the connections between technolgies of electronics and
+feedback, parasitic feedback/effects and putrefaction?
+
+*  
+
+Circulations between earths, contained bodies (humans, worms and
+crows), plants, mushroom mycelium, atmospheres, technologies and
+infrastructures
+
+Of particles, charges, electrons, energies, waves, polarisations, signals, noise, of media
+
+And within circulations amongst earths, composts, mushroom mycelium,
+moulds, active chemistry, worms, crows, dusts, smokes and fogs and
+impulses and waves.
+
+This is what we will work with. All is in circulation.
+
+The way up and the way down [are] one and the same [...] Fire, water,
+earth are the way down, and earth, water, fire is the way up. And
+these two ways are forever being traversed in opposite directions at once.
+
+[Heraclitus]
+
+
+* Excerpts - setting the scene
+
+file:resources/K150158sm.jpeg
+
+* 
+
+    key emblems decoded
+
+AS
+
+    circulations of media - parallels
+
+    within the body - blood, breath. the bodies of worms and crows
+
+    within the earth - telluric currents, groundings.
+
+    within the air - evil currents
+
+    within electronics and electronic music - circuit and circulation. feedback inside the black box
+
+* 
+
+file:resources/K068882sm.jpeg
+
+* 
+
+file:resources/K066056sm.jpeg
+
+* 
+
+file:resources/K150156sm.jpeg
+
+* 
+
+file:/root/org/images/tcb.jpg
+
+* 
+
+file:resources/harleysm.jpeg
+
+* 
+
+file:resources/ashmolesm.jpeg
+
+* Anna Lowenhaupt Tsing. The Mushroom at the End of the World
+
+We are contaminated by our encounter; they change who we are as we
+make way for others. As contamination changes world-making projects,
+mutual worlds and new directions may emerge. Everyone carries a
+history of contamination; purity is not an option. 
+
+Collaboration means working across difference, which leads to
+contamination. Without collaborations, we all die. 
+
+* Jussi Parikka. The Geology of Media.
+
+There’s no information to circulate without a physics and a chemistry.
+
+* Douglas Kahn. Earth Sound. Earth Signal.
+
+file:resources/Nathan-Stubblefield-demonstration.jpg
+
+* 
+
+Telegraph and telephone signals were returned through the earth, and a
+ground meant the ground underneath people's feet; information was
+underground information. Earth currents associated with auroral
+display and storms on the sun were sensed on telegraph lines and heard
+on the telephone.
+
+* 
+
+file:resources/induc1.jpg
+
+* 
+
+file:resources/snowbatt1.jpg
+
+* 
+
+file:resources/stubbcoils.jpg
+
+* Robert Fludd. The Second Book Containing the Mysteries of Wheat or Bread.
+
+.. that is by a hyemal winter fire, with which she rotteth; & then
+with a vernal or spring firre by which it groweth & indueth his green
+mantle; & then with his aestival or summer heat, by which he
+flourisheth & putteth on a crest or helmet of a more golden colour,
+hastening by this intense agent unto his maturity; and lastly he
+changeth that fire to an autumnal or harvest operation by which the
+mark of maturity so aimed at all the year is touched on the very head
+that then corruption may begin again.
+
+[connected to experiment with wheat - begins to "violate by corruption
+the bands of those four elements which did preserve that vegetable
+form until in a manner I had deprived it of quite all shape, & reduced
+the whole body unto a muddy or slimy substance ... "]
+
+* Splendor Solis (16c)
+
+file:resources/19ss.jpg
+
+* 
+
+This Dissolution is nothing but a killing of the moist with the dry,
+in fact a PUTREFACTION, and consequently turns the MATTER black.
+
+It is a living thing, which no more dies, but when used gives an eternal increase.
+
+Let the waters above the heavens fall and the earth will yield its fruit.
+
+The Soul is extracted by Putrefaction, and when nothing more of the
+soul remains, then have you well washed the Body, that they both again
+are one.
+
+
+* Aurora Consurgens (15c)
+
+THE  FIRST  PARABLE:  OF  THE   BLACK  EARTH  WHEREIN  THE  SEVEN  PLANETS  TOOK  ROOT
+
+Beholding from afar off I saw a great cloud looming black over the
+whole earth, which had absorbed the earth and covered my soul, because
+the waters had come in even unto her, wherefore they were putrefied
+and corrupted before the face of the lower hell and the shadow of
+death, for a tempest hath overwhelmed me
+
+* Donum Dei (15c)
+
+The Head of the Crow is black earth and feculent in the which be
+engendered worms, whereof the one devoureth the other, for the
+corruption of the one is the generation of the other.
+
+The black clouds descendeth unto the body from whence they came out
+and there is made connection between the earth and water and is made
+ashes. The crow is black, the Dove is white, the Phoenix burneth
+
+
+* Ripley Putrefaction (16c)
+
+This text has been modernised by Adam McLean from the 1591 edition of The Compound of Alchymy. 
+
+THE FIFTH GATE - PUTREFACTION
+
+Now we begin the chapter of Putrefaction,
+Without which pole no seed may multiply,
+Which must be done only by continual action,
+Of heat in the body, moist not manually.
+For bodies else may not be altered naturally,
+Since Christ doth witness, unless the grain of wheat die in the ground,
+Increase may thou not get.
+
+And likewise unless the matter putrefy,
+It may in no way truly be altered,
+Neither may thy elements be divided kindly,
+Nor the conjunction of them perfectly celebrated,
+That thy labour therefore be not frustrated,
+The privitie of our putrefying well understand,
+Before ever you take this work in hand.
+
+And Putrefaction may thus be defined, after philosophers sayings,
+To be the slaying of bodies,
+And in our compound a division of things three,
+Leading forth into the corruption of killed bodies,
+And after enabling them unto regeneration,
+For things being in the earth, without doubt,
+Be engendered of rotation in the heavens about.
+
+* Earth circulations
+
+The circulatory system of an earth addiction encompassing extraction
+(of precious metals, of radioactive minerals), transport (along old
+and new Silk Roads) and consumption (the ingestion of earth-derived
+energies, materialities and earth-bound pharmaceutical products) and
+return or excretion (traces of isotopes and pollution elements in the
+body).
+
+* The air
+
+file:resources/invasionsm.jpg
+
+* 
+
+No more fruit, no more trees, no more vegetables, no more plants
+pharmaceutical or otherwise and consequently no more food, but
+synthetic products to satiety, amid the fumes, amid the special humors
+of the atmosphere, on the particular axes of atmospheres wrenched
+violently and synthetically from the resistances of a nature which has
+known nothing of war except fear.
+
+[Antonin Artaud. To have done with the Judgement of God.]
+
+The health of any body is the concern of an interior against any
+outside, of a border and a boundary. The earth or body fortress is
+assailed by demonic winds and breath from outside its protecting
+walls. Spiritus mali, under the sign of four demons, designated as
+four elements, enter the body through gaps in the enclosing skin,
+through the mouth and the open pores.
+
+Guarded by four angels, the body becoming earth is concerned with its
+proper health as its property, rather than that of its improper
+parasites.
+
+What could it then mean to talk about the health of an earth or
+planet, its body and properties?
+
+Fludd was correct in shaming the elements as evil agents in disease;
+monocultures of gold, iron and oxygen binding to cyanide, unable to
+sustain any form of life. Monocultures of wheat are set out on that
+outside drifting landscape. How does a toxic site appear, what could a
+poisonous or poisoned geology be? (Chernobyl ref)
+
+* Robert Fludd. 
+
+it endeavor[s] to arise anew, and it hastens through the
+branches of the aorta to the South, that is the liver, and North or
+the spleen.
+
+... the incorruptible spirit ... sendeth his beames of life ouer all the
+whole frame of man, to illuminate, give life, and circular motion vnto
+his spirit.
+
+... the sun impresses on the wind a circular motion, breathed
+in, and reaching the heart, is carried around the body in circulation
+
+* 
+
+file:resources/Donum_Dei_Sloane_2560_8.jpg
+
+* 
+
+file:resources/Donum_Dei_Sloane_2560_7.jpg
+
+* 
+
+file:resources/Donum_Dei_Sloane_2560_6.jpg
+
+* 
+
+file:resources/Donum_Dei_Sloane_2560_5.jpg
+
+* 
+
+file:resources/Donum_Dei_Sloane_2560_4.jpg
+
+* My own works which deal with circulations
+
+* earthcomputer
+
+file:/root/org/images/ec001.jpg
+
+* earthboot
+
+file:/root/org/images/ebsm2.jpg
+
+* 
+
+file:/root/org/images/earthcrash.png
+
+* 
+
+Earthboot video: https://vimeo.com/38842564
+
+* worms.txt
+
+file:/root/org/images/worms000_sm.jpg
+
+* 
+
+Serpent Lucifer, how do you do?
+
+Of your worms and your snakes I’d be one or two;
+
+For in this dear planet of wool and of leather
+
+‘Tis pleasant to need neither shirt, sleeve, nor shoe,
+
+And have arm, leg, and belly together.
+
+[Thomas Beddoes. 1850]
+
+Over the last year, a container of worms dieting on rotting coffee
+grains and waste vegetables have composed an ever-lengthening French
+language text which now numbers over 9000 pages. The compost worms
+have been provided with an electronic and software interface to a
+virtual typewriter. Tiny electrical changes within the worm's compost,
+which correspond to the worm's activity and movement allow the worms
+to writhe and wriggle through a French language probability table to
+actively steer the generation of this piece of writing; worms.txt.
+
+* mycelium works 
+
+file:/root/org/images/mra000.jpg
+* 
+
+Symbiotic ur-networks of silent fungal and root chatter and earth
+vibration, named chemical gradients tasted by rooty and human tongues
+fruit forest-wide in fairy rings, rising up in form and outgrowing
+Jodrell bank and Arecibo, outclassing them unknown in bringing down
+the stars to earth.
+
+* 
+
+file:resources/myc_sm2.jpg
+
+* 
+
+file:resources/myc_sm1.jpg
+
+* Dissolutions and Test Execution Host TEH
+
+file:/root/org/images/dissmodsmallerl.png
+
+* 
+
+file:/root/org/images/FFF08706.JPG
+
+* SR in Messene/heatsick
+
+file:/root/org/images/ebmessene2.png
+
+* Eurorack modules
+
+file:/root/org/images/vamp001small.jpeg
+
+* Circulation and corruption in electronics and electronic music (production)
+
+All circuits are circulations. All circuits take part in earth/ed circulations.
+
+Short circuit. Grounded. Open circuit. Open loop. Closed loop.
+
+What is a circuit/circulation? For example, how is it described 
+
+[Below is from Peter Blasser: https://econtact.ca/17_4/blasser_ovalsynth.html ]
+
+
+
+file:resources/blasser1.jpeg
+
+* 
+
+file:resources/blasser2.png
+
+* (negative) feedback in electronics
+
+file:resources/feedback.png
+
+Paul Voigt patented a negative feedback amplifier in January 1924,
+though his theory lacked detail. Harold Stephen Black independently
+invented the negative-feedback amplifier while he was a passenger on
+the Lackawanna Ferry (from Hoboken Terminal to Manhattan) on his way
+to work at Bell Laboratories (located in Manhattan instead of New
+Jersey in 1927) on August 2, 1927. 
+
+Black was working on reducing distortion in repeater
+amplifiers used for telephone transmission. On a blank space in his
+copy of The New York Times, he recorded the diagram found in Figure
+1 and the equations derived below. On August 8, 1928, Black
+submitted his invention to the U. S. Patent Office, which took more
+than 9 years to issue the patent. Black later wrote: "One reason for
+the delay was that the concept was so contrary to established beliefs
+that the Patent Office initially did not believe it would work."
+
+My own ouroboros.
+
+* operational amplifiers
+
+file:resources/feedback.jpg
+
+* 
+
+file:resources/die-blocks.png
+
+* 555/timer insides
+
+Inside a black box all is circulation. Productions of integrated circuits.
+
+file:resources/bare555sm.png
+
+* parallel toad and ground in electronics - transistor feedback diagrams
+
+file:resources/Eaglesm.jpg
+
+A serpent and a toad coming up above the earth (literally 'stepping
+up above,') is our Magistery.
+
+* 
+
+file:resources/emitter.jpg
+
+* Common electronic audio circuits - oscillation, filters
+
+* oscillation is feedback
+
+* positive feedback
+
+file:resources/osc4.jpeg
+
+Positive feedback must occur only at one frequency, the required frequency
+of oscillation. This may be achieved by ensuring that only signals of
+the required frequency are fed back, or by ensuring the feedback
+signal is in the correct phase at only one frequency.
+
+* flip flop/switching up and down
+
+file:resources/multivibrator2.png
+
+* feedback in filters
+
+file:resources/tiefpass.png
+
+* 
+
+file:resources/vcsfilter.jpg
+
+* Schedule
+
+** open circuits within each of these environments? during/before each activity
+
+detektor, simple mycelial radio transmitter, optional ouroboros/oscillator
+
+** techniques 
+
+etch, glass stacked for earth and bread, circuits for moulds in and on dishes, for the crows, worms...
+
+** day one: presentation and introductions
+
+** atmospheres - smoke and particles, electromagnetic walk
+
+smoke substance mix, detektor build, smoke and laser, signal capture
+and recordings/notes = plug in plants, earth, trees, collecting
+different earths for mycelium mix
+
+** lunch
+
+** myc, moulds
+
+start to boil potatoes, prepare cultures, bread mix, mycelium radio demo, cultures for rye/ergot, myc radio circuit and tests
+
+** bodies - crows and bread
+
+multi/ouroboric, start baking in the earth
+
+** day two
+
+** earth - telluric currents and signals in the earth
+
+measure earth current, capacitors, earth signals listened to, earth battery and comms, worms and wormvoice
+
+** working in 3 groups on construction and placement of circulation/corruptions
+
+* Technical
+
+* potato dextrose agar 
+
+Medium 129: POTATO DEXTROSE AGAR 
+
+ Infusion from potatoes (see below)         1000.0     ml
+ Glucose                                      20.0      g
+ Agar                                         15.0      g
+
+Potato infusion:
+Boil 200 g scrubbed and sliced potatoes in 1000 ml water for 1 hour. Pass through fine sieve. Avoid
+new potatoes.
+
+* 2n3904 - EBC
+
+file:resources/2n3904.jpeg
+
+* BC547 - CBE
+
+file:resources/bc547.jpeg
+
+* detektor circuit
+
+file:resources/elektoreng1cl.jpeg
+
+* radio mycelium circuit
+
+file:resources/scrschem.JPG
+
+* multivibrator
+
+file:resources/multivibrator2.png
+
+* ouroboros
+
+file:resources/ouroborosm.jpeg
+
+* smoke
+
+Measure out 30 grams of Potassium Nitrate and 20 grams of Sugar into a
+small cup. 30 grams of Potassium Nitrate and 20 grams of Sugar is a
+60% / 40% mixture.
+

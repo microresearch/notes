@@ -891,6 +891,8 @@ is working version - think other just has comment out:
 
 ** pololu avr programmer
 
+WE need to connect RESET!!!
+
 from top/end of cable with red bottom:
 
 reset/GND
