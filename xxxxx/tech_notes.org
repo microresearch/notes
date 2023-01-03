@@ -1,3 +1,15 @@
+* 6/11/2022
+
+transfers:
+
+atari 800: usb thing we have SIO2PC and aspeQT - see older laptop
+
+ZX spectrum: on handy, app for cassette
+
+ST - floppy // format not HD floppies
+
+BBC Micro: try playUEF
+
 * 18/9/2022
 
 GPS spoof:
