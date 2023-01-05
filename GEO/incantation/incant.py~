@@ -1,0 +1,42 @@
+from textgenrnn import textgenrnn
+from textgenrnn.utils import synthesize, synthesize_to_file
+
+m1 = "knuth2notlargefile"
+m2 = "illseen"
+
+
+def create_textgen(model_name):
+    return textgenrnn(weights_path='{}_weights.hdf5'.format(model_name),
+                     vocab_path='{}_vocab.json'.format(model_name),
+                     config_path='{}_config.json'.format(model_name),
+                     name=model_name)
+
+model1 = create_textgen(m1)
+model2 = create_textgen(m2)
+
+
+#You can pass a list of models to generate from to synthesize. The rest of the input parameters are the same as generate.
+
+models_list = [model1, model2]
+
+#synthesize(models_list, n=10, progress=True)
+#synthesize_to_file(models_list, "illsaidknuth.5.txt", n=10, max_gen_length=8000, temperature=0.5)
+
+synthesize(models_list, n=10, max_gen_length=100, temperature=0.5, prefix="stone", progress=False)
+
+#model1.generate_samples(n=10)
+
+# doesn[t work... for words across knuth etc
+
+# training biz
+
+# model1txt="/content/drive/My Drive/new_writing/storyO"
+# textgen = textgenrnn(name="storyOnotlargefile")
+# textgen.reset()
+# textgen.train_from_file(model1txt,
+#                         new_model=True,
+#                         rnn_bidirectional=True,
+#                         rnn_size=64,
+#                         dim_embeddings=300,
+#                         num_epochs=50)
+
