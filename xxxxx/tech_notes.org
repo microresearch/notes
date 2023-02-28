@@ -1,3 +1,18 @@
+* 28/2/2023
+
+NES emulation and Taboo tarot game:
+
+: higan --fullscreen /root/Downloads/Taboo\ -\ The\ Sixth\ Sense\ \(U\).nes
+
+* 4/1/2023
+
+- how we finally got textgenrnn working on laptop... FILL IN
+
+- to get rid of progress bars for keras in utils.py:
+
+model.predict(encoded_text, batch_size=1, verbose=0)...
+
+
 * 6/11/2022
 
 transfers:
@@ -324,3 +339,1076 @@ for file in glob.glob('/root/notes_and_projectsNOW/contiguity_res/software/resul
 
 QgsMapLayerRegistry.instance().addMapLayers(layers)
 #+END_SRC
+
+* worm
+
+ /media/rsync_imac2020/rsync2016/projects/ERD_modules/worm/docs/rsynth-2.0 - on intenso HD is working rsynth/kk
+
+
+* debug and connext with openocd
+
+start openocd
+
+: openocd -s tcl -f interface/stlink.cfg -f target/stm32f4x.cfg
+
+start gdb
+
+: gdb-multiarch main.elf
+
+commands in gdb:
+
+: target remote localhost:3333
+: monitor arm semihosting enable
+: monitor reset halt
+: load
+: continue
+
+runs it!
+
+// but how do we print...
+
+see code in geoCC.h // now in test.c but fails now...
+
+https://electronics.stackexchange.com/questions/149387/how-do-i-print-debug-messages-to-gdb-console-with-stm32-discovery-board-using-gd
+
+void send_command(int command, void *message)
+{
+   asm("mov r0, %[cmd];"
+       "mov r1, %[msg];"
+       "bkpt #0xAB"
+         :
+         : [cmd] "r" (command), [msg] "r" (message)
+         : "r0", "r1", "memory");
+}
+
+  itoa(mod, buffx, 10);
+  uint32_t m[] = { 2/*stderr*/, (uint32_t)buffx, sizeof(buffx)/sizeof(char) - 1 };
+  send_command(0x05/* some interrupt ID */, m);
+
+
+
+* programming STM32 pins always
+
+from top on AC: // straight thru cable
+
+SWDIO
+GND
+CLK
+3V3
+
+from top on SEG: // swop 2cable
+
+GND
+SWDIO
+CLK
+3V3
+
+from back right on worm:// straight cable
+
+3V3
+CLK
+GND
+SWDIO
+
+
+from top on nucleo:
+
+3V3
+CLK
+GND
+SWDIO
+
+
+
+* pi ipfwd port forward iptables ethernet
+
+on lap/x220:
+
+: iptables -t nat -A POSTROUTING -o wlp3s0 -j MASQUERADE
+
+on pi:
+
+: sudo route add default gw 192.168.2.1
+
+which is ethernet address of the laptop/x220!
+
+* pi and transmit/receive
+
+: export TERM=xterm
+
+using rpitx - easytest.sh
+
+https://github.com/F5OEO/rpitx
+
+GRAVES frequency is 143.05 MHz use USB (upper side band). 2m band is 144 MHz
+
+using cubicsdr but had to make file   /etc/modprobe.d/sdr.conf
+
+with line: blacklist dvb_usb_rtl28xxu 
+
+and then reboot (on x220)
+
+
+* orderings
+
+** to order
+
+leave case, heatsinks and psu for later...
+
+general: 2n3904X, 1k resistorsCHECK, protoboard for loggerX
+
+power stuff-4A supply-what voltage?, cases-largish=size?, plugsX, sockets for final session 2.1mmX, minijack sockets bareX
+
+3055x, heatsink bufferX, heatsinkTODO
+
+all parts for proto-etched all colours:
+
+3	Unpolarized capacitor, small symbol	C_Small	C58	100pF	C_0805	1	~ we have
+
+9	Polarized capacitor, small symbol	CP_Small	C11 C13	22uF	SMD-1206_Pol	2	~ X but wider than 1206
+
+10		C-device	C12	330pF	C_0805	1	X
+
+11	Unpolarized capacitor, small symbol	C_Small	C42 C43 C45 C46 C47 C48 C49 C50 C52 C53 C54 C55 C56 C57 C59 C60	47nF	C_0805	16	~ have with DET
+
+12		CP1_Small-device	C24 C25 C28 C29	47u	SMD-1206_Pol	4	- we have!
+13	Polarized capacitor, small symbol	CP_Small	C5 C9	47u	SMD-1206_Pol	2	~
+
+14	100V 0.15A standard switching diode, DO-35	1N4148	D14	1N4148	D_SOD-323	1	http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf
+15		D-device	D2 D4 D6 D8 D10 D12 D13	1n4148	D_SOD-323	7	XX
+16		D-device	D1 D3 D15	1n914/4148	D_SOD-323	3	XX
+
+60		Q_NPN_BEC-device	Q1 Q3 Q7 Q9 Q14 Q16 Q29 Q40 Q41	MMBT3904	SOT-23	9	
+61		Q_NPN_BEC-device	Q2 Q4 Q5 Q6 Q8 Q10 Q12 Q15 Q19 Q20 Q21 Q22 Q23 Q24 Q25 Q26 Q27 Q28 Q30 Q33 Q34 Q37 Q38 Q44 Q45 Q46 Q47 Q48 Q49 Q50 Q51 Q52 Q53 Q55	Q_NPN_BEC	SOT-23	34	
+XX
+
+62	PNP transistor, base/emitter/collector	Q_PNP_BEC	Q31 Q32 Q35 Q36 Q39 Q54	Q_PNP_BEC	SOT-23	6	~ MMBT3906 or try BC857B - but match with 847 also XX
+
+or mouser as we need 22uF
+
+68		R-device	R38 R39	150K	R_0805	2	CHECK we have
+80	Resistor, small symbol	R_Small	R98	470K	R_0805	1	~ have with DI
+81		R-device	R34 R35	47K	R_0805	2	CHECK - have with DET
+
+
+69	Resistor, small symbol	R_Small	R90 R91	150K	R_0805	2	~X
+74		R-device	R79 R87 R107	20K	R_0805	3	X
+76	Resistor, small symbol	R_Small	R95	2K7	R_0805	1	~X
+79		R_Small-device	R10 R11 R13 R16 R19 R20 R23 R24 R52	3K3	R_0805	9	X
+82	Resistor, small symbol	R_Small	R69 R92 R93 R94	47K	R_0805	4	~X
+84	Resistor, small symbol	R_Small	R54	50K	R_0805	1	~ use 47K X
+85		R-device	R82	820R	R_0805	1	X
+
+87		POT_TRIM-device	RV1 RV2	1M	Potentiometer_Trimmer-EVM3E	2	- prob only 500K X
+
+88	Hex Schmitt trigger inverter	40106	U2	40106	SOIC-14_N	1	http://www.nxp.com/documents/data_sheet/HEF40106B.pdf X
+89	Dual D  FlipFlop, Set & reset	4013	U3	4013		1	http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF X
+90		4015	U7	4015	SO-16-N	1	X
+91		4024	U12	4024	SOIC-14_N	1 X	
+92	Analog Multiplexer 8 to 1 lins	4051	U10 U14	4051	SO-16-N	2	X http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
+93	Triple analog Multiplexer 2 to 1 line	4053	U9 U17	4053	SO-16-N	2 	http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
+
+
+
+94	Operational Amplifier, DIP-8/TO-99-8	TL071	U1 U6 U8 U11 U13 U15	TL071	SOIC-8-N 6 - we have 4 X
+
+95		TL072-linear	U4 U5 U16 U19	TL072	SOIC-8-N	4	http://www.ti.com/lit/ds/symlink/tl071.pdf - we have 12..
+
+
+** done
+
+LED, 5 mm, low-current, 2 mA, red and yellow
+
+neutrik: NR-J4HF
+
+connectorx2 (REICHELT: BL 2X25G8 2,54) x22 =18
+connectorx1 (REICHELT: SL 2X25G 2,54) x10 
+
+** done 16/8
+
+- DARK INT: POTIS (mouser)RK09K1130A5R-X , 13700 X, HC4053 X, lm358, 
+
+- for earthboot: ad8606 soic-8 X, adr423 soic-8 X, 10M 0805 X, OPA337UAG4 X
+
+** done 
+see mycelium_pcb_bom_.txt 
+
+additional + for myc: pt100, pt100 breakout (ebay), light sensor??, AD5933, AD620
+
++ 430 ohm for temperature/MAX
+
++ generic power sockets and plugs 2.1mm - useful workshop bits, pi, 24vac relay for fogger control
+
++ for all_colours/other: 7490, light sensor for laser (BPW34), cheap multimeter, LED parts: 
+
+led lens: Mouser VCC 593-3000R (red), 593-3000A (amber) , red/amber 5mm LED
+
+
+
+* PI notes
+
+** ssh
+
+ssh and wpa must be in FIRST/boot partition!
+
+: mount /dev/mmcblk0p1 /media  
+
+: touch /media/ssh
+
+** wireless network
+
+https://raspberrypi.stackexchange.com/questions/10251/prepare-sd-card-for-wifi-on-headless-pi
+
+/media/wpa_supplicant.conf:
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=«your_ISO-3166-1_two-letter_country_code»
+
+network={
+    ssid="«your_SSID»"
+    psk="«your_PSK»"
+    key_mgmt=WPA-PSK
+}
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=  DE
+
+network={
+    ssid="Direktorenhaus UB"
+    psk="venator10179"
+    key_mgmt=WPA-PSK
+}
+
+
+
+: nmap -sn 192.168.2.0/24 # to find address
+
+** static IP/wired
+
+In /etc/dhcpcd.conf:
+
+interface eth0
+
+static ip_address=192.168.1.14
+
+static routers=10.0.0.1
+
+static domain_name_servers=75.75.75.75 75.75.76.76 2001:558:feed::1 2001:558:feed::2
+
+do route add default gw blah also...
+
+* 30/6
+
+** steghide: 
+
+: steghide embed -cf testfan.wav -ef ~/Downloads/latoysondorovlaf00tris_0093.jpg
+
+: steghide extract -sf testfan.wav
+
+Spectrograms encoder: https://github.com/solusipse/spectrology
+
+Lots: https://github.com/DominicBreuker/stego-toolkit
+
+* 1/7
+
+** no titlebars/.deco in awesome:
+
+    -- Add titlebars to normal clients and dialogs
+    { rule_any = {type = { "normal", "dialog" }
+      }, properties = { titlebars_enabled = false }
+    },
+
+** how z80 actually starts up
+
+When the CPU starts running (which basically happens as soon as it
+receives power and is reset with the RESET pin), it begins to pull
+instructions from memory and execute them. Where it starts in memory
+depends on the individual CPU, but in the case of the Z80, it simply
+begins at memory address 0, instead of using a reset vector like many
+other CPUs do. This means that any computer using the Z80 *must* have
+a ROM chip at memory address 0 which gives the initial start-up
+instructions to the Z80.
+
+from: http://lateblt.tripod.com/z80proj1.htm
+
+https://maker.pro/pic/projects/z80-computer-project-part-1-the-cpu
+
+http://bedroomcoders.co.uk/using-an-arduino-to-run-a-z80/
+
+useful: http://baltazarstudios.com/arduino-zilog-z80/
+
+http://labs.domipheus.com/blog/teensy-z80-part-1-intro-memory-serial-io-and-display/
+
+test circuit: http://www.z80.info/z80test0.htm
+
+https://github.com/inxonic/z80fun
+
+https://github.com/Apress/junk-box-arduino/blob/master/9781484214268/Z80_Explorer_v2.1/Z80_Explorer_v2.1.ino
+
+** or 6502 or...
+
+see emulation: http://obsolescence.wixsite.com/obsolescence/kim-uno-details
+
+* 2/7
+
+** Kicad BOM:
+
+Following: https://github.com/SchrodingersGat/KiBoM
+
+** start on parts lists and spreadsheet
+
+Bulk
+
+Detektors
+
+Darkint: /root/rsync2016/darkint/hardware/draft/partslist.org
+
+ERDs:
+
+Misc parts/projects:
+
+* 4/7
+
+settings for minicom from command line
+
+: minicom -b 57600 -D /dev/ttyACM0
+
+* 5/7 - NEW GIT REPO!
+
+- these notes, also messene etc. under git DONE:
+
+add new repo in git and then in local directory of what we wish to add
+
+: git init
+: git add whatever
+: git commit
+: git remote add origin https://github.com/microresearch/notes.git
+: git push -u origin master
+
+- re-check AD5933 also for potential eurorack module
+
+* 6/7
+
+** admatech TFT display on pi:
+
+https://raspberrypi.stackexchange.com/questions/38721/how-do-i-setup-the-c-berry-tft-screen-with-my-pi-2
+
+and ignore row-defining changes...
+
+for console - compile /C-Berry/SW/fb2cberry, run in background...1
+
+: echo -ne "help" | sudo tee /dev/tty1
+
+* 7/7
+
+** splitscan and mencoder cut/edit
+
+cutting using mencoder
+
+: mencoder -ss 00:27:31 -endpos 00:00:37 -oac pcm -ovc copy Downloads/Princess.mp4 -o revolving.mp4
+
+starts at 27.31 and lasts for 37 seconds
+
+splitscan.py new code:
+
+#+BEGIN_SRC python 
+
+# horizontal
+
+# for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+#     if currentX < (clip.size[0] - slitwidth):
+#         img[:,currentX:currentX + slitwidth,:] = i[:,currentX:currentX + slitwidth,:]
+#     currentX += slitwidth
+
+# horizontal/backwards
+count=0
+currentX = clip.size[1]
+
+for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+    print count
+    if currentX < (clip.size[0] - slitwidth):
+        img[:,currentX:currentX + slitwidth,:] = i[:,currentX:currentX + slitwidth,:]
+    currentX -= slitwidth
+    count +=1
+
+###vertical
+
+# for i in clip.iter_frames(fps=target_fps, dtype='uint8'):
+#     if currentX < (clip.size[1] - slitwidth):
+#                 img[currentX:currentX + slitwidth,:] = i[currentX:currentX + slitwidth,:]
+#     currentX += slitwidth
+
+#+END_SRC
+
+** video to images
+
+: ffmpeg -i input.mov -r 1 output_%04d.png
+
+with -r 1 as 1 frame every second
+
+** images to video
+
+: convert output_00* test.mp4
+
+** others
+
+: ffmpeg -i source.mp4 -filter:v minterpolate -r 120 result.mp4
+
+
+** kill cursor to end of line Ctrl - k
+
+: bindkey
+
+shows key bindings
+
+* 11/7
+
+working with imagemagick:
+
+http://www.imagemagick.org/Usage/layers/
+
+http://www.imagemagick.org/Usage/transform/#edge
+
+http://www.imagemagick.org/Usage/fonts/
+
+* 12/7
+
+awesome
+
+mod-t = keep window always on top
+
+kicad
+
+- remember after we change cvpcb netlist to generate/save netlist in eeschema
+
+* 13/7
+
+** teensy
+
+https://www.pjrc.com/teensy/loader_cli.html
+
+code: https://github.com/PaulStoffregen/teensy_loader_cli.git
+
+: ./teensy_loader_cli -mmcu=mk20dx256 -w blink_slow_Teensy32.hex 
+
+for our teensy 3.2 and press reset...
+
++using avr-gcc/example makefile: https://www.pjrc.com/teensy/gcc.html+ - this is not for ARM teensy
+
+or we try using ard-make (had to re-install latest: https://github.com/sudar/Arduino-Makefile and latest Arduino
+
+blink teensy example worked but not another serial example
+
+* 16/7
+
+*For zx81 earthboot thing on teensy (emulated ROM with earthboot)*
+
+https://k1.spdns.de/Vintage/Sinclair/80/Sinclair%20ZX81/ROMs/zx81%20version%202%20%27improved%27%20rom%20disassembly%20%28Logan,%20O%27Hara%29.html
+
+https://www.sinclairzxworld.com/viewtopic.php?t=1249
+
+CS goes low for ROM access and then high within maybe 300nS
+
+MREQ and A14 line (inverted) go through NAND to CS for this...
+
+: // when cs goes low we put the earth code (amped from diff amp 200x in earth)
+: // onto D0-> D7
+
+As ADC is slower than 3Mhz ROM/RAM we need to read it first into array and then output
+
+Teensy Makefile: https://github.com/apmorton/teensy-template
+
+But we needed to change the 
+
+: TOOLSPATH=/root/Downloads/arduino-1.8.5/hardware/tools
+
+as the tools included are compile for 64 bits...
+
+pins: https://forum.pjrc.com/threads/17532-Tutorial-on-digital-I-O-ATMega-PIN-PORT-DDR-D-B-registers-vs-ARM-GPIO_PDIR-_PDOR?highlight=slew+rate+limiting
+          
+* 17/7
+
+zx81 3.25 MHz - 2 cycles read memory = 600 nS
+
+https://forum.pjrc.com/threads/42865-A-set-of-scope-tested-100-500-ns-delay-macros
+
+- display hack works - https://www.classic-computers.org.nz/blog/2016-01-03-composite-video-for-zx81.htm
+
+- teensy is at 3.3v (no more) - some pins are not tolerant and maybe our level is low // revert to arduino/avr code  if it can be fast enough
+
+- also after replacing ROM on zx no boot - loosen and reseat is fine (and wiggles generate glitches so...)
+
+- code on arduino doesn't do anything (note that we would need to reboot arduino just before zx to allow buffer to fill):
+
+-- problem could be: speed of arduino, check pins are toggling, check CS lines coming in and timing (scope)
+
+(Notes: Uno has 2k so we just use 1024 bytes for earthcode, alt
+approach could be to allow earthcode to change zx81 ROM, so part runs
+or we hand over part way...)
+
+- level shifting or protection resistor (3.3k?) or 3.3v pullup and/or check which teensy pins are 5v tolerant...
+
+https://www.adafruit.com/product/395?gclid=CIayxrHZ4LsCFepaMgod2TwAUg
+
+- "The other inputs (except NMI) to the Z80 are spec'd at the standard TTL levels with 2.0V or higher a logic '1'"
+
+*when teensy=rom is selected we need to put byte on bus and then re-configure bus as input*
+
+- for myc - new library in eeschema for 5933 created using:
+
+http://kicad.rohrbacher.net/quicklib.php
+
+see also: http://kicad.txplore.com/index-p=96.html
+
+* 18/7
+
+- some success with nS delays on Arduino:
+
+#+BEGIN_SRC c
+uint8_t earthcode[1024]; // we only have 2kb ram so we can't have 4096
+
+void setup()  { 
+
+  pinMode(12, INPUT_PULLUP); // CS on ROM
+  pinMode(13, INPUT_PULLUP); // CS on ROM
+  pinMode(A0, INPUT);
+
+  //    DDRD = B11111111;  
+  //pinMode(2, OUTPUT);
+
+  uint16_t x;
+    for (x=0;x<1024;x++){
+            earthcode[x] = analogRead(A0)&0xff;
+      //      earthcode[x] = rand()%0xff;
+  }
+} 
+
+static __inline__ void      /* exactly 4 cycles/loop, max 2**8 loops */
+_delay_loop_1_x( uint8_t __n )
+{                                               /* cycles per loop      */
+    __asm__ volatile (                          /* __n..one        zero */
+        "1: dec  %0"   "\n\t"                   /*    1             1   */
+        "   breq 2f"   "\n\t"                   /*    1             2   */
+        "2: brne 1b"   "\n\t"                   /*    2             1   */
+        : "=r" (__n)                            /*  -----         ----- */
+        : "0" (__n)                             /*    4             4   */
+    );
+}
+
+
+void loop()  { 
+  int x=0;
+  if (!(PINB & 0x10)) { // pin 12 which is on PORTB - CS on ROM
+    DDRD = B11111111;  
+    PORTD=earthcode[x++];
+      // turn off bus - 500  ns? - value of 2 or 3 seems to work
+    _delay_loop_1_x(3);
+    DDRD = B00000000;  
+    PORTD=0x00;
+    if (x==1024) x=0;  
+    }
+
+  // test for scope
+  /*  DDRD=B11111111;
+  PORTD=255;
+  _delay_loop_1_x(2); // this gives us 500nS
+  //  delayMicroseconds(10);
+  //  _delay_loop_1_x(1);
+  //  DDRD = B00000000;  
+  PORTD=0;
+  delayMicroseconds(10);*/
+}
+#+END_SRC
+
+- in Kicad/pcbnew we can draw zones after selecting layer (eg. mask) so we can leave areas exposed...
+
+* 26/7
+
+- find Makefile for upload of straightC code to Arduino Uno // just question of upload:
+
+: avrdude -V -c arduino -p ATMEGA328P -P /dev/ttyACM0 -b 115200 -U flash:w:lineccd.hex
+
+now in all_colours repo...
+
+*TODO: collate, document makefiles for avr and coremem etc. documentation! + TEH doku...*
+
+- serial monitor in Emacs? TEST!
+
+: make monitor 
+
+???
+
+: M-x serial-term
+
+https://www.emacswiki.org/emacs/GnuScreen#toc10
+
+#+BEGIN_SRC lisp
+(defun del-binary_characters (beg end)
+  "Delete binary characters in a region"
+  (interactive "r")
+  (save-excursion
+    (save-restriction
+      (narrow-to-region beg end)
+      (goto-char (point-min))
+      (while (re-search-forward "[^[:ascii:]]" nil t)
+        (replace-match "")))))
+#+END_SRC
+
+* 31/7
+
+- python script to model CPU temperature according to day's temperature changes...
+
+#+BEGIN_SRC python
+import math
+
+# baseline - lowest temp will be base CPU temp
+# read value from array of 24 hour values, run process to try to reach this if current temp is not there
+# otherwise do nothing until we cool to this
+# next value
+
+# testing
+
+x=267676383
+
+while(1):
+    x=math.sqrt(x)
+#+END_SRC
+
+
+- sensing CPU temp: psutil doesn't import, now using sysmon: https://github.com/calthecoder/sysmon-1.0.1
+
+https://www.mjmwired.net/kernel/Documentation/hwmon/sysfs-interface
+
+for pi: https://projects.raspberrypi.org/en/projects/temperature-log/4
+
+can we increase fan speed to lower temp?
+
+https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c
+
+https://raspberrypi.stackexchange.com/questions/74627/rpi-run-a-python-script-fan-speed-control-while-loop-until-shutdown
+
+- test temp and fan thing with screen on PI!
+
+- more finegrained temp with MAX31865 (and fix speed of arduino/MAX reading in shiftreg repo code - lost in Messene)
+
+- Messene data dumped... all that we have
+
+[for Messene data/temp recorded say over 24 hours we need to find max and min and re-write as values between say 0-255 limits - DONE:scaling.py]
+
+- pi and max31865: dump temp to screen [but clash on voltage pins to fix]
+
+https://github.com/steve71/MAX31865/blob/master/max31865.py
+
+https://www.raspberrypi.org/documentation/usage/gpio/
+
+CLK: 11 SDO=MISO: 9 SDI=MOSI: 10 CS: 8
+
+Strange as ref resistor is 4301 = 4300 ohms ref rather than 430 - check others... one has 430 ohms... - 4300ohms is for PT1000 
+
+VIN to 3.3v and SPI disabled in raspi-config
+
+- latest KICAD from source:
+
+: apt install cmake doxygen libboost-context-dev libboost-dev libboost-system-dev libboost-test-dev libcairo2-dev libcurl4-openssl-dev libgl1-mesa-dev libglew-dev libglm-dev liboce-foundation-dev liboce-ocaf-dev libssl-dev libwxbase3.0-dev libwxgtk3.0-dev python-dev python-wxgtk3.0-dev swig wx-common
+
+remember to do ldconfig at end
+
+* 2/8
+
+- for gnuplot remember to:
+
+: set datafile separator ","
+
+so then we can do:
+
+: plot "MONK27" using 0:2 with lines
+
+without problems...
+
+- MAX31865 code on PI gives jumpy values rather than on Arduino/adafruit but code looks very similar...
+
+- now 31865 stopped working:
+
+try with SPI enabled in config
+
+try this from: http://nicke.pe.hu/max31865/rpi.html
+
+#+BEGIN_SRC python
+import spidev
+from time import sleep
+import math
+
+#CONFIGURATION
+Rref = 400                  # Rref = 400 for PT100, Rref = 4000 for PT1000
+wire = 2                    # PT100/1000 has 2 or 3 or 4 wire connection 
+#END OF CONFIGURATION
+
+def configureMAX31865():
+    lst = [0x80]
+    if (wire == 2 or wire == 4):
+        lst.append(0xC2)
+
+    if (wire == 3):
+        lst.append(0xD2)
+
+    spi.writebytes(lst)
+
+def CallendarVanDusen(R):
+    a = 3.9083E-03
+    b = -5.7750E-07
+    R0=Rref/4
+
+    return (-R0*a+math.sqrt(R0*R0*a*a-4*R0*b*(R0-R)))/(2*R0*b);  
+
+spi = spidev.SpiDev()
+spi.open(0,0)
+spi.mode=3
+lst = [0x80,0xc2]
+configureMAX31865()
+#spi.writebytes(lst)
+sleep(0.1)
+
+for i in range(0,6):
+    reg = spi.readbytes(9)
+    del reg[0]                      # delete 0th dummy data
+    print ("Register values:",reg)
+
+    RTDdata = reg[1] << 8 | reg[2]
+    print("RTD data:", hex(RTDdata))
+
+    ADCcode = RTDdata >> 1
+    print("ADC code", hex(ADCcode))
+
+    R = ADCcode * Rref / 32768
+    print("Resistance:", R, "Ohms")
+
+    print("Temperature:",round(CallendarVanDusen(R),2), "deg. C\n")
+    sleep(1)
+#+END_SRC
+
+* 6/8
+
+- with PT100 ref board and older MAX31865 py/pi code we have working
+  temperature measurement increasing own temp and we test with sqrt code: see pngs here...
+
+- test sqrt to smoke / arduino code
+
+- and cpu reflection of recorded temperature: max_temp_pi_thing.py - working but need to see how high we can get temps...
+
+: while true; do vcgencmd measure_clock arm; vcgencmd measure_temp; sleep 10; done& stress -c 4 -t 900s
+
+- overclocking: edit sudo nano /boot/config.txt - uncomment arm_freq=1300 # CPU Frequency 
+
+https://howtoraspberrypi.com/how-to-overclock-raspberry-pi/
+
+- IRF540 on GPIO pin 2 to control fan:
+
+G-GPIO .. D=pull thru power .. -S-GND
+
+use 2n3904 to achieve higher gate voltage EBC...
+
+https://electronics.stackexchange.com/questions/109128/why-is-my-n-channel-mosfet-getting-very-hot-and-the-power-it-provides-to-device
+
+note now HIGH=OFF
+
+* 7/8
+
+- C-c C-x f for adding footnotes in org-mode
+
+* 8/8
+
+- norming jacks: erthenvar PJ301BM
+
+so without plugin lower (if we have black at top and thin pin to right from front) is connected to upper
+
+with plugin - top is now the signal
+
+- KiCaD - but to be tested - for hidden power on say 40106 - we put in and connect PWR_FLGs for both VCC/12V and GND lines
+
+- A computer processor is coerced into attempting to match its
+  external temperature to the temperature recorded at high resolution
+  within a pile of stones in Ancient Messene across 24 hours. The attempt
+  lasts longer than 24 hours.
+
+- GPU mining to achieve a recorded temperature. both temperature and earnings are expressed in smoke
+
+* 13/8
+
+- more temperature work on pi:
+
+: nohup sysbench --num-threads=8 --test=cpu --cpu-max-prime=10000000000 run &
+: watch sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
+
+shows that we are overclocked according to: 
+
+https://www.reddit.com/r/raspberry_pi/comments/48lhot/raspberry_pi_family_thermal_analysis_thermal/
+
+and freezes our ssh session...
+
+- now we resume temperature mime study with internal sensor which according to page above is:
+
+One possible explanation for this is that the temperature sensor is
+located in the VideoCore-IV portion of the silicon, while I'm loading
+the Cortex-A53 portion. You can see this in the close-up shot at the
+end of the album: the top of the SoC is far hotter than the
+bottom. You can also see that the CPU portion of the SoC is running
+out of spec: its official operating temperature limit is 85°C, and the
+close-up reads over 100°C peak.
+
+- last (5 days running) graph is:
+
+final_temp1308.png
+
+- overclocking to 130MHz causes crashes so now reverted...
+* 16/8
+
+- thinking of unifying All Colours design also around transistors into atmega:
+
+http://www.electro-music.com/forum/topic-33190.html&postorder=asc - for gate/pulsing of noise or use 4066
+
+see also from synthi:
+
+http://www.dragonflyalley.com/synth/jurgenHaiblePages/trapezoid/trapezoid_sch.pdf
+
+http://www.phutney.com/TechnicalInfo/Y_S1.pdf
+
+* 17.8
+
+- re-programming mutable clouds/warps with our serial adapter
+
+: make -f warps/makefile upload_combo_serial 
+
+after we change stmlib/makefile.inc
+
+: TOOLCHAIN_PATH ?= /root/ARM/gcc-arm-none-eabi-4_9-2015q2/
+: PGM_SERIAL_PORT ?= /dev/ttyUSB0
+
+and we hold reset button down, hold sysboot and release reset
+
+on our adapter from top away from usb:
+
+0GND 0
+0    0
+0 RX 0 TX
+
+* 20/8
+
+- where was 5933 code which was not for Arduino: main.c in /root/projects/archived/bordeaux/new_skry (along with SD code)
+
+- for myc - tested serial fine, now HIH=i2c TODO-working
+
+- SD card basic open/record - need to do playback - we could just use raw read/write access
+
+at the moment with SDHC enabled we have size issues - fixed by removing FAT etc...
+
+* 21/8
+
+- MAX31865 code (simply ported from adafruit) is working - fixed so works with SD card... DONE
+- 555 on INT0 countings DONE
+
+
+- other sensors/AD5933
+
+- test rest of hardware side of things...
+
+- waterproofing tests...
+
+* 22/8
+
+- for top of earthboot: from left: SDA, SCL, 620_OUT->ADC, GND, VDDA (for 620 -3.3V or 5V depending on platform), 5V
+
+- test AD620->ADC:
+
+#+BEGIN_SRC c
+void setup() {
+  Serial.begin(9600); // start serial for output
+  }
+
+void loop() {
+  int x;
+  uint8_t c;
+  int value=analogRead(0);
+  Serial.write("AD620 test value ");
+  Serial.print(value);
+  Serial.write("\r\n");
+  }
+#+END_SRC
+
+- note to test interrupt on INT0
+
+#+BEGIN_SRC c
+// test incoming transistor pulse
+// INT0 on MEGA
+
+#include <Wire.h>
+
+const byte ledPin = 13;
+const byte interruptPin = 2;
+volatile byte state = LOW;
+
+
+void blink() {
+  state = !state;
+}
+
+void setup() {
+  pinMode(2, INPUT);
+  Serial.begin(9600); // start serial for output
+  //  pinMode(inputleft, INPUT_PULLUP);
+  attachInterrupt(0, blink, HIGH);
+  }
+
+void loop() {
+  int x;
+  uint8_t c;
+ digitalWrite(ledPin, state);
+  }
+#+END_SRC
+
+- what could heatsick distro have in: stress, stress-ng, ported PI cpu python,
+  temperature sensing?lm-sensors, psensor, forking, scalamandi, scripts for top etc. - to
+  compile a list!
+
+or use stresslinux distro: http://www.stresslinux.org/sl/wiki/Documentation
+
+cpuburn? - package?
+
+: while true; do date; sensors | grep Core; echo; sleep 60; done | tee -a paste1.log
+
+scaldamani.sh:
+
+: #!/bin/bash
+: p=0; n=1
+: while true; do
+: r=$(($p+$n))
+: p=$n; n=$r
+: done
+
+
+where is our livecd/and notes to build?
+
+- zx earthboot stuff was working with arduino - test with micro arduino and implement FET later switch on of zx after buffer fill...
+
+* 23/8
+
+Arduino micro for zx/earthboot:
+
+pins: http://pinoutguide.com/Electronics/arduino_micro_pinout.shtml
+
+VIN can be 6-20V
+
+works with ard-makefile
+
+* 28/8
+
+: python /root/rsync2016/backup/gpsgeomancy002.py
+
+is working version - think other just has comment out: 
+
+: while (("West" not in str(satdict.values())) or ("East" not in str(satdict.values())) or ("North" not in str(satdict.values())) or ("South" not in str(satdict.values()))): 
+
+* 10/9
+
+** pololu avr programmer
+
+WE need to connect RESET!!!
+
+from top/end of cable with red bottom:
+
+reset/GND
+sck /MOSI
+MISO/VCC
+
+
+to our myc from right GND, SCK, MISO, MOSI, RESET, VCC (purple we have on right) and always connect VCC
+
+we access serial port on ACM0 ???
+
+and for dark interpreter:
+
+
+
+** pi and pinoir camera
+
+https://raspberrypi.stackexchange.com/questions/32397/how-to-increase-the-camera-exposure-time
+
+For pi we bring: static ip_address=192.168.1.14 (for picam)
+
+other pi is 15 and laptop 13 
+
+: raspistill -w 2592 -h 1944 -ISO 800 -ss 6000000 -br 80 -co 100 -o out.jpeg
+
+pi cam:
+
+: sudo pip install picamera
+
+#+BEGIN_SRC python
+# dark2.py
+
+from picamera import PiCamera
+from time import sleep
+from fractions import Fraction
+
+# Force sensor mode 3 (the long exposure mode), set
+# the framerate to 1/6fps, the shutter speed to 6s,
+# and ISO to 800 (for maximum gain)
+camera = PiCamera(resolution=(1280, 720), framerate=Fraction(1, 6), sensor_mode=3)
+camera.shutter_speed = 6000000
+camera.iso = 800
+# Give the camera a good long time to set gains and
+# measure AWB (you may wish to use fixed AWB instead)
+
+sleep(60)
+camera.exposure_mode = 'off'
+
+try:
+    for filename in camera.capture_continuous('/home/pi/augury/test/img{counter:03d}.jpg'):
+        print('Captured %s' % filename)
+        sleep(60) # wait 1 minute
+        camera.exposure_mode = 'off'
+finally:
+    camera.close()
+#+END_SRC
+
+from: https://picamera.readthedocs.io/en/release-1.13/recipes1.html?highlight=low%20light
+
+* 23/10
+
+** micro/avr golden rules
+
+- if porting or if code works on arduino remember that arduino makefile/ide sets up timers AND sei()
+- if it behaves oddly is a memory issue - check what other files are being compiled
+>>>>>>> 57be72b4e18519a1f7f7782de1e1ed05c552eae9
+
+
+* 30/11
+
+- simulation with ngspice in kicad: http://ngspice.sourceforge.net/ngspice-eeschema.html
+
+
+* 27/12
+
+- we access pololu serial on ACM1
+- arduino.mk settings to program arduino mini 3.3v:
+
+BOARD_TAG = pro5v328
+ARDUINO_LIBS = Wire SPI SD
+MONITOR_PORT = /dev/ttyACM1
+F_CPU = 8000000L
+
+libraries are in: /usr/share/arduino/libraries
+
+- 2n3055 with 100ohm resistor+   - 1 watt and op amp buffer - works good (needs diode up from gnd)
+
+  for cv control on nichrome wire from eurorack but 3055 will need heatsink materials
+
+
+* 1.5.2020
+
+- for boards 
+
+- worm was 12hp= 60.6mm across 128.5mm up
+
+brd was 57x109mm
