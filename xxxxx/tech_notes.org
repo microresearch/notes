@@ -1,3 +1,128 @@
+* 12/4/2022
+
+- PWM antminer fan control from arduino:
+
+Code from: https://projecthub.arduino.cc/tylerpeppy/29961e68-14a5-4dd4-8f21-d709c9dd790d
+
+black = ground, red = input voltage, yellow = PWN (tach) out, blue = PWM input (speed control).
+
+works fine on 12v/// would make sense for PI control of fan for cosmic watch
+
+* 11/4/2023
+
+- revisiting VOIDT for trigger out (2n3904) from cosmicwatch duo...
+
+: own_cosmic.py
+
+pin 11 (6 down top left), is GPIO 17. 
+
+scp to pi:  scp own_cosmic.py pi@192.168.2.165:/home/pi/
+
+* debug and connext with openocd
+
+start openocd
+
+: openocd -s tcl -f interface/stlink.cfg -f target/stm32f4x.cfg
+
+start gdb
+
+: gdb-multiarch main.elf
+
+commands in gdb:
+
+: target remote localhost:3333
+: monitor arm semihosting enable
+: monitor reset halt
+: load
+: continue
+
+runs it!
+
+// but how do we print...
+
+see code in geoCC.h // now in test.c but fails now...
+
+https://electronics.stackexchange.com/questions/149387/how-do-i-print-debug-messages-to-gdb-console-with-stm32-discovery-board-using-gd
+
+void send_command(int command, void *message)
+{
+   asm("mov r0, %[cmd];"
+       "mov r1, %[msg];"
+       "bkpt #0xAB"
+         :
+         : [cmd] "r" (command), [msg] "r" (message)
+         : "r0", "r1", "memory");
+}
+
+  itoa(mod, buffx, 10);
+  uint32_t m[] = { 2/*stderr*/, (uint32_t)buffx, sizeof(buffx)/sizeof(char) - 1 };
+  send_command(0x05/* some interrupt ID */, m);
+
+
+
+* programming STM32 pins always
+
+from top on AC: // straight thru cable
+
+SWDIO
+GND
+CLK
+3V3
+
+from top on SEG: // swop 2cable
+
+GND
+SWDIO
+CLK
+3V3
+
+from back right on worm:// straight cable
+
+3V3
+CLK
+GND
+SWDIO
+
+
+from top on nucleo:
+
+3V3
+CLK
+GND
+SWDIO
+
+
+
+* pi ipfwd port forward iptables ethernet
+
+on lap/x220:
+
+: iptables -t nat -A POSTROUTING -o wlp3s0 -j MASQUERADE
+
+on pi:
+
+: sudo route add default gw 192.168.2.1
+
+which is ethernet address of the laptop/x220!
+
+* pi and transmit/receive
+
+: export TERM=xterm
+
+using rpitx - easytest.sh
+
+https://github.com/F5OEO/rpitx
+
+GRAVES frequency is 143.05 MHz use USB (upper side band). 2m band is 144 MHz
+
+using cubicsdr but had to make file   /etc/modprobe.d/sdr.conf
+
+with line: blacklist dvb_usb_rtl28xxu 
+
+and then reboot (on x220)
+
+
+
 * 28/2/2023
 
 NES emulation and Taboo tarot game:
@@ -339,6 +464,10 @@ for file in glob.glob('/root/notes_and_projectsNOW/contiguity_res/software/resul
 
 QgsMapLayerRegistry.instance().addMapLayers(layers)
 #+END_SRC
+
+* emacs
+
+M-- (meta dash) M-y - yank -f forwards
 
 * worm
 

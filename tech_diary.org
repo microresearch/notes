@@ -1,3 +1,9 @@
+*** DEPRECATED in favour of tech_notes... copue over there...
+
+* emacs
+
+M-- (meta dash) M-y - yank -f forwards
+
 * worm
 
  /media/rsync_imac2020/rsync2016/projects/ERD_modules/worm/docs/rsynth-2.0 - on intenso HD is working rsynth/kk
@@ -973,7 +979,7 @@ is working version - think other just has comment out:
 
 WE need to connect RESET!!!
 
-from top/end of cable with red bottom:
+from top/end of cable with red bottom and look into end:
 
 reset/GND
 sck /MOSI
@@ -982,7 +988,7 @@ MISO/VCC
 
 to our myc from right GND, SCK, MISO, MOSI, RESET, VCC (purple we have on right) and always connect VCC
 
-we access serial port on ACM0 ???
+avrdude -y -c stk500v2 -P /dev/ttyACM0 -p $(MCU_AVRDUDE)  -U flash:w:$(HEX)
 
 and for dark interpreter:
 
