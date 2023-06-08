@@ -1,3 +1,24 @@
+* 7/6/2023
+
+- what did we use for screen video cast?
+
+vokoscreenNG
+
+* 13/4/2023
+
+- for programming new H723 board, same header as for caput...
+
+openocd is: 
+
+openocd: main.bin
+	openocd -s tcl -f interface/stlink.cfg -f target/stm32h7x.cfg -c "program main.bin verify reset exit 0x08000000"
+
+but to reset we had to change one line in:
+
+stm32h7x.cfg:
+
+: reset_config srst_nogate
+
 * 12/4/2022
 
 - PWM antminer fan control from arduino:

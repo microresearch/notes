@@ -1,0 +1,34 @@
+#+TITLE:   WorkLog / Diary
+#+AUTHOR:  MySelf
+#+EMAIL:   nobody@example.com
+#+LATEX: \setlength\parindent{0pt}
+#+OPTIONS: num:nil html-postamble:nil toc:nil
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+CATEGORY: Diary
+
+* Diary
+This is my worklog introduction, it could be used to explain the purpose, etc.
+
+* Company Details
+This diary was created while working at Example Inc.
+
+** Address
+Example Inc,
+1234 Fake Street
+support@example.com
+
+- I did this
+
+* 08/06/2023
+** Meetings
+** Activities
+** Tasks
+*** TODO Fill out time sheet
+SCHEDULED: <2023-06-08 Thu>
+
+* DD/MM/YYYY
+** Meetings
+** Activities
+** Tasks
+*** TODO Fill out time sheet
+* END
