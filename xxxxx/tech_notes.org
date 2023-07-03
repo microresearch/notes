@@ -1,3 +1,27 @@
+* 21/6/2023
+
+new_rnn.py in new_writing is the version which runs on laptop... also with test training
+
+to trial zorkmudcat 200 epochs on laptop: killed (memory?) but was slow too
+
+vs collab: faster...
+
+
+*** transfolio pi -> portfolio
+
+http://www.pofowiki.de/doku.php?id=software:vorstellung:exchanges:transfolio
+
+- server mode on portfolio
+- pi@raspberrypi:~/transfolio $ sudo ./rpfolio -f -t /home/pi/pterm.com c:
+
+then try pterm with serial interface and:
+
+pterm on portfolio
+
+echo "help" > /dev/ttyUSB0 // works
+
+???but no luck with agetty: agetty /dev/ttyUSB0 1200 vt100 &
+
 * 7/6/2023
 
 - what did we use for screen video cast?
@@ -25,7 +49,7 @@ stm32h7x.cfg:
 
 Code from: https://projecthub.arduino.cc/tylerpeppy/29961e68-14a5-4dd4-8f21-d709c9dd790d
 
-black = ground, red = input voltage, yellow = PWN (tach) out, blue = PWM input (speed control).
+black = ground, red = input voltage, yellow = PWM (tach) out, blue = PWM input (speed control).
 
 works fine on 12v/// would make sense for PI control of fan for cosmic watch
 
@@ -175,7 +199,7 @@ BBC Micro: try playUEF
 
 GPS spoof:
 
-- brdc file: from https://cddis.nasa.gov/archive/gnss/data/daily/2022/brdc/
+- brdc file: from https://cddis.nasa.gov/archive/gnss/data/daily/2023/brdc/
 
 - static - ./gps-sdr-sim -b 8 -e brdc2610.22n -l 30.286502,120.032669,100
 
@@ -185,7 +209,9 @@ GPS spoof:
 
 -x is what? gain - tried -x 10 but no results
 
-//
+// does hackrf transmit at all??? seems so... 28/6/2023 - upgraded firmware...
+
+works on the etrex but not on the phone... with dipole!
 
 * 17/6/2022
 
@@ -276,7 +302,7 @@ also problems with island2 compilation/segfaults below - move towards new void -
 
 printings/dot matrix - epson 9 pin OKI_DATA_CORP_ML186 in cups - but doesn;t print pdf only test, libreoffice, for just plain text:
 
-: cat /root/Downloads/test > /dev/usb/lp2
+: cat /root/Downloads/test > /dev/usb/lp2 or lp1
 
 * 7/10/2021
 

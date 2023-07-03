@@ -1,10 +1,14 @@
 * notes for case
 
+21/6/2023 revisit
+
+minicom -D /dev/ttyACM0 9600 baud
+
+main in/out fans could have local control - or we use pwm and control box...
+
 ** TESTING:
 
 - PMx2X, PWMx2X, PWMwithheatX, PWmwithfans-very low range 200->255 values as has filter, diodesX, relays/coolingsX 
-
-
 
 ** power guide/outs/ins
 
@@ -14,7 +18,7 @@
 
 where is voltage for PM sensors? from main 12v
 
-fans is 12v in, relays 12v 
+fans is 12v in, relays fo cooling 12v 
 
 heat voltages (from other box), light outs and PM outs
 

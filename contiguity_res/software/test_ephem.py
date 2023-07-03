@@ -16,19 +16,26 @@ import ephem
 year = 2017
 month = 3
 day = 7
-longitude = -1.826165 # [degrees] - keep to stonehenge just to check and see...
-latitude = 51.178848  # [degrees]
-elevation = 101.5     # elevation above sea level [meters]
+#longitude = -1.826165 # [degrees] - keep to stonehenge just to check and see...
+#latitude = 51.178848  # [degrees]
+elevation = 0     # elevation above sea level [meters]
+
+#48.864144, 2.300814
+
+#48.864361, 2.301889
+
+longitude = 2.301889 # diana crash location
+latitude = 48.864361
 
 # now try with one of our power stations
 
 # KRB Unit B, Gundremmingen
-longitude = 10.402379
-latitude= 48.5148276
+#longitude = 10.402379
+#latitude= 48.5148276
 
 height = 2            # height of observer [meters] - whether we use height?
 timezone_offset = 0   # time offset from UTC time [hours]
-label_distance = 1000  # distance along ephemeris vector [meters]
+label_distance = 10000  # distance along ephemeris vector [meters]
 
 obs = ephem.Observer()
 obs.long, obs.lat = str(longitude), str(latitude) 
@@ -84,9 +91,22 @@ for hour in range(0,24):
 obs.date=datetime(year,month,day)
 obs.horizon= '-0.34'
 
+#sunrise=obs.previous_rising(sun) # this is in UTC
+#obs.date=sunrise
+#sun.compute(obs)
+
+d1 = ephem.next_solstice("1997") # how can we get all sunrises?
+#    print(d1)
+#    obs.date=datetime(year,month,day)
+obs.date=d1
+obs.horizon= '-0.34'
+
+print obs.date
+
 sunrise=obs.previous_rising(sun) # this is in UTC
 obs.date=sunrise
 sun.compute(obs)
+
 
 delta_lat_rad, delta_lon_rad, delta_alt = calculate_geographic_offset(
             azimuth_angle=radians(adjust_heading_degrees(degrees(sun.az.real))),

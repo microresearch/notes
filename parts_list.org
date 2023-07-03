@@ -698,7 +698,7 @@ reichelt: SL 1X40G 2,54
 
 TIP3055
 
-X-DC BU sockets (correct ones):     DC-EBU 072339 _ORDERED
+X-DC BU sockets (correct ones):     DC-EBU 072339 _ORDERED segor?
 
 100n
 
