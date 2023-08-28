@@ -1,3 +1,49 @@
+* 14/8/2023
+
+- towards dianOS work with ouroboric circuit/pluggable code feeding into various interpreters a la SIR
+
+// first stage: pluggable code execution on different CPU (command line specify CPU, arduino or embedded):
+
+[ ard-make? uses just .ino M-x compile... // installed ]
+
+// Interrupt reads in pluggable code into buffer // but what if there is no data plugged in... (norm to own out)
+
+
+
+
+- data to image:
+
+> echo "P5                                                                                                                                                                                                                                         ~
+200 200
+255
+"$(cat minicom2.cap) > dat001.pgm
+
+and open in gimp - needs 200x200 data
+
+* 4/8/2023
+
+https://shallowsky.com/blog/science/astro/astronomical-alignments.html
+
+note: mic-mac mine in abitibi // also called mouska
+
+
+* 21/7/2023
+
+- working a bit on pluggable data - audio data/FM recieved data ...
+
+how this can be received and executed (back to old ap0201 code, mix with microbd/SIR) towards also management of a process space/dianOS
+
+- modified manchester encoding (as backup) so no sync/etc
+- modified so is just bits flying in / sampled...
+
+where is this??? in /root/Arduino/libraries/Manchester
+
+
+
+* 15/7/2023
+
+- format disks on ST (double sided), then use XX floppy to write image with dd if=00.boot of=/dev/sdb
+
 * 21/6/2023
 
 new_rnn.py in new_writing is the version which runs on laptop... also with test training
@@ -189,6 +235,10 @@ transfers:
 
 atari 800: usb thing we have SIO2PC and aspeQT - see older laptop
 
+installed now on X1 ! had to: touch /usr/include/stropts.h
+
+doesn't seem to work on X1 /// device/software???
+
 ZX spectrum: on handy, app for cassette
 
 ST - floppy // format not HD floppies
@@ -288,7 +338,7 @@ iface wlan0 inet dhcp
 
 * 5/5/2022
 
-- access to atari working with: 
+- access to atari 800 working with: 
 
 : wine RespeQt/RespeQt.exe
 

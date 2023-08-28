@@ -11,12 +11,115 @@ latitude=52.51854
 //   moon2(2014,1,4,17+9/60.,-106.625,52.104168,
 //       &RA, &Dec, &topRA, &topDec, &LST, &HA, &Az, &El, &dist);
 
+- we want ecliptic longitude so we can use sign of zodiac
+
+zodiac = 'AR TA GE CN LE VI LI SC SG CP AQ PI'.split()
+
+as array... to print /30 degrees
+
 */
 
-//#include <Arduino.h>
-
+#include <Arduino.h>
 #include <math.h>
-#include <stdio.h>
+
+#include <string.h>
+#include <ctype.h>
+
+const char *zodiac[12] = {"AR", "TA", "GE", "CN", "LE", "VI", "LI", "SC", "SG", "CP", "AQ", "PI"};
+
+
+// Translated from the WSJT Fortran code by Pete VE5VA
+
+/////////////////////////////////////////////////////////
+/////////////        G R I D 2 D E G        /////////////
+/////////////////////////////////////////////////////////
+// Choose which version of the grid conversion to use.
+// Defining WSJT uses the one from WSJT
+// Removing the define of WSJT uses the code based on
+// the PERL script at wikipedia which seems to be
+// slightly more accurate.
+//#define WSJT
+
+#ifdef WSJT
+// grid = DO62QC  <->  lat = 52.104167 lon = -106.658332
+// grid = JO62MM  <->  lat = 52.520832 lon = 13.008334
+// The WSJT code returns West as positive but moon2 uses
+// West is negative
+// CHANGE this so that it returns West longitude as NEGATIVE
+void grid2deg(char *grid0,double *dlong,double *dlat)
+{
+  char grid[8];
+  int nlong,n20d;
+  int nlat;
+  double xminlong,xminlat;
+  
+  // Initialize the grid with a default string
+  strncpy(grid,"AA00MM",6);
+  // copy in the grid
+  strncpy(grid,grid0,6);
+  
+  // Convert the grid to upper case
+  for(int i = 0;i < 6;i++)grid[i] = toupper(grid[i]);
+  
+  // Fix any errors
+  if(!isalpha(grid[0]))grid[0] = 'A';
+  if(!isalpha(grid[1]))grid[1] = 'A';
+  if(!isdigit(grid[2]))grid[2] = '0';
+  if(!isdigit(grid[3]))grid[3] = '0';
+  if(!isalpha(grid[4]))grid[4] = 'M';
+  if(!isalpha(grid[5]))grid[5] = 'M';
+  
+
+  nlong = 180 - 20*(grid[0] - 'A');
+  n20d = 2*(grid[2] - '0');
+  xminlong = 5*(grid[4]-'A')+ 0.5;
+  // Make west longitude negative
+  *dlong = -(nlong - n20d -xminlong/60.);
+  
+  nlat = -90 + 10*(grid[1] - 'A') + grid[3] - '0';
+  xminlat = 2.5*(grid[5] - 'A' + 0.5);
+  *dlat = nlat + xminlat/60.;
+}
+#else
+// grid = DO62QC  <->  lat = 52.104164 lon = -106.625000
+// grid = JO62MM  <->  lat = 52.520832 lon = 13.041667
+
+// From: http://en.wikipedia.org/wiki/Maidenhead_Locator_System
+void grid2deg(char *grid0,double *dlong,double *dlat)
+{
+  char grid[8];
+  
+  // Initialize the grid with a default string
+  strncpy(grid,"AA00MM",6);
+  // copy in the grid
+  strncpy(grid,grid0,6);
+
+  // Convert the grid to upper case
+  for(int i = 0;i < 6;i++)grid[i] = toupper(grid[i]);
+  
+  // Fix any errors
+  if(!isalpha(grid[0]))grid[0] = 'A';
+  if(!isalpha(grid[1]))grid[1] = 'A';
+  if(!isdigit(grid[2]))grid[2] = '0';
+  if(!isdigit(grid[3]))grid[3] = '0';
+  if(!isalpha(grid[4]))grid[4] = 'M';
+  if(!isalpha(grid[5]))grid[5] = 'M';
+  
+
+  *dlong = 20*(grid[0] - 'A') - 180;
+  *dlat = 10*(grid[1] - 'A') - 90;
+  *dlong += (grid[2] - '0') * 2;
+  *dlat += (grid[3] - '0');
+  
+  // subsquares
+  *dlong += (grid[4] - 'A') * 5/60.;
+  *dlat += (grid[5] - 'A') * 2.5/60.;
+  *dlong += 2.5/60.;
+  *dlat += 1.25/60;
+}
+#endif
+
+
 
 /////////////////////////////////////////////////////////
 //////////////        D C O O R D         ///////////////
@@ -248,12 +351,20 @@ void moon2(int y,int m,int Day,
   DCOORD(pi,pio2-lat/rad,0.,lat/rad,*HA*twopi/360,*topDec/rad,Az,El);
   *Az = *Az * rad;
   *El = *El * rad;
- printf("LONG %d\n", (int)lonecl);
+
+  Serial.print(lonecl);  // this seems to work out /30 for star signs
+  Serial.println("");   
+  tmp=lonecl/30;
+  Serial.println(zodiac[tmp]);  
   
   return;
 }
 
-void main() {
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
 
 double RA, Dec,  topRA, topDec,  LST, HA, Az, El, dist;
   
@@ -262,17 +373,12 @@ double RA, Dec,  topRA, topDec,  LST, HA, Az, El, dist;
 //   moon2(2014,1,4,17+9/60.,-106.625,52.104168,
 //       &RA, &Dec, &topRA, &topDec, &LST, &HA, &Az, &El, &dist);
 
-//KLOSTER longitude=13.41285
-//latitude=52.51854
  
- moon2(2023, 8, 14, 17+28/60., 13.41285, 52.51854,
-       &RA, &Dec, &topRA, &topDec, &LST, &HA, &Az, &El, &dist); // +02:00 GMT (DST) Thu 12:46 pm CEST - so we need to subtract 2 hours to get correct calculation
-
-  printf("AZ %d\n", (int)Az);
- printf("RA %d\n", (int)RA);
- printf("DEC %f\n", (float)Dec);
- printf("ELE %d\n", (int)El);
-
-
+ moon2(2021, 9, 7, 23+5/60., 12.41285, 52.51854,
+       &RA, &Dec, &topRA, &topDec, &LST, &HA, &Az, &El, &dist);
+  Serial.print(RA);
+  Serial.print(", ");
+  Serial.print(Dec);  
+  Serial.println("");   
 }
   

@@ -1,0 +1,294 @@
+* diana 
+
+** general
+
+- ritual/bootstrap code: 30-31 August 1997, 00:23 or 00:27 AM - CEDT is GMT/UTC +2 so -2.00?
+
+22.20-23 following paget...
+
+location: 
+
+2.301889 48.864361
+lat: 48° 51' 46.854"
+long: 2° 18' 7.2432"
+
+sun position on 31st 0020 from : https://planetcalc.com/4270/#google_vignette
+0:20	334.01	-29.04  // own software has 344 and -28.587
+
+sun.ino code:
+
+1997,8,30, 22,20,0,-29.016,334.003 OK!
+
+https://www.heavens-above.com/sun.aspx?lat=48.8589&lng=2.32&loc=Paris&alt=0&tz=CET has 334, -29
+
+moon:
+
+0:20    359.8    -28.5 //own software: 359.5 -28.52 
+
+
+invocation for the reception of DIANOS bootstrapping code... // in what forms?
+
+- what is the exact material configuration/makeup of the concrete pillar? how we can find this out?
+- any parts of cars eg. computational units, mirrors - crashed // car is: S280 sedan W140
+
+** diana disaster paintings silkscreen - technique, place-helper, exact ink and canvas, sizes (see book - where?)
+
+the priming and the silkscreen ink were identified as oil-modified alkyd media
+
+from:
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8838703/
+
+** 28/9/2023
+
+- *Q: do we always update time or is that an instruction?* update it
+
+- *Q: do we always fill code buffer or just at beginning and on an instruction*
+
+- if we fill then is more/only about that filling, if not then we get into loops where nothing changes
+
+and what if we have several instruction pointers... spawn // in redcode? SPL -> add new instruction pointer...
+
+// how to execute multiples codesets - SPL - add new IP to list/array and run through these sequentially
+
+
+////
+
+// fix timescale for moon and sun:
+
+- ritual/bootstrap code: 30-31 August 1997, 00:23 or 00:27 AM - CEDT is GMT/UTC +2 so -2.00?
+
+22.20 - 22.23 UTC (following paget report)
+
+3 mins = 180 seconds... adjusted now to 0-255
+
+** 27/9/2023
+
+- implemented new redcode but seems to be very repeating
+
+TODO: 
+- add diana specific instructions//below... with sun and moon code and test on arduino with input
+- is input selected (writesamp) or continous (interrupt driven) ? 
+
+// notes on redcode
+
+redcode
+
+Vampire (or pit-trapper) A vampire tries to make its opponent's
+processes jump into a piece of its own code called a "pit". Vampires
+can be based on either bombers or scanners. A major weakness of
+vampires is that they can be easily attacked indirectly, since they
+must by necessity scatter pointers to their code all over the
+core. Their attacks are also slow, as it takes an extra round for the
+processes to reach the pit. myVamp[8] by Paulsson is an example of a
+vampire.
+
+https://users.obs.carnegiescience.edu/birk/COREWAR/94/HILL32/myvamp37.red
+
+trying to improve/make sense of redcode interpretation: 3 fields: opcode, A, B....
+
+eg. using bk-mars.zip as example: mov has 3 options for A and 2 for B
+
+use: immediate, indirect, direct addressing! // also for our own diana instructions...
+
+immediate: we take value as number
+direct: we take number from memory at value
+indirect: we take number from memory at memory at value...
+
+how this works with diana? also [opcode][A][B]
+
+////
+
+Summarise new instructions: - use 3 bytes, extend redcode...
+
+TIME instructions:
+- set time relative from memory - *forward, backwards* // wraps at ...
+- set time to instruction pointer
+- set instruction pointer to time...
+- set time to 0 // start again
+
+PA - paparazzi eg. show next x bytes of memory...
+PI - pillar (bounce back to address or stop/halt=reset time counter)
+HP - henri paul - advance x bytes - sideways/drunk/how. add random offset
+RD - revolving doors, revolve next byte/s...     return (value >> amount) | (value << (8 - amount));
+FI - fiat - strike fiat and deviate course - how differs from pillars
+DO - dodi - sungod . sun position?
+MC - mercedes - vehicle???
+
+moon instructions: 
+
+DI get moon value at real time we have as offsetdi
+get moon value at time x (x from memory, absolute value=byte)
+
+->
+
+set mem to moon value
+jump to moon value (sets instruction pointer)
+cmp moon value
+
+
+** 26/8/2023
+
+- on laptop version diana.c we need to specify ./diana 0(plague/unused) 0(cpu)
+
+4 is redcode... for arduino we can use code for sun: https://github.com/KenWillmott/SolarPosition/blob/master/SolarPosition.h
+
+note that moon code might run differently on arduino //CHECKED check this or use another code ... ephemeris is too big for UNO!
+
+https://instesre.org/ArduinoUnoSolarCalculations.pdf
+
+sun.ino is working // so we have sun and moon position code
+
+TODO: test redcode on laptopDONE-needs re-doingDONE, implement instructions as below, sun code ported in...ALMOST
+
+redcode could be redone - 3 bytes instruction, A, B
+
+always read into array: we have 255 bytes
+
+[fixed bug in .ino interrupt/byte inout]
+
+** 25/8/2023
+
+TIME instructions:
+- set time relative from memory - *forward, backwards*
+- set time to instruction pointer
+- set instruction pointer to time...
+
+time is 6 minutes =6x60=360 seconds (one year) 365...
+
+how we do sun movements for dodi? - see moon2 and test that sun code
+
+** 24/8/2023 - notebook notes...
+
+- instructions as characters
+- diana as execution pointer
+
+[instruction][byte] - how that works with what we have so far... we have corewars style there
+
+eg.
+
+PA - paparazzi eg. show next x bytes of memory...
+PI - pillar (bounce back to address or stop/halt=reset time counter)
+HP - henri paul - advance x bytes - sideways/drunk/how. add random offset
+RD - revolving doors, revolve next byte...     return (value >> amount) | (value << (8 - amount));
+FI - fiat - strike fiat and deviate course
+DO - dodi - sungod . sun position?
+MC - mercedes - vehicle
+
+other actors in the iconography: white fiat, dodi-sungod, mercedes, 
+
+moon instructions: 
+
+get moon value at real-time
+get moon value at time x (x from memory, absolute value=byte)
+
+->
+
+set mem to moon value
+jump to moon value (sets instruction pointer)
+cmp moon value
+
+///////////////////////////////
+
+XX time is x plus instruction pointer. can be elapsed time, reset
+
+set time to ...
+reset time to 0  [time is what we use to look up moon]
+
+instruction pointer, real/time
+
+redcode:
+
+- circular memory we have already // relative addressing
+- SPL add new process - do we have many processes or just one?
+
+Each Redcode instruction contains three parts: the OpCode itself, the source address (a.k.a. the A-field) and the destination address (the B-field)
+
+
+** 23/8/2023
+
+- ouroboric scrying device is working on pcb
+
+// notebook notes...
+
+*The death of Lady Diana is modelled as a software process* // or as an OS with vectors and interrupts (eg. cctv, revolving doors interrupt)
+
+DIANA cpu:
+
+- revolving doors instruction (this one is in the past/going back in time)
+
+- execution time/pointer location
+- (real) moon time
+- instruction / exec time / moon time
+
+pillars in memory
+
+- what is the output? instruction outs
+
+paparazzi instruction: output an image of a selected section of memory (eg. x bytes after the instruction)
+
+[papparazzi stack for other process/program/language work: names put on a stack]
+
+- image of memory region, expose this region/or copy it to another place,,, image on the stack...
+
+** 22/8/2023
+
+- 360degrees/0-north at 00.20.40 on the 31st
+- note that for CPU the moon movement (AZ) is very linear... (we try AZ * alt for less linearity)
+
+- timespan needs to be 8 bits (is instruction/memory space also 8 bits or if we indirectly address can be larger - eg x bytes ahead/back)
+
+time is 6 minutes = 6*60=360 seconds...
+
+** 21/8/2023
+
+- ordered 2x 7cm diamater obsidian, shrunk design to 70mm - can try using cutter and perhaps extra glue/spray glue...
+- to cut/make some kind of planchette - how does it move?? perspex black // formulor 60mm circular with approx 20mm hole in central, engraved with prima m.
+
+- start on instruction set here // divination // test moon again for CET/GMT etc...
+
+- basic instruction set which is influenced by moon azimuth and altitude dependent on time:
+
+the journey is from 00:19 to 00:25 *conflicting reports
+
+say 22.19 to 22.25 30 aug 1997
+
+1.25 ambulance leaves
+2.06 arrive salpetriere
+
+eg.
+
+ 0       DAT            B   Initialize location to value B.
+  1       MOV      A     B   Move A into location B.
+  2       ADD      A     B   Add operand A to contents of location B and store result in
+                                  location B.
+  3       SUB      A     B   Subtract operand A from contents of location B and store result in
+                                  location B.
+  4       JMP            B   Jump to location B.
+  5       JMZ      A     B   If operand A is 0, jump to location B; otherwise continue with
+                                       next instruction.
+  6       DJZ      A     B   Decrement contents of location A by 1. If location A now holds 0,
+                                      jump to location B; otherwise continue with next instruction. 
+  7       CMP      A     B   Compare operand A with operand B. If they are not equal, skip next
+                                       instruction; otherwise execute next instruction. 
+
+- reset local time to start of trip 
+- car journey/ambulance journey - parallel threads
+- thirteenth pillar - location in memory. set pillar in memory
+- henri paul instruction - alcohol, anti-depressants: tiapride and prozac
+- all of pillars as memory or stack locations
+
+use of moon az/alt at time x as a value... scale 0-255
+
+
+
+** 15/8/2023 - divination notes -> 30/8/2023 action // see large notebook
+
+- entry of ouroboric finger code into pluggable code platform based on ERD/SIR (copied here):
+
+1. run ERD/SIR as ino on arduino and output ascii only?
+
+1.5 we need single bit entry... not just ADC in...
+
+2. new DIANA lunar interpreter based on moon2.c in contiguity
+3. interrupt or clock driven code entry

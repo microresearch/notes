@@ -265,7 +265,7 @@ double RA, Dec,  topRA, topDec,  LST, HA, Az, El, dist;
 //KLOSTER longitude=13.41285
 //latitude=52.51854
  
- moon2(2023, 8, 14, 17+28/60., 13.41285, 52.51854,
+ moon2(2023, 8, 21, 14+45/60., 13.41285, 52.51854,
        &RA, &Dec, &topRA, &topDec, &LST, &HA, &Az, &El, &dist); // +02:00 GMT (DST) Thu 12:46 pm CEST - so we need to subtract 2 hours to get correct calculation
 
   printf("AZ %d\n", (int)Az);

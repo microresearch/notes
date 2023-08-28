@@ -7,6 +7,16 @@
 - export as maker svg
 - open in inkscape and outline should be fine - check size
 
+// on x1 - installed: https://github.com/fablabnbg/inkscape-silhouette/releases - had to comment part of sendto_silhouette.py to get to work...
+
+adjust height.. do settings in software change anything? not they do P=10, S=5, D=1 vinyl sticker and 6 manual on cutter
+
+try deeper - 20,10,1XX NON
+
+20,10,-1default depth
+
+question if we pick out before sellotape transfer?
+
 ** older not really working
 
 - plot as svg in kicad
