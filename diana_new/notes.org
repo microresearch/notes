@@ -39,6 +39,24 @@ from:
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8838703/
 
+** 29/9/2023
+
+- key question of static loops to resolve before we finish all...
+- added and tested SOLAR code.... 
+- added SPL fork code
+
+- *should each process have its own time (offsetdi)?*
+
+- do new instructions,
+- port moon to sun instructions
+- CMP for sun and moon... 
+
+/////
+
+serial logging to file:
+
+root@xxxxx> grabserial -d /dev/ttyACM0 -b 9600 > /root/notes_and_projectsNOW/diana_new/diana_divination/testx
+
 ** 28/9/2023
 
 - *Q: do we always update time or is that an instruction?* update it
@@ -101,21 +119,22 @@ how this works with diana? also [opcode][A][B]
 
 Summarise new instructions: - use 3 bytes, extend redcode...
 
+DONE///
 TIME instructions:
 - set time relative from memory - *forward, backwards* // wraps at ...
 - set time to instruction pointer
 - set instruction pointer to time...
 - set time to 0 // start again
+DONExPA - paparazzi eg. show next x bytes of memory...
 
-PA - paparazzi eg. show next x bytes of memory...
-PI - pillar (bounce back to address or stop/halt=reset time counter)
+PI - pillar (bounce back to address or stop/halt=reset time counter-we have reset)
 HP - henri paul - advance x bytes - sideways/drunk/how. add random offset
 RD - revolving doors, revolve next byte/s...     return (value >> amount) | (value << (8 - amount));
 FI - fiat - strike fiat and deviate course - how differs from pillars
 DO - dodi - sungod . sun position?
-MC - mercedes - vehicle???
+MC - mercedes - vehicle??? propels //
 
-moon instructions: 
+xx-moon instructions: 
 
 DI get moon value at real time we have as offsetdi
 get moon value at time x (x from memory, absolute value=byte)
