@@ -1,3 +1,298 @@
+** 1/2/2024
+
+- Adding new repo to microresearch github:
+
+cd into new dirr:
+
+: git init
+: git add -A
+: git commit -m 'xxxxx'
+: git remote add origin git@github.com:microresearch/PULS.git
+: git remote set-url origin https://github.com/microresearch/PULS.git                                                                                                                       ~/projects/ERD_MODULES/PULS
+
+and finally magut-push
+
+** 22/1/2024
+
+THAT Analogue thing neuronal bursting patch:
+
+- note mistake as third integrator is the blue one in description. Patched now
+- Coeffs: 
+1=0.6, 2=0.4, 3=0.133, 4=0.066, 5=0.75, 6=0.4, 7=0.1, 8=0.32
+
+** 21/1/2024
+
+- cosmicwatch recording audio from test point 3 on corner under SICP...
+- best with power from wall/usb (not laptop)
+
+** 15/1/2024
+
+Ctrl-j to see download links so we can used wget to get to google drive files
+
+//
+
+DONE: turn off secure boot in BIOS by setting to other os
+
+new desktop specs:
+
+Mainboard: Asus ROG B550 F-Gaming (AMD B550 Ryzen AM4 Gaming ATX-Motherboard mit PCIe® 4.0, 
+                    geteilten Leistungsstufen, Intel® 2.5Gb Ethernet, Dual M.2 mit Kühlkörpern, SATA 6 Gbps, USB 3.2 Gen 2 und Aura Sync RGB-                        Beleuchtung) 
+
+Prozessor: Ryzen 5 5600X 6x4.10 GHZ 
+
+CPU-Kühler: Scythe Mugen 5 (jeweils rechts und links einen Corsair Lüfter)
+
+Arbeitsspeicher: 64 gb now...
+
+Grafikkarte: Nvidia Geforce CLUB3D CGNX-XT666F NVIDIA GeForce GTX 660 Ti 2GB DDR5 Grafikkarte 
+
+Netzteil: SEASONIC Focus SGX 80 PLUS Gold SFX-L Netzteil - 550 Watt, Marken netzteil, kein China Kracher, 80+Gold zertifiziert
+
+Festplatten: M.2 SSD mit 300 GB (Windows 10 ist hier vorinstalliert) 
+                    HDD mit 2 TB
+
+*** making live cd from what we have already...
+
+// and then redo squash and iso from: 
+
+/media/rsync2017/live_boot:
+
+:  test -f image/filesystem.squashfs && rm -f image/filesystem.squashfs;
+
+and then
+
+: mksquashfs chroot image/filesystem.squashfs -e boot
+
+then make into ISO with
+
+: xorriso -as mkisofs -r -J -joliet-long -l -cache-inodes \
+-isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin -partition_offset 16 \
+-A "Debian Live"  -b isolinux/isolinux.bin -c \
+isolinux/boot.cat -no-emul-boot -boot-load-size 4 \
+-boot-info-table -o remaster.iso binary
+
+
+** 13/14/1/2024
+
+How to get pi to share wifi with new PC // try below...
+
+iptables on pi as we had on PC below:
+
+: iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
+
+: echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward 
+
+and : sudo route add default gw 192.168.2.1 on PC!
+
+** 4/1/2024
+
+As we cannot eliminate software all at once, we should leave nothing
+undone that might contribute to its falling into disrepute. To bore
+one hole after another in it, until what lurks behind it - be it
+something or a nothing - begins to seep through ...
+
+[after Samuel Beckett]
+
+** 28/12/2023
+
+Emacs:
+
+To increase the font size of the default face in the current buffer,
+type C-x C-+ or C-x C-= . To decrease it, type C-x C-- . To restore
+the default (global) font size, type C-x C-0 .
+
+Praat:
+
+Play always hangs
+
+LPCPrac.pdf - do LPC, select source and LPC and do inverse...
+
+** 27/12/2023
+
+- what again in org-agenda is figure after moonrise times? eg.
+
+  Astro:      15:49...... Moonrise (CET) (14.64) 186.96[deg]
+
+14.64: age of moon...
+
+* 24/12/2023
+
+- for dotty drawings 
+
+gimp: pixel slur, then trace bitmap, to path and simplify in inkscape and plot
+
+* 23/12/2023
+
+to save atari artist images to disk:
+
+- aspeqt with dos 2.5 disk mounted
+- boot atari with cartridge in
+- save to D:TEST for example
+
+// how can we extract these images on PC:
+
+see also: https://www.atarimagazines.com/compute/issue76/Feedback_6.php
+
+- How to emulate 800 and read the disk // or python to decode full image?
+
+run 
+
+: atari800 -xl -mouse touch                                                                                                                                                       ~/ATARI/atari800-debian
+
+run atari artist atr, select D2 disk as one we saved to, load via D2: ...
+
+ESC, F1 as keys
+
+
+* 19/12/2023
+
+aitextgen now working on laptop using: testaitext.py
+
+we installed aitextgen with:
+
+: pip3 install git+https://github.com/scorixear/aitextgen
+
+which works with no errors:
+
+https://colab.research.google.com/github/thunderclapinteractive/poetrywtf-nlp/blob/main/notebooks/generate_gpt_2_poetry_with_aitextgen.ipynb#scrollTo=LSW-dckSPqlP
+
+is good guide to options...
+
+Qs:
+
+- how to write longer than 1024 characters? also block size in training needs to be larger but slows down...
+- can we add to the model?
+
+possibly not, or we have to concat texts to add to model: trying with cat2
+
+larger models??? 
+
+test out various training config but crashes:
+
+https://aitextgen.minimaxir.com/tutorials/model-from-scratch/
+
+// test on inform6 scripts: which were these> eg. awaken.inf
+
+n_samples = 3
+length = 250
+temperature = 1.0
+top_k = 1000
+top_p = 0.95
+
+* 4/12/2023
+
+One solution SVG cutter inkscape preps - overcomplex paths is to convert using kicad and then export as svg...
+
+With dxf and dwg use librecad
+
+* 28/11/2023
+
+SVG cutter inkscape preps
+
+How to get rid of unwanted paths which don't appear on drawing: use convert->paths
+
+stroke->path but now they come back - as soon as we move or copy it...
+
+- that we need to lose the bitmap it has traced... NO! UNSOLVABLE...
+
+always seems fine/more or less after simplify... but not really solution...
+
+* 25/11/2023
+
+Using SIO2pc thing and latest AspeQT: select ACM1 and no handshake/trying now soft handshake, 19200
+
+- green to TX
+- yellow/white to RX
+
+reboot atari holding down option key...
+
+Atari planetarium working...
+
+but 800 seems crashyyy
+
+Julius speech to text:
+
+Installed using instructions from github:
+
+https://github.com/julius-speech/julius
+
+In folder /root/julius/ENVR-v5.4.Dnn.Bin
+
+Convert audio to mono 16k samples then run:
+
+: ../julius/julius -quiet -C julius.jconf -dnnconf dnn.jconf > testj
+
+Then use extract_words.py to extract words from testj into testjOUT
+
+* 23/11/2023
+
+Using X1 carbon with HDMI projector: 
+
+:  xrandr --output HDMI-1 --mode 1600x1200 --same-as DP-1
+
+* 28/10/2023
+
+For shifting of raw images...
+
+- Export as bmp from gimp / compat mode don't write colour data
+- SR.c in image_soft - adjust total size // gcc
+- raw2png - adjust x and y 
+- ./SR writes to test2 and then use raw2png to write new image testXXXX.png
+
+* 1/10/2023
+
+Encrypting audio for DIANA (sub106.mp3):
+
+Use codec2 to encode/compress:
+
+in codec2/build-linux
+
+: ./src/c2enc 1600 /root/rec/di_STE-470.wav testdi.bit
+
+at 1600 bits/second
+
+we can test decode with:
+
+: ./src/c2dec 1600 testdi.bit xx.raw
+
+open raw with S16 little endian in audacity...
+
+encrypting testdi.bit using AES with: 
+
+: python encxxx.py [in diana_new/enc] 
+
+to minimodem
+
+: cat /root/testdi.bitenc | minimodem --tx --ascii --startbits 0 --stopbits 0.0 -f minimodem_di.wav 6000
+
+// note that diana solstices are at:
+
+/root/notes_and_projectsNOW/contiguity_res/larger_solstices
+
+* 16/9/2023
+
+- where are cutter notes? just old notes as now it seems settings do make a difference...
+
+cutter is manually on 6 and we choose: P=10, S=5, D=1 ??? could be bit deeper...
+
+do unpicking/weeding on the stone/obsidian
+
+- which we use for impasto?
+
+For double lines from single:
+- set stroke style/width to Xmm (how far we want apart)
+- stroke to path
+
+* 8/9/2023
+
+- more work towards impasto with cameo/silhouette...
+
+- to convert bitmap to path in inkscape use: Path -> Trace bitmap 
+
+or use fill bucket!
+
+but how to reduce number of paths???
+
 * 14/8/2023
 
 - towards dianOS work with ouroboric circuit/pluggable code feeding into various interpreters a la SIR
@@ -7,9 +302,6 @@
 [ ard-make? uses just .ino M-x compile... // installed ]
 
 // Interrupt reads in pluggable code into buffer // but what if there is no data plugged in... (norm to own out)
-
-
-
 
 - data to image:
 
@@ -233,7 +525,7 @@ model.predict(encoded_text, batch_size=1, verbose=0)...
 
 transfers:
 
-atari 800: usb thing we have SIO2PC and aspeQT - see older laptop
+atari 800: usb thing we have SIO2PC and aspeQT - see older laptop (just mentions respeqt in history there)
 
 installed now on X1 ! had to: touch /usr/include/stropts.h
 
@@ -899,7 +1191,7 @@ Misc parts/projects:
 
 settings for minicom from command line
 
-: minicom -b 57600 -D /dev/ttyACM0
+: minicom -b 57600 -D /dev/ttyACM1
 
 * 5/7 - NEW GIT REPO!
 

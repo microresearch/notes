@@ -28,7 +28,7 @@ for sen in sens:
 #        crash += ("XXXXX",)
 #print crash
 
-train_txt = open("razz83stripped.txt").read()
+train_txt = open("razz83new.txt").read()
 #train_txt = textclean.clean(train_txt)
 train_sens = nltk.sent_tokenize(train_txt)
 train_txt = []
